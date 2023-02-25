@@ -73,7 +73,7 @@
 2-* Iron Gut                       1|sta2.66|0.50|| An adept can eat anything, his body will digest anything without harm. The Power of ingested toxins is reduced by 2.
 2-* Iron Lungs                     1|sta2.66|0.25|| With each level of this power an adept can hold his breath for another 45 seconds. Each level reduces fatigue tests by 2.
 2-* Iron Will*                     1|mits.150|0.50|| Each level provides an additional die when resisting any attempt to control or alter the adept's mind, including manipulation spells and critter powers.
-0-* Kinesics 1                     1|sr3.170|1.00|| An adept with Kinesics has complete control over his body's nonverbal and subconscious communication.
+!0-* Kinesics 1                     1|sr3.170|1.00|| An adept with Kinesics has complete control over his body's nonverbal and subconscious communication.
 2-* Killing Hands STR(Light)       1|sr3.170|0.50|| This power uses magic to turn unarmed attacks into light physical damage.
 2-* Killing Hands STR(Medium)      1|sr3.170|1.00|| This power uses magic to turn unarmed attacks into medium physical damage.
 2-* Killing Hands STR(Serious)     1|sr3.170|2.00|| This power uses magic to turn unarmed attacks into serious physical damage.
