@@ -1,4 +1,4 @@
-class AdeptPower(dict):
+class AdeptPower:
 	"""
 	!ADEPT.DAT - Physical Adepts powers data file - Stephen Atkins 960201
 	! modified by mcmackie for SR3, Kevin Rose for Notes (thanks!), ArchangelGabriel for SOTA2064 (thanks!)
@@ -11,7 +11,8 @@ class AdeptPower(dict):
 		self.cost = cost
 		self.mods = mods
 		self.notes = notes
+		self.category_tree = category_tree
+
 		bookpage_split = book_page.split(".")
 		self.book = bookpage_split[0]
 		self.page = bookpage_split[1]
-		self.category_tree = category_tree
