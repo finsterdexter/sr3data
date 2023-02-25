@@ -1,0 +1,307 @@
+!File to hold edges and flaws 
+! E - Edge  F-Flaw "->"-User Input  See Cyberware.dat for explanation of MODS
+!2345678901234567890123456789012345678901234567890
+! Added notes by K. Oz (06-10-2001) SOTA2064 added by Thistledown THANKS from McMackie
+0-1|Edges-Flaws|5|Book.Page|$Cost|EorF|Mods|Notes
+1-ATTRIBUTES |E
+2-* Bonus Attribute Point(BOD)     1|src.17|2|E|+1ZOD|+1 to a physical attribute. Only once per character.
+2-* Bonus Attribute Point(QCK)     1|src.17|2|E|+1ZCK|+1 to a physical attribute. Only once per character.
+2-* Bonus Attribute Point(STR)     1|src.17|2|E|+1ZTR|+1 to a physical attribute. Only once per character.
+2-* Bonus Attribute Point(CHR)     1|src.17|2|E|+1ZHR|+1 to a mental attribute. Only once per character.
+2-* Bonus Attribute Point(INT)     1|src.17|2|E|+1ZNT|+1 to a mental attribute. Only once per character.
+2-* Bonus Attribute Point(WIL)     1|src.17|2|E|+1ZIL|+1 to a mental attribute. Only once per character.
+2-* Exceptional Attribute(BOD)     1|src.17|2|E|+1XOD|+1 to racial maximum of Body Attribute. Only once per character.
+2-* Exceptional Attribute(QCK)     1|src.17|2|E|+1XCK|+1 to racial maximum of Quickness Attribute. Only once per character.
+2-* Exceptional Attribute(STR)     1|src.17|2|E|+1XTR|+1 to racial maximum of Strength Attribute. Only once per character.
+2-* Exceptional Attribute(CHR)     1|src.17|2|E|+1XHR|+1 to racial maximum of Charisma Attribute. Only once per character.
+2-* Exceptional Attribute(INT)     1|src.17|2|E|+1XNT|+1 to racial maximum of Intelligence Attribute. Only once per character.
+2-* Exceptional Attribute(WIL)     1|src.17|2|E|+1XIL|+1 to racial maximum of Willpower Attribute. Only once per character.
+2-* ExceedRaceMax (BOD)(BKS)       1|src.17|1|E|+1EOD|+1 to exceed racial maximum of Body Attribute. Only once per character.
+2-* ExceedRaceMax (QCK)(BKS)       1|src.17|1|E|+1ECK|+1 to exceed racial maximum of Quickness Attribute. Only once per character.
+2-* ExceedRaceMax (STR)(BKS)       1|src.17|1|E|+1ETR|+1 to exceed racial maximum of Strength Attribute. Only once per character.
+2-* ExceedRaceMax (CHR)(BKS)       1|src.17|1|E|+1EHR|+1 to exceed racial maximum of Charisma Attribute. Only once per character.
+2-* ExceedRaceMax (INT)(BKS)       1|src.17|1|E|+1ENT|+1 to exceed racial maximum of Intelligence Attribute. Only once per character.
+2-* ExceedRaceMax (WIL)(BKS)       1|src.17|1|E|+1EIL|+1 to exceed racial maximum of Willpower Attribute. Only once per character.
+1-SKILLS |E
+2-* Aptitude->                     1|src.18|4|E||TN -1 for all tests with chosen skill.
+2-* Home Ground->                  1|src.18|2|E||TN -1 modifier for all active skill tests in chosen Home Ground, TN -2 for all knowledge skills tests.
+1-PHYSICAL |E
+2-* Adrenaline Surge               1|src.18|2|E||Rule of Six for Initiative. Only for characters without reflex enhancements. All TN +1 during combat.
+2-* Ambidexterity-2                1|cc.96|2|E||When firing two weapons, TN +2 for the first, TN +1 for the second weapon.
+2-* Ambidexterity-4                1|cc.96|4|E||When firing two weapons, TN +1 for the first, TN +1 for the second weapon.
+2-* Ambidexterity-6                1|cc.96|6|E||When firing two weapons, TN +1 for the first, TN +0 for the second weapon.
+2-* Ambidexterity-8                1|cc.96|8|E||When firing two weapons, TN +0 for the first, TN +0 for the second weapon.
+2-* Double Jointed                 1|src.20|1|E||TN -1 for acrobatic and Athletics(Escape Artist) tests.
+2-* High Pain Tol. 1 Box           1|src.20|2|E||Ignore effects of 1 Box mental or physical damage.
+2-* High Pain Tol. 2 Boxes         1|src.20|4|E||Ignore effects of 2 Boxes mental or physical damage.
+2-* High Pain Tol. 3 Boxes         1|src.20|6|E||Ignore effects of 3 Boxes mental or physical damage.
+2-* High Pain Tol. 4 Boxes         1|src.20|8|E||Ignore effects of 4 Boxes mental or physical damage.
+2-* High Pain Tol. 5 Boxes         1|src.20|10|E||Ignore effects of 5 Boxes mental or physical damage.
+2-* Lightning Reflexes Lev 1       1|src.20|2|E||+1 Reaction for surprise tests. Not compatible with adept power Combat Sense.
+2-* Lightning Reflexes Lev 2       1|src.20|4|E||+2 Reaction for surprise tests. Not compatible with adept power Combat Sense.
+2-* Lightning Reflexes Lev 3       1|src.20|6|E||+3 Reaction for surprise tests. Not compatible with adept power Combat Sense.
+2-* Longevity                      1|tss.7|3|E||Increase natural lifespan by 50%
+2-* Natural Immunity Lev 1         1|src.20|1|E||Immunity against one natural toxin.
+2-* Natural Immunity Lev 2         1|src.20|3|E||Immunity against one synthetical toxin.
+2-* Night Vision                   1|src.20|2|E||Natural low-light vision.
+2-* Night Vision (Riggers/Deckers) 1|src.20|1|E||Natural low-light vision.
+2-* Quick Healer                   1|src.21|2|E||TN -2 for healing tests.
+2-* Resistance to Pathogens        1|src.21|1|E||+1 Body against pathogens.
+2-* Resistance to Toxins           1|src.21|1|E||+1 Body against toxins.
+2-* Toughness                      1|src.21|3|E||+1 Body for damage resistance tests.
+2-* Voice                          1|tss.7|2|E||Character has an exceptional voice. -1 TN to all skills involving singing, public speaking, seduction, etc
+2-* Water Sprite (+1 Ab Imp)       1|src.21|1|E||Hold breath +20 sec or bonus +0.1 for swimming distance or bonus +1 for fatigue or +1 minute between swimming tests or TN -1 for damage resistance or TN -1 for water treading or +1 Body for floating time
+2-* Water Sprite (+2 Ab Imp)       1|src.21|2|E||Hold breath +40 sec or bonus +0.2 for swimming distance or bonus +2 for fatigue or +2 minutes between swimming tests or TN -2 for damage resistance or TN -2 for water treading or +2 Body for floating time
+2-* Water Sprite (+3 Ab Imp)       1|src.21|3|E||Hold breath +60 sec or bonus +0.3 for swimming distance or bonus +3 for fatigue or +3 minutes between swimming tests or TN -3 for damage resistance or TN -3 for water treading or +3 Body for floating time
+2-* Water Sprite (+4 Ab Imp)       1|src.21|4|E||Hold breath +80 sec or bonus +0.4 for swimming distance or bonus +4 for fatigue or +4 minutes between swimming tests or TN -4 for damage resistance or TN -4 for water treading or +4 Body for floating time
+2-* Water Sprite (+5 Ab Imp)       1|src.21|5|E||Hold breath +100 sec or bonus +0.5 for swimming distance or bonus +5 for fatigue or +5 minutes between swimming tests or TN -5 for damage resistance or TN -5 for water treading or +5 Body for floating time
+2-* Will To Live Lev 1             1|src.22|1|E||+1 Box Overflow Damage.
+2-* Will To Live Lev 2             1|src.22|2|E||+2 Boxes Overflow Damage.
+2-* Will To Live Lev 3             1|src.22|3|E||+3 Boxes Overflow Damage.
+1-MENTAL |E
+2-* Attentive                      1|tss.6|1|E||Character never makes silly mistakes and rarely overlooks something small. No combat benefits
+2-* Bravery                        1|src.22|1|E||TN -1 for tests against intimidation and similar spells and critter powers.
+2-* College Education              1|src.22|1|E||TN for academical knowledge skills +1 for defaulting to skill, +2 for defaulting to specialization, +3 for defaulting to attribute.
+2-* Common Sense                   1|src.22|2|E||GM: "You might reconsider your plan." (If the player plans something dumb his character would not do.)
+2-* Evil Eye                       1|tss.18|2|E||This edge makes people think that the character is a bad, bad man.
+2-* Perceptive                     1|src.23|3|E||TN -1 for perception tests. No effect on detection spells, perception through sensors, sight modifiers during combat.
+2-* Perfect Time                   1|src.23|1|E||Character always knows exact time.
+2-* Photographic Memory            1|src.24|3|E||Character never forgets anything he has heard, seen or experienced.
+2-* Sense of Direction             1|src.24|1|E||Character always knows where north lies, can retrace steps and never gets lost.
+2-* Spike Resistance 1(Rig/Deck)   1|src.25|2|E||+1 Willpower for damage resistance tests against Black Ice, Dumpshock etc.
+2-* Spike Resistance 2(Rig/Deck)   1|src.25|4|E||+2 Willpower for damage resistance tests against Black Ice, Dumpshock etc.
+2-* Strong Will                    1|tss.7|1|E||Character rolls and extra die when resisting attempts to control their free will, including resisting interrogation, torture, etc.
+2-* Technical School Education     1|src.25|1|E||TN for background knowledge skills +1 for defaulting to skill, +2 for defaulting to specialization, +3 for defaulting to attribute.
+1-SOCIAL |E
+2-* Animal Empathy                 1|src.25|2|E||TN -1 for tests involving the interaction with animals. Character is reluctant to harm animals.
+2-* Blandness                      1|src.25|2|E||TN +1 for tracking the character. No effect on matrix or magical searches.
+2-* Connected Lev 1->              1|src.26|3|E||Character has a contact that buys or sells certain contraband with or without street index, to the character's advantage.
+2-* Connected Lev 2->              1|src.26|5|E||Character has a contact that buys and sells certain contraband with or without street index, to the character's advantage.
+2-* Diplomatic Immunity            1|sta2.32|2|E||Character can not be arrested, charged with, or convicted of a felony or misdemeanor while abroad.
+2-* Extra Contact                  1|src.26|1|E|+1ECT|One additional level 1 contact.
+2-* Friendly Face                  1|src.26|1|E||TN -1 for all social interactions involving the infiltration of unknown groups, meeting contacts in an alien town etc.
+2-* Friends Abroad                 1|src.27|3|E||One additional contact abroad or in another town.
+2-* Friends in High Places         1|src.27|2|E|+1FRI|One additional level 2 contact in a powerful position.
+2-* Good Looking and Knows It      1|src.27|1|E||TN -2 for social interactions with the opposite gender, -1 with the own gender.
+2-* Human Looking                  1|src.27|1|E||Exactly that. Only for elves, dwarves and orks.
+2-* Good Reputation Lev 1          1|src.27|1|E||TN -1 for social skill tests.
+2-* Good Reputation Lev 2          1|src.27|2|E||TN -2 for social skill tests.
+1-MAGICAL |E
+2-* Astral Chameleon               1|src.28|2|E||TN +2 for tests involving the ascanning of the character's astral signature.
+2-* Focused Concentration          1|src.28|2|E||TN +1 for each sustained spell.
+2-* Magical Resistance Lev 1       1|src.28|1|E||+1 Die for spell resistance tests. Only for mundane characters. Also against "friendly" spells like Heal etc.
+2-* Magical Resistance Lev 2       1|src.28|2|E||+2 Dice for spell resistance tests. Only for mundane characters. Also against "friendly" spells like Heal etc.
+2-* Magical Resistance Lev 3       1|src.28|3|E||+3 Dice for spell resistance tests. Only for mundane characters. Also against "friendly" spells like Heal etc.
+2-* Magical Resistance Lev 4       1|src.28|4|E||+4 Dice for spell resistance tests. Only for mundane characters. Also against "friendly" spells like Heal etc.
+2-* Poor Link                      1|src.28|2|E||TN +2 for ritual sorcery against the character.
+2-* Spirit Affinity->              1|src.28|2|E||One kind of nature spirit likes the character. Reluctant to attack the character, ready to do him little favours etc.
+1-MATRIX |E
+2-* Codeslinger->                  1|src.28|2|E||+1 Die for a certain system operation (Edit File, Analyze Icon etc.). Only once per character.
+2-* Cracker->                      1|src.28|4|E||+1 Die for a certain system test (Access test, Control test etc.). Only once per character.
+2-* Natural Hardening              1|src.29|4|E||1 point of natural Hardening. Cumulative with cyberdeck hardening.
+1-MISCELLANEOUS |E
+2-* Daredevil                      1|src.29|3|E||+1 additional karma pool point per run to be spent for a heroic or risky action.
+2-* Dragon Patron                  1|dosw.185|6|E||Offsets the 6 pt hunted flaw that all bred drakes automatically get.
+2-* Pirate Family                  1|src.30|3|E||Character has a big family with members in several ports all around the world.
+2-* Vehicle Empathy                1|src.31|2|E||TN -1 for handling tests. No effect on remotely controlled vehicles.
+2-* Wealth Lvl 1                   1|tss.7|1|E||Starting cash roll is increased by 1000 nuyen
+2-* Wealth Lvl 2                   1|tss.7|2|E||Starting cash roll is increased by 2000 nuyen
+2-* Wealth Lvl 3                   1|tss.7|3|E||Starting cash roll is increased by 3000 nuyen
+2-* Wealth Lvl 4                   1|tss.7|4|E||Starting cash roll is increased by 4000 nuyen
+1-SURGE |E
+2-* SRG:Astral Sight               1|yotc.140|6|E||Limited awakening, Charechter gains Magic rating of 1, can learn aura reading and enchanting, may use astral perception but may not project.
+2-* SRG:Claws                      1|yotc.141|2|E||Fingernails grow into claws, (STR+1)L using unarmed combat skill.
+2-* SRG:Talons                     1|yotc.141|2|E||Toenails grow into Talons, (STR+1)L using unarmed combat skill.
+2-* SRG:Dermal Deposits            1|yotc.141|2|E|+1BOD|Dermal deposits like a troll, cumulative with cyberware and troll race bonuses.
+2-* SRG:Fangs                      1|yotc.141|2|E||canines become large and dnagerous, like a carnivore, reach -1, (STR+1)L using unarmed combat.
+2-* SRG:Feline Eyes                1|yotc.141|2|E||like Bioware Cat's Eyes(mm.64) gain low-light vision.
+2-* SRG:Feline Eyes - lose thermo  1|yotc.141|0|E||like Bioware Cat's Eyes(mm.64) gain low-light vision lose thermographic vision.
+2-* SRG:Gills                      1|yotc.141|4|E||similar to OXSYS Cybergills, except no maintanece required. 
+2-* SRG:High Frequency Hearing     1|yotc.141|2|E||gain hearing at freq. above normal for humans.
+2-* SRG:Horns                      1|yotc.141|2|E||A horn, or horns express on head, reach -1, (STR)M using unarmed combat skill
+2-* SRG:Improved Scent             1|yotc.141|2|E||same as adept power (sr3.170)
+2-* SRG:Improved Taste             1|yotc.141|2|E||same as adept power (sr3.170)
+2-* SRG:Long Tail                  1|yotc.141|2|E||long tail grows from base of spine, -2 for balane tests (-3 with balance earware) tail is 1-2 meters long and reflex controlled.
+2-* SRG:Low Frequency Hearing      1|yotc.141|2|E||gain hearing at freq. below normal for humans.
+2-* SRG:Marsupial Pouch            1|yotc.141|2|E||gain a pouch on chest or abdomen, can hold items with conceal higher than 6, +4 to conceal when in use.
+2-* SRG:Nat.Venom(Ingested vector) 1|yotc.142|2|E||Natural toxin - self immune, immediate effect at (BOD)M damage, essence times a day.
+2-* SRG:Nat.Venom(Injected vector) 1|yotc.142|4|E||Natural toxin - self immune, immediate effect at (BOD)M damage, essence times a day.
+2-* SRG:Nat.Venom(Inhaled vector)  1|yotc.142|6|E||Natural toxin - self immune, immediate effect at (BOD)M damage, essence times a day.
+2-* SRG:Nat.Venom(Contact vector)  1|yotc.142|8|E||Natural toxin - self immune, immediate effect at (BOD)M damage, essence times a day.
+2-* SRG:Prehensile Tail            1|yotc.142|5|E||long tail grows from base of spine, -2 for balane tests (-3 with balance earware) tail is 1-2 meters long. Has 1/2 strength, can hold char suspended, +2 TN to manipulate things with this tail.
+2-* SRG:Resistance to Disease 1    1|yotc.142|1|E||1 extra die to resist effects of Disease
+2-* SRG:Resistance to Disease 3    1|yotc.142|3|E||2 extra die to resist effects of Disease
+2-* SRG:Resistance to Disease 5    1|yotc.142|5|E||3 extra die to resist effects of Disease
+2-* SRG:Resistance to Poison 1     1|yotc.142|1|E||1 extra die to resist effects of Poison
+2-* SRG:Resistance to Poison 3     1|yotc.142|3|E||2 extra die to resist effects of Poison
+2-* SRG:Resistance to Poison 5     1|yotc.142|5|E||3 extra die to resist effects of Poison
+2-* SRG:Retractable Claws          1|yotc.143|3|E||Fingernails grow into claws, (STR+1)L using unarmed combat skill, Retractable like a cats.
+2-* SRG:Satyr Legs                 1|yotc.143|6|E|+1MUL|Like Kid stealth cyberware (mm.37) +1 to run mult. 1 additional die for jumping, +2 power for kicks.
+2-* SRG:Thermographic Vision       1|yotc.143|2|E||Gain Thermo. Vision
+2-* SRG:Therm. Vision(Deckers)     1|yotc.143|1|E||Gain Thermo. Vision
+2-* SRG:Therm. Vision(Riggers)     1|yotc.143|1|E||Gain Thermo. Vision
+2-RE-GOBLINIZATION|E
+3-* SRG:Gob. Lose Elf (to varient) 1|yotc.140|5|E|-1QCK,-1CHA|Lose Elf Metatype (elves only, must take varient)
+3-* SRG:Gob. Lose Orc (to varient) 1|yotc.140|5|E|-3BOD,-2STR,+1CHA,+1INT|Lose Orc Metatype (orcs only, must take varient)
+3-* SRG:Gob. Lose Dwarf(to varient)1|yotc.140|5|E|-1BOD,-1WIL,-2STR|Lose Dwarf Metatype (dwarves only, must take varient)
+3-* SRG:Gob. Lose Troll(to varient)1|yotc.140|5|E|-5BOD,-4STR,+1QCK,+2CHA,+2INT|Lose Troll Metatype (trolls only, must take varient)
+3-* SRG:Gob. Gain Elf varient      1|yotc.140|5|E|+1QCK,+1CHA|Gain Elf Metavarient (elves only)
+3-* SRG:Gob. Gain Orc varient      1|yotc.140|5|E|+3BOD,+2STR,-1CHA,-1INT|Gain Orc Metavarient (orcs only)
+3-* SRG:Gob. Gain Dwarf varient    1|yotc.140|5|E|+1BOD,+1WIL,+2STR|Gain Dwarf Metavarient (dwarves only)
+3-* SRG:Gob. Gain Troll varient    1|yotc.140|5|E|+5BOD,+4STR,-1QCK,-2CHA,-2INT|Gain Troll Metavarient (trolls only)
+3-* SRG:Gob. Lose Human(ork/troll) 1|yotc.140|5|E||Lose Human Metatype (humans only, must take Orc or troll metatype)
+3-* SRG:Gob. Gain Orc (was human)  1|yotc.140|5|E|+3BOD,+2STR,-1CHA,-1INT|Gain Orc Metatype (humans only)
+3-* SRG:Gob. Gain Troll(was human) 1|yotc.140|5|E|+5BOD,+4STR,-1QCK,-2CHA,-2INT|Gain Troll Metatype (humans only)
+1-SKILLS |F
+2-* Computer Illiterate            1|src.18|-3|F||TN 4 and modifiers (GM's discretion) for operating even simplest electronic devices.
+2-* Incompetence->                 1|src.18|-2|F||TN +1 for all tests with chosen skill.
+1-PHYSICAL |F
+2-* Allergy Uncom & Mild->         1|src.18|-2|F||TN +1 when exposed to the substance.
+2-* Allergy Uncom & Mod.->         1|src.18|-3|F||Contact with the substance is painful. Power +2 for weapons made out of the substance when used against the character.
+2-* Allergy Uncom & Severe->       1|src.18|-4|F||Character suffers a light wound per minute that he is exposed to the substance.
+2-* Allergy Com & Mild->           1|src.18|-3|F||TN +1 when exposed to the substance.
+2-* Allergy Com & Mod.->           1|src.18|-4|F||Contact with the substance is painful. Power +2 for weapons made out of the substance when used against the character.
+2-* Allergy Com & Severe->         1|src.18|-5|F||Character suffers a light wound per minute that he is exposed to the substance.
+2-* Biorejection                   1|src.19|-5|F||Character's immune system rejects any cyberware or bioware. Any organ or limb replacement must be cloned from the character's very own cells.
+2-* Biorejection(Magic Active)     1|src.19|-2|F||Character's immune system rejects any cyberware or bioware. Any organ or limb replacement must be cloned from the character's very own cells.
+2-* Blind [B]                      1|src.19|-6|F||TN +6 for all tests involving the sense of sight. No cure by cyberware.
+2-* Blind (Magic Active)           1|src.19|-2|F||TN +6 for all tests involving the sense of sight, only +2 when astrally perceiving. No cure by cyberware.
+2-* Borrowed Time                  1|src.19|-6|F||Character has only 3d6 months left to live.
+2-* Clumsy                         1|tss.6|-1|F||Character is more likely to make silly mistakes
+2-* Color-Blind                    1|src.19|-1|F||TN +4 for all tests involving distinguishing of colors.
+2-* Crippled Leg                   1|tss.7|-1|F|||character walks with a limp and requires a cane or brace or suffers -1 Quickness and has +2 TN to any activity involving fast leg movement
+2-* Deaf                           1|src.19|-3|F||TN +4 for all tests involving hearing (including surprise tests). No cure by cyberware possible.
+2-* Infirm (-1)                    1|src.20|-1|F|+1IFM|-1 to attribute maximum of character's physical attributes.
+2-* Infirm (-2)                    1|src.20|-2|F|+2IFM|-2 to attribute maximum of character's physical attributes.
+2-* Infirm (-3)                    1|src.20|-3|F|+3IFM|-3 to attribute maximum of character's physical attributes.
+2-* Infirm (-4)                    1|src.20|-4|F|+4IFM|-4 to attribute maximum of character's physical attributes.
+2-* Infirm (-5)                    1|src.20|-5|F|+5IFM|-5 to attribute maximum of character's physical attributes.
+2-* Low Pain Tolerance             1|src.20|-4|F||+1 to wound-related TN modifiers
+2-* Night Blindness(N)             1|src.20|-2|F||Additional TN +2 when in minimal light or full darkness.
+2-* Night Blindness(Rig/Deckers)   1|src.20|-1|F||Additional TN +2 when in minimal light or full darkness. No effect on sensors or in the matrix.
+2-* One Arm                        1|tss.7|-1|F||Character has lost their off hand in an accident
+2-* Paraplegic                     1|src.20|-3|F||Character is paralyzed from hip down. Combat pool is halved (round down). No cure by cyberware.
+2-* Quadriplegic                   1|src.21|-6|F||Character is paralyzed from neck down. Character needs permanent hospital lifestyle. No cure by cyberware.
+2-* Sensitive System(N)            1|src.21|-3|F|+1ECD|Essence loss caused by implants is doubled.
+2-* Sensitive System(Magic Active) 1|src.21|-2|F|+1ECD|Essence loss caused by implants is doubled.
+2-* Weak Immune System             1|src.21|-1|F||-1 Body for tests against diseases.
+1-MENTAL |F
+2-* Amnesia Lev 1                  1|src.22|-2|F||Character does not remember his identity or past, but has access to all of his powers and skills.
+2-* Amnesia Lev 2                  1|src.22|-3|F||Character does not remember his identity or past, but has access to some of his powers and skills.
+2-* Amnesia Lev 3                  1|src.22|-4|F||Character does not remember his identity or past, but has access to some of his powers and skills.
+2-* Amnesia Lev 4                  1|src.22|-5|F||Character does not remember his identity or past and has forgotten all what he has learned.
+2-* Combat Monster                 1|src.22|-1|F||Character fights unstoppable for 3 rounds or until all enemies are incapacitated or dead. Willpower(6) test to shorten this time.
+2-* Combat Paralysis               1|src.22|-4|F||Character's initiative in a fight is always the minimum he can achieve. Additional TN +2 for surprise tests.
+2-* Compassionate                  1|tss.7|-2|F||Character hates to see others suffer. May affect social tests when GM sees fit
+2-* Compulsive light->             1|src.22|-1|F||Character has a habit he has little or no control over. GM decides value of this flaw.
+2-* Compulsive moderate->          1|src.22|-2|F||Character has a habit he has little or no control over. GM decides value of this flaw.
+2-* Compulsive severe->            1|src.22|-3|F||Character has a habit he has little or no control over. GM decides value of this flaw.
+2-* Compulsive extreme->           1|src.22|-4|F||Character has a habit he has little or no control over. GM decides value of this flaw.
+2-* Compulsive v.extreme->         1|src.22|-5|F||Character has a habit he has little or no control over. GM decides value of this flaw.
+2-* Flashbacks->                   1|src.22|-4|F||Characters suffers flashbacks from certain trigger conditions. Willpower(6) test. If it fails, the character is incapacitated for 1d6 minutes.
+2-* Focused Obliviousness          1|tss.6|-2|F||This character gets wrapped up in whatever they are doing at the moment.  -3 to perception tests while so engrossed.
+2-* Greed                          1|tss.7|-1|F||Will(6) to resist any offer of cash, TN modified based on ammount offered as GM decides
+2-* Gunslinger Honor               1|tss.18|-3|F||Can not shoot a man in the back or an unarmed man and all targets must be fully aware of character's presence
+2-* Illiterate                     1|src.23|-3|F||Character cannot read or write. Intelligence x 3 knowledge skill points during character generation. No academic knowledge skills.
+2-* Impulsive                      1|src.23|-2|F||Character tends to jump into the middle of the action without thinking. Willpower(6) test to avoid this.
+2-* Incomplete Deprograming        1|sta2.32|-2|F||Character was once a deep-cover agent for an agency, but after being extracted his deprograming was faulty.  Traces of the cover identity remain and may rise to forefront during stressful situations unless willpower(4).
+2-* Kleptomania                    1|tss.7|-1|F||Will(4) to avoid a cumpulsion to steal, TN modified based on value of item
+2-* Lecherous                      1|tss.7|-2|F||Compulsion to flirt with every member of the appropriate sex that has Charisma 3 or more. Roll Willpower to not try to seduce
+2-* Oblivious                      1|src.23|-2|F||Character is oblivious. TN +1 for all perception tests, including astral perception, not including combat situations.
+2-* Pacifist[1]                    1|src.23|-2|F||Character never kills, save in self-defense.
+2-* Phobia Uncom & Mild->          1|src.23|-2|F||TN +1 when exposed to trigger condition.
+2-* Phobia Uncom & Mod.->          1|src.23|-3|F||TN +2 when exposed to trigger condition. Willpower(4) test to avoid fleeing.
+2-* Phobia Uncom & Severe->        1|src.23|-4|F||Willpower(6) test to avoid fleeing. When passed, TN +2 during exposure.
+2-* Phobia Com & Mild->            1|src.23|-3|F||TN +1 when exposed to trigger condition.
+2-* Phobia Com & Mod.->            1|src.23|-4|F||TN +2 when exposed to trigger condition. Willpower(4) test to avoid fleeing.
+2-* Phobia Com & Severe->          1|src.23|-5|F||Willpower(6) test to avoid fleeing. When passed, TN +2 during exposure.
+2-* Sea Legs                       1|src.24|-2|F||Willpower(4) test every 24 hours not stayed on a boat or ship to further stay on shore.
+2-* Sea Madness                    1|src.24|-4|F||Willpower(4) test every 24 hours not stayed on shore to further stay on the boat or ship.
+2-* Sensitive Neural Struct.[1]    1|src.24|-2|F||-1 Willpower for damage resistance tests against BTLs, Black Ice, Dumpshock etc.
+2-* Sensitive Neural Struct.[2]    1|src.24|-4|F||-2 Willpower for damage resistance tests against BTLs, Black Ice, Dumpshock etc.
+2-* Simsense Vertigo               1|src.25|-2|F||TN +1 and Initiative -1 when using any SimSense device such as a Smartlink.
+2-* Simsense Vertigo (Rig/Deckers) 1|src.25|-4|F||TN +1 and Initiative -1 when using any SimSense device such as a VCR.
+2-* Total Pacifist[2]              1|src.25|-5|F||Character cannot kill any living being. If he does so, he suffers depression for 2d6 weeks.
+2-* True Believer->                1|src.25|-3|F||Character is a true believer in a political cause and will not act to harm it, even at significant personal cost. No matter what, character somehow believes that "The Leader" is really the shining paragon that he wants him to be.
+2-* Uneducated                     1|src.25|-2|F|+1UNE|Character has rudimentary R/W skills. Intelligence x 3 knowledge skill points during character generation. No academic or background knowledge skill at character generation.
+2-* Vindictive                     1|src.25|-2|F||Character revenges himself for every little real or imaginary offense.
+1-SOCIAL |F
+2-* Bad Reputation light           1|src.25|-1|F||TN +1 for social skill tests.
+2-* Bad Reputation mod             1|src.25|-2|F||TN +2 for social skill tests.
+2-* Bad Reputation severe          1|src.25|-3|F||TN +3 for social skill tests.
+2-* Bad Reputation extreme         1|src.25|-4|F||TN +4 for social skill tests.
+2-* Braggart                       1|src.25|-1|F||Intelligence(6) test with 2 successes to not show off when telling a story.
+2-* Dark Secret->                  1|src.26|-2|F||Character has a dark secret and would have to suffer severe consequences if it would be revealed.
+2-* Day Job 10hrs/week->           1|src.26|-1|F||Character has a day job. Salary: 1.000 ¥ per month.
+2-* Day Job 20hrs/week->           1|src.26|-2|F||Character has a day job. Salary: 2.500 ¥ per month.
+2-* Day Job 40hrs/week->           1|src.26|-3|F||Character has a day job. Salary: 5.000 ¥ per month.
+2-* Dependent(-1)->                1|src.26|-1|F||Character has a person that depends on him. GM's discretion about the flaw's value.
+2-* Dependent(-2)->                1|src.26|-2|F||Character has a person that depends on him. GM's discretion about the flaw's value.
+2-* Dependent(-3)->                1|src.26|-3|F||Character has a person that depends on him. GM's discretion about the flaw's value.
+2-* Dependent(-4)->                1|src.26|-4|F||Character has a person that depends on him. GM's discretion about the flaw's value.
+2-* Dependent(-5)->                1|src.26|-5|F||Character has a person that depends on him. GM's discretion about the flaw's value.
+2-* Dependent(-6)->                1|src.26|-6|F||Character has a person that depends on him. GM's discretion about the flaw's value.
+2-* Distinctive Style->            1|src.26|-1|F||TN -1 for all tests involving tracking or finding the character.
+2-* Dossier on File                1|sta2.32|-4|F||Character has an extensive profile stored in a government or corporate intelligence database.
+2-* Elf Poser                      1|src.26|-1|F||Only for humans.
+2-* Extra Enemy->                  1|src.26|-1|F||One additional enemy curing character generation (SRC p. 68).
+2-* Hung out to Dry                1|src.27|-4|F||Character's contacts do not talk to him any longer.
+2-* Intolerance (-1)               1|tss.7|-1|F||Character has a problem dealing with a specific thing or group, +1 TN when dealing with object of intolerance
+2-* Intolerance (-2)               1|tss.7|-2|F||Character has a problem dealing with a specific thing or group, +2 TN when dealing with object of intolerance
+2-* Intolerance (-3)               1|tss.7|-3|F||Character has a problem dealing with a specific thing or group, +3 TN when dealing with object of intolerance
+2-* Intolerance (-4)               1|tss.7|-4|F||Character has a problem dealing with a specific thing or group, +4 TN when dealing with object of intolerance
+2-* Liar                           1|src.27|-2|F||When interacting with another person, GM throws 1d6. On a 1 the person does not believe the character.
+2-* Personal Code                  1|tss.7|-2|F||Character has a personal code of honoer/ethics/conduct they must uphold
+2-* Ugly and Doesn't Care          1|src.27|-1|F||TN +2 for social interactions with the opposite gender, +1 with the own gender.
+2-* Uncouth                        1|src.27|-2|F||Character has no manners. TN +2 on all social skill tests.
+1-MAGICAL |F
+2-* Astral Impressions             1|src.28|-2|F||TN -2 for ascanning the character's astral signature.
+2-* Haunted                        1|tss.7|-1|F||Character is haunted by a spectre, who will follow the character and be a general nuisance
+2-* Spirit Bane->                  1|src.28|-2|F||A certain kind of nature spirits hates the character. Those spirits harass the character and attack him first.
+1-MATRIX |F
+2-* Codeblock->                    1|src.28|-1|F||-1 Die for a certain system operation (Edit File, Analyze Icon etc.). Only once per character.
+2-* Choker->                       1|src.28|-2|F||-1 Die for a certain system test (Access test, Control test etc.). Only once per character.
+2-* Jack Itch                      1|src.28|-1|F||Cumulative +1 modifier on all tests every (Willpower) minutes the character is jacked in.
+2-* Matrix Addiction Light         1|mat.26|-2|F||Character must be online 4 hours/ day, otherwise he suffers TN +1 on all tests.
+2-* Matrix Addiction Moderate      1|mat.26|-4|F||As Light, but character must be online 6 hours/ day. Additional Willpower(6) test to jack out.
+2-* Matrix Addiction Severe        1|mat.26|-6|F||As Moderate, but character must be online 8 hours/ day. TN +1 for all charisma and charisma-based skill tests.
+2-* Scorched                       1|src.29|-1|F||Character has been conditioned by psychotrope IC (GM's discretion on the effects).
+1-MISCELLANEOUS |F
+2-* Bad Karma                      1|src.29|-5|F|+1BKF|Double the amount of karma necessary for gaining a karma pool point.
+2-* Corporate Sell-out             1|tss.7|-6|F||Character sold out to a powerful group (corporation, mafia, government, etc) and now works for them and must take any and all runs they tell him/her
+2-* Cranial Bomb                   1|src.29|-6|F||Character has a cortex bomb (GM's discretion).
+2-* Cursed Karma                   1|src.29|-6|F||Every time the character spends a karma point, roll 1d6. On 1, the karma point has the adversed effect.
+2-* Gremlins Lev 1                 1|src.29|-1|F||When the character uses a device, roll 2d6. On a 2, the device only works with a +1 or -1 modifier (whichever is against the character). A hard punch (Simple Action) brings it back to life.
+2-* Gremlins Lev 2                 1|src.29|-2|F||When the character uses a device, roll 2d6. On a 2, the device ceases to function. A hard punch (Simple Action) brings it back to life.
+2-* Gremlins Lev 3                 1|src.29|-3|F||When the character uses a device, roll 2d6. On a 2, the device only works with a +2 or -2 modifier (whichever is against the character). Device must be repaired. Repair costs are 0.2 times the buying costs.
+2-* Gremlins Lev 4                 1|src.29|-4|F||When the character uses a device, roll 2d6. On a 2, the device ceases completely to function. Devie must be repaired. Repair costs are half the buying costs.
+2-* Hunted Lev 1->                 1|src.30|-2|F||Character is hunted by a level 3 enemy.
+2-* Hunted Lev 2->                 1|src.30|-4|F||Character is hunted by a level 4 enemy.
+2-* Hunted Lev 3->                 1|src.30|-6|F||Character is hunted by a level 5 or level 6 enemy.
+2-* Mysterious Cyberware->         1|src.30|-3|F||Charater has an obscure piece of cyberware in his body which he has no knowledge of (GM's discretion).
+2-* Police Record                  1|src.30|-6|F||Character has a SIN with police record. All contacts must be street types. All security firms have the character's record. Lone Star knows all about the character.
+2-* Poverty (-1)                   1|tss.7|-1|F||Starting cash roll is reduced to 3d6x200
+2-* Poverty (-2)                   1|tss.7|-2|F||Character does not roll for starting cash
+1-SURGE |F
+2-* SRG:Altered Eye Color->        1|yotc.139|-1|F||Obvious change in Eye color not compatible with feline eyes or cyber-eyes
+2-* SRG:Altrd Skin Color.(Minor)-> 1|yotc.139|-1|F||Obvious but not too unusual change in skin pigments.
+2-* SRG:Altrd Skin Color.(Major)-> 1|yotc.139|-2|F||Obvious and harmful or strange changes in skin pigment.
+2-* SRG:Astral Hazing              1|yotc.139|-5|F||char. generates a background count(mits.83) around him at a rate of 1 point per hour until it reaches 1/2 essence.  gradualy fades after char. leaves
+2-* SRG:Bior-Rejection(non-Awaken) 1|yotc.139|-5|F||similar to normal flaw, any existing implants cause gradual sickness becoming incapacitated over body days, and will die within body*2 days if not removed.
+2-* SRG:Bior-Rejection(Awakened)   1|yotc.139|-2|F||similar to normal flaw, any existing implants cause gradual sickness becoming incapacitated over body days, and will die within body*2 days if not removed.
+2-* SRG:Chronic Osteocspus         1|yotc.139|-10|F||Bony spikes painfully erupt all over the body. pain for 10-willpower weeks until accustomed +4 to all target numbers during this time. over time gain pain resistance as adept power at lvl 3 (sr3.170) +1to all unarmed attack powers, slow healer.
+2-* SRG:Critter Spook              1|yotc.139|-1|F||all animals react with fear and hostility, and will go out of there way to attack this char. first, +2 TN to pacify.
+2-* SRG:Cyclops                    1|yotc.139|-4|F||lose any cybereyes, +2 for ranged attacks
+2-* SRG:Dual Natured(non-Awakned)  1|yotc.140|-10|F||may not turn this off, gain ability to learn aura reading. affected like dual nature critters
+2-* SRG:Dual Natured(Awakned)      1|yotc.140|-5|F||may not turn this off, affected like dual nature critters, can still astraly project.
+2-* SRG:Feathers (Minor)->         1|yotc.140|-1|F||hair is replaced by feathers
+2-* SRG:Feathers (Major)->         1|yotc.140|-2|F||hair is replaced by feathers
+2-* SRG:Pointed Ears               1|yotc.140|-1|F||gain elf like ears
+2-* SRG:Scales (Minor)             1|yotc.140|-1|F||character grows scale over some or all of body, must occasionally shed.
+2-* SRG:Scales (Major)             1|yotc.140|-2|F||character grows scale over some or all of body, must occasionally shed.
+2-* SRG:Slow Healer                1|yotc.140|-2|F||+2 to all healing tests
+2-* SRG:Third Eye                  1|yotc.140|-2|F||detectable when closed at TN(4) no other vision benefit except depth perception when one eye closed.
+2-* SRG:Tusks                      1|yotc.140|-1|F||gain tusks like an orc or troll, impairs speech
+2-* SRG:Unusual Hair (Minor)->     1|yotc.140|-1|F||Hair grows in either unusual places or colors
+2-* SRG:Unusual Hair (Major)->     1|yotc.140|-2|F||Hair grows in either unusual places or colors
+2-* SRG:Vestigal Tail              1|yotc.140|-1|F||Gain a short tail, clothes must be tailored and sitting for long periods is uncomfortable, may be wagged with effort.

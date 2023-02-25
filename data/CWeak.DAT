@@ -1,0 +1,13 @@
+!CWeak.DAT - Critters Weakness data file - MM 
+!-----------------------------------------------------------------------------------------------
+0-1|Powers|2|Book.Page|Notes
+!2345678901234567890123456789012345678901234567890123456789012
+Allergy, Nuisance->            1|CR3-15|
+Allergy, Mild->                1|CR3-15|
+Allergy, Moderate->            1|CR3-15|
+Allergy, Severe->              1|CR3-15|
+Dietary Requirement->          1|CR3-15|
+Essence Loss                   1|CR3-15|
+Reduced Senses->               1|CR3-15|
+Vulnerability->                1|CR3-15|
+!LAST LINE

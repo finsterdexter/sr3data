@@ -1,0 +1,1144 @@
+!vehicle.DAT - Vehicle data file - JW 960204 (Update from PM 960201)
+!-------------------------------------------------------------
+!A Few Notes:
+! Added support for Book-page and ability to exclude those books from listings
+! I will eliminate duplicate entries and add SR3 support 990813            - Mike
+! Walter Scheper <ratlaw@bigfoot.com>  for Rigger 3 addins...
+! Josef Wegner: added Target: Wastelands entries 01/06/03
+! Extensive R3 work done by: Karl Kendricks 08/24/03
+! Types (Formats):
+!-------
+0-1|Edged weapon|8|Concealability|Reach|Damage|Weight|Availability|$Cost|Street Index|Book.Page|
+0-2|Bow and crossbow|9|Concealability|Str.Min.|Damage|Weight|Availability|$Cost|Street Index|Legal|Book.Page|
+0-3|Firearms|10|Concealability|Ammunition|Mode|Damage|Weight|Availability|$Cost|Street Index|Accessories|Book.Page|
+0-4|Rockets and Missiles|9|Intelligence|Damage|Blast|Scatter|Weight|Availability|$Cost|Street Index|Book.Page|
+0-5|Ammunition|7|Concealability|Damage|Weight|Availability|$Cost|Street Index|Book.Page|
+0-6|Firearms Accessories|8|Mount|Concealability|Rating|Weight|Availability|$Cost|Street Index|Book.Page|
+0-7|Explosives|7|Concealability|Rating|Weight|Availability|$Cost|Street Index|Book.Page|
+0-8|Clothing and Armor|8|Concealability|Ballistic|Impact|Weight|Availability|$Cost|Street Index|Book.Page|
+0-9|S+S Vision Enhancers|7|Concealability|Magnification|Weight|Availability|$Cost|Street Index|Book.Page|
+0-10|Surveillance and Security|6|Concealability|Weight|Availability|$Cost|Street Index|Book.Page|
+0-11|Custom Gear|6|Concealability|Weight|$Cost|Street Index|Availability|Book.Page|
+0-12|Cyberdeck Other|4|Availability|$Cost|Street Index|Book.Page|
+0-13|Biotech|6|Rating|Availability|Weight|$Cost|Street Index|Book.Page|
+0-14|Lifestyle|6|Concealability|Weight|Availability|$Cost|Street Index|Book.Page|
+0-15|Magical Equipment|4|Availability|$Cost|Street Index|Book.Page|
+0-17|Cars|10|Handling|Speed|Body|Armor|Sig|Apilot|Availability|$Cost|Street Index|Book.Page|
+0-18|Vehiclegear|4|Availability|$Cost|Street Index|Book.Page|
+0-19|VehicleFire|9|Type|Ammunition|Mode|Damage|Weight|Availability|$Cost|Street Index|Book.Page|
+0-21|Stuff With Ratings|7|Concealability|Rating|Weight|Availability|$Cost|Street Index|Book.Page|
+0-22|Drugs|7|Addiction|Tolerance|Edge|Availability|$Cost|Street Index|Book.Page|
+0-23|Vehicle modifications|9|$Cost|Availability|Street Index|Equipment|Base Time/Skill Test|CF|Load|Notes|Book.Page|
+0-24|Cars2|12|Handling|Speed/Accel|Body/Armor|Sig/Autonav|Pilot/Sensor|Cargo/Load|Seating|$Cost|Availability|Street Index|Notes|Book.Page|
+0-25|Lifestyle2|2|$Cost|Book.Page|
+0-26|Extras|5|$Cost|Availability|Street Index|Weight|Book.Page|
+1-Vehicles
+2-Bikes
+3-Choppers
+4-* BMW Blitzen 2025               17|3/4|70/210|3|6|1|2|2/1day|15-20000|1|sr2.???|
+4-* BMW Blitzen 2050               24|3/4|220/13|2/2|1/2|-/0|2/40|2m|26300|2/48hrs|1|Turbocharging 3(factored in)|r3.158|
+4-* BMW R60 Euro                   17|3/6|35/130|2|3|3|1|2/1day|11000|1|sr2.???|
+4-* BMW RG75 III                   17|3/3|35/100|2|0|3|0|2/1day|14000|1|sr2.???|
+4-* Darkwing                       17|4/4|40/135|2|1|3|1|2/1day|9000|.75|sr2.???|
+4-* Harley-Davidson Brawler        17|5/7|64/192|4|6|1|2|2/1day|26000|1|sr2.???|
+4-* Harley-Davidson Electroglide   24|3/4|225/13|2/2|1/1|-/0|2/140|1m|70000|10/10days|2|Electronics Port w/Radio(Rating 3), External Fixed Firmpoint(1 CF Ammo Bin), Turbocharging 3(factored in)|r3.158|
+4-* Harley-Davidson Scorpion       24|4/5|120/6|2/1|2/2|-/0|4/60|2m|13500|2/24hrs|1||sr3.308, r3.158|
+4-* Harley-Davidson Thundergod     17|4/5|50/150|1|0|3|2|2/1day|15000|1|cb1.20|
+4-* Honda Viking                   24|3/5|120/5|2/1|1/2|-/0|4/40|2m|20000|2/24hrs|1|Turbocharging 1(factored in), Engine Customization 3, Adjusted Controls(troll)|r3.158|
+4-* Messerschmitt A200             17|2/10|50/220|1|0|2|0|3/1day|29000|1|sr2.???|
+4-* Nissan Stallion                17|4|80/200|4|2|2(5)|1|2/1day|25000|1|sr2.???|
+3-Off Road Bikes
+4-* All-Terrain Bike (bicycle)     17|3|special|1|0|6|-|2/1day|650|.75|cp.34|
+4-* Gaz-Niki White Eagle           24|3/3|100/4|2/0|1/0|-/0|2/30|2m|13000|2/24hrs|1|External Fixed Hardpoint|r3.159|
+4-* Hyundai Offroader              24|2/4|90/4|2/0|4/1|-/0|1/20|2m|13000|2/24hrs|1||r3.159|
+4-* Scion Technologies Dunemaster  17|4/3|45/135|2|1|1|1|4/2days|40000|1|sr2.???|
+4-* Scion Technologies Dust Devil  17|5/4|35/105|2|2|1|1|4/2days|46000|1|sr2.???|
+4-* Thundercloud Pinto             24|4/2|85/4|2/0|2/0|-/0|8/40|3m|35000|2/48hrs|1||r3.158|
+3-Racing Bikes
+4-* Honda Nata450                  17|3/5|200/9|2|0|2|0|2/1day|15000|1|tss.6|
+4-* Honda Vector (Racing)          17|2/10|300/25|2|0|1|4|2/1day|80000|1|tss.6|
+4-* Honda Vector (Gasoline)        17|3/8|210/15|2|0|2|1|2/1day|20000|1|tss.6|
+4-* Honda Vector (Police/Rescue)   17|3/6|240/18|2|3|3|4|2/1day|50000|1|tss.6|
+4-* Honda Vector (Sports)          17|3/6|240/16|2|6|1|3|2/1day|25000|1|tss.6|
+4-* Suzuki 500ET                   17|3/6|90/270|1|2|2|3|2/1day|25000|1|sr2.???|
+4-* Suzuki Aurora                  24|2/4|210/11|2/0|2/1|-/0|1/40|1m|18100|2/24hrs|1||r3.159|
+4-* Yamaha Rapier                  24|3/6|195/10|2/0|2/1|-/0|1/40|1m|14200|2/24hrs|1||sr3.308, r3.159|
+3-Scooters
+4-* Dodge Scoot                    24|3/4|60/3|2/0|5/0|-/0|1/10|1m|5900|2/24hrs|.50|Gridlink|sr3.308, r3.160|
+4-* Entertainment Systems Papoose  24|3/6|90/3|2/0|5/0|-/0|1/5|1m|6600|2/24hrs|.50||r3.160|
+4-* Hyundai Cityroller             17|3/6|75/3|2|0|5|0|2/1day|5000|1|tss.6|
+4-* Messerschmitt-Kawasaki 2050    17|4/6|60/4|2|0|5|1|2/1day|9000|1|tss.6|
+4-* Mitsubishi Portabike           17|3/9|10/35|1|0|7|0|2/1day|250|.75|sr2.???|
+4-* Sport Eurasia "Microbike"      17|4/12|35/105|1|0|5|0|2/1day|1000|.75|sr2.???|
+4-* VW City Scooter                17|3/9|25/50|2|0|4|2|2/1day|6500|.75|sr2.???|
+3-Others SR2
+4-* Ashigaru                       17|3/8|40/95|1|0|6|1|2/1day|3500|.75|sr2.???|
+4-* Bermuda                        17|3/5|60/205|2|0|2|1|2/1day|15000|1|sr2.???|
+4-* Brennan Cycles "Ares"          17|3/7|40/125|1|1|1|1|2/1day|21000|1|sr2.???|
+4-* Brennan "Hermes"               17|3/6|30/95|1|0|2|0|2/1day|12500|1|sr2.???|
+4-* Hyundai Offroader              17|4/2|60/180|2|0|2|1|2/1day|12500|1|sr2.???|
+4-* Kundalina Roadworks "Dart"     17|4/8(3/6)|55/160|1|1|3|1|2/1day|10000|1|sr2.???|
+4-* Kundalina Roadworks Shiva      17|2/6|70/210|1|1|2|2|2/1day|12000|1|cb1.21|
+4-* Kundalina "Torpedo"            17|4/6(3/5)|65/190|1|2|3|2|3/1day|36000|1|sr2.???|
+4-* MZ E250CM                      17|4/6|35/100|1|0|2|0|2/1day|4200|.75|sr2.???|
+4-* Pedicab (bicycle)              17|3/7|10/30|1|0|10|0|2/1day|1200|.75|cb1.21|
+2-Boats
+3-Skiffs
+4-* Aztech Nightrunner (E)         24|3|45/5|3/0|5(5)/3|-/0|14/250|2|45625|3/72hrs|1|Electric|r3.160
+4-* Aztech Nightrunner(M)          24|3|75/8|3/0|4(4)/3|-/0|14/250|2|30000|2/48hrs|1|Methane|r3.160|
+4-* Blohm & Voss Gondola III       17|3|20/50|3|0|3|2|3/1day|32000|1|sr2.???|
+4-* Sendako Marlin                 24|3|30/3|3/0|6(6)/0|-/0|12/150|2+1b|18750|2/24hrs|1||sr3.309, r3.160|
+4-* Surfstar Marine Seacop         24|3|90/7|3/1|3(3)/2|-/0|10/45|1+2b|170000|15/15days|2|Elctronics Port w/Radio(Rating 4 1.2CF), External Fixed Firmpoint(1 CF Ammo Bin), Spotlight|r3.160|
+3-Speedboats
+4-* Colorado Craft Cigarette Hydro 24|4(5)|75(105)/10(15)|3/0|3(1)/2|-/0|8/240|2|35000|2/48hrs|1|Hydrofoil Capability|r3.161|
+4-* Zemlya-Poltava Swordsman       17|4|25/75|2|0|5|0|3/1day|30000|1|sr2.???|
+3-Sport Cruisers
+4-* Aztech Tiburon                 24|3|90/5|5/4|3(3)/3|-/7(0)|20/505|2+1b|650000|-|2|2 Mini-Turrets (1 CF Ammo Bin each), Improved Signature 1 (factored in)|r3.161
+4-* Aztech Tiburon(cbt)            24|3|90/5|5/4|3(3)/3|-/7(0)|18/475|2+1b|2670000|NA|3.00|3 Micro-Turrets(1 CF Ammo Bin each), Mini-Turret(1 CF Ammo Bin), Improved Signature 3 (factored in)|r3.161
+4-* Biohm & Voss River Commander   24|4|75/4|5/9|1(1)/3|-/1(0)|55/800|2+1b|260000|19/19days|2|3 Micro-Turrets(1 CF Ammo Bin each), Mini-Turret(1 CF Ammo Bin)|r3.161|
+4-* Dornier-Zeppelin Hecht         17|3|15/40|2|0|4|`|2/1day|18000|1|sr2.???|
+4-* GMC Riverine                   24|3|90/5|5/6|2(2)/2|-/1(0)|16/175|2+5b|100000|5/5days|1|Partial Basic Living Amenities, folding Bench Seats, Ring Mount|r3.161|
+4-* GMC Riverine(Security)         24|3|90/5|5/6|1(1)/2|-/1(0)|51/1355|2+2b|150000|18/18days|3|Partial Basic Living Amenities, folding Bench Seats, Micro-Turret(1 CF Ammo Bin), Mini-Turret(1 CF Ammo Bin)|r3.161|
+4-* GMC Riverine(Police)           24|3|90/5|5/6|2(2)/2|-/1(0)|55/1345|2+2b|125000|13/13days|2|Partial Basic Living Amenities, folding Bench Seats, Ring Mount, External Fixed Hardpoint(1 CF Ammo Bin)|r3.160|
+4-* Samuvani-Criscraft Otter       24|4|45/6|5/0|3(3)/2|-/1(0)|48/650|2|32500|2/48hrs|1||sr3.309, r3.161|
+4-* Zemlya-Poltava Swordsman       24|4|75/5|5/0|3(3)/2|-/1(0)|30/300|2+3b|29000|2/48hrs|1|Folding Bench Seats|r3.161
+4-* Zemlya Poltava Swordsman(AME)  24|4|30/3|5/0|5(5)/2|-/1(0)|30/300|2+3b|58375|3/72hrs|1|Folding Bench Seats|r3.161|
+4-* Zemlya Poltava Swordsman(P.O.) 24|4|90/6|5/0|3(3)/2|-/1(0)|30/300|2+3b|37000|2/48hrs|1|Folding Bench Seats|r3.161
+3-Water Scooters
+4-* Suzuki Watersport(G)           24|2|45/7|2/0|3(3)/0|-/1|4/38|1|10000|2/24hrs|1|Gasoline|r3.162|
+4-* Suzuki Watersport(E)           24|2|30/4|2/0|5(5)/0|-/1|1/37|1|11000|2/24hrs|1|Electric|r3.162|
+3-Yachts
+4-* Harland & Wolff Classique      24|5|45/4|8/0|2(2)/2|-/1(0)|120[210PS]/2500|2|207500|15/15days|2|10 High Living amenities, 10-man Life Raft|r3.162|
+4-* Marine Technologies Dolphin II 24|3|45/4|8/0|2(2)/4|-/1(0)|9[210PS]/1200|1|125000|11/11days|2|6 Improved Living Amenities, 10-man Life Raft|r3.162|
+3-Others
+4-* Marine Tech Dolphine II        17|3|15/45|3|0|3|2|5/2days|50000|2|sr2.???|
+4-* Harland & Wolff Classique      17|5|15/45|6|0|2|4|35/17days|3500000|2|sr2.???|
+4-* Blohm&Voss River Commander     17|4|25/75|6|9|3|3|30/15days|300000|2|sr2.???|
+4-* Blohm&Voss Type 1322 Korvette  17|4|40/100|7|12|3|4|1500/750days|15000000|2|sr2.???|
+4-* GMC Riverine Assault Model     17|3|30/90|4|6|3|2|12/6days|125000|2|sr2.???|
+4-* GMC Riverine Police Model      17|3|30/90|4|6|3|2|12/6days|150000|2|sr2.???|
+4-* GMC Riverine Security Model    17|3|30/90|4|6|3|2|12/6days|200000|2|sr2.???|
+4-* Surfstar Marine Seacop         17|3|30/90|3|6|3|2|5/2days|50000|1|sr2.???|
+4-* Vulkan Typ 224 Jagd-U-Boot     17|5|30/70|7|12|6|2|1600/800days|16000000|2|sr2.???|
+2-Cars
+3-Armored Personnel Carriers(APCs)
+4-* BAE Agincourt APC              24|4/4|80/6|7/6|5/3|-/0|48/1000|1+1+2b|256700|13/13days|3.00|Medium turret (heavy mortar 5 CF Ammo Bin), Electronics port (with Rating 3 radio)|sota.78
+4-* Ferrari Appaloosa Light Scout  24|2/3|125/10|6/9|5/2|-/6|5/625|3+1b|775300|-|3|ECM 5, ECCM 5, Medium Turret(12 CF Ammo Bin), Folding Bench Seat, Improved Sig 2(factored in), RAM 2(factored in), Thermal Baffles 2(factored in)|r3.163|
+4-* LAV-93 Devil Rat               24|5/4|75/5|7/12|3/2|-/0|12/2800|2+2b|260100|23/23days|3|Amphibious Operation 1, Electronics Port w/Radio(Rating 2 0.6CF), Gas Enviroseal, Small Remote Turret(2 CF Ammo Bin), Improved Sig 1(factored in), Thermal Baffles 1(factored in), 2 Folding Bench Seats|r3.163|
+4-* LAV-103 Striker Light Tank     24|5/4|75/5|7/15|3/2|-/0|12/1865|3|305100|26/26days|3|Amphibious Operation 1, Electronics Port w/Radio(Rating 2 0.6 CF), Gas Enviroseal, Medium Remote Turret(10 CF Ammo Bin), Improved Sig 1(factored in), Thermal Baffles 1(factored in)|r3.163|
+4-* Ruhr. Falkener Air Defense APC 24|4/4|90/7|7/6|4/2|-/8|22.5/1010|1+2+1b|619600|31/1month|3.00| ECCM 6, ECD 4, EnviroSeal (Gas with Cabin Overpressure), Medium Turret (Vigilant Autocannon on AA-mount 15 CF Ammo Bin Medium Launch Control System 8 Internal Missile Mounts), Radar Absorbent Materials 1 (factored in), Electronics Port (with Rating 3 Radio), Thermal Baffles 1 (factored in)|sota.78
+4-* Ruhr. Frettchen                24|4/4|85/6|10/22|11/2|-/10|10/1445|4|16800000|-|4.00|Amphibious Operation 3, Contingency Maneuver Controls 3, Drive-by-Wire 2, ECD 6, ECCM 9, ED 6, EnviroSeal (gas water engine), Large Smoke Projector, Life Support(100 man-hours), Medium Turret(AA capable 6 CF for 6000 rounds of HMG ammo), Radar Absorbent Materials 3, Rigger Adaptation, Ruthenium Polymer Masking (with 40 picture files), Smart Materials|sota.78
+4-* Ruhr. Keller A4                24|4/4|120/10|10/28|2/2|-/7|12/1775|4|4600000|-|4.00|Amphibious Operation 3, Contingency Maneuver Controls 9, Drive-by-Wire 1, EnviroSeal(gas water engine), 2x4 External Rocket Mounts, Large Smoke Projector, Large Turret(1.6 CF ammo bin for 160 railgun slugs), Life Support(100 Man-Hours), Medium Launch Control Systems, Micro-turret(AA capable Recoil Adjustment 4 0.5 CF ammo bin for 5000 rds HVAR ammo), Rigger Adaption, Smart Armor System, Smart Materials|sota.78
+4-* Ruhr. Leopard III              24|4/4|90/8|12/40|4/2|-/8|33/2095|3|7290000|-|4.00|Contingency Maneuver Controls 6, Drive-by-Wire 2, Rigger Adaptation, EnviroSeal(gas water engine), 2x4 External Rocket Mounts, Extra-Large Turret(0.8 CF Ammo Bin for 80 railgun projectiles), Large Smoke Projector, Life Support(150 man-hours), Medium Launch Control System, Micro-turret(AA capable Recoil Adjustment 4 1 CF Ammo Bin for HVAR ammo), Radar Absorbent Materials 2, Smart Materials, Thermal Baffles 2, Turbocharging 1|sota.78
+4-* Ruhrmetall Wolf II AFV APC     24|3/5|105/8|6/12|2/2|-/-|9/900|6|332200|26/26days|3.00|EnviroSeal (with gas seal and cabin overpressure), Life Support (60 man-hours), Runflat Tires, Small Turret (AA capable), Thermal Baffles 2, Turbocharging 2|sota.78
+4-* S-D Kreuzritter Propelled Gun  24|5/5|75/6|7/6|2/3|-/2|16/2000|1+1+3b|279400|14/14days|3.00|EnviroSeal (with gas seal and cabin overpressure), Medium Turret (Light Howitzer 10 CF Ammo Bin), Electronics Port (with Rating 3 Radio)|sota.78
+4-* U-D Semaphore Command Center   24|4/4|90/7|7/6|4/4|-/7|18.75/3507|1+2+1+2|1196500|NA|3.00|ECM8, ECCM8, ED5, ECD6, Electronics Port (with Remote Control Deck 6 Rigger Protocol Emulation Module 6 Signal Amplifier 6), Remote Control Encryption Unit 6, Small Remote Turret (2 CF Ammo Bin), 4 Additional Electronics Ports|sota.78
+3-Industrial Movers
+4-* Mesametric Kodiak              24|5/4|20/2|4/12|3/-|2/3|0/1025|-|75500|4/4days|2|Remote-Control Interface, Rigger Adaptation, Off-Road Suspension 2(factored in), Improved Suspension 2(factored in), Crane(Scoop 1000kg), Dozer Blade|r3.163
+3-Limousines
+4-* Mitsubishi Nightsky            24|4/8|120/8|4/2|2/4|-/1|10/60|8|171200|13/13days|2|APPS, Concealed Armor, Roll Bars, Gas Enviroseal, Electronics Port w/Sat Uplink|r3.164|
+4-* Rolls-Royce Phaeton            24|4/4|140/8|4/4|2/4|-/1|6/30|8+1b|218800|15/15days|2|APPS, Concealed Armor, Roll Bars, Gas Enviroseal, Electronics Port w/Sat Uplink, 3 Folding Bucket Seats|r3.164|
+3-RVs
+4-* Ford-Canada Bison              24|4/3|135/6|4/4|2/3|-/1|67/1918|2+5b|145000|8/8days|1|Concealed Armor, Folding Bench Seat, 2 Basic Living Amenities|sr3.309,r3.164|
+4-* Rolls-Royce Prairie Cat        24|3/2|120/4|4/4|2/3|-/1|36/1008|2+4b|113400|10/10days|2|APPS, Amphibious Operation 1, Concealed Armor, Electronics Port(Standard Portable Satellite Uplink 2CF), Roll Bars, 2 Improved Living Amenities|r3.164|
+3-Sand Buggies
+4-* Lockheed-Chenowth LSV          24|4/3|90/8|2/-|3/-|-/-|4/45|4|12300|8/8days|2|Electronics Port w/Radio(Rating 2 0.6CF), Roll Bars, Ring Mount|r3.165|
+4-* Rover Ascot                    24|3/2|90/9|3/6|5/2|-/0|3/120|2|50000|3/72hrs|2|Amphibious OPs Package I, Enviroseal (Water), optional Underwater Package includes Enviroseal (engine) and Amphibious ops Package II|tss.6|
+3-Sedans
+4-* Chrysler-Nissan Patrol-1       24|4/8|180/12|3/2|1/3|-/0|11/40|2+1b|43700|9/9days|2|Gas Enviroseal, Turbocharging 2(factored in), Electronics Port w/Radio(Rating 4 1.2CF), 2 Pintle Mounts|sr3.310,r3.165|
+4-* Chrysler-Nissan Cirrus         24|3/8|105/8|3/0|3/2|-/0|8/150|2+2|30000|2/24hrs|1|APPS|tss.6|
+4-* EMC Eurocar (M)                24|4/8|100/6|3/0|3/2|-/0|4/80|2+2|25000|2/24hrs|1||tss.6
+4-* EMC Eurocar (G)                24|4/8|110/8|3/0|3/2|-/0|4/100|2+2|27500|2/24hrs|1||tss.6
+4-* EMC Eurocar Hatchback (G)      24|4/8|110/8|3/0|3/2|-/0|4/100|2+2|30000|2/24hrs|1||tss.6
+4-* Ford Americar                  24|4/8|105/8|3/0|2/2|-/1|12/110|2+1b|20000|2/24hrs|1||sr3.308, r3.165|
+4-* General Products COP           24|4/8|90/6|3/1|4/1|-/0|18/155|2|34800|8/8days|2|Gridlink, Superconductive Drive 1|r3.165|
+4-* Lone Star Ford Americar        24|4/8|105/8|3/3|2/2|-/1|10/65|4|38500|8/8days|2|Lone Star|r3.165|
+4-* Pontiac Stratocruiser          24|3/8|150/10|3/0|3/2|-/0|4/80|2+2b|30000|2/24hrs|2|APPS|tss.6|
+4-* Toyota Elite                   24|4/8|120/12|3/0|2/4|-/1|11/100|4|66400|8/8days|2|APPS, Gas Enviroseal|r3.165|
+3-Snow Crawler
+4-* CAT Snowbear Standard          24|5/5|40/1|6/0|2/0|-/0|250/9700|2b+1B|186300|10/10days|1,00|Amphibious Operation 1|twl.133
+4-* CAT Snowbear Science           24|5/4|40/1|6/0|2/0|-/0|478 (378PS)/8950 (700PS)|2b+1B|407445|10/10days|1,00|Amphibious Operation 2, Datajack Port, Shop, Thermal Baffles 2 (factored in), 2 Basic Living Amenities|twl.133
+3-Sport Utility Vehicles
+4-* Gaz-Willys Nomad               24|3/3|100/9|4/0|2/2|-/0|18/850|2+1b|34500|2/48hrs|1|Roll Bars|r3.166|
+4-* GMC MPUV                       24|4/3|120/8|4/6|2/0|-/0|11/750|2+1b|70000|13/13days|3|Electronics Port w/Radio(Rating 3 0.9CF), Pintle Mount, Spotlight|r3.166|
+4-* Land Rover Model 2046(Van)     24|3/5|100/7|4/0|2/2|-/0|11/750|2+3b|32000|2/48hrs|1|3 Folding Bench Seats|r3.166|
+4-* Land Rover Model 2046(Pickup)  24|3/3|100/7|4/0|2/1|-/0|18/700|2+2b|29000|2/48hrs|1|2 Folding Bench Seats|r3.166|
+4-* Nissan-Holden Brumby           24|4/3|100/7|4/0|2/2|-/0|12/850|2+1b|19000|2/48hrs|1|Folding Bench Seat|r3.166|
+4-* Ruhr. Vogelhund                24|4/3|120/9|4/3|2/2|-/8|7.5/253|2+1|257000|13/13days|3.00|ECCM 4, ECD 3, Small Turret(2 medium launch control systems 8 internal missile mounts), Radar Abosorbent Materials 1(factored in), Electronics Port (w Radio Rating 3), Thermal Baffles 1(factored in)|sota.78
+4-* Toyota Gopher                  24|4/4|105/7|4/0|2/2|-/0|38/500|2|29500|2/48hrs|1|Roll Bars|r3.166|
+3-Sports Cars
+4-* Audi Avus                      24|3/8|250/15|3/0|1/3|-/1|3/40|2|195000|4/7days|2|Crash Cage, datajack link, optional Rigger Control Gear (does not require CF)|tss.6|
+4-* Aztechnology Atalante          24|4/8|200/12|3/0|3/3|-/0|6/40|1|400000|4/8days|2|APPS, Anti-theft IV, Enviroseal (gas), Optional Crash Cage and Datajack Port|tss.6|
+4-* Crystler-Nissan Camaro         24|4/8|110/9|3/0|2/1|-/0|5/50|2+2b|30000|2/48hrs|1||tss.6
+4-* Crystler-Nissan Camaro Turbo   24|4/8|160/10|3/0|1/1|-/0|4/60|2+2b|35000|3/72hrs|1||tss.6
+4-* EMG Slipstream                 24|3/8|225/10|3/0|1/3|-/1|4/40|2|95000|3/72hrs|2|APPS|tss.6|
+4-* Eurocar Westwind 2000          24|3/8|210/10|3/0|2/3|-/1|5/45|2+1b|57000|3/72hrs|2|APPS|sr3.308, r3.167|
+4-* Eurocar Westwind 2000 Turbo    24|3/8|240/14|3/0|1/3|-/1|5/45|2+1b|77000|4/96hrs|2|APPS, Turbocharging 2|sr3.308, r3.167|
+4-* Ferrari Open-Wheel Racer       24|2/7|311/21|3/0|2/0|-/2|6/95|1|210300|11/11days|3|Smart Materials, Nitrous Oxide Injectors 6, Datajack Port, Rigger Adaptation, Crash Cage|r3.167|
+4-* Honda-GM 3220                  24|4/8|160/10|3/0|2/1|-/0|3/40|4|28000|2/48hrs|1||r3.167|
+4-* Honda-GM 3220 Turbo            24|4/8|190/14|3/0|1/2|-/0|3/40|4|44000|3/72hrs|1|Turbocharging 2(factored in)|r3.167|
+4-* Isdera Warp                    24|4/7|240/18|3/6|2/0|0/2|0/50|1+1b|400000|4/73hrs|2|Roll Bars, Datajack Port, Rigger Controls, APPS, Performance Runflat Tires, Remote mini-popup, Satt Uplink|tss.6|
+4-* Lone Star Honda-GM 3220 Turbo  24|4/8|190/14|3/1|1/2|-/0|3/15|4|49000|9/9days|2|Turbocharging 2(factored in)|r3.167|
+4-* Saab Dynamit 778 TI            24|4/8|250/15|3/0|1/3|-/1|3/45|2+1b|92000|5/5days|2|APPS, Roll Bars, Turbocharging 2(factored in)|r3.167|
+3-Subcompacts
+4-* Aztechnology Salsa (E)         24|4/8|75/5|3/0|5/1|-/0|3/60|2+2b|12500|3/48hrs|1|Modula design comes with Hardtop Module.  Flatback/Pickup module adds 15CF and costs 500, Transport Module adds 10CF ad costs 750.  any module adds 1/1 to handling|tss.6|
+4-* Chrysler-Nissan Jackrabbit(E)  24|3/8|80/5|3/0|5/1|-/0|1/100|2+1b|20500|2/24hrs|1|Folding Bench Seat, Electric|sr3.307, r3.168|
+4-* Chrysler-Nissan Jackrabbit(M)  24|3/8|90/6|3/0|4/1|-/0|1/100|2+1b|16500|2/24hrs|1|Folding Bench Seat, Methane|sr3.307, r3.168|
+4-* Daimler Benz Swatch C          24|2/7|100/5|3/0|6/4|1/0|2/40|2|80000|2/24hrs|1|APPS, Anti-Theft System V, Gridlink, optional Suncell and roof rack|tss.6|
+4-* Ford-Min Pao Commuter          24|4/8|70/4|2/0|5/1|-/0|1/40|2|7000|2/24hrs|1|electric, streamlined design|tss.6|
+4-* Ford-Min Pao Spider            24|4/8|150/10|3/0|1/1|-/0|1/80|2|18000|3/48hrs|1|APPS|tss.6|
+4-* Leyland-Zil Tsarina(E)         24|4/8|60/4|3/0|5/1|-/0|2/50|2|16000|2/24hrs|1|Electric|r3.168|
+4-* Leyland-Zil Tsarina(M)         24|4/8|100/6|3/0|4/1|-/0|3/100|2|12500|2/24hrs|1|Methane|r3.168|
+4-* Mitsubishi Citycab             24|3/10|90/5|2/3|6/4|3/2|1/40|1|75000|2/24hrs|1|Electric, APPS, Antitheft VII, Enviroseal, Gridlink, Learning Pool 2 (for defense decisions), optional roof rack and Roll Bars|tss.6|
+4-* Mitsubishi Runabout            24|4/8|75/5|3/0|5/1|-/0|1/50|1|12200|2/24hrs|1||r3.168|
+4-* Renault-Fiat Mulipla           24|4/8|90/6|3/0|4/1|0/0|4/40|2+2|10000|2/24hrs|1||tss.6|
+4-* Volkswagen Beetle III          24|3/6|90/5|3/0|6/2|-/0|5/50|2|12000|2/24hrs|1|Gridlink|tss.6|
+4-* Volkswagen Elektro             24|4/8|75/4|3/0|5/0|-/0|1/45|1|10000|2/24hrs|1||r3.168
+4-* Volkswagen Mayfly              24|3/6|75/3|3/0|6/1|0/0|3/30|2|6000|2/24hrs|1|Gridlink|tss.6|
+3-Tractors
+4-* Conestoga Trailblazer          24|4/8|90/3|5/0|2/2|-/0|6/18000|2+1b|152000|8/8days|1|Folding Bench Seat|r3.169|
+3-Transports-Heavy
+4-* GMC Tow Truck                  24|5/12|60/3|6/0|2/0|-/0|105/11495|2|142000|6/6 days|2.00|crash cage, load hydraulic flatbed and winch designed to cary up to rating 6 Bod vehicle (heavy transport trailer t-bird or smaller), diesel engine, 500L fuel capacity, 3km/l economy|cus.|
+4-* GMC 4201                       24|3/7|85/3|6/0|2/2|-/0|130/6500|2d+1x|80000|4/4days|1||r3.169|
+3-Transports-Medium
+4-* Ares Citymaster                24|5/11|120/3|5/10|1/3|-/0|41/530|2+5b|136300|13/13days|2|Gas Enviroseal, Life Support(20 man-hrs), Small Turret(1 CF Ammo Bin)|sr3.310,r3.169|
+4-* Ares Mobmaster                 24|6/12|120/3|5/14|1/4|-/0|40/575|2+5b|173000|19/19days|3|Gas Enviroseal, Life Support(30 man-hrs), Small Turret(1 CF Ammo Bin)|r3.169|
+4-* Ares Roadmaster                24|4/10|90/3|5/0|2/2|-/0|80/2000|2+1b|45000|3/3days|1||sr3.309, r3.169|
+4-* DocWagon Ares Citymaster       24|5/11|120/3|5/10|1/3|-/0|327[320 PS]/630[600 PS]|2+2b|677000|-|2.5|Anti-Theft System 6, Gas Enviroseal, Life Suport(20 man-hrs), Small Turret(1 CF Ammo Bin), Medical Clinic(3p/3t 4)|r3.169|
+4-* DocWagon CRT Ambulance         24|4/10|75/6|5/0|2/2|-/0|348[336 PS]/1750[800 PS]|2|537000|27/27days|1.5|Anti-Theft System 6, Medical Clinic(4p/4t 4)|r3.170|
+3-Vans
+4-* DocWagon SRT Ambulance         24|4/10|80/8|4/0|2/1|-/0|100[84 PS]/250[200 PS]|2|341250|18/18days|1.5|Anti-Theft System 6, Medical Clinic(1p/1t 4)|r3.170|
+4-* Ford E-255M Media Van          24|4/8|85/4|4/0|2/2|-/0|40/1180|1+1b|37900|2/48hrs|1|Electronics Port, Large Portable Satellite Dish, Power Amplifiers 4, Satellite Link 3|sta2.39|
+4-* GMC Bulldog Step-Van           24|4/8|85/4|4/2|2/2|-/0|50/1200|1+1b|32600|2/48hrs|1|Folding Bench Seat|r3.170|
+4-* GMC Bulldog Step-Van(Security) 24|4/6|85/4|4/5|2/2|-/0|50/960|1+1b|52600|9/9days|2|Folding Bench Seat|r3.170|
+4-* Leyland-Rover Trans(E Cl Bed)  24|4/8|90/5|4/0|5/2|-/0|70/430|2+1b|49000|3/72hrs|1|Folding Bench Seat, Electric, Closed Bed|r3.170|
+4-* Leyland-Rover Trans(E Mini)    24|4/8|90/5|4/0|5/2|-/0|64/130|2+3b|52000|3/72hrs|1|Folding Bench Seat, Electric, Minibus|r3.170|
+4-* Leyland-Rover Trans(E Pickup)  24|4/8|90/5|4/0|5/2|-/0|70/430|2+1b|49000|3/72hrs|1|Folding Bench Seat, Electric, Pickup|r3.170|
+4-* Leyland-Rover Trans(G Cl Bed)  24|4/8|105/8|4/0|2/2|-/0|44/1200|2+2b|51000|3/72hrs|1|Folding Bench Seat, Gas, Closed Bed|r3.170|
+4-* Leyland-Rover Trans(G Mini)    24|4/8|105/8|4/0|2/2|-/0|34/800|2+4b|51000|3/72hrs|1|Folding Bench Seat, Gas, Minibus|r3.170|
+4-* Leyland-Rover Trans(G Pickup)  24|4/8|105/8|4/0|2/2|-/0|50[46 PS]/1350|2+1b|51000|3/72hrs|1|Folding Bench Seat, Gas, Pickup|r3.170|
+4-* Lone Star Black Mariah USPTV   24|4/6|100/4|4/9|2/2|-/0|50/1255|2+1b|115000|12/12days|2|Gas Enviroseal, Life Support(12 man-hrs), 2 Mini-Turrets(1 CF Ammo Bin each)|r3.170|
+4-* Renault-Fiat Eurovan(Camper)   24|4/10|105/6|4/0|2/2|-/0|90/550|2+3b|53000|3/72hrs|1|Folding Bench Seat, Camper|r3.171|
+4-* Renault-Fiat Eurovan(Cov. Bed) 24|4/10|105/6|4/0|2/2|-/0|60/1500|2|34000|2/48hrs|1|Covered Bed|r3.171|
+4-* Renault-Fiat Eurovan(Pickup)   24|4/10|105/6|4/0|2/2|-/0|64/1500|2|38000|2/48hrs|1|Pickup|r3.171|
+4-* Rover Journeyman               24|3/8|125/7|3/0|3/3|-/0|8/600|2+2|50000|2/24hrs|1|Minivan, APPS, TDI Engine, Datajack Port, optional Rigger Adaptation|tss.6|
+4-* V-W Superkombi III             24|4/8|105/7|4/1|2/3|-/0|18/150|2+5b|46300|3/72hrs|1|Folding Bench Seat|r3.171|
+4-* V-W Superkombi III(Cov. Bed)   24|4/8|105/7|4/1|2/3|-/0|48/540|1+2b|47700|3/72hrs|1|Folding Bench Seat, Covered Bed|r3.171|
+4-* V-W Superkombi III(Flat Bed)   24|4/8|105/7|4/1|2/3|-/0|48/540|2|42700|3/72hrs|1|Folding Bench Seat, Flatbed|r3.171|
+4-* V-W Superkombi III(Pickup)     24|4/8|105/7|4/1|2/3|-/0|42/340|2+1b|42200|3/72hrs|1|Folding Bench Seat, Pickup|r3.171|
+4-* V-W Superkombi III(RV)         24|4/8|105/7|4/1|2/3|-/0|24/800|4+2b|50300|3/72hrs|1|Folding Bench Seat, RV|r3.171|
+3-Others SR2
+4-* BMW i985/24                    17|4/8|80/220|2|0|2|1|12/6days|125000|2|sr2.???|
+4-* BMW 9018s                      24|3/8|190/14|4/2|0/3|-/0|4/180|2+2+2|121200|-|-||cb1.20|
+4-* BMW Burowagen HSR              17|3/10|50/145|3|1|2|4|90/45days|900000|2|sr2.???|
+4-* Cadence Industries Wanderer    17|6/10|35/105|2|2|3|3|5/2days|50000|1|sr2.???|
+4-* Chrysler-Nissan Python Turbo   17|3/8|65/195|2|0|3|2|8/4days|85000|2|sr2.???|
+4-* Crowder                        17|5/10|25/55|1|1|6|1|2/1day|9000|.75|sr2.???|
+4-* Dune Buggy                     17|5/4|40/120|3|0|1|1|2/1day|15000|1|sr2.???|
+4-* EMC Carrona                    17|3/8|35/105|1|0|4|2|2/1day|15000|1|sr2.???|
+4-* EMC Intracity E                17|2/6|35/50|1|0|3/6|1|2/1day|8500|.75|sr2.???|
+4-* EMC Serena                     17|4/8|35/90|2|0|4|2|2/1day|19500|1|sr2.???|
+4-* Eurocar 3000                   17|3/8|60/180|2|0|3|3|7/3days|75000|2|sr2.???|
+4-* Honda Metrocar                 17|4/10|20/60|1|0|5|0|2/1day|7000|.75|sr2.???|
+4-* Max Interceptor                17|3/8|65/240|2|2|2|2|14/7days|140000|2|sr2.???|
+4-* Mercedes E160                  17|4/8|50/120|2|3|4|2|3/1day|26000|1|sr2.???|
+4-* Mercedes ER350                 17|3/8|80/210|2|3|3|2|14/7days|140000|2|sr2.???|
+4-* Mercedes L800                  17|3/8|70/170|5|9|3|4|45/22days|450000|2|sr2.???|
+4-* New American Autoworks Roadcar 17|4/8|35/105|1|0|3|1|2/1day|11000|1|sr2.???|
+4-* New American Motor's Drifter   17|4/8|35/105|3|1|2|2|9/4days|90000|2|sr2.???|
+4-* New American Motors Armadillo  17|6/10|35/105|4|3|1|1|8/4days|85000|2|sr2.???|
+4-* New American Motors Nautilus   17|6/10|35/105|2|1|1|0|3/1day|32000|1|sr2.???|
+4-* Porsche 996/37                 17|4/8|80/260|2|0|3|1|20/10days|200000|2|sr2.???|
+4-* Saab Dynamite 778TDI           17|4/8|80/250|2|3|1|3|25/12days|250000|2|sr2.???|
+4-* Takaya Daimyo                  17|3/8|65/200|2|0|4|3|4/2days|44000|1|sr2.???|
+4-* Toyo-Chevrolet '51 Chevy       17|3/7|40/120|2|0|5|1|3/1day|35000|1|sr2.???|
+4-* Toyo-Chrysler Omega            17|4/8|50/150|2|0|2|1|2/1day|20000|1|sr2.???|
+4-* Toyota Avante                  17|3/8|95/285|2|1|1|3|48/24days|480000|2|sr2.???|
+4-* Volkswagon Electra             17|3/6|20/60|1|0|5|0|2/1day|8000|.75|sr2.???|
+4-* VW Impuls                      17|3/8|35/90|1|0|5|2|2/1day|12000|1|sr2.???|
+4-* VW Integra                     17|4/8|50/100|2|0|4|2|2/1day|14000|1|sr2.???|
+3-Other3
+4-* Ambunaught                     17|4/8|30/95|5|4|1|2|20/10days|200000|2|cb1.21|
+4-* Audi A9 GTX Scirocco           24|3/3|140/15|3/3|2/3|2/0|3/300|2|45000|3/7days|2|Rally Car, no offroad speed change.  Roll bars, Datajack port, GPS, Rigger Control, Amphibious OPs Packages I-III, Secondary Controls, Spotlight, Satt Uplink|tss.6|
+4-* Conestoga Trailblazer          17|4/8|30/90|5|0|2|2|15/7days|150000|2|sr2.???|
+4-* Eurocar Blitz II               17|4/9|35/100|3|0|3|2|3/1day|32000|1|sr2.???|
+4-* GM/Hyundai Worker Bee          17|4/10|10/30|2|2|1|3|15/7days|150000|2|cb1.22|
+4-* New American Motors "Vulture"  17|6/11|35/105|5|4|2|0|21/10days|215000|2|sr2.???|
+4-* Nissan-Holden Brumbry          17|4/3|30/90|2|0|2|2|2/1day|25000|1|sr2.???|
+4-* Nordkapp-Conestoga (Command)   17|3/6|30/90|6|6|2|4|60/30days|600000|2|sr2.???|
+4-* Nordkapp-Conestoga (Cargo)     17|3/6|30/90|5|3|2|0|20/10days|200000|2|sr2.???|
+4-* Spinelli Autotech "Nomad"      17|4/2|45/135|2|1|3|2|5/2days|55000|2|sr2.???|
+4-* VW TT50 ATV                    17|3/3|40/100|3|3|2|2|3/1days|39000|1|sr2.???|
+4-* Yakurichi-Ural BR70            17|3/6|50/150|4|4|2|4|12/6days|120000|2|cp.20|
+4-* Arasaka Riot-VIII              17|4/9|55/160|8|3|1|3|250/125days|250000|2|cb1.22|
+4-* Ares Mobmaster                 17|4/10|30/120|5|15|2|5|365/182days|3650000|2|sr2.???|
+4-* Ferrari Appaloosa Light Scout  17|2/3|100/200|3|9|5|2|100/50days|1000000|2|sr2.???|
+4-* General Products COP           17|4/9|30/90|1|3|4|1|2/1day|25000|1|sr2.???|
+4-* GMC MPUV                       17|5/3|40/120|2|9|4|0|2/1day|22000|1|fof.63|
+4-* Harley Electraglide-1000       17|3/4|95/285|3|6|2|1|7/3days|75000|2|sr2.???|
+4-* LAV-98 "Devil Rat" APC         17|5/3|25/75|3|12|6|2|25/12days|250000|2|fof.64|
+4-* LAV-103 "Striker" Light Tank   17|6/4|25/75|5|15|6|2|48/24days|480000|2|fof.65|
+4-* MAN BGS-TF3                    17|4/6|35/140|4|12|2|3|40/20days|400000|2|sr2.???|
+4-* M-62 "Volcano" SAM Launcher    17|3/4|20/55|6|4|5|2|950/475days|9500000|2|sr2.???|
+4-* Mercedes PE Kommando           17|3/6|40/200|3|6|3|2|35/17days|350000|2|sr2.???|
+4-* Ruhrmetall Wolf II AFV         17|3/4|90/180|4|9|4|2|60/30days|600000|2|sr2.???|
+2-Fixed Wing Aircraft
+3-Airliners
+4-* Hawker-Ridley HS-895 Skytruck  24|5|135(320)/22|9/0|3/3|-/1|260/9000|2+40b|1131250|-|1.00||r3.178
+4-* Lockheed C-260 Transport       24|6|150(600)/35|9/12|2/3|-/1|3000/55000|5|5876500|-|1.00||r3.178
+3-High Speed Commercial Airliners
+4-* Lockheed "Arrow" HSCT          24|6|125(2500)/60|10/0|2/4|-/3|250/15000|204|8275000|NA|1.00|6 Partial Basic Living Amenities|r3.178
+4-* Airbus A1570 HSCT              24|6|125(3000)/80|10/0|2/4|-/4|360/10000|124|8040000|NA|1.00|Rigger Adaption, 6 Partial Basic Living Amenities|r3.178
+3-Jet Fighters
+4-* Aztech Halcon GAA              24|5|150(1800)/80|7/12|6/4|-/9|3/2600|1e|4500000|NA|3.00|Gas Enviroseal, 2 External Fixed Hardpoints, 7 External Missile Mounts, Thermal Baffles 4 (factored in), ECM 9, ECCM 9, 3 Medium Launch Control Systems|r3.179
+4-* Bac-Dessault-MBB EFA Variants  24|4|150(2000)/150|7/6|5/3|-/7|2/1700|1e|2137500|NA|3.00|Gas Enviroseal, External Fixed Hardpoint, 4 External Missile Mounts, Thermal Baffles 2 (factored in), ECM 4, ECCM 5, 2 Medium Launch Control Systems|r3.179
+3-Single Engine Aircraft
+4-* Fiat-Fokker Cloud Nine         24|4|60(200)/21|4/0|4/2|-/1|9/325|2+2b|315000|16/16 days|1.00|Floatation Package, 2 Folding Bucket Seats|r3.179
+3-Twin Engine Aircraft
+4-* CASA J-239 Raven               24|3|135(400)/30|6/0|3/1|-/4|44/450|2|331000|17/17 days|1|Customised Engine(factored in), 2 External Hardpoints |r3.180
+4-* Cessna C750(Cargo)             24|5|135(340)/22|6/0|4/2|-/1|48/1100|2|177000|9/9 days|1.00||sr3.310,r3.180
+4-* Cessna C750(Passenger)         24|5|135(340)/22|6/0|4/2|-/1|36/500|4|167000|9/9 days|1.00||sr3.310,r3.180
+4-* Embraer-Dassault Mistral       24|4|135(300)/21|6/0|4/2|-/1|12/600|17|362000|18/18 days|1.00||r3.180
+4-* Lear-Cessna Platinum I         24|4|135(330)/24|6/0|4/3|-/2|29/400|2+3b|213000|15/15 days|2.00|3 Folding Bench Seats|r3.180
+4-* Lear-Cessna Platinum II        24|4|135(800)/40|6/0|3/4|-/2|35/1000|2+2b|427000|26/26 days|2.00|2 Folding Bench Seats|r3.180
+3-Ultralights
+4-* Artemis Nightglider            24|3|10(60)/4|2/0|9/1|-/0|4/190|1|46500|3/72 hrs|1.00||r3.181
+4-* Moonlight Aerospace Avenger    24|4|40(200)/21|2/4|6/2|0/1|0/58|1|50000|3/72 hrs|2.00|2 External Firmpoints|r3.181
+3-Vectored Thrust
+4-* Renraku Tendai LAV             24|4|700/30|7/15|3/4|4/8|36/15000|3+12|20000000|-|3.00|ECM/ECCM Military, level unknown.  2 external drone racks, 2 small remote turrets, 20 Naga AP mines, 4 automatic grenade launchers|tss.6
+3-SR2 Others
+4-* Airbus A110                    17|5|420/550|6|0|3|3|90/45days|900000|2|sr2.???|
+4-* Dornier Europa                 17|4|380/580|4|0|3|3|33/16days|330000|2|sr2.???|
+4-* Dornier K2                     17|4|120/300|3|3|6|1|17/8days|170000|2|sr2.???|
+4-* Dornier Wal II                 17|4|320/480|7|0|3|2|85/42days|850000|2|sr2.???|
+4-* Embraer-Dessault Mistral       17|4|300/450|4|0|3|2|37/18days|375000|2|sr2.???|
+4-* Federated Boeing Eagle         17|3|900/1800|5|12|5|3|500/250days|50000000|-|sr2.???|
+4-* Hawker-Ridley HS-895           17|5|400/600|5|0|3|2|250/125days|2500000|2|sr2.???|
+4-* Piper Montebank                17|2|300/500|3|0|3|2|5/2days|50000|2|sr2.???|
+4-* ATF-37B Thunderhawk            17|3|600/1385|8|2|5|5|1250/625days|12500000|2|sr2.???|
+4-* BAC-Dassault-MBB EFA Variants  17|3|950/1900|4|6|4|3|500/250days|5000000|2|sr2.???|
+4-* C-60 Titan Medium Transport    17|7|150/350|5|12|4|3|70/35days|700000|2|fof.66|
+4-* CASA J-239 Raven               17|3|200/400|3|0|4|1|17/8days|175000|2|sr2.???|
+4-* EFA 50/IV                      17|3|1000/2000|4|9|6|3|1200/600days|12000000|2|sr2.???|
+4-* Federated Boeing Eagle         17|3|900/1800|5|12|5|3|5000/2500days|50000000|2|sr2.???|
+4-* Fed-Boeing Falcon              17|4|135/400|4|1|4|2|250/125days|2500000|2|sr2.???|
+4-* GD Hummingbird                 17|3|400/800|4|2|2|3|150/75days|1500000|2|sr2.???|
+4-* GF F-36 Comet                  17|1|830/1860|7|2|5|3|450/225days|4500000|2|sr2.???|
+4-* Lockheed-Cessna Pinto          17|3|265/600|6|2|4|2|1050/525days|10500000|2|sr2.???|
+4-* McDonnell Douglas C111         17|4|120/275|3|4|3|3|75/37days|750000|2|sr2.???|
+4-* MDD F-33 Wasp                  17|2|730/1660|8|2|3|3|350/175days|3500000|2|sr2.???|
+4-* Moonlight Aerospace Avenger    17|4|100/200|3|9|8|2|25/12days|250000|2|sr2.???|
+4-* Night Glider                   17|3|15/60|1|0|12|1|4/2days|45000|1|fof.62|
+4-* TYPHON Hunter                  17|3|1000/2000*|5|8|6|3|NA|8000000|NA|fra.142|
+2-Hovercraft
+3-Heavy Hovercraft
+4-* GMC-Nissan Hovertruck          24|5|120/5|5/0|2/1|-/0|94/1850|2+1b|200000|10/10 days|1|Folding Bench Seat|r3.181
+4-* GMC-Nissan Hovertruck          17|4|40/120|4|0|5|1|10/5days|100000|2|sr2.???|
+4-* NT Vodianoi Personnel Carrier  24|4|150/10|5/6|4/3|-/4|42.5/2400|1+2+2b+2b|468600|24/24days|3.00|EnviroSeal (Gas with Cabin Overpressure), Radar Absorbent Materials 1 (factored in), Electronics Port (with Rating 3 Radio), Thermal Baffles 1 (factored in), 2 Ring Mounts|sota.78
+4-* NT Vodianoi Assault Craft      24|4|150/10|5/6|4/3|-/4|26.5/2375|1+2+2b+2b|489600|25/25days|3.00|EnviroSeal (Gas with Cabin Overpressure), Radar Absorbent Materials 1 (factored in), Electronics Port (with Rating 3 Radio), Thermal Baffles 1 (factored in), Small Turret (5 CF Ammo Bin), Medium Launch Control System, 8 Internal Missle Mounts|sota.78
+3-Light Hovercraft
+4-* Silkorsky-Bell Red Ranger      24|3|270/16|3/2|2/3|-/1|10/98|2|336000|17/17 days|1.00|Amphibious Operation 3|r3.181
+3-Medium Hovercraft
+4-* Chrysler-Nissan G12A(cargo)    24|4|120/5|4/0|2/2|-/0|66/1000|2|62000|4/96 hrs|1.00||sr3.309, r3.182
+4-* Chrysler-Nissan G12A(passenger)24|4|120/5|4/0|2/2|-/0|12/250|10|57000|3/72 hrs|1.00||sr3.309, r3.182
+4-* Chrysler-Nissan G14 "Swampy"   24|4|120/5|4/12|3/4|-/0|21/400||750000|10/10 days|2.0|medium turret (weapon n/i), provisions for 2 drone racks or 4CF AA missiles|tss.6|
+4-* GMC Beachcraft Patroller       24|4|165/9|4/6|1/2|-/0|65/510|2|176000|15/15 days|2.00|External Fixed Hardpoint (1 CF Ammo Bin)|sr3.311,r3.182
+4-* GMC Beachcraft Vacationer      24|4|105/7|4/0|2/3|-/0|180[174 PS]/1250[600 PS]|2+2b|289000|15/15 days|1.00|Basic Living Amenities|r3.182
+4-* Lone Star SWAT Hovertruck      24|4|120/8|4/6|2/3|-/0|28/870|2+5b|214000|17/17 days|2.00||r3.182
+4-* Mostrans KVP-14T(standard)     24|4|180/9|4/0|2/1|-/0|72/800|2|124000|7/7 days|1.00||r3.182
+4-* Mostrans KVP-14T(passenger)    24|4|180/9|4/0|2/1|-/0|18/300|11b|143000|8/8 days|1.00||r3.182
+3-Others
+4-* Bensen Cascade                 17|7|115/350|2|1|2|2|20/10days|200000|2|cb1.19|
+4-* Bensen Violator                17|4|65/200|1|0|2|2|10/5days|100000|2|sr2.???|
+4-* Dornier Manta                  17|3|60/150|4|0|4|2|8/4days|80000|2|sr2.???|
+4-* MAN Titan                      17|4|40/120|5|0|2|1|14/7days|140000|2|sr2.???|
+4-* MK QuietGlide                  17|4|40/110|4|0|4|2|10/5ays|100000|2|sr2.???|
+4-* MosTrans KVT-2                 17|5|35/105|14|30|3|4|9000/3000days|90000000|2|sr2.???|
+4-* Nissan Ford FanMaster          17|5(6)|35/135(3/7)|3|2|4|2|20/10days|200000|2|sr2.???|
+4-* GMC-Beachcraft Striker         17|4|80/200|4|6|5|2|500/250days|500000|2|sr2.???|
+4-* GMI HovTransport               17|5|65/200|4|4|4|2|720/360days|720000|2|sr2.???|
+4-* Ruhrmetall Orkan LK            17|5|60/140|4|12|4|2|80/40days|800000|2|sr2.???|
+4-* Sikorsky-Bell "Red Ranger" ACV 17|4/6(3/5)|150/450(30/90)|2|6|3(8)|3|25/12days|250000|2|sr2.???|
+2-Rotorcraft
+3-Attack Helicopters
+4-* Aztechnology Aguilar-EX        17|4|280/560|3|6|4(8)|4|260/130days|2600000|2|sr2.???|
+4-* Aztechnology Aguilar-EX        24|4|350/27|5/5|2/4|-/7|2/1560|2|1508250|NA|3.00|External Fixed Hardpoint, 5 External Missle Mounts, ECM 6, ECCM 7, 2 Medium Launch Control Systems|r3.183
+4-* Eurocopter Tiger               24|3|300/21|5/5|3/3|-/5|3/1600|2|982500|-|3.00|Crash Cage, Datajack Port, Drive-by-Wire 1, ECM 2, ECCM 2, 2 External Fixed Hardpoints (located under chin), Medium Launch Control System, Rigger Adaptation, 2x3 Rocket Mounts (Wingtip)|sota.78
+4-* M-K Sperber Military Variant   24|4|350/32|5/9|5/3|-/6|2/580|2|1380000|-|3.00|ECM 5, ECCM 5, Thermal Baffles 1, 4 External Rocket Mounts and 1 Fixed Firmpoint on each Wing (8 mounts and 2 firmpoints total), Medium Launch Control System, Mini-Turret (located under chin)|sota.78
+4-* M-K Sperber Security Variant   24|4|350/32|5/5|4/3|-/5|5/880|2|1123250|-|2.00|ECM 2, ECCM 2, 2x3 External Rocket Mounts (Wingtip), Medium Launch Control System, Mini-Turret (located under chin)|sota.78
+3-Autogyros
+4-* Ilyushin-Greifswald Argus      24|3|275/20|2/6|4/3|-/5|1/25|1|200000|7/7Days|2.0|Remote Popup Micro-Turret (weapon n/i), optional pintle mount for pilot|tss.6
+4-* Northrup Mosquito PRC-51F      24|2|120/18|2/3|5/2|-/4|1/20|1|250000|4/4Days|2.0|ECM 1, ECCM 2, Micro-Turret (weapon n/i), optional missile pods|tss.6
+4-* Northrup Wasp PRC-42B          24|3|130/15|3/0|3/0|-/2|2/72|1|54000|9/9 days|2.00|ECCM 1,Micro-Turret (weapon n/i)|sr3.311,r3.183
+4-* Northrup Wasp PRC-42F          24|3|130/15|3/2|4/0|-/2|2/32|1|72000|10/10 Days|2.00|ECCM 1,Micro-Turret (weapon n/i)|r3.183
+4-* Northrup YellowJacket PRC44B   24|4|130/15|3/0|3/0|-/2|1/52|1|52000|9/9 days|2.00|ECCM 1,Micro-Turret (weapon n/i)|r3.183
+4-* Northrup YellowJacket PRC44F   24|4|130/15|3/2|4/0|-/2|1/27|1|76000|10/10 Days|2.00|ECCM 1,Mini-Turret (weapon n/i)|r3.183
+3-Cargo Helicopters
+4-* Ares Dragon                    24|5|260/10|7/0|3/3|-/1|95/3250|3|590000|30/1Month|1||sr3.310,r3.184|
+4-* Hughes Airstar                 24|4|200/16|7/6|3/4|-/1|226/2100|11|1330500|n/a|1|Concealed Armor, Partial High Living Amenities|r3.184|
+3-Tilt Wing Airplanes
+4-* Ares TR-55 Class C             24|5|320/12|5/5|4/3|-/1|24/100|2+3b|338000|17/17Days|1.00|3 Folding Seats,VTOL|r3.184|
+4-* Ares TR-55 Class E             24|5|350/12|5/0|4/3|-/1|25/500|11|338000|21/21 Days|2|VTOL|r3.184|
+4-* Ares TR-55 Class T             24|5|350/12|5/0|4/3|-/1|7/500|14|350000|18/18Days|1.00|VTOL|r3.184|
+4-* Doc Wagon CRT Air Unit         24|5|320/8|7/0|1/3|-/1|2[336 PS]/350[800 PS]|2|1266750|-|2.50|VTOL, Anti-Theft System (Rating 6), 2 External Hardpoints, Medical Clinic(2 patients Rating 4)|r3.184|
+4-* Doc Wagon Osprey II            24|5|380/10|5/3|2/3|-/1|12[168 PS]/300[400 PS]|2|935000|-|2.50|VTOL, Anti-Theft System (Rating 6), 2 External Hardpoints, Medical Clinic(2 patients Rating 4)|sr3.311,r3.184|
+4-* Fed-Boeing Commuter            24|5|320/10|5/0|4/3|-/1|6/850|17|318000|16/16Days|1.00||r3.184|
+3-Utility Helicopters
+4-* Agusta-Clerva Plutocrat        24|4|290/17|4/2|3/4|-/1|7/240|2+1b|421000|26/26 Days|2.00|2 Folding Bucket Seats, Reinforced Bench Seats, Partial High Living Amenities, Electronics Port w/Satelite uplink|r3.184
+4-* Agusta-Clerva Plutocrat (S)    24|4|290/17|4/2|3/4|-/1|8/140|2+1b|517000|-|2.00|2 Folding Bucket Seats, Reinforced Bench Seats, Partial High Living Amenities, Electronics Port w/Satelite uplink, Small Turret|r3.184
+4-* Doc Wagon SRT                  24|5|250/18|4/0|3/3|-/1|5[84 PS]/500[200 PS]|1|773750|-|1.50|Anti-Theft System (Rating 6),Medical Treatment Gear (1 patient), Carries 1 patient 1 medtech and a pilot|r3.184
+4-* E-D Dorocilo(base)             24|4|350/15|5/0|3/4|-/0|55/2400|2|550000|11/10 Days|1.00|base model, no toys|tss.6
+4-* E-D Dorocilo(cargo)            24|4|350/15|5/0|3/4|-/0|555/2400|2|575000|11/10 Days|1.00|back ramp, side door|tss.6
+4-* E-D Dorocilo(commuter)         24|4|350/15|5/0|3/4|-/0|87/2400|2|600000|15/15 Days|1.00|4x2-aisle-2 bucket seats, side door|tss.6
+4-* E-D Dorocilo(Luxury)           24|4|350/15|5/0|3/4|-/0|65/2400|2|800000|18/18 Days|2.00|4 comfy bucket seats, 3 person couch + 2 foldup bendhes, 2 mahogany desks, comm/entertainment suite, satt Matrix uplink, kitchen, bar, side door |tss.6
+4-* E-D Dorocilo(Troop Carrier)    24|4|350/15|5/9|3/4|-/0|85/2400|2|750000|260/130 Days|3.00|10 oversized bucket seats, weapon rack, tac comm, 2 side doors and back ramp|tss.6
+4-* E-D Dorocilo(Drone Carrier)    24|4|350/15|5/9|3/4|-/0|305/2400|2|1050000|260/130 Days|3.00|4 external drone racks, internal storage for 2 cars or 4 Steel Lynx-sized vehicles or drones, drone rearmament and recharge facility, Speed 250 when loaded|tss.6
+4-* Fuchi Tsumukari                24|6|400/20|6/12|3/4|4/8|505/800|3+12|7500000|260/130 Days|3.00|cargo space for 12 men and a manned APC, medium remote turret(rotary autocannon), 4 remote micro-turrets(2xTwin LMG), 4CF AA missiles, 8CF AG rockets, 4CF AG missiles, 4CF air-drop AP mines|tss.6
+4-* Hughes WK-2                    24|5|190/14|4/0|3/3|-/1|70/1250|2|257500|13/13 Days|1.00||sr3.310,r3.184
+4-* Doc Wagon Hughes WK-2          24|5|190/14|4/6|1/3|-/1|4[84 PS]/200[200 PS]|2|828750|-|2.50|Anti-Theft System (Rating 6), 2 External Hardpoints, Medical Treatment Gear (2 patients)|r3.184
+3-Others
+4-* Aztechnology Aguilar-EX        17|4|280/560|3|6|4(8)|4|260/130days|2600000|2|sr2.???|
+4-* Bell UH-10 PAPC                17|5|90/180|8|4|5|4|185/92days|1850000|2|sr2.???|
+4-* COUGAR                         17|2|360/720|2|4|5|3|NA|5400000|NA|fra.143|
+4-* Mil-62                         17|4|240/480|4|8|4|3|190/95days|1900000|2|sr2.???|
+4-* MK Sperber                     17|4|240/430|4|9|4|3|300/150days|3000000|2|sr2.???|
+4-* PRC-42F Wasp                   17|2|65/100|2|6|7|0|27/13days|274000|2|fof.70|
+4-* PRC-44F Yellowjacket           17|3|65/100|3|9|7|0|39/19days|390000|2|fof.70|
+4-* Sikorsky-Mitsubishi Dragon     17|4|280/560|8|9|2|4|500/250days|5000000|2|cb1.23|
+4-* UH-90 Utility/Squad Helicopter 17|4|230/270|4|3|3|3|100/50days|1000000|2|sr2.???|
+4-* Aztechnology Aguilar-EX        17|4|280/560|3|6|4(8)|4|260/130days|2600000|2|sr2.???|
+4-* COUGAR                         17|2|360/720|2|4|5|3|NA|5400000|NA|fra.143|
+4-* MK Sperber                     17|4|240/430|4|9|4|3|300/150days|3000000|2|sr2.???|
+2-Ships
+3-Aircraft Carriers
+4-* MF Akihito-Class Supercarrier  24|5|45(20)/3|9/12|1(2)/4|-/10(2)|2984748[158500 PS]/8424995[1425000 PS]|-|999999999|-|1|Actual cost: 9 BILLION NUYEN,Aircraft Facilities (10 facilities 80 planes), Flight Deck (325m Angled Catapult/Arrestor), ECCM 10, ECD 6, 2 Remote Large Turrets (12 medium Internal Missle Mounts Each), 4 Medium Launch Control Systems, 4 Remote Medium Turrets w/ANDREWS System, 5500 Basic Living Amenities, 500 Improved Amenities|r3.186
+3-Corvette
+4-* CSS Stuart Class Corvette      24|3|70(30)/5|3/3|3(4)/4|-/4(4)|302[3600 PS]/2500[52500 PS]|-|60000000|-|1.00|Medium Remote Turret (Victory Autocannon w/ 500 rnds in 2 CF ammo bin), 2 Medium Remote Turrets (8 Medium Internal Missle Mounts), 2 Launch Control Systems, 35 Basic Living Amenities|r3.186
+3-Frigate
+4-* Shiawase Aohana-Class Frigate  24|4|45(20)/4|4/3|2(4)/4|-/6(4)|6889[21250 PS]/75000[668000 PS]|-|116000000|-|1.00|Aircraft Facilities (1 Helicopter), Medium Remote Turret (Light Naval Gun w/500 rds in 16 CF ammo bin), Medium Remote Turret (Victory Autocannon w/2000 rds in 13 CF ammo bin), 2 Torpedo Tubes (20 torpedoes w/autoloader), 6 Heavy Launch Control Systems, 24 Heavy Internal Missile Mounts, 300 Basic Living Amenities|r3.186
+3-Merchantmen
+4-* Cunard Princess Victoria Liner 24|4|50(15)/2|5/0|3(2)/4|-/4(1)|39300[35700 PS]/734995[750000 PS]|-|40000000|-|2.00|30 Basic Living Amenities, 200 Improved Living Amenities, 100 High Living Amenities|r3.187
+4-* KM Jorgensen Class Merchantman 24|5|25(10)/1|7/0|2(2)/3|-/1(1)|300000[3000 PS]/1999440[37500 PS]|-|140000000|-|1.00|Crane (5000 kg), 25 Basic Living Amenities|r3.186
+3-Others
+2-Submarines
+3-Attack Submarines
+4-* USS New Hampshire Attack Sub   24|4|(50(35)/22(15))/4(2)|5/9|(7(7)/6(4))/4|-/7(9)|358[11700 PS]/2282360[236250 PS]|-|860000000|-|1.00|Water and Engine Enviroseal, Oxygen Generator, 6 Torpedo Tubes, 12 Heavy Launch Control Systems, 36  Torpedoes, 16 Heavy Internal Missile Mounts, 105 Basic Living Amenities|r3.187
+3-Commercial Submarines
+4-* KM Triton Class Submarine      24|5|(30(20)/10(2))/1(1)|7/3|(5(4)/5(3))/3|-/2(2)|200000[2940 PS]/15000000[36000 PS]|-|435000000|-|1.00|Water and Engine EnviroSeal, Oxygen Generator, 24 Basic Living Amenities|r3.188
+3-Minisubs
+4-* Saeder-Kruppp D.J. Locker      24|3|15(30)/3(3)|4/0|(8(8)/6(4))/2|-/0(1)|3/410|2|193000|10/10 days|1.00|Water & Engine EnviroSeal, Life Support (10 man-hours), Mechanical Arm (STR 12), Spotlight|r3.188
+4-* Vulkan Delphin RQ7(standard)   24|4|50(30)/3(4)|6/2|(8(8)/6(4))/2|-/1(1)|26[198 PS]/575[1200 PS]|4|546000|27/27 days|1.00|Water & Engine EnviroSeal, Life Support (100 man-hours), 8 Basic Living Amenities|r3.188
+4-* Vulkan Delphin RQ7(patrol)     24|5|50(30)/3(4)|6/9|(7(7)/5(5))/2|-/5(3)|3[198 PS]/120[1200 PS]|4|1262000|-|2.00|Water & Engine EnviroSeal, Life Support (100 man-hours), 8 Basic Living Amenities, 4 Medium Launch Control Systems (Piranha mini-torpedo system), 12 Internal Mini Torpedo Mounts, Mini-turret (1 CF Ammo Bin and HMG)|r3.188
+4-* Vulkan Electronaut             24|3|15/4|4/0|8(8)/2|-/0(0)|4/150|2|45000|3/3 days|1.00|Water and Engine EnviroSeal, Life support (10 man hours)|r3.188
+3-Patrol Submarine
+4-* KS Vaneyev Class Patrol Sub    24|3|(45(30)/20(17))/3(2)|4/9|(6(4)/8(8))/3|-/4(4)|823[6600 PS]/41985[127500 PS]|-|210000000|-|1.00|Water and Engine EnviroSeal, Oxygen Generator, 4 Torpedo Tubes, 4 Heavy Launch Control Systems, 24 Torpedoes, 85 Basic Living Amenities|r3.189
+3-Seasleds
+4-* Mitsuhama Anago(standard)      24|3|35/4|2/0|9(9)/1|1/1(1)|2/450|2|13750|2/24 hrs|1.00|6 Handholds|r3.186
+4-* Mitsuhama Anago(security)      24|3|35/4|2/0|9(9)/1|1/1(1)|.5/440|2|15000|8/8 Days|2.00|6 handholds, 1 External Fixed Firmpoint (1 CF ammo bin)|r3.189
+3-Others
+4-* Marine Tech Dolphine II        17|3|15/45|3|0|3|2|5/2days|50000|2|sr2.???|
+4-* Harland & Wolff Classique      17|5|15/45|6|0|2|4|35/17days|3500000|2|sr2.???|
+2-Vector Thrust Craft
+3-Jump Jet Fighters
+4-* Federated Boeing Eagle         24|4|1800/75|7/10|2/3|-/8|2.5/500|1e|12102000|-|3.00|Gas Enviroseal, ECM 7, ECCM 8, RAM 2 (factored in), 2 External Fixed Hardpoints (1 CF ammo bin each), Missile Launch System, 6 Missile Mounts (Total Ordinance Weight 1800 kg) |r3.190
+3-Thunderbirds
+4-* Aztech Lobo Medium Scout LAV   24|6|250(850)/35|6/21|2/3|-/7|24/800|3e|2420000|NA|3.00|ECM 6, ECCM 5, Medium Turret (1 CF Ammo Bin), Gas Enviroseal|r3.190
+4-* GMC Banshee                    24|6|250(1000)/50|6/18|5/2|-/7|29/805|3e|2560000|NA|3.00|ECM 5, ECCM 5, RAM 2 (factored in), Thermal Baffles 1 (factored in), External Fixed Hardpoint, Small Turret (1 CF Ammo Bin), Gas Enviroseal|sr3.311,r3.190
+4-* GMC Harpy Scout LAV            24|5|250(850)/45|6/15|6/2|-/5|24/1000|3e|2210000|NA|3.00| ECM 3, ECCM 3, RAM 2 (factored in), Thermal Baffles 2 (factored in), Gas Enviroseal, Medium Launch Control System, 2 External Missile Mounts, Small Turret (1 CF Ammo Bin)|r3.190
+4-* Nizhinyi BMV-2                 24|3|250(750)/40|6/9|3/2|-/4|27.5/2375|1e+2e+2b+2b|1844750|NA|3.00|Small Turret (10 CF Ammo Bin), Medium Launch System, 4 Internal Missle Mounts|sota.78
+3-Others
+4-* Family Flier                   17|5|100/200|3|1|0|2|50/25days|500000|2|sr2.???|
+4-* Ford Aerodyne Jayhawk          17|(4)/(4/8)/(4)|(140/300)/(30/90)/40/120)|2|0|2/4/3|3|24/18days|400000|4|sr2.???|
+4-* Ford LAVT Enforcer             17|(4)/(4/10)/(3)|(160/320)/(30/90)/60/180)|2|3|3/4/4|3|-|800000|-|sr2.???|
+4-* Mach                           17|3|265/665|2|1|2|3|130/65days|1300000|2|sr2.???|
+4-* Mitsubishi Vector              17|(3)/(4/10)/(3)|(160/320)/(30/90)/(60/180)|2|0|2/4/4|4|26/20days|600000|4|sr2.???|
+4-* Swan                           17|5|135/265|3|2|4|3|80/40days|800000|2|sr2.???|
+4-* Tetracorp Fei Lien 100         17|4|300/600|2|3|1|3|129/64days|1290000|2|sr2.???|
+2-Special Vehicles
+3-Zeppelins
+4-* Airship Industries Skyswimmer  24|3|100/2|8/1|5/2|-/1|42/750|2+1b|240000|12/12 days|1.00| Suncell, This model is a dirigible|r3.191
+4-* Goodyear Commuter-47           24|3|250/15|8/1|3/2|-/1|50/1500|8+1b|360000|18/18 days|1.00| This model is a dirigible|r3.191
+4-* Luftschiffbau LA-2049          24|3|200/10|8/4|3/2|-/1|128/2400|2+1b|318000|16/16 days|1.00||r3.191
+4-* Luftschiffbau LA-2051-C        24|3|140/8|8/1|3/3|-/1|110/3200|2+1b|310000|16/16 days|1.00||r3.191
+4-* Airbus AL800                   17|4|80/200|10||5|4|200/100days|2000000|2|sr2.???|
+4-* Airship Industries Skyswimmer  17|3|90/180|6|3|8|2|10/5days|100000|2|sr2.???|
+4-* Goodyear Commuter-47           17|3|150/300|8|3|8|2|2/1day|225000|2|sr2.???|
+4-* India Sky-Barge                17|6|40/80|6|6|7|2|1000/500days|10000000|2|sr2.???|
+4-* Luftschiffbau Zeppelin LZ-2049 17|3|100/250|12|6|8|2|9/4days|900000|2|sr2.???|
+4-* "Madison Avenue" Blimp         17|6|20/45|5|1|9|3|250/125days|2500000|2|sr2.???|
+4-* Sky Queen                      17|5|55/135|10|9|7|4|2000/1000days|20000000|2|sr2.???|
+4-* Zeppelin LZ-51/3-mikro         17|3|120/280|6|3|8|2|14/7days|140000|2|sr2.???|
+4-* Zeppeling LZ-2040/mi2          17|3|100/200|13|3|6|2|150/75days|1500000|2|sr2.???|
+3-Locomotives
+4-* N-C Bergen(tractor)            24|3/6|90/2|8/6|1/4|-/2|5/400000|4+2b|750000|38/38 days|1.00||r3.192
+4-* N-C Bergen(trailer)            24|-|-|8/3|3/-|-/0|1008/80000|2|227000|10/10 days|1.00||r3.192
+3-Semiballistics
+4-* A/S-K Grande Concorde          24|6|200(1000)/50|2/1|2/4|4/4|300/12000|156|75000000|-|1.00|Rigger Adaption, 8 Partial Basic Living Amenities|r3.192
+4-* GD SV250 Semiballistic         24|5|200(1500)/60|2/1|2/4|4/4|250/8000|126|76000000|-|1.00|Rigger Adaption, 8 Partial Basic Living Amenities|r3.192
+3-Snowmobile
+4-* S Snowglide                    24|-/3|70/3|2/0|5/0|-/0|2/20|2m|28600|2/24hrs|1,00|Environmental Adaptation (Artic)|twl.133
+4-* A-M Hoplite (G)                24|-/3|90/6|2/4P|1/0|-/0|0,3/34|1m|12600|2/24hrs|2,00|Amphibious Operation 1, Electronics Port w/Personal Com Unit (Rationg 4, 1.2 CF), Environmental Adaptation (Artic), Externeal Fixed Firmpoint (1 CF Ammo Bin), Turbocharging 2 (factored in)|twl.133
+4-* A-M Hoplite (F)                24|-/3|65/5|2/4P|4/0|-/0|0,3/20|1m|23600|2/24hrs|2,00|Amphibious Operation 1, Electronics Port w/Personal Com Unit (Rationg 4, 1.2 CF), Environmental Adaptation (Artic), Externeal Fixed Firmpoint (1 CF Ammo Bin), Turbocharging 1 (factored in)|twl.133
+3-Suborbitals
+4-* Arrow HSCT                     17|5|1500/2900|4|3|2|4|1000/500days|10000000|2|sr2.???|
+4-* China Clipper Suborbital       17|5|10k/24k|5|6|1|3|1000/500days|100000000|2|sr2.???|
+4-* F-B China Clipper Suborbital   24|5|150(1250)/150|1/2|2/4|4/4|400/12500|156|32000000|NA|1.00|Rigger Adaption, 8 Partial Basic Living Amenities|r3.192
+4-* Ilyushin IL-159 Suborbital     24|6|150(750)/80|1/2|2/4|4/4|580/20000|154|30000000|NA|1.00|Rigger Adaption, 8 Partial Basic Living Amenities|r3.192
+3-Others
+4-* AV-3 "Aerocop"                 17|4|330/465|4|2|4|3|150/75days|1500000|2|sr2.???|
+4-* AV-4                           17|5|150/450|5|6|3|2|150/75days|1500000|2|sr2.???|
+4-* AV-6                           17|5(4/8)|210/630(80/200)|6|9|3(7)|3|350/175days|3500000|2|sr2.???|
+4-* AV-9                           17|5|270/530|7|5|2|4|3000/1500days|30000000|2|cb1.24|
+4-* Fledermaus PKF-40 Ausf. B      17|3|440/880|3|1|4|4|250/125days|2500000|2|sr2.???|
+4-* LAFAYETTE VBA                  17|3|700/14000|5|15|6|3|NA|16000000|NA|fra.142|
+4-* Ruhrmetall Behemoth C² MBT     17|5|60/320|9|24|3|2|800/400days|8000000|2|sr2.???|
+!
+2-Remotes and drones
+3-Household Drones
+4-Wheeled Crawlers
+5-* Mazda Dust Devil               24|4/4|10/2|1/0|8/0|1/1|0/0  |-|1500 |2/24hrs|.5| Remote-Control Interface, Rigger Adaptation, Special Machinery (vacuum/wetvac/brushes/sprayer), Special Storage Area (liquid tanks-2l total)|ssg.122|
+5-* IFMU Mr. Green 3500            24|4/4|10/2|1/0|8/0|1/1|0/0  |-|3500 |2/24hrs|.5| Remote-Control Interface, Rigger Adaptation, Autosoft Interpreter, Autosoft (Gardening 1), Special Machinery (lawnmower/sprinkler/shears/sprayer), Special Storage Area (liquid tanks/5l)|ssg.122|
+5-* IFMU Mr. Fireman 3500          24|4/4|10/2|1/4|8/0|2/1|0/4  |-|11000|2/24hrs|1 | Remote-Control Interface, Rigger Adaptation, Autosoft Interpreter, Autosoft (Firefighting 2), Special Machinery (smoke/fire detector/sprayer), Special Storage Area (10l fire extinguisher)|ssg.122|
+5-* Renraku StreetCleaner          24|4/6|10/2|2/0|7/-|2/2|0/5  |-|7000 |2/24hrs|1 | Remote-Control Interface, Rigger Adaptation, Special Machinery (sweep and brush system), Special Storage Area (10 liter water tank)|ssg.122|
+4-Tracked Crawlers
+5-* V.R. House Helper              24|4/4|10/2|1/0|8/0|1/1|0/0  |-|1500 |2/24hrs|.5| Remote-Control Interface, Rigger Adaptation, Special Machinery (vacuum/wetvac/brushes/sprayer), Special Storage Area (liquid tanks-2l total)|ssg.122|
+5-* Mitsuhama Butlerbot            24|4/4|10/2|2/0|7/0|2/2|5/50 |-|25000|2/24hrs|1 | Remote-Control Interface, Rigger Adaptation, Robotic Pilot, Adaptation Pool 2, Fuzzy Logic Augmentation, Mechanical Arm (Strength 4), Special Machinery (cleaning items), Special Storage Area (beverage/water/cleaning tanks/5l total)|ssg.122|
+5-* GM Mr Fix-It                   24|4/4|10/2|1/0|8/0|3/1|3/170|-|27000|2/24hrs|1 | Remote-Control Interface, Rigger Adaptation, Autosoft Interpreter, Autosoft (any B/R skill at rating 3), Special Machinery (toolkit), 2 Mechanical Arms (Strength 4)|ssg.122|
+4-Walkers/Anthroforms
+5-* IFMU Mr. Bright 3000           24|4/4| 2/-|1/0|8/-|1/1|4/2  |-|6500 |2/24hrs|1 | Remote-Control Interface, Rigger Adaptation, Special Machinery (window cleaning gear/foot suction system), Special Storage Area (5 liter water tank), Winch (25 kg)|ssg.122|
+5-* IFMU Mr. Bright (household)    24|4/4| 2/-|1/0|8/-|1/1|4/5  |-|6000 |2/24hrs|1 | Remote-Control Interface, Rigger Adaptation, Special Machinery (window cleaning gear/foot suction system), Special Storage Area (5 liter water tank)|ssg.122|
+5-* Renraku Barback                24|3  |10/-|2/0|6/0|2/2|0/20 |-|44000|3/72hrs|1 | Remote-Control Interface, Rigger Adaptation, Robotic Pilot, Adaptation Pool 2, Fuzzy Logic Augmentation, 2 Mechanical Arms (Strength 6)|ssg.122|
+5-* Ares Felix the SynthCat        24|4/4|15/-|1/0|8/-|1/1|0/5  |-|9500 |2/24hrs|1 | Remote-Control Interface, Rigger Adaptation, Robotic Pilot, Improved Neural Network 1, Adaptation Pool 2|ssg.122|
+3-Crawlers
+4-* Arasaka RDAK                   17|4|12/36|1|1|18|1|2/1day|12000|1|sr2.???|
+4-* Ares Sentinel "P" Series Drone 24|4|25/2|1/12|7/0|3/4|1/25|-|32000|8/8 days|2|Remote-Control Interface, Rigger Adaptation, Gridlink, Micro-turret(1 CF Ammo Bin)|r3.172|
+4-* Aztech GCR-23C Crawler         24|4/4|15/3|1/0|8/0|1/1|1/15|-|3750|2/24hrs|1|Remote-Control Interface, Rigger Adaptation|r3.172|
+4-* Aztech Hedgehog                24|4/4|15/3|1/0|8/0|5/4|1/16|-|200000|16/16 days|2.00|Remote-control interface, Rigger Adaption, 2 Electronics Ports (Rigger Decryption 4 Rigger Protocol Emulation 4 0.2 CF total), Autosoft Interpretation System, Autosoft: Electronic Warfare 5|r3.172
+4-* Citroen Brouillard Smoke Gen.  24|4/4|50/5|2/0|4/0|1/1|0/250|-|10000|2/24hrs|1|Remote-Control Interface, Rigger Adaptation, Smoke Generator, Fog Oil(5 CF), Graphite Smoke(1 CF)|r3.172|
+4-* Ferret RPD-VI Perimeter Drone  24|3/4|30/2|1/0|8/0|3/4|4/50|-|18500|9/9 days|2|Remote-Control Interface, Rigger Adaptation, Spotlight(white light)|r3.172|
+4-* FMC TADS Salamander            24|4/4|60/6|2/0|4/0|2/3|4/125|-|24500|2/48 hrs|2.00|Remote-Control Interface, Rigger Adaptation, BattleTac FDDM Receiver|r3.172
+4-* Gaz-Niki GNRD-71 BIS Snooper   24|4/3|75/3|1/0|8/0|1/1|2/30|-|8500|2/24hrs|1|Remote-Control Interface, Rigger Adaptation|sr3.312,r3.172|
+4-* GM-Nissan Doberman             24|3/5|70/8|2/6|2/0|2/1|2.5/50|-|25000|8/8 days|2|Remote-Control Interface, Rigger Adaptation, External Fixed Firmpoint(0.4 CF Ammo Bin), Remote Micro-turret(1 CF Ammo Bin)|sr3.311,r3.173|
+4-* IWS DLK MK 6                   24|4/4|35/3|2/0|7/0|2/3|1/350|-|21000|2/48hrs|1|Remote-Control Interface, Rigger Adaptation, 2 Mechanical Arms(STR 6)|r3.173|
+4-* IWS DLK MK 6(Armed)            24|4/4|35/3|2/4|6/0|2/3|1.5/280|-|22000|8/8 days|2|Remote-Control Interface, Rigger Adaptation, Mechanical Arm(STR 6), External Fixed Firmpoint(1 CF Ammo Bin)|r3.173|
+4-* MCT Hachiman                   24|3/4|10/2|2/5(7)|7/0|3/5|4/125|-|70000|NA|2|Ablative Armor 1, Robot-Pilot Advanced Programming, Adaptation Pool 3, Robotic Reflexes 3, Remote-Control Gear, Remote Mini-turret w/Ultimax MMG, Rigger Interface, Spotlight|r3.173
+4-* Mitsubishi "Rover" Wheeled     17|6/9|20/60|2|2|3|1|2/1day|9000|.75|sr2.???|
+4-* Saab-Thyssen Bloodhound        24|3/3|90/6|2/0|4/0|2/4|2/5|-|23500|2/48hrs|2|Remote-Control Interface, Rigger Adaptation, Amphibious Operation 1, Mechanical Arm(STR 6 Cybersquirt Implant), Special Storage Area(Liquid Tank 10 liters 1 CF), Special Machinery(HAZMAT Sensors)|r3.173|
+4-* Steel Lynx Ground Combat Drone 24|4/6|80/6|2/9|6/0|2/1|3/225|-|34500|8/8 days|2|Remote-Control Interface, Rigger Adaptation, Remote Mini-Turret(1 CF Ammo Bin)|r3.173|
+3-Mini-Blimps
+4-* A.S. Condor LDSD-23            24|4|60/3|2/0|10/0|1/1|1/50|-|9000|2/24hrs|1|Remote-Control Interface, Rigger Adaptation, SunCell Power|r3.174|
+4-* A.S. Condor LDSD-41            24|4|75/5|2/3|10/0|3/1|4/28|-|33650|2/48hrs|1|Remote-Control Interface, Rigger Adaptation, SunCell Power|r3.174|
+4-* Moonlight Aerospace Gossamer   24|5|*/*|1/0|16/-|3/3|2/5|-|120000|3/72hrs|1|Speed and Accel depend on windspeed, Remote Control Interface, Rigger Adaptation, Electroncs Bay, Optional Monofilament reels and Multicore fibre controls|tss.6|
+3-Rail-mounted
+4-* Ares Sentinel                  17|5|N/A|4|12|8|3|-|40000|-|cs.89|
+4-* Ares Sentinel P                17|5|10|4|12|6|3|-|60000|-|cs.90|
+4-* Ares Guardian                  17|4/6|30/60|4|12|6|3|8hours/8days|75000|2|cs.91|
+4-* Cyclop                         17|4|8|3|6|6|3|-|40000|NA|fra.143|
+3-Skimmers
+4-* LS Sherlock Crime Analysis     24|3|75/8|1/0|8/0|2/6|1/25|-|180000|12/3 wks|2|Remote-Control Interface, Rigger Adaptation, chem sniffer 6, mads 6, mechanical arm (str 2), camera, trideo recorder|sta2.98|
+4-* Sikorsky-Bell Microskimmer I   24|3|90/6|1/0|7/0|1/1|1/5|-|7500|2/24hrs|.5|Remote-Control Interface, Rigger Adaptation|r3.174|
+4-* Sikorsky-Bell Microskimmer II  24|3|90(45)/5(3)|1/0|7(7)/0|1/1|1/5|-|18300|2/24hrs|.5|Remote-Control Interface, Rigger Adaptation, Ballast Tanks, Engine Enviroseal, Auxiliary Engine(Electric Battery)|r3.174|
+3-Trailer
+4-* Ares Arms Sentry II            24|-|-/-|2/0|7/0|4/4|1/145|-|43500|9/9 days|2|Remote-Control Interface, Rigger Adaptation, Micro-Turret(Anti-Aircraft Capability; 1 CF Ammo Bin), Generator(12hrs of power)|r3.175|
+3-UAVs
+4-Fixed Wing
+5-* Aztech Liebre RPV              24|3|60(1620)/75|3/4|5/0|4/4|5/25|-|195000|16/16days|2|Remote-Control Interface, Rigger Adaptation, External Fixed Hardpoint, Vindicator Minigun|r3.175|
+5-* CAS Wandjina RPV               24|5|60(500)/40|3/6|5/0|4/3|1/325|-|119000|12/12days|2|Remote-Control Interface, Rigger Adaptation, External Fixed Hardpoint, External Missle Mount|r3.175|
+5-* FMC-Stonebrooke TADS Firebird  24|4|40(105)/30|2/0|6/0|2/3|0/5|-|52000|9/9 days|2|Remote-Control Interface, Rigger Adaptation, BattleTac FDDM|r3.175|
+5-* GM-Nissan Spotter              24|3|40(200)/35|2/0|6/0|2/1|0/10|-|45250|3/72hrs|1|Remote-Control Interface, Rigger Adaptation|r3.175|
+5-* GTE-Ford Retrans Unit          24|4|40(105)/30|2/0|6/0|2/1|4/115|-|40300|2/48hrs|1|Remote-Control Interface, Rigger Adaptation, Retrans Mission Unit|r3.175|
+5-* MCT Indrahar O-5P Surv. Drone  24|4|60(300)/20|3/0|6/0|3/6|2/100|-|108825|6/6 days|1.5|Remote-Control Interface, Rigger Adaptation, ECCM 6, Enhanced Sensors 6|sta2.39|
+5-* P&W Sundowner Aerial Sprayer   24|4|40(105)/30|2/0|6/0|2/1|0/120|-|34250|2/48hrs|1|Remote-Control Interface, Rigger Adaptation, Special Machinery(Sprayer)|r3.176|
+4-Rotary Wing
+5-* Ares Guardian                  17|4/5|30/60|4|12|6|3|8/8days|75000|2|sr2.???|
+5-* Bell "Bumblebee" Rotorcraft    17|5|80/160|1|1|4|2|2/1day|8000|.75|sr2.???|
+5-* Cyberspace Designs Dalmation   24|3|108/8|2/0|5/-|2/1|3/80|-|15800|2/24hrs|.75|Remote-Control Interface, Rigger Adaptation|sr3.312|
+5-* Eireann-Tir Prospero           24|3|70/9|1/0|5/0|2/1|0/10|-|8125|2/24hrs|1|Remote-Control Interface, Rigger Adaptation|r3.176|
+5-* GM-Nissan Rotordrone           17|4|35/70|2|0|3|2|2/1day|7500|.75|sr2.???|
+5-* Lone Star Strato-9 Surv. Drone 24|3|100/9|2/0|4/0|2/5|1/20|-|34500|8/8 days|2|ECM 2, External Fixed Hardpoint w/MMG(w/GasVent-III and 500 rds. ammo), Remote-Control Interface, Rigger Adaptation|r3.176|
+5-* MCT-Nissan Roto-Drone          24|4|70/6|2/0|4/0|1/1|4/150|-|10500|2/24hrs|1|Remote-Control Interface, Rigger Adaptation|sr3.312,r3.176|
+4-Vectored-Thrust
+5-* Aeroquip "Redball Express"     24|4|300/35|3/0|5/0|2/3|16/155|-|85000|4/4days|1|Remote-Control Interface, Rigger Adaptation|r3.177|
+5-* Ares Guardian Drone            24|4|60/6|2/12|7/0|3/4|1/25|-|99000|11/11days|2|Remote-Control Interface, Rigger Adaptation, Remote Mini-turret(1 CF Ammo Bin)|r3.177|
+5-* Cyberspace Designs Dalmatian   24|3|105/8|2/0|6/0|2/1|3/80|-|16000|2/24hrs|1|Remote-Control Interface, Rigger Adaptation|sr3.312,r3.177|
+5-* Cyberspace Designs Wolfhound   24|3|210/12|2/0|6/0|2/1|3/80|-|60000|3/72hrs|1|Remote-Control Interface, Rigger Adaptation, Robotic Pilot, Adaptation Pool 2|r3.177|
+5-* Generic Surv. Drone VTOL       24|3|70/9|1/0|5/-|2/1|0/10|-|6250|2/24hrs|.75|Remote Control Interface,Rigger Adaptation,Lowlight & Thermographic Cam.|sr3.312|
+5-* Militech RPV-400 Tiltrotor     17|4|140/280|3|3|4|4|15/7days|150000|2|sr2.???|
+5-* Renraku Scorpion               24|4|180/18|3/9|2/3|2/4|10/75|-|25000|4/24hrs|3.0|Alternate stats while in ground mode, micro-turret (weapon n/i), 6CF reserved for more electronics and 4CF for ammo|tss.6|
+3-Walkers
+4-* Renraku Arachnoid Mini-drone   24|3/3|2/-|-/0|12/0|1/1|0/0|-|12375|2/24hrs|1|Remote-Control Interface, Rigger Adaptation|r3.177|
+4-* Shiawase Kanmushi Crawler      24|3/3|2/-|-/0|12/0|1/1|0/0|-|9350|2/24 hrs|1.00|Remote-Control Interface, Rigger Adaptation|r3.178
+4-* Toyota MK-Guyver S&R Robot     24|4|10/-|2/3|5/0|3/1|5/1025|-|95375|5/5days|2|Remote-Control Interface, Rigger Adaptation, Robotic Pilot, Adaptation Pool 2, 2 Mechanical Arms(STR 10), Autosoft Interpretation System, Autosoft: Demolitions 3|r3.178|
+3-Special
+4-* LS Spectator Surv. Drone       24|4/4|30/4|0/0|12/0|1/0|-/0|-|67000|14/1 month|2|Remote-Control Interface, Rigger Adaptation, Micro-Recorder 6, micro-camcorder, universal receiver 4|sta2.98|
+!
+1-Vehicle Gear
+2-Vehicle weapons
+3-Standard Weapons
+4-* Ares Vermicide Autocannon      19|Autocannon|10(c)|SA|12D|45|GM|12000|GM|sr3.312|
+4-* AN/EDQ-12 ANDREWS              19|LASER|50|SA/BF|9LN|1200|GM|600000|GM|r3.88|
+4-* Ares Firelance Vehicle Laser   19|LASER|40|SA|15S|48|GM|300000|GM|r3.88|
+4-* Ares Vaporizer Heavy Railgun   19|Railgun|Belt|SS|15MN|1540|GM|1000000|GM|r3.89|
+4-* Ares Vengeance Minigun         19|MMG|Belt|FA|9S|30|18/28days|50000|3.5|r3.89|
+4-* Ares Vanquisher Minigun        19|HMG|Belt|FA|10S|45|18/28days|75000|3.5|r3.89|
+4-* Ares Vigilant Autocannon       19|Autocannon|Belt|SS/FA|18D|90|20/45days|90000|5|r3.91|
+4-* Ares Victory Autocannon        19|Autocannon|Belt|SS/FA|20D|105|20/45days|125000|5|r3.91|
+4-* Aztech Xicohtencatl L. Railgun 19|Railgun|Belt|SS|6LN|135|GM|135000|GM|r3.91|
+4-* Aztech Relampago Med. Railgun  19|Railgun|Belt|SS|8MN|770|GM|620000|GM|r3.89|
+4-* EXOCET Omega (Missile)         19|Missile|1(m)|SS|19F|(Missile)|GM|950000|-|fra.141|
+4-* Flechette Gun                  19|MMG|20(c)|SA/FA|9D(f)|45|14/14days|17000|1.5|sr2.???|
+4-* Gauss Gun                      19|Cannon|10(c)|SS|11S|135|-|500000|-|sr2.???|
+4-* Harpoon Gun                    19|Ship|1|SS|(Harpoon)|20|3/24hrs|6500|2|r3.88|
+4-* Hydrostatic Pulse Bafflers     19|Hydrostatic Pulse Bafflers|200|SS|22D(AV)|500,00|NA|15000|0,00|twl.130
+4-* Light Naval Gun                19|Light Naval Gun|500|SA|8LN|250|GM|225000|GM|r3.88|
+4-* Medium Naval Gun               19|Medium Naval Gun|500|SA|11LN|600|GM|475000|GM|r3.88|
+4-* Piranha Launcher               19|Piranha Launcher|8|SS|As rocket/missle|120|16/21days|15000|3|r3.88|
+4-* Rocket Launcher                19|Assault|6(b)|SS|(Rocket)|15|GM|15000|GM|sr2.???|
+4-* Ruhrmetall GPRL for vehicles   19|Missile|4(m)|SS|(Missile)|10|14/30days|12000|4|sr2.???|
+4-* Ruhrmetall SF20 for vehicles   19|HMG|200(beltbox)|BF/FA|10S|16|18/30days|8500|.5|sr2.???|
+4-* Snake-Spine Whips (per arm)    19|Mechanical Tentacle|NA|SA|8M|20,00|NA|1500|0,00|twl.131
+4-* Snake-Spine Blade Arm          19|Mechanical Tentacle|NA|SA|10M|25,00|NA|2000|0,00|twl.131
+4-* Snake-Spine Elec. Discharge Arm19|Mechanical Tentacle|NA|SA|12S Stun|25,00|NA|2500|0,00|twl.131
+4-* Snake-Spine Hull Cutters       19|Mechanical Tentacle|NA|SA|6MN|50,00|NA|5000|0,00|twl.131
+4-* Twin Laser                     19|Sniper|(Special)|SA|18S|340|-|700000|-|sr2.???|
+4-* Vengeance Minigun              19|HMG|100|FA|9S|30|GM|50000|GM|sr2.???|
+4-* Vehicular Shotgun              19|Shotgun|10(c)|SA|9S|8.5|8/72hrs|2500|1.75|sr2.???|
+4-* Victory Rotary Assault Cannon  19|Cannon|50|FA|18D|90|GM|90000|GM|sr2.???|
+4-* Vigilant Rotary Autocannon     19|Cannon|25|FA|20D|60|GM|125000|GM|sr2.???|
+4-* Water Cannon                   19|Shotgun|20|SA|6M Stun|12|GM|20000|GM|sr3.312|
+2-Drones Systems
+3-Ares Sentinel weapons pods
+4-* Sentinel Pod I                 18|5/1week|3000|2|cs.92|
+4-* Sentinel Pod II                18|6/1week|3500|2|cs.92|
+4-* Sentinel Pod III               18|6/2weeks|5000|2|cs.92|
+4-* Sentinel Pod IV                18|8/2weeks|7500|2|cs.92|
+3-Ares Sentinel Drone Storage System
+4-* Ares Sentinel Drone Storage    26|100000|1/?|1|0|cs.93
+4-* Backup Power Supply (2hours)   26|5000|1/?|1|0|cs.93
+4-* Additional Sentinel P Storage  26|5000/drone|1/?|1|0|cs.93
+4-* Additional Guardian   Storage  26|7500/drone|1/?|1|0|cs.93
+4-* Additional Weapon Pod Storage  26|1500/drone|1/?|1|0|cs.93
+4-* Additional Rearming System     26|10000|1/?|1|0|cs.93
+4-* Weatherproofing                26|10000|1/?|1|0|cs.93
+2-Engine Modifications
+3-Modifications
+4-* GridLink(TM)  Power            23|600|3/96hrs|1|Vehicle Facility|16 hrs/Vehicle B/R(4)|1|||r3.126|
+4-* SunCell Power                  23|500|3/72hrs|1|Vehicle Shop|8 hrs/Vehicle B/R(4)|1|||r3.126|
+3-Nitrous Oxide Injectors
+4-* Nitrous Oxide Injectors [1]    23|3500|4/48hrs|1|Vehicle Facility|48 hrs/Vehicle B/R(4)|2|15kg||r3.126|
+4-* Nitrous Oxide Injectors [2]    23|7000|4/48hrs|1|Vehicle Facility|49 hrs/Vehicle B/R(4)|2|15kg||r3.126|
+4-* Nitrous Oxide Injectors [3]    23|10500|4/48hrs|1|Vehicle Facility|50 hrs/Vehicle B/R(4)|2|15kg||r3.126|
+4-* Nitrous Oxide Injectors [4]    23|28000|4/48hrs|1|Vehicle Facility|51 hrs/Vehicle B/R(4)|2|15kg||r3.126|
+4-* Nitrous Oxide Injectors [5]    23|35000|4/48hrs|1|Vehicle Facility|52 hrs/Vehicle B/R(4)|2|15kg||r3.126|
+2-Control-System Modifications
+3-Adjusted Controls
+4-* Adjusted Controls(Dwarf)       23|2500|3/72hrs|1|40 hrs/Vehicle B/R(4)|Vehicle Facility||||r3.127|
+4-* Adjusted Controls(Troll)       23|3500|3/72hrs|1|40 hrs/Vehicle B/R(4)|Vehicle Facility||||r3.127|
+4-* Adjusted Controls(Other)       23|3000|3/72hrs|1|40 hrs/Vehicle B/R(4)|Vehicle Facility||||r3.127|
+3-Advanced Drone Pilots
+4-* Advanced Drone Pilot [2]       23|5000|6/14days|2|Vehicle Facility|64 hrs/Computer B/R(8-Handling)||||r3.127|
+4-* Advanced Drone Pilot [3]       23|25000|6/14days|2|Vehicle Facility|64 hrs/Computer B/R(8-Handling)||||r3.127|
+4-* Advanced Drone Pilot [4]       23|500000|10/35days|4|Vehicle Facility|64 hrs/Computer B/R(8-Handling)||||r3.127|
+4-* Advanced Drone Pilot [5]       23|2500000|14/70days|GM|Vehicle Facility|64 hrs/Computer B/R(8-Handling)||||r3.127|
+3-Autonavigation Systems
+4-* Autonavigation System [1]      23|500|2/96hrs|1|Vehicle Facility|16 hrs/Vehicle B/R(8-Handling)||||r3.127|
+4-* Autonavigation System [2]      23|1000|3/6days|1|Vehicle Facility|32 hrs/Vehicle B/R(8-Handling)||||r3.127|
+4-* Autonavigation System [3]      23|5000|4/8days|1.5|Vehicle Facility|40 hrs/Vehicle B/R(8-Handling)||||r3.127|
+4-* Autonavigation System [4]      23|15000|6/14days|2|Vehicle Facility|48 hrs/Vehicle B/R(8-Handling)||||r3.127|
+3-Contingency Maneuver Controls
+4-* Cont. Manu. Contr. [1]         23|2500|6/14days|2|Vehicle Facility|80 hrs/Vehicle B/R(10-Handling)|2|30kg||r3.128|
+4-* Cont. Manu. Contr. [2]         23|5000|6/14days|2|Vehicle Facility|80 hrs/Vehicle B/R(10-Handling)|2|30kg||r3.128|
+4-* Cont. Manu. Contr. [3]         23|7500|6/14days|2|Vehicle Facility|80 hrs/Vehicle B/R(10-Handling)|2|30kg||r3.128|
+4-* Cont. Manu. Contr. [4]         23|20000|6/14days|2|Vehicle Facility|80 hrs/Vehicle B/R(10-Handling)|2|30kg||r3.128|
+4-* Cont. Manu. Contr. [5]         23|25000|6/14days|2|Vehicle Facility|80 hrs/Vehicle B/R(10-Handling)|2|30kg||r3.128|
+4-* Cont. Manu. Contr. [6]         23|30000|6/14days|2|Vehicle Facility|80 hrs/Vehicle B/R(10-Handling)|2|30kg||r3.128|
+4-* Cont. Manu. Contr. [7]         23|70000|6/14days|2|Vehicle Facility|80 hrs/Vehicle B/R(10-Handling)|2|30kg||r3.128|
+4-* Cont. Manu. Contr. [8]         23|80000|6/14days|2|Vehicle Facility|80 hrs/Vehicle B/R(10-Handling)|2|30kg||r3.128|
+4-* Cont. Manu. Contr. [9]         23|90000|6/14days|2|Vehicle Facility|80 hrs/Vehicle B/R(10-Handling)|2|30kg||r3.128|
+3-Remote-Control Interfaces
+4-* Rem-Contr. Intr.  Bod[1]       23|2500|4/72hrs|2|Vehicle Facility|16 hrs/Vehicle B/R(4), Electronics B/R(4)||||sr3.306,r3.130|
+4-* Rem-Contr. Intr.  Bod[2]       23|5000|4/72hrs|2|Vehicle Facility|16 hrs/Vehicle B/R(4), Electronics B/R(4)||||sr3.306,r3.130|
+4-* Rem-Contr. Intr.  Bod[3]       23|7500|4/72hrs|2|Vehicle Facility|16 hrs/Vehicle B/R(4), Electronics B/R(4)||||sr3.306,r3.130|
+4-* Rem-Contr. Intr.  Bod[4]       23|10000|4/72hrs|2|Vehicle Facility|16 hrs/Vehicle B/R(4), Electronics B/R(4)||||sr3.306,r3.130|
+4-* Rem-Contr. Intr.  Bod[5]       23|12500|4/72hrs|2|Vehicle Facility|16 hrs/Vehicle B/R(4), Electronics B/R(4)||||sr3.306,r3.130|
+4-* Rem-Contr. Intr.  Bod[6]       23|15000|4/72hrs|2|Vehicle Facility|16 hrs/Vehicle B/R(4), Electronics B/R(4)||||sr3.306,r3.130|
+4-* Rem-Contr. Intr.  Bod[7]       23|17500|4/72hrs|2|Vehicle Facility|16 hrs/Vehicle B/R(4), Electronics B/R(4)||||sr3.306,r3.130|
+4-* Rem-Contr. Intr.  Bod[8]       23|20000|4/72hrs|2|Vehicle Facility|16 hrs/Vehicle B/R(4), Electronics B/R(4)||||sr3.306,r3.130|
+4-* Rem-Contr. Intr.  Bod[9]       23|22500|4/72hrs|2|Vehicle Facility|16 hrs/Vehicle B/R(4), Electronics B/R(4)||||sr3.306,r3.130|
+3-Datajack/Other
+4-* Datajack Port                  23|2500|3/72hrs|1.5|Vehicle Facility|56 hrs/Vehicle B/R(4)|1|15kg||sr3.306,r3.128|
+4-* Datajack Port(Motorcycles)     23|5000|3/72hrs|1.5|Vehicle Facility|112 hrs/Vehicle B/R(4)|1|15kg||sr3.306,r3.128|
+4-* Bike Gyro-Stabilization Gear   23|Vehicle Cost x 1.25|6/10days|1.5|Vehicle Facility|48 hrs/Bike B/R(5)||5kg||r3.129|
+4-* Rigger Adaptation              23|2800|4/7days|2|Vehicle Facility|40 hrs/Vehicle B/R(4)|1|10kg||sr3.306,r3.130|
+3-Protective System Modifications
+4-* APPS                           23|2500|3/6days|1|Vehicle Facility|40 hrs/Vehicle B/R(4)|1|||r3.131|
+5-* Anti-Theft System Level [1]    26|100|1/?|1|0|sr2.???
+5-* Anti-Theft System Level [2]    26|200|1/?|1|0|sr2.???
+5-* Anti-Theft System Level [3]    26|300|1/?|1|0|sr2.???
+5-* Anti-Theft System Level [4]    26|1600|1/?|1|0|sr2.???
+5-* Anti-Theft System Level [5]    26|2000|1/?|1|0|sr2.???
+5-* Anti-Theft System Level [6]    26|2400|1/?|1|0|sr2.???
+5-* Anti-Theft System Level [7]    26|7000|1/?|1|0|sr2.???
+5-* Anti-Theft System Level [8]    26|8000|1/?|1|0|sr2.???
+5-* Anti-Theft System Level [9]    26|9000|1/?|1|0|sr2.???
+5-* Anti-Theft System Level [10]   26|50000|1/?|1|0|sr2.???
+4-* Artic/Desert Adaptation Kit    23|0|5/1wk|1,50|Vehicle Shop|16 hrs/Vehicle B/R(4)|1|0kg|Parts Cost for Ground Vehicle: Body x 250; Parts Cost for Air Vehicle: Body x 500|twl.132
+4-* Crash Cages                    23|3500|4/96hrs|2|Vehicle Shop|16 hrs/Vehicle B/R(4)|2|25kg||r3.132|
+4-* Roll Bars                      23|2000|3/72hrs|1|Vehicle Shop|24 hrs/Vehicle B/R(3)||||r3.133|
+2-Defensive Modifications
+3-Mods
+4-* Zapper Strip                   26|5000|10/28days|3|3|r3.101|
+4-* R-C Deck Ports                 26|0|Always|1||r3.97|
+4-* "Peel 'n' Stick" Vehicle Armor 26|rating x bod^2 x 5|1/?|1|bod^2 x 2|sta2.39|
+3-Vehicle smoke generator
+4-* Vehicle Smoke Projector(Small) 26|700|5/14days|1|2.5|r3.101|
+4-* Vehicle Smoke Projector(Large) 26|1000|6/21days|1|5|r3.101|
+4-* Vehicle Infared Smoke(Small)   26|840|6/21days|2|5|r3.101|
+4-* Vehicle Infared Smoke(Large)   26|1200|7/28days|2|5|r3.101|
+4-* Charges for Smokegen. small(6) 18|4/72hrs|700|2|fof.71|
+4-* Charges for Smokegen. large(12)18|4/7days|1000|2|fof.71|
+3-Ablative vehicle armor
+4-* Abl. Vehicle Armor Level [1]   18|8/14days|700|2|fof.72|
+4-* Abl. Vehicle Armor Level [2]   18|12/14days|1600|2|fof.72|
+4-* Abl. Vehicle Armor Level [3]   18|14/21days|2500|2|fof.72|
+3-Vehicle Armor
+4-Standard Vehicle Armor
+5-* Vehicle Armor [1]              23|1250|6/12days|2.5|Vehicle Facility|8 hrs/Vehicle B/R(1)|0|Body^2*5kg||r3.131|
+5-* Vehicle Armor [2]              23|2500|6/12days|2.5|Vehicle Facility|16 hrs/Vehicle B/R(1)|0|Body^2*10kg||r3.131|
+5-* Vehicle Armor [3]              23|3750|6/12days|2.5|Vehicle Facility|24 hrs/Vehicle B/R(1)|0|Body^2*15kg||r3.131|
+5-* Vehicle Armor [4]              23|5000|6/12days|2.5|Vehicle Facility|32 hrs/Vehicle B/R(2)|0|Body^2*20kg||r3.131|
+5-* Vehicle Armor [5]              23|6250|6/12days|2.5|Vehicle Facility|40 hrs/Vehicle B/R(2)|0|Body^2*25kg||r3.131|
+5-* Vehicle Armor [6]              23|7500|6/12days|2.5|Vehicle Facility|48 hrs/Vehicle B/R(2)|0|Body^2*30kg|Handling+1|r3.131|
+5-* Vehicle Armor [7]              23|9750|6/12days|2.5|Vehicle Facility|56 hrs/Vehicle B/R(3)|0|Body^2*35kg|Handling+1|r3.131|
+5-* Vehicle Armor [8]              23|10000|6/12days|2.5|Vehicle Facility|64 hrs/Vehicle B/R(3)|0|Body^2*40kg|Handling+1|r3.131|
+5-* Vehicle Armor [9]              23|12500|6/12days|2.5|Vehicle Facility|72 hrs/Vehicle B/R(3)|0|Body^2*45kg|Handling+1|r3.131|
+5-* Vehicle Armor [10]             23|13750|6/12days|2.5|Vehicle Facility|80 hrs/Vehicle B/R(4)|0|Body^2*50kg|Handling+1|r3.131|
+5-* Vehicle Armor [11]             23|15000|6/12days|2.5|Vehicle Facility|88 hrs/Vehicle B/R(5)|0|Body^2*55kg|Handling+1|r3.131|
+5-* Vehicle Armor [11]             23|16250|6/12days|2.5|Vehicle Facility|93 hrs/Vehicle B/R(6)|0|Body^2*60kg|Handling+2|r3.131|
+4-Concealed Armor
+5-* Concealed Armor [1]            23|2000|8/21days|3.5|Vehicle Facility|8 hrs/Vehicle B/R(1)|3|Body^2*5kg||r3.132|
+5-* Concealed Armor [2]            23|4000|8/21days|3.5|Vehicle Facility|16 hrs/Vehicle B/R(1)|6|Body^2*5kg||r3.132|
+5-* Concealed Armor [3]            23|6000|8/21days|3.5|Vehicle Facility|24 hrs/Vehicle B/R(1)|9|Body^2*5kg||r3.132|
+5-* Concealed Armor [4]            23|8000|8/21days|3.5|Vehicle Facility|32 hrs/Vehicle B/R(2)|12|Body^2*5kg||r3.132|
+5-* Concealed Armor [5]            23|10000|8/21days|3.5|Vehicle Facility|40 hrs/Vehicle B/R(2)|15|Body^2*5kg||r3.132|
+5-* Concealed Armor [6]            23|12000|8/21days|3.5|Vehicle Facility|48 hrs/Vehicle B/R(2)|18|Body^2*5kg|Handling+1|r3.132|
+5-* Concealed Armor [7]            23|14000|8/21days|3.5|Vehicle Facility|56 hrs/Vehicle B/R(3)|21|Body^2*5kg|Handling+1|r3.132|
+5-* Concealed Armor [8]            23|16000|8/21days|3.5|Vehicle Facility|64 hrs/Vehicle B/R(3)|24|Body^2*5kg|Handling+1|r3.132|
+5-* Concealed Armor [9]            23|18000|8/21days|3.5|Vehicle Facility|72 hrs/Vehicle B/R(3)|37|Body^2*5kg|Handling+1|r3.132|
+5-* Concealed Armor [10]           23|20000|8/21days|3.5|Vehicle Facility|80 hrs/Vehicle B/R(4)|30|Body^2*5kg|Handling+1|r3.132|
+5-* Concealed Armor [11]           23|22000|8/21days|3.5|Vehicle Facility|88 hrs/Vehicle B/R(4)|33|Body^2*5kg|Handling+1|r3.132|
+5-* Concealed Armor [12]           23|24000|8/21days|3.5|Vehicle Facility|96 hrs/Vehicle B/R(4)|36|Body^2*5kg|Handling+2|r3.132|
+4-Ablative Armor
+5-* Ablative Armor [1]             23|700|8/14days|2|Vehicle Facility|6 hrs/no test needed|0|Body*100kg|2pts not hardened|r3.131|
+5-* Ablative Armor [2]             23|1600|12/12days|2|Vehicle Facility|6 hrs/no test needed|0|Body*100kg|4pts not hardened|r3.131|
+5-* Ablative Armor [3]             23|2500|14/21days|2|Vehicle Facility|6 hrs/no test needed|0|Body*100kg|6pts not hardened|r3.131|
+4-Smart Armor System
+5-* Smart Armor System             23|20000|10/28days|1|Vehicle Facility|Body*40 hrs/Dem(4)+Elec(40)+Comp(4)|3*Armor|Body*50kg|Replacement: Body*500Y|r3.133|
+2-Vehicle Weapon Mounts
+3-Gunnery Recoil Adjusters
+4-* Gunnery Recoil Adjuster [1]    23|500|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|25kg||r3.137|
+4-* Gunnery Recoil Adjuster [2]    23|1000|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|26kg||r3.137|
+4-* Gunnery Recoil Adjuster [3]    23|1500|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|27kg||r3.137|
+4-* Gunnery Recoil Adjuster [4]    23|2000|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|28kg||r3.137|
+4-* Gunnery Recoil Adjuster [5]    23|2500|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|29kg||r3.137|
+4-* Gunnery Recoil Adjuster [6]    23|3000|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|30kg||r3.137|
+4-* Gunnery Recoil Adjuster [7]    23|3500|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|31kg||r3.137|
+4-* Gunnery Recoil Adjuster [8]    23|4000|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|32kg||r3.137|
+4-* Gunnery Recoil Adjuster [9]    23|4500|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|33kg||r3.137|
+4-* Gunnery Recoil Adjuster [10]   23|5000|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|34kg||r3.137|
+4-* Gunnery Recoil Adjuster [11]   23|5500|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|35kg||r3.137|
+4-* Gunnery Recoil Adjuster [12]   23|6000|6/48hrs|1.5|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|36kg||r3.137|
+3-Launch Control Systems
+4-* Launch Control System(Medium)  23|750|6/7days|2|Vehicle Facility|24 hrs/Vehcile B/R(4)|1|10kg||r3.137|
+4-* Launch Control System(Heavy)   23|2000|6/7days|2|Vehicle Facility|24 hrs/Vehcile B/R(4)|2|10kg||r3.137|
+3-Smartlink Integration Kits
+4-* Smartlink-I                    23|650|4/48hrs|1|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|||r3.139|
+4-* Smartlink-II                   23|900|6/48hrs|2|Vehicle Kit|24 hrs/Vehicle B/R(4)|1|||r3.139|
+3-Weapon Customization Kits
+4-* Pistol Customization Kit       23|150|4/36hrs|2|Weapon Kit|24 hrs/Vehicle B/R(4)|0|||r3.136|
+4-* Submachinegun Cust. Kit        23|350|5/48hrs|2|Weapon Kit|24 hrs/Vehicle B/R(4)|0|0.25||r3.136|
+4-* Rifle Customization Kit        23|750|6/72hrs|2.5|Weapon Kit|24 hrs/Vehicle B/R(4)|0|0.5||r3.136|
+4-* Shotgun Customization Kit      23|750|6/72hrs|2.5|Weapon Kit|24 hrs/Vehicle B/R(4)|0|0.5||r3.136|
+4-* Grenade Launcher Cust.Kit      23|750|6/72hrs|2.5|Weapon Kit|24 hrs/Vehicle B/R(4)|0|0.5||r3.136|
+4-* LMG Customization Kit          23|750|6/72hrs|2.5|Weapon Kit|24 hrs/Vehicle B/R(4)|0|0.5||r3.136|
+4-* MMG Customization Kit          23|1000|6/42hrs|2.5|Weapon Kit|24 hrs/Vehicle B/R(4)|0|1||r3.136|
+4-* HMG Customization Kit          23|1000|6/42hrs|2.5|Weapon Kit|24 hrs/Vehicle B/R(4)|0|1||r3.136|
+4-* Assault Cannon Cust. Kit       23|1000|6/42hrs|2.5|Weapon Kit|24 hrs/Vehicle B/R(4)|0|1||r3.136|
+3-Turrets and Mounts
+4-Fixed Mounts
+5-* External Hardpoint             23|2000|6/7days|2|Vehicle Facility|24 hrs/Vehicle B/R(4)|2|10kg+Weapon||sr3.312,r3.136|
+5-* External Firmpoint             23|750|6/7days|2|Vehicle Facility|24 hrs/Vehicle B/R(4)|1|10kg+Weapon||sr3.312,r3.136|
+5-* Internal Hardpoint             23|3000|6/7days|2|Vehicle Facility|24 hrs/Vehicle B/R(4)|7|10kg+Weapon||sr3.312,r3.136|
+5-* Internal Firmpoint             23|1500|6/7days|2|Vehicle Facility|24 hrs/Vehicle B/R(4)|5|10kg+Weapon||sr3.312,r3.136|
+4-Missile Mounts
+5-* External Missile Mount         23|1500|10/60days|5|Vehicle Facility|8 hrs/Vehicle B/R(4)|0|weight of the missiles||r3.138|
+5-* Internal Missile Mount         23|5000|10/60days|5|Vehicle Facility|8 hrs/Vehicle B/R(4)|5|weight of the missiles||r3.138|
+4-Non-Fixed Mounts
+5-* Pintle Mount                   23|50|4/96hrs|1.5|Vehicle Shop|12 hrs/Vehicle B/R(2)|||-2 Recoil|sr3.312,r3.138|
+5-* Ring Mount                     23|3000|8/14days|2|Vehicle Shop|8 hrs/Vehicle B/R(3)|1|25kg|-6 Recoil|r3.138|
+5-* Ring Mount(Door Mount)         23|3000|8/14days|2|Vehicle Shop|8 hrs/Vehicle B/R(3)|16|25kg|-6 Recoil|r3.138|
+4-Turrets
+5-* Mini-Turret                    23|5000|GM|2|Vehicle Facility|72 hrs/Vehicle B/R(4)|7|25kg||sr3.312,r3.139|
+5-* Small Turret                   23|7500|GM|3|Vehicle Facility|72 hrs/Vehicle B/R(4)|8|100kg||sr3.312,r3.139|
+5-* Medium Turret                  23|15000|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|24|1000kg||r3.139|
+5-* Large Turret                   23|300000|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|36|6000kg||r3.139|
+5-* Extra-larget Turret            23|1000000|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|72|30000kg||r3.139|
+5-* Remote Micro Turret            23|2500|GM|2|Vehicle Facility|72 hrs/Vehicle B/R(4)|1|10kg||r3.141|
+5-* Remote Mini Turret             23|6000|GM|2|Vehicle Facility|72 hrs/Vehicle B/R(4)|4|25kg||r3.141|
+5-* Remote Small Turret            23|9000|GM|3|Vehicle Facility|72 hrs/Vehicle B/R(4)|5|100kg||r3.141|
+5-* Remote Medium Turret           23|17500|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|8|1000kg||r3.141|
+5-* Remote Large Turret            23|600000|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|60|8000kg||r3.141
+5-* Remote Ex-Large Turret         23|2000000|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|120|75000kg||r3.141
+4-Anti-Aircraft Turrets
+5-* Mini-Turret(Anti-Air)          23|7500|GM|2|Vehicle Facility|72 hrs/Vehicle B/R(4)|8|25kg||r3.139|
+5-* Small Turret(Anti-Air)         23|11250|GM|3|Vehicle Facility|72 hrs/Vehicle B/R(4)|9|100kg||r3.139|
+5-* Medium Turret(Anti-Air)        23|22500|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|25|1000kg||r3.139|
+5-* Large Turret(Anti-Air)         23|450000|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|37|6000kg||r3.139|
+5-* Extra-large Turret(Anti-Air)   23|1500000|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|73|30000kg||r3.139|
+5-* Remote Micro Turret(Anti-Air)  23|3750|GM|2|Vehicle Facility|72 hrs/Vehicle B/R(4)|2|10kg||r3.141|
+5-* Remote Mini Turret(Anti-Air)   23|9000|GM|2|Vehicle Facility|72 hrs/Vehicle B/R(4)|5|25kg||r3.141|
+5-* Remote Small Turret(Anti-Air)  23|13500|GM|3|Vehicle Facility|72 hrs/Vehicle B/R(4)|6|100kg||r3.141|
+5-* Remote Medium Turret(Anti-Air) 23|26250|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|9|1000kg||r3.141|
+5-* Remote Large Turret(Anti-Air)  23|900000|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|61|8000kg||r3.141
+5-* Remote Ex-Large Turret(Anti-Air23|3000000|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|121|75000kg||r3.141
+4-Pop-Up Turrets
+5-* Mini-Turret(Pop-Up)            23|5000|GM|2|Vehicle Facility|72 hrs/Vehicle B/R(4)|14|25kg||r3.139|
+5-* Small Turret(Pop-Up)           23|7500|GM|3|Vehicle Facility|72 hrs/Vehicle B/R(4)|16|100kg||r3.139|
+5-* Medium Turret(Pop-Up)          23|15000|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|48|1000kg||r3.139|
+5-* Remote Micro Turret(Pop-Up)    23|2500|GM|2|Vehicle Facility|72 hrs/Vehicle B/R(4)|2|10kg||r3.141|
+5-* Remote Mini Turret(Pop-Up)     23|6000|GM|2|Vehicle Facility|72 hrs/Vehicle B/R(4)|8|25kg||r3.141|
+5-* Remote Small Turret(Pop-Up)    23|9000|GM|3|Vehicle Facility|72 hrs/Vehicle B/R(4)|10|100kg||r3.141|
+5-* Remote Medium Turret(Pop-Up)   23|17500|GM|GM|Vehicle Facility|72 hrs/Vehicle B/R(4)|16|1000kg||r3.141|
+2-Electronic Systems
+3-Autosoft Interpretation Systems
+4-* Autosoft Interpretation [1]    23|1000|8/14days|2|Electronics Shop|72 hrs/Electronics B/R(4)|1|2kg||r3.142|
+4-* Autosoft Interpretation [2]    23|2000|8/14days|2|Electronics Shop|72 hrs/Electronics B/R(4)|1|2kg||r3.142|
+4-* Autosoft Interpretation [3]    23|3000|8/14days|2|Electronics Shop|72 hrs/Electronics B/R(4)|1|2kg||r3.142|
+4-* Autosoft Interpretation [4]    23|4000|8/14days|2|Electronics Shop|72 hrs/Electronics B/R(4)|1|2kg||r3.142|
+4-* Autosoft Interpretation [5]    23|5000|8/14days|2|Electronics Shop|72 hrs/Electronics B/R(4)|1|2kg||r3.142|
+3-BattleTac FDDM Receivers
+4-* BattleTac FDDM Receiver [1]    23|35000|10/21days|3|Microtronics Shop|64 hrs/Computer B/R(4)||||r3.142|
+4-* BattleTac FDDM Receiver [2]    23|35000|10/21days|3|Microtronics Shop|128 hrs/Computer B/R(4)||||r3.142|
+4-* BattleTac FDDM Receiver [3]    23|35000|10/21days|3|Microtronics Shop|192 hrs/Computer B/R(4)||||r3.142|
+4-* BattleTac FDDM Receiver [4]    23|35000|10/21days|3|Microtronics Shop|256 hrs/Computer B/R(4)||||r3.142|
+4-* BattleTac FDDM Receiver [5]    23|35000|10/21days|3|Microtronics Shop|320 hrs/Computer B/R(4)||||r3.142|
+3-BattleTac IVS Receivers
+4-* BattleTac IVIS Receiver [1]    23|25000|8/14days|3|Microtronics Shop|64 hrs/Computer B/R(4)||||r3.142|
+4-* BattleTac IVIS Receiver [2]    23|25000|8/14days|3|Microtronics Shop|128 hrs/Computer B/R(4)||||r3.142|
+4-* BattleTac IVIS Receiver [3]    23|25000|8/14days|3|Microtronics Shop|192 hrs/Computer B/R(4)||||r3.142|
+4-* BattleTac IVIS Receiver [4]    23|25000|8/14days|3|Microtronics Shop|256 hrs/Computer B/R(4)||||r3.142|
+4-* BattleTac IVIS Receiver [5]    23|25000|8/14days|3|Microtronics Shop|320 hrs/Computer B/R(4)||||r3.142|
+3-ECM
+4-* ECM [1]                        23|10000|5/7days|2.5|Vehicle Facility|16 hrs/Electronics B/R(4)|1|5kg||r3.143|
+4-* ECM [2]                        23|20000|6/10days|3|Vehicle Facility|32 hrs/Electronics B/R(4)|2|10kg||r3.143|
+4-* ECM [3]                        23|30000|7/14days|3.5|Vehicle Facility|48 hrs/Electronics B/R(4)|3|15kg||r3.143|
+4-* ECM [4]                        23|50000|8/21days|4|Vehicle Facility|64 hrs/Electronics B/R(4)|3|20kg||r3.143|
+4-* ECM [5]                        23|75000|10/30days|GM|Vehicle Facility|80 hrs/Electronics B/R(4)|6|25kg||r3.143|
+4-* ECM [6]                        23|100000|12/45days|GM|Vehicle Facility|96 hrs/Electronics B/R(4)|8|50kg||r3.143|
+4-* ECM [7]                        23|200000|14/60days|GM|Vehicle Facility|112 hrs/Electronics B/R(4)|9|75kg||r3.143|
+4-* ECM [8]                        23|300000|16/3months|GM|Vehicle Facility|128 hrs/Electronics B/R(4)|12|100kg||r3.143|
+4-* ECM [9]                        23|500000|18/6months|GM|Vehicle Facility|144 hrs/Electronics B/R(4)|16|150kg||r3.143|
+4-* ECM [10]                       23|1000000|20/1year|GM|Vehicle Facility|160 hrs/Electronics B/R(4)|20|250kg||r3.143|
+3-ECCM
+4-* ECCM [1]                       23|10000|4/7days|2|Vehicle Facility|16 hrs/Electronics B/R(4)|1|3kg||r3.145|
+4-* ECCM [2]                       23|20000|4/10days|2.5|Vehicle Facility|32 hrs/Electronics B/R(4)|2|5kg||r3.145|
+4-* ECCM [3]                       23|30000|5/14days|3|Vehicle Facility|48 hrs/Electronics B/R(4)|3|8kg||r3.145|
+4-* ECCM [4]                       23|40000|6/21days|3.5|Vehicle Facility|64 hrs/Electronics B/R(4)|3|12kg||r3.145|
+4-* ECCM [5]                       23|50000|8/30days|GM|Vehicle Facility|80 hrs/Electronics B/R(4)|6|18kg||r3.145|
+4-* ECCM [6]                       23|75000|10/45days|GM|Vehicle Facility|96 hrs/Electronics B/R(4)|8|25kg||r3.145|
+4-* ECCM [7]                       23|100000|12/60days|GM|Vehicle Facility|112 hrs/Electronics B/R(4)|9|50kg||r3.145|
+4-* ECCM [8]                       23|250000|14/3months|GM|Vehicle Facility|128 hrs/Electronics B/R(4)|12|75kg||r3.145|
+4-* ECCM [9]                       23|300000|16/6months|GM|Vehicle Facility|144 hrs/Electronics B/R(4)|16|100kg||r3.145|
+4-* ECCM [10]                      23|500000|18/1year|GM|Vehicle Facility|160 hrs/Electronics B/R(4)|20|150kg||r3.145|
+3-ED
+4-* ED [1]                         23|15000|8/30days|3|Vehicle Facility|16 hrs/Electronics B/R(4)|2|10kg||r3.145|
+4-* ED [2]                         23|30000|8/45days|3.5|Vehicle Facility|32 hrs/Electronics B/R(4)|3|20kg||r3.145|
+4-* ED [3]                         23|50000|8/60days|4|Vehicle Facility|48 hrs/Electronics B/R(4)|5|30kg||r3.145|
+4-* ED [4]                         23|75000|10/3months|4.5|Vehicle Facility|64 hrs/Electronics B/R(4)|6|45kg||r3.145|
+4-* ED [5]                         23|100000|12/6months|5|Vehicle Facility|80 hrs/Electronics B/R(4)|7|50kg||r3.145|
+4-* ED [6]                         23|250000|16/1year|GM|Vehicle Facility|96 hrs/Electronics B/R(4)|9|75kg||r3.145|
+3-ECD
+4-* ECD [1]                        23|10000|8/30days|3|Vehicle Facility|16 hrs/Electronics B/R(4)|2|25kg||r3.145|
+4-* ECD [2]                        23|30000|8/45days|3.5|Vehicle Facility|32 hrs/Electronics B/R(4)|3|30kg||r3.145|
+4-* ECD [3]                        23|50000|8/60days|4|Vehicle Facility|48 hrs/Electronics B/R(4)|4|35kg||r3.145|
+4-* ECD [4]                        23|75000|10/3months|4.5|Vehicle Facility|64 hrs/Electronics B/R(4)|5|45kg||r3.145|
+4-* ECD [5]                        23|150000|12/6months|5|Vehicle Facility|80 hrs/Electronics B/R(4)|6|60kg||r3.145|
+4-* ECD [6]                        23|300000|16/1year|GM|Vehicle Facility|96 hrs/Electronics B/R(4)|8|75kg||r3.145|
+3-Power Amplifiers
+4-* Power Amplifier [1]            23|250|1/12hrs|1.5|Vehicle Shop|8 hrs/Electronics B/R(4)|0.5|1kg||r3.146|
+4-* Power Amplifier [2]            23|500|2/24hrs|1.5|Vehicle Shop|8 hrs/Electronics B/R(4)|1|2kg||r3.146|
+4-* Power Amplifier [3]            23|750|3/36hrs|1.5|Vehicle Shop|8 hrs/Electronics B/R(4)|1.5|3kg||r3.146|
+4-* Power Amplifier [4]            23|1000|4/48hrs|1.5|Vehicle Shop|8 hrs/Electronics B/R(4)|2|4kg||r3.146|
+4-* Power Amplifier [5]            23|1250|5/60hrs|1.5|Vehicle Shop|8 hrs/Electronics B/R(4)|2.5|5kg||r3.146|
+4-* Power Amplifier [6]            23|1500|6/72hrs|1.5|Vehicle Shop|8 hrs/Electronics B/R(4)|3|6kg||r3.146|
+4-* Power Amplifier [7]            23|1750|7/84hrs|1.5|Vehicle Shop|8 hrs/Electronics B/R(4)|3.5|7kg||r3.146|
+4-* Power Amplifier [8]            23|2000|8/96hrs|1.5|Vehicle Shop|8 hrs/Electronics B/R(4)|4|8kg||r3.146|
+4-* Power Amplifier [9]            23|2250|9/108hrs|1.5|Vehicle Shop|8 hrs/Electronics B/R(4)|4.5|9kg||r3.146|
+4-* Power Amplifier [10]           23|2500|10/120hrs|1.5|Vehicle Shop|8 hrs/Electronics B/R(4)|5|10kg||r3.146|
+3-Remote-Control Encryption Modlues
+4-* Remote-Control Encryption [1]  23|5000|1/24hrs|3|Electronics Kit|1 hour/Electronics B/R(4)||||r3.147|
+4-* Remote-Control Encryption [2]  23|10000|2/48hrs|3|Electronics Kit|1 hour/Electronics B/R(4)||||r3.147|
+4-* Remote-Control Encryption [3]  23|15000|3/72hrs|3|Electronics Kit|1 hour/Electronics B/R(4)||||r3.147|
+4-* Remote-Control Encryption [4]  23|20000|4/4days|3|Electronics Kit|1 hour/Electronics B/R(4)||||r3.147|
+4-* Remote-Control Encryption [5]  23|25000|5/5days|3|Electronics Kit|1 hour/Electronics B/R(4)||||r3.147|
+4-* Remote-Control Encryption [6]  23|30000|6/6days|3|Electronics Kit|1 hour/Electronics B/R(4)||||r3.147|
+4-* Remote-Control Encryption [7]  23|35000|7/7days|3|Electronics Kit|1 hour/Electronics B/R(4)||||r3.147|
+4-* Remote-Control Encryption [8]  23|40000|8/8days|3|Electronics Kit|1 hour/Electronics B/R(4)||||r3.147|
+4-* Remote-Control Encryption [9]  23|45000|9/9days|3|Electronics Kit|1 hour/Electronics B/R(4)||||r3.147|
+4-* Remote-Control Encryption [10] 23|50000|10/10days|3|Electronics Kit|1 hour/Electronics B/R(4)||||r3.147|
+3-Sensors
+4-* Sensors [1]                    23|5000|4/7days|2|Vehicle Facility|16 hrs/Electronics B/R(4)|1|12kg||r3.147|
+4-* Sensors [2]                    23|7500|4/10days|2.5|Vehicle Facility|32 hrs/Electronics B/R(4)|2|20kg||r3.147|
+4-* Sensors [3]                    23|10000|5/14days|3|Vehicle Facility|48 hrs/Electronics B/R(4)|3|25kg||r3.147|
+4-* Sensors [4]                    23|12500|6/21days|3.5|Vehicle Facility|64 hrs/Electronics B/R(4)|3|35kg||r3.147|
+4-* Sensors [5]                    23|15000|8/30days|GM|Vehicle Facility|80 hrs/Electronics B/R(4)|6|50kg||r3.147|
+4-* Sensors [6]                    23|20000|10/45days|GM|Vehicle Facility|96 hrs/Electronics B/R(4)|8|75kg||r3.147|
+4-* Sensors [7]                    23|30000|12/60days|GM|Vehicle Facility|112 hrs/Electronics B/R(4)|9|110kg||r3.147|
+4-* Sensors [8]                    23|50000|14/3months|GM|Vehicle Facility|128 hrs/Electronics B/R(4)|12|150kg||r3.147|
+4-* Sensors [9]                    23|100000|16/6months|GM|Vehicle Facility|144 hrs/Electronics B/R(4)|16|200kg||r3.147|
+4-* Sensors [10]                   23|500000|18/1year|GM|Vehicle Facility|160 hrs/Electronics B/R(4)|20|250kg||r3.147|
+3-Enhanced Sensors
+4-* Enhanced Sensors [1]           23|5000|4/7days|2|Vehicle Facility|16 hrs/Electronics B/R(4)|1|12kg||sta2.39|
+4-* Enhanced Sensors [2]           23|7500|4/10days|2.5|Vehicle Facility|32 hrs/Electronics B/R(4)|2|20kg||sta2.39|
+4-* Enhanced Sensors [3]           23|10000|5/14days|3|Vehicle Facility|48 hrs/Electronics B/R(4)|3|25kg||sta2.39|
+4-* Enhanced Sensors [4]           23|12500|6/21days|3.5|Vehicle Facility|64 hrs/Electronics B/R(4)|3|35kg||sta2.39|
+4-* Enhanced Sensors [5]           23|15000|8/30days|GM|Vehicle Facility|80 hrs/Electronics B/R(4)|6|50kg||sta2.39|
+4-* Enhanced Sensors [6]           23|20000|10/45days|GM|Vehicle Facility|96 hrs/Electronics B/R(4)|8|75kg||sta2.39|
+4-* Enhanced Sensors [7]           23|30000|12/60days|GM|Vehicle Facility|112 hrs/Electronics B/R(4)|9|110kg||sta2.39|
+4-* Enhanced Sensors [8]           23|50000|14/3months|GM|Vehicle Facility|128 hrs/Electronics B/R(4)|12|150kg||sta2.39|
+4-* Enhanced Sensors [9]           23|100000|16/6months|GM|Vehicle Facility|144 hrs/Electronics B/R(4)|16|200kg||sta2.39|
+4-* Enhanced Sensors [10]          23|500000|18/1year|GM|Vehicle Facility|160 hrs/Electronics B/R(4)|20|250kg||sta2.39|
+3-Other
+4-* Electronics Port               23|1000|3/6days|1|Vehicle Shop|8 hrs/Electronics B/R(3)||||r3.145|
+4-* Retransmission Unit            23|25000|8/14days|3|Microtronics Shop|64 hrs/Electronics B/R(4)|1.5|5kg||r3.147|
+2-Accessories
+3-Amphibious Operation Packages
+4-* Amphibious Package, Level [1]  23|2500|3/6days|1|Vehicle Facility|32 hrs/Vehicle B/R(4)|0|0||r3.149|
+4-* Amphibious Package, Level [2]  23|7500|5/10days|1.25|Vehicle Facility|40 hrs/Vehicle B/R(5)|2|0||r3.149|
+4-* Amphibious Package, Level [3]  23|15000|6/12days|1.5|Vehicle Facility|80 hrs/Vehicle B/R(6)|4|0||r3.149|
+3-Amphibious Operation Packages
+4-* Amphibious Package, Level [1]  23|2500|1/?|1|Facility|0/0|0|0||sr2.???
+4-* Amphibious Package, Level [2]  23|7500|1/?|1|Facility|0/0|2|0||sr2.???
+4-* Amphibious Package, Level [3]  23|15000|1/?|1|Facility|0/0|3|0||sr2.???
+3-Anti-Theft Systems
+4-* Anti-Theft System [3]          23|1200|4/7days|1.25|Vehicle Facility|40 hrs/Vehicle B/R(4)||||r3.150|
+4-* Anti-Theft System [4]          23|1600|4/7days|1.25|Vehicle Facility|40 hrs/Vehicle B/R(4)||||r3.150
+4-* Anti-Theft System [5]          23|2000|4/7days|1.25|Vehicle Facility|40 hrs/Vehicle B/R(4)||||r3.150
+4-* Anti-Theft System [6]          23|2400|4/7days|1.25|Vehicle Facility|40 hrs/Vehicle B/R(4)||||r3.150
+4-* Anti-Theft System [7]          23|7000|5/10days|1.50|Vehicle Facility|40 hrs/Vehicle B/R(4)||||r3.150
+4-* Anti-Theft System [8]          23|8000|5/10days|1.50|Vehicle Facility|40 hrs/Vehicle B/R(4)||||r3.150
+4-* Anti-Theft System [9]          23|9000|5/10days|1.50|Vehicle Facility|40 hrs/Vehicle B/R(4)||||r3.150
+4-* Anti-Theft System [10]         23|50000|6/14days|2.00|Vehicle Facility|40 hrs/Vehicle B/R(4)||||r3.150
+4-* Electric Shock System          23|2000||1.00|Vehicle Facility|40 hrs/Vehicle B/R(4)||||r3.150
+4-* Proximity Alert                23|250||1.00|Vehicle Facility|40 hrs/Vehicle B/R(4)||||r3.150
+3-Seats
+4-* Bench Seat                     23|750|3/48hrs|1|Vehicle Shop|4 hrs/Vehicle B/R(4)|6|100kg||r3.153|
+4-* Folding Bench Seat             23|750|3/48hrs|1|Vehicle Shop|4 hrs/Vehicle B/R(4)|6|100kg||r3.153|
+4-* Bucket Seat                    23|700|3/48hrs|1|Vehicle Shop|4 hrs/Vehicle B/R(4)|6|100kg||r3.153|
+3-Sidecars
+4-* Small Sidecar                  23|1000|Always|1|-|-|||+1 Hand, CF 6|r3.154|
+4-* Medium Sidecar                 23|2000|Always|1|-|-|||+1 Hand, CF 8|r3.154|
+4-* Large Sidecar                  23|3500|Always|1|-|-|||+2 Hand, CF 12|r3.154|
+3-Spotlights
+4-* White-Light                    23|600|4/96hrs|1.5|Vehicle Shop|24 hrs/Vehicle B/R(4)||||r3.154|
+4-* Medium-Range Infared           23|600|4/96hrs|1.5|Vehicle Shop|24 hrs/Vehicle B/R(4)||||r3.154|
+3-Library Transponder Chips
+4-* Library Transponder Chip [1]   23|60|5/48hrs|2|Electronics Kit|2 hrs/Electronics B/R(4)||||r3.100|
+4-* Library Transponder Chip [2]   23|240|5/48hrs|2|Electronics Kit|2 hrs/Electronics B/R(4)||||r3.100|
+4-* Library Transponder Chip [3]   23|540|5/48hrs|2|Electronics Kit|2 hrs/Electronics B/R(4)||||r3.100|
+4-* Library Transponder Chip [4]   23|960|5/48hrs|2|Electronics Kit|2 hrs/Electronics B/R(4)||||r3.100|
+4-* Library Transponder Chip [5]   23|1500|5/48hrs|2|Electronics Kit|2 hrs/Electronics B/R(4)||||r3.100|
+4-* Library Transponder Chip [6]   23|2160|5/48hrs|2|Electronics Kit|2 hrs/Electronics B/R(4)||||r3.100|
+4-* Library Transponder Chip [7]   23|2940|5/48hrs|2|Electronics Kit|2 hrs/Electronics B/R(4)||||r3.100|
+4-* Library Transponder Chip [8]   23|3840|5/48hrs|2|Electronics Kit|2 hrs/Electronics B/R(4)||||r3.100|
+4-* Library Transponder Chip [9]   23|4860|5/48hrs|2|Electronics Kit|2 hrs/Electronics B/R(4)||||r3.100|
+4-* Library Transponder Chip [10]  23|6000|5/48hrs|2|Electronics Kit|2 hrs/Electronics B/R(4)||||r3.100|
+3-Other
+4-* Drone Rack                     26|13840|2/7days|1|0.5|r3.151|
+4-* Aircraft Drop Tanks            26|8000||||r3.149|
+4-* Ejection Seat(Standard)        23|3000|5/10days|2|Vehicle Facility|16 hrs/Vehicle B/R(4)|7|110kg||r3.150|
+4-* Ejection Seat(Reinforced)      23|6000|5/10days|2|Vehicle Facility|16 hrs/Vehicle B/R(4)|7|250kg||r3.150|
+4-* Valkyrie Module                23|1000000|10/2weeks|3|Vehicle Shop, Electronics Shop|5 days/Vehicle B/R(5) Electronics B/R(5)|15|500kg|See MM-139|r3.155|
+4-* Photovoltaic Chameleon Paint   23|5000|6/14days|1.5|Vehicle Shop|72 hrs/Electronics(6)||||r3.152|
+4-* Morphing License Plate         23|5000|8/14days|2|Electronics Kit|2 hrs/Electronics B/R(4)||1kg||r3.100|
+4-* Ski-Skids                      23|0|Always|0,90|Vehicle Shop|48 hrs/Vehicle B/R(2)|0|100kg x Body|Cost: 500 x (Body + Armor)|twl.133
+!!
+3-Other SR2
+4-Standard accessories
+5-* Boat Hull Modification         23|BODY x 500?|1/?|1|Facility|0/0|0|0||sr2.???
+5-* Convertible Top                23|2500 + 10% of vehicle?|1/?|1|Shop|0/0|0|0||sr2.???
+5-* EnviroSeal (Gas)               23|BODY x 250?|1/?|1|Facility|0/0|1|0||sr2.???
+5-* EnviroSeal (Water)             23|BODY x 750?|1/?|1|Facility|0/0|1|0||sr2.???
+5-* EnviroSeal (Engine)            23|BODY x 1000?|1/?|1|Facility|0/0|1|0||sr2.???
+5-* External Luggage/Cargo(per CF) 23|250|1/?|1|Shop|0/0|0|0||sr2.???
+5-* Flotation Package (Aircraft)   23|10% of vehicle cost?|1/?|1|Facility|0/0|2|0||sr2.???
+5-* Life Support (10 man-hours)    23|1500|1/?|1|Shop|0/0|1|0||sr2.???
+5-* Reinforced Seating             23|250|1/?|1|Shop|0/0|1|0||sr2.???
+5-* Secondary Controls             23|400|1/?|1|Facility|0/0|2|0||sr2.???
+4-Tires (per tire)
+5-* Standard Tires                 26|BODY x 50?|1/?|1|0|sr2.???
+5-* Performance Tires              26|BODY x 75?|1/?|1|0|sr2.???
+5-* Off-road Tires                 26|BODY x 125?|1/?|1|0|sr2.???
+5-* Dual-Purpose Tires             26|BODY x 250?|1/?|1|0|sr2.???
+5-* Standard Tires, Runflat        26|BODY x 250?|1/?|1|0|sr2.???
+5-* Performance Tires, Runflat     26|BODY x 275?|1/?|1|0|sr2.???
+5-* Off-road Tires, Runflat        26|BODY x 325?|1/?|1|0|sr2.???
+5-* Dual-Purpose Tires, Runflat    26|BODY x 450?|1/?|1|0|sr2.???
+4-Sensors
+5-* VAUBAN Vehicle A.T. Lvl [1]    23|80000|1/?|1|Sensor +1|0/0|Upgrade|0||fra.141
+5-* VAUBAN Vehicle A.T. Lvl [2]    23|160000|1/?|1|Sensor +2|0/0|Upgrade|0||fra.141
+5-* VAUBAN Vehicle A.T. Lvl [3]    23|240000|1/?|1|Sensor +3|0/0|Upgrade|0||fra.141
+5-* VAUBAN Vehicle A.T. Lvl [4]    23|320000|1/?|1|Sensor +4|0/0|Upgrade|0||fra.141
+4-Weapon mounts
+5-* External Rack Mount(1 missile) 23|1000|1/?|1|-|0/0|0|0||sr2.???
+5-* Pintle Mount                   23|50|1/?|1|-|0/0|0|0||sr3.312
+5-* Ring Mount                     23|1500|1/?|1|-|0/0|0|0||sr2.???
+5-* Ring Mount with Hatch          23|2000|1/?|1|-|0/0|0|0||sr2.???
+5-* Ring Mount, Open-top Variant   23|3000|1/?|1|-|0/0|1|0||sr2.???
+4-Lure Launcher
+5-* Lure Launcher AM-56 [1]        19|Lure Launcher|2|SS|-|1CF|9/12 days|20000|4|fra.141|
+5-* Lure Launcher AM-56 [2]        19|Lure Launcher|2|SS|-|2CF|9/12 days|400000|4|fra.141|
+5-* Lure Launcher AM-56 [3]        19|Lure Launcher|2|SS|-|3CF|9/12 days|60000|4|fra.141|
+5-* Lure Launcher AM-56 [4]        19|Lure Launcher|2|SS|-|4CF|9/12 days|80000|4|fra.141|
+5-* Lure Launcher AM-56 [5]        19|Lure Launcher|2|SS|-|5CF|9/12 days|100000|4|fra.141|
+5-* Lure Launcher AM-56 [6]        19|Lure Launcher|2|SS|-|6CF|9/12 days|120000|4|fra.141|
+5-* Lure Launcher AM-56 [7]        19|Lure Launcher|2|SS|-|7CF|9/12 days|140000|4|fra.141|
+5-* Lure Launcher AM-56 [8]        19|Lure Launcher|2|SS|-|8CF|9/12 days|160000|4|fra.141|
+5-* Lure Launcher AM-56 [9]        19|Lure Launcher|2|SS|-|9CF|9/12 days|180000|4|fra.141|
+5-* Lure Launcher AM-56 [10]       19|Lure Launcher|2|SS|-|10CF|9/12 days|200000|4|fra.141|
+5-* Lure Ammo AM-56 [1]            23|2000|1/?|1|Missile jammer|0/0|1|0||fra.141
+5-* Lure Ammo AM-56 [2]            23|8000|1/?|1|Missile jammer|0/0|1|0||fra.141
+5-* Lure Ammo AM-56 [3]            23|18000|1/?|1|Missile jammer|0/0|1|0||fra.141
+5-* Lure Ammo AM-56 [4]            23|32000|1/?|1|Missile jammer|0/0|1|0||fra.141
+5-* Lure Ammo AM-56 [5]            23|50000|1/?|1|Missile jammer|0/0|1|0||fra.141
+5-* Lure Ammo AM-56 [6]            23|72000|1/?|1|Missile jammer|0/0|1|0||fra.141
+5-* Lure Ammo AM-56 [7]            23|98000|1/?|1|Missile jammer|0/0|1|0||fra.141
+5-* Lure Ammo AM-56 [8]            23|128000|1/?|1|Missile jammer|0/0|1|0||fra.141
+5-* Lure Ammo AM-56 [9]            23|162000|1/?|1|Missile jammer|0/0|1|0||fra.141
+5-* Lure Ammo AM-56 [10]           23|200000|1/?|1|Missile jammer|0/0|1|0||fra.141
+4-VAUBAN Missile A.T.
+5-* VAUBAN Missile A.T. [1]        23|36000|1/?|1|Sensor +1|0/0|Upgrade|0||fra.141
+5-* VAUBAN Missile A.T. [2]        23|72000|1/?|1|Sensor +2|0/0|Upgrade|0||fra.141
+5-* VAUBAN Missile A.T. [3]        23|108000|1/?|1|Sensor +3|0/0|Upgrade|0||fra.141
+5-* VAUBAN Missile A.T. [4]        23|144000|1/?|1|Sensor +4|0/0|Upgrade|0||fra.141
+!
+1-Rigger Gear
+2-Special Gear
+3-* Datajack Port                  23|2500|3/72hrs|1.5|Vehicle Facility|56 hrs/Vehicle B/R(4)|1|15kg||r3.128|
+3-* Datajack Port(Motorcycles)     23|5000|3/72hrs|1.5|Vehicle Facility|112 hrs/Vehicle B/R(4)|1|15kg||r3.128|
+3-* Bike Gyro-Stabilization Gear   23|Vehicle Cost x 1.25|6/10days|1.5|Vehicle Facility|48 hrs/Bike B/R(5)||5kg||r3.129|
+3-* Rigger Adaptation              23|2800|4/7days|2|Vehicle Facility|40 hrs/Vehicle B/R(4)|1|10kg||r3.130|
+2-Remote Control Deck & Acc
+3-* Remote Control Deck Rating [1] 21|-|1|3|4/72hrs|5000|2|sr3.306|
+3-* Remote Control Deck Rating [2] 21|-|2|3|4/72hrs|10000|2|sr3.306|
+3-* Remote Control Deck Rating [3] 21|-|3|3|4/72hrs|15000|2|sr3.306|
+3-* Remote Control Deck Rating [4] 21|-|4|3|4/72hrs|20000|2|sr3.306|
+3-* Remote Control Deck Rating [5] 21|-|5|3|4/72hrs|25000|2|sr3.306|
+3-* Remote Control Deck Rating [6] 21|-|6|3|4/72hrs|30000|2|sr3.306|
+3-* Remote Control Deck Rating [7] 21|-|7|3|4/72hrs|35000|2|sr3.306|
+3-* Remote Control Deck Rating [8] 21|-|8|3|4/72hrs|40000|2|sr3.306|
+3-* Remote Control Deck Rating [9] 21|-|9|3|4/72hrs|45000|2|sr3.306|
+3-* Remote Control Deck Rating[10] 21|-|10|3|4/72hrs|50000|2|sr3.306|
+2-RC Deck Accessories
+3-R-C Biofeedback Filters
+4-* R-C Biofeedback Filter [1]     26|10000|2/7days|1|0.5|r3.98|
+4-* R-C Biofeedback Filter [2]     26|20000|4/7days|1|0.5|r3.98|
+4-* R-C Biofeedback Filter [3]     26|30000|6/7days|1|0.5|r3.98|
+3-R-C ECCM Modules
+4-* R-C ECCM Rating [1]            26|7500|4/7days|2|1.5|sr3.306|
+4-* R-C ECCM Rating [2]            26|15000|4/7days|2|1.5|sr3.306|
+4-* R-C ECCM Rating [3]            26|22500|4/7day|2|1.5|sr3.306|
+4-* R-C ECCM Rating [4]            26|60000|6/14days|3|2|sr3.306|
+4-* R-C ECCM Rating [5]            26|75000|6/14days|3|2|sr3.306|
+4-* R-C ECCM Rating [6]            26|90000|6/14days|3|2|sr3.306|
+4-* R-C ECCM Rating [7]            26|245000|12/28days|4|2.5|sr3.306|
+4-* R-C ECCM Rating [8]            26|280000|12/28days|4|2.5|sr3.306|
+4-* R-C ECCM Rating [9]            26|315000|12/28days|4|2.5|sr3.306|
+4-* R-C ECCM Rating [10]           26|500000|18/45days|GM|2.5|sr3.306|
+3-R-C Encryption Modules
+4-* R-C Encryption Module [1]      26|5000|1/1days|3|0.5|r3.98|
+4-* R-C Encryption Module [2]      26|10000|2/2days|3|0.5|r3.98|
+4-* R-C Encryption Module [3]      26|15000|3/3days|3|0.5|r3.98|
+4-* R-C Encryption Module [4]      26|20000|4/4days|3|0.5|r3.98|
+4-* R-C Encryption Module [5]      26|25000|5/5days|3|0.5|r3.98|
+4-* R-C Encryption Module [6]      26|30000|6/6days|3|0.5|r3.98|
+4-* R-C Encryption Module [7]      26|35000|7/7days|3|0.5|r3.98|
+4-* R-C Encryption Module [8]      26|40000|8/8days|3|0.5|r3.98|
+4-* R-C Encryption Module [9]      26|45000|9/9days|3|0.5|r3.98|
+4-* R-C Encryption Module [10]     26|50000|10/10days|3|0.5|r3.98|
+3-R-C Decryption Modules
+4-* Rigger Decryption Module [1]   26|7500|3/24hrs|3|0.5|r3.98|
+4-* Rigger Decryption Module [2]   26|15000|4/48hrs|3|0.5|r3.98|
+4-* Rigger Decryption Module [3]   26|22500|5/72hrs|3|0.5|r3.98|
+4-* Rigger Decryption Module [4]   26|30000|6/4days|3|0.5|r3.98|
+4-* Rigger Decryption Module [5]   26|37500|7/5days|3|0.5|r3.98|
+4-* Rigger Decryption Module [6]   26|45000|8/6days|3|0.5|r3.98|
+4-* Rigger Decryption Module [7]   26|52500|9/7days|3|0.5|r3.98|
+4-* Rigger Decryption Module [8]   26|60000|10/8days|3|0.5|r3.98|
+4-* Rigger Decryption Module [9]   26|67500|11/9days|3|0.5|r3.98|
+4-* Rigger Decryption Module [10]  26|75000|12/10days|3|0.5|r3.98|
+3-R-C Protocol Emulation Modules
+4-* Rigger Protocol Emulation [1]  26|5000|3/1day|2|0.5|r3.98|
+4-* Rigger Protocol Emulation [2]  26|10000|4/2days|2|0.5|r3.98|
+4-* Rigger Protocol Emulation [3]  26|15000|5/3days|2|0.5|r3.98|
+4-* Rigger Protocol Emulation [4]  26|20000|6/4days|2|0.5|r3.98|
+4-* Rigger Protocol Emulation [5]  26|25000|7/5days|2|0.5|r3.98|
+4-* Rigger Protocol Emulation [6]  26|30000|8/6days|2|0.5|r3.98|
+4-* Rigger Protocol Emulation [7]  26|35000|9/7days|2|0.5|r3.98|
+4-* Rigger Protocol Emulation [8]  26|40000|10/8days|2|0.5|r3.98|
+4-* Rigger Protocol Emulation [9]  26|45000|11/9days|2|0.5|r3.98|
+4-* Rigger Protocol Emulation [10] 26|50000|12/10days|2|0.5|r3.98|
+3-Signal Amplifiers
+4-* Signal Amplifier [1]           26|250|1/12hrs|1.5|1|r3.98|
+4-* Signal Amplifier [2]           26|500|2/24hrs|1.5|2|r3.98|
+4-* Signal Amplifier [3]           26|750|3/36hrs|1.5|3|r3.98|
+4-* Signal Amplifier [4]           26|1000|4/48hrs|1.5|4|r3.98|
+4-* Signal Amplifier [5]           26|1250|5/60hrs|1.5|5|r3.98|
+4-* Signal Amplifier [6]           26|1500|6/72hrs|1.5|6|r3.98|
+4-* Signal Amplifier [7]           26|1750|7/84hrs|1.5|7|r3.98|
+4-* Signal Amplifier [8]           26|2000|8/96hrs|1.5|8|r3.98|
+4-* Signal Amplifier [9]           26|2250|9/108hrs|1.5|9|r3.98|
+4-* Signal Amplifier [10]          26|2500|10/120hrs|1.5|10|r3.98|
+3-Storage Memory
+4-* Storage Memory 50Mp            26|300|2/24hrs|1|1|r3.98|
+4-* Storage Memory 100Mp           26|600|2/24hrs|1|1|r3.98|
+4-* Storage Memory 150Mp           26|900|2/24hrs|1|1|r3.98|
+4-* Storage Memory 200Mp           26|1200|2/24hrs|1|1|r3.98|
+3-Autosofts
+4-Clearsight
+5-* Clearsight [1]                 26|1500|6/14days|2||r3.99|
+5-* Clearsight [2]                 26|6000|6/14days|2||r3.99|
+5-* Clearsight [3]                 26|13500|6/14days|2||r3.99|
+5-* Clearsight [4]                 26|24000|6/14days|2||r3.99|
+5-* Clearsight [5]                 26|37500|6/14days|2||r3.99|
+4-Datallink
+5-* Datalink [1]                   26|1500|6/14days|2||r3.99|
+5-* Datalink [2]                   26|6000|6/14days|2||r3.99|
+5-* Datalink [3]                   26|13500|6/14days|2||r3.99|
+5-* Datalink [4]                   26|24000|6/14days|2||r3.99|
+5-* Datalink [5]                   26|37500|6/14days|2||r3.99|
+4-Electronic Warfare
+5-* Electronic Warfare [1]         26|1000|6/14days|2||r3.99|
+5-* Electronic Warfare [2]         26|4000|6/14days|2||r3.99|
+5-* Electronic Warfare [3]         26|9000|6/14days|2||r3.99|
+5-* Electronic Warfare [4]         26|16000|6/14days|2||r3.99|
+5-* Electronic Warfare [5]         26|25000|6/14days|2||r3.99|
+4-Performance Profile(Vehicle)
+5-* Performance Profile [1]        26|1000|6/14days|2||r3.99|
+5-* Performance Profile [2]        26|4000|6/14days|2||r3.99|
+5-* Performance Profile [3]        26|9000|6/14days|2||r3.99|
+5-* Performance Profile [4]        26|16000|6/14days|2||r3.99|
+5-* Performance Profile [5]        26|25000|6/14days|2||r3.99|
+4-Sharpshooter
+5-* Sharpsoooter [1]               26|2000|6/14days|2||r3.99|
+5-* Sharpshooter [2]               26|8000|6/14days|2||r3.99|
+5-* Sharpshooter [3]               26|18000|6/14days|2||r3.99|
+5-* Sharpshooter [4]               26|32000|6/14days|2||r3.99|
+5-* Sharpshooter [5]               26|50000|6/14days|2||r3.99|
+3-Other
+4-* Audio/Visual Screen Display    26|100|2/24hrs|1|0.5|sr3.306,r3.98|
+4-* BattleTac FDDM Master Unit     26|125000|10/21days|3|1|r3.98|
+4-* BattleTac IVIS Master Unit     26|75000|8/14days|3|1|r3.98|
+4-* Hitcher Jack                   26|250|2/48hrs|1||sr3.306,r3.98|
+4-* Intercom System                26|25|2/24hrs|1||sr3.306,r3.98|
+!  Last Line

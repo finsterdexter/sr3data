@@ -1,0 +1,70 @@
+!CPowers.DAT - Critters Powers data file - MM 
+!-----------------------------------------------------------------------------------------------
+0-1|Powers|6|Book.Page|Type|Action|Range|Duration|Notes
+! Duration -- S-Sustained, I - Instant, A-Always
+! Target    T-Touch, S-Self
+!2345678901234567890123456789012345678901234567890123456789012
+Accident                       1|CR3-7|P|Complex|LOS|I|
+Adaptive Colorization          1|CR3-7|P|Auto|Self|Always|
+Animal Control->               1|CR3-7|M|Complex|LOS|S|
+Astral Armor                   1|CR3-8|M|Auto|Self|Always|
+Binding                        1|CR3-8|P|Complex|LOS/T|I|
+Blindness                      1|CR3-8|M|Complex|LOS|I|
+Cold Aura                      1|CR3-8|P|Free|Touch|S|
+Compulsion                     1|CR3-8|M|Complex|LOS|S|
+Concealment                    1|CR3-8|P|Simple|LOS|S|
+Confusion                      1|CR3-8|M|Complex|LOS|S|
+Corrosive Saliva               1|CR3-8|P|Free|LOS|Spec|
+Corrosive Secretions           1|CR3-8|P|Auto|Self|A|
+Desire Reflection              1|CR3-9|M|Complex|LOS|S|
+Dispelling                     1|CR3-9|M|Complex|LOS|I|
+Empathy                        1|CR3-9|M|Complex|LOS|S|
+Engulf                         1|CR3-9|P|ExclComplex|T|S|
+Engulf(Fire)                   1|CR3-9|P|ExclComplex|T|S| F(M) Damage
+Engulf(Water)                  1|CR3-9|P|ExclComplex|T|S| F(M) Stun Damage
+Engulf(Air)                    1|CR3-9|P|ExclComplex|T|S| F(S) Stun Damage
+Engulf(Earth)                  1|CR3-9|P|ExclComplex|T|S| F(S) Damage
+Engulf(Sludge)                 1|CR3-9|P|ExclComplex|T|S| E(M) Damage
+Enhanced Physical Attribute    1|CR3-9|P|Auto|S|S|
+Enhanced Senses->              1|CR3-9|P|Auto|S|Always|
+Essence Drain                  1|CR3-10|M|ExclComp|T|Perm|
+Essence Drain(Temp)            1|CR3-10|M|Complex|T|Spec|
+Fading                         1|CR3-10|M|Free|S|Spec|
+Fear                           1|CR3-10|M|Complex|LOS|Spec|
+Flame Aura                     1|CR3-10|P|Free|S|S|
+Glamour                        1|CR3-10|M|Complex|Spec|S|
+Guard                          1|CR3-11|P|Complex|LOS|S|
+Hardened Armor                 1|CR3-11|P|Auto|S|Always|
+Hypnotic Song                  1|CR3-11|M|Complex|LOS|S|
+Immunity->                     1|CR3-11|P|Auto|S|Always|
+Immunity(Fire)                 1|CR3-11|P|Auto|S|Always|2*Ess 
+Immunity(Cold)                 1|CR3-11|P|Auto|S|Always|2*Ess 
+Immunity(Normal Weapons)       1|CR3-11|P|Auto|S|Always|2*Ess 
+Immunity(Age)                  1|CR3-11|P|Auto|S|Always|2*Ess 
+Immunity(Control Power)        1|CR3-11|P|Auto|S|Always|2*Ess 
+Infection                      1|CR3-11|P|Auto|T|Perm.|
+Infuence                       1|CR3-11|M|Complex|LOS|I|
+Innate Spell->                 1|CR3-11|P|Complex|LOS|I|
+Magical Guard                  1|CR3-12|M|Free|LOS|S|
+Magical Skills                 1|CR3-12|M|Var.|Var.|Var.|
+Magic Sense                    1|CR3-12|M|Simple|Spec.|I|
+Materialization                1|CR3-12|P|Simple|Self|Spec.|
+Mimicry                        1|CR3-12|P|Simple|LOS|S|
+Mist Form                      1|CR3-12|P|ExclCompl|Self|S|
+Movement                       1|CR3-12|P|Complex|LOS|S|
+Noxious Breath                 1|CR3-13|P|Complex|T|I|
+Paralyzing Howl                1|CR3-13|P|Complex|LOS|Spec|
+Paralyzing Touch               1|CR3-13|P|Complex|T|Spec|
+Pestilence                     1|CR3-13|P|Auto|T|I|
+Petrifying Gaze                1|CR3-13|P|Complex|LOS|I|
+Possession                     1|CR3-13|M|Complex|Spec.|Spec.|
+Psychokinesis                  1|CR3-13|P|Complex|LOS|S|
+Regeneration                   1|CR3-13|P|Auto|Self|Always|
+Search                         1|CR3-14|P|ExclComplex|LOS|Spec.|
+Shadow Cloak                   1|CR3-14|P|Free|Self|S|
+Silence                        1|CR3-14|P|Complex|Spec.|S|
+Sonic Projection               1|CR3-14|P|Complex|LOS|I|
+Spraying                       1|CR3-14|P|Complex|Spec.|I|
+Venom                          1|CR3-14|P|Auto|T|I|
+Weather Control                1|CR3-14|P|Complex|LOS|S|
+!LAST LINE

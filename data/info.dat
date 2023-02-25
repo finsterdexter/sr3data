@@ -1,0 +1,7 @@
+! Format is pattern | Information to be displayed
+Ambidexterity-2|When firing two weapons, TN +2 for the first, TN +1 for the second weapon.CC-96
+Ambidexterity-4|When firing two weapons, TN +1 for the first, TN +1 for the second weapon.CC-96
+Ambidexterity-6|When firing two weapons, TN +1 for the first, TN +0 for the second weapon.CC-96
+Ambidexterity-8|When firing two weapons, TN +0 for the first, TN +0 for the second weapon.CC-96
+Gyro Mount, Standard|RC:10,+1IMPact +1BALlistic armor,(Melee:TN+4,1/2Combat Pool)SR3-282
+Gyro Mount, Deluxe|RC:12,+1IMPact +1BALlistic armor,(Melee:TN+4,1/2Combat Pool)SR3-282

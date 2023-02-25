@@ -1,0 +1,129 @@
+!ADEPT.DAT - Physical Adepts powers data file - Stephen Atkins 960201
+! modified by mcmackie for SR3, Kevin Rose for Notes (thanks!), ArchangelGabriel for SOTA2064 (thanks!)
+0-1|Adept Powers|4|Book.Page|AdeptCost|Mods|Notes|
+! Powers below NOTE: *prompt for level
+1-Adept Powers
+2-* Adhesion                       1|tss.1|1.00||Works similar to magentism but on all materials.  Instant on/off and can be used with only some parts of the body if desired.
+2-* Agravated Damage               1|adh.3|1.00||If all unarmed combat dice succeed, stage damage level by 1
+2-* Aimed Shot*                    1|adh.3|0.50||reduce called shot modifer by 1 per level
+2-* Aid Spell*                     1|sta2.64|0.50||1 die per level to support magician casting a spell in same Initiative Phase
+2-* Animal Empathy*                1|sta2.64|0.25||1 die per level for attempts to threaten, calm or frighten an animal
+2-* Astral Perception              1|sr3.168|2.00|| You have the ability to see and reach into the astral plane via astral perception.
+2-* Attribute Boost(STR)*          1|sr3.168|0.25|| Make a Magic Test against a target number equal to one half the base (unaugmented)rating of the attribute being boosted (round up) . . . When the boost runs out you must make a Drain Resistance Test.
+2-* Attribute Boost(QIC)*          1|sr3.168|0.25|| Make a Magic Test against a target number equal to one half the base (unaugmented) rating of the attribute being boosted (round up) . . . When the boost runs outyou must make a Drain Resistance Test.
+2-* Attribute Boost(BOD)*          1|sr3.168|0.25|| Make a Magic Test against a target number equal to one half the base (unaugmented) rating of the attribute being boosted (round up) . . . When the boost runs outyou must make a Drain Resistance Test.
+2-* Blend In\Stand Out             1|tss.4|0.75||One power can be used either way.  Use counts as sustaining a spell but is not evident in astral.
+2-* Blind Fighting                 1|mits.149|0.50|| Blind fighting reduces the visibility modifier for blind fire or full darkness to +4.
+2-* Body Control*                  1|sr3.169|0.25|| Each level of body control provides 1 additional die for Resistance Tests against toxins and diseases.
+2-* Combat Sense +1                1|sr3.169|1.00|+1CPL| Combat sense provides an instinctive sense about an area and any potential threats nearby. See table (SR3-169).
+2-* Combat Sense +2                1|sr3.169|2.00|+2CPL| Combat sense provides an instinctive sense about an area and any potential threats nearby. See table (SR3-169).
+2-* Combat Sense +3                1|sr3.169|3.00|+3CPL| Combat sense provides an instinctive sense about an area and any potential threats nearby. See table (SR3-169).
+2-* Commanding Voice               1|sta2.64|0.50||Adept can speak a Command with three or less words. Opposed test between adepts Charisma and opponents Willpower. If the adept wins the opponent is either distracted or obeys the command (GM).
+2-* Cool Resolve*                  1|sta2.65|0.50||Protection against intimidation, manipulation, or fooling in social situations. +1 die per level against any of such rolls. No protection against magic or critter powers, but against other adepts powers.
+2-* Counterstrike*                 1|mits.149|0.50|| +1 die per level for counterattack tests in melee combat, either armed or unarmed.
+2-* Deep Rooting                   1|sta2.65|0.50||Same Effect as level 1 Rooting; Recoil penalties halved. Movement is limited
+2-* Delay Damage 1                 1|mits.149|1.00|| The obvious form of this power is handled as a normal attack, it just appears to do no damage at the time.
+2-* Delay Damage 2                 1|mits.149|2.00|| An adept with the silent form of this power merely needs to bump into, brush against, or otherwise touch the target unobtrusively.
+2-* Distance Strike                1|mits.149|2.00|| Adept can "transmit"an unarmed attack over a short distance (range in meters equal to the adept's magic) and inflicts the adept's standard unarmed damage.
+2-* Eidetic Sense Memory           1|sta2.65|0.50||The adept gains photo sight memory in addition to a increased memory involving all other senses.
+2-* Elemental Strike               1|sta2.65|0.50||In addition with Killing Hands an adept can create a secondary elemental effect, which is chosen when power is purchased.
+2-* Empathic Healing               1|sta2.65|0.50|| Empathic Healing grants the adept the ability to heal others by transferring their damage onto himself.
+2-* Empathic Reading*              1|sta2.65|0.25|| The adept senses if someone is lying. Receive -1 on target number per level when talking to someone who lies.
+2-* Empathic Sense                 1|mits.149|0.50|| Empathic Sense grants a limited form of magical awareness that allows an adept to sensethe feelings of those he can see with his unaided vision.
+2-* Enhanced Balance 1             1|sta2.65|0.50|| Reduce target number by one for each level of this power when performing acts of balance or knockdowns.
+2-* Enhanced Balance 2             1|sta2.65|1.00|| Reduce target number by one for each level of this power when performing acts of balance or knockdowns.
+2-* Enhanced Centering (x skill)   1|gm2.34|2.00||
+2-* Enhanced Perception*           1|sr3.169|0.50|| Each level provides an additional die for all Perception Tests SR3-231, including astral perception, if you have that power.
+2-* Enthralling Performance        1|sta2.65|0.50|| The adept enthralls an audience with a performance (chosen when power is purchased) such as singing or dancing.
+2-* Facial Sculpt                  1|sta2.66|1.00|| The adpet can sculpt his face as desired for a number of hours equal to his Magic attribute
+2-* Flexibility 1                  1|mits.149|0.50|| This power reduces the target numbers for athletics (escape artist) by 1.
+2-* Flexibility 2                  1|mits.149|1.00|| This power reduces the target numbers for athletics (escape artist) by 2.
+2-* Freefall*                      1|mits.150|0.25|| For each level of freefall, an adept can fall a distance of 2 meters without suffering an injury or making a damage resistance . . .
+2-* Gliding                        1|mits.150|1.00|| The adept can run a distance of (Magic) meters on tangible surfaces such as water, tree limbs or thin ice. Attempts for running longer distances require break points.
+2-* Great Leap*                    1|mits.150|0.25|| Each level of greatleap adds a die for Jumping Tests and is also added to the characters Quickness for determining the maximum distance a character can jump.
+2-* Imp Abl Artistic Skl*->        1|sta2.66|0.25|| This power gives you additional dice for use with an artistic/ perfomance Knowledge Skill.
+2-* Imp Abl B/R Skl*->             1|sta2.66|0.50|| This power gives you additional dice for use with a specific B/R Skill.
+2-* Imp Abl Combat Skl*->          1|sr3.169|0.50|| This power gives you additional dice for use with a specific Active Skill.
+2-* Imp Abl Phys Skl*->            1|sr3.169|0.25|| This power gives you additional dice for use with a specific Active Skill.
+2-* Imp Abl Social Skl*->          1|sta2.66|0.50|| This power gives you additional dice for use with a specific Social Skill.
+2-* Imp Abl Vehicle Skl*->         1|sta2.66|0.50|| This power gives you additional dice for use with a specific Vehicle Skill.
+2-* Imp. Phys. Attr.(BOD)*         1|sr3.169|0.50|+1ROD| With this power you can improve a physical attribute.  Each level of the power increases the attribute by 1.
+2-* Imp. Phys. Attr.(BOD)>RACMOD*  1|sr3.169|1.00|+1ROD| With this power you can improve a physical attribute beyond the Racial Modified limit.  Each level of the power increases the attribute by 1.
+2-* Imp. Physical Attr.(STR)*      1|sr3.169|0.50|+1RTR| With this power you can improve a physical attribute.  Each level of the power increases the attribute by 1.
+2-* Imp. Phys. Attr.(STR)>RACMOD*  1|sr3.169|1.00|+1RTR| With this power you can improve a physical attribute beyond the Racial Modified limit.  Each level of the power increases the attribute by 1.
+2-* Imp. Physical Attr.(QCK)*      1|sr3.169|0.50|+1RCK| With this power you can improve a physical attribute.  Each level of the power increases the attribute by 1.
+2-* Imp. Phys. Attr.(QCK)>RACMOD*  1|sr3.169|1.00|+1RCK| With this power you can improve a physical attribute beyond the Racial Modified limit.  Each level of the power increases the attribute by 1.
+2-* Imp. Reflexes Level 1          1|sr3.169|2.00|+2RCT,+1INI| This power increases the speed at which you react, just like wired reflexes SR3-301.
+2-* Imp. Reflexes Level 2          1|sr3.169|3.00|+4RCT,+2INI| This power increases the speed at which you react, just like wired reflexes SR3-301.
+2-* Imp. Reflexes Level 3          1|sr3.169|5.00|+6RCT,+3INI| This power increases the speed at which you react, just like wired reflexes SR3-301.
+2-* Imp. Sense: Low-Light Vision   1|sr3.169|0.25|| This power provides low-light vision SR3-300.
+2-* Imp. Sense: Thermo Vision      1|sr3.169|0.25|| This power provides thermographic vision SR3-300.
+2-* Imp. Sense: Flare Comp.        1|sr3.169|0.25|| This power provides flare compensation SR3-300.
+2-* Imp. Sense: Vision Mag 3       1|sr3.169|0.25|| This power provides vision magnification 3 SR3-300.
+2-* Imp. Sense: High Freq. Hearing 1|sr3.169|0.25|| This power provides high frequency hearing SR3-299.
+2-* Imp. Sense: Low Freq. Hearing  1|sr3.169|0.25|| This power provides low frequency hearing SR3-299.
+2-* Imp. Sense: Sound Dampening    1|sr3.169|0.25|| This power providessound dampening, functioning like the cyberear Dampener SR3-299.
+2-* Imp. Sense: Sound Filter 5     1|sr3.169|0.25|| This power provides sound filtering, functioning like the cyberear Sound Filter SR3-299.
+2-* Imp. Sense: Spatial Recognizer 1|mits.18|0.25|| This power provides the benefit of the cyberear Spatial Recognizer SR3-299.
+2-* Imp. Sense: Enhanced Hearing   1|sr3.169|0.25|| This power provides enhanced hearing SR3-299.
+2-* Imp. Sense: Directional Sense  1|sr3.169|0.25|| You know what direction you are facing, and whether you are above or below the localground level, with a successful Perception 4 test.
+2-* Imp. Sense: Improved Scent     1|sr3.169|0.25|| You can identify scents in the same way as a bloodhound.
+2-* Imp. Sense: Improved Taste     1|sr3.169|0.25|| You have highly acute taste and can identify ingredients and contamination in food anddrink.
+2-* Inertia Strike                 1|sta2.66|0.50|| The adept strikes a target with a base Damage Level reduced by one but the target must resist a Knockdown as if the Damage Level was one level higher, even if no damage was taken.
+2-* Iron Gut                       1|sta2.66|0.50|| An adept can eat anything, his body will digest anything without harm. The Power of ingested toxins is reduced by 2.
+2-* Iron Lungs                     1|sta2.66|0.25|| With each level of this power an adept can hold his breath for another 45 seconds. Each level reduces fatigue tests by 2.
+2-* Iron Will*                     1|mits.150|0.50|| Each level provides an additional die when resisting any attempt to control or alter the adept's mind, including manipulation spells and critter powers.
+0-* Kinesics 1                     1|sr3.170|1.00|| An adept with Kinesics has complete control over his body's nonverbal and subconscious communication.
+2-* Killing Hands STR(Light)       1|sr3.170|0.50|| This power uses magic to turn unarmed attacks into light physical damage.
+2-* Killing Hands STR(Medium)      1|sr3.170|1.00|| This power uses magic to turn unarmed attacks into medium physical damage.
+2-* Killing Hands STR(Serious)     1|sr3.170|2.00|| This power uses magic to turn unarmed attacks into serious physical damage.
+2-* Killing Hands STR(Deadly)      1|sr3.170|4.00|| This power uses magic to turn unarmed attacks into deadly physical damage.
+2-* Kinesics Level 1               1|sta2.66|1.00|| The adept has complete control over his non-verbal and subconscious communication.
+2-* Kinesics Level 2               1|sta2.66|2.00|| The adept has complete control over his non-verbal and subconscious communication.
+2-* Kinesics Level 3               1|sta2.66|3.00|| The adept has complete control over his non-verbal and subconscious communication.
+2-* Linguistics                    1|sta2.66|0.25|| The adept can learn language skill at no Karma cost.
+2-* Living Focus                   1|sta2.67|1.00|| Adept can sustain a spell cast at him.
+2-* Magical Power(Path:Magician)*  1|mits.022|1.00|+1MAG|MagicLevel=Total
+2-* Magic Resistance*              1|sr3.170|1.00|| You posses an inherent resistance to sorcery.  Add 1 die per level of this power toall you Spell Resistance Tests.
+2-* Magic Sense                    1|mits.150|0.50|| May sense magical energies and effects within a radius equal to the adepts Magic Attribute x 5 in meters. Use the detection spell table (p. 192, SR3) to determinethe target numbers.
+2-* Mask                           1|tss.4|0.50||Can not be used to reproduce unnatural features, cyberware appears unaltered.  Roll [rating] dice against a TN, which depends on the changes.
+2-* Melanin Control                1|sta2.67|1.00|| The character can shift hair and skin colours within natural limits.
+2-* Missile Mastery                1|mits.150|1.00|| Masy use as throwing weapons such normally harmless items such as pens, credsticks and IDcards become deadly weapons in the adepts hands . . .
+2-* Missile Parry                  1|sr3.170|1.00|| You can catch slow-moving missile weapons such as arrows, thrown knives and shuriken out of the air.
+2-* Missile Parry (extended)       1|cs.105|1.50||
+2-* Motion Sense                   1|sta2.67|0.50|| The adept can sense any movement within Magic attribute meters, but not behind astral barriers.
+2-* Multi-Tasking                  1|sta2.67|0.50|| The adept is able to concentrate on seperate actions at the same time and can gather information from multiple senses simultaneously.
+2-* Mystic Armor*                  1|sr3.170|0.50|+1IMP| This power magically toughens your skin to resist the effects of damage. Each level providesyou with 1 point of Impact Armor, cumulative with any worn Impact Armor.
+2-* Nerve Strike                   1|mits.150|1.00|| Nerve strike allows an adept to inflict damage that effects a targets nervous system . . .Every two net success reduces quickness by one. If targets quickness is reduced to 0, the target is paralyzed.
+2-* Nimble Fingers                 1|sta2.67|0.50|| The adept can perform simple reflex and timing tricks (such as inserting a clip into a gun) more efficiently.
+2-* Pain Relief                    1|sta2.67|1.00|| The adept is able to cure one level of stun damage by channeling his energies.
+2-* Pain Resistance*               1|sr3.170|0.50|| Pain resistance allows you to ignore the effects of injury.  It does not reduce actualdamage, only it's effects on you.
+2-* Penetrating Strike Level 1     1|sta2.67|0.75|| An adept can bypass a target's impact armor. Cannot be used with Distance Strike.
+2-* Penetrating Strike Level 2     1|sta2.67|1.50|| An adept can bypass a target's impact armor. Cannot be used with Distance Strike.
+2-* Penetrating Strike Level 3     1|sta2.67|2.25|| An adept can bypass a target's impact armor. Cannot be used with Distance Strike.
+2-* Pheromone Control              1|tss.4|0.50||Each level adds 1 die to Charisma and social skill rolls.
+2-* Quick Draw                     1|mits.151|0.50|| The quick draw power allows an adept to use the quick drawing rules (P. 107, SR3) to quickdraw weapons other than pistols.
+2-* Quick Strike                   1|mits.151|3.00|| This power allows the adept to act first in one initiative pass per combat turn.
+2-* Rapid Healing*                 1|sr3.170|0.50||
+2-* Resilience*                    1|sta2.67|0.25|| The adept can stabilize Deadly Wounds and can minimize effects of extreme wounds such as loosing limbs.
+2-* Ricochet                       1|tss.12|1.00||Allows the adept the ability to bounce bullets off of hard surfaces.  Each such ricochet takes 2 from the power of the bullet and adds 2 to the target number of the shot.
+2-* Rooting*                       1|mits.151|0.25|| Each level adds 1die to all tests to resist being knocked down, thrown, levitated or otherwise moved against his will.
+2-* Side Step*                     1|sta2.67|0.50|| The adept gains one additional Combat Pool die per level for Dodge and Full Dodge attempts.
+2-* Sixth Sense*                   1|mits.151|0.25|| Each level allows the adept to roll an additional die when making Reaction Tests forsurprise SR3-108
+2-* Sprint*                        1|sta2.68|0.25|| The adept gains +1 quickness for determining running distance.
+2-* Smashing Blow                  1|mits.151|1.00|| Smashing blow allows an adept to focus magical energy into a devastating strike designed to smash through barriers.
+2-* Spell Shroud*                  1|mits.151|0.25|| For each level of the power, the adept adds 1 die to Spell Resistance Tests against detection spells only.
+2-* Staredown                      1|tss.18|2.00||Opposed Will(4) test with opponent, for every 2 net successes the winner rolls, the loser hesitates 1 phase.  Tie results in deadlock; either both lose phase and start again or someone forfeits one to end.
+2-* Suspended State                1|sr3.170|1.00|| Roll Willpower vs target of 4 and see the Hibernate spell description SR3-194.
+2-* Sustenance                     1|sta2.68|0.25|| The adept only needs to have 3 hours of sleep and one full meal per day.
+2-* Temperature Tolerance*         1|mits.151|0.25|| For each level of temperature tolerance, the adept gains an extra die for resisting the effects and damage of exposure to extreme temperature.
+2-* Thermal Chameleon              1|tss.12|0.50||Heat radiated from the adepts body becomes similar to it's surroundings. TN for perception tests to find adept with thermal vision/sensors get +1 per level.
+2-* Three Dimensional Memory       1|sta2.68|0.50|| The adept can remember a scene in a three-dimensional way and mentally walk through his memory at a later time.
+2-* Traceless Walk                 1|mits.151|0.50|| An adept with the traceless walk power can move over soft or brittle surfaces such as snow, sand, or thin paper without leaving any visible traces or noise.
+2-* True Sight*                    1|mits.151|0.25|| Each level of this power gives the adept an additional die when making Resistance Tests against illusion spells and illusion-based critter powers.
+2-* Virtuoso                       1|tss.4|0.50||+1 per level to Perfoamnce ratring when physically playing an instrument.
+2-* Voice Alteration               1|tss.4|1.50||Adept can roll INT(8) to make his voice reproduce any natural sound, -1 TN for each previous sucess with a given sound.  TN 14 to mimic a voice.
+2-* Voice Control                  1|sta2.68|0.50|| The adept can mask her voice, imitate sounds in the range of metahuman vocalisation and even copy another persons' voice.
+2-* Wall Running                   1|sta2.68|1.00|| The adept can run up to Magic attribute meters on walls or other vertical surfaces.
+!SR2-126   Increase Reaction            var
+! Last Line

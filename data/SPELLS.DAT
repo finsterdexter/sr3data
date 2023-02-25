@@ -1,0 +1,265 @@
+!SPELLS.DAT - Spells data file - JW 960305 (Updated from PM 950220 - additions by Joseph Pettit)
+! UPDATED TO SR3. SR2 SPELLS AND EARLIER REMOVED. A LOT OF SPELLS HAVE BEEN ROLLED INTO ONE
+!
+! Josef Wegner: added Target: Wastelands entries 01/03/03
+!-----------------------------------------------------------------------------------------------
+0-1|Spells|8|Book.Page|Type|Target|Duration|Range|Drain|Class|Notes
+!Book-Pag Name                         TYPE TAR    DUR  RANGE  Drain       Class
+!-------- ---------------------------- ---- ---    ---  -----  ---------------
+!2345678901234567890123456789012345678901234567890123456789012
+1-Combat Spells
+2-* Cold Ball                      1|tss.4|P|B(R)|I|LOS|+2(S)|C|
+2-* Death Touch                    1|sr3.191|M|W(R)|I|T|(DL-1)|C|
+2-* Dispel Insect Spirit           1|tss.9|P|B(R)|S|LOS|(D)|C|should have been named REPEL??
+2-* Freezing Grasp                 1|tss.4|P|B(R)|I|LOS|+1(L)|C|
+2-* Manaball                       1|sr3.191|M|W(R)|I|LOS(A)|(DL+1)|C|
+2-* Manabolt                       1|sr3.191|M|W(R)|I|LOS|(DL)|C|
+2-* Piercing Meow                  1|tss.9|P|W(R)|S|LOS|(S)|C|
+2-* Powerball                      1|sr3.191|P|B(R)|I|LOS(A)|+1(DL+1)|C|
+2-* Powerbolt                      1|sr3.191|P|B(R)|I|LOS|+1(DL)|C|
+2-* Ram->                          1|mits.140|P|OR|I|LOS|+1(DL-2)|C|
+2-* Shattershield                  1|mits.140|M|F(R)|I|T|(M)|C|
+2-* Slaughter(Race/Species)->      1|mits.140|M|W(R)|I|LOS(A)|+1(D)|C|
+2-* Slay(Race/Species)->           1|mits.140|M|W(R)|I|LOS|-1(D)|C|
+2-* Spiritblast                    1|mits.140|M|F(R)|I|LOS(A)|-1(DL+1)|C|
+2-* Spiritbolt                     1|mits.140|M|F(R)|I|LOS|-1(DL)|C|
+2-* Stunball                       1|sr3.191|M|W(R)|I|LOS(A)|-1(DL+1)|C|
+2-* Stunbolt                       1|sr3.191|M|W(R)|I|LOS|-1(DL)|C|
+2-* Stuntouch                      1|mits.140|M|W(R)|I|T|-1(DL-1)|C|
+2-* Wreck->                        1|mits.140|P|OR|I|LOS|+1(DL-1)|C|
+1-Detection Spells
+2-* Analyze Device                 1|sr3.192|P|OR|S|T/D|+1(M)|D|
+2-* Analyze Magic                  1|mits.140|M|F(R)|S|T/D|(L)|D|
+2-* Analyze Truth                  1|sr3.192|M|W(R)|S|T/D|(L)|D|
+2-* Animal(Sense)                  1|mits.140|M|W(R)|S|T/D|(M)|D|
+2-* Astral Window                  1|mits.140|M|F(R)|S|T/D|(L)|D|
+2-* Catalog                        1|mits.141|P|6|S|T/A|+1(M)|D|
+2-* Cat's Eye                      1|tss.9|P|4|S|P|+2(S)|D|
+2-* Clairaudience                  1|sr3.192|M|6(R)|S|T/D|(M)|D|
+2-* Clairvoyance                   1|sr3.192|M|6(R)|S|T/D|(M)|D|
+2-* Combat Sense                   1|sr3.192|M|4|S|T|(S)|D|
+2-* Detect Enemies                 1|sr3.192|M|DT(R)|S|T/A|(M)|D|
+2-* Detect Individual              1|sr3.192|M|DT(R)|S|T/A|(L)|D|
+2-* Detect Life                    1|sr3.192|M|DT(R)|S|T/A|(L)|D|
+2-* Detect(Life Form)->            1|sr3.193|M|DT(R)|S|T/A|-1(L)|D|
+2-* Detect Magic                   1|sr3.193|M|6(4)|S|T/A|(L)|D|
+2-* Detect(Object)->               1|sr3.193|P|DT|S|T/A|+1(M)|D|
+2-* Diagnose                       1|mits.141|M|W(R)|S|T/D|-1(L)|D|
+2-* Enhance Aim                    1|mits.141|M|6(R)|S|T/D|(M)|D|
+2-* Eyes of the Pack               1|mits.141|M|6(V)|S|T/D|(M)|D|
+2-* Identify                       1|tss.9|M|OR|S|LOS|+1(L)|D|not the same as D&D spell of same name
+2-* Ignore                         1|tss.9|M|W|S|LOS|+1(M)|D|
+2-* Mindlink                       1|sr3.193|M|4(V)|S|LOS/D|(S)|D|
+2-* Mindprobe                      1|sr3.193|M|W(R)|S|T/D|(S)|D|
+2-* Nightvision                    1|mits.141|P|6(R)|S|T/D|+1(M)|D|
+2-* Prey                           1|tss.9|M|W|S|LOS|-1(S)|D|
+2-* Private Conversation           1|tss.9|M|W|S|T|(S)|D|
+2-* Ranged Private Conversation    1|tss.9|M|W|S|LOS|+1(D)|D|I assume the published range is a typo
+2-* Sense Pads                     1|tss.9|M|OR|S|T|(M)|D|
+2-* Translate                      1|mits.141|M|4(V)|S|T/D|(M)|D|
+2-* Word Recognition               1|sta2.033|M|W|S|LOS|(M)|D|
+1-Health Spells
+2-* Alleviate Allergy              1|mits.141|P|10-E(V)|S|T|(Al. Level)|H|
+2-* Antidote    (TOX LEV)          1|sr3.193|M|TOX(V)|P|T|(TOX DL)|H|
+2-* Awaken                         1|mits.141|M|4(V)|I|T|-2(SDL)|H|
+2-* Cause Allergy                  1|mits.142|P|10-E(R)|S|T|+2(AL LEV+1)|H|
+2-* Cripple Limb                   1|mits.142|P|B(T)|S|T|+1(S)|H|
+2-* Cure Disease                   1|sr3.193|M|DP(T)|P|T|(DIS DL)|H|
+2-* Decrease Attribute (B)         1|sr3.193|M|10-E(R)|S|T|+1(S)|H|
+2-* Decrease Attribute (C)         1|sr3.193|M|10-E(R)|S|T|+1(S)|H|
+2-* Decrease Attribute (I)         1|sr3.193|M|10-E(R)|S|T|+1(S)|H|
+2-* Decrease Attribute (Q)         1|sr3.193|M|10-E(R)|S|T|+1(S)|H|
+2-* Decrease Attribute (S)         1|sr3.193|M|10-E(R)|S|T|+1(S)|H|
+2-* Decrease Attribute (W)         1|sr3.193|M|10-E(R)|S|T|+1(S)|H|
+2-* Decrease Cyber Attribute (B)   1|sr3.193|P|10-E(R)|S|T|+2(S)|H|
+2-* Decrease Cyber Attribute (C)   1|sr3.193|P|10-E(R)|S|T|+2(S)|H|
+2-* Decrease Cyber Attribute (I)   1|sr3.193|P|10-E(R)|S|T|+2(S)|H|
+2-* Decrease Cyber Attribute (Q)   1|sr3.193|P|10-E(R)|S|T|+2(S)|H|
+2-* Decrease Cyber Attribute (S)   1|sr3.193|P|10-E(R)|S|T|+2(S)|H|
+2-* Decrease Cyber Attribute (W)   1|sr3.193|P|10-E(R)|S|T|+2(S)|H|
+2-* Decrease Cybered Reaction      1|mits.142|P|10-E(R)|S|T|+2(D)|H|
+2-* Decrease Reaction              1|mits.142|M|10-E(R)|S|T|+1(D)|H|
+2-* Decreased Reflexes -1INI DIE   1|mits.142|P|10-E(R)|S|T|+2(D)|H|
+2-* Decreased Reflexes -2INI DIE   1|mits.142|P|10-E(R)|S|T|+4(D)|H|
+2-* Decreased Reflexes -3INI DIE   1|mits.142|P|10-E(R)|S|T|+6(D)|H|
+2-* Detox                          1|sr3.193|M|TOX(V)|P|T|-2(TOX DL)|H|
+2-* Fast                           1|mits.142|M|4(V)|P|T|-2(M)|H|
+2-* Heal                           1|sr3.193|M|10-E(V)|P|T|(DL)|H|
+2-* Healthy Glow                   1|sr3.194|M|4(V)|P|T|(L)|H|
+2-* Hibernate                      1|sr3.194|M|4(V)|S|T|+1(M)|H|
+2-* Increased Attribute (B)        1|sr3.194|M|Att(V)|S|T|+1(M)|H|
+2-* Increased Attribute (C)        1|sr3.194|M|Att(V)|S|T|+1(M)|H|
+2-* Increased Attribute (I)        1|sr3.194|M|Att(V)|S|T|+1(M)|H|
+2-* Increased Attribute (Q)        1|sr3.194|M|Att(V)|S|T|+1(M)|H|
+2-* Increased Attribute (S)        1|sr3.194|M|Att(V)|S|T|+1(M)|H|
+2-* Increased Attribute (W)        1|sr3.194|M|Att(V)|S|T|+1(M)|H|
+2-* Increased Cyber Attribute (B)  1|sr3.194|P|Att(V)|S|T|+2(M)|H|
+2-* Increased Cyber Attribute (C)  1|sr3.194|P|Att(V)|S|T|+2(M)|H|
+2-* Increased Cyber Attribute (I)  1|sr3.194|P|Att(V)|S|T|+2(M)|H|
+2-* Increased Cyber Attribute (Q)  1|sr3.194|P|Att(V)|S|T|+2(M)|H|
+2-* Increased Cyber Attribute (S)  1|sr3.194|P|Att(V)|S|T|+2(M)|H|
+2-* Increased Cyber Attribute (W)  1|sr3.194|P|Att(V)|S|T|+2(M)|H|
+2-* Increased Reaction             1|sr3.194|M|Rea(V)|S|T|+1(S)|H|
+2-* Incr. Reflexes +1INI DIE       1|sr3.194|M|REA(V)|S|T|+1(S)|H|
+2-* Incr. Reflexes +2INI DIE       1|sr3.194|M|REA(V)|S|T|+1(D)|H|
+2-* Incr. Reflexes +3INI DIE       1|sr3.194|M|REA(V)|S|T|+3(D)|H|
+2-* Intoxication                   1|mits.142|P|B(T)|P|T|+1(D)|H|
+2-* Nutritiion                     1|mits.142|P|4(V)|P|T|+1(M)|H|
+2-* Oxygenate                      1|sr3.194|P|4(V)|S|T|+2(L)|H|
+2-* Preserve                       1|mits.142|P|4|P|T|+1(M)|H|
+2-* Prophylaxis                    1|sr3.194|M|4(V)|S|T|+1(L)|H|
+2-* Resist Pain                    1|sr3.194|M|4(V)|P|T|-2(DL)|H|
+2-* Stabilize                      1|sr3.194|M|4+MIN V|P|T|+1(M)|H|
+2-* Treat                          1|sr3.193|M|10-E(V)|P|T|-1(DL)|H|
+1-Directed Illusion Spells
+2-* Agony                          1|mits.142|M|W(R)|S|LOS|(M)|I|
+2-* Blindness                      1|mits.143|P|I(R)|S|LOS|+1(M)|I|
+2-* Chaff                          1|mits.143|P|OR|S|LOS|(S)|I|
+2-* Chaos                          1|sr3.195|P|I(R)|S|LOS|+1(S)|I|
+2-* Chaotic World                  1|sr3.195|P|I(R)|S|LOS(A)|+1(D)|I|
+2-* Confusion                      1|sr3.195|M|W(R)|S|LOS|(S)|I|
+2-* Delusion                       1|tss.9|M|W(R)|S|LOS|+2(D)|I|Target changed to fit with other Direct Illusions
+2-* Dream                          1|mits.143|M|W(R)|S|LOS|(M)|I|
+2-* Entertainment                  1|sr3.195|M|W(V)|S|LOS(A)|(L)|I|
+2-* Flak                           1|mits.143|P|OR|S|LOS(A)|(D)|I|
+2-* Flash                          1|mits.143|P|I(R)|I|LOS(A)|(S)|I|
+2-* Mass Agony                     1|mits.142|M|W(R)|S|LOS(A)|(S)|I|
+2-* Mass Blindness                 1|mits.143|M|I(R)|S|LOS(A)|+1(S)|I|
+2-* Mass Confusion                 1|sr3.195|M|W(R)|S|LOS(A)|(D)|I|
+2-* Mirror                         1|tss.9|M|W(R)|S|LOS|+1(S)|I|Target changed to fit with other Direct Illusions
+2-* Stench                         1|mits.143|M|W(R)|S|LOS(A)|(S)|I|
+2-* Stink                          1|mits.143|M|W(R)|S|LOS|(M)|I|
+2-* Trid Entertainment             1|sr3.195|P|I(V)|S|LOS(A)|+1(L)|I|
+1-Indirect Illusion Spells
+2-* Blur                           1|tss.9|P|4(R)|S|LOS|+3(M)|N|Target changed to fit with other Indirect Illusions
+2-* Camouflage                     1|mits.143|M|4(R)|S|LOS|(L)|N|
+2-* Chasm                          1|tss.9|P|4(R)|S|LOS|+2(D)|N|Target changed to fit with other Indirect Illusions
+2-* (Critter) Stampede             1|tss.9|P|4(R)|S|LOS|+2(D)|N|Target changed to fit with other Indirect Illusions
+2-* Double Image                   1|mits.143|M|4(R)|S|T|(S)|N|
+2-* Elegy                          1|tss.9|P|4(R)|S|L|+2(S)|N|Target changed to fit with other Indirect Illusions
+2-* Fairie Fire                    1|tss.4|M|W(R)|S|LOS|+2(M)|N|
+2-* False Shadow                   1|tss.9|M|4(R)|S|LOS|+1(M)|N|Target changed to fit with other Indirect Illusions
+2-* Foreboding                     1|mits.143|M|4(R)|S|LOS(A)|(D)|N|
+2-* Hot Potatoe                    1|mits.143|M|4(R)|S|LOS(A)|(M)|N|
+2-* Improved Invisibility          1|sr3.195|P|4(R)|S|LOS|+1(M)|N|
+2-* Improved Voice Mask            1|tss.9|P|4(R)|S|T(V)|+3(L)|N|Target changed to fit with other Indirect Illusions
+2-* Invisibility                   1|sr3.195|M|4(R)|S|LOS|(M)|N|
+2-* Mask                           1|sr3.195|M|4(R)|S|LOS|(M)|N|
+2-* Phantasm                       1|sr3.195|M|4(R)|S|LOS(A)|(D)|N|
+2-* Phantasmal Orchestra           1|tss.9|M|4(R)|S|L|+1(S)|N|Target changed to fit with other Indirect Illusions
+2-* Physical Camouflage            1|mits.143|P|4(R)|S|LOS|+1(L)|N|
+2-* Physical Double Image          1|mits.143|P|4(R)|S|T|+1(S)|N|
+2-* Physical Mask                  1|sr3.195|P|4(R)|S|LOS|+1(M)|N|
+2-* Project Astral Entity          1|tss.9|P|4(R)|S|L|+3(M)|N|Target changed to fit with other Indirect Illusions
+2-* Sheath                         1|tss.9|P|*|S|LOS|+1(M)|N|
+2-* Silence                        1|sr3.196|P|4(R)|S|LOS(A)|+1(S)|N|
+2-* Stealth                        1|sr3.196|P|4(R)|S|LOS|+1(M)|N|
+2-* Sound Barrier                  1|sta2.33|P|4(R)|S|LOS|+1(M)|N|
+2-* Trid Phantasm                  1|sr3.195|P|4(R)|S|LOS(A)|+1(D)|N|
+2-* Vehicle Mask                   1|mits.144|P|4(R)|S|LOS|+1(S)|N|
+1-Control Manipulation Spells
+2-* Alter Memory                   1|mits.144|M|W(T)|P|LOS|(D)|M|
+2-* Berserker Rage                 1|tss.9|M|W(R)|S|LOS|+1(S)|M|
+2-* Calm Animal                    1|mits.144|M|W(T)|S|LOS|(M)|M|
+2-* Calm Pack                      1|mits.144|M|W(T)|S|LOS(A)|(S)|M|
+2-* Catnip                         1|tss.9|M|W(R)|S|LOS|+3(M)|M|
+2-* Compel Truth                   1|mits.144|M|W(T)|S|LOS|+1(M)|M|
+2-* Control Actions                1|sr3.196|M|W(T)|S|LOS|+1(M)|M|
+2-* Control Animal                 1|mits.144|M|W(T)|S|LOS|(S)|M|
+2-* Control Emotion                1|sr3.196|M|W(T)|S|LOS|+1(M)|M|
+2-* Control Pack                   1|mits.144|M|W(T)|S|LOS(A)|(D)|M|
+2-* Control Thoughts               1|sr3.196|M|W(T)|S|LOS|+1(S)|M|
+2-* Influence                      1|sr3.196|M|W(T)|P|LOS|(S)|M|
+2-* Mob Mind                       1|mits.145|M|W(T)|S|LOS(A)|+1(D)|M|
+2-* Mob Mood                       1|mits.145|M|W(T)|S|LOS(A)|+1(S)|M|
+1-Elemental Manipulation Spells
+2-* Acid Stream                    1|sr3.196|P|4(RC)|I|LOS|+1(DL+1)|E|
+2-* Breeze                         1|tss.18|P|2|S|LOS|(L)|E|
+2-* Ball Lightning                 1|sr3.197|P|4(RC)|I|LOS(A)|+1(DL+2)|E|
+2-* Cake Ammunition                1|tss.9|P|OR|I|LOS|+1(S)|E|
+2-* Fireball                       1|sr3.197|P|4(RC)|I|LOS(A)|+1(DL+2)|E|
+2-* Flamethrower                   1|sr3.197|P|4(RC)|I|LOS|+1(DL+1)|E|
+2-* Ice Bolt                       1|tss.4|P|4(RC)|I|LOS|+3(S)|E|
+2-* Laser                          1|mits.145|P|4(RC)|I|LOS|+1(DL+1)|E|
+2-* Lightning Bolt                 1|sr3.197|P|4(RC)|I|LOS|+1(DL+1)|E|
+2-* Nova                           1|mits.145|P|4(RC)|I|LOS(A)|+1(DL+2)|E|
+2-* Smoke Cloud                    1|mits.145|P|4(RC)|I|LOS(A)|(DL+2)|E|
+2-* Splash                         1|twl.124|P|4(RC)|I|LOS|(DL)|E|
+2-* Steam                          1|mits.145|P|4(RC)|I|LOS|(DL+1)|E|
+2-* Thunderbolt                    1|mits.145|P|4(RC)|I|LOS|(DL+1)|E|
+2-* Thunderclap                    1|mits.145|P|4(RC)|I|LOS(A)|(DL+2)|E|
+2-* Toxic Wave                     1|sr3.196|P|4(RC)|I|LOS(A)|+1(DL+2)|E|
+2-* Waterbolt                      1|twl.124|P|4(RC)|I|LOS|(DL)|E|
+1-Telekinetic Manipulation Spells
+2-* Animate                        1|mits.145|P|OR|S|LOS|+1(M)|T|
+2-* Bind                           1|mits.145|P|Q(R)|S|LOS|+2(M)|T|
+2-* Catfall                        1|mits.145|P|4|S|LOS|+1(M)|T|
+2-* Cat Leap                       1|tss.9|P|4|I|P|+1(M)|T|
+2-* Clout                          1|sr3.197|P|4(RC)|I|LOS|(DL)|T|
+2-* Deflect                        1|mits.145|P|4|S|LOS|+2(M)|T|
+2-* Fling                          1|sr3.197|P|4(RC)|I|T|+1(M)|T|
+2-* Gecko Crawl                    1|mits.146|P|4|S|LOS|+2(M)|T|
+2-* Levitate                       1|sr3.197|P|4(R)|S|LOS|+2(M)|T|
+2-* Lock                           1|mits.146|P|4|S|LOS|+2(M)|T|
+2-* Magic Fingers                  1|sr3.197|P|6|S|LOS|+2(M)|T|
+2-* Mana Bind                      1|mits.146|M|Q|S|LOS|+1(M)|T|
+2-* Mana Net                       1|mits.146|M|Q|S|LOS|+1(S)|T|
+2-* Natural Armor                  1|tss.9|P|6|S|LOS|+3(D)|T|
+2-* Net                            1|mits.145|P|Q(R)|S|LOS(A)|+2(S)|T|
+2-* Poltergeist                    1|sr3.197|P|4(R)|S|LOS(A)|+1(M)|T|
+2-* Redirect                       1|mits.146|P|4(RC)|I|LOS|+1(DL)|T|
+2-* Shape Earth                    1|mits.146|P|4|S|LOS(A)|+2(M)|T|
+2-* Shape Water                    1|mits.146|P|4|S|LOS(A)|+2(M)|T|
+2-* Use(Skill)->                   1|mits.146|P|6|S|LOS|+2(L)|T|
+1-Transformation Manipulation Spells
+2-* Alter Pressure                 1|twl.131|P|4|S|LOS(A)|+2(S)|Z|
+2-* Alter Temperature              1|mits.146|P|4|S|LOS(A)|+2(M)|Z|
+2-* Armor                          1|sr3.198|P|6|S|LOS|+2(M)|Z|
+2-* Astral Armor                   1|mits.146|M|6|S|LOS|+1(M)|Z|
+2-* Astral Barrior                 1|sr3.198|M|6|S|LOS(A)|+1(S)|Z|
+2-* Clean(Element)->               1|mits.146|P|6|P|LOS(A)|+1(S)|Z|
+2-* Clean Item                     1|tss.18|P|2|P|T|(L)|Z|
+2-* Control Fire                   1|mits.146|P|Pfire|S|LOS(A)|+2(M)|Z|
+2-* Create Food                    1|mits.147|P|4|P|LOS|+1(S)|Z|
+2-* Dry Item                       1|tss.18|P|2|P|LOS|(L)|Z|
+2-* Earth Barrier                  1|tss.4|P|5|P|LOS|+2(M)|Z|
+2-* Emotion Paint                  1|tss.12|M|4|P|T|(M)|Z|
+2-* Fashion                        1|mits.147|P|6|P|T|+1(L)|Z|
+2-* Firewall                       1|mits.147|P|4|S|LOS(A)|+2(S)|Z|
+2-* Fix                            1|mits.147|P|OR|P|T|(S)|Z|
+2-* Flame Aura                     1|mits.147|P|4|S|LOS(A)|+2(M)|Z|
+2-* Flavor                         1|tss.18|P|2|I|T|(L)|Z|
+2-* Freeze Water                   1|mits.147|P|4|I|LOS(A)|+1(M)|Z|
+2-* Glue                           1|mits.147|P|4|S|LOS(A)|+2(M)|Z|
+2-* Glue Stick                     1|tss.18|P|2|S|T|(L)|Z|
+2-* Glue Strip                     1|mits.147|P|4|S|LOS(A)|+2(S)|Z|
+2-* Ice Sheet                      1|sr3.198|P|4|I|LOS(A)|+1(S)|Z|
+2-* Ignite                         1|sr3.198|P|4(T)|P|LOS|+1(D)|Z|
+2-* Inertial Barrier               1|tss.4|P|6|S|LOS|+2(S)|Z|
+2-* Light                          1|sr3.198|P|4|S|LOS(A)|+2(M)|Z|
+2-* Limited Armor                  1|mits.147|P|6|S|LOS|+2(L)|Z|
+2-* Limited Physical Barrior       1|mits.147|P|6|S|LOS(A)|+2(M)|Z|
+2-* Makeover                       1|mits.147|P|6(V)|P|LOS|+1(M)|Z|
+2-* Mana Static                    1|mits.148|M|4|P|LOS(A)|(D)|Z|
+2-* Mist                           1|mits.148|P|4|I|LOS(A)|+1(M)|Z|
+2-* Personal Thermostat            1|twl.119|P|4|S|LOS|+2(L)|Z|
+2-* Petrify                        1|sr3.198|P|B(T)|S|LOS|+1(S)|Z|
+2-* Physical Barrier               1|sr3.198|P|6|S|LOS(A)|+2(S)|Z|
+2-* Radiation Barrier              1|twl.111|P|6|S|LOS|+1(S)|Z|Not sure about Range!
+2-* Radiation Shield               1|twl.111|P|6|S|LOS|+1(M)|Z|Not sure about Range!
+2-* Reinforce                      1|mits.148|P|OR|S|LOS|+1(M)|Z|
+2-* Ritual Cleansing               1|tss.12|M|4|P|LOS|(S)|Z|
+2-* Shadow                         1|sr3.198|P|4|S|LOS(A)|+2(M)|Z|
+2-* Shape Snow/Ice                 1|twl.124|P|4|S|LOS|+2(M)|Z|
+2-* Shapechange                    1|mits.148|P|B(TV)|S|LOS|+1(M)|Z|
+2-* Soak Item                      1|tss.18|P|2|I|LOS|(L)|Z|
+2-* Spell Shield                   1|mits.148|M|6|S|LOS|(M)|Z|
+2-* Spell Wall                     1|mits.148|M|6|S|LOS(A)|(S)|Z|
+2-* Spirit Barrior                 1|mits.148|M|6|S|LOS(A)|(S)|Z|
+2-* Sterilize                      1|mits.148|P|4|I|LOS(A)|+1(M)|Z|
+2-* Transform                      1|mits.148|P|B(T)|S|LOS|+1(S)|Z|
+2-* Wind                           1|mits.148|P|4|S|LOS(A)|+2(M)|Z|
+2-* Zip                            1|tss.18|P|2|S|P|(L)|Z|
+1-Custom Spells
+2-* Custom Dummy Spell             1|cus.00|T|0|0|0|0|0|
+!LAST LINE

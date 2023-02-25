@@ -1,0 +1,234 @@
+!BIOWARE.DAT - Bioware data file - JW 960202 (Update of PM 940520)
+! s/c/x  standard/cultured only/cosmetic (no cultured)
+! modifiers are considered natural/racial hence BOD becomes ROD
+! Natural + Racial Mod except INI -> NNI  & RCT -> NCT
+! Plastic Warrior book are integrated in alphabetical order with CB (Chrome Book)
+! Reference to CB (Chromebook) are from downloadble edition at http://shadowrun.html.com/plasticwarriors
+! and from the compilation Chromebook 1 to 4, so page numbers indicated are in this order.
+! Updated 000305 Thierry N  Updated 10/19/02 by Lich325 12/14/02 SOTA update by Jan Yarwood 
+0-1|Bioware|8|Book.Page|Availability|BioIndex|$Cost|Mods|Type|Street Index|Notes|
+1-STANDARD
+2-* Adrenal Pump [1](trig)         1|mm.064|10/16 days|1.25|60000||s|3.0|+1QCK,+2STR,+1WIL,+2RCT, damage taken
+2-* Adrenal Pump [2](trig)         1|mm.064|10/16 days|2.5|100000||s|3.0|+2QCK,+4STR,+2WIL,+4RCT, damage taken
+2-* Anti-Plague Nanot.             1|cb1.29|6/7 days|0.40|17500||s|1.5|
+2-* Biotechnica Neoappendix        1|cb4.138|5/7 days|0.30|15000||s|2.00|Extra die for finding food in Survival
+2-* Bonespike                      1|cb3.97|5/72 hours|0.30|10000||s|1.50|Damage (STR-1)M,concealabilitie 9 if retracted
+2-* Cam-O-Skin (DERMATECH)         1|cb3.99|6/72 hours|1.50|8500||s|2.0|Like camouflage clothing
+2-* Cat's Eyes                     1|mm.064|4/6 days|0.2|15000||s|1.00|Lowlight vision
+2-* Chemical Gland NarcoJet        1|mm.064|10/4 days|0.6|45000||s|3.00|Narcojet toxin
+2-* Chemical Gland GammaScopo      1|mm.064|10/4 days|0.6|60000||s|3.00|Gamma-Scopolamine toxin
+2-* Chemical Gland template        1|mm.064|10/4 days|0.6|1000000||s|3.00|must be customized in Bioware.dat via DATeditor
+! put specialized gland costs with dose here
+2-Compound Eyes
+3-* Compound Eyes [1]              1|cp.32|6/60 hours|0.30|3000||s|1.25|
+3-* Compound Eyes [2]              1|cp.32|6/60 hours|0.30|6000||s|1.25|
+3-* Compound Eyes [3]              1|cp.32|6/60 hours|0.30|9000||s|1.25|
+3-* Compound Eyes [4]              1|cp.32|6/60 hours|0.30|12000||s|1.25|
+3-* Compound Eyes [5]              1|cp.32|6/60 hours|0.30|15000||s|1.25|
+3-* Compound Eyes [1]UV            1|cp.33|6/60 hours|0.30|7500||s|1.25|
+3-* Compound Eyes [2]UV            1|cp.33|6/60 hours|0.30|10500||s|1.25|
+3-* Compound Eyes [3]UV            1|cp.33|6/60 hours|0.30|13500||s|1.25|
+3-* Compound Eyes [4]UV            1|cp.33|6/60 hours|0.30|16500||s|1.25|
+3-* Compound Eyes [5]UV            1|cp.33|6/60 hours|0.30|19500||s|1.25|
+2-Cyberliver
+3-* Cyberliver[1]T-MAXX            1|cb1.28|6/4 days|0.20|60000||s|1.10|
+3-* Cyberliver[2]T-MAXX            1|cb1.28|6/4 days|0.30|120000||s|1.10|
+3-* Cyberliver[3]T-MAXX            1|cb1.28|6/4 days|0.40|180000||s|1.10|
+3-* Cyberliver[4]T-MAXX            1|cb1.28|6/4 days|0.50|240000||s|1.10|
+3-* Cyberliver[5]T-MAXX            1|cb1.28|6/4 days|0.60|300000||s|1.10|
+3-* Cyberliver[6]T-MAXX            1|cb1.28|6/4 days|0.70|360000||s|1.10|
+3-* Cyberliver II[1]T-MAXX II      1|cb1.28|6/4 days|0.25|120000||s|1.10|
+3-* Cyberliver II[2]T-MAXX II      1|cb1.28|6/4 days|0.40|240000||s|1.10|
+3-* Cyberliver II[3]T-MAXX II      1|cb1.28|6/4 days|0.55|360000||s|1.10|
+3-* Cyberliver II[4]T-MAXX II      1|cb1.28|6/4 days|0.70|480000||s|1.10|
+3-* Cyberliver II[5]T-MAXX II      1|cb1.28|6/4 days|0.85|600000||s|1.10|
+3-* Cyberliver II[6]T-MAXX II      1|cb1.28|6/4 days|1.00|1080000||s|1.10|
+2-* Decentralized Heart            1|cb1.27|14/24 days|2.00|130000||s|4.00|
+2-* Digestive Expansion            1|mm.065|6/10 days|1.00|80000|+1DGX|s|2.00|-20% lifestyle cost, can eat anything organic, ingested toxin power halved, -1 die taste Perception
+2-* Enhanced Articulation          1|mm.066|5/6 days|0.60|40000|+1NCT,|s|1.50|+1RCT, 1 addt'l die to Combat, Physical, Technical,& B/R skill tests
+2-Extended Volume
+3-* Extended Volume[1]             1|mm.066|4/4 days|0.20|8000||s|1.00|+45 seconds of air, -1 fatigue TNs
+3-* Extended Volume[2]             1|mm.066|4/4 days|0.30|15000||s|1.00|+90 seconds of air, -2 fatigue TNs
+3-* Extended Volume[3]             1|mm.066|4/4 days|0.40|25000||s|1.00|+135 seconds of air, -3 fatigue TNs
+2-* Flashlite Implant              1|cb4.139|6/4 days|0.10|2900||s|1.50|
+2-Fluid Rerouter
+3-* Fluid Rerouter[1]              1|pw.50|6/48 hours|0.20|2500||s|1.00|
+3-* Fluid Rerouter[2]              1|pw.50|6/48 hours|0.40|5000||s|1.00|
+3-* Fluid Rerouter[3]              1|pw.50|6/48 hours|0.60|7500||s|1.00|
+3-* Fluid Rerouter[4]              1|pw.50|6/48 hours|0.80|10000||s|1.00|
+3-* Fluid Rerouter[5]              1|pw.50|6/48 hours|1.00|12500||s|1.00|
+3-* Fluid Rerouter[6]              1|pw.50|6/48 hours|1.20|15000||s|1.00|
+2-* FleshWeave (SYCUST)            1|cb3.96|6/36 hours|0.50|120000||s|1.50|Count 0.5 essence(as Cyberware)
+2-* Forked Tongue                  1|cb1.27|5/72 hours|0.35|12500||s|2.00|
+2-* Grafted Muscle                 1|cp.17|8/14 days|1.00|100000|+1ROD,+1RTR,+1RCK,|s|1.25|+1BOD,+1STR,+1QCK,
+2-* Indep. Air Supply              1|cp.17|4/7 days|0.70|50000||s|1.00|
+2-* Lifesave Skinweave             1|cb1.29|12/10 days|2.00|45000||s|2.00|
+2-* Low-Light                      1|cp.33|5/36 hours|0.20|4500||s|1.25|
+2-* Metabolic Arrestor             1|mm.066|6/8 days|0.6|20000||s|1.50|Metabolic stasis after 10 boxes of physical damage
+2-Muscle & Bone Lacing
+3-* Muscle & Bone Lacing Adv.[1]   1|cb4.138|6/14 days|0.5|10000|+1BOD,|s|1.50|+1BOD,cannot be combined with Cybernet.Bone.Lace
+3-* Muscle & Bone Lacing Adv.[2]   1|cb4.138|7/14 days|1.5|15000|+2BOD,|s|1.50|+2BOD,cannot be combined with Cybernet.Bone.Lace
+3-* Muscle & Bone Lacing Adv.[3]   1|cb4.138|8/14 days|2.5|30000|+3BOD,|s|1.75|+3BOD,cannot be combined with Cybernet.Bone.Lace
+2-Muscle Augmentation / Toner
+3-* Muscle Augmentation[1]         1|mm.067|6/6 days|0.4|20000|+1RTR,|s|0.90|+1STR
+3-* Muscle Augmentation[2]         1|mm.067|6/6 days|0.8|40000|+2RTR,|s|0.90|+2STR
+3-* Muscle Augmentation[3]         1|mm.067|6/6 days|1.2|60000|+3RTR,|s|0.90|+3STR
+3-* Muscle Augmentation[4]         1|mm.067|6/6 days|1.6|80000|+4RTR,|s|0.90|+4STR
+3-* Muscle Toner[1]                1|mm.067|6/6 days|0.4|25000|+1RCK,|s|0.90|+1QCK
+3-* Muscle Toner[2]                1|mm.067|6/6 days|0.8|50000|+2RCK,|s|0.90|+2QCK
+3-* Muscle Toner[3]                1|mm.067|6/6 days|1.2|75000|+3RCK,|s|0.90|+3QCK
+3-* Muscle Toner[4]                1|mm.067|6/6 days|1.6|100000|+4RCK,|s|0.90|+4QCK
+2-* Nano-Groomers (FRESCO)         1|cb3.98|3/12 hours|0.20|4000||s|0.80|
+2-* Nanoaudiotory Rebuild)         1|cb4.138|6/72 hours|0.30|9000||s|1.50|Equiv. hearing amp. ad damper
+2-* Nanooptic Upgrade              1|cb2.48|6/48 hours|0.20|7500||s|1.25|Equivalent Cyber LowLight, Not in Cybereye,
+2-* Nephritic Screen               1|mm.067|4/4 days|0.40|20000||s|1.00|-1 Power of pathogen and blood toxins, +1BOD to resist them
+2-* Nictitating Membranes          1|mm.067|4/6 days|0.10|8000||s|1.00|-1 eye irritance mods, flare comp
+2-* Nitrogen Binder (OTEC)         1|cb4.138|6/4 days|0.60|32000||s|1.50|+2BOD if resistance test for nitrogen narcosis
+2-Orthoskin
+3-* Orthoskin[1]                   1|mm.068|8/8 days|0.50|25000|+1IMP,|s|0.80|+1IMP
+3-* Orthoskin[2]                   1|mm.068|8/8 days|1.00|60000|+1IMP,+1BAL,|s|0.80|+1IMP,+1BAL
+3-* Orthoskin[3]                   1|mm.068|8/8 days|1.50|100000|+2IMP,+1BAL,|s|0.80|+2IMP,+1BAL
+2-* Overdrive Heart                1|cb1.37|14/10 days|1.60|98500||s|3.50|
+2-Pathogenic Defense
+3-* Pathogenic Def.[1]             1|mm.068|4/4 days|0.20|24000||s|1.5|Max half BOD, -1 power to biological attacks
+3-* Pathogenic Def.[2]             1|mm.068|4/4 days|0.40|48000||s|1.5|Max half BOD, -2 power to biological attacks
+3-* Pathogenic Def.[3]             1|mm.068|4/4 days|0.60|72000||s|1.5|Max half BOD, -3 power to biological attacks
+3-* Pathogenic Def.[4]             1|mm.068|4/4 days|0.80|96000||s|1.50|Max half BOD, -4 power to biological attacks
+3-* Pathogenic Def.[5]             1|mm.068|4/4 days|1.00|120000||s|1.50|Max half BOD, -5 power to biological attacks
+3-* Pathogenic Def.[6]             1|mm.068|4/4 days|1.20|144000||s|1.50|Max half BOD, -6 power to biological attacks
+3-* Pathogenic Def.[7]             1|mm.068|4/4 days|1.40|168000||s|1.50|Max half BOD, -7 power to biological attacks
+3-* Pathogenic Def.[8]             1|mm.068|4/4 days|1.60|192000||s|1.5|Max half BOD, -8 power to biological attacks
+3-* Pathogenic Def.[9]             1|mm.068|4/4 days|1.80|216000||s|1.5|Max half BOD, -9 power to biological attacks
+3-* Pathogenic Def.[10]            1|mm.068|4/4 days|2.00|240000||s|1.5|Max half BOD, -10 power to biological attacks
+2-Physio Tailoring
+3-* Physio.Tailoring Quick.        1|cb4.140|16/30 days|0.30|200000|+1QCK,|s|4.00|+1 QCK Only available in beta clinic or higher
+3-* Physio.Tailor.Racial.Bod.Max   1|cb4.140|16/30 days|0.00|300000|+1ROD,|s|4.00|+1 BOD Only available in beta clinic or higher
+3-* Physio.Tailoring React.        1|cb4.140|16/30 days|0.30|200000|+1RCK,|s|4.00|+1 RCK Only available in beta clinic or higher
+3-* Physio.Tailor.Reduce.Oxygen    1|cb4.140|16/30 days|0.30|200000||s|4.00|Only available in beta clinic or higher
+3-* Physio.Tailor.UV resistance    1|cb4.140|16/30 days|0.20|175000||s|4.00|Only available in beta clinic or higher
+3-* Physio.Tailor.Skin.Armor.Bal   1|cb4.140|16/30 days|0.75|250000|+1BAL,|s|4.00|Only available in beta clinic or higher
+2-* Platelet Factories             1|mm.068|5/8 days|0.40|30000||s|1.50|-1 box for any higher than M wound, anticoagulents needed
+2-Poison Glands
+3-* Poison Gland (Teeth)           1|cb4.139|8/10 days|0.30|5000||s|1.50|must be customized in Bio.dat,
+3-* +Poison Biotoxin[1]            1|cb4.139|8/10 days|0.00|10000||s|1.50|5S Physical damage
+3-* Poison Gland (Hands)           1|cb4.139|8/10 days|0.30|5000||s|1.50|must be customized in Bio.dat,
+3-* +Poison Biotoxin[1]            1|cb4.139|8/10 days|0.00|11000||s|1.50|+4 on all target for 10turn,BOD(6) test resist
+3-* +Poison Hallucinogen           1|cb4.139|8/10 days|0.00|8000||s|1.50|+4 on all target for 10turn,BOD(6) test resist
+2-* Rebreathers                    1|cb1.27|5/4 days|0.75|95000||s|1.00|Hold breath for(BodyX30)+90sec.Act as Tracheous Filter Lvl3,
+2-Skin Weave
+3-* Skin Weave, Basic              1|cp.17|8/8 days|0.50|60000|+1BAL,|s|0.80|+1BAL,incomp.with orthoskin
+3-* Skin Weave[1]                  1|cb2.49|8/8 days|0.50|25000|+1BAL,|s|0.80|+1BAL,incomp. with orthoskin or Cyber armor,
+3-* Skin Weave[2]                  1|cb2.49|8/8 days|1.00|60000|+1IMP,+1BAL,|s|0.80|+1IMP,+1BAL,incomp. with orthoskin or Cyber armor,
+3-* Skin Weave[3]                  1|cb2.49|8/8 days|1.50|100000|+1IMP,+2BAL,|s|0.90|+1IMP,+2BAL,incomp. with orthoskin or Cyber armor,
+3-* Skin Weave[4]                  1|cb2.49|9/8 days|2.00|150000|+2IMP,+2BAL,|s|1.00|+2IMP,+2BAL,incomp. with orthoskin or Cyber armor,
+3-* Skin Weave[5]                  1|cb2.49|10/10 days|2.50|225000|+2IMP,+3BAL,|s|1.20|+2IMP,+3BAL,incomp. with orthoskin or Cyber armor,
+3-* Skin Weave[6]                  1|cb2.49|12/14 days|3.00|300000|+3IMP,+3BAL,|s|1.50|+3IMP,+3BAL,incomp. with orthoskin or Cyber armor,
+2-* PACESETTER Sport Heart         1|cb1.28|10/10 days|1.30|90000||s|3.00|+1BOD,+1QCK in Athletic,
+2-* PACESETTER 2000 Overdrv Hrt    1|cb1.28|14/10 days|1.60|98500||s|3.50|+2BOD,+2QCK in Athletic,
+2-* Suprathyroid Gland             1|mm.069|8/12 days|1.4|50000|+1NCT,+1RTR,+1RCK,+1ROD,+1STG,|s|2.50|+1RCT,+1STR,+1QCK,+1BOD
+2-Symbiotes
+3-* Symbiotes[1](90%)              1|mm.069|5/10 days|0.4|15000||s|1.00|
+3-* Symbiotes[2](70%)              1|mm.069|5/10 days|0.7|35000||s|1.00|
+3-* Symbiotes[3](50%)              1|mm.069|5/10 days|1.0|60000||s|1.00|
+2-* Synthacardium[1]               1|mm.070|4/10 days|0.2|6000||s|1.50|+1 die Athletics and heart resistance test
+2-* Synthacardium[2]               1|mm.070|4/10 days|0.3|15000||s|1.50|+2 die Athletics and heart resistance test
+2-* Sunblocker Sunscreen           1|pna.43|3/5 days|0.9|20000||s|0.8|see book
+2-Tailored Pheromes
+3-* Tailored Pherom.[1](NotCult.)  1|mm.070|12/14 days|0.4|20000|+1CHA,|s|2.0|+1CHA,+1 Die Social Test
+3-* Tailored Pherom.[2](NotCult.)  1|mm.070|12/14 days|0.6|45000|+2CHA,|s|2.0|+2CHA,+2 Die Social Test
+3-* Tail. Revol.Pherom.1 Confus.   1|cb4.139|12/14 days|0.2|10000||s|2.00|-1INT,-1RCT for anyone within 1 ]meter of user
+3-* Tail. Revol.Pherom.2 Confus.   1|cb4.139|12/14 days|0.3|22500||s|2.00|-2INT,-2RCT for anyone within 1 meter of user
+3-* Tail. Revol.Pherom.1 Gullib.   1|cb4.139|12/14 days|0.2|10000||s|2.00|+1dice for Negociation test
+3-* Tail. Revol.Pherom.2 Gullib.   1|cb4.139|12/14 days|0.3|22500||s|2.00|+1dice for Negociation test
+3-* Tail. Revol.Pherom.1 Love      1|cb4.139|12/14 days|0.2|10000||s|2.00|+1dice for seducting people
+3-* Tail. Revol.Pherom.2 Love      1|cb4.139|12/14 days|0.3|22500||s|2.00|+2dice for seducting people
+2-Toxin Extractor
+3-* Toxin Extractor[1]             1|mm.071|4/4 days|0.4|45000||s|1.00|Max half BOD, -1 power to blood toxins
+3-* Toxin Extractor[2]             1|mm.071|4/4 days|0.8|90000||s|1.00|Max half BOD, -2 power to blood toxins
+3-* Toxin Extractor[3]             1|mm.071|4/4 days|1.2|135000||s|1.00|Max half BOD, -3 power to blood toxins
+3-* Toxin Extractor[4]             1|mm.071|4/4 days|1.6|180000||s|1.00|Max half BOD, -4 power to blood toxins
+2-Tracheal Filter
+3-* Tracheal Filter[1]             1|mm.071|4/4 days|0.4|60000||s|1.00|Max half BOD, -1 power airborne toxins
+3-* Tracheal Filter[2]             1|mm.071|4/4 days|0.8|120000||s|1.00|Max half BOD, -2 power airborne toxins
+3-* Tracheal Filter[3]             1|mm.071|4/4 days|1.2|180000||s|1.00|Max half BOD, -3 power airborne toxins
+3-* Tracheal Filter[4]             1|mm.071|4/4 days|1.6|240000||s|1.00|Max half BOD, -4 power airborne toxins
+2-* Bodyweight Vein Clip           1|cb4.136|6/4 days|0.75|7000||s|1.00|Add one extra minute beteween taking overflow damage boxes
+2-* Venomous Fangs, Lethal         1|tss.5|4/7 days|0.50|18000||s|2.00|Designed like a cobra's fangs, 1/2" long. Includes a venom sack and poison gland that makes enough for 6 bites and takes 12 hours to refill.  8D damage from poison.
+2-* Venomous Fangs, Non-Lethal     1|tss.5|4/7 days|0.50|15000||s|2.00|Designed like a cobra's fangs, 1/2" long. Includes a venom sack and poison gland that makes enough for 6 bites and takes 12 hours to refill.  8D STUN damage from poison.
+1-CULTURED
+2-* Cerebral Booster[1]            1|mm.072|6/14 days|0.4|50000|+1RNT,|c|2.00|+1INT
+2-* Cerebral Booster[2]            1|mm.072|6/14 days|0.8|110000|+2RNT,+1TAS|c|2.00|+2INT,+1TASK
+2-Damage Compensator
+3-* Damage Comp.[1]                1|mm.072|6/6 days|0.2|25000||c|2.5|-1 box injury modifiers
+3-* Damage Comp.[2]                1|mm.072|6/6 days|0.4|50000||c|2.5|-2 boxes injury modifiers
+3-* Damage Comp.[3]                1|mm.072|10/6 days|0.6|150000||c|2.5|-3 boxes injury modifiers
+3-* Damage Comp.[4]                1|mm.072|10/6 days|0.8|200000||c|2.5|-4 boxes injury modifiers
+3-* Damage Comp.[5]                1|mm.072|10/6 days|1.0|250000||c|2.5|-5 boxes injury modifiers
+3-* Damage Comp.[6]                1|mm.072|12/6 days|1.2|600000||c|2.5|-6 boxes injury modifiers
+3-* Damage Comp.[7]                1|mm.072|12/6 days|1.4|700000||c|2.5|-7 boxes injury modifiers
+3-* Damage Comp.[8]                1|mm.072|12/6 days|1.6|800000||c|2.5|-8 boxes injury modifiers
+3-* Damage Comp.[9]                1|mm.072|12/6 days|1.8|900000||c|2.5|-9 boxes injury modifiers
+2-Mnemonic Enhancement
+3-* Mnemonic Enhanc.[1]            1|mm.072|6/7 days|0.2|15000|+1MNE|c|1.00|+1 die Memory and Language tests, -1 Karma cost to learn/improve skills
+3-* Mnemonic Enhanc.[2]            1|mm.072|6/7 days|0.4|30000|+2MNE|c|1.00|+2 die Memory and Language tests, -1 Karma cost to learn/improve skills, +3 default to INT for Knowledge Skills
+3-* Mnemonic Enhanc.[3]            1|mm.072|6/7 days|0.6|45000|+3MNE|c|1.00|+3 die Memory and Language tests, +1 die Knowledge Skills, -1 Karma cost to learn/improve skills, +3 default to INT for Knowledge Skills
+2-* Pain Editor                    1|mm.073|6/6 days|0.6|60000||c|1.2|While engaged, +1WIL, -1INT, ignore Stun Damage penalties, +4 TN tactile Perception, does not feel pain
+2-* Reflex Rec. (base skill)       1|mm.074|8/6 days|0.25|25000||c|1.5|+1 die base skill, only once per skill
+2-* Reflex Rec. (spec skill)       1|mm.074|5/6 days|0.1|10000||c|1.5|+1 die specialized skill, only once per skill
+2-* Sleep Regulator                1|mm.074|4/4 days|0.3|20000||c|1.00|Only require 3 hours of sleep, 48 hours of wakefulness before TN modifiers occur
+2-* Synaptic Accel.[1]             1|mm.074|6/12 days|0.4|75000|+1NNI,|c|2.00|+1INI
+2-* Synaptic Accel.[2]             1|mm.074|6/12 days|1.0|200000|+2NNI,|c|2.00|+2INI
+2-Tailored Pheromes
+3-* Cult. Tailored Pherom.[1]      1|mm.070|12/14 days|0.3|80000|+2CHA,|c|2.0|+2CHA,+2 Die Social Test
+3-* Cult. Tailored Pherom.[2]      1|mm.070|12/14 days|0.45|180000|+4CHA,|c|2.0|+4CHA,+4 Die Social Test
+2-* Thermosense Organ              1|mm.075|10/12 days|0.5|25000||c|2.00|Sense heat nearby, table on MM75
+2-* Trauma Damper                  1|mm.075|6/8 days|0.4|40000||c|2.00|-1 box Stun wounds, shift 1 box of Physical wounds to Stun
+1-COSMETIC
+2-* Chloroplast Skin               1|mm.075|6/8 days|0.2|10000||x|2.0|Green skin, less need to eat
+2-* Clean Metabolism               1|mm.076|4/4 days|0.2|10000||x|1.00|No BO or unpleasant gasses
+2-* Dietware                       1|mm.076|4/4 days|0.2|10000||x|1.00|Can't gain weight
+2-* Hair Growth                    1|mm.076|4/4 days|0.1|2000||x|1.00|Grow any kind of hair anywhere
+2-* Scent Glands                   1|mm.076|4/4 days|0.1|5000||x|1.00|Change smell and taste of sweat, even to smell like a perfume
+2-* Sensitive Skin                 1|mm.076|6/6 days|0.2|10000||x|2.00|Increase sensitivity to heat, cold, pressure, pain
+2-* Skin Pigmentation              1|mm.076|6/6 days|0.1|5000||x|1.00|Skin can be any color, anywhere, even eye iris can be changed
+1-NANOWARE
+2-* Nano Bioware Regenerator->     1|mm.92|8/2 weeks|0.00|? 10% of implant cost||x|2.00|add your own entry via DATeditor
+1-GENETECH
+2-Genetic Correction
+3-* Correction (small)             1|sota.026|6/21 days|0.2|30000||x|2.00|Degree of change up to GM
+3-* Correction (moderate)          1|sota.026|6/21 days|0.3|40000||x|2.00|Degree of change up to GM
+3-* Correction (significant)       1|sota.026|6/21 days|0.4|50000||x|2.00|Degree of change up to GM
+3-* Correction (extreme)           1|sota.026|6/21 days|0.5|60000||x|2.00|Degree of change up to GM
+2-* Augmented Healing              1|sota.026|6/21 days|0.0|2500||x|2.00|Cost is per week of treatment
+2-* Cellular Repair                1|sota.026|6/21 days|0.0|50000||x|2.00|Incompatible with Boosted Reflexes
+2-Age Rejuvination
+3-* Rejuvinative Treatment         1|sota.026|8/30 days|1.0|2000000||x|2.5|Require Maintainence sessions every 6 months for the next 3 years
+3-* Maintainance session           1|sota.026|8/30 days|0.0|100000||x|2.5|
+2-Phenotypic Alteration
+3-* Minor Change (eye color etc.)  1|sota.026|5/21 days|0.1|50000||x|2.0|
+3-* Major Change                   1|sota.026|5/21 days|0.5|65000||x|2.0|Includes any change not normal to metatype
+3-* Bod Modified Limit Increase    1|sota.026|5/21 days|0.5|65000|+1XOD|x|2.0|+1 to Racial Modified Limit
+3-* Qck Modified Limit Increase    1|sota.026|5/21 days|0.5|65000|+1XCK|x|2.0|+1 to Racial Modified Limit
+3-* Str Modified Limit Increase    1|sota.026|5/21 days|0.5|65000|+1XTR|x|2.0|+1 to Racial Modified Limit
+2-Environmental Microadaptation
+3-* Cold                           1|sota.027|6/30 days|0.4|60000||x|2.0|+2 Dice Vs cold damage, -2 modifier cold survival tests
+3-* Heat                           1|sota.027|6/30 days|0.3|60000||x|2.0|+2 Dice Vs heat damage, -2 modifier heat survival tests
+3-* Low Oxygen                     1|sota.027|6/30 days|0.3|50000||x|2.0|Each success on holding breath adds 10 combat turns, normal oxygen levels cause hyperoxia (Oxygen Toxicity Pg 109 CC)
+3-* Pollution                      1|sota.027|6/30 days|0.2|50000||x|2.0|+3 body dice for resisting chemical attacks
+2-Direct Protein Synthesis
+3-* Angiotensin                    1|sota.027|6/30 days|0.3|40000||x|2.0|After Deadly wound, additional damage accrues at Body x2 combat turns
+3-* Calcitonin                     1|sota.027|6/30 days|0.4|60000|+1BOD|x|2.0|+1 Body for damage resistance test barrier rating 6 for bones
+3-* Erythropoitin                  1|sota.028|6/30 days|0.4|40000||x|2.0|+2 Dice for Athletics Tests
+3-* Glucagon                       1|sota.028|6/30 days|0.3|40000||x|2.0|Double times when dealing with fatigue effects
+2-DNA Masking
+3-* DNA Masking[1]                 1|sota.028|8/14 days|0.0|7500||x|2.0|Roll opposed test between masking rating and scanner
+3-* DNA Masking[2]                 1|sota.028|8/14 days|0.0|15000||x|2.0|Roll opposed test between masking rating and scanner
+3-* DNA Masking[3]                 1|sota.028|8/14 days|0.0|22500||x|2.0|Roll opposed test between masking rating and scanner
+3-* DNA Masking[4]                 1|sota.028|10/14 days|0.1|40000||x|2.0|Roll opposed test between masking rating and scanner
+3-* DNA Masking[5]                 1|sota.028|10/14 days|0.1|50000||x|2.0|Roll opposed test between masking rating and scanner
+3-* DNA Masking[6]                 1|sota.028|10/14 days|0.1|60000||x|2.0|Roll opposed test between masking rating and scanner
+3-* DNA Masking[7]                 1|sota.028|14/21 days|0.1|105000||x|2.0|Roll opposed test between masking rating and scanner
+3-* DNA Masking[8]                 1|sota.028|14/21 days|0.1|120000||x|2.0|Roll opposed test between masking rating and scanner
+3-* DNA Masking[9]                 1|sota.028|14/21 days|0.1|135000||x|2.0|Roll opposed test between masking rating and scanner
+3-* DNA Masking[10]                1|sota.028|18/28 days|0.2|200000||x|2.0|Roll opposed test between masking rating and scanner
+2-* Genetic Immunization           1|sota.029|6/18 days|0.1|25000||x|2.0|Does not work against Neuro-toxins and fast acting compounds, that requires cellular repair

@@ -1,0 +1,176 @@
+! Layout is simple. If any character other than "*" is in column 3, it's a category otherwise...
+! MM 7/5/00
+0-1|Contacts|0||
+1-Not Selected Yet
+2-* Not Selected Yet
+1-Corporate 
+2-* Combat Mage   
+2-* Company Man   
+2-* Corporate Decker  
+2-* Corporate Hitman  
+2-* Corporate Official 
+2-* Corporate Rigger  
+2-* Corporate Scientist 
+2-* Corporate Secretary 
+2-* Corporate Wage Slave 
+2-* Cyber Assassin  
+2-* Cyber Logician  
+2-* Firefighter   
+2-* Mr. Johnson   
+1-Criminal 
+2-* Elf Poser-Gang Member 
+2-* Elven Hitman   
+2-* Gang Boss    
+2-* Gang Member   
+2-* Mafia Don    
+2-* Mafia Soldier   
+2-* Ogre Enforcer   
+2-* Snitch    
+2-* Yakuza Boss   
+1-Government/Military/Mercenary 
+2-* City Official   
+2-* Dwarf Mercenary  
+2-* Government Agent  
+2-* Government Official 
+2-* Mercenary    
+2-* MET-2000-Offizierin 
+2-* Metroplex Guardsman 
+2-* Peace Force Bordergrd 
+2-* Ork Mercenary   
+2-* Special Forces Troopr 
+1-Magical 
+2-* Burned-Out Mage  
+2-* Dwarf Fortuneteller 
+2-* Elf Mage    
+2-* Elf Magic Cult Priest 
+2-* Immigrant Str. Priest 
+2-* Magiedoktor   
+2-* Magieprofessor  
+2-* Magiestudent   
+2-* Ork Hermetic Mage  
+2-* Ork Shaman   
+2-* Shaman    
+2-* Stadthexe    
+2-* Street Mage   
+2-* Street Shaman   
+2-* Talismonger   
+2-* Weise Frau   
+2-* Wiz Kid Mage   
+1-Media/Entertainment 
+2-* Bartender    
+2-* Club Habitue   
+2-* Club Owner   
+2-* Fan     
+2-* Media Producer  
+2-* Media Entrepeneur  
+2-* Newsman    
+2-* Reporter    
+2-* Rocker    
+2-* Sasquatch Entertainer 
+2-* Simsense Star   
+2-* Talentsucher   
+2-* Troll Bouncer   
+1-Police/Security 
+2-* Corp. Security Guard 
+2-* Exec Protection Adept 
+2-* Exec Prot. Decker  
+2-* Exec Protection Mage 
+2-* Exec Prot. Rigger  
+2-* Exec Prot. Specialist 
+2-* Freelance Exec Prot. 
+2-* Freelance Magic Sec. 
+2-* Freelance Sec. Decker 
+2-* Investigator   
+2-* Magical Sec. Engineer 
+2-* Magical Sec. Special. 
+2-* Personnel Sec. Spec. 
+2-* Plain Clothes Cop  
+2-* Security Commander 
+2-* Security Decker  
+2-* Sec. Design Engineer 
+2-* Security Executive 
+2-* Security Guard  
+2-* Security Mage   
+2-* Security Officer  
+2-* Security Rigger  
+2-* Sec.: Animal Handler 
+2-* Sec.: Fast Response 
+2-* Street Cop   
+1-Street 
+2-* Bladeboy    
+2-* Combat Decker   
+2-* Corp Hunter   
+2-* Cyber Ninja   
+2-* Cyber Runner   
+2-* Cyberzombie   
+2-* Decker    
+2-* Dwarf Street Samurai 
+2-* Elven Decker   
+2-* Elven Street Samurai 
+2-* Ex-Journalist   
+2-* Former Company Man 
+2-* Former Corp. Decker 
+2-* Former Corporate Spy 
+2-* Former DocWagoneer 
+2-* Former Espionage Agnt 
+2-* Former Mage Detective 
+2-* Former Milit. Officer 
+2-* Former Simsense Star 
+2-* Former Tribal Warrior 
+2-* Former Troll Bnty Hnt 
+2-* Former Wage Mage  
+2-* Ninja     
+2-* Ork Street Samurai 
+2-* Rigger    
+2-* Six-Million Nuyen Sam 
+2-* Squatter    
+2-* Street Kid   
+2-* Street Operator  
+2-* Street Rigger   
+2-* Street Samurai  
+2-* Street Slick/Homeboy 
+2-* Subway-Jockey   
+2-* Thief     
+2-* Troll Street Samurai 
+1-Tribal 
+2-* Tribal Chief   
+2-* Tribesman    
+1-Other 
+2-* Armorer    
+2-* Autoduellistin  
+2-* Bodyguard    
+2-* College Dropout  
+2-* Courier    
+2-* Dealer    
+2-* Deckmeister   
+2-* Detective    
+2-* Dock Worker   
+2-* Dwarf Technician  
+2-* Fixer     
+2-* Humanis Member  
+2-* Jack Of All Trades 
+2-* Mage Hunter (Dwarf) 
+2-* Mechanic    
+2-* Metahuman Rights Act. 
+2-* Metamenschen-Adliger 
+2-* Nachtmachen Member 
+2-* Nurse     
+2-* O.R.C. Member   
+2-* Ökoterrorist   
+2-* Outcast Tir Noble  
+2-* Paramedic    
+2-* Pedestrian (Dwarf) 
+2-* Pedestrian (Elf)  
+2-* Pedestrian (Human) 
+2-* Pedestrian (Ork)  
+2-* Pedestrian (Troll) 
+2-* Saboteur    
+2-* Superhero    
+2-* Store Owner   
+2-* Street Doc   
+2-* Taxi Driver   
+2-* Technician   
+2-* Terrorist    
+2-* Tir Noble    
+2-* Witchhunter   
+2-* Zocker    

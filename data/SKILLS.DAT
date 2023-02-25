@@ -1,0 +1,1447 @@
+!SKILLS.DAT - Skills data file - 
+! MOD TO SR3 MM 990906
+!-----------------------------------------------------------------
+!Shadowrun 3 Original
+!---------------------
+!#Skill class
+!Skill name(ATR)  BOD,INT,CHA,QCK,STR,WIL,REA
+!         (KNO)  LAN   Knowledge, Language
+! Followed by the Book-Page using | as a separator
+! Followed by the Notes section using another | as a separator
+! Concentration (is now specialization)  use "->" for custom spec (see assault rifles)
+!  Specialization ( * = enter weapon/vehicle/etc... ) ELIMINATED IN SR3
+! NO MORE THAN 3000 Records!!
+! Josef Wegner: added Target: Wastelands entries 01/03/03
+!--------------
+#Combat skills
+!--------------
+Assault Rifles(QCK)|sr3.85|
+ AK97|sr3.XXX|
+ AK98|sr3.XXX|
+ weapon->
+Blowgun(QCK)|cc.105|
+Bracer(QCK)|cc.105|
+Cigarette Rocket(INT)|sta2.35|
+Clubs(STR)|sr3.85|
+ weapon->
+Cyber Implant Combat(STR)|sr3.85|
+ weapon->
+Edged Weapons(STR)|sr3.86|
+ weapon->
+Eye Gun(QCK)|cc.105|
+Gunnery(INT)|sr3.86|
+ weapon->
+Gun Cane(QCK)|cc.105|
+Gyrojet Pistol(QCK)|cc.105|
+Heavy Weapons(STR)|sr3.86|
+ weapon->
+Laser Weapons(QCK)|sr3.86|
+ weapon->
+Launch Weapons(INT)|sr3.86|
+ Grenade Launchers|sr3.XXX|
+ Spotter|sr3.XXX|
+ weapon->
+Off-Hand Clubs(STR)|cc.105|
+ weapon->
+Off-Hand Cyber-Implant Combat(STR)|cc.105|
+ weapon->
+Off-Hand Edged Weapons(STR)|cc.105|
+ weapon->
+Off-Hand Whips(STR)|cc.105|
+ weapon->
+Oral Gun(QCK)|cc.105|
+Oral Strike(QCK)|cc.105|
+Pistols(QCK)|sr3.86|
+ weapon->
+Pole Arms:Staffs(STR)|sr3.86|
+ weapon->
+Projectile Weapons(STR)|sr3.86|
+ Pull Bows|sr3.XXX|
+ Crossbows|sr3.XXX|
+Rifles(QCK)|sr3.86|
+ weapon->
+Shotguns(QCK)|sr3.86|
+ weapon->
+Spray Weapons(STR)|cc.105|
+ weapon->
+Submachine Guns(QCK)|sr3.86|
+ weapon->
+Throwing Weapons(STR)|sr3.86|
+ Darts|sr3.XXX|
+ Grenades|sr3.XXX|
+ Shuriken|sr3.XXX|
+ Knives|sr3.XXX|
+ weapon->
+Unarmed Combat-SR3(STR)|sr3.86|
+ Subduing Combat|sr3.86|
+ Martial Arts Technique|sr3.86|
+ Fists|sr3.86|
+ Head|sr3.86|
+ Kicks|sr3.86|
+Underwater Combat(STR)|sr3.86|
+ Unarmed Attack|sr3.86|
+ Armed Attack|sr3.86|
+Whips(QCK)|sr3.86|
+ weapon->
+!---------------
+#Martial Arts(MA)CanComp
+!---------------
+MA:Aikido(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Disorient|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Focus Will|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Arnis De Mano(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Boxing(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Disorient|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Vicious Blow|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Brawling(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Disorient|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Viscious Blow|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Capoeira(STR)|cc.88+|
+ MN:Disorient|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Carromeleg(STR)|cc.88+|
+ MN:Disorient|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Focus Will|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Escrima(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Juijitsu(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Disorient|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Focus Will|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Kali(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Karate(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Focus Will|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Viscious Blow|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Kenpo(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Focus Will|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Viscious Blow|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Kick Boxing(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Kung Fu(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Blind Fighting (Edged Weapons)|cc.91+|
+ MN:Blind Fighting (Pole Arms)|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Focus Strength (Edged Weapons)|cc.91+|
+ MN:Focus Strength (Pole Arms)|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Full Offense (Edged Weapons)|cc.91+|
+ MN:Full Offense (Pole Arms)|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Ground Fighting (Edged Weapons)|cc.91+|
+ MN:Ground Fighting (Pole Arms)|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Multi-Strike (Edged Weapons)|cc.91+|
+ MN:Multi-Strike (Pole Arms)|cc.91+|
+ MN:Viscious Blow|cc.91+|
+ MN:Whirling|cc.91+|
+ MN:Whirling (Edged Weapons)|cc.91+|
+ MN:Whirling (Pole Arms)|cc.91+|
+MA:Hapkido(STR)|cc.88+|
+ MN:Focus Strength|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Hwarang-do(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Viscious Blow|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Jujitsu(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Kickboxing(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Muay Thai(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Ninjutsu(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Close Combat|cc.91+|
+ MN:Disorient|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Pentjak-Silat(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Close Combat|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Focus Will|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Viscious Blow|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Pitfighting(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Disorient|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Viscious Blow|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Sambo(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Disorient|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Focus Will|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Savate(STR)|cc.88+|
+ MN:Close Combat|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Tae Kwon Do(STR)|cc.88+|
+ MN:Focus Strength1|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Tai Chi Ch'uan(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Focus Will |cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Tai Chi Wu(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Focus Will |cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Tai Chi Chen(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Evasion|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Focus Will |cc.91+|
+ MN:Herding|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Throw|cc.91+|
+ MN:Whirling|cc.91+|
+MA:Wildcat(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Close Combat|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Sweep|cc.91+|
+ MN:Viscious Blow|cc.91+|
+ MN:Zoning|cc.91+|
+MA:Wushu(STR)|cc.88+|
+ MN:Blind Fighting|cc.91+|
+ MN:Focus Strength|cc.91+|
+ MN:Full Offense|cc.91+|
+ MN:Ground Fighting|cc.91+|
+ MN:Kick Attack|cc.91+|
+ MN:Kip Up|cc.91+|
+ MN:Multi-Strike|cc.91+|
+ MN:Viscious Blow|cc.91+|
+ MN:Whirling|cc.91+|
+!---------------
+#Magical skills
+!---------------
+Aura Reading(INT)|sr3.86|
+ Auras|sr3.87|
+ Signatures|sr3.87|
+ Sorcery|sr3.87|
+ Conjuring|sr3.87|
+Sorcery(WIL)|sr3.87|
+ Spellcasting|sr3.87|
+ Spell Defense|sr3.87|
+ Dispelling|sr3.87|
+ Astral Combat|sr3.87|
+ Ritual Sorcery|mits.30|
+ Spell Category->
+Centering(WIL)|mits.30|
+Conjuring(WIL)|sr3.87|
+ Summoning|sr3.87|
+ Banishing|sr3.87|
+ Controlling|sr3.87|
+Divining(WIL)|mits.30|
+Enchanting(WIL)|mits.30|
+ Alchemy|mits.30|
+ Artificing|mits.30|
+!----------------
+#Physical skills
+!----------------
+Athletics(BOD)|sr3.87|
+ Climbing|sr3.87|
+ Jumping|sr3.87|
+ Lifting|sr3.87|
+ Running|sr3.87|
+ Swimming|sr3.87|
+ Escape Artist|sr3.87|
+ specific sport->
+Diving(BOD)|sr3.87|
+ Deep-water Diving|sr3.87|
+ Mixed-gas Diving|sr3.87|
+Parachuting(BOD)|cc.102|
+ Standard Jump|cc.102|
+ HALO Jump|cc.102|
+ Low-Altitude Jump|cc.102|
+Stealth(QCK)|sr3.87|
+ Alertness|sr3.87|
+ Hiding|sr3.87|
+ Sneaking|sr3.87|
+ Theft|sr3.87|
+!--------------
+#Social skills
+!--------------
+Acting(CHA)|tss.13|
+ Improvisation|tss.13|
+ Method Acting|tss.13|
+Artisan(INT)|sr3.XXX|
+ Cinematography|sr3.XXX|
+ Drawing|sr3.XXX|
+ Painting|sr3.XXX|
+ Photography|sr3.XXX|
+ Sculpture|sr3.XXX|
+Etiquette(CHA)|sr3.87|
+ Corporate|sr3.87|
+ Magical|sr3.87|
+ Matrix|sr3.87|
+ Media|sr3.87|
+ Street|sr3.87|
+ Tribal|sr3.87|
+ Specialized Group->
+Hypnotism(WIL)|tss.17|
+ Subject Control|tss.17|
+ Memory Regression|tss.17|
+ Personality Modification|tss.17|
+Instruction(CHA)|sr3.87|
+ specific subject->
+Interrogation(CHA)|sr3.87|
+ Verbal|sr3.87|
+ Lie Detector|sr3.87|
+ Voice Stress Analysis|sr3.87|
+ Torture|sr3.87|
+ Drug Aided|sr3.87|
+Intimidation(CHA)|sr3.87|
+ Physical|sr3.87|
+ Mental|sr3.87|
+Leadership(CHA)|sr3.87|
+ Political|sr3.87|
+ Military|sr3.87|
+ Commercial|sr3.87|
+ Strategy|sr3.87|
+ Tactics|sr3.87|
+ Morale|sr3.87|
+Legerdemain(QCK)|tss.13|
+ Sleight of Hand|tss.13|
+ Light Fingers|tss.13|
+ Card Tricks|tss.13|
+Negotiation(CHA)|sr3.88|
+ Bargain|sr3.88|
+ Bribe|sr3.88|
+ Con|sr3.88|
+ Fast talk|sr3.88|
+Performance(CHA)|sr3.XXX|
+ Acting|sr3.XXX|
+ Dancing|sr3.XXX|
+ Reporting|sr3.XXX|
+ Singing|sr3.XXX|
+!-----------------
+#Survival skills
+! From Target: Wastelands
+!-----------------
+Riding(REA)|tss.17|
+ Animal ->
+Wilderness Survival(WIL)|twl.105|
+ Forest|twl.105|
+ Mountain|twl.105|
+ Desert|twl.105|
+ Jungle|twl.105|
+ Polar|twl.105|
+!-----------------
+#Technical skills
+!-----------------
+Biotech(INT)|sr3.88|
+ Cybermancy|mm.136|
+ Cybertechnology Implantation|sr3.88|
+ Extended Care|sr3.88|
+ First Aid|sr3.88|
+ Magical Health|mm.136|
+ Organ Culture & Growth|sr3.88|
+ Surgery|sr3.88|
+ Transplant Surgery|sr3.88|
+Computer(INT)|sr3.88|
+ Hardware |sr3.88|
+ Decking|sr3.88|
+ Programing|sr3.88|
+ Cybernetics|sr3.88|
+ Search Operations |mat.24|
+Demolitions(INT)|sr3.88|
+ Commercial Explosives|sr3.88|
+ Plastic Explosives|sr3.88|
+ Improvised Explosives|sr3.88|
+Disguise(INT)|sota.104|
+ Cosmetic|sota.104|
+ Theatrical|sota.104|
+ Trideo|sota.104|
+Electronics(INT)|sr3.88|
+ Control Systems|sr3.88|
+ Electronic Warfare|sr3.88|
+ Maglocks|sr3.88|
+ Linking between devices|sr3.88|
+ Diagnostics|sr3.88|
+ Cybertechnology|sr3.88|
+ Security Systems|sota.104|
+Forgery(INT)|sr3.XXX|
+ File Editing|sr3.XXX|
+ Image Manipulation|sr3.XXX|
+ Audio Manipulation|sr3.XXX|
+ Physical Forgery |sr3.XXX|
+Lock Picking(QCK)|sota.104|
+ Cam|sota.104|
+ Dimple-Cylinder|sota.104|
+ Pin Tumbler|sota.104|
+ Safecracking|sota.104|
+ Wafer|sota.104|
+ Water|sota.104|
+Small Unit Tactics(INT)|cc.105|
+ BattleTac Systems|cc.105|
+ Vehicle Tactics|cc.105|
+ Matrix Tactics|cc.105|
+!---------------
+#Vehicle skills
+!---------------
+Bike(REA)|sr3.88|
+ Remote Operations|sr3.88|
+ specific->
+Car(REA)|sr3.89|
+ Remote Operations|sr3.89|
+ specific->
+Fixed-Wing Aircraft(REA)|sr3.89|
+ Remote Operations|sr3.89|
+ specific->
+Hovercraft(REA)|sr3.89|
+ Remote Operations|sr3.89|
+ specific->
+LTA Aircraft(REA)|sr3.89|
+ Remote Operations|sr3.89|
+ specific->
+Mechanical Arm Operation(REA)|r3.24|
+ specific->
+Motorboat(REA)|sr3.89|
+ Remote Operations|sr3.89|
+ specific->
+Riding(REA)|tss.17|
+ Animal ->
+Rotor Aircraft(REA)|sr3.89|
+ Remote Operations|sr3.89|
+ specific->
+Semiballistic(REA)|r3.24|
+ Remote Operations|r3.24|
+ specific->
+Sailboat(REA)|sr3.89|
+ Remote Operations|sr3.89|
+ specific->
+Ship(REA)|sr3.89|
+ Remote Operations|sr3.89|
+ specific->
+Submarine(REA)|sr3.89|
+ Remote Operations|sr3.89|
+ specific->
+Suborbital(REA)|r3.24|
+ Remote Operations|r3.24|
+ specific->
+Tracks(REA)|r3.24|
+ Remote Operations|r3.24|
+ specific->
+Vector Thrust Aircraft(REA)|sr3.89|
+ Remote Operations|sr3.89|
+ specific->
+Walkers(REA)|r3.24|
+ Remote Operations|r3.24|
+ specific->
+!-------------------
+#Build/Repair skills
+!-------------------
+Armor B/R(INT)|cc.104|
+Assault Rifles B/R(INT)|sr3.XXX|
+Blowgun B/R(INT)|cc.105|
+Bracer B/R(INT)|cc.105|
+Clubs Weapons B/R(INT)|sr3.XXX|
+Computer B/R(INT)|sr3.XXX|
+ Cybernetics B/R|mm.136|
+Cyber Implant Weapons B/R(INT)|sr3.XXX|
+Diving B/R(INT)|sr3.XXX|
+Edged Weapons B/R(INT)|sr3.XXX|
+Electronics B/R(INT)|sr3.XXX|
+ Cybertechnology B/R|mm.136|
+ Security Systems B/R|sota.104|
+Eye Gun B/R(INT)|cc.105|
+Gun Cane B/R(INT)|cc.105|
+Gunnery B/R(INT)|sr3.XXX|
+Gyrojet Pistol B/R(INT)|cc.105|
+Handyman(REA)|tss.14|
+ Carpentry|tss.14|
+ Plumbing|tss.14|
+ Mechanisms|tss.14|
+Heavy Weapons B/R(INT)|sr3.XXX|
+Laser Weapons B/R(INT)|sr3.XXX|
+Launch Weapons B/R(INT)|sr3.XXX|
+Oral Gun B/R(INT)|cc.105|
+Oral Strike B/R(INT)|cc.105|
+Parachutes B/R(INT)|cc.105|
+Pistols B/R(INT)|sr3.XXX|
+Pole Arms/Staffs B/R(INT)|sr3.XXX|
+Projectile Weapons B/R(INT)|sr3.XXX|
+Rifles B/R(INT)|sr3.XXX|
+Shotguns B/R(INT)|sr3.XXX|
+Spray Weapons B/R(INT)|cc.105|
+Submachine Guns B/R(INT)|sr3.XXX|
+Throwing Weapons B/R(INT)|sr3.XXX|
+Whips B/R(INT)|sr3.XXX|
+Bike B/R(INT)|sr3.XXX|
+Car B/R(INT)|sr3.XXX|
+Fixed Wing Aircraft B/R(INT)|sr3.XXX|
+Hovercraft B/R(INT)|sr3.XXX|
+LTA Aircraft B/R(INT)|sr3.XXX|
+Motorboat B/R(INT)|sr3.XXX|
+Rotor Aircraft B/R(INT)|sr3.XXX|
+Sailboat B/R(INT)|sr3.XXX|
+Ship B/R(INT)|sr3.XXX|
+Submarine B/R(INT)|sr3.XXX|
+Vector thrust Aircraft B/R(INT)|sr3.XXX|
+!-----------------
+#Street(ST)Knowledge skills
+!-----------------
+ST:Arms Dealers(KNO)|sr3.80|
+ST:BTL Production(KNO)|sr3.90|
+ST:Criminal Organizations(KNO)|sr3.90|
+ST:Current Affairs(KNO)|tss.12|
+ST:Fences(KNO)|sr3.90|
+ST:Fringe Cults(KNO)|sr3.90|
+ST:Gang Identification(KNO)|sr3.90|
+ST:Gang Turf(KNO)|sr3.XXX|
+ST:Local Neighborhood(KNO)|sr3.90|
+ST:Lone Star Tactics(KNO)|sr3.90|
+ST:Mafia Politics(KNO)|sr3.90|
+ST:Mafia Controlled Establishments(KNO)|sr3.90|
+ST:NAN Border Patrol Tactics(KNO)|sr3.79|
+ST:Police Procedures(KNO)|sr3.90|
+ST:Prison Operations(KNO)|tss.14|
+ST:Prostitution Rackets(KNO)|sr3.90|
+ST:Safehouse Locations(KNO)|sr3.90|
+ST:Scrounging(KNO)|sr3.76|
+ST:Seattle Junkyards(KNO)|sr3.69|
+ST:Seattle Ork Underground(KNO)|sr3.67|
+ST:Security Companies(KNO)|sota.104|
+ company->
+ST:Security Procedures(KNO)|sr3.90|
+ Government|sota.104|
+ Military|sota.104|
+ company->
+ST:Shadowrunner Haunts(KNO)|sr3.75|
+ST:Smuggler Havens(KNO)|sr3.90|
+ST:Smuggling Routes(KNO)|sr3.90|
+ST:SWAT Team Tactics(KNO)|sr3.80|
+ST:Triad Society(KNO)|sr3.XXX|
+ST:Underworld Politics(KNO)|sr3.70|
+ST:Yakuza Politics(KNO)|sr3.90|
+ST:Yakuza Territory(KNO)|sr3.90|
+!-----------------
+#Academic(AC)Knowledge skills
+!-----------------
+AC:Accounting(KNO)|tss.12|
+ Embezzling|tss.XXX|
+ Fraud Control|tss.XXX|
+ Cost-Cutting|tss.XXX|
+AC:Anthropology(KNO)|sr3.90|
+AC:Archeology(KNO)|sr3.90|
+AC:Architecture(KNO)|sr3.90|
+ Office|sr3.XXX|
+ Mall|sr3.XXX|
+ Residential|sr3.XXX|
+ Ork|sr3.XXX|
+ Human|sr3.XXX|
+ Dwarven|sr3.XXX|
+ Specified->
+AC:Art(KNO)|sr3.90|
+AC:Biology(KNO)|sr3.90|
+AC:Body Armor Fabrication(KNO)|sr3.80|
+AC:Botany(KNO)|sr3.90|
+AC:Chemistry(KNO)|sr3.90|
+ Specialty ->
+AC:Civil Engineering(KNO)|sota.104|
+ Tunneling|sota.104|
+ Commercial Construction|sota.104|
+ Home Construction|sota.104|
+ Industrial Construction|sota.104|
+ Excavation|sota.104|
+AC:Cybertechnology(KNO)|sr3.77|
+AC:Economics(KNO)|sr3.90|
+AC:Electronic Intelligence(KNO)|tss.13|
+ Audio|tss.XXX|
+ Image/Video|tss.XXX|
+ Matrix Surveilence|tss.XXX|
+ Tracking|tss.XXX|
+AC:Engineering(KNO)|sr3.90|
+AC:Forensic Medicine(KNO)|sr3.71|
+AC:Forensics(KNO)|tss.13|
+ Forensic Medicine|tss.XXX|
+ Ballistics|tss.XXX|
+ Scene of Crime|tss.XXX|
+ Forensic Magic|tss.XXX|
+AC:Geology(KNO)|sr3.90|
+AC:Gunsmithing(KNO)|sr3.80|
+AC:History(KNO)|sr3.90|
+ American|sr3.XXX|
+ European|sr3.XXX|
+ Japanese|sr3.XXX|
+ Religious|sr3.XXX|
+ Roman|sr3.XXX|
+ Specified ->
+AC:Journalism(KNO)|sr3.XXX|
+AC:Judicial Procedures(KNO)|tss.14|
+AC:Law(KNO)|tss.13|
+ Corporate Law|tss.XXX|
+ Criminal Law|tss.XXX|
+ Environmental Law|tss.XXX|
+ Jurisdiction ->
+ Historical Period ->
+AC:Linguistics(KNO)|tss.10|
+ Algonkian|tss.10|
+ Armenian|tss.10|
+ Athabascan|tss.10|
+ Baltic|tss.10|
+ Basque|tss.10|
+ Canddoan|tss.10|
+ Celtic|tss.10|
+ Chukchi|tss.10|
+ Creole|tss.10|
+ Dravidian|tss.10|
+ Egyptian|tss.10|
+ Eskimo|tss.10|
+ Esperanto|tss.10|
+ Finnic|tss.10|
+ Germanic|tss.10|
+ Greek|tss.10|
+ Hamitic|tss.10|
+ Indic|tss.10|
+ Indo-Iranian|tss.10|
+ Iroquoian|tss.10|
+ Italic|tss.10|
+ Interlingua|tss.10|
+ Japanese and Korean|tss.10|
+ Khoisan|tss.10|
+ Malayo-Polynesian|tss.10|
+ Mayan|tss.10|
+ Mon-Khmer|tss.10|
+ Mongolian|tss.10|
+ Muskogean|tss.10|
+ Niger-Kordofanian|tss.10|
+ Nilotic|tss.10|
+ Oto-Manguan|tss.10|
+ Papuan Family|tss.10|
+ Romance|tss.10|
+ Salish|tss.10|
+ Semitic|tss.10|
+ Sino-Tibetan|tss.10|
+ Siouan|tss.10|
+ Slavic|tss.10|
+ South American Indian|tss.10|
+ Sperethiel|tss.10|
+ Tlinglit|tss.10|
+ Tsimshian|tss.10|
+ Tungus|tss.10|
+ Turkic|tss.10|
+ Ugrian|tss.10|
+ Uto-Aztecan|tss.10|
+ Zuni|tss.10|
+ Specified ->
+AC:Literature(KNO)|sr3.90|
+AC:Mechanical Traps(KNO)|sr3.76|
+AC:Medicine(KNO)|sr3.90|
+ Traumatology|mm.136|
+ Pathology|mm.136|
+ Toxicology|mm.136|
+ Specialty ->
+AC:Metallurgy(KNO)|sr3.77|
+AC:Military Theory(KNO)|sr3.XXX|
+AC:Music(KNO)|sr3.90|
+AC:Mythos:Folklore(KNO)|sr3.XXX|
+ Period/region/culture ->
+AC:Parabotany(KNO)|tss.17|
+AC:Parazoology(KNO)|sr3.90|
+AC:Pharmacology(KNO)|tss.13|
+ Medicinal Drugs|tss.XXX|
+ Illegal Narcotics|tss.XXX|
+ Improvised Manufacture|tss.XXX|
+AC:Philosophy(KNO)|sr3.90|
+AC:Physics(KNO)|sr3.90|
+ Specialty ->
+AC:Politics(KNO)|sr3.90|
+AC:Political Science(KNO)|sr3.XXX|
+ Specified ->
+AC:Psychology(KNO)|sr3.90|
+ Applied Psycology|tss.13|
+ Clinical Psycology|tss.13|
+ Group Psycology|tss.13|
+AC:Security Devices(KNO)|sr3.XXX|
+ Detection Measures|sr3.XXX|
+ Weapons Emplacements|sr3.XXX|
+AC:Spell Design(KNO)|sr3.XXX|
+AC:Security Design(KNO)|sota.104|
+ Closed Circuit Simsense|sota.104|
+ Matrix|sota.104|
+ Magical|sota.104|
+ Physical|sota.104|
+ Corporate|sota.104|
+ Military|sota.104|
+ Private Home|sota.104|
+AC:Security Systems(KNO)|sr3.XXX|
+ Sensor Nets|sr3.XXX|
+ Two-stage Defenses|sr3.XXX|
+ Passive Systems|sr3.XXX|
+ Active Systems|sr3.XXX|
+ Weapons Systems|sr3.XXX|
+ Vehicle Security|tss.14|
+AC:Stockbroking(KNO)|tss.12|
+ Stock Type ->
+ Market ->
+AC:Structural Engineering(KNO)|sr3.XXX|
+ Specified ->
+AC:Vehicle Security(KNO)|tss.14|
+AC:Zoology(KNO)|sr3.90|
+!-----------------
+#System Familiarity(SF) Knowledge skills
+!This entire skill group is from matrix
+!-----------------
+SF:Automated Factory Familiarity(KNO)|mat.25|
+SF:Cellular Network Familiarity(KNO)|mat.25|
+SF:Chat Room Familiarity(KNO)|mat.25|
+SF:Chokepoint Familiarity(KNO)|mat.25|
+SF:Communication Satellite Familiarity(KNO)|mat.25|
+SF:Data Archive Familiarity(KNO)|mat.25|
+SF:Game Host Familiarity(KNO)|mat.25|
+SF:LTG Familiarity(KNO)|mat.25|
+SF:Matrix Bank Familiarity(KNO)|mat.25|
+SF:RTG Familiarity(KNO)|mat.25|
+SF:Security Network Familiarity(KNO)|mat.25|
+!-----------------
+#Program Design(PD) Knowledge skills
+!This skill group is from Matrix
+!-----------------
+PD:Application Design(KNO)|mat.25|
+PD:Black IC Design(KNO)|mat.25|
+PD:Cyberterminal Code Design(KNO)|mat.25|
+PD:Defensive Utility Design(KNO)|mat.25|
+PD:Frame Core Design(KNO)|mat.25|
+PD:Grey IC Design(KNO)|mat.25|
+PD:IC Construct Design(KNO)|mat.25|
+PD:Offensive Utility Design(KNO)|mat.25|
+PD:Operational Utility Design(KNO)|mat.25|
+PD:Otaku:Info Sortilage(KNO)|mat.25|
+PD:Programming Suite Design(KNO)|mat.25|
+PD:Special Utility Design(KNO)|mat.25|
+PD:Trace IC Design(KNO)|mat.25|
+PD:Trace Utility Design(KNO)|mat.25|
+PD:White IC Design(KNO)|mat.25|
+PD:Worm Design Design(KNO)|mat.25|
+!-----------------
+#6th World(SW)Knowledge skills
+!-----------------
+SW:Artificial Intelligence(KNO)|mat.25|
+SW:Atlantis Research(KNO)|sr3.90|
+SW:Chat Rooms(KNO)|mat.26|
+SW:Corporate Finance(KNO)|sr3.XXX|
+SW:Corporate Hosts(KNO)|mat.25|
+SW:Corporate Politics(KNO)|sr3.XXX|
+SW:Corporate Procedures(KNO)|sr3.XXX|
+SW:Corporate Security(KNO)|sr3.XXX|
+SW:Cybertechnology(KNO)|sr3.90|
+SW:Cyberterminal Design(KNO)|mat.25|
+SW:Data Brokerage(KNO)|mat.25|
+SW:Databases(KNO)|mat.25|
+SW:Data Havens(KNO)|sr3.90|
+SW:Deckmeisters(KNO)|mat.25|
+SW:Dowsing(KNO)|sota.53|
+ Compass|sota.53|
+ Pendulum|sota.53|
+ L-rod|sota.53|
+ Y-rod|sota.53|
+ Bobber|sota.53|
+SW:Dragons(KNO)|sr3.90|
+SW:Entertainment Politics(KNO)|sr3.XXX|
+SW:Elven Society(KNO)|sr3.90|
+SW:Iconography(KNO)|mat.26|
+SW:Insect Spirits(KNO)|sr3.XXX|
+SW:Humanis Policlub(KNO)|sr3.90|
+SW:Jackpoint Locations(KNO)|sr3.66,mat.25|
+SW:Legendary Deckers(KNO)|sr3.90|
+SW:Magic(KNO)|sr3.90|
+SW:Matrix Gangs(KNO)|mat.25|
+SW:Matrix Security Procedures(KNO)|mat.25|
+SW:Matrix Topography(KNO)|mat.25|
+SW:Megacorporate Operations(KNO)|tss.13|
+SW:Megacorporate Policies(KNO)|sr3.90|
+SW:Megacorporate Politics(KNO)|sr3.90|
+SW:Megacorporate Research(KNO)|sr3.77|
+SW:Megacorporate Security(KNO)|sr3.90|
+SW:Metahuman Politics(KNO)|sr3.XXX|
+SW:Metahumanity(KNO)|sr3.90|
+SW:Miltech Manufacturers(KNO)|sr3.80|
+SW:Otaku(KNO)|mat.25|
+SW:Parabotany(KNO)|tss.17|
+SW:Paranormal Animals(KNO)|sr3.90|
+SW:Satellite Networks(KNO)|mat.26|
+SW:Seattle LTG(KNO)|mat.26|
+SW:Tribal Politics(KNO)|sr3.78|
+SW:Virtual Meeting Spots(KNO)|mat.26|
+!-----------------
+#Survival(SV)Knowledge skills
+! From Target: Wastelands
+!-----------------
+SV:Navigation(KNO)|twl.105|
+ Land|twl.105|
+ Sea|twl.105|
+ Flight|twl.105|
+!-----------------
+#Background(BK)Knowledge skills
+!-----------------
+! based on active skills less three (automatic) SR3-90|sr3.XXX|
+BK:Assault Rifles(KNO)|sr3.XXX|
+BK:Blowgun(KNO)|cc.105|
+BK:Bracer(KNO)|cc.105|
+BK:Clubs(KNO)|sr3.XXX|
+BK:Cyber Implant Combat(KNO)|sr3.XXX|
+BK:Edged Weapons(KNO)|sr3.XXX|
+BK:Eye Gun(KNO)|cc.105|
+BK:Gunnery(KNO)|sr3.XXX|
+BK:Gun Cane(KNO)|cc.105|
+BK:Gyrojet Pistol(KNO)|cc.105|
+BK:Heavy Weapons(KNO)|sr3.XXX|
+BK:Laser Weapons(KNO)|sr3.XXX|
+BK:Launch Weapons(KNO)|sr3.XXX|
+BK:Oral Gun(KNO)|cc.105|
+BK:Oral Strike(KNO)|cc.105|
+BK:Pistols(KNO)|sr3.XXX|
+BK:Pole Arms:Staffs(KNO)|sr3.XXX|
+BK:Projectile Weapons(KNO)|sr3.XXX|
+BK:Rifles(KNO)|sr3.XXX|
+BK:Shotguns(KNO)|sr3.XXX|
+BK:Spray Weapons(KNO)|cc.105|
+BK:Submachine Guns(KNO)|sr3.XXX|
+BK:Throwing Weapons(KNO)|sr3.XXX|
+BK:Unarmed Combat(KNO)|sr3.XXX|
+BK:Underwater Combat(KNO)|sr3.XXX|
+BK:Whips(KNO)|sr3.XXX|
+BK:Aura Reading(KNO)|sr3.XXX|
+BK:Centering(KNO)|mits.30|
+BK:Conjuring(KNO)|sr3.XXX|
+BK:Divining(KNO)|mits.30|
+BK:Sorcery(KNO)|sr3.XXX|
+BK:Magic Background(KNO)|sr3.78|
+BK:Talismongering(KNO)|mits.30|
+BK:Athletics(KNO)|sr3.XXX|
+BK:Diving(KNO)|sr3.XXX|
+BK:Parachuting(KNO)|cc.102|
+BK:Stealth(KNO)|sr3.XXX|
+BK:Acting(KNO)|tss.13|
+BK:Artisan(KNO)|sr3.XXX|
+BK:Etiquette(KNO)|sr3.XXX|
+BK:Hypnotism(KNO)|tss.17|
+BK:Instruction(KNO)|sr3.XXX|
+BK:Interrogation(KNO)|sr3.XXX|
+BK:Intimidation(KNO)|sr3.XXX|
+BK:Leadership(KNO)|sr3.XXX|
+BK:Leadership-Tactics(KNO)|sr3.XXX|
+BK:Legerdemain(KNO)|tss.13|
+BK:Negotiation(KNO)|sr3.XXX|
+BK:Performance(KNO)|sr3.XXX|
+BK:Riding(KNO)|tss.17|
+BK:Wilderness Survival(KNO)|twl.105|
+BK:Biotech(KNO)|sr3.XXX|
+BK:Computer(KNO)|sr3.XXX|
+BK:Demolitions(KNO)|sr3.XXX|
+BK:Disguise(KNO)|sota.104|
+BK:Electronics(KNO)|sr3.XXX|
+BK:Forgery(KNO)|sr3.XXX|
+BK:Handyman(KNO)|tss.14|
+BK:Lock Picking(KNO)|sota.104|
+BK:Small Unit Tactics(KNO)|cc.105|
+BK:Bike(KNO)|sr3.XXX|
+BK:Car(KNO)|sr3.XXX|
+BK:Fixed Wing(KNO)|sr3.XXX|
+BK:Hovercraft(KNO)|sr3.XXX|
+BK:Lighter Than Air(KNO)|sr3.XXX|
+BK:Motorboat(KNO)|sr3.XXX|
+BK:Rotor Aircraft(KNO)|sr3.XXX|
+BK:Sailboat(KNO)|sr3.XXX|
+BK:Ship(KNO)|sr3.XXX|
+BK:Submarines(KNO)|sr3.XXX|
+BK:Vertored Thrust Aircraft(KNO)|sr3.XXX|
+!-----------------
+#Interests(IN)Knowledge skills
+!-----------------
+IN:20th Cen Comic books(KNO)|sr3.90|
+IN:Astrology(KNO)|sota.53|
+ Chinese|sota.53|
+ Mayan|sota.53|
+ Native American|sota.53|
+ Vedic|sota.53|
+ Western|sota.53|
+IN:Bushido Philosophy(KNO)|sr3.75|
+IN:Champagne(KNO)|sr3.XXX|
+IN:Classical Music(KNO)|sr3.XXX|
+IN:Combat Biking(KNO)|sr3.90|
+IN:Conspiracy Theories(KNO)|sr3.90|
+ Corporate|tss.12|
+ Government|tss.12|
+ Policlub|tss.12|
+ Magical|tss.12|
+ Region ->
+ Group ->
+IN:Cooking(KNO)|sr3.90|
+IN:Cuisine(KNO)|sr3.90|
+IN:Desert Wars(KNO)|sr3.72|
+IN:Elven Wines(KNO)|sr3.90|
+IN:Fashion(KNO)|sr3.90|
+IN:Flatvid Movies(KNO)|sr3.90|
+IN:Folklore and Mythology(KNO)|tss.17|
+ Historical Period ->
+ Region ->
+IN:Gambling Card Games(KNO)|sr3.80|
+IN:Investing(KNO)|sr3.90|
+IN:Japanese Culture(KNO)|sr3.68|
+IN:Japanese Society(KNO)|sr3.75|
+IN:Legendary Martial Artists(KNO)|sr3.65|
+IN:Meditation(KNO)|sr3.65|
+IN:Occult Knowledge(KNO)|tss.17|
+IN:Opera(KNO)|sr3.90|
+IN:Pirate Trid Broadcasters(KNO)|sr3.69|
+IN:Poetry(KNO)|sr3.90|
+IN:Popular Culture(KNO)|sr3.XXX|
+IN:Pornography(KNO)|sr3.XXX|
+IN:Roleplaying Games of 20th Cen.(KNO)|sr3.90|
+IN:Sci_fi Simchips(KNO)|sr3.90|
+IN:Seattle High Society(KNO)|sr3.70|
+IN:Sim Starlets(KNO)|sr3.90|
+IN:Tir Tairngire Politics(KNO)|sr3.74|
+IN:Tourist Trivia(KNO)|tss.13|
+IN:Troll Thrash Metal Bands(KNO)|sr3.90|
+IN:Urban Brawl(KNO)|sr3.90|
+IN:Weightlifting(KNO)|sr3.72|
+IN:Woodworking(KNO)|sr3.90|
+!-----------------
+#Area Knowledge(AK)Knowledge skills
+!-----------------
+AK:Auburn(KNO)|sr3.XXX|
+AK:Bellevue(KNO)|sr3.XXX|
+AK:Council Island(KNO)|sr3.XXX|
+AK:Downtown Seattle(KNO)|sr3.XXX|
+AK:Everett(KNO)|sr3.XXX|
+AK:Ft. Lewis(KNO)|sr3.XXX|
+AK:Greater Seattle(KNO)|sr3.XXX|
+AK:Puyallup(KNO)|sr3.XXX|
+AK:Redmond(KNO)|sr3.XXX|
+AK:Renton(KNO)|sr3.XXX|
+AK:Salish-Shidhe(KNO)|sr3.XXX|
+AK:Seattle Matrix(KNO)|sr3.77|
+AK:Seattle Sewers(KNO)|sr3.XXX|
+AK:Snohomish(KNO)|sr3.XXX|
+AK:Tacoma(KNO)|sr3.XXX|
+AK:Tir Tairngire(KNO)|sr3.XXX|
+!-----------------
+#Language skills
+!-----------------
+English(LAN)|sr3.XXX|
+ Cityspeak|sr3.91|
+ Deckerese|sr3.XXX|
+ Netspeak|sr3.91|
+ Trog|sr3.91|
+ Military Jargon|sr3.91|
+ Scientific Jargon|sr3.91|
+Arabic(LAN)|sr3.XXX|
+Chinese(LAN)|sr3.XXX|
+Danish(LAN)|sr3.XXX|
+Filipino(LAN)|sr3.XXX|
+Finish(LAN)|sr3.XXX|
+French(LAN)|sr3.XXX|
+German(LAN)|sr3.XXX|
+Hebrew(LAN)|sr3.XXX|
+Italian(LAN)|sr3.XXX|
+Japanese(LAN)|sr3.XXX|
+Korean(LAN)|sr3.XXX|
+Latin(LAN)|sr3.XXX|
+Norwegian(LAN)|sr3.XXX|
+Or'zet(LAN)|sta2.167|
+Pig Latin(LAN)|sr3.XXX|
+Polish(LAN)|sr3.XXX|
+Portuguese(LAN)|sr3.XXX|
+Russian(LAN)|sr3.XXX|
+Salish(LAN)|sr3.XXX|
+Sign Language(LAN)|tss.12|
+Spanish(LAN)|sr3.XXX|
+Sperethiel(LAN)|sr3.91|
+Swedish(LAN)|sr3.XXX|
+Afrikaans(LAN)|sr3.XXX| 
+Algonkin(LAN)|sr3.XXX| 
+Amharic(LAN)|sr3.XXX| 
+Anyi(LAN)|sr3.XXX| 
+Apache(LAN)|sr3.XXX| 
+Arapaho(LAN)|sr3.XXX| 
+Armenian(LAN)|sr3.XXX| 
+Arowakan(LAN)|sr3.XXX| 
+Ashanti(LAN)|sr3.XXX| 
+Assamese(LAN)|sr3.XXX| 
+Azande(LAN)|sr3.XXX| 
+Azerbaijani(LAN)|sr3.XXX| 
+Aztec(LAN)|sr3.XXX| 
+Bagirmi(LAN)|sr3.XXX| 
+Bahasa(LAN)|sr3.XXX| 
+Baluchi(LAN)|sr3.XXX| 
+Basque(LAN)|sr3.XXX| 
+Bassa(LAN)|sr3.XXX| 
+Baule(LAN)|sr3.XXX| 
+Beja(LAN)|sr3.XXX| 
+Bemba(LAN)|sr3.XXX| 
+Bengali(LAN)|sr3.XXX| 
+Berber(LAN)|sr3.XXX| 
+Bhili(LAN)|sr3.XXX| 
+Birom(LAN)|sr3.XXX| 
+Blackfoot(LAN)|sr3.XXX| 
+Breton(LAN)|sr3.XXX| 
+Bulgarian(LAN)|sr3.XXX| 
+Bulu(LAN)|sr3.XXX| 
+Burmese(LAN)|sr3.XXX| 
+Bushman(LAN)|sr3.XXX| 
+Byelorussian(LAN)|sr3.XXX| 
+Caddo(LAN)|sr3.XXX| 
+Cambodian(LAN)|sr3.XXX| 
+Cantonese(LAN)|sr3.XXX| 
+Cariban(LAN)|sr3.XXX| 
+Catalan(LAN)|sr3.XXX| 
+Catawba(LAN)|sr3.XXX| 
+Cayuga(LAN)|sr3.XXX| 
+Cebuano(LAN)|sr3.XXX| 
+Chehalis(LAN)|sr3.XXX| 
+Cheremis(LAN)|sr3.XXX| 
+Cherokee(LAN)|sr3.XXX| 
+Cheyenne(LAN)|sr3.XXX| 
+Chickasaw(LAN)|sr3.XXX| 
+Chipewwyan(LAN)|sr3.XXX| 
+Choctaw(LAN)|sr3.XXX| 
+Chukchi(LAN)|sr3.XXX| 
+Chuvash(LAN)|sr3.XXX| 
+Comanche(LAN)|sr3.XXX| 
+Coptic(LAN)|sr3.XXX| 
+Cree(LAN)|sr3.XXX| 
+Creek(LAN)|sr3.XXX| 
+Crow(LAN)|sr3.XXX| 
+Czech(LAN)|sr3.XXX| 
+Dakota(LAN)|sr3.XXX| 
+Dayak(LAN)|sr3.XXX| 
+Dinka(LAN)|sr3.XXX| 
+Dutch(LAN)|sr3.XXX| 
+Efik(LAN)|sr3.XXX| 
+Egyptian(LAN)|sr3.XXX| 
+Erie(LAN)|sr3.XXX| 
+Esperanto(LAN)|sr3.XXX| 
+Estonian(LAN)|sr3.XXX| 
+Ewe(LAN)|sr3.XXX| 
+Fang(LAN)|sr3.XXX| 
+Fante(LAN)|sr3.XXX| 
+Farsi(LAN)|sr3.XXX| 
+Finnish(LAN)|sr3.XXX| 
+Flemish(LAN)|sr3.XXX| 
+French Creole(LAN)|sr3.XXX| 
+Fula(LAN)|sr3.XXX| 
+Fur(LAN)|sr3.XXX| 
+Galician(LAN)|sr3.XXX| 
+Galla(LAN)|sr3.XXX| 
+Ganda(LAN)|sr3.XXX| 
+Georgian(LAN)|sr3.XXX| 
+Gondi(LAN)|sr3.XXX| 
+Greek(LAN)|sr3.XXX| 
+Guatemala(LAN)|sr3.XXX| 
+Gujarti(LAN)|sr3.XXX| 
+Hadza(LAN)|sr3.XXX| 
+Hakka(LAN)|sr3.XXX| 
+Harari(LAN)|sr3.XXX| 
+Hausa(LAN)|sr3.XXX| 
+Hawaiian(LAN)|sr3.XXX| 
+Hidatsa(LAN)|sr3.XXX| 
+Hindi(LAN)|sr3.XXX| 
+Hopi(LAN)|sr3.XXX| 
+Hottentot(LAN)|sr3.XXX| 
+Huron(LAN)|sr3.XXX| 
+Ibo(LAN)|sr3.XXX| 
+Icelandic(LAN)|sr3.XXX| 
+Igbo(LAN)|sr3.XXX| 
+Ilocano(LAN)|sr3.XXX| 
+Interlingua(LAN)|sr3.XXX| 
+Inuit(LAN)|sr3.XXX| 
+Irish Gaelic(LAN)|sr3.XXX| 
+Iroquois(LAN)|sr3.XXX| 
+Javanese(LAN)|sr3.XXX| 
+Kanembu(LAN)|sr3.XXX| 
+Kannada(LAN)|sr3.XXX| 
+Kanuri(LAN)|sr3.XXX| 
+Karelian(LAN)|sr3.XXX| 
+Kashmiri(LAN)|sr3.XXX| 
+Kazakh(LAN)|sr3.XXX| 
+Kekchi(LAN)|sr3.XXX| 
+Kikuyu(LAN)|sr3.XXX| 
+Kirghiz(LAN)|sr3.XXX| 
+Kiriwina(LAN)|sr3.XXX| 
+Kituba(LAN)|sr3.XXX| 
+Koman(LAN)|sr3.XXX| 
+Kongo(LAN)|sr3.XXX| 
+Konkani(LAN)|sr3.XXX| 
+Kpele(LAN)|sr3.XXX| 
+Kru(LAN)|sr3.XXX| 
+Kurdish(LAN)|sr3.XXX| 
+Kurukh(LAN)|sr3.XXX| 
+Lao(LAN)|sr3.XXX| 
+Lapp(LAN)|sr3.XXX| 
+Latvian(LAN)|sr3.XXX| 
+Lithuanian(LAN)|sr3.XXX| 
+Livonian(LAN)|sr3.XXX| 
+Luba(LAN)|sr3.XXX| 
+Lunda(LAN)|sr3.XXX| 
+Luo(LAN)|sr3.XXX| 
+Maban(LAN)|sr3.XXX| 
+Macedonian(LAN)|sr3.XXX| 
+Madurese(LAN)|sr3.XXX| 
+Magyar(LAN)|sr3.XXX| 
+Makua(LAN)|sr3.XXX| 
+Malayadem(LAN)|sr3.XXX| 
+Malayan(LAN)|sr3.XXX| 
+Maltese(LAN)|sr3.XXX| 
+Mam(LAN)|sr3.XXX| 
+Mandarian(LAN)|sr3.XXX| 
+Mande(LAN)|sr3.XXX| 
+Maori(LAN)|sr3.XXX| 
+Marathi(LAN)|sr3.XXX| 
+Masai(LAN)|sr3.XXX| 
+Mbundu(LAN)|sr3.XXX| 
+Melanesian(LAN)|sr3.XXX| 
+Mende(LAN)|sr3.XXX| 
+Micmac(LAN)|sr3.XXX| 
+Micronesian(LAN)|sr3.XXX| 
+Min(LAN)|sr3.XXX| 
+Misima(LAN)|sr3.XXX| 
+Mixtec(LAN)|sr3.XXX| 
+Mohawk(LAN)|sr3.XXX| 
+Mohican(LAN)|sr3.XXX| 
+Mon(LAN)|sr3.XXX| 
+Mongolian(LAN)|sr3.XXX| 
+Mordvin(LAN)|sr3.XXX| 
+More(LAN)|sr3.XXX| 
+Mossi(LAN)|sr3.XXX| 
+Nama(LAN)|sr3.XXX| 
+Navaho(LAN)|sr3.XXX| 
+Negrito(LAN)|sr3.XXX| 
+Neo-Aramai(LAN)|sr3.XXX| 
+Nepali(LAN)|sr3.XXX| 
+Ngala(LAN)|sr3.XXX| 
+Ngbaudi(LAN)|sr3.XXX| 
+Nuer(LAN)|sr3.XXX| 
+Nyamwezi-Sukuma(LAN)|sr3.XXX| 
+Nyanja(LAN)|sr3.XXX| 
+Ojbwa(LAN)|sr3.XXX| 
+Okanagon(LAN)|sr3.XXX| 
+Omaha(LAN)|sr3.XXX| 
+Onandago(LAN)|sr3.XXX| 
+Oneida(LAN)|sr3.XXX| 
+Oriya(LAN)|sr3.XXX| 
+Osage(LAN)|sr3.XXX| 
+Ostyak(LAN)|sr3.XXX| 
+Otomi(LAN)|sr3.XXX| 
+Paiute(LAN)|sr3.XXX| 
+Panay-Hiligaynon(LAN)|sr3.XXX| 
+Papago(LAN)|sr3.XXX| 
+Papu(LAN)|sr3.XXX| 
+Pawnee(LAN)|sr3.XXX| 
+Pima(LAN)|sr3.XXX| 
+Polynesian(LAN)|sr3.XXX| 
+Provencal(LAN)|sr3.XXX| 
+Punjabi(LAN)|sr3.XXX| 
+Pushtu(LAN)|sr3.XXX| 
+Quechua(LAN)|sr3.XXX| 
+Quiche-Tzutujil-Cakchique(LAN)|sr3.XXX| 
+Rajasthani(LAN)|sr3.XXX| 
+Rumanian(LAN)|sr3.XXX| 
+Rundi(LAN)|sr3.XXX| 
+Rwanda(LAN)|sr3.XXX| 
+Samar-Leyte(LAN)|sr3.XXX| 
+Samoan(LAN)|sr3.XXX| 
+Sandawe(LAN)|sr3.XXX| 
+Sango(LAN)|sr3.XXX| 
+Sanskrit(LAN)|sr3.XXX| 
+Scottish Gaelic(LAN)|sr3.XXX| 
+Seminole(LAN)|sr3.XXX| 
+Seneca(LAN)|sr3.XXX| 
+Serbo-Croatian(LAN)|sr3.XXX| 
+Shan(LAN)|sr3.XXX| 
+Shawnee(LAN)|sr3.XXX| 
+Shilluk(LAN)|sr3.XXX| 
+Shona(LAN)|sr3.XXX| 
+Shoshoni(LAN)|sr3.XXX| 
+Sindi(LAN)|sr3.XXX| 
+Sinhalese(LAN)|sr3.XXX| 
+Slovak(LAN)|sr3.XXX| 
+Slovene(LAN)|sr3.XXX| 
+Somali(LAN)|sr3.XXX| 
+Songhai(LAN)|sr3.XXX| 
+Sotho(LAN)|sr3.XXX| 
+Sukuma(LAN)|sr3.XXX| 
+Sundanese(LAN)|sr3.XXX| 
+Swahili(LAN)|sr3.XXX| 
+Tagalog(LAN)|sr3.XXX| 
+Tahitian(LAN)|sr3.XXX| 
+Taluga(LAN)|sr3.XXX| 
+Tamil(LAN)|sr3.XXX| 
+Tatar(LAN)|sr3.XXX| 
+Telugu(LAN)|sr3.XXX| 
+Temne(LAN)|sr3.XXX| 
+Thai(LAN)|sr3.XXX| 
+Tibetan(LAN)|sr3.XXX| 
+Tigre(LAN)|sr3.XXX| 
+Tigrinya(LAN)|sr3.XXX| 
+Tiv(LAN)|sr3.XXX| 
+Tlinglit(LAN)|sr3.XXX| 
+Tsimshian(LAN)|sr3.XXX| 
+Tswana(LAN)|sr3.XXX| 
+Tuareg(LAN)|sr3.XXX| 
+Tulu(LAN)|sr3.XXX| 
+Tungus(LAN)|sr3.XXX| 
+Tupi-Guarani(LAN)|sr3.XXX| 
+Turki(LAN)|sr3.XXX| 
+Turkish(LAN)|sr3.XXX| 
+Tuscarora(LAN)|sr3.XXX| 
+Twi(LAN)|sr3.XXX| 
+Ukrainian(LAN)|sr3.XXX| 
+Urdu(LAN)|sr3.XXX| 
+Ute(LAN)|sr3.XXX| 
+Uzbek(LAN)|sr3.XXX| 
+Veps(LAN)|sr3.XXX| 
+Vietnamese(LAN)|sr3.XXX| 
+Vogul(LAN)|sr3.XXX| 
+Votyak(LAN)|sr3.XXX| 
+Wadai(LAN)|sr3.XXX| 
+Welsh(LAN)|sr3.XXX| 
+Wichita(LAN)|sr3.XXX| 
+Wiyot(LAN)|sr3.XXX| 
+Wolof(LAN)|sr3.XXX| 
+Wu(LAN)|sr3.XXX| 
+Xhosa(LAN)|sr3.XXX| 
+Yakut(LAN)|sr3.XXX| 
+Yao(LAN)|sr3.XXX| 
+Yiddish(LAN)|sr3.XXX| 
+Yoruba(LAN)|sr3.XXX| 
+Yucatan(LAN)|sr3.XXX| 
+Yueh(LAN)|sr3.XXX| 
+Yurok(LAN)|sr3.XXX| 
+Zande(LAN)|sr3.XXX| 
+Zapotec(LAN)|sr3.XXX| 
+Zulu(LAN)|sr3.XXX| 
+Zuni(LAN)|sr3.XXX| 
+Zyrian(LAN)|sr3.XXX| 
+!-----------------
+#Otaku (MATRIX) skills
+!-----------------
+O:Access(WIL)|mat.137|
+ Crash|mat.162|
+ Deception|mat.162|
+ Doorstop|mat.162|
+ Decrypt|mat.162|
+ Encrypt|mat.162|
+ Purge|mat.162|
+ Sniffer|mat.162|
+O:Control(WIL)|mat.137|
+ Analyze Host|mat.162|
+ Camo|mat.162|
+ Commlink|mat.162|
+ Crash|mat.162|
+ Deception|mat.162|
+ Mirrors|mat.162|
+ Purge|mat.162|
+ Redecorate|mat.162|
+ Relocate|mat.162|
+ Sniffer|mat.162|
+ Snooper|mat.162|
+ Swerve|mat.162|
+ Validate|mat.162|
+O:Index(WIL)|mat.137|
+ Analyze|mat.162|
+ Browse|mat.162|
+ Commlink|mat.162|
+ Crash|mat.162|
+ Evaluate|mat.162|
+ Purge|mat.162|
+ Scanner|mat.162|
+ Sniffer|mat.162|
+O:Files(WIL)|mat.137|
+ Commlink|mat.162|
+ Crash|mat.162|
+ Decrpyt|mat.162|
+ Encrypt|mat.162|
+ Purge|mat.162|
+ Read/Write|mat.162|
+ Sniffer|mat.162|
+O:Slave(WIL)|mat.137|
+ Crash|mat.162|
+ Decrypt|mat.162|
+ Defuse|mat.162|
+ Encrypt|mat.162|
+ Purge|mat.162|
+ Sniffer|mat.162|
+ Spoof|mat.162|
+ Triangulation|mat.162|

@@ -1,0 +1,1263 @@
+!CYBER.DAT - Cyberware data file - JW 960202 (Update of Stephen Atkins' 960201 file)
+!-----------------------------------------------------------------------------------
+! Note Body Index (INDEX) is now unused... Value is converted to Legality
+! Shadowrun II Original
+! References in SR3 deleted from other editions. Updated 990809. Mike Mc
+! WARNING: ALL MODS MUST END in ",", Ess cost MUST have digits
+! Category E-Eye, R-Ear, A-Arm, L-Leg, T-Torso, H-Head, F-Foot, D-Hand
+! Some components are both in CT and SR3, because SR3 is more recent only SR3 book page references
+! are noted. Thierry N
+! Reference to CB1 (Chromebook) are from downloadble edition at http://shadowrun.html.com/plasticwarriors
+! and from the compilation Chromebook 1 to 4, so page numbers indicated are in this order.
+! Updated 000305 Thierry N
+! Updated 11/27/00 for M&M by Lucas Hoffmann
+! Updated 06/03/01 Added Availability and Legality Codes by Benjamin Plaga (K. Oz)
+! Updated 06/10/02 Added Rigger gear by Wordman
+! Updated 10/13/02 Added comments by Lich325, Thanks
+0-1|CyberParts|10|Book.Page|Availability|EssCost|$Cost|Mods|LegalCode|Capacity|Category|Street Index|Notes|
+! ============================= BODYWEAR ============================================
+1-BODYWARE
+2-* Autoinjector                   1|mm.25|4/72 hours|0.10|1000||6P-N|||1.50|Triggered release of substance
+2-* Autoinjector-one shot          1|mm.25|4/72 hours|0.05|1500||4P-Q|||1.50|Triggered release of substance
+2-* Autoinjector-extra dose        1|mm.25|4/72 hours|0.00|500||AsInj|||1.50|Extra dose of substance, max 5 doses
+2-* +Autoinjectr wired to biomo    1|cb3.98|2/6 hours|0.00|200||AsDrug|||0.90|
+2-* Balance Tail                   1|mm.25|8/1 week|0.50|10000||Legal|||2.00|-2 balance TNs
+2-* BIODYNE "Enable"Cyberlimbs     1|cb3.100|6/7 days|1.00|100000|-1RCT,|Legal|||1.00|
+2-Biomonitor & components
+3-* Biomonitor Processor           1|mm.25|6/72 hours|0.20|2500||Legal|||2.00|Biotech skill of 5, triggers/alerts
+3-* +Subdermal Display             1|mm.25|4/48 hours|0.10|500||Legal|||1.00|Displays body info
+3-* Biomonitor                     1|mm.25|6/72 hours|0.30|5000||Legal|||2.00|Monitors body, gives info to linked devices
+3-* Biomonitor II                  1|pw.18|4/36 hours|0.50|40000||Legal|||1.00|
+2-Biopower Implants
+3-* Biopower Implants [1]          1|tss.5|6/2 days|1.00|25000||Legal|||1.50|Charges at Body/10 per Hr, max = Body/2
+3-* Biopower Implants [2]          1|tss.5|8/4 days|2.00|60000||Legal|||1.75|Charges at Body/7 per Hr, max = Body
+3-* Biopower Implants [3]          1|tss.5|12/16 days|3.00|125000||6P-CA|||2.00|Charges at Body/5 per Hr, max = Body*1.5
+2-Body Compartment & contents
+3-* Body Compartment               1|mm.23|4/48 hours|0.20|5000||Legal|||1.00|Hollow area of body to hold small items
+3-* +Injector                      1|mm.23|4/72 hours|0.00|500||6P-N|||1.50|One dose of a compound
+3-* +Lockpicks                     1|mm.23|8/2 weeks|0.00|500||6P-Q|||3.00|For key and tumbler locks
+3-* +Lockpick Gun /rating          1|mm.23|8/2 weeks|0.00|250||6P-Q|||3.00|For key and tumbler locks
+3-* +Synth. Fingerprint [1]        1|mm.23|2/1 week|0.00|2000||4P-Q|||3.00|
+3-* +Synth. Fingerprint [2]        1|mm.23|4/1 week|0.00|4000||4P-Q|||3.00|
+3-* +Synth. Fingerprint [3]        1|mm.23|6/1 week|0.00|6000||4P-Q|||3.00|
+3-* +Synth. Fingerprint [4]        1|mm.23|8/1 week|0.00|8000||4P-Q|||3.00|
+3-* +Synth. Fingerprint [5]        1|mm.23|10/1 week|0.00|10000||4P-Q|||3.00|
+3-* +Synth. Fingerprint [6]        1|mm.23|12/1 week|0.00|12000||4P-Q|||3.00|
+3-* +Print Scanner [1]             1|mm.23|1/72 hours|0.00|500||6P-V|||3.00|
+3-* +Print Scanner [2]             1|mm.23|2/72 hours|0.00|1000||6P-V|||3.00|
+3-* +Print Scanner [3]             1|mm.23|3/72 hours|0.00|1500||6P-V|||3.00|
+3-* +Print Scanner [4]             1|mm.23|4/72 hours|0.00|2000||6P-V|||3.00|
+3-* +Print Scanner [5]             1|mm.23|5/72 hours|0.00|2500||6P-V|||3.00|
+3-* +Print Scanner [6]             1|mm.23|6/72 hours|0.00|3000||6P-V|||3.00|
+2-Body Enhance
+3-* Body Enhance [1]               1|ct.31|6/4 days|0.00|75000|+1BOD,|6P-CB|||1.00|
+3-* Body Enhance [2]               1|ct.31|6/4 days|0.00|150000|+2BOD,|6P-CB|||1.00|
+3-* Body Enhance [3]               1|ct.31|6/4 days|0.00|225000|+3BOD,|6P-CB|||1.00|
+3-* Body Enhance [4]               1|ct.31|6/4 days|0.00|300000|+4BOD,|6P-CB|||1.00|
+3-* Body Enhance [5]               1|ct.31|6/4 days|0.00|375000|+5BOD,|6P-CB|||1.00|
+3-* Body Enhance [6]               1|ct.31|6/4 days|0.00|450000|+6BOD,|6P-CB|||1.00|
+2-Body Plating
+3-* Body Plating Soft [1]          1|ct.37|12/2 weeks|0.00|10000||6P-CA|||2.00|
+3-* Body Plating Soft [2]          1|ct.37|12/2 weeks|0.00|20000||6P-CA|||2.00|
+3-* Body Plating Soft [3]          1|ct.37|12/2 weeks|0.00|30000||6P-CA|||2.00|
+3-* Body Plating Soft [4]          1|ct.37|12/2 weeks|0.00|40000||6P-CA|||2.00|
+3-* Body Plating Soft [5]          1|ct.37|12/2 weeks|0.00|50000||6P-CA|||2.00|
+3-* Body Plating Soft [6]          1|ct.37|12/2 weeks|0.00|60000||6P-CA|||2.00|
+3-* Body Plating Hard [1]          1|ct.37|14/3 weeks|0.00|25000||5P-CA|||2.00|
+3-* Body Plating Hard [2]          1|ct.37|14/3 weeks|0.00|50000||5P-CA|||2.00|
+3-* Body Plating Hard [3]          1|ct.37|14/3 weeks|0.00|75000||5P-CA|||2.00|
+3-* Body Plating Hard [4]          1|ct.37|14/3 weeks|0.00|100000||5P-CA|||2.00|
+3-* Body Plating Hard [5]          1|ct.37|14/3 weeks|0.00|125000||5P-CA|||2.00|
+3-* Body Plating Hard [6]          1|ct.37|14/3 weeks|0.00|150000||5P-CA|||2.00|
+3-* Body Plating Total             1|cb2.48|6/14 days|3.00|68000|+3BOD,+3IMP,+3BAL,|4P-N|||1.10|+3BOD,+3IMP,+3BAL,
+2-* Bomb Implant                   1|cp.34|20/14 days|0.50|500000||1-CC|||1.00|Damage 12D, -1/meter
+2-Bone Lace
+3-* Bone Lace, Aluminium           1|sr3.302|5/14 days|1.15|25000|+1BOD,+1IMP,|6P-Q|||1.50|Unarmed = (STR+3)M Stun, +1BOD, +1IMP
+3-* Bone Lace, Ceramic             1|mm.27|6/21 days|1.50|40000|+1BOD,+2IMP,|6P-Q|||2.00|Unarmed = (STR+3)M Stun, +1BOD, +2IMP
+3-* Bone Lace, Kevlar              1|mm.27|6/21 days|1.00|20000|+1BOD,+1BAL,|6P-Q|||2.00|Unarmed = (STR)M Stun, +1BOD, +1BAL
+3-* Bone Lace, Plastic             1|sr3.302|5/14 days|0.50|7500|+1BOD,|6P-N|||1.50|Unarmed = (STR+2)M Stun, +1BOD
+3-* Bone Lace, Titanium            1|sr3.302|5/14 days|2.25|75000|+2BOD,+1IMP,+1BAL,|6-R|||1.50|Unarmed = (STR+4)M Stun, +2BOD, +1IMP, +1BAL
+2-Boosted Reflexes
+3-* Boosted Reflexes [1]           1|sr3.302|3/24 hours|0.50|15000|+1INI,|8P-Q|||1.00|+1INI
+3-* Boosted Reflexes [2]           1|sr3.302|3/24 hours|1.25|40000|+1RCT,+1INI,|6P-Q|||1.25|+1RCT, +1INI
+3-* Boosted Reflexes [3]           1|sr3.302|3/24 hours|2.80|90000|+2RCT,+2INI,|5P-Q|||1.50|+2RCT, +2INI
+2-Chromasync SPU
+3-* Chromasync SPU [1]             1|tss.5|3/24 hours|0.10|5500||Legal|||1.00|Store and output one non-shifting color pattern of any complexity, reprogrammed with datajack
+3-* Chromasync SPU [2]             1|tss.5|3/24 hours|0.15|10500||Legal|||1.00|Store and output simple shifts in paterns such as eye colors
+3-* Chromasync SPU [3]             1|tss.5|9/14 days|0.20|17500||6P-CA|||2.00|Handles more complex preset conditions in mix-and-match datafiles
+3-* Chromasync SPU [4]             1|tss.5|18/1 month|.025|28000||4-CC|||3.00|Handles rapid, complex changes such as chameleon effects
+2-ChemSkins
+3-* ChemSkins Color                1|cp.5|3/24 hours|0.50|6000||Legal|||1.10|Change color as desired
+3-* ChemSkins Temperature          1|cp.5|3/24 hours|0.50|6000||Legal|||1.10|Change color with temperature
+3-* ChemSkins Hormonal             1|cp.5|3/24 hours|0.50|12000||Legal|||1.10|Sensitive to hormonal changes
+2-* Color Gland Control            1|cb2.47|4/36 hours|0.02|2500||Legal|||1.00|Cannot be used with Cybereye
+2-* Contraceptive Implant          1|cp.5|6/4 days|0.05|1000||Legal|||1.25|Prevent pregnacy for up to 5 years
+2-Cyberfins & gills
+3-* Cyberfins                      1|mm.27|5/48 hours|0.30|10500||Legal|||1.25|Swim at half normal walking or running, treat as Hand Razors -1 Power for combat
+3-* Cybergill                      1|mm.31|5/72 hours|0.75|12500||Legal|||1.75|Breathe underwater
+2-* Cyber Endo Skeletal            1|cb3.99|6/14 days|1.25|100000|+2BOD,|Legal|||1.00|Only in Alpha Clinic
+2-Dermal Plating/Sheath/Ruthenium
+3-* Dermal Plating [1]             1|sr3.302|4/12 days|0.50|6000|+1BOD,|6P-N|||1.00|+1BOD
+3-* Dermal Plating [2]             1|sr3.302|4/12 days|1.00|15000|+2BOD,|6P-N|||1.00|+2BOD
+3-* Dermal Plating [3]             1|sr3.302|4/12 days|1.50|45000|+3BOD,|5P-N|||1.00|+3BOD
+3-* Dermal Sheath [1]              1|mm.28|6/14 days|0.70|24000|+2BOD,+1IMP,|6P-N|||1.50|+2BOD, +1IMP
+3-* Dermal Sheath [2]              1|mm.28|6/14 days|1.40|60000|+3BOD,+1IMP,|6P-N|||1.50|+3BOD, +1IMP
+3-* Dermal Sheath [3]              1|mm.28|8/14 days|2.10|120000|+4BOD,+2IMP,|5P-N|||1.50|+4BOD, +2IMP
+3-* D. Sheath Ruthenium [1]        1|mm.28|8/18 days|0.70|174000|+2BOD,+1IMP,|4P-N|||1.50|+2BOD, +1IMP, change color
+3-* D. Sheath Ruthenium [2]        1|mm.28|8/18 days|1.40|210000|+3BOD,+1IMP,|4P-N|||1.50|+3BOD, +1IMP, change color
+3-* D. Sheath Ruthenium [3]        1|mm.28|10/18 days|2.10|270000|+4BOD,+2IMP,|4P-N|||1.50|+4BOD, +2IMP, change color
+3-* +DS Scanner                    1|mm.28|1/1 hours|0.05|8000||4P-N|||1.00|Scan images
+3-* DS Coloration [1]              1|ct.28|8/18 days|0.00|30000|+2BOD,|Legal|||1.75|
+3-* DS Coloration [2]              1|ct.28|8/18 days|0.00|75000|+3BOD,|Legal|||1.75|
+3-* DS Coloration [3]              1|ct.28|10/18 days|0.00|150000|+4BOD,|Legal|||1.75|
+3-* DS Cyber Control               1|ct.28|8/14 days|0.10|32000||6P-CA|||1.50|
+2-Exoskelaton
+3-* Series-A Exoskel.              1|cb3.100|6/14 days|2.00|240000||Legal|||2.00|Give Strength 9 Ballistic 1/Impact 2
+3-* Series-B Exeskel.              1|cb3.100|8/14 days|2.50|300000||Legal|||2.00|Give Strength 11 Ballistic 1/Impact 3
+2-Filter: Air, Blood, Toxin
+3-* Filter: Air [1]                1|sr3.302|6/4 days|0.10|15000||Legal|||1.00|-1 Power to air toxins
+3-* Filter: Air [2]                1|sr3.302|6/4 days|0.20|30000||Legal|||1.00|-2 Power to air toxins
+3-* Filter: Air [3]                1|sr3.302|6/4 days|0.30|45000||Legal|||1.00|-3 Power to air toxins
+3-* Filter: Air [4]                1|sr3.302|6/4 days|0.40|60000||Legal|||1.00|-4 Power to air toxins
+3-* Filter: Air [5]                1|sr3.302|6/4 days|0.50|75000||Legal|||1.00|-5 Power to air toxins
+3-* Filter: Air [6]                1|sr3.302|6/4 days|0.60|90000||Legal|||1.00|-6 Power to air toxins
+3-* Filter: Air [7]                1|sr3.302|6/4 days|0.70|105000||Legal|||1.00|-7 Power to air toxins
+3-* Filter: Air [8]                1|sr3.302|6/4 days|0.80|120000||Legal|||1.00|-8 Power to air toxins
+3-* Filter: Air [9]                1|sr3.302|6/4 days|0.90|135000||Legal|||1.00|-9 Power to air toxins
+3-* Filter: Air [10]               1|sr3.302|6/4 days|1.00|150000||Legal|||1.00|-10 Power to air toxins
+3-* Filter: Blood [1]              1|sr3.302|6/4 days|0.20|10000||Legal|||1.00|-1 Power to blood toxins
+3-* Filter: Blood [2]              1|sr3.302|6/4 days|0.40|20000||Legal|||1.00|-2 Power to blood toxins
+3-* Filter: Blood [3]              1|sr3.302|6/4 days|0.60|30000||Legal|||1.00|-3 Power to blood toxins
+3-* Filter: Blood [4]              1|sr3.302|6/4 days|0.80|40000||Legal|||1.00|-4 Power to blood toxins
+3-* Filter: Blood [5]              1|sr3.302|6/4 days|1.00|50000||Legal|||1.00|-5 Power to blood toxins
+3-* Filter: Blood [6]              1|sr3.302|6/4 days|1.20|60000||Legal|||1.00|-6 Power to blood toxins
+3-* Filter: Blood [7]              1|sr3.302|6/4 days|1.40|70000||Legal|||1.00|-7 Power to blood toxins
+3-* Filter: Blood [8]              1|sr3.302|6/4 days|1.60|80000||Legal|||1.00|-8 Power to blood toxins
+3-* Filter: Blood [9]              1|sr3.302|6/4 days|1.80|90000||Legal|||1.00|-9 Power to blood toxins
+3-* Filter: Blood [10]             1|sr3.302|6/4 days|2.00|100000||Legal|||1.00|-10 Power to blood toxins
+3-* Filter: Ingested Toxin [1]     1|sr3.302|6/4 days|0.20|10000||Legal|||1.00|-1 Power to ingested toxins
+3-* Filter: Ingested Toxin [2]     1|sr3.302|6/4 days|0.40|20000||Legal|||1.00|-2 Power to ingested toxins
+3-* Filter: Ingested Toxin [3]     1|sr3.302|6/4 days|0.60|30000||Legal|||1.00|-3 Power to ingested toxins
+3-* Filter: Ingested Toxin [4]     1|sr3.302|6/4 days|0.80|40000||Legal|||1.00|-4 Power to ingested toxins
+3-* Filter: Ingested Toxin [5]     1|sr3.302|6/4 days|1.00|50000||Legal|||1.00|-5 Power to ingested toxins
+3-* Filter: Ingested Toxin [6]     1|sr3.302|6/4 days|1.20|60000||Legal|||1.00|-6 Power to ingested toxins
+3-* Filter: Ingested Toxin [7]     1|sr3.302|6/4 days|1.40|70000||Legal|||1.00|-7 Power to ingested toxins
+3-* Filter: Ingested Toxin [8]     1|sr3.302|6/4 days|1.60|80000||Legal|||1.00|-8 Power to ingested toxins
+3-* Filter: Ingested Toxin [9]     1|sr3.302|6/4 days|1.80|90000||Legal|||1.00|-9 Power to ingested toxins
+3-* Filter: Ingested Toxin [10]    1|sr3.302|6/4 days|2.00|100000||Legal|||1.00|-10 Power to ingested toxins
+2-Grd. Subdermal Armor
+3-* Grd. Subdermal Armor [1]       1|cb2.48|3/10 days|0.10|3500||9P-CA|||0.90|Ballistic 0 Impact 1
+3-* Grd. Subdermal Armor [2]       1|cb2.48|3/10 days|0.30|5000||8P-CA|||1.00|Ballistic 1 Impact 1
+3-* Grd. Subdermal Armor [3]       1|cb2.48|4/12 days|0.50|6500|+1BOD,|6P-CA|||1.00|Ballistic 1 Impact 1
+3-* Grd. Subdermal Armor [4]       1|cb2.48|4/12 days|0.80|8000|+1BOD,|6P-CA|||1.10|Ballistic 1 Impact 2
+3-* Grd. Subdermal Armor [5]       1|cb2.48|4/12 days|1.00|10000|+2BOD,|5P-CA|||1.10|Ballistic 1 Impact 2
+3-* Grd. Subdermal Armor [6]       1|cb2.48|5/12 days|1.20|11000|+2BOD,|4P-CA|||1.20|Ballistic 2 Impact 2
+3-* Grd. Subdermal Armor [7]       1|cb2.48|5/12 days|1.40|12000|+2BOD,|3P-CA|||1.30|Ballistic 2 Impact 3
+3-* Grd. Subdermal Armor [8]       1|cb2.48|6/12 days|1.60|14500|+3BOD,-1RCT,|3-CA|||1.40|Ballistic 2 Impact 3
+3-* Grd. Subdermal Armor [9]       1|cb2.48|8/12 days|1.90|17500|+3BOD,-1RCT,|2-CA|||1.50|Ballistic 3 Impact 3
+2-Hydraulic Jack
+3-* Hydraulic Jack [1]             1|mm.29|5/6 days|1.00|5000||Legal|||1.00|+1 die to Athletics (Running, Jumping) tests, +20% running distance, -1 Power level to falls
+3-* Hydraulic Jack [2]             1|mm.29|5/6 days|1.25|10000||Legal|||1.00|+2 die to Athletics (Running, Jumping) tests, +40% running distance, -2 Power level to falls
+3-* Hydraulic Jack [3]             1|mm.29|5/6 days|1.50|15000||Legal|||1.00|+3 die to Athletics (Running, Jumping) tests, +60% running distance, -3 Power level to falls
+3-* Hydraulic Jack [4]             1|mm.29|5/6 days|1.75|20000||Legal|||1.00|+4 die to Athletics (Running, Jumping) tests, +80% running distance, -4 Power level to falls
+3-* Hydraulic Jack [5]             1|mm.29|5/6 days|2.00|25000||Legal|||1.00|+5 die to Athletics (Running, Jumping) tests, +100% running distance, -5 Power level to falls
+2-Internal Air Tank
+3-* Internal Air Tank              1|mm.29|4/5 days|0.25|1200||Legal|||1.50|75 minutes of air, -1 TN to floating or treading water
+3-* +Tracheal Vent                 1|mm.29|4/5 days|0.10|750||Legal|||1.50|Contents can be released without passing through respiratory system
+2-* Jolt-Alert                     1|mm.29|4/48 hours|0.10|1500||Legal|||1.50|Wake with no ill effects
+2-Kerenzikov
+3-* Kerenzikov Level [1]           1|cp.8|5/48 hours|0.60|15000|+2INI,|6P-CB|||1.00|+2INI
+3-* Kerenzikov Level [2]           1|cp.8|6/60 hours|1.15|25000|+4INI,|6P-CB|||1.25|+4INI
+2-* Light Tattoos                  1|cp.6|0/0|0.05|100||Legal|||0.60|Store light and emit in color of patterns
+2-Sexual Implant
+3-* Midnight Lady sexual Implant   1|cp.6|3/48 hours|0.35|3000||Legal|||2.00|All night, every night, and he'll never know
+3-* Mr. Studd sexual Implant       1|cp.6|3/48 hours|0.35|3000||Legal|||2.00|All night, every night, and she'll never know
+2-Move-by-Wire
+3-* Move-by-Wire   [1]             1|mm.30|8/10 days|2.50|250000|+1QCK,+2RCT,+1INI|3P-R|||2.50|+1QCK, +2RCT, +1INI
+3-* Move-by-Wire   [2]             1|mm.30|12/20 days|4.00|500000|+2QCK,+4RCT,+2INI|3P-R|||3.00|+2QCK, +4RCT, +2INI
+3-* Move-by-Wire   [3]             1|mm.30|18/30 days|5.50|1000000|+3QCK,+6RCT,+3INI|3P-R|||3.00|+3QCK, +6RCT, +3INI, must take 1 extra action
+3-* Move-by-Wire   [4]             1|mm.30|20/45 days|7.00|2000000|+4QCK,+8RCT,+4INI|3P-R|||3.50|+4QCK, +8RCT, +4INI, must take 2 extra actions
+2-Muscle Replacement
+3-* Muscle Replac. [1]             1|sr3.302|4/4 days|1.00|20000|+1QCK,+1STR,|5P-Q|||1.00|+1QCK, +1STR
+3-* Muscle Replac. [2]             1|sr3.302|4/4 days|2.00|40000|+2QCK,+2STR,|5P-Q|||1.00|+2QCK, +2STR
+3-* Muscle Replac. [3]             1|sr3.302|4/4 days|3.00|60000|+3QCK,+3STR,|5P-Q|||1.00|+3QCK, +3STR
+3-* Muscle Replac. [4]             1|sr3.302|4/4 days|4.00|80000|+4QCK,+4STR,|5P-Q|||1.00|+4QCK, +4STR
+2-* Pacemaker Coprocessor          1|cb3.98|6/24 hours|0.20|1500||Legal|||2.00|2nd body test after deadly wounds
+2-PMP Bone Lacing
+3-* PMP Bone Lacing [1]            1|tss.5|7/13 days|0.50|35000||5P-CA|||1.00|+2 Disguise, Change apparent height up to 5%, 1 box of damage per use; requires PMP SPU [1]
+3-* PMP Bone Lacing [2]            1|tss.5|13/17 days|1.15|100000||5-CB|||1.50|+4 Disguise, Change apparent height up to 10%, 2 boxes of damage per use; requires PMP SPU [2]
+3-* PMP Bone Lacing [3]            1|tss.5|14/20 days|2.25|150000||4-CC|||2.00|+6 Disguise, Change apparent height up to 15%, 3 boxes of damage per use; requires PMP SPU [3]
+2-PMP Hair Implants                1|tss.5|3/24 hours|0.05|1000||Legal|||1.00|Maximum length change of 10%, use with a PMP SPU to cybernetically change styling and length; requires PMP SPU [1]
+2-PMP Musculature Lacing
+3-* PMP Musculature Lacing [1]     1|tss.5|6/12 days|0.80|45000||5P-CA|||1.00|+2 Disguise, Make minor alterations to facial and physical structure; requires PMP SPU [1]
+3-* PMP Musculature Lacing [2]     1|tss.5|12/16 days|1.60|95000||5-CB|||1.50|+4 Disguise, More drastic changes then level 1; requires PMP SPU [2]
+3-* PMP Musculature Lacing [3]     1|tss.5|14/18 days|2.40|150000||4-CC|||1.75|+6 Disguise, Most drastic changes, even change apparent sex or metatype; requires PMP SPU [3]
+2-PMP SPU
+3-* PMP SPU [1]                    1|tss.5|7/13 days|0.10|9000||5P-CA|||1.00|Required to use any Rating 1 PMP cyberware
+3-* PMP SPU [2]                    1|tss.5|13/17 days|0.15|16000||5-CB|||1.50|Required to use any Rating 2 PMP cyberware
+3-* PMP SPU [3]                    1|tss.5|14/20 days|0.20|27000||4-CC|||2.00|Required to use any Rating 3 PMP cyberware
+3-* PMP SPU [4]                    1|tss.5|16/24 days|0.25|42000||3-CC|||2.50|Required to use any Rating 4 PMP cyberware
+2-Reaction Enhancement
+3-* Reaction Enhance [1]           1|sr3.302|6/7 days|0.30|60000|+1RCT,|6P-R|||2.00|+1RCT
+3-* Reaction Enhance [2]           1|sr3.302|6/7 days|0.60|120000|+2RCT,|6P-R|||2.00|+2RCT
+3-* Reaction Enhance [3]           1|sr3.302|6/7 days|0.90|180000|+3RCT,|6P-R|||2.00|+3RCT
+3-* Reaction Enhance [4]           1|sr3.302|6/7 days|1.20|240000|+4RCT,|6P-R|||2.00|+4RCT
+3-* Reaction Enhance [5]           1|sr3.302|6/7 days|1.50|300000|+5RCT,|6P-R|||2.00|+5RCT
+3-* Reaction Enhance [6]           1|sr3.302|6/7 days|1.80|360000|+6RCT,|6P-R|||2.00|+6RCT
+2-* Siemens Rigit!F1               1|ger.184|4/48 hours|0.50|25000|+1INI,|6P-N|||1.00|
+2-* Ruthenium Hair Implants        1|tss.5|2/24 hours|0.00|1000||Legal|||0.75|Combine with Chromasync SPU to change hair colors
+2-Ruthenium Occular Mods
+3-* Ruthenium Occular Mods [1]     1|tss.5|3/24 hours|0.10|2000||Legal|||0.75|Obvious pattern changes, programmable with included wireless unit (or datajack or Chromasync SPU [not included])
+3-* Ruthenium Occular Mods [2]     1|tss.5|4/36 hours|0.10|5000||Legal|||1.00|Natural looking changes, programmable with included wireless unit (or datajack or Chromasync SPU [not included])
+3-* Ruthenium Occular Mods [3]     1|tss.5|14/21 days|0.20|150000||2-CC|||2.00|Retinal Pattern change, can be used to fake retinal scans, requires Chromasync SPU to reprogram
+2-Ruthenium Skin Implants
+3-* Ruthenium Skin Implants [1]    1|tss.5|2/24 hours|0.20|5000||Legal|||0.75|Partial skin coverage, reprogrammed using handheld unit [included]
+3-* Ruthenium Skin Implants [2]    1|tss.5|3/48 hours|0.50|15000||Legal|||1.00|Single static pattern covering all skin, reprogrammed with handheld unit [included]
+3-* Ruthenium Skin Implants [3]    1|tss.5|4/3 days|1.00|45000||8P-CA|||1.25|Instant simple pattern change covering all skin; requires Chromasync SPU to reprogram [not included]
+3-* Ruthenium Skin Implants [4]    1|tss.5|18/1 month|1.50|80000||4-CC|||2.00|Instant dynamic pattern changes covering all skin; requires Chromasync SPU to reprogram [not included]
+2-Skillwires
+3-* Skillwires [1] MP 3            1|sr3.302|1/10 days|0.20|1500||Legal|||1.00|
+3-* Skillwires [1] MP 6            1|sr3.302|1/10 days|0.20|3000||Legal|||1.00|
+3-* Skillwires [2] MP 12           1|sr3.302|2/10 days|0.40|12000||Legal|||1.00|
+3-* Skillwires [2] MP 24           1|sr3.302|2/10 days|0.40|24000||Legal|||1.00|
+3-* Skillwires [3] MP 27           1|sr3.302|3/10 days|0.60|40500||Legal|||1.00|
+3-* Skillwires [3] MP 54           1|sr3.302|3/10 days|0.60|81000||Legal|||1.00|
+3-* Skillwires [4] MP 48           1|sr3.302|4/10 days|0.80|96000||Legal|||1.00|
+3-* Skillwires [4] MP 96           1|sr3.302|4/10 days|0.80|192000||Legal|||1.00|
+3-* Skillwires [5] MP 75           1|sr3.302|5/10 days|1.00|187500||Legal|||1.00|
+3-* Skillwires [5] MP 150          1|sr3.302|5/10 days|1.00|375000||Legal|||1.00|
+3-* Skillwires [6] MP 108          1|sr3.302|6/10 days|1.20|324000||Legal|||1.00|
+3-* Skillwires [6] MP 216          1|sr3.302|6/10 days|1.20|648000||Legal|||1.00|
+3-* Skillwires [7] MP 147          1|sr3.302|7/10 days|1.40|700000||Legal|||1.00|
+3-* Skillwires [7] MP 294          1|sr3.302|7/10 days|1.40|1400000||Legal|||1.00|
+3-* Skillwires [8] MP 192          1|sr3.302|8/10 days|1.60|768000||Legal|||1.00|
+3-* Skillwires [8] MP 384          1|sr3.302|8/10 days|1.60|1536000||Legal|||1.00|
+3-* Skillwires [9] MP 243          1|sr3.302|9/10 days|1.80|1093500||Legal|||1.00|
+3-* Skillwires [9] MP 486          1|sr3.302|9/10 days|1.80|2187000||Legal|||1.00|
+3-Custom MP Levels
+4-* Skillwires [1] MP ->           1|sr3.302|1/10 days|0.20|?||Legal|||1.00|
+4-* Skillwires [2] MP ->           1|sr3.302|2/10 days|0.40|?||Legal|||1.00|
+4-* Skillwires [3] MP ->           1|sr3.302|3/10 days|0.60|?||Legal|||1.00|
+4-* Skillwires [4] MP ->           1|sr3.302|4/10 days|0.80|?||Legal|||1.00|
+4-* Skillwires [5] MP ->           1|sr3.302|5/10 days|1.00|?||Legal|||1.00|
+4-* Skillwires [6] MP ->           1|sr3.302|6/10 days|1.20|?||Legal|||1.00|
+4-* Skillwires [7] MP ->           1|sr3.302|7/10 days|1.40|?||Legal|||1.00|
+4-* Skillwires [8] MP ->           1|sr3.302|8/10 days|1.60|?||Legal|||1.00|
+4-* Skillwires [9] MP ->           1|sr3.302|9/10 days|1.80|?||Legal|||1.00|
+3-* Skillwires [1]                 1|sr2.248|4/10 days|0.10|10000||Legal|||1.00|
+3-* Skillwires [2]                 1|sr2.248|4/10 days|0.20|20000||Legal|||1.00|
+3-* Skillwires [3]                 1|sr2.248|4/10 days|0.30|30000||Legal|||1.00|
+3-* Skillwires [4]                 1|sr2.248|5/10 days|0.80|400000||6P-CB|||1.00|
+3-* Skillwires [5]                 1|sr2.248|5/10 days|1.00|500000||6P-CB|||1.00|
+3-* Skillwires [6]                 1|sr2.248|5/10 days|1.20|600000||6P-CB|||1.00|
+3-* Skillwires [7]                 1|sr2.248|12/20 days|2.10|7000000||4P-CB|||1.00|
+3-* Skillwires [8]                 1|sr2.248|12/20 days|2.40|8000000||4P-CB|||1.00|
+3-* Skillwires [9]                 1|sr2.248|12/20 days|2.70|9000000||4P-CB|||1.00|
+3-* Skillwires Plus [1]            1|st.47|4/10 days|0.10|15000||Legal|||1.00|
+3-* Skillwires Plus [2]            1|st.47|4/10 days|0.20|30000||Legal|||1.00|
+3-* Skillwires Plus [3]            1|st.47|4/10 days|0.30|45000||Legal|||1.00|
+3-* Skillwires Plus [4]            1|st.47|5/10 days|0.80|125000||6P-CB|||1.00|
+3-* Skillwires Plus [5]            1|st.47|5/10 days|1.00|250000||6P-CB|||1.00|
+3-* Skillwires Plus [6]            1|st.47|5/10 days|1.20|750000||6P-CB|||1.00|
+3-* Skillwires Plus [7]            1|st.47|12/20 days|2.10|7000000||4P-CB|||1.00|
+3-* Skillwires Plus [8]            1|st.47|12/20 days|2.40|8000000||4P-CB|||1.00|
+3-* Skillwires Plus [9]            1|st.47|12/20 days|2.70|9000000||4P-CB|||1.00|
+2-* Skinwatch                      1|cp.6|0/0|0.10|500||Legal|||0.90|Predecessor of Biomonitor
+2-* +SLAMDANCE Spyke(Shoulders)    1|cb3.99|6/48 hours|0.00|2500||2-A|||1.00|Need Derm.Armor or similary +1 melee combat
+2-* Speedware                      1|cp.8|4/8 days|1.70|50000|+2RCT,+1INI,|5P-CB|||1.00|+2RCT,+1INI,
+2-* Subdermal Armor                1|cp.5|6/7 days|0.50|12000|+1IMP,+1BAL,|Legal|||1.50|Compatible with worn armor
+2-* Subdermal ViewScreen           1|cb2.48|3/24 hours|0.25|500||Legal|||1.00|Works as a data unit with no memory
+2-* Synthskins                     1|cp.7|5/48 hours|0.80|12000||Legal|||1.20|Like Light Tattoos, can be tuned at cost of 100¥
+2-Smartlink
+3-* Smartlink                      1|sr3.302|3/36 hours|0.5|2500||5P-N|||1.00|-2 to TNs for firing a Smartlinked weapon
+3-* Smartlink ADVAT.228 (level1)   1|ray.000|3/36 hrs|0.50|2500||5P-N|||1.00|-2 to TNs for firing a Smartlinked weapon
+3-* Smartlink II                   1|mm.31|6/48 hours|0.5|3500||5P-N|||2.00|-2 to TNs for firing a Smartlink-II weapon, +2 Called Shot modifier
+3-* Smartlink ADVAT.328 (level2)   1|ray.000|6/48 hrs|0.50|3500||5P-N|||2.00|-2 to TNs for firing a Smartlink-II weapon, +2 Called Shot modifier
+3-* Pers. Smartlink Safety         1|mm.31|4/48 hours|0.00|200||Legal||E|1.50|Safety on unless in contact with user
+3-* Range Finder                   1|mm.32|8/48 hours|0.10|2000||5P-N||E|1.00|w/SM2 Shows range to target. -1 TN to targets at Long range and -2 TN at Extreme range. Not compatible with other vision magnifications.
+3-* Smartlink Frontline            1|n/sl.87|3/36 hours|0.20|1000||5P-CA|||1.10|
+3-* Smartlink Commando             1|n/sl.87|3/36 hours|0.35|2000||5P-CA|||1.10|
+3-* Smartlink Stealth              1|n/sl.87|5/14 days|0.50|10000||4-CA|||1.25|
+3-Smartlink Subsystems
+4-* Smartlink Processor            1|mm.31|4/48 hours|0.20|1000||5P-N|||2.00|
+4-* Ballistics Processor ADVAT.228 1|ray.000|4/48 hrs|0.20|1000||5P-N|||2.00|
+4-* Smartlink Processor II         1|mm.31|6/48 hours|0.20|2000||5P-N|||1.50|
+4-* Ballistics Processor ADVAT.328 1|ray.000|4/48 hrs|0.20|2000||5P-N|||1.50|
+4-* Eye Display                    1|mm.31|4/48 hours|0.10|300||Legal||E|1.50|
+4-* Induction Pad                  1|mm.31|4/48 hours|0.10|200||5P-N|||1.50|
+4-* Lim. Simsense Rig (SmrtLnk)    1|mm.31|4/48 hours|0.10|1000||5P-N||H|1.50|
+4-* Pers.Smartlink Safety(SmrtLnk) 1|mm.31|4/48 hours|0.00|200||Legal||E|1.50|Safety on unless in contact with user
+4-* Range Finder (SmrtLnk)         1|mm.32|8/48 hours|0.10|2000||5P-N||E|1.00|w/SM2 Shows range to target. -1 TN to targets at Long range and -2 TN at Extreme range. Not compatible with other vision magnifications.
+2-Techhair
+3-* Techhair Temperature           1|cp.7|2/12 hours|0.10|100||Legal|||0.75|Artificial hair that can change color with temperature
+3-* Techhair Weather               1|cp.7|2/12 hours|0.10|100||Legal|||0.75|Artificial hair that can change color with weather
+3-* Techhair Chemical sensitif     1|cp.7|2/12 hours|0.10|100||Legal|||0.75|Artificial hair that can change color with contact of chemical products
+2-* Transparent Skin               1|cb3.100|4/24 hours|0.50|1000||Legal|||0.90|-2CHA if face transparent.Give Severe Sunlight Allergie.Dont affect Mag.Abilit.
+2-* Winch                          1|cb2.47|4/60 hours|0.00|5000||Legal|||1.10|Can lift up to 50times the chr Strength
+2-Wired Reflexes
+3-* Wired Reflexes [1]             1|sr3.302|4/8 days|2.00|55000|+2RCT,+1INI,|5P-Q|||1.00|+2RCT, +1INI
+3-* Reflex Trig [1]                1|sr3.302|4/8 days|0.20|13000||4P-Q|||1.00|
+3-* Wired Reflexes [2]             1|sr3.302|4/8 days|3.00|165000|+4RCT,+2INI,|4P-Q|||1.00|+4RCT, +2INI
+3-* Reflex Trig [2]                1|sr3.302|4/8 days|0.20|13000||4P-Q|||1.00|
+3-* Wired Reflexes [2](step)       1|sr3.302|4/8 days|3.20|206250|+4RCT,+2INI,|4P-Q|||1.00|+4RCT, +2INI Stepped Reflex Trigger
+3-* Wired Reflexes [3]             1|sr3.302|8/14 days|5.00|500000|+6RCT,+3INI,|3-R|||1.00|+6RCT, +3INI
+3-* Reflex Trig [3]                1|sr3.302|8/14 days|0.20|13000||4P-Q|||1.00|
+3-* Wired Reflexes [3](step)       1|sr3.302|8/14 days|5.20|625000|+6RCT,+3INI,|3-R|||1.00|+6RCT, +3INI Stepped Reflex Trigger
+! ============================= COMMUNICATIONS ======================================
+1-COMMUNICATIONS
+! in the event you need the odd setting, place by hand in list.
+2-* Cellular Phone (MEDIAWARE)     1|cb3.97|3/24 hours|0.50|5000||Legal||H|1.00|
+2-Commlink
+3-* Commlink [1]                   1|sr3.298|3/48 hours|0.30|5000||Legal|||1.00|Monitor 2 radio or telephone frequencies
+3-* Commlink [2]                   1|sr3.298|3/48 hours|0.30|10000||Legal|||1.00|Monitor 4 radio or telephone frequencies
+3-* Commlink [3]                   1|sr3.298|3/48 hours|0.30|15000||Legal|||1.00|Monitor 6 radio or telephone frequencies
+3-* Commlink [4]                   1|sr3.298|3/48 hours|0.30|20000||Legal|||1.00|Monitor 8 radio or telephone frequencies
+3-* Commlink [5]                   1|sr3.298|3/48 hours|0.30|25000||Legal|||1.00|Monitor 10 radio or telephone frequencies
+3-* Commlink [6]                   1|sr3.298|3/48 hours|0.30|30000||Legal|||1.00|Monitor 12 radio or telephone frequencies
+3-* Commlink [7]                   1|sr3.298|3/48 hours|0.30|35000||Legal|||1.00|Monitor 14 radio or telephone frequencies
+3-* Commlink [8]                   1|sr3.298|3/48 hours|0.30|40000||Legal|||1.00|Monitor 16 radio or telephone frequencies
+3-* Commlink [1](Radio/Phone)      1|sr3.298|3/48 hours|0.15|5000||Legal|||1.00|Monitor 2 radio or telephone frequencies
+3-* Commlink [2](Radio/Phone)      1|sr3.298|3/48 hours|0.15|10000||Legal|||1.00|Monitor 4 radio or telephone frequencies
+3-* Commlink [3](Radio/Phone)      1|sr3.298|3/48 hours|0.15|15000||Legal|||1.00|Monitor 6 radio or telephone frequencies
+3-* Commlink [4](Radio/Phone)      1|sr3.298|3/48 hours|0.15|20000||Legal|||1.00|Monitor 8 radio or telephone frequencies
+3-* Commlink [5](Radio/Phone)      1|sr3.298|3/48 hours|0.15|25000||Legal|||1.00|Monitor 10 radio or telephone frequencies
+3-* Commlink [6](Radio/Phone)      1|sr3.298|3/48 hours|0.15|30000||Legal|||1.00|Monitor 12 radio or telephone frequencies
+3-* Commlink [7](Radio/Phone)      1|sr3.298|3/48 hours|0.15|35000||Legal|||1.00|Monitor 14 radio or telephone frequencies
+3-* Commlink [8](Radio/Phone)      1|sr3.298|3/48 hours|0.15|40000||Legal|||1.00|Monitor 16 radio or telephone frequencies
+2-* Echolocation Sys.Coprocess.    1|cb4.137|3/36 hours|0.10|1800||Legal||H|1.00|Need Vce mod with Tonal Shft,Cybreyes wth Vid.Imag.,Cyberears
+2-* Frequency Changer              1|cb1.29|4/48 hours|0.25|30000||Legal|||1.35|
+2-Internal Voice Mask
+3-* Interal Voice Mask [1]         1|mm.18|6/48 hours|0.10|4000||Legal|||1.00|
+3-* Interal Voice Mask [2]         1|mm.18|6/48 hours|0.10|8000||Legal|||1.00|
+3-* Interal Voice Mask [3]         1|mm.18|6/48 hours|0.10|12000||Legal|||1.00|
+3-* Interal Voice Mask [4]         1|mm.18|6/48 hours|0.10|16000||Legal|||1.00|
+3-* Interal Voice Mask [5]         1|mm.18|6/48 hours|0.10|20000||Legal|||1.00|
+3-* Interal Voice Mask [6]         1|mm.18|6/48 hours|0.10|24000||Legal|||1.00|
+3-* +High Frequency Mod            1|mm.18|6/48 hours|0.00|8000||Legal|||1.25|Speak in high frequencies
+3-* +Low Frequency Mod             1|mm.18|6/48 hours|0.00|8000||Legal|||1.25|Speak in low frequencies
+2-Radio
+3-* Radio [1]                      1|sr3.298|2/24 hours|0.75|2000||Legal|||0.80|2 programmed frequencies
+3-* Radio [2]                      1|sr3.298|2/24 hours|0.75|4000||Legal|||0.80|4 programmed frequencies
+3-* Radio [3]                      1|sr3.298|2/24 hours|0.75|6000||Legal|||0.80|6 programmed frequencies
+3-* Radio [4]                      1|sr3.298|2/24 hours|0.75|8000||Legal|||0.80|8 programmed frequencies
+3-* Radio [5]                      1|sr3.298|2/24 hours|0.75|10000||Legal|||0.80|10 programmed frequencies
+3-* Radio [6]                      1|sr3.298|2/24 hours|0.75|12000||Legal|||0.80|12 programmed frequencies
+3-* Radio [7]                      1|sr3.298|2/24 hours|0.75|14000||Legal|||0.80|14 programmed frequencies
+3-* Radio [8]                      1|sr3.298|2/24 hours|0.75|16000||Legal|||0.80|16 programmed frequencies
+3-* Radio Receiver [1]             1|sr3.298|2/24 hours|0.40|1000||Legal|||0.80|2 programmed frequencies
+3-* Radio Receiver [2]             1|sr3.298|2/24 hours|0.40|2000||Legal|||0.80|4 programmed frequencies
+3-* Radio Receiver [3]             1|sr3.298|2/24 hours|0.40|3000||Legal|||0.80|6 programmed frequencies
+3-* Radio Receiver [4]             1|sr3.298|2/24 hours|0.40|4000||Legal|||0.80|8 programmed frequencies
+3-* Radio Receiver [4]             1|sr3.298|2/24 hours|0.40|5000||Legal|||0.80|10 programmed frequencies
+3-* Radio Receiver [6]             1|sr3.298|2/24 hours|0.40|6000||Legal|||0.80|12 programmed frequencies
+3-* Radio Receiver [7]             1|sr3.298|2/24 hours|0.40|7000||Legal|||0.80|14 programmed frequencies
+3-* Radio Receiver [8]             1|sr3.298|2/24 hours|0.40|8000||Legal|||0.80|16 programmed frequencies
+2-* SoundSys.Newthroat (DAKAI)     1|cb4.135|6/10 days|0.25|8500||Legal|0.50|H|2.00|Hold 0.5 of Voice Cyberware free
+2-* SoundSys.Scramble (DAKAI)      1|cb4.135|6/60 hours|0.10|1000||Legal||H|1.00|Internal Voice Mask rating 3D6
+2-* Spectrum Cyberaudio Enlar.     1|cb3.100|4/24 hours|0.30|4500||Legal|||1.00|-1 to audio based perception
+2-* Spectrum Omnidir.              1|cb3.100|5/24 hours|0.50|1500||Legal|||1.00|-2 to audio based perception
+2-* Subdermal Speakers             1|mm.19|4/72 hours|0.10|650||Legal||R|2.00|Datajack connected communication cannot be overheard by others
+2-* Subvocal Microphone            1|sr3.298|4/72 hours|0.10|850||Legal|||2.00|Use headware/datajacked radio/telephone without talking aloud
+2-* Transducer                     1|mm.19|4/1 week|0.10|2000||Legal|||1.50|Translates mental impulses to words
+2-* Transducer (external)          1|mm.19|3/72 hours|0.00|1000||Legal|||1.00|Translates mental impulses to words
+2-* Telephone                      1|sr3.298|3/24 hours|0.50|3700||Legal|||0.90|Receive faxes, make phone calls
+2-Voice Modulators/etc
+3-* Voice Modulator                1|sr3.302|2/24 hours|0.20|45000||Legal|||1.00|Necessary for other voice packages
+3-* V Mod Inc. Volume              1|sr3.302|2/24 hours|0.00|10000||Legal|||1.00|Loudspeaker
+3-* V Mod Playback                 1|sr3.302|4/48 hours|0.20|40000||Legal|||1.00|Play recordings
+3-* V Mod Second Pattern [1]       1|sr3.302|6/7 days|0.00|50000||Legal|||2.00|Second voice pattern
+3-* V Mod Second Pattern [2]       1|sr3.302|6/7 days|0.00|70000||Legal|||2.00|Second voice pattern
+3-* V Mod Second Pattern [3]       1|sr3.302|6/7 days|0.00|90000||Legal|||2.00|Second voice pattern
+3-* V Mod Second Pattern [4]       1|sr3.302|6/7 days|0.00|110000||Legal|||2.00|Second voice pattern
+3-* V Mod Second Pattern [5]       1|sr3.302|6/7 days|0.00|130000||Legal|||2.00|Second voice pattern
+3-* V Mod Second Pattern [6]       1|sr3.302|6/7 days|0.00|150000||Legal|||2.00|Second voice pattern
+3-* V Mod Tonal Shift              1|sr3.302|2/24 hours|0.00|25000||Legal|||1.00|Very flexible voice, impressions, bird calls, etc
+2-Voice Pattern
+3-* Voice Pattern [1]              1|cb1.27|3/36 hours|0.25|35000||2-Q|||1.10|
+3-* Voice Pattern [2]              1|cb1.27|4/48 hours|0.30|50000||2-Q|||1.10|
+3-* Voice Pattern [3]              1|cb1.27|5/60 hours|0.35|65000||2-Q|||1.25|
+3-* Voice Pattern [4]              1|cb1.27|6/72 hours|0.45|85000||2-Q|||1.50|
+3-* Voice Pattern [5]              1|cb1.27|8/6 days|0.60|110000||2-Q|||1.75|
+2-Voice Synthesizer
+3-* Voice Synth [1]                1|cp.8|3/24 hours|0.15|55000||6P-CA|||1.33|Can store up to 10 voices,1 dice for disguise
+3-* Voice Synth [2]                1|cp.8|4/24 hours|0.30|70000||6P-CA|||1.67|Can store up to 10 voices,2 dices for disguise
+3-* Voice Synth [3]                1|cp.8|5/24 hours|0.45|85000||6P-CA|||2.00|Can store up to 10 voices,3 dices for disguise
+3-* Voice Synth [4]                1|cp.8|6/24 hours|0.60|100000||6P-CA|||2.33|Can store up to 10 voices,4 dices for disguise
+3-* Voice Synth [5]                1|cp.8|7/24 hours|0.75|115000||6P-CA|||2.67|Can store up to 10 voices,5 dices for disguise
+3-* Voice Synth [6]                1|cp.8|8/24 hours|0.90|130000||6P-CA|||3.00|Can store up to 10 voices,6 dices for disguise
+! ============================ CYBERWEAPONS  ================================
+1-CYBER WEAPONS
+! Essence cost for cyberweapons is only counted if mounted in an organic limb
+! For Cyberlimbs, use the corresponding entry under Cyberlimb Mods
+2-* BigKnucks(CYB)                 1|cp.15|4/48 hours|0.15|5000||3-C|||1.00|Damage +1 Power.
+2-* BigRipp(CYB)                   1|cb4.136|3/72 hours|0.40|12000||2-B||A|1.00|Damage (str+2)M, if mounted along forarm -1reach
+2-* BigRipp wth.Cybrarm mnting(CYB)1|cb4.136|3/72 hours|0.40|20500||2-B||A|1.00|Damage (str+2)M, if mounted along forarm -1reach
+2-* +BlitzKrieg Arc Thrower(CYB)   1|cb4.136|6/4 days|0.00|2100||3P-R||A|1.50|Damage 10S Stun
+2-* Chainripp:HUSQVARNA(CYB)       1|cb3.99|8/72 hours|0.60|12500||1-B||D|1.50|Damage (str)S.Half ballist.armor resist
+2-* Cutting Torch(CYB)             1|cb1.27|6/48 hours|0.40|3500||Legal||D|2.00|Use as Wpn 8S cans be used as tool
+2-Cyberguns
+3-* CyGun Dartgun(CYB)             1|mm.41|8/7 days|0.30|1000||6P-Q||A|1.50|
+3-* CyGun Taser(Tasr)(CYB)         1|mm.41|6/4 days|0.30|2000||5P-Q||A|1.50|10S Stun
+3-* CyGun Hold-Out(HOPist)(CYB)    1|mm.41|8/7 days|0.15|250||8P-Q||A|2.00|4L
+3-* CyGun Light(LPist)(CYB)        1|mm.41|8/7 days|0.35|650||6P-Q|||2.00|6L
+3-* CyGun Mach.Gun(MaPist)(CYB)    1|mm.41|8/7 days|0.40|900||4P-Q|||2.00|6L
+3-* CyGun SMG(SMG)(CYB)            1|mm.41|8/7 days|1.00|1800||3P-Q|||2.00|7M
+3-* CyGun Heavy(HPist)(CYB)        1|mm.41|8/7 days|0.60|800||4P-Q|||2.00|9M
+3-* CyGun Shotgun(ShtG)(CYB)       1|mm.41|8/7 days|1.10|1200||4P-Q|||2.00|8S
+3-* CyberSquirt(CYB)               1|mm.41|8/6 days|0.30|1400||5P-Q|||2.00|
+3-* +External Clip Port(CYB)       1|mm.41|8/7 days|0.10|100||As Gu|||2.00|
+3-* CyGun Derringer(HOPist)(CYB)   1|cb1.27|8/7 days|0.20|220||7P-Q||D|2.00|Light Pistol ammo 2(m) dam 6L
+3-* CyGun GrenLcher(GrLn)(CYB)     1|cp.15|10/7 days|0.50|2500||2-CB|||2.00|1 shot
+3-* CyGun Flmethrow(FlThr)(CYB)    1|cp.15|10/7 days|0.90|1200||2-CB|||2.00|Damage 10M,use Light Pistol,4 shots,max range 1 meter
+2-* CyberOptic Teargas Sprayer(CYB)1|cb1.29|6/24 hours|0.20|2000||Legal||E|1.00|1 shot.Use Qckness(6)(or 4 if target surprised)
+2-* Fangs(CYB)                     1|mm.42|4/48 hours|0.10|5000||Legal|||1.00|(STR+1)L, -1 Reach
+2-* Fangs, Retract(CYB)            1|mm.42|5/48 hours|0.15|8000||5P-N|||1.00|(STR+1)L, -1 Reach
+2-* Finger: Ballpoint(CYB)         1|cb4.134|3/24 hours|0.15|250||Legal||D|0.80|
+2-* Finger: FingerBomb(CYB)        1|cb1.25|10/7 days|0.15|1500||3-R||D|3.00|
+2-* Finger: Dartgun(CYB)           1|cb1.25|8/48 hours|0.15|1000||5P-R||D|2.50|
+2-* Finger: MaceSprayr(CYB)        1|cb1.25|8/6 days|0.15|1500||4P-Q||D|2.50|
+2-* Finger: One Shot Special(CYB)  1|cb4.134|8/5 days|0.15|500||6-R||D|2.00|One shot Hold-Out Pistol
+2-* Flashbulb(CYB)                 1|cb1.26|6/72 hours|0.30|2500||4P-Q||D|2.00|Use Unarmed Skill test Resistance test Quickness(6)
+2-* Gang Jazzler(CYB)              1|cb1.29|10/24 days|0.20|6000||2-R|||1.00|Deliver 9D Stun + special
+2-* Gas Jet(CYB)                   1|cb1.26|8/6 days|0.50|3000||3-R||D|2.50|Use Unarmed Combat(4).Contain 6 doses
+2-Hand Blade, Razors, etc
+3-* Hand Blade,(CYB)               1|sr3.302|6/5 days|0.10|7500||4P-R|||1.50|(STR+3)L
+3-* Hand Blade,retract(CYB)        1|sr3.302|6/5 days|0.25|10000||3P-R|||1.50|(STR+3)L
+3-* Hand Razors(CYB)               1|sr3.302|3/72 hours|0.10|4500||3-N|||1.00|(STR)L
+3-* H.Razor, Retract(CYB)          1|sr3.302|5/72 hours|0.20|9000||3-N|||1.00|(STR)L
+3-* +Improved Razors(CYB)          1|sr3.302|6/72 hours|0.00|8500||3-N|||1.00|Must be added to either the razors or retractable razors, (STR+2)L
+3-* Hand, Mace(CYB)                1|cb1.27|8/5 days|0.50|10000||3-R||D|3.00|
+3-* Hand,High 5HP "Palm Bomb"(CYB) 1|cb4.136|12/14 days|0.50|3550||1-E||D|2.00|Heavy Pist.Dam.9M 1shot
+3-* Hand,High 5Sht"Palm Bomb"(CYB) 1|cb4.136|14/14 days|0.50|3550||1-E||D|2.50|Shotgun.Dam.9S 1shot
+3-* Hand, Ripper(CYB)              1|cp.11|6/4 days|0.35|52500||3-B||D|1.00|Normal hand with Ripper mounted in upper hand and wrist
+3-* Hand, Spike(CYB)               1|cp.11|5/3 days|0.35|50000||3-B||D|1.00|Damage (str-1)M, -1 to target number in climbing tests.
+2-* Horn Implants(CYB)             1|mm.43|4/48 hours|0.10|12000||Legal|||1.00|(STR)M, -1 Reach
+2-* Horn Implants, Retract(CYB)    1|mm.43|5/48 hours|0.25|16000||5P-N|||1.00|(STR)M, -1 Reach
+2-* Malorian Arms Sliver Gun(CYB)  1|cb1.7|6/72 hours|0.60|1550||3P-R||A|3.00|
+2-* Micromissile Launcher(CYB)     1|cp.15|10/7 days|1.10|4500||2-CB|||2.00|
+2-* Icer(CYB)                      1|cb1.27|4/24 hours|0.40|2000||Legal||D|1.25|Use Unarmed Combat
+2-* LimbLink(CYB)                  1|cb1.26|5/4 days|0.15|1000||Legal|||1.00|
+2-Oral Weapons
+3-* Oral Dart(CYB)                 1|mm.17|6/1 week|0.25|3600||6P-Q|||2.00|
+3-* Oral Gun(CYB)                  1|mm.17|6/72 hours|0.40|5600||6P-Q|||3.00|4L
+3-* Oral Slasher(CYB)              1|mm.17|8/1 week|0.25|10500||6P-Q|||2.50|6M, 1 meter range
+3-* Oral Whip(CYB)                 1|ct.25|8/1 week|0.25|10500||6P-CC||H|2.00|
+2-* Powerjaw:DYNALAR(CYB)          1|cb4.135|3/24 hours|0.10|1000||Legal||H|1.00|Byte Damage Power Level Increase +2
+2-* Retract. Climbing Claws(CYB)   1|mm.31|5/72 hours|0.30|10000||Legal||D|1.00|(Str-1)L, -2 climbing TNs
+2-* Rippers(CYB)                   1|cp.16|5/3 days|0.20|8000||3-B||D|1.00|Damage (str/2)M
+2-* Scratchers(CYB)                1|cp.17|4/3 days|0.10|5000||3-B||D|1.00|Damage (str+1)L, 30cm extended.
+2-* Shock Hand(CYB)                1|mm.42|6/4 days|0.25|1300||4P-Q|||2.00|8S Stun, 12 uses
+2-* "Spitting Cobra":CYPHIRE(CYB)  1|cb3.98|3/36 hours|0.10|4000||4-N||H|2.00|
+2-* Spur(CYB)                      1|sr3.302|3/72 hours|0.10|7000||3-N||D|1.00|(STR)M
+2-* Spur, Retract(CYB)             1|sr3.302|5/72 hours|0.30|11500||3-N||D|1.00|(STR)M
+2-* Taser Grip(CYB)                1|cb1.28|8/8 days|0.25|3000||5-Q||D|2.00|Damage 6S Stun
+2-* Teeth: Ext.Canines(CYB)        1|cb2.48|5/48 hours|0.10|1000||Legal||H|1.00|Damage (str/2)L
+2-* Teeth: Retr. Vampire(CYB)      1|cb2.48|5/48 hours|0.20|500||Legal||H|1.00|Damage (str-1)L
+2-* Teeth: Newteeth:DYNALAR(CYB)   1|cb4.135|3/24 hours|0.05|2000||Legal||H|1.00|Damage (str)L
+2-* Teeth: Sharkgrin(CYB)          1|cb2.48|5/48 hours|0.10|500||Legal||H|1.00|Damage (str)L
+2-* Teeth: Sharkgrin. Spec(CYB)    1|cb2.48|5/48 hours|0.20|1400||Legal||H|1.00|Damage (str+1)L
+2-* Tri-Dart Launcher:CYPHIRE(CYB) 1|cb2.47|10/60 hours|0.50|3000||3P-R||D|3.00|
+2-* Venom Sack(CYB)                1|mm.42|4/48 hours|0.05|500||3-N|||2.00|Holds 2 Doses
+2-* Whip(CYB)                      1|cb1.26|12/7 days|0.25|4000||3-R||D|2.00|
+2-* Wolvers(CYB)                   1|cp.17|5/3 days|0.30|8000||3-B||D|1.00|Damage (str)M,
+! ========================== EARS ===================================
+1-EARS
+2-* Balance Augmentor              1|mm.13|8/2 weeks|0.40|14000||Legal||R|2.00|-2 Balance and Knockdown TNs, WIL(4) test to fall
+2-* Cosmetic Mod                   1|sr3.299|2/24 hours|0.00|1000||Legal||R|0.80|
+2-* Ears Cyber Repl                1|sr3.299|2/24 hours|0.30|4000||Legal|0.5|R|0.75|Holds .5 Essence of ear mods free of Essence cost
+2-* Ear Dampener                   1|sr3.299|4/48 hours|0.10|3500||Legal||R|1.25|Protect against loud/damaging sound
+2-* Ear Hearing Amp                1|sr3.299|4/48 hours|0.20|3500||Legal||R|1.25|Similar to shotgun microphone
+2-* Ear High Freq                  1|sr3.299|4/48 hours|0.20|3000||Legal||R|1.25|Hear high frequencies
+2-* Ear Low Freq                   1|sr3.299|4/48 hours|0.20|3000||Legal||R|1.25|Hear low frequencies
+2-* Ear Recorder                   1|sr3.299|8/48 hours|0.30|7000||12P-N||R|2.00|Record what is heard
+2-* Sound Filter [1]               1|sr3.299|6/48 hours|0.20|10000||Legal||R|1.25|+1 die to sound Perception, 2x against white noise
+2-* Sound Filter [2]               1|sr3.299|6/48 hours|0.20|20000||Legal||R|1.25|+2 die to sound Perception, 4x against white noise
+2-* Sound Filter [3]               1|sr3.299|6/48 hours|0.20|30000||Legal||R|1.25|+3 die to sound Perception, 6x against white noise
+2-* Sound Filter [4]               1|sr3.299|6/48 hours|0.20|40000||Legal||R|1.25|+4 die to sound Perception, 8x against white noise
+2-* Sound Filter [5]               1|sr3.299|6/48 hours|0.20|50000||Legal||R|1.25|+5 die to sound Perception, 10x against white noise
+2-* Spatial Recognizer             1|mm.18|4/48 hours|0.20|1200||Legal||R|2.00|-2 TNs on sound Perception tests
+! =============================== EYES  =================================
+1-EYES
+! Cyber Eyes will accept mods upto .5 ess w/o further e loss
+! build your own requirements. see Cye,Ther,Mag1,FlCo
+2-* Eyes, Cosmetic                 1|sr3.300|2/24 hours|0.00|1000||Legal||E|0.75|
+2-* Eyes, Cyber Replacement        1|sr3.300|2/24 hours|0.20|5000||Legal|0.5|E|0.75|Holds .5 Essence of eye mods free of Essence cost
+2-* ColorShift Cybereyes           1|cp.13|3/24 hours|0.25|6000||Legal|0.5|E|0.90|
+2-* Cyclop Int."Bug Eye"           1|cb3.96|2/24 hours|0.25|7500||Legal|0.6|E|1.00|
+2-* Eyes, Verbal Basic             1|cb3.99|3/24 hours|0.20|7500||Legal|0.5|E|0.90|Simply Cybereyes
+2-* Eye, Monovision (KIROSHI)      1|cb4.136|4/48 hours|0.30|6500||Legal|0.3|E|1.00|Eye, -1 in Percept. or Surpr. tes for Periph.Vision
+2-* Eye, Third Eye (KIROSHI)       1|cb3.99|2/24 hours|0.10|5000||Legal|0.2|E|0.90|Additional eye
+2-Eyes Zeiss
+3-* Cybereyes Zeiss [1]            1|ger.184|4/48 hours|0.15|31000||Legal||E|1.25|
+3-* Cybereyes Zeiss [2]            1|ger.184|4/48 hours|0.15|40000||Legal||E|1.25|
+3-* Cybereyes Zeiss [3]            1|ger.184|5/48 hours|0.30|79000||Legal||E|1.25|
+3-* Cybereyes Zeiss [4]            1|ger.184|6/72 hours|0.60|98000||Legal||E|1.25|
+3-* Cybereyes Zeiss [5]            1|ger.184|8/72 hours|1.00|169000||Legal||E|1.25|
+2-* Dodgeball                      1|cb1.29|6/72 hours|0.30|14500||4-Q||E|1.50|
+2-* Eyes, Camera                   1|sr3.300|6/24 hours|0.40|5000||Legal||E|2.00|Take pictures
+2-* Eye, Compass, Log              1|cb3.97|6/24 hours|0.20|3000||Legal||E|0.90|
+2-* Eye, Compass, Normal           1|cb3.97|4/24 hours|0.10|3000||Legal||E|0.90|
+2-* Eye, Datajack                  1|mm.13|6/48 hours|0.25|2200|+1DJK|4P-N||E|2.00|Conceal 10
+2-* Eye, Dart                      1|mm.16|8/2 weeks|0.25|4200||7P-Q||E|2.00|Half power toxin/narcojet rounds, half range
+2-* Eyes, Disp Link                1|sr3.300|4/36 hours|0.10|1000||Legal||E|1.00|Display text in field of vision
+2-* Eyes, Flare Comp               1|sr3.300|5/48 hours|0.10|2000||Legal||E|1.25|Eliminate glare modifiers
+2-* Eye, Gun                       1|mm.16|6/1 week|0.40|6400||6P-Q||E|3.00|Hold-out pistol, half range
+2-* Eye Image Enhancement          1|cp.14|6/48 hours|0.15|3000||Legal||E|1.50|When activated, visual perception tests -1.
+2-* Eyes, Image Link               1|sr3.300|4/48 hours|0.20|1600||Legal||E|2.00|Display text and images in field of vision
+2-* Eyes, LaserComm(KIROSHI)       1|cb3.97|6/60 hours|0.30|4250||Legal||E|1.50|QCK test to use,TmSqre or Sbd.screen or cyb.ears to understand
+2-Eye Laser, weapons, designator, mic
+3-* Eye Laser (Low Power)          1|mm.14|8/72 hours|0.20|3000||5P-N||E|2.00|Range: 5m, 100min Battery, +1 Blinding Dice
+3-* Eye Laser (Med Power)          1|mm.14|8/1 week|0.30|5000||5P-N||E|2.00|Range: 50m, 50min Battery, +2 Blinding Dice
+3-* Eye Laser (High Power)         1|mm.14|8/2 weeks|0.50|8000||5P-N||E|2.00|Range: 500m, 25min Battery, +3 Blinding Dice
+3-* Eye, Laser Designator          1|mm.14|12/1 month|0.10|6000||5P-R||E|3.00|Requires High Power Laser, lock on with appropriate weapons
+3-* Eye, Laser Mic. [1]            1|mm.14|1/72 hours|0.10|2000||5P-N||E|2.00|Requires Medium or High Power
+3-* Eye, Laser Mic. [2]            1|mm.14|2/72 hours|0.10|4000||5P-N||E|2.00|Requires Medium or High Power
+3-* Eye, Laser Mic. [3]            1|mm.14|3/72 hours|0.10|6000||5P-N||E|2.00|Requires Medium or High Power
+3-* Eye, Laser Mic. [4]            1|mm.14|4/72 hours|0.10|8000||5P-N||E|2.00|Requires Medium or High Power
+3-* Eye, Laser Mic. [5]            1|mm.14|5/72 hours|0.10|10000||5P-N||E|2.00|Requires Medium or High Power
+3-* Eye, Laser Mic. [6]            1|mm.14|6/72 hours|0.10|12000||5P-N||E|2.00|Requires Medium or High Power
+2-* Eye, Optiscan Link             1|mm.14|8/72 hours|0.15|3000||5P-N||E|3.00|Communicate with eye lasers
+2-* Eye, Optiscan Receiver         1|mm.14|8/2 weeks|0.00|2000||5P-N||E|2.00|Communicate with eye lasers
+2-* Eye, Tool Laser                1|mm.14|8/2 weeks|0.15|3000||5P-N||E|2.00|Requires High Power, but uses Low Power range, cut through thin objects
+2-* Eyes, Light Systems            1|mm.15|4/72 hrs|0.20|1200||1.50||E|1.50|-4 darkness modifiers, -6 for low-light vision
+2-Eyes Flash System
+3-* Eyes, L BrightLight            1|mm.15|8/2 weeks|0.40|1200||7P-Q||E|3.00|Same as flashpak, 3 uses
+3-* Eyes, L Superflash             1|mm.15|8/2 weeks|0.00|1000||7P-Q||E|3.00|12M Stun, range modifiers on MM15, 1 use
+3-* Eyes, L BrightLight            1|ct.21|8/2 weeks|0.40|1200||3.00||E|2.00|
+3-* Eyes, L /w Flash-pak           1|ct.21|8/2 weeks|0.00|1000||7P-CB||E|3.00|
+3-* Eyes, L one shot Flash Pak     1|ct.21|8/2 weeks|0.00|1000||7P-CB||E|3.00|
+3-* Eyes, L 1shot Flash P.rload    1|ct.21|8/2 weeks|0.00|500||7P-CB||E|3.00|
+2-* Eyes, Low-Light                1|sr3.300|4/36 hours|0.20|3000||Legal||E|1.25|Low-light vision
+2-* Eyes, Lockdown                 1|cb4.137|16/21 days|0.00|30000||2P-Q||E|3.00|See rules
+2-* Eyes, Microscopic Vis.         1|mm.17|5/48 hours|0.10|5000||Legal||E|1.00|-2 TNs to fine manipulation tests (ex. elec + comp b/r)
+2-* Eyes, Optical Scan Datajack    1|ct.20|6/48 hours|0.30|5500|+1DJK|3U-CD||E|3.00|
+2-* Eyes, Opticam                  1|sr3.300|5/72 hours|0.50|20000||Legal||E|2.00|Record video footage
+2-* Eyes, Prot. Covers             1|sr3.300|4/48 hours|0.00|500||Legal||E|1.50|Protect eyes
+2-* Eyes, Prot. Covers, mirrored   1|sr3.300|4/48 hours|0.00|600||Legal||E|1.50|Protect eyes
+2-* Eye, Rangefinder               1|mm.31|8/48 hours|0.10|2000||5P-N||E|1.50|Shows range to target.w/SM2 -1 TN to targets at Long range and -2 TN at Extreme range. Not compatible with other vision magnifications.
+2-* Eyes, Remote (CYPHIRE)         1|cb2.50|6/48 hours|0.15|15000||Legal|0.2|E|2.00|Built-in Camera and Transm.Equip.
+2-* Eyes, Retinal Clock            1|sr3.300|3/24 hours|0.10|450||Legal||E|1.00|Displays time/date, stopwatch, and countdown
+2-Eyes Retinal Duplication
+3-* Eyes, Ret Dup. [1]             1|sr3.300|8/7 days|0.10|25000||3-Q||E|2.00|
+3-* Eyes, Ret Dup. [2]             1|sr3.300|8/7 days|0.10|50000||3-Q||E|2.00|
+3-* Eyes, Ret Dup. [3]             1|sr3.300|8/7 days|0.10|75000||3-Q||E|2.00|
+3-* Eyes, Ret Dup. [4]             1|sr3.300|8/7 days|0.10|100000||3-Q||E|2.00|
+3-* Eyes, Ret Dup. [5]             1|sr3.300|8/7 days|0.10|125000||3-Q||E|2.00|
+2-* Eyes, "Revelation"             1|cb3.101|3/24 hours|0.25|6000||Legal||E|0.80|-1 on visual perception test
+2-* Eyes, Teargas Sprayer          1|cb1.30|6/24 hours|0.20|2000||Legal||E|1.00|
+2-* Eyes, Thermographic            1|sr3.300|4/36 hours|0.20|3000||Legal||E|1.25|Thermographic vision
+2-* Eyes, Ultrasound               1|mm.18|6/48 hours|0.50|10000||Legal||E|2.00|Ultrasound vision
+2-* Eyes, Ultrasound (w/HFq)       1|mm.18|6/48 hours|0.40|8000||Legal||E|2.00|Ultrasound vision, MUST purchase High Frequency Hearing mod for discount
+2-* Eyes, Ultra Violet             1|cp.14|4/36 hours|0.20|3000||Legal||E|1.25|
+2-Eyes Vision Magnification
+3-* Eyes, Vis Mag Opt[1]           1|sr3.300|4/48 hours|0.20|2500||Legal||E|1.00|Conceal 9, see pages SR3-110 and SR3-280 for effects
+3-* Eyes, Vis Mag Opt[2]           1|sr3.300|4/48 hours|0.20|4000||Legal||E|1.00|Conceal 9, see pages SR3-110 and SR3-280 for effects
+3-* Eyes, Vis Mag Opt[3]           1|sr3.300|5/48 hours|0.20|6000||Legal||E|1.00|Conceal 9, see pages SR3-110 and SR3-280 for effects
+3-* Eyes, Vis Mag Ele[1]           1|sr3.300|5/48 hours|0.10|3500||Legal||E|1.00|Undetectable, see pages SR3-110 and SR3-280 for effects
+3-* Eyes, Vis Mag Ele[2]           1|sr3.300|5/48 hours|0.10|7500||Legal||E|1.00|Undetectable, see pages SR3-110 and SR3-280 for effects
+3-* Eyes, Vis Mag Ele[3]           1|sr3.300|8/48 hours|0.10|11000||Legal||E|1.00|Undetectable, see pages SR3-110 and SR3-280 for effects
+2-* TimeSquare Marquee             1|cp.14|5/36 hours|0.10|3000||Legal||E|1.00|Display information
+2-* Eyes,Ultrasound #1             1|NAGEE4-72|6/48 hours|0.10|2000||Legal||E|2.00|
+2-* Eyes, Verbal Basic             1|cb3.99|3/24 hours|0.20|7500||Legal||E|0.90|Cybereyes addition
+2-* Eyes, Verbal Custom            1|cb3.99|4/48 hours|0.50|24000||Legal||E|0.90|TimesSquare+ inside
+2-* Eyes, Verbal Video             1|cb3.99|4/48 hours|0.50|22000||Legal||E|1.00|Video camera inside.Need memory
+2-* Interferometry Sys             1|cb3.98|5/48 hours|0.10|3000||Legal||E|1.00|Function as optical mag. 1
+2-* Double-Split Pupil(NIKKON)     1|cb3.98|4/48 hours|0.05|2000||Legal||E|1.00|???
+2-* Optical Interface              1|cb3.98|3/36 hours|0.20|6000||Legal||E|1.00|2 eyes wth datajack,need add ess.cost for addition
+2-Optishield
+3-* Optishield (KIROSHI)           1|cb1.25|5/48 hours|0.05|1000||Legal|0.3|E|1.00|Cannot be integrated in cybereye, give 0.3 free
+3-* Optishield IR                  1|cb2.47|6/36 hours|0.10|3000||Legal||E|1.25|Function like Thermographic
+3-* Optishield Lowlight            1|cb2.47|6/36 hours|0.10|3000||Legal||E|1.25|
+3-* Optishield Mag[1]              1|cb2.47|6/48 hours|0.10|2500||Legal||E|1.00|
+3-* Optishield Mag[2]              1|cb2.47|6/48 hours|0.10|4000||Legal||E|1.00|
+3-* Optishield Mag[3]              1|cb2.47|8/48 hours|0.10|6000||Legal||E|1.00|
+3-* Optishield Tim/Day Display     1|cb2.47|4/24 hours|0.05|1000||Legal||E|0.90|
+3-* Optishield TimesSquare         1|cb2.47|5/36 hours|0.05|3000||Legal||E|1.00|
+3-* Optishield TimesSquare+        1|cb2.47|8/72 hours|0.15|15000||Legal||E|1.50|
+2-* Shift-tacts                    1|cp.6|2/6 hours|0.05|100||Legal|||0.80|Colored lenses, mimic cybereyes
+2-* Video Cam/Transm.              1|cb1.29|6/48 hours|0.80|33000||Legal||E|1.00|
+2-* Video Imager                   1|cb1.29|4/48 hours|0.25|3500||Legal||E|1.50|
+! ======================== HEADWEAR ==========================================
+1-HEADWEAR
+2-* Lim. Simsense Rig              1|mm.31|4/48 hours|0.10|1000||5P-N||H|1.50|
+2-Cyberface
+3-* Cyberface Evileye              1|cb3.100|6/48 hours|0.15|15000||Legal|0.2|E|1.00|Additional eye,Enhanc. half Ess.cost
+3-* Cyberface Jigsaw               1|cb3.100|6/48 hours|0.25|25000||Legal|0.2|E|1.00|Additional eye,Enhanc. half Ess.cost 0.25 for other Headware
+3-* Cyberface Twoface              1|cb3.100|8/48 hours|0.50|35000||Legal|0.5|E|1.00|Additional 2eyes,Enhanc. half Ess.cost 0.5 for other Headware
+2-* BattleTac Cyberlink            1|mm.24|12/30 days|0.20|30000||2P-R|||4.00|BattleTac receiver unit
+2-Bug Detector
+3-* Bug Detector [1]               1|cp.13|2/12 days|0.10|12500||5P-E1||H|1.75|As a bug scanner with max range of 3 meters.
+3-* Bug Detector [2]               1|cp.13|3/12 days|0.15|25000||5P-E1||H|1.75|As a bug scanner with max range of 3 meters.
+3-* Bug Detector [3]               1|cp.13|4/12 days|0.20|37500||5P-E1||H|1.75|As a bug scanner with max range of 3 meters.
+3-* Bug Detector [4]               1|cp.13|5/12 days|0.25|50000||5P-E1||H|1.75|As a bug scanner with max range of 3 meters.
+3-* Bug Detector [5]               1|cp.13|6/12 days|0.30|62500||5P-E1||H|1.75|As a bug scanner with max range of 3 meters.
+3-* Bug Detector [6]               1|cp.13|7/12 days|0.35|75000||5P-E1||H|1.75|As a bug scanner with max range of 3 meters.
+2-Chipjack
+3-* Chipjack                       1|sr3.298|3/72 hours|0.20|1000||Legal||H|0.90|Holds 1 chip, access to datasofts and knowsofts
+3-* Chipjack, Multi-slot 2         1|mm.22|3/72 hours|0.25|2000||Legal||H|1.00|Holds 2 chips, access to datasofts and knowsofts
+3-* Chiplack, Multi-slot 3         1|mm.22|3/72 hours|0.30|3000||Legal||H|1.00|Holds 3 chips, access to datasofts and knowsofts
+3-* Chipjack, Multi-slot 4         1|mm.22|3/72 hours|0.35|4000||Legal||H|1.00|Holds 4 chips, access to datasofts and knowsofts
+2-Compartment
+3-* Tooth Comp. (breakable)        1|sr3.301|3/48 hours|0.00|700||10P-Q|||1.50|
+3-* Tooth Comp. (storage)          1|sr3.301|2/48 hours|0.00|1500||10P-Q|||1.25|
+2-Cranial Bomb
+3-* Cranial Bomb Kink              1|sr3.298|12/14 days|0.00|28000||2-R||H|1.50|Damage specific section of head
+3-* Cranial Bomb Microbomb         1|sr3.298|18/48 hours|0.00|65500||2-R||H|1.25|Kill bearer
+3-* Cranial Bomb Area Bomb         1|sr3.298|20/14 days|0.00|500000||2-R||H|1.00|Kill bearer, blast radius
+2-Crypto Circuit
+3-* Crypto Circuit  [1]            1|ssc.77|6/36 hours|0.10|10000||4P-CA||H|1.00|
+3-* Crypto Circuit  [2]            1|ssc.77|6/36 hours|0.10|20000||4P-CA||H|1.00|
+3-* Crypto Circuit  [3]            1|ssc.77|6/36 hours|0.10|30000||4P-CA||H|1.00|
+3-* Crypto Circuit  [4]            1|ssc.77|6/36 hours|0.10|40000||4P-CA||H|1.00|
+3-* Crypto Circuit  [5]            1|ssc.77|6/36 hours|0.10|100000||4P-CA||H|1.25|
+3-* Crypto Circuit  [6]            1|ssc.77|6/36 hours|0.10|120000||4P-CA||H|1.25|
+3-* Crypto Circuit  [7]            1|ssc.77|6/36 hours|0.10|140000||4P-CA||H|1.25|
+3-* Crypto Circuit  [8]            1|ssc.77|8/36 hours|0.10|240000||3P-CA||H|1.50|
+3-* Crypto Circuit  [9]            1|ssc.77|8/36 hours|0.10|270000||3P-CA||H|1.50|
+3-* Crypto Circuit [10]            1|ssc.77|9/36 hours|0.10|500000||3P-CA||H|2.00|
+2-Data Compactor
+3-* Data Compactor [1]             1|mm.22|6/60 hours|0.10|9000||Legal|||1.00|Headware memory is +20% when compressed
+3-* Data Compactor [2]             1|mm.22|6/60 hours|0.15|19000||Legal|||1.00|Headware memory is +40% when compressed
+3-* Data Compactor [3]             1|mm.22|6/60 hours|0.20|28000||Legal|||1.00|Headware memory is +60% when compressed
+3-* Data Compactor [4]             1|mm.22|6/60 hours|0.25|38000||Legal|||1.00|Headware memory is +80% when compressed
+2-* Data Filter                    1|mm.21|6/36 hours|0.30|5000||2P-R|||1.50|While active, +2 perception modifier, not remember anything afterwards
+2-Datajack
+3-* Datajack                       1|sr3.298|0/0|0.20|1000|+1DJK|Legal||H|0.90|
+3-* Datajack [1]                   1|st.45|0/0|0.10|500|+1DJK|Legal||H|0.90|
+3-* Datajack [2]                   1|st.45|0/0|0.15|1000|+1DJK|Legal||H|0.90|
+3-* Datajack [3]                   1|st.45|0/0|0.20|2000|+1DJK|Legal||H|0.90|
+3-* Datajack [4]                   1|st.45|0/0|0.25|4000|+1DJK|Legal||H|0.90|
+3-* Induction Datajack             1|mm.21|0/0|0.30|3000|+1DJK|Legal||H|2.00|Requires Adapter (100¥)
+! Build your own required datalock
+2-* Data Lock                      1|sr3.298|6/36 hours|0.20|1000||AsEnc||H|1.50|Code to access datajack or headware memory, Must Buy Encryption Separate (See Gear)
+2-* Datasoft Link                  1|sr2.247|3/24 hours|0.10|1000||Legal||H|1.00|
+2-Encephalon
+3-* Encephalon [1]                 1|mm.20|6/12 days|0.75|40000|+1HAC,+1TAS|Legal||H|2.00|+1 Hacking Pool, +1 Task Pool, +1Int for learning new skills
+3-* Encephalon [2]                 1|mm.20|6/12 days|1.50|115000|+2HAC,+2TAS|Legal||H|2.00|+2 Hacking Pool, +2 Task Pool, +2Int for learning new skills
+3-* Encephalon [3]                 1|st.49|0/0|1.50|75000|+2INT,|Legal||H|2.00|
+3-* Encephalon [4]                 1|st.49|0/0|1.75|115000|+2INT,|Legal||H|2.00|
+2-Expert Chipjack Driver
+3-* Expert Chipjack Dvr [1]        1|mm.19|4/48 hours|0.10|5000||Legal||H|1.00|+1 Pool for Skillsofts
+3-* Expert Chipjack Dvr [2]        1|mm.19|4/48 hours|0.20|10000||Legal||H|1.00|+2 Pool for Skillsofts
+3-* Expert Chipjack Dvr [3]        1|mm.19|4/48 hours|0.30|15000||Legal||H|1.00|+3 Pool for Skillsofts
+2-* Invoked Memory Stim            1|mm.21|4/48 hours|0.25|100000||3P-Q||H|4.00|Required for Cybermancy
+2-* Knowsoft Link                  1|sr3.298|3/24 hours|0.10|1000||Legal||H|1.00|Access headware/datajack knowsofts
+2-* LiveWires                      1|cb3.97|3/48 hours|0.35|4000||Legal||H|0.90|Datajack flow rate of 50
+2-Math SPU
+3-* Math SPU [1]                   1|mm.21|6/60 hours|0.10|2000|+1HAC|Legal||H|1.00|+1 Hacking Pool, Complementary Math Skill (2), stopwatch, alarm clock, chronometer
+3-* Math SPU [2]                   1|mm.21|6/60 hours|0.15|5000|+2HAC|Legal||H|1.00|+2 Hacking Pool, Complementary Math Skill (4), stopwatch, alarm clock, chronometer
+3-* Math SPU [3]                   1|mm.21|6/60 hours|0.20|11000|+3HAC|Legal||H|1.00|+3 Hacking Pool, Complementary Math Skill (6), stopwatch, alarm clock, chronometer
+2-Memory - Cost Varies
+3-* Memory (Varies)                1|sr3.298|3/24 hours|0.00|0||Legal||H|0.80|? if not listed, add via DATeditor
+! Insert your own required memory settings.
+3-* Memory (30 Mps)                1|sr3.298|3/24 hours|0.10|4500||Legal||H|0.80|
+3-* Memory (60 Mps)                1|sr3.298|3/24 hours|0.20|9000||Legal||H|0.80|
+3-* Memory (100 Mps)               1|sr3.298|3/24 hours|0.33|15000||Legal||H|0.80|
+3-* Memory (150 Mps)               1|sr3.298|3/24 hours|0.50|22500||Legal||H|0.80|
+3-* Memory (200 Mps)               1|sr3.298|3/24 hours|0.66|30000||Legal||H|0.80|
+3-* Memory (250 Mps)               1|sr3.298|3/24 hours|0.83|37500||Legal||H|0.80|
+3-* Memory (300 Mps)               1|sr3.298|3/24 hours|1.00|45000||Legal||H|0.80|
+3-* Memory (350 Mps)               1|sr3.298|3/24 hours|1.16|52500||Legal||H|0.80|
+3-* Memory (400 Mps)               1|sr3.298|3/24 hours|1.33|60000||Legal||H|0.80|
+3-* Memory (450 Mps)               1|sr3.298|3/24 hours|1.50|67500||Legal||H|0.80|
+3-* Memory (500 Mps)               1|sr3.298|3/24 hours|1.66|75000||Legal||H|0.80|
+3-* Memory (550 Mps)               1|sr3.298|3/24 hours|1.83|82500||Legal||H|0.80|
+3-* Memory (600 Mps)               1|sr3.298|3/24 hours|2.00|90000||Legal||H|0.80|
+2-* Model 100 Interf. Plugs        1|cb3.100|3/24 hours|0.25|1000||Legal||H|1.00|Data flow of 10
+2-MultiSlot Chipjack
+3-* MultiSlot Chipjack 2           1|mm.21|3/72 hours|0.25|2000||Legal||H|0.90|Holds 2 chips, access to datasofts and knowsofts
+3-* MultiSlot Chipjack 3           1|mm.21|3/72 hours|0.30|3000||Legal||H|0.90|Holds 3 chips, access to datasofts and knowsofts
+3-* MultiSlot Chipjack 4           1|mm.21|3/72 hours|0.35|4000||Legal||H|0.90|Holds 4 chips, access to datasofts and knowsofts
+2-Nasal Filters
+3-* Nasal Filters [1]              1|cp.13|4/4 days|0.10|600||Legal||H|1.00|
+3-* Nasal Filters [2]              1|cp.13|4/4 days|0.20|1200||Legal||H|1.00|
+3-* Nasal Filters [3]              1|cp.13|4/4 days|0.30|1800||Legal||H|1.00|
+3-* Nasal Filters [4]              1|cp.13|4/4 days|0.40|2400||Legal||H|1.00|
+2-* Pain Editor                    1|cp.14|5/6 days|0.60|60000||6P-CA|||1.20|
+2-* RAS Override                   1|mm.21|4/48 hours|0.05|1000||Legal||H|1.00|+8 Perception tests
+2-* Router                         1|mm.22|0/0|0.10|1000||Legal||H|1.00|Connect internal cyberware, 10 ports max
+2-* Router Port (Headware)         1|mm.22|0/0|0.01|200||Legal||H|1.00|
+2-* Router Port (Non-Headware)     1|mm.22|0/0|0.01|500||Legal||H|1.00|
+2-* Shape Recogn. Chipware         1|cb4.137|8/72 hours|0.25|5000||Legal||H|1.75|Recording an Item on a Blank Chip take up 1D6x50 Mp
+2-* +SLAMDANCE Spyke (Head)        1|cb3.99|6/48 hours|0.00|2500||2-A||H|1.00|Need Derm.Armor or similary +1 melee combat
+2-Softlink
+3-* Softlink [1]                   1|st.46|3/72 hours|0.15|1000||Legal||H|1.00|
+3-* Softlink [2]                   1|st.46|3/72 hours|0.20|2000||Legal||H|1.00|
+3-* Softlink [3]                   1|st.46|3/72 hours|0.25|4000||Legal||H|1.00|
+3-* Softlink [4]                   1|st.46|3/72 hours|0.30|8000||Legal||H|1.00|
+3-* Softlink Perm.[1]              1|n/sl.88|3/72 hours|0.10|3000||Legal||H|1.00|
+3-* Softlink Perm.[2]              1|n/sl.88|3/72 hours|0.15|6000||Legal||H|1.00|
+3-* Softlink Perm.[3]              1|n/sl.88|3/72 hours|0.20|12000||Legal||H|1.00|
+3-* Softlink Perm.[4]              1|n/sl.88|3/72 hours|0.25|24000||Legal||H|1.00|
+2-SPUs
+3-* SPU - I/O [1]                  1|st.51|5/4 days|0.10|5000||Legal||H|1.00|
+3-* SPU - I/O [2]                  1|st.51|5/4 days|0.15|7500||Legal||H|1.00|
+3-* SPU - I/O [3]                  1|st.51|5/4 days|0.20|12500||Legal||H|1.00|
+3-* SPU - I/O [4]                  1|st.51|5/4 days|0.25|22500||Legal||H|1.00|
+3-* SPU - Math [4]                 1|st.52|6/60 hours|0.25|23000||Legal||H|1.00|
+2-Tactical Computer etc
+3-* Tactical Computer              1|mm.22|12/60 days|1.50|400000||2P-R||H|4.00|
+3-* Each Dedicated Port            1|mm.22|12/60 days|0.10|10000||2P-R||H|4.00|
+3-* Each Generic Port              1|mm.22|12/60 days|0.10|5000||2P-R||H|4.00|
+3-* Tactical Sense Prog.           1|mm.22|8/1 month|0.00|5000||2P-R||H|4.00|
+3-* Comp w/ BattleTac Mod.         1|mm.22|+6/-|1.50|410000||2P-R||H|4.00|
+2-Tactile Boost
+3-* Tactile Boost [1]              1|cp.14|5/6 days|0.20|1500||Legal||H|1.00|Add 1 dice to touch perception tests
+3-* Tactile Boost [2]              1|cp.14|5/6 days|0.20|3000||Legal||H|1.00|Add 2 dice to touch perception tests
+3-* Tactile Boost [3]              1|cp.14|5/6 days|0.20|4500||Legal||H|1.00|Add 3 dice to touch perception tests
+3-* Tactile Boost [4]              1|cp.14|5/6 days|0.20|6000||Legal||H|1.00|Add 4 dice to touch perception tests
+3-* Tactile Boost [5]              1|cp.14|5/6 days|0.20|7500||Legal||H|1.00|Add 5 dice to touch perception tests
+3-* Tactile Boost [6]              1|cp.14|5/6 days|0.20|9000||Legal||H|1.00|Add 6 dice to touch perception tests
+2-* Taste Boost                    1|cb4.137|4/6 days|0.20|1000||Legal||H|1.00|
+! ==============================CYBERLIMBS ============================================
+1-LIMBS
+! Builtin devices require mods to table, build your own.
+2-* Builtin Device                 1|sr3.303|varies|0.00|0||Var.|||1.00|Must build/input your own via DATeditor
+2-Smartlink
+3-* Smartlink (Int)                1|sr3.302|3/36 hours|0.25|2500||5P-N|||1.00|
+3-* Smartlink II (Int)             1|mm.31|6/48 hours|0.25|3200||5P-N|||2.00|
+3-* Induction Pad                  1|mm.31|4/48 hours|0.00|200||5P-N||E|1.50|
+2-* Corvette CyberLegs Advanced    1|cb4.134|8/6 days|2.00|250000||Legal|||1.50|+2 Power level kick, +3QCK for mov.
+2-* Corvette CyberLegs Basic       1|cb4.134|6/6 days|2.00|225000||Legal|||1.50|+2 Power level kick, +3QCK for mov.+1 to run mult.
+2-* CyberArm Covering Plastic      1|cp.8|2/24 hours|0.00|8000||Legal|||0.80|
+2-* CyberLeg Covering Plastic      1|cp.8|2/24 hours|0.00|8000||Legal|||0.80|
+2-* CyberArm Covering Realskin     1|cp.8|5/7 days|0.00|8000||Legal|||1.50|To notice that not flesh & blood Perception(6)
+2-* CyberLeg Covering Realskin     1|cp.8|5/7 days|0.00|8000||Legal|||1.50|To notice that not flesh & blood Perception(6)
+2-* CyberArm Cover. SuperChrome    1|cp.8|4/5 days|0.00|8000||Legal|||1.20|
+2-* CyberLeg Cover. SuperChrome    1|cp.8|4/5 days|0.00|8000||Legal|||1.20|
+2-* Fingertip Compartment          1|sr3.302|3/24 hrs|0.10|3000||Legal|||1.00|
+2-* Synth. CyberTorso              1|mm.28|6/4 days|1.50|120000|+1BOD,|Legal|||1.00|
+2-* Synth. CyberSkull              1|mm.28|6/4 days|0.75|55000||Legal|||1.00|
+2-* Synth. CyberArm                1|sr3.303|4/4 days|1.00|100000||Legal|||1.00|
+2-* Synth. CyberLeg                1|sr3.303|4/4 days|1.00|100000||Legal|||1.00|
+2-* Synth. Cyber ForeArm           1|mm.39|4/4 days|0.65|50000||Legal|||1.00|
+2-* Synth. Cyber ForeLeg           1|mm.39|4/4 days|0.65|50000||Legal|||1.00|
+2-* Synth. Cyber Hand              1|mm.39|3/4 days|0.35|25000||Legal|||1.00|
+2-* +Replacement Mod.              1|mm.39|5/6 days|0.00|2500||Legal|||2.00|Interchangeable Synth Hand
+2-* Synth. Cyber Foot              1|mm.39|3/4 days|0.35|25000||Legal|||1.00|
+2-* +Replacement Mod.              1|mm.39|5/6 days|0.00|2500||Legal|||2.00|Interchangeable Synth Foot
+2-* Obv. CyberTorso                1|mm.28|6/4 days|1.50|90000|+1BOD,|Legal|||1.00|
+2-* Obv. CyberSkull                1|mm.28|6/4 days|0.75|35000||Legal|||1.00|
+2-* Obv. CyberArm                  1|sr3.303|4/4 days|1.00|75000||Legal|||1.00|
+2-* Obv. CyberLeg                  1|sr3.303|4/4 days|1.00|75000||Legal|||1.00|
+2-* Obv. Cyber ForeArm             1|mm.39|4/4 days|0.65|40000||Legal|||1.00|
+2-* Obv. Cyber ForeLeg             1|mm.39|4/4 days|0.65|40000||Legal|||1.00|
+2-* Obv. Cyber Hand                1|mm.39|3/4 days|0.35|20000||Legal|||1.00|
+2-* +Replacement Mod.              1|mm.39|5/6 days|0.00|2000||Legal|||2.00|Interchangeable Obv. Hand
+2-* Obv. Cyber Foot                1|mm.39|3/4 days|0.35|20000||Legal|||1.00|
+2-* +Replacement Mod.              1|mm.39|5/6 days|0.00|2000||Legal|||2.00|Interchangeable Obv. Foot
+2-* Hook Hand                      1|mm.39|1/6 hours|0.10|30||Legal|||1.00|
+2-* +Replacement Mod.              1|mm.39|3/8 hours|0.00|3||Legal|||2.00|Interchangeable Hook Hand
+2-* Kid Stealth Leg                1|mm.38|6/2 weeks|1.00|100000|+1MUL|Legal|||2.00|+1 Running Multiplier, +2 Power for kicks
+2-* Peg Leg (hip)                  1|mm.39|1/6 hours|0.40|120||Legal|||1.00|
+2-* Peg Leg (knee)                 1|mm.39|1/6 hours|0.20|50||Legal|||1.00|
+2-* Integrity enhancement          1|mm.38|6/4 days|0.00|30000||6P-N|||1.00|
+2-Quickness Enhancements
+3-* Quickness [1]                  1|mm.40|8/4 days|0.00|30000|+1QCK,|6P-Q|||1.50|+1QCK
+3-* Quickness [1] (Pair)           1|mm.40|8/4 days|0.00|60000|+1QCK,|6P-Q|||1.50|+1QCK
+3-* Quickness [2]                  1|mm.40|8/4 days|0.00|60000|+2QCK,|6P-Q|||1.50|+2QCK
+3-* Quickness [2] (Pair)           1|mm.40|8/4 days|0.00|120000|+2QCK,|6P-Q|||1.50|+2QCK
+3-* Quickness [3]                  1|mm.40|8/4 days|0.00|90000|+3QCK,|6P-Q|||1.50|+3QCK
+0-* Quickness [3] (Pair)           1|mm.40|8/4 days|0.00|180000|+3QCK,|6P-Q|||1.50|+3QCK
+3-* Quickness [4]                  1|mm.40|8/4 days|0.30|135000|+4QCK,|6P-Q|||1.50|+4QCK
+3-* Quickness [4] (Pair)           1|mm.40|8/4 days|0.60|270000|+4QCK,|6P-Q|||1.50|+4QCK
+3-* Quickness [5]                  1|mm.40|8/4 days|0.60|180000|+5QCK,|6P-Q|||1.50|+5QCK
+3-* Quickness [5] (Pair)           1|mm.40|8/4 days|1.20|360000|+5QCK,|6P-Q|||1.50|+5QCK
+3-* Quickness [6]                  1|mm.40|8/4 days|0.90|225000|+6QCK,|6P-Q|||1.50|+6QCK
+3-* Quickness [6] (Pair)           1|mm.40|8/4 days|1.80|450000|+6QCK,|6P-Q|||1.50|+6QCK
+2-Strength Enhancements
+3-* Str Enh [1]                    1|sr3.303|6/4 days|0.00|50000|+1STR,|6P-Q|||1.50|+1STR
+3-* Str Enh [1] (Pair)             1|sr3.303|6/4 days|0.00|100000|+1STR,|6P-Q|||1.50|+1STR
+3-* Str Enh [2]                    1|sr3.303|6/4 days|0.00|100000|+2STR,|6P-Q|||1.50|+2STR
+3-* Str Enh [2] (Pair)             1|sr3.303|6/4 days|0.00|200000|+2STR,|6P-Q|||1.50|+2STR
+3-* Str Enh [3]                    1|sr3.303|6/4 days|0.00|150000|+3STR,|6P-Q|||1.50|+3STR
+3-* Str Enh [3] (Pair)             1|sr3.303|6/4 days|0.00|300000|+3STR,|6P-Q|||1.50|+3STR
+3-* Str Enh [4]                    1|sr3.303|6/4 days|0.40|225000|+4STR,|6P-R|||1.50|+4STR
+3-* Str Enh [4] (Pair)             1|sr3.303|6/4 days|0.80|450000|+4STR,|6P-R|||1.50|+4STR
+3-* Str Enh [5]                    1|sr3.303|6/4 days|0.80|300000|+5STR,|6P-R|||1.50|+5STR
+3-* Str Enh [5] (Pair)             1|sr3.303|6/4 days|1.60|600000|+5STR,|6P-R|||1.50|+5STR
+3-* Str Enh [6]                    1|sr3.303|6/4 days|1.20|375000|+6STR,|6P-R|||1.50|+6STR
+3-* Str Enh [6] (Pair)             1|sr3.303|6/4 days|2.40|750000|+6STR,|6P-R|||1.50|+6STR
+2-Enhancements with Torso
+3-* Quickness [4] w/Torso          1|mm.28|8/4 days|0.15|135000|+4QCK,|6P-Q|||1.50|
+3-* Quickness [5] w/Torso          1|mm.28|8/4 days|0.30|180000|+5QCK,|6P-Q|||1.50|
+3-* Quickness [6] w/Torso          1|mm.28|8/4 days|0.45|225000|+6QCK,|6P-Q|||1.50|
+3-* Str Enh [4]  w/Torso           1|mm.28|8/4 days|0.20|225000|+4STR,|6P-R|||1.50|
+3-* Str Enh [5]  w/Torso           1|mm.28|8/4 days|0.40|300000|+5STR,|6P-R|||1.50|
+3-* Str Enh [6]  w/Torso           1|mm.28|8/4 days|0.60|375000|+6STR,|6P-R|||1.50|
+2-* Extending Legs Unit (SYCUST)   1|cb4.135|9/14 days|0.00|40000||Legal|||1.25|+1QCK for walking speed,cannot be use with other leg option
+2-* FleshWeave (SYCUST)            1|cb3.96|6/36 hours|0.50|120000||Legal|||1.50|Count 0.5 body(as Bioware)
+2-* Leg Boosters                   1|cb3.97|6/6 days|0.00|5000||Legal|||1.00|Add 3 meters to chr jump
+2-Limb Covers
+3-* Limb cover: Plastic            1|pw.9|2/24 hours|0.00|4000||Legal|||0.80|
+3-* Limb cover: RealSkin           1|pw.9|5/7 days|0.00|8000||Legal|||1.50|
+3-* Limb cover: Superchr           1|pw.9|4/5 days|0.00|8000||Legal|||1.20|
+3-* Obv.Cyb.Arm Semi.natCov.       1|ct.30|AsLimb|1.00|83500||Legal|||1.00|
+3-* Obv.Cyb.Leg Semi.natCov.       1|ct.30|AsLimb|1.00|83500||Legal|||1.00|
+2-* Syn. Cyb Arm/Leg Sem.natCov.   1|ct.30|AsLimb|1.00|110000||Legal|||1.00|
+2-Pair of Cyber ?
+3-* Pair Obv. Cyb Arms             1|sr3.303|4/4 days|2.00|150000|+1BOD,+1PCA|Legal|||1.00|
+3-* Pair Obv. Cyb Legs             1|sr3.303|4/4 days|2.00|150000|+2BOD,+1PCL|Legal|||1.00|
+3-* Pair.Obv.Cyb.Arm Sem.natCov.   1|ct.30|AsLimb|2.00|165000|+1BOD,+1PCA|Legal|||1.00|
+3-* Pair.Obv.Cyb.Leg Sem.natCov.   1|ct.30|AsLimb|2.00|165000|+2BOD,+1PCL|Legal|||1.00|
+3-* Pair Syn Cyb Arms              1|sr3.303|4/4 days|2.00|200000|+1BOD,+1PCA|Legal|||1.00|
+3-* Pair Syn Cyb Legs              1|sr3.303|4/4 days|2.00|200000|+2BOD,+1PCL|Legal|||1.00|
+3-* Pair Syn.Cyb.Arm Sem.natCov.   1|ct.30|AsLimb|2.00|220000|+1BOD,+1PCA|Legal|||1.00|
+3-* Pair Syn Cyb Leg Sem.natCov.   1|ct.30|AsLimb|2.00|220000|+2BOD,+1PCL|Legal|||1.00|
+3-* Pair Kid Stealth Legs          1|sr3.303|6/2 weeks|2.00|200000|+2BOD,+1PCL|Legal|||1.00|
+2-* Romanova Cyberlegs             1|cb3.99|6/7 days|2.00|250000||Legal|||1.00|No penalties for running in spike
+2-* +SLAMDANCE Spyke (Arms)        1|cb3.99|6/48 hours|0.00|2500||2-A|||1.00|Need Derm.Armor or similary +1 melee combat
+2-* +SLAMDANCE Spyke (Legs)        1|cb3.99|6/48 hours|0.00|2500||2-A|||1.00|Need Derm.Armor or similary +1 melee combat
+2-* SuperSized Arms                1|cb3.97|special|1.00|135000||Legal|||1.00|-1tgt num.to intimidate +2 on based reflex act.
+2-* Zetatech Bodycomp              1|cb2.48|3/24 hours|0.80|9000||Legal|||2.00|
+! ============================== CYBERLIMB MODS =============================================
+1-CYBERLIMB MODS
+2-Armor
+3-* Armor: Ablative [1]            1|mm.36|12/3 weeks|0.00|7000||3-N|||2.00|+2 BAL, +2 IMP, ECU: 1, Conceal: -1
+3-* Armor: Ablative [2]            1|mm.36|12/3 weeks|0.00|14000||3-N|||2.00|+4 BAL, +4 IMP, ECU: 2, Conceal: -2
+3-* Armor: Ablative [3]            1|mm.36|12/3 weeks|0.00|21000||3-N|||2.00|+6 BAL, +6 IMP, ECU: 3, Conceal: -3
+3-* Armor: Ablative [4]            1|mm.36|12/3 weeks|0.00|28000||3-N|||2.00|+8 BAL, +8 IMP, ECU: 4, Conceal: -4
+3-* Armor: Ablative [5]            1|mm.36|12/3 weeks|0.00|35000||3-N|||2.00|+10 BAL, +10 IMP, ECU: 5, Conceal: -5
+3-* Armor: Ballistic [1]           1|mm.36|8/2 weeks|0.00|2500||3-N|||1.00|+1 BAL, ECU: 0.5, Conceal: -0.5
+3-* Armor: Ballistic [2]           1|mm.36|8/2 weeks|0.00|5000||3-N|||1.00|+2 BAL, ECU: 1, Conceal: -1
+3-* Armor: Ballistic [3]           1|mm.36|8/2 weeks|0.00|7500||3-N|||1.00|+3 BAL, ECU: 1.5, Conceal: -1.5
+3-* Armor: Ballistic [4]           1|mm.36|8/2 weeks|0.00|10000||3-N|||1.00|+4 BAL, ECU: 2, Conceal: -2
+3-* Armor: Ballistic [5]           1|mm.36|8/2 weeks|0.00|12500||3-N|||1.00|+5 BAL, ECU: 2.5, Conceal: -2.5
+3-* Armor: Ballistic [6]           1|mm.36|8/2 weeks|0.00|15000||3-N|||1.00|+6 BAL, ECU: 3, Conceal: -3
+3-* Armor: Ballistic [7]           1|mm.36|8/2 weeks|0.00|17500||3-N|||1.00|+7 BAL, ECU: 3.5, Conceal: -3.5
+3-* Armor: Ballistic [8]           1|mm.36|8/2 weeks|0.00|20000||3-N|||1.00|+8 BAL, ECU: 4, Conceal: -4
+3-* Armor: Ballistic [9]           1|mm.36|8/2 weeks|0.00|22500||3-N|||1.00|+9 BAL, ECU: 4.5, Conceal: -4.5
+3-* Armor: Ballistic [10]          1|mm.36|8/2 weeks|0.00|25000||3-N|||1.00|+10 BAL, ECU: 5, Conceal: -5
+3-* Armor: Impact [1]              1|mm.36|8/2 weeks|0.00|4000||3-N|||1.00|+1 IMP, ECU: 0.5, Conceal: -0.5
+3-* Armor: Impact [2]              1|mm.36|8/2 weeks|0.00|8000||3-N|||1.00|+2 IMP, ECU: 1, Conceal: -1
+3-* Armor: Impact [3]              1|mm.36|8/2 weeks|0.00|12000||3-N|||1.00|+3 IMP, ECU: 1.5, Conceal: -1.5
+3-* Armor: Impact [4]              1|mm.36|8/2 weeks|0.00|16000||3-N|||1.00|+4 IMP, ECU: 2, Conceal: -2
+3-* Armor: Impact [5]              1|mm.36|8/2 weeks|0.00|20000||3-N|||1.00|+5 IMP, ECU: 2.5, Conceal: -2.5
+3-* Armor: Impact [6]              1|mm.36|8/2 weeks|0.00|24000||3-N|||1.00|+6 IMP, ECU: 3, Conceal: -3
+3-* Armor: Impact [7]              1|mm.36|8/2 weeks|0.00|28000||3-N|||1.00|+7 IMP, ECU: 3.5, Conceal: -3.5
+3-* Armor: Impact [8]              1|mm.36|8/2 weeks|0.00|32000||3-N|||1.00|+8 IMP, ECU: 4, Conceal: -4
+3-* Armor: Impact [9]              1|mm.36|8/2 weeks|0.00|36000||3-N|||1.00|+9 IMP, ECU: 4.5, Conceal: -4.5
+3-* Armor: Impact [10]             1|mm.36|8/2 weeks|0.00|40000||3-N|||1.00|+10 IMP, ECU: 5, Conceal: -5
+2-* Cyber Holster                  1|mm.37|4/48 hours|0.10|5000||3-N|||1.00|Hold any pistols, +2 TNs attempting to detect the weapon
+2-* Cyberarm Gyromount             1|mm.36|10/3 weeks|0.00|40000||3-N|||2.00|3 points of Recoil Reduction, -1 Conceal when inactive, -6 Conceal when active
+2-Cyberguns
+3-* CyGun Dartgun(CYB)             1|mm.41|8/7 days|0.00|1000||6P-Q||A|1.50|
+3-* CyGun Taser(Tasr)(CYB)         1|mm.41|6/4 days|0.00|2000||5P-Q|||2.00|10S Stun
+3-* CyGun Hold-Out(HOPist)(CYB)    1|mm.41|8/7 days|0.00|250||8P-Q|||2.00|4L
+3-* CyGun Light(LPist)(CYB)        1|mm.41|8/7 days|0.00|650||6P-Q|||2.00|6L
+3-* CyGun Mach.Gun(MaPist)(CYB)    1|mm.41|8/7 days|0.00|900||4P-Q|||2.00|6L
+3-* CyGun SMG(SMG)(CYB)            1|mm.41|8/7 days|0.00|1800||3P-Q|||2.00|7M
+3-* CyGun Heavy(HPist)(CYB)        1|mm.41|8/7 days|0.00|800||4P-Q|||2.00|9M
+3-* CyGun Shotgun(ShtG)(CYB)       1|mm.41|8/7 days|0.00|1200||4P-Q|||2.00|8S
+2-* CyGun Flmethrow(FlThr)(CYB)    1|cp.15|10/7 days|0.00|1200||2-CB|||2.00|Damage 10M,use Light Pistol,4 shots,max range 1 meter
+2-* CyGun GrenLcher(GrLn)(CYB)     1|cp.15|10/7 days|0.00|2500||2-CB|||2.00|1 shot
+2-* CyberSquirt(CYB)               1|mm.41|8/6 days|0.00|1400||5P-Q|||2.00|
+2-* +External Clip Port            1|mm.41|8/7 days|0.00|100||As Gu|||2.00|
+2-* Cyberskates                    1|mm.38|3/24 hours|0.00|1000||3-N|||1.00|QCK*2 Walking, QCK*6 Running
+2-* Cyberskates, Retract.          1|mm.38|4/48 hours|0.00|2500||3-N|||1.00|QCK*2 Walking, QCK*6 Running
+2-* Direct Neural Interface        1|sr3.303|4/6 days|0.10|2500||3-N|||1.00|Control devices not meant to be controlled cybernetically
+2-* Fingertip Compartment          1|sr3.301|3/24 hours|0.00|3000||Legal|||1.00|
+2-* Foot, Anchor                   1|mm.29|6/7 days|0.00|14000||Legal|||2.00|(STR-1)M Damage, 1 point of Recoil Reduction, -1 Knockdown TNs
+2-* Hand Blade,(CYB)               1|sr3.302|6/5 days|0.00|7500||4P-R|||1.50|(STR+3)L
+2-* Hand Blade,retract(CYB)        1|sr3.302|6/5 days|0.00|10000||3P-R|||1.50|(STR+3)L
+2-* Hand Razors(CYB)               1|sr3.302|3/72 hours|0.00|4500||3-N|||1.00|(STR)L
+2-* H.Razor, Retract(CYB)          1|sr3.302|5/72 hours|0.00|9000||3-N|||1.00|(STR)L
+2-* +Improved Razors(CYB)          1|sr3.302|6/72 hours|0.00|8500||3-N|||1.00|Must be added to either the razors or retractable razors, (STR+2)L
+2-* Hand, Shock                    1|mm.42|6/4 days|0.00|1300||4P-Q|||2.00|8S Stun, 12 uses
+2-* Horn Implants(CYB)             1|mm.43|4/48 hours|0.00|12000||Legal|||1.00|(STR)M, -1 Reach
+2-* Horn Implants, Retract(CYB)    1|mm.43|5/48 hours|0.10|16000||5P-N|||1.00|(STR)M, -1 Reach
+2-Hydraulic Jack / Ram
+3-* Hydraulic Jack [1]             1|mm.29|5/6 days|0.25|5000||Legal|||1.00|+1 die to Athletics (Running, Jumping) tests, +20% running distance, -1 Power level to falls
+3-* Hydraulic Jack [2]             1|mm.29|5/6 days|0.25|10000||Legal|||1.00|+2 die to Athletics (Running, Jumping) tests, +40% running distance, -2 Power level to falls
+3-* Hydraulic Jack [3]             1|mm.29|5/6 days|0.25|15000||Legal|||1.00|+3 die to Athletics (Running, Jumping) tests, +60% running distance, -3 Power level to falls
+3-* Hydraulic Jack [4]             1|mm.29|5/6 days|0.25|20000||Legal|||1.00|+4 die to Athletics (Running, Jumping) tests, +80% running distance, -4 Power level to falls
+3-* Hydraulic Jack [5]             1|mm.29|5/6 days|0.25|25000||Legal|||1.00|+5 die to Athletics (Running, Jumping) tests, +100% running distance, -5 Power level to falls
+3-* Hydraulic Ram [1]              1|cp.9|5/6 days|0.25|4500|+1STR,|Legal|||1.00|Every 1.5 limbs count as 1 dermal armor
+3-* Hydraulic Ram [2]              1|cp.9|5/6 days|0.25|9000|+2STR,|Legal|||1.00|Every 1.5 limbs count as 1 dermal armor
+3-* Hydraulic Ram [3]              1|cp.9|5/6 days|0.25|13500|+3STR,|Legal|||1.00|Every 1.5 limbs count as 1 dermal armor
+3-* Hydraulic Ram [4]              1|cp.9|5/6 days|0.25|18000|+4STR,|Legal|||1.00|Every 1.5 limbs count as 1 dermal armor
+3-* Hydraulic Ram [5]              1|cp.9|5/6 days|0.25|22500|+5STR,|Legal|||1.00|Every 1.5 limbs count as 1 dermal armor
+2-* Magnetic Cyberlimb             1|mm.30|6/7 days|0.00|2800||Legal|||2.00|+4STR to hold items, support 25 kgs
+2-* Micromissile Launcher          1|cp.15|10/7 days|0.00|4500||2-CB|||2.00|
+2-Mounts
+3-* Mount, External                1|mm.40|6/4 days|0.00|5000||3P-R|||2.00|Weapon mount
+3-* Mount, External (retr.)        1|mm.40|6/4 days|0.00|15000||3P-R|||2.00|Weapon mount
+3-* Mount, Tracking                1|mm.40|8/7 days|0.00|24000||3P-R|||2.00|Track targets if linked to target designator
+3-* Mount, Tracking (retr.)        1|mm.40|8/7 days|0.00|40000||3P-R|||2.00|Track targets if linked to target designator
+2-* Articulate Arm                 1|mm.40|12/24 days|0.00|110000||2P-R|||2.00|Extends from back, full range of targetting
+2-* Articulate Arm (retr.)         1|mm.40|12/24 days|1.00|200000||2P-R|||2.00|Extends from back, full range of targetting
+2-* Retract. Climbing Claws        1|mm.31|5/72 hours|0.00|10000||3-N|||1.50|(STR-1)L, -2 climbing TNs
+2-Optical Memory Chip
+3-* Optical Memory Chip (100 mp)   1|sr3.296|Always|0.00|750||Legal|||1.00|Must have DNI implanted in the limb to function.
+3-* Optical Memory Chip (500 mp)   1|sr3.296|Always|0.00|3750||Legal|||1.00|Must have DNI implanted in the limb to function.
+3-* Optical Memory Chip (1000 mp)  1|sr3.296|Always|0.00|7500||Legal|||1.00|Must have DNI implanted in the limb to function.
+2-* Orientation System             1|mm.17|5/6 days|0.00|15000||Legal|||2.50|Mapping unit, display/use/record map data
+2-Personal Comm Unit
+3-* Personal Comm Unit 1           1|cc.55|8/2wks|0.00|1500||Legal|||2.00|number of channels equal to rating * 2, Flux equal to Rating/2, ECCM equal to Rating, and Encryption equal to Rating.
+3-* Personal Comm Unit 2           1|cc.55|8/2wks|0.00|3000||Legal|||2.00|number of channels equal to rating * 2, Flux equal to Rating/2, ECCM equal to Rating, and Encryption equal to Rating.
+3-* Personal Comm Unit 3           1|cc.55|8/2wks|0.00|4500||Legal|||2.00|number of channels equal to rating * 2, Flux equal to Rating/2, ECCM equal to Rating, and Encryption equal to Rating.
+3-* Personal Comm Unit 4           1|cc.55|8/2wks|0.00|6000||Legal|||2.00|number of channels equal to rating * 2, Flux equal to Rating/2, ECCM equal to Rating, and Encryption equal to Rating.
+3-* Personal Comm Unit 5           1|cc.55|8/2wks|0.00|10000||Legal|||2.00|number of channels equal to rating * 2, Flux equal to Rating/2, ECCM equal to Rating, and Encryption equal to Rating.
+3-* Personal Comm Unit 6           1|cc.55|8/2wks|0.00|12000||Legal|||2.00|number of channels equal to rating * 2, Flux equal to Rating/2, ECCM equal to Rating, and Encryption equal to Rating.
+3-* Personal Comm Unit 7           1|cc.55|8/2wks|0.00|14000||Legal|||2.00|number of channels equal to rating * 2, Flux equal to Rating/2, ECCM equal to Rating, and Encryption equal to Rating.
+3-* Personal Comm Unit 8           1|cc.55|8/2wks|0.00|24000||Legal|||2.00|number of channels equal to rating * 2, Flux equal to Rating/2, ECCM equal to Rating, and Encryption equal to Rating.
+3-* Personal Comm Unit 9           1|cc.55|8/2wks|0.00|27500||Legal|||2.00|number of channels equal to rating * 2, Flux equal to Rating/2, ECCM equal to Rating, and Encryption equal to Rating.
+3-* Personal Comm Unit 10          1|cc.55|8/2wks|0.00|40000||Legal|||2.00|number of channels equal to rating * 2, Flux equal to Rating/2, ECCM equal to Rating, and Encryption equal to Rating.
+2-* Pocket Secretary (Basic)       1|sr3.287|Always|0.00|3000||Legal|||1.00|Must have DNI implanted in the limb to function.
+2-Rigger Gear
+3-Protocol Emulation Mods
+4-* Protocol Emulation Mod [1]     1|mm.23|3/1 day|0.00|5000||Legal|||2.00|
+4-* Protocol Emulation Mod [2]     1|mm.23|4/2 days|0.00|10000||Legal|||2.00|
+4-* Protocol Emulation Mod [3]     1|mm.23|5/3 days|0.00|15000||Legal|||2.00|
+4-* Protocol Emulation Mod [4]     1|mm.23|6/4 days|0.00|20000||Legal|||2.00|
+4-* Protocol Emulation Mod [5]     1|mm.23|7/5 days|0.00|25000||Legal|||2.00|
+4-* Protocol Emulation Mod [6]     1|mm.23|8/6 days|0.00|30000||Legal|||2.00|
+4-* Protocol Emulation Mod [7]     1|mm.23|9/7 days|0.00|35000||Legal|||2.00|
+4-* Protocol Emulation Mod [8]     1|mm.23|10/8 days|0.00|40000||Legal|||2.00|
+4-* Protocol Emulation Mod [9]     1|mm.23|11/9 days|0.00|45000||Legal|||2.00|
+4-* Protocol Emulation Mod [10]    1|mm.23|12/10 days|0.00|50000||Legal|||2.00|
+3-Remote Control Decks
+4-* Remote Control Deck [1]        1|mm.23|4/72 hours|0.00|25000||Legal|||2.00|
+4-* Remote Control Deck [2]        1|mm.23|4/72 hours|0.00|50000||Legal|||2.00|
+4-* Remote Control Deck [3]        1|mm.23|4/72 hours|0.00|75000||Legal|||2.00|
+4-* Remote Control Deck [4]        1|mm.23|4/72 hours|0.00|100000||Legal|||2.00|
+4-* Remote Control Deck [5]        1|mm.23|4/72 hours|0.00|125000||Legal|||2.00|
+4-* Remote Control Deck [6]        1|mm.23|4/72 hours|0.00|150000||Legal|||2.00|
+4-* Remote Control Deck [7]        1|mm.23|4/72 hours|0.00|175000||Legal|||2.00|
+4-* Remote Control Deck [8]        1|mm.23|4/72 hours|0.00|200000||Legal|||2.00|
+3-RC Encryption Module
+4-* RC Encryption Module [1]       1|mm.23|1/1 day|0.00|10000||4P-W|||3.00|
+4-* RC Encryption Module [2]       1|mm.23|2/2 days|0.00|20000||4P-W|||3.00|
+4-* RC Encryption Module [3]       1|mm.23|3/3 days|0.00|30000||4P-W|||3.00|
+4-* RC Encryption Module [4]       1|mm.23|4/4 days|0.00|40000||4P-W|||3.00|
+4-* RC Encryption Module [5]       1|mm.23|5/5 days|0.00|50000||4P-W|||3.00|
+4-* RC Encryption Module [6]       1|mm.23|6/6 days|0.00|60000||4P-W|||3.00|
+4-* RC Encryption Module [7]       1|mm.23|7/7 days|0.00|70000||4P-W|||3.00|
+4-* RC Encryption Module [8]       1|mm.23|8/8 days|0.00|80000||4P-W|||3.00|
+3-Remote Control ECCM
+4-* Remote Control ECCM [1]        1|mm.23|4/7 days|0.00|15000||Legal|||2.00|
+4-* Remote Control ECCM [2]        1|mm.23|4/7 days|0.00|30000||Legal|||2.00|
+4-* Remote Control ECCM [3]        1|mm.23|4/7 days|0.00|45000||Legal|||2.00|
+4-* Remote Control ECCM [4]        1|mm.23|6/14 days|0.00|140000||6P-Q|||3.00|
+4-* Remote Control ECCM [5]        1|mm.23|6/14 days|0.00|210000||6P-Q|||3.00|
+4-* Remote Control ECCM [6]        1|mm.23|6/14 days|0.00|280000||6P-Q|||3.00|
+4-* Remote Control ECCM [7]        1|mm.23|12/28 days|0.00|525000||5P-R|||4.00|
+4-* Remote Control ECCM [8]        1|mm.23|12/28 days|0.00|600000||5P-R|||4.00|
+4-* Remote Control ECCM [9]        1|mm.23|12/28 days|0.00|675000||5P-R|||4.00|
+4-* Remote Control ECCM [10]       1|mm.23|18/45 days|0.00|900000||4P-R|||5.00|
+3-Rigger Decryption Module
+4-* Rigger Decrypt. Mod [1]        1|mm.23|3/1 day|0.00|17500||8P-W|||3.00|
+4-* Rigger Decrypt. Mod [2]        1|mm.23|4/2 days|0.00|35000||8P-W|||3.00|
+4-* Rigger Decrypt. Mod [3]        1|mm.23|5/3 days|0.00|52500||8P-W|||3.00|
+4-* Rigger Decrypt. Mod [4]        1|mm.23|6/4 days|0.00|70000||8P-W|||3.00|
+4-* Rigger Decrypt. Mod [5]        1|mm.23|7/5 days|0.00|87500||8P-W|||3.00|
+4-* Rigger Decrypt. Mod [6]        1|mm.23|8/6 days|0.00|105000||8P-W|||3.00|
+4-* Rigger Decrypt. Mod [7]        1|mm.23|9/7 days|0.00|122500||8P-W|||3.00|
+4-* Rigger Decrypt. Mod [8]        1|mm.23|10/8 days|0.00|140000||8P-W|||3.00|
+4-* Rigger Decrypt. Mod [9]        1|mm.23|11/9 days|0.00|157500||8P-W|||3.00|
+4-* Rigger Decrypt. Mod [1]        1|mm.23|12/10 days|0.00|175000||8P-W|||3.00|
+2-* Rippers                        1|cp.16|5/3 days|0.00|8000||3-B||D|1.00|Damage (str/2)M
+2-* Scratchers                     1|cp.17|4/3 days|0.00|5000||3-B||D|1.00|Damage (str+1)L, 30cm extended.
+2-Signal Booster
+3-* Signal Booster [1]             1|mm.40|6/72 hours|0.00|15000||Legal|||1.50|Increase Flux Rating of linked systems by 1
+3-* Signal Booster [2]             1|mm.40|6/72 hours|0.00|30000||Legal|||1.50|Increase Flux Rating of linked systems by 2
+3-* Signal Booster [3]             1|mm.40|6/72 hours|0.00|45000||Legal|||1.50|Increase Flux Rating of linked systems by 3
+3-* Signal Booster [4]             1|mm.40|6/72 hours|0.00|60000||Legal|||1.50|Increase Flux Rating of linked systems by 4
+3-* Signal Booster [5]             1|mm.40|6/72 hours|0.00|75000||Legal|||1.50|Increase Flux Rating of linked systems by 5
+3-* Signal Booster [6]             1|mm.40|6/72 hours|0.00|90000||Legal|||1.50|Increase Flux Rating of linked systems by 6
+3-* Signal Booster [7]             1|mm.40|6/72 hours|0.00|105000||Legal|||1.50|Increase Flux Rating of linked systems by 7
+3-* Signal Booster [8]             1|mm.40|6/72 hours|0.00|120000||Legal|||1.50|Increase Flux Rating of linked systems by 8
+3-* Signal Booster [9]             1|mm.40|6/72 hours|0.00|135000||Legal|||1.50|Increase Flux Rating of linked systems by 9
+3-* Signal Booster [10]            1|mm.40|6/72 hours|0.00|150000||Legal|||1.50|Increase Flux Rating of linked systems by 10
+2-* Smartlink                      1|sr3.302|3/36 hours|0.25|2500||5P-N|||1.00|-2 to TNs for firing a Smartlinked weapon
+2-* Smartlink II                   1|mm.31|6/48 hours|0.25|3500||5P-N|||2.00|-2 to TNs for firing a Smartlink-II weapon, +2 Called Shot modifier
+2-* Spur                           1|sr3.302|3/72 hours|0.00|7000||3-N|||1.00|(STR)M
+2-* Spur, Retract                  1|sr3.302|5/72 hours|0.00|11500||3-N|||1.00|(STR)M
+2-Tactical Computer etc
+3-* Tactical Computer              1|mm.22|12/60 days|0.50|400000||2P-R||H|4.00|
+3-* Each Dedicated Port            1|mm.22|12/60 days|0.10|10000||2P-R||H|4.00|
+3-* Each Generic Port              1|mm.22|12/60 days|0.10|5000||2P-R||H|4.00|
+3-* Tactical Sense Prog.           1|mm.22|8/1 month|0.00|5000||2P-R||H|4.00|
+3-* Comp w/ BattleTac Mod.         1|mm.22|+6/-|0.50|410000||2P-R||H|4.00|
+2-* Telescoping Cyberlimb          1|mm.40|6/72 hours|0.00|10000||3-N|||1.50|Increase height or reach by 1 meter, reduce enemy Reach bonus by -1
+2-* Venom Sack                     1|mm.42|4/48 hours|0.00|500||3-N|||2.00|Holds 2 Doses
+2-* Wolfers                        1|cp.17|5/3 days|0.00|8000||3-B||D|1.00|Damage (STR)M
+! ============================== FEET =============================================
+1-FEET
+2-* Cyberfeet Anchor               1|cb2.47|3/4 days|0.00|4000||Legal||F|2.00|Penetrate Barrier Rating 4, Repl.cost 1200¥
+2-* Foot, Anchor                   1|mm.29|6/7 days|0.40|14000||Legal|||2.00|(STR-1)M Damage, 1 point of Recoil Reduction, -1 Knockdown TNs
+2-* Foot, Web                      1|cp.13|4/5 days|0.35|50000||Legal||F|1.00|Double swimming speed.
+2-* Foot, Grip                     1|cp.12|4/4 days|0.35|20000||Legal||F|1.00|Add 2 dices for climbing.
+2-* Foot, Talon                    1|cp.12|5/4 days|0.35|52500||Legal||F|1.00|Damage (str+1)L
+2-* Foot, Tool                     1|pw.12|3/4 days|0.35|47000||Legal||F|1.00|
+2-* Feet, Magnetic                 1|cb1.27|6/7 days|0.40|500||Legal||F|1.00|
+2-* Feet, Catspaw Stealth          1|cb1.28|4/7 days|0.00|7500||Legal||F|1.50|Add 1 to Stealth skill to remain unnoticed while walking
+2-* Heel, Spike                    1|cp.12|6/4 days|0.35|20000||Legal||F|1.00|
+2-* Skate Foot                     1|cb1.26|4/24 hours|0.00|10000||Legal||F|1.00|
+2-* +Quick Change Mount Foot       1|cp.9|3/24 hours|0.00|8000||Legal||F|1.00|Allow to change feet without tools
+! ============================== HANDS =============================================
+1-HANDS
+2-* Cyberhands, Custom(CYTECH)     1|cb2.47|5/4 days|0.00|9000||Legal||D|1.00|Give -1 Tgt to escape from binding
+2-* Finger: Air Hypo               1|cb2.47|3/24 hours|0.15|600||Legal||D|1.25|
+2-* Finger: Flare                  1|cb3.96|6/48 hours|0.15|200||Legal||D|1.50|
+2-* Finger: Flasher                1|cb3.96|4/36 hours|0.15|7500||Legal||D|1.00|
+2-* Finger: Flashlight IR/UV       1|cb3.96|4/36 hours|0.15|200||Legal||D|1.00|
+2-* Finger: Fleshmount             1|cb4.134|+1/normal|0.00|100||Legal||D|1.00|
+2-* Finger: Laser Pointer          1|cb3.96|5/36 hours|0.15|750||Legal||D|1.25|
+2-* Finger: Light Pen              1|cb1.25|4/36 hours|0.15|450||Legal||D|0.90|
+2-* Finger: Lighter                1|cb2.47|2/12 hours|0.15|250||Legal||D|0.90|
+2-* Finger: Lockpick               1|cb1.25|6/48 hours|0.15|500||6-N||D|1.50|
+2-* Finger: Mini Light             1|cb1.25|4/36 hours|0.15|250||Legal||D|0.90|
+2-* Finger: Microphone Parabol.    1|cb3.96|2/48 hours|0.15|3500||6P-U||D|1.50|
+2-* Finger: Probe Link             1|cb3.96|2/12 hours|0.15|1500||Legal||D|1.00|
+2-* Finger: QuikChange             1|cb2.47|2/12 hours|0.00|150||5P-R||D|1.00|
+2-* Finger: Scissors               1|cb1.25|6/48 hours|0.30|500||5P-N||D|1.25|
+2-* Finger: SP Grenade             1|cb2.47|12/8 days|0.15|2000||2-R||D|3.50|
+2-* Finger: Storage compartment    1|cb3.96|4/48 hours|0.15|150||Legal||D|1.00|
+2-* Finger: Tracker                1|cb2.47|9/7 days|0.15|1500||4-U||D|2.50|
+2-* Finger: Vidcam                 1|cb2.47|5/10 days|0.15|8000||Legal||D|1.50|
+2-* Fingertip Compartment          1|sr3.303|3/24 hours|0.10|3000||Legal|||1.00|
+2-Fingertip Datajack
+3-* Fingertip Datajack             1|ct.29|AsDatajack|0.20|1000|+1DJK|Legal||D|1.00|
+3-* Fingertip Datajack [1]         1|ct.29|AsDatajack|0.10|500|+1DJK|Legal||D|1.00|
+3-* Fingertip Datajack [2]         1|ct.29|AsDatajack|0.15|1000|+1DJK|Legal||D|1.00|
+3-* Fingertip Datajack [3]         1|ct.29|AsDatajack|0.20|2000|+1DJK|Legal||D|1.00|
+3-* Fingertip Datajack [4]         1|ct.29|AsDatajack|0.25|4000|+1DJK|Legal||D|1.00|
+2-* Fingertip Experts Picks        1|ct.29|8/2 weeks|0.00|18000||6P-CC||D|1.00|
+2-* Fingertip Needle               1|ct.29|4/72 hours|0.00|800||6P-CB||D|1.00|
+2-* Hand, Buzz                     1|cp.10|8/6 days|0.35|52500||3-B||D|1.00|Damage 6S, using one-half Impact Armor to defend
+2-* Hand, Extension                1|cp.10|5/6 days|0.35|14000||Legal||D|1.00|Telescoping to 1 meter, can hold up to 100Kgs
+2-* Flex Hands                     1|mm.28|6/72 hours|0.40|000||7P-N|||2.00|-2 Escape Artist TNs
+2-* Hand, Grapple                  1|cp.10|6/6 days|0.00|55000||Legal||D|1.10|Wrist contains 30 meters, can hold up to 100Kgs
+2-* Hand, Hammer                   1|cp.10|8/6 days|0.35|50000||4-CA||D|1.00|Damage (str+3)M Stun when ejected, replacement cost 3¥
+2-* Hand, Medical Modular          1|cb4.135|5/4 days|0.35|58500||Legal||D|2.00|Negate malus for medkit lacking
+2-* Hand, Modular                  1|pw.11|6/5 days|0.00|24000||3P-CB||D|1.00|
+2-* Hand, Ripper                   1|cp.11|6/4 days|0.35|52500||3-B||D|1.00|Normal hand with Ripper mounted in upper hand and wrist
+2-* Hand, Spike                    1|cp.11|5/3 days|0.35|50000||3-B||D|1.00|Damage (str-1)M, -1 to target number in climbing tests.
+2-* Hand, Tool                     1|cp.12|3/4 days|0.35|47000||Legal||D|1.25|Screwdriver,Wrench,Battery power soldering iron,socket wrench, handy hammer.
+2-* Hands, Magnetic                1|cb1.27|6/7 days|0.40|500||Legal||D|1.00|
+2-* +Hands, Web (DYNALAR)          1|cb3.98|4/36 hours|0.35|50000||Legal||D|1.00|Need Cyberarm or Cyberhand +1 die in athletics
+2-* +Quick Change Mount Hand       1|cp.9|3/24 hours|0.00|8000||Legal||F|1.00|Allow to change hand without tools
+! ======================== MATRIXWARE =========================================
+1-MATRIXWARE
+2-* ASIST (External Plug In)       1|mm.19|4/24 hours|0.00|50|+1AST|Legal|||1.00|
+2-* ASIST (Datajack Mod)           1|mm.19|6/36 hours|0.00|1000|+1AST|Legal|||1.50|
+2-* Biotech Soma.Sleep Induct.     1|cb3.101|2/6 hours|0.00|400||Legal|||1.00|Drug, User can't sleep without (See Gear)
+2-* Induction Datajack             1|mm.21|5/4 days|0.30|3000|+1DJK|Legal|||2.00|
+2-* -Induction Adaptor             1|mm.21|4/48 hours|0.00|100||Legal|||1.50|
+2-* Program Carrier                1|cp.34|4/48 hours|0.20|25000||3-CD|||1.00|
+2-* --Cranial Cyberdecks--         1|mm.19|-|0.00|00000||----|||0.00|
+2-* CybDeck Allegiance Sigma       1|mm.19|4/1 week|1.90|14000||4P-S|||0.80|
+2-* CybDeck Sony CTY-360-D         1|mm.19|6/2 weeks|2.50|75000||4P-S|||1.00|
+2-* CybDeck Novatech Hyperdeck-6   1|mm.19|6/2 weeks|2.70|150000||4P-S|||1.00|
+2-* CybDeck CMT Avatar             1|mm.19|8/2 weeks|2.80|300000||4P-S|||1.00|
+2-* CybDeck Renraku Krafwerk-8     1|mm.19|10/1 month|2.90|450000||4P-S|||1.00|
+2-* CybDeck Transys Highlander     1|mm.19|14/1 month|3.00|700000||4P-S|||1.00|
+2-* CybDeck Novatech Slimcase-10   1|mm.19|18/1 month|3.20|1500000||4P-S|||1.00|
+2-* CybDeck Fairlight Excalibur    1|mm.19|24/2 months|3.50|2000000||4P-S|||1.00|
+! ======================== RIGGER ============================================
+! in the event you need the odd setting, place by hand in list.
+1-RIGGERS
+2-* BattleTac FDDM                 1|mm.23|10/21 days|0.15|200000||4P-R|||3.00|
+2-* BattleTac IVIS                 1|mm.23|8/14 days|0.15|150000||4P-R|||3.00|
+2-Protocol Emulation Mods
+3-* Protocol Emulation Mod [1]     1|mm.23|3/1 day|0.20|5000||Legal|||2.00|
+3-* Protocol Emulation Mod [2]     1|mm.23|4/2 days|0.20|10000||Legal|||2.00|
+3-* Protocol Emulation Mod [3]     1|mm.23|5/3 days|0.20|15000||Legal|||2.00|
+3-* Protocol Emulation Mod [4]     1|mm.23|6/4 days|0.20|20000||Legal|||2.00|
+3-* Protocol Emulation Mod [5]     1|mm.23|7/5 days|0.20|25000||Legal|||2.00|
+3-* Protocol Emulation Mod [6]     1|mm.23|8/6 days|0.20|30000||Legal|||2.00|
+3-* Protocol Emulation Mod [7]     1|mm.23|9/7 days|0.20|35000||Legal|||2.00|
+3-* Protocol Emulation Mod [8]     1|mm.23|10/8 days|0.20|40000||Legal|||2.00|
+3-* Protocol Emulation Mod [9]     1|mm.23|11/9 days|0.20|45000||Legal|||2.00|
+3-* Protocol Emulation Mod [10]    1|mm.23|12/10 days|0.20|50000||Legal|||2.00|
+2-Remote Control Decks
+3-* Remote Control Deck [1]        1|mm.23|4/72 hours|0.30|25000||Legal|||2.00|
+3-* Remote Control Deck [2]        1|mm.23|4/72 hours|0.30|50000||Legal|||2.00|
+3-* Remote Control Deck [3]        1|mm.23|4/72 hours|0.30|75000||Legal|||2.00|
+3-* Remote Control Deck [4]        1|mm.23|4/72 hours|0.30|100000||Legal|||2.00|
+3-* Remote Control Deck [5]        1|mm.23|4/72 hours|0.30|125000||Legal|||2.00|
+3-* Remote Control Deck [6]        1|mm.23|4/72 hours|0.30|150000||Legal|||2.00|
+3-* Remote Control Deck [7]        1|mm.23|4/72 hours|0.30|175000||Legal|||2.00|
+3-* Remote Control Deck [8]        1|mm.23|4/72 hours|0.30|200000||Legal|||2.00|
+2-RC Encryption Module
+3-* RC Encryption Module [1]       1|mm.23|1/1 day|0.20|10000||4P-W|||3.00|
+3-* RC Encryption Module [2]       1|mm.23|2/2 days|0.20|20000||4P-W|||3.00|
+3-* RC Encryption Module [3]       1|mm.23|3/3 days|0.20|30000||4P-W|||3.00|
+3-* RC Encryption Module [4]       1|mm.23|4/4 days|0.20|40000||4P-W|||3.00|
+3-* RC Encryption Module [5]       1|mm.23|5/5 days|0.20|50000||4P-W|||3.00|
+3-* RC Encryption Module [6]       1|mm.23|6/6 days|0.20|60000||4P-W|||3.00|
+3-* RC Encryption Module [7]       1|mm.23|7/7 days|0.20|70000||4P-W|||3.00|
+3-* RC Encryption Module [8]       1|mm.23|8/8 days|0.20|80000||4P-W|||3.00|
+2-Remote Control ECCM
+3-* Remote Control ECCM [1]        1|mm.23|4/7 days|0.20|15000||Legal|||2.00|
+3-* Remote Control ECCM [2]        1|mm.23|4/7 days|0.20|30000||Legal|||2.00|
+3-* Remote Control ECCM [3]        1|mm.23|4/7 days|0.20|45000||Legal|||2.00|
+3-* Remote Control ECCM [4]        1|mm.23|6/14 days|0.30|140000||6P-Q|||3.00|
+3-* Remote Control ECCM [5]        1|mm.23|6/14 days|0.30|210000||6P-Q|||3.00|
+3-* Remote Control ECCM [6]        1|mm.23|6/14 days|0.30|280000||6P-Q|||3.00|
+3-* Remote Control ECCM [7]        1|mm.23|12/28 days|0.40|525000||5P-R|||4.00|
+3-* Remote Control ECCM [8]        1|mm.23|12/28 days|0.40|600000||5P-R|||4.00|
+3-* Remote Control ECCM [9]        1|mm.23|12/28 days|0.40|675000||5P-R|||4.00|
+3-* Remote Control ECCM [10]       1|mm.23|18/45 days|0.45|900000||4P-R|||5.00|
+2-Rigger Decryption Module
+3-* Rigger Decrypt. Mod [1]        1|mm.23|3/1 day|0.20|17500||8P-W|||3.00|
+3-* Rigger Decrypt. Mod [2]        1|mm.23|4/2 days|0.20|35000||8P-W|||3.00|
+3-* Rigger Decrypt. Mod [3]        1|mm.23|5/3 days|0.20|52500||8P-W|||3.00|
+3-* Rigger Decrypt. Mod [4]        1|mm.23|6/4 days|0.20|70000||8P-W|||3.00|
+3-* Rigger Decrypt. Mod [5]        1|mm.23|7/5 days|0.20|87500||8P-W|||3.00|
+3-* Rigger Decrypt. Mod [6]        1|mm.23|8/6 days|0.20|105000||8P-W|||3.00|
+3-* Rigger Decrypt. Mod [7]        1|mm.23|9/7 days|0.20|122500||8P-W|||3.00|
+3-* Rigger Decrypt. Mod [8]        1|mm.23|10/8 days|0.20|140000||8P-W|||3.00|
+3-* Rigger Decrypt. Mod [9]        1|mm.23|11/9 days|0.20|157500||8P-W|||3.00|
+3-* Rigger Decrypt. Mod [10]       1|mm.23|12/10 days|0.20|175000||8P-W|||3.00|
+2-SimRig
+3-* Simrig Base Cyber              1|sr3.302|2/5 days|2.00|300000||Legal|||2.00|
+3-* Simrig FullX Cyber             1|sr3.302|6/12 days|2.00|500000||Legal|||2.00|
+3-* SimLink Simrig [1]             1|sr3.302|3/5 days|0.60|80000||Legal|||2.00|
+3-* SimLink Simrig [2]             1|sr3.302|3/5 days|0.60|90000||Legal|||2.00|
+3-* SimLink Simrig [3]             1|sr3.302|3/5 days|0.60|100000||Legal|||2.00|
+3-* SimLink Simrig [4]             1|sr3.302|3/5 days|0.60|110000||Legal|||2.00|
+3-* SimLink Simrig [5]             1|sr3.302|3/5 days|0.60|120000||Legal|||2.00|
+3-* SimLink Simrig [6]             1|sr3.302|3/5 days|0.60|130000||Legal|||2.00|
+3-* SimLink Simrig [7]             1|sr3.302|3/5 days|0.60|140000||Legal|||2.00|
+3-* SimLink Simrig [8]             1|sr3.302|3/5 days|0.60|150000||Legal|||2.00|
+3-* SimLink Simrig [9]             1|sr3.302|3/5 days|0.60|160000||Legal|||2.00|
+3-* SimLink Simrig [10]            1|sr3.302|3/5 days|0.60|170000||Legal|||2.00|
+2-VCR - Vehicle Control Rig
+3-* Vehicle Ctrl Rig [1]           1|sr3.302|6/48 hours|2.00|12000|+2VCT,+1VNI,+1VCR,|6P-N|||1.00|Mods only apply when rigging
+3-* Vehicle Ctrl Rig [2]           1|sr3.302|8/48 hours|3.00|60000|+4VCT,+2VNI,+2VCR,|6P-N|||1.25|Mods only apply when rigging
+3-* Vehicle Ctrl Rig [3]           1|sr3.302|8/48 hours|5.00|300000|+6VCT,+3VNI,+3VCR,|5P-N|||1.50|Mods only apply when rigging
+! ======================== SENSEWARE ==========================================
+1-SENSEWARE
+2-* Braindance Recorder (RAVEN)    1|cb3.96|8/12 days|2.00|450000||Legal|||3.00|
+2-Chem. / Gas Spectro
+3-* Chem. Analyzer                 1|mm.13|4/6 days|0.20|2500||Legal|||1.00|
+3-* Gas Spectrometer               1|mm.13|4/6 days|0.20|2500||Legal|||1.00|
+3-* +Built in Program [1]          1|mm.13|4/6 days|0.00|600||Legal|||1.00|Chemistry Skill of 3
+3-* +Built in Program [2]          1|mm.13|4/6 days|0.00|2400||Legal|||1.00|Chemistry Skill of 4
+3-* +Built in Program [3]          1|mm.13|4/6 days|0.00|5200||Legal|||1.00|Chemistry Skill of 5
+3-* +Built in Program [4]          1|mm.13|4/6 days|0.00|9600||Legal|||1.00|Chemistry Skill of 6
+3-* +Built in Program [5]          1|mm.13|4/6 days|0.00|15000||Legal|||1.00|Chemistry Skill of 7
+3-* +Built in Program [6]          1|mm.13|4/6 days|0.00|21600||Legal|||1.00|Chemistry Skill of 8
+3-* +External Program [1]          1|mm.13|5/4 days|0.00|450||Legal|||1.25|Chemistry Skill of 3
+3-* +External Program [2]          1|mm.13|5/4 days|0.00|1800||Legal|||1.25|Chemistry Skill of 4
+3-* +External Program [3]          1|mm.13|5/4 days|0.00|4050||Legal|||1.25|Chemistry Skill of 5
+3-* +External Program [4]          1|mm.13|5/4 days|0.00|7200||Legal|||1.25|Chemistry Skill of 6
+3-* +External Program [5]          1|mm.13|5/4 days|0.00|11250||Legal|||1.25|Chemistry Skill of 7
+3-* +External Program [6]          1|mm.13|5/4 days|0.00|16200||Legal|||1.25|Chemistry Skill of 8
+2-* Internal GPS                   1|mm.17|6/8 days|0.10|2000||Legal|||1.50|Same as NavDAT GPS
+2-Olfactory Boost
+3-* Olfactory Boost [1]            1|mm.17|6/8 days|0.20|1000||Legal|||1.00|+1 die smell Perception, +1 die taste Perception
+3-* Olfactory Boost [2]            1|mm.17|6/8 days|0.20|2000||Legal|||1.00|+2 die smell Perception, +1 die taste Perception
+3-* Olfactory Boost [3]            1|mm.17|6/8 days|0.20|3000||Legal|||1.00|+3 die smell Perception, +1 die taste Perception
+3-* Olfactory Boost [4]            1|mm.17|6/8 days|0.20|4000||Legal|||1.00|+4 die smell Perception, +2 die taste Perception
+3-* Olfactory Boost [5]            1|mm.17|6/8 days|0.20|5000||Legal|||1.00|+5 die smell Perception, +2 die taste Perception
+3-* Olfactory Boost [6]            1|mm.17|6/8 days|0.20|6000||Legal|||1.00|+6 die smell Perception, +2 die taste Perception
+2-* Orientation System             1|mm.17|5/6 days|0.25|15000||Legal|||2.50|Mapping unit, display/use/record map data
+! ==============================NANOWARE ============================================
+1-NANOWARE
+2-* Nanite Facilitator             1|mm.91|18/2 months|0.30|9000||Legal|||2.00|See Gear for more
+2-* Nanite Hive                    1|mm.91|10/1 month|0.70|80000||Legal|||4.00|See Gear for more
+2-* Nano-Bio sys. CrashCart        1|mm.91|8/2 weeks|1.00|100000||Legal|||1.50|
+2-* Nano-Bio sys. Guardian         1|mm.91|12/1 month|1.20|130000||Legal|||4.00|
+2-* Nano Cyberware Repair Unit->   1|mm.92|8/2 weeks|0.00|? 10% of implant cost||Legal|||1.50|
+! =============================== VARIOUS ====================================
+1-VARIOUS
+2-* Chiplok                        1|cb4.137|4/24 hours|0.00|150||Legal|||1.25|
+2-* Crypto Circuit  [1]            1|ssc.77|6/36 hours|0.10|10000||4P-CA|||1.00|
+2-* Crypto Circuit  [2]            1|ssc.77|6/36 hours|0.10|20000||4P-CA|||1.00|
+2-* Crypto Circuit  [3]            1|ssc.77|6/36 hours|0.10|30000||4P-CA|||1.00|
+2-* Crypto Circuit  [4]            1|ssc.77|6/36 hours|0.10|40000||4P-CA|||1.00|
+2-* Crypto Circuit  [5]            1|ssc.77|6/36 hours|0.10|100000||4P-CA|||1.25|
+2-* Crypto Circuit  [6]            1|ssc.77|6/36 hours|0.10|120000||4P-CA|||1.25|
+2-* Crypto Circuit  [7]            1|ssc.77|6/36 hours|0.10|140000||4P-CA|||1.25|
+2-* Crypto Circuit  [8]            1|ssc.77|8/36 hours|0.10|240000||3P-CA|||1.50|
+2-* Crypto Circuit  [9]            1|ssc.77|8/36 hours|0.10|270000||3P-CA|||1.50|
+2-* Crypto Circuit [10]            1|ssc.77|9/36 hours|0.10|500000||3P-CA|||2.00|
+2-* Cutting Torch                  1|cb1.27|6/48 hours|0.40|3500||Legal|||2.00|
+2-* Cyber-Detection Computer [1]   1|cb4.137|8/7 days|1.00|300000||4-Q|||3.00|
+2-* Cyber-Detection Computer [2]   1|cb4.137|9/7 days|1.50|400000||4-Q|||3.00|
+2-* Cyber-Detection Computer [3]   1|cb4.137|10/10 days|2.00|575000||4-Q|||3.50|
+2-* CyberPillow (CAPSULECO)        1|cb3.98|0/0|0.00|800||Legal|||0.75|
+2-* CyberPillowCase(KRAFTMATRIX)   1|cb3.98|0/0|0.00|100||Legal|||0.75|
+2-* Gyro-Stabilizer                1|cb1.28|5/48 hours|0.10|10000||Legal|||1.20|
+2-* Inhibition Neural System       1|fra.141|1/?|3.00|75000||4.00|||1.00|
+2-* Kill Display                   1|cb2.47|5/60 hours|0.30|1000||Legal|||0.90|
+2-* Logo-Line Tattoos(DERMATECH)   1|cb4.136|2/4 hours|0.05|1000||Legal|||0.75|
+2-* Mag-Duct Spots                 1|cb1.28|2/6 hours|0.20|2200||Legal|||1.00|Functions like a Datajack
+2-* Nails, Show-Off(Per pair)      1|cb3.101|0/0|0.10|90||Legal|||0.75|
+2-* Nails, Show-Off(Per 10)        1|cb3.101|0/0|0.10|425||Legal|||0.75|
+2-* Scramble Breaker [1]           1|ssc.81|6/48 hours|0.20|20000||3-CB|||1.50|
+2-* Scramble Breaker [2]           1|ssc.81|6/48 hours|0.20|40000||3-CB|||1.50|
+2-* Scramble Breaker [3]           1|ssc.81|6/48 hours|0.20|60000||3-CB|||1.50|
+2-* Scramble Breaker [4]           1|ssc.81|6/48 hours|0.20|80000||3-CB|||1.50|
+2-* Scramble Breaker [5]           1|ssc.81|8/48 hours|0.20|200000||3-CB|||1.75|
+2-* Scramble Breaker [6]           1|ssc.81|8/48 hours|0.20|240000||3-CB|||1.75|
+2-* Scramble Breaker [7]           1|ssc.81|8/48 hours|0.20|280000||3-CB|||1.75|
+2-* Scramble Breaker [8]           1|ssc.81|10/48 hours|0.20|600000||3-CB|||1.75|
+2-* Sense Link                     1|ssc.83|2/5 days|2.00|300000||10P-C|||1.00|
+2-* Sense Link (Trans)             1|ssc.83|3/5 days|0.60|80000||8P-CA|||1.50|
+2-* Stinger                        1|cb4.136|6/60 hours|0.10|2000||5P-N|||1.35|
+2-* Video Link (Trans)             1|ssc.84|4/48 hours|0.40|4500||Legal|||1.00|
+2-* Quickdraw ArmHolster           1|cb2.47|6/72 hours|0.00|400||AsWpn|||1.30|Use Free action.Only for Pistols and Knives
+2-* TVSkin (NU-TEK)                1|cb4.137|2/60 hours|0.50|6000||Legal|||0.90|A battery costs 20
+2-* Watch-Man                      1|cb1.26|3/36 hours|0.00|1800||Legal|||1.00|
+2-* Wearman Mark II                1|cb1.28|2/12 hours|0.00|200||Legal|||0.75|Stereo Implant Speaker
+!----------------------
+!Plastic Warriors books
+!----------------------
+2-* Bio-Injector                   1|pw.18|14/96 hours|0.00|30000||6P-CA|||1.00|
+2-* Clock Radio                    1|pw.53|2/24 hours|0.50|3000||Legal|||0.80|
+2-* E-Monitor level [1]            1|cb1.28|4/5 days|0.20|2000||Legal|||1.00|
+2-* E-Monitor level [2]            1|cb1.28|4/5 days|0.20|4000||Legal|||1.00|
+2-* E-Monitor level [3]            1|cb1.28|4/5 days|0.20|6000||Legal|||1.00|
+2-* E-Monitor level [4]            1|cb1.28|4/5 days|0.20|8000||Legal|||1.00|
+2-* E-Monitor level [5]            1|cb1.28|4/5 days|0.20|10000||Legal|||1.00|
+2-* E-Monitor level [6]            1|cb1.28|4/5 days|0.20|12000||Legal|||1.00|
+2-* Mood Skin (per m²)             1|cb1.28|4/36 hours|0.25|200||Legal|||0.80|
+2-* Nails, Turn-On                 1|cb1.28|0/0|0.05|200||Legal|||0.75|
+2-* Shock Inducer                  1|pw.18|8/48 hours|0.00|2000||4-CA|||1.00|
+2-* Smartball System               1|pw.37|4/48 hours|0.50|4000||Legal|||1.00|
+2-* Taser Touch                    1|pw.18|8/4 days|0.00|2000||4-CA|||2.00|
+2-* Ultrasound Vision              1|pw.19|14/7 days|0.80|25000||Legal|||1.50|
+!-----------------
+!NERPS: ShadowLore
+!-----------------
+2-* Stealth Datajack [1]           1|n/sl.88|0/0|0.15|2000|+DJK|Legal|||1.00|
+2-* Stealth Datajack [2]           1|n/sl.88|0/0|0.20|4000|+DJK|Legal|||1.00|
+2-* Stealth Datajack [3]           1|n/sl.88|0/0|0.30|16000|+DJK|Legal|||1.00|
+2-* Fuchi Bodyjack                 1|n/sl.88|0/0|0.25|1300||Legal|||0.90|
+2-* Fuchi Bodyjack [1]             1|n/sl.88|0/0|0.15|800||Legal|||0.90|
+2-* Fuchi Bodyjack [2]             1|n/sl.88|0/0|0.20|1300||Legal|||0.90|
+2-* Fuchi Bodyjack [3]             1|n/sl.88|0/0|0.25|2300||Legal|||0.90|
+2-* Fuchi Bodyjack [4]             1|n/sl.88|0/0|0.30|4300||Legal|||0.90|
+2-* Ares React System[1]           1|n/sl.88|5/14 days|1.20|29000|+2RCT,|8P-CB|||1.00|
+2-* Ares React System[2]           1|n/sl.88|5/14 days|2.80|87000|+4RCT,|5P-CB|||1.25|
+2-* Ares React System[3]           1|n/sl.88|8/14 days|3.00|153000|+6RCT,|3-CC|||1.50|
+2-* Raineer Reflex [1]             1|n/sl.89|4/3 days|1.40|27000|+1INI,|8P-CB|||1.00|
+2-* Raineer Reflex [2]             1|n/sl.89|4/6 days|2.10|75000|+2INI,|5P-CB|||1.25|
+2-* Raineer Reflex [3]             1|n/sl.89|6/10 days|3.50|185000|+3INI,|3-CC|||1.50|
+2-* Ares Reflex Contr.             1|n/sl.89|3/36 hours|0.10|500||AsReflex|||0.90|
+2-* Shiawase Booster [1]           1|n/sl.90|12/70 days|1.30|29000||5P-CB|||3.50|
+2-* Shiawase Booster [2]           1|n/sl.90|12/70 days|2.60|87000||5P-CB|||4.00|
+2-* Zeiss FullSpectrum             1|n/sl.91|5/48 hours|0.20|10000||Legal|||1.10|
+2-* Colt Scout                     1|n/sl.91|8/48 hours|0.25|12800||Legal|||1.00|
+2-* Colt Sniper                    1|n/sl.91|8/48 hours|0.40|17500||Legal|||1.00|
+2-* Nikkon Tourister               1|n/sl.91|6/24 hours|0.60|22000||Legal|||1.20|
+2-* Nikkon ProSystem               1|n/sl.91|6/24 hours|1.70|55000||Legal|||1.20|
+2-* RCA Vidpack                    1|n/sl.91|6/24 hours|0.90|38000||Legal|||1.00|
+2-* Sony XB5000                    1|n/sl.91|6/24 hours|1.25|80000||Legal|||1.00|
+2-* Fuchi VI300                    1|n/sl.91|8/48 hours|1.90|96000||Legal|||1.10|
+2-* RCA Tridpack                   1|n/sl.92|6/24 hours|0.90|36000||Legal|||1.00|
+2-* Fuchi FullTrid                 1|n/sl.92|10/7 days|2.10|103000||Legal|||1.20|
+2-* Bose Voxx System               1|n/sl.92|6/24 hours|0.40|165000||Legal|||1.00|
+2-* S'wase FilterSuite             1|n/sl.92|6/4 days|2.30|140000||Legal|||1.10|
+2-* Sony Skillman                  1|n/sl.92|4/10 days|0.55|40000||Legal|||1.00|
+2-* Ares Skillmaster               1|n/sl.92|5/10 days|3.50|720000||6P-CB|||1.00|
+2-* Ares Radio Suite               1|n/sl.92|6/36 hours|0.80|110000||4P-CA|||1.20|
+2-* Ares Secure Phone              1|n/sl.93|6/36 hours|0.60|122000||4P-CA|||1.20|
+2-* Ares BattleLink                1|n/sl.93|6/36 hours|1.00|340000||3-CB|||1.20|
+!---------------------------------------
+!Neo-Anarchist Guides To Everything Else
+!---------------------------------------

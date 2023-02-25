@@ -1,0 +1,11 @@
+! Table to hold Visability tables, Format is:
+! Type|Normal|AugLow|NatLow|AugTherm|AugNat
+Clear|+0|+0|+0|+0|+0|
+Full Darkness|+8|+8|+8|+4|+2
+Minimal Light|+6|+4|+2|+4|+2
+Partial Light|+2|+1|+0|+2|+1
+Glare|+2|+4|+2|+4|+2
+Mist|+2|+2|+0|+0|+0
+Light Smoke/Fog/Rain|+4|+4|+2|+0|+0
+Heavy Smoke/Fog/Rain|+6|+6|+4|+1|+0
+Thermal Smoke|+4|+4|+4|+8|+6

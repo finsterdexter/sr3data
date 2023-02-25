@@ -1,0 +1,1528 @@
+!-------------------------------------------------------------
+!A Few Notes:
+! Added support for Book-page and ability to exclude those books from listings
+! I will eliminate duplicate entries and add SR3 support 990813            - Mike
+! Further updates courtesy of: azar@uol.cl
+! Matrix entries by BozosLiveHere (bozoslivehere@hotpop.com)
+! Types (Formats):
+!-------
+0-11|Cyberdecks|10|Persona|Hardening|Memory|Storage|I/O Speed|Response Increase|Availability|$Cost|Street Index|Book.Page|
+0-12|Cyberdeck Other|5|Availability|$Cost|Street Index|Legality|Book.Page|
+0-13|Cyberdecks Low|9|MPCP|Default Bod/Sensor|Memory|Storage|I/O Speed|Availability|$Cost|Street Index|Book.Page|
+0-33|Cyberdeck Other2|5|Availability|$Cost|Street Index|Multiplier|Book.Page|
+0-37|Cyberdeck Otaku|7|Availability|$Cost|Street Index|Multiplier|KarmaCost|Notes|Book.Page|
+1-Cyberdecks
+2-Stock Cyberdecks
+3-* Allegiance Alpha               11|3|1|100|500|?|?|4/7days|12600|1|sr2.???|
+3-* Allegiance Sigma               11|3|1|200|500|100|0|4/7days|14000|1|sr3.304|
+3-* CATCo Babel                    11|5|2|1000|1000|200|???|?|70000|1|cd.130|
+3-* CMT Avatar                     11|7|4|700|1400|300|1|6/7days|250000|1|sr3.304|
+3-* Fairlight Excalibur            11|12|6|3000|5000|600|3|22/7days|1500000|1|sr3.304|
+3-* Fuchi Cyber-4                  11|6|3|100|500|?|?|4/7days|121400|1|sr2.???|
+3-* Fuchi Cyber-6                  11|8|4|100|500|?|?|6/7days|334500|1|sr2.???|
+3-* Fuchi Cyber-7                  11|10|4|200|1000|?|?|10/7days|1112100|1|sr2.???|
+3-* Kirama LPD-12                  11|1|0|200|200|?|?|4/7days|4815|1|cp.18|
+3-* Novatech Hyperdeck-6           11|6|4|500|1000|240|1|4/7days|125000|1|sr3.304|
+3-* Novatech Slimcase-10           11|10|5|2000|2500|480|2|18/7days|960000|1|sr3.304|
+3-* Radio Shack PCD-100            11|2|0|100|500|?|?|4/7days|6800|1|sr2.???|
+3-* Renraku Kraftwerk-8            11|8|4|1000|2000|360|2|10/7days|400000|1|sr3.304|
+3-* SGI Technologies  "Elysia"     11|4|1|80|160|?|?|4/7days|38675|1|cp.18|
+3-* Sony CTY-360-D                 11|5|3|300|600|200|1|4/7days|70000|1|sr3.304|
+3-* Transys Highlander             11|9|4|1500|2500|400|2|14/7days|600000|1|sr3.304|
+3-* Zetatech Parraline 5750        11|3|1|300|450|?|?|4/7days|19230|1|cp.18|
+2-Internal CyberDecks
+3-* CybDeck Allegiance Sigma       11|3|1|200|500|100|0|4/7days|0|1|sr3.304|
+3-* CybDeck CMT Avatar             11|7|4|700|1400|300|1|6/7days|0|1|sr3.304|
+3-* CybDeck Fairlight Excalibur    11|12|6|3000|5000|600|3|22/7days|0|1|sr3.304|
+3-* CybDeck Fuchi Cyber-4          11|6|3|100|500|?|?|4/7days|0|1|sr2.???|
+3-* CybDeck Novatech Hyperdeck-6   11|6|4|500|1000|240|1|4/7days|0|1|sr3.304|
+3-* CybDeck Novatech Slimcase-10   11|10|5|2000|2500|480|2|18/7days|0|1|sr3.304|
+3-* CybDeck Renraku Krafwerk-8     11|8|4|1000|2000|360|2|10/7days|0|1|sr3.304|
+3-* CybDeck Sony CTY-360-D         11|5|3|300|600|200|1|4/7days|0|1|sr3.304|
+3-* CybDeck Transys Highlander     11|9|4|1500|2500|400|2|14/7days|0|1|sr3.304|
+2-Low End Cyberterminals
+3-* CMT Portal                     13|1|2/3|50|100|50|Always|1300|0.5|mat.167|
+3-* MCT Matrix Master              13|1|2/3|100|200|50|Always|1900|0.5|mat.167|
+3-* CMT Comet                      13|2|3/3|100|200|50|Always|2000|0.5|mat.167|
+3-* Novatech Z-Term                13|2|2/4|100|250|50|Always|2200|0.5|mat.167|
+3-* Renraku Cybot                  13|3|4/5|100|200|50|Always|6500|0.5|mat.167|
+3-* Sony Abacus                    13|3|5/4|200|300|100|Always|7500|0.5|mat.167|
+2-Custom Cyberdecks
+3-* Maxed-out deck (MPCP 4)        11|4|2|500|1100|400|1|6/7days|61409|1|mat.???
+3-* Maxed-out deck (MPCP 6)        11|6|4|700|1500|600|1|6/7days|211649|1|mat.???
+3-* Maxed-out deck (MPCP 7)        11|7|4|800|1500|700|1|6/7days|345211|1|mat.???
+3-* Maxed-out deck (MPCP 8)        11|8|5|900|1700|800|2|6/7days|540409|1|mat.???
+3-* Maxed-out deck (MPCP 10)       11|10|6|1100|2100|1000|2|6/7days|1277985|1|mat.???
+3-* Maxed-out deck (MPCP 12)       11|12|7|1300|2500|1200|3|6/7days|2169617|1|mat.???
+1-Cyberdeck system additions
+2-Off-line Storage
+3-* Off-line Store 100 Mp          12|2/24hrs|550|1|Legal|sr3.304|
+3-* Off-line Store 200 Mp          12|2/24hrs|1050|1|Legal|sr3.304|
+3-* Off-line Store 300 Mp          12|2/24hrs|1550|1|Legal|sr3.304|
+3-* Off-line Store 400 Mp          12|2/24hrs|2050|1|Legal|sr3.304|
+3-* Off-line Store 500 Mp          12|2/24hrs|2550|1|Legal|sr3.304|
+3-* Off-line Store 600 Mp          12|2/24hrs|3050|1|Legal|sr3.304|
+3-* Off-line Store 700 Mp          12|2/24hrs|3550|1|Legal|sr3.304|
+3-* Off-line Store 800 Mp          12|2/24hrs|4050|1|Legal|sr3.304|
+3-* Off-line Store 900 Mp          12|2/24hrs|4550|1|Legal|sr3.304|
+3-* Off-line Store 1000 Mp         12|2/24hrs|5050|1|Legal|sr3.304|
+3-* Off-line Store 1100 Mp         12|2/24hrs|5550|1|Legal|sr3.304|
+3-* Off-line Store 1200 Mp         12|2/24hrs|6050|1|Legal|sr3.304|
+3-* Off-line Store 1300 Mp         12|2/24hrs|6550|1|Legal|sr3.304|
+3-* Off-line Store 1400 Mp         12|2/24hrs|7050|1|Legal|sr3.304|
+3-* Off-line Store 1500 Mp         12|2/24hrs|7550|1|Legal|sr3.304|
+!  Make your own !!
+2-Response increase
+3-* CybDeck: Response Inc[1]       12|6/48hrs|25000|1|Legal|sr2.???|
+3-* CybDeck: Response Inc[2]       12|8/72hrs|100000|2|Legal|sr2.???|
+3-* CybDeck: Response Inc[3]       12|12/7days|250000|2|Legal|sr2.???|
+2-Miscellaneous Components
+3-* Battery Pack                   12|Always|25|1|Legal|mat.169|
+3-* Chip Reader                    12|Always|200|0.75|Legal|mat.169|
+3-* Disk Drive                     12|Always|200|1|Legal|mat.169|
+3-* Display Screen                 12|2/24hrs|100|1|Legal|mat.169|
+3-* Hitcher Jack                   12|2/48hrs|250|1|Legal|sr3.304|
+3-* Keybord                        12|Always|50|0.5|Legal|mat.169|
+3-* Micro-Camcorder                12|6/48hrs|2500|2|8P-U|mat.169|
+3-* Microphone                     12|Always|50|0.5|Legal|mat.169|
+3-* Passkey Reader (Blank)         12|2/24hrs|250|2|9P-V|mat.169|
+3-* Power Cord                     12|4/48hrs|15|1|Legal|mat.169|
+3-* Printer                        12|Always|100|1|Legal|mat.169|
+3-* Trode Jack                     12|Always|500|1|8P-U|mat.169|
+3-* VR Kit                         12|Always|250|1|Legal|mat.169| 
+3-* Vidscreen Display              12|2/24hrs|100|1|Legal|sr3.304|
+3-* Induction Adaptor              12|2/24hrs|100|1|Legal|sr3.304|
+2-Casing
+3-* Casing (Rating 3)              12|2/12hrs|100|0.5|Legal|mat.169| 
+3-* Casing (Rating 6)              12|6/72hrs|1600|2|Legal|mat.169|  
+3-* Casing (Rating 10)             12|10/120hrs|3600|2|Legal|mat.169|
+2-Credistick Readers
+3-* Credistick Reader (Rating 1)   12|Always|12000|1|Legal|mat.169|
+3-* Credistick Reader (Rating 2-3) 12|Always|60000|1|Legal|mat.169|
+3-* Credistick Reader (Rating 4-5) 12|Always|100000|1|Legal|mat.169|
+3-* Credistick Slot                12|Always|50|1|Legal|mat.169|
+2-Microwave Dishes
+3-* Microwave Dish (Standard)      12|6/1wk|5000|1|Legal|mat.169|
+3-* Microwave Dish (Large)         12|8/2wks|10000|1|Legal|mat.169|
+3-* Microwave Dish (Fixed Base)    12|8/1mo|2500|1|Legal|mat.169|
+2-Satellite Dishes
+3-* Satellite Dish (Standard)      12|5/48hrs|800|1|Legal|mat.169|
+3-* Satellite Dish (Large)         12|6/48hrs|1200|1|Legal|mat.169|
+3-* Satellite Dish (Fixed Base)    12|5/1wk|900|1|Legal|mat.169|
+2-Scanners
+3-Finger/Thumbprint
+4-* Finger/Thumbprint Scanner [1]  12|1/72hrs|200|1|Legal|mat.169|
+4-* Finger/Thumbprint Scanner [3]  12|3/72hrs|600|1|Legal|mat.169|
+4-* Finger/Thumbprint Scanner [6]  12|6/72hrs|1200|1|Legal|mat.169|
+3-Palmprint
+4-* Palmprint Scanner Rating [2]   12|3/72hrs|600|2|Legal|mat.169|
+4-* Palmprint Scanner Rating [5]   12|6/72hrs|1500|2|Legal|mat.169|
+4-* Palmprint Scanner Rating [8]   12|9/72hrs|2400|2|Legal|mat.169|
+3-Retinal
+4-* Retinal Scanner Rating [6]     12|8/72hrs|6000|3|Legal|mat.169|
+4-* Retinal Scanner Rating [8]     12|10/72hrs|8000|3|Legal|mat.169|
+4-* Retinal Scanner Rating [10]    12|12/72hrs|10000|3|Legal|mat.169|
+3-Text/Picture Scanner
+3-* Text/Picture Scanner           12|Always|100|1|Legal|mat.169|
+2-Signal Locator
+3-Standard
+4-* Standard Locator Rating [1]    12|1/48hrs|200|1.5|8P-U|mat.169|
+4-* Standard Locator Rating [3]    12|3/48hrs|600|1.5|8P-U|mat.169|
+4-* Standard Locator Rating [6]    12|6/48hrs|1200|1.5|8P-U|mat.169|
+3-AOD
+4-* AOD Locator Rating [3]         12|3/48hrs|1500|1.5|8P-U|mat.169|
+4-* AOD Locator Rating [6]         12|6/48hrs|3000|1.5|8P-U|mat.169|
+4-* AOD Locator Rating [8]         12|8/48hrs|4000|1.5|8P-U|mat.169|
+2-Simlink 
+3-* Simlink Rating [2]             12|8/2wks|35000|2|8P-U|mat.169|
+3-* Simlink Rating [4]             12|8/2wks|45000|2|8P-U|mat.169|
+3-* Simlink Rating [6]             12|8/2wks|55000|2|8P-U|mat.169|
+2-Temporary Satellite Dish Components
+3-* (Sat. Dish) Electronics        12|4/24hrs|1000|0.5|Legal|mat.169|
+3-* (Sat. Dish) Plastic Webbing    12|4/24hrs|5|0.5|Legal|mat.169|
+3-* (Sat. Dish) Spray Polymer      12|4/24hrs|1|0.5|Legal|mat.169|
+2-Touchpads
+3-* Touchpad                       12|Always|50|0.5|Legal|mat.169|
+3-* Touchpad w/ Mouse Adapter      12|Always|60|1|Legal|mat.169|
+3-* Touchpad w/ Trackball Adapter  12|Always|60|1|Legal|mat.169|
+2-Transceiver 
+3-* Transceiver Rating [2]         12|2/48hrs|1000|2|8P-U|mat.169|
+3-* Transceiver Rating [4]         12|4/48hrs|2000|2|8P-U|mat.169|
+3-* Transceiver Rating [6]         12|6/48hrs|3000|2|8P-U|mat.169|
+2-Vidlink Transmitter 
+3-* Vidlink Transmitter Rating [2] 12|4/1wk|4000|2|8P-U|mat.169|
+3-* Vidlink Transmitter Rating [4] 12|4/1wk|8000|2|8P-U|mat.169|
+3-* Vidlink Transmitter Rating [6] 12|4/1wk|12000|2|8P-U|mat.169|
+2-Cyberterminal Upgrade Components
+3-Active Memory
+4-* Active Memory 100 Mp           12|Always|750|1|Legal|mat.170|
+4-* Active Memory 200 Mp           12|Always|1500|1|Legal|mat.170|
+4-* Active Memory 300 Mp           12|Always|2250|1|Legal|mat.170|
+4-* Active Memory 400 Mp           12|Always|3000|1|Legal|mat.170|
+4-* Active Memory 500 Mp           12|Always|3750|1|Legal|mat.170|
+4-* Active Memory 600 Mp           12|Always|4500|1|Legal|mat.170|
+4-* Active Memory 700 Mp           12|Always|5250|1|Legal|mat.170|
+4-* Active Memory 800 Mp           12|Always|6000|1|Legal|mat.170|
+4-* Active Memory 900 Mp           12|Always|6750|1|Legal|mat.170|
+4-* Active Memory 1000 Mp          12|Always|7500|1|Legal|mat.170|
+4-* Active Memory 1100 Mp          12|Always|8250|1|Legal|mat.170|
+4-* Active Memory 1200 Mp          12|Always|9000|1|Legal|mat.170|
+4-* Active Memory 1300 Mp          12|Always|9750|1|Legal|mat.170|
+4-* Active Memory 1400 Mp          12|Always|10500|1|Legal|mat.170|
+4-* Active Memory 1500 Mp          12|Always|11250|1|Legal|mat.170|
+!  Make your own !!
+3-I/O Speed
+4-* I/O Speed 100                  12|Always|3500|1|Legal|mat.170|
+4-* I/O Speed 200                  12|Always|7000|1|Legal|mat.170|
+4-* I/O Speed 300                  12|Always|10500|1|Legal|mat.170|
+4-* I/O Speed 400                  12|Always|14000|1|Legal|mat.170|
+4-* I/O Speed 500                  12|Always|17500|1|Legal|mat.170|
+4-* I/O Speed 600                  12|Always|21000|1|Legal|mat.170|
+!  Make your own !!
+3-Miscellaneous Upgrades
+4-* Maser Interface                12|Always|3000|1|Legal|mat.170|
+4-* Matrix Interface (5m cable)    12|Always|40|1|Legal|mat.170|
+4-* Ports (FUPs)                   12|Always|235|1|Legal|mat.170|
+3-Storage Memory
+4-* Storage Memory 100 Mp          12|Always|600|1|Legal|mat.170|
+4-* Storage Memory 200 Mp          12|Always|1200|1|Legal|mat.170|
+4-* Storage Memory 300 Mp          12|Always|1800|1|Legal|mat.170|
+4-* Storage Memory 400 Mp          12|Always|2400|1|Legal|mat.170|
+4-* Storage Memory 500 Mp          12|Always|3000|1|Legal|mat.170|
+4-* Storage Memory 600 Mp          12|Always|3600|1|Legal|mat.170|
+4-* Storage Memory 700 Mp          12|Always|4200|1|Legal|mat.170|
+4-* Storage Memory 800 Mp          12|Always|4800|1|Legal|mat.170|
+4-* Storage Memory 900 Mp          12|Always|5400|1|Legal|mat.170|
+4-* Storage Memory 1000 Mp         12|Always|6000|1|Legal|mat.170|
+4-* Storage Memory 1100 Mp         12|Always|6600|1|Legal|mat.170|
+4-* Storage Memory 1200 Mp         12|Always|7200|1|Legal|mat.170|
+4-* Storage Memory 1300 Mp         12|Always|7800|1|Legal|mat.170|
+4-* Storage Memory 1400 Mp         12|Always|8400|1|Legal|mat.170|
+4-* Storage Memory 1500 Mp         12|Always|9000|1|Legal|mat.170|
+!  Make your own !!
+3-Wireless Interface (Device Included)
+4-Cellular
+5-* Cellular Interface Rating [2]  12|2/24hrs|1140|1|Legal|mat.61|
+5-* Cellular Interface Rating [4]  12|4/24hrs|2560|1|Legal|mat.61|
+5-* Cellular Interface Rating [6]  12|6/24hrs|4260|1|Legal|mat.61|
+4-Laser/Microwave
+5-* Laser Interface                12|8/1wk|3060|1|Legal|mat.61|
+5-* Microwave Interface            12|14/3wks|5560|1|Legal|mat.61|
+4-Radio
+5-* Radio Interface Rating [2]     12|2/12hrs|640|1|Legal|mat.61|
+5-* Radio Interface Rating [4]     12|4/12hrs|1560|1|Legal|mat.61|
+5-* Radio Interface Rating [6]     12|6/12hrs|2760|1|Legal|mat.61|
+4-Satellite
+5-* Satellite Interface Rating [2] 12|2/3days|2560|1|Legal|mat.61|
+5-* Satellite Interface Rating [4] 12|4/3days|4560|1|Legal|mat.61|
+5-* Satellite Interface Rating [6] 12|6/3days|6560|1|Legal|mat.61|
+1-Programs
+2-* Image Manipulation Software    12|4/48hrs|650|1|Legal|sta2.038|
+2-Programming Suite
+3-* Programming Suite Rating [1]   33|2/7days|1500|1|15|mat.79|
+3-* Programming Suite Rating [2]   33|2/7days|6000|1|15|mat.79|
+3-* Programming Suite Rating [3]   33|2/7days|13500|1|15|mat.79|
+3-* Programming Suite Rating [4]   33|4/7days|48000|1.5|15|mat.79|
+3-* Programming Suite Rating [5]   33|4/7days|75000|1.5|15|mat.79|
+3-* Programming Suite Rating [6]   33|4/7days|108000|1.5|15|mat.79|
+3-* Programming Suite Rating [7]   33|8/14days|367500|2|15|mat.79|
+3-* Programming Suite Rating [8]   33|8/14days|480000|2|15|mat.79|
+3-* Programming Suite Rating [9]   33|8/14days|607500|2|15|mat.79|
+3-* Programming Suite Rating [10]  33|16/30days|1500000|3|15|mat.79|
+2-Operational Utilities
+3-Analyze
+4-* Analyze Rating [1]             33|2/7days|300|1|3|sr3.220|
+4-* Analyze Rating [2]             33|2/7days|1200|1|3|sr3.220|
+4-* Analyze Rating [3]             33|2/7days|2700|1|3|sr3.220|
+4-* Analyze Rating [4]             33|4/7days|9600|1.5|3|sr3.220|
+4-* Analyze Rating [5]             33|4/7days|15000|1.5|3|sr3.220|
+4-* Analyze Rating [6]             33|4/7days|21600|1.5|3|sr3.220|
+4-* Analyze Rating [7]             33|8/14days|73500|2|3|sr3.220|
+4-* Analyze Rating [8]             33|8/14days|96000|2|3|sr3.220|
+4-* Analyze Rating [9]             33|8/14days|121500|2|3|sr3.220|
+4-* Analyze Rating [10]            33|16/30days|300000|3|3|sr3.220|
+3-Browse
+4-* Browse Rating [1]              33|2/7days|100|1|1|sr3.220|
+4-* Browse Rating [2]              33|2/7days|400|1|1|sr3.220|
+4-* Browse Rating [3]              33|2/7days|900|1|1|sr3.220|
+4-* Browse Rating [4]              33|4/7days|3200|1.5|1|sr3.220|
+4-* Browse Rating [5]              33|4/7days|5000|1.5|1|sr3.220|
+4-* Browse Rating [6]              33|4/7days|7200|1.5|1|sr3.220|
+4-* Browse Rating [7]              33|8/14days|24500|2|1|sr3.220|
+4-* Browse Rating [8]              33|8/14days|32000|2|1|sr3.220|
+4-* Browse Rating [9]              33|8/14days|40500|2|1|sr3.220|
+4-* Browse Rating [10]             33|16/30days|100000|3|1|sr3.220|
+3-Camo
+4-* Camo Rating [1]                33|2/7days|300|1|3|mat.70|   
+4-* Camo Rating [2]                33|2/7days|1200|1|3|mat.70|
+4-* Camo Rating [3]                33|2/7days|2700|1|3|mat.70|     
+4-* Camo Rating [4]                33|4/7days|9600|1.5|3|mat.70|     
+4-* Camo Rating [5]                33|4/7days|15000|1.5|3|mat.70|    
+4-* Camo Rating [6]                33|4/7days|21600|1.5|3|mat.70|    
+4-* Camo Rating [7]                33|8/14days|73500|2|3|mat.70|    
+4-* Camo Rating [8]                33|8/14days|96000|2|3|mat.70|    
+4-* Camo Rating [9]                33|8/14days|121500|2|3|mat.70|   
+4-* Camo Rating [10]               33|16/30days|300000|2|3|mat.70|   
+3-Commlink
+4-* Commlink Rating [1]            33|2/7days|100|1|1|sr3.304|
+4-* Commlink Rating [2]            33|2/7days|400|1|1|sr3.304|
+4-* Commlink Rating [3]            33|2/7days|900|1|1|sr3.304|
+4-* Commlink Rating [4]            33|4/7days|3200|1.5|1|sr3.304|
+4-* Commlink Rating [5]            33|4/7days|5000|1.5|1|sr3.304|
+4-* Commlink Rating [6]            33|4/7days|7200|1.5|1|sr3.304|
+4-* Commlink Rating [7]            33|8/14days|24500|2|1|sr3.304|
+4-* Commlink Rating [8]            33|8/14days|32000|2|1|sr3.304|
+4-* Commlink Rating [9]            33|8/14days|40500|2|1|sr3.304|
+4-* Commlink Rating [10]           33|16/30days|100000|3|1|sr3.304|
+3-Crash                                              
+4-* Crash Rating [1]               33|2/7days|300|1|3|mat.70|     
+4-* Crash Rating [2]               33|2/7days|1200|1|3|mat.70|    
+4-* Crash Rating [3]               33|2/7days|2700|1|3|mat.70|    
+4-* Crash Rating [4]               33|4/7days|9600|1.5|3|mat.70|  
+4-* Crash Rating [5]               33|4/7days|15000|1.5|3|mat.70| 
+4-* Crash Rating [6]               33|4/7days|21600|1.5|3|mat.70| 
+4-* Crash Rating [7]               33|8/14days|73500|2|3|mat.70|  
+4-* Crash Rating [8]               33|8/14days|96000|2|3|mat.70|  
+4-* Crash Rating [9]               33|8/14days|121500|2|3|mat.70| 
+4-* Crash Rating [10]              33|16/30days|300000|2|3|mat.70|
+3-Compressor
+4-* Compressor Rating [1]          33|3/7days|200|1|1|sr2.???|
+4-* Compressor Rating [2]          33|3/7days|800|1|1|sr2.???|
+4-* Compressor Rating [3]          33|3/7days|1800|1|1|sr2.???|
+4-* Compressor Rating [4]          33|6/7days|16000|1.5|1|sr2.???|
+4-* Compressor Rating [5]          33|6/7days|25000|1.5|1|sr2.???|
+4-* Compressor Rating [6]          33|6/7days|36000|1.5|1|sr2.???|
+4-* Compressor Rating [7]          33|12/14days|98000|2|1|sr2.???|
+4-* Compressor Rating [8]          33|12/14days|128000|2|1|sr2.???|
+4-* Compressor Rating [9]          33|12/14days|162000|2|1|sr2.???|
+4-* Compressor Rating [10]         33|24/30days|1000000|3|1|sr2.???|
+3-Controller
+4-* Controller Rating [1]          33|3/7days|400|1|1|sr2.???|
+4-* Controller Rating [2]          33|3/7days|1600|1|1|sr2.???|
+4-* Controller Rating [3]          33|3/7days|3600|1|1|sr2.???|
+4-* Controller Rating [4]          33|6/7days|32000|1.5|1|sr2.???|
+4-* Controller Rating [5]          33|6/7days|50000|1.5|1|sr2.???|
+4-* Controller Rating [6]          33|6/7days|72000|1.5|1|sr2.???|
+4-* Controller Rating [7]          33|12/14days|196000|2|1|sr2.???|
+4-* Controller Rating [8]          33|12/14days|256000|2|1|sr2.???|
+4-* Controller Rating [9]          33|12/14days|324000|2|1|sr2.???|
+4-* Controller Rating [10]         33|24/30days|2000000|3|1|sr2.???|
+3-Deception
+4-* Deception Rating [1]           33|2/7days|200|1|2|sr3.220|
+4-* Deception Rating [2]           33|2/7days|800|1|2|sr3.220|
+4-* Deception Rating [3]           33|2/7days|1800|1|2|sr3.220|
+4-* Deception Rating [4]           33|4/7days|6400|1.5|2|sr3.220|
+4-* Deception Rating [5]           33|4/7days|10000|1.5|2|sr3.220|
+4-* Deception Rating [6]           33|4/7days|14400|1.5|2|sr3.220|
+4-* Deception Rating [7]           33|8/14days|49000|2|2|sr3.220|
+4-* Deception Rating [8]           33|8/14days|64000|2|2|sr3.220|
+4-* Deception Rating [9]           33|8/14days|81000|2|2|sr3.220|
+4-* Deception Rating [10]          33|16/30days|200000|3|2|sr3.220|
+3-Decrypt
+4-* Decrypt Rating [1]             33|2/7days|100|1|1|sr3.220|
+4-* Decrypt Rating [2]             33|2/7days|400|1|1|sr3.220|
+4-* Decrypt Rating [3]             33|2/7days|900|1|1|sr3.220|
+4-* Decrypt Rating [4]             33|4/7days|3200|1.5|1|sr3.220|
+4-* Decrypt Rating [5]             33|4/7days|5000|1.5|1|sr3.220|
+4-* Decrypt Rating [6]             33|4/7days|7200|1.5|1|sr3.220|
+4-* Decrypt Rating [7]             33|8/14days|24500|2|1|sr3.220|
+4-* Decrypt Rating [8]             33|8/14days|32000|2|1|sr3.220|
+4-* Decrypt Rating [9]             33|8/14days|40500|2|1|sr3.220|
+4-* Decrypt Rating [10]            33|16/30days|100000|3|1|sr3.220|
+3-Defuse                                              
+4-* Defuse Rating [1]              33|2/7days|200|1|2|mat.70|     
+4-* Defuse Rating [2]              33|2/7days|800|1|2|mat.70|     
+4-* Defuse Rating [3]              33|2/7days|1800|1|2|mat.70|    
+4-* Defuse Rating [4]              33|4/7days|6400|1.5|2|mat.70|  
+4-* Defuse Rating [5]              33|4/7days|10000|1.5|2|mat.70| 
+4-* Defuse Rating [6]              33|4/7days|14400|1.5|2|mat.70| 
+4-* Defuse Rating [7]              33|8/14days|49000|2|2|mat.70|  
+4-* Defuse Rating [8]              33|8/14days|64000|2|2|mat.70|  
+4-* Defuse Rating [9]              33|8/14days|81000|2|2|mat.70|  
+4-* Defuse Rating [10]             33|16/30days|200000|3|2|mat.70|
+3-Doorstop                                              
+4-* Doorstop Rating [1]            33|2/7days|200|1|2|mat.70|     
+4-* Doorstop Rating [2]            33|2/7days|800|1|2|mat.70|     
+4-* Doorstop Rating [3]            33|2/7days|1800|1|2|mat.70|    
+4-* Doorstop Rating [4]            33|4/7days|6400|1.5|2|mat.70|  
+4-* Doorstop Rating [5]            33|4/7days|10000|1.5|2|mat.70| 
+4-* Doorstop Rating [6]            33|4/7days|14400|1.5|2|mat.70| 
+4-* Doorstop Rating [7]            33|8/14days|49000|2|2|mat.70|  
+4-* Doorstop Rating [8]            33|8/14days|64000|2|2|mat.70|  
+4-* Doorstop Rating [9]            33|8/14days|81000|2|2|mat.70|  
+4-* Doorstop Rating [10]           33|16/30days|200000|3|2|mat.70|
+3-Encrypt                                              
+4-* Encrypt Rating [1]             33|2/7days|100|1|1|mat.70|     
+4-* Encrypt Rating [2]             33|2/7days|400|1|1|mat.70|     
+4-* Encrypt Rating [3]             33|2/7days|900|1|1|mat.70|     
+4-* Encrypt Rating [4]             33|4/7days|3200|1.5|1|mat.70|  
+4-* Encrypt Rating [5]             33|4/7days|5000|1.5|1|mat.70|  
+4-* Encrypt Rating [6]             33|4/7days|7200|1.5|1|mat.70|  
+4-* Encrypt Rating [7]             33|8/14days|24500|2|1|mat.70|  
+4-* Encrypt Rating [8]             33|8/14days|32000|2|1|mat.70|  
+4-* Encrypt Rating [9]             33|8/14days|40500|2|1|mat.70|  
+4-* Encrypt Rating [10]            33|16/30days|100000|3|1|mat.70|
+3-Evaluate                                              
+4-* Evaluate Rating [1]            33|2/7days|200|1|2|mat.70|     
+4-* Evaluate Rating [2]            33|2/7days|800|1|2|mat.70|     
+4-* Evaluate Rating [3]            33|2/7days|1800|1|2|mat.70|    
+4-* Evaluate Rating [4]            33|4/7days|6400|1.5|2|mat.70|  
+4-* Evaluate Rating [5]            33|4/7days|10000|1.5|2|mat.70| 
+4-* Evaluate Rating [6]            33|4/7days|14400|1.5|2|mat.70| 
+4-* Evaluate Rating [7]            33|8/14days|49000|2|2|mat.70|  
+4-* Evaluate Rating [8]            33|8/14days|64000|2|2|mat.70|  
+4-* Evaluate Rating [9]            33|8/14days|81000|2|2|mat.70|  
+4-* Evaluate Rating [10]           33|16/30days|200000|3|2|mat.70|
+3-Mirrors                                              
+4-* Mirrors Rating [1]             33|2/7days|300|1|3|mat.71|     
+4-* Mirrors Rating [2]             33|2/7days|1200|1|3|mat.71|    
+4-* Mirrors Rating [3]             33|2/7days|2700|1|3|mat.71|    
+4-* Mirrors Rating [4]             33|4/7days|9600|1.5|3|mat.71|  
+4-* Mirrors Rating [5]             33|4/7days|15000|1.5|3|mat.71| 
+4-* Mirrors Rating [6]             33|4/7days|21600|1.5|3|mat.71| 
+4-* Mirrors Rating [7]             33|8/14days|73500|2|3|mat.71|  
+4-* Mirrors Rating [8]             33|8/14days|96000|2|3|mat.71|  
+4-* Mirrors Rating [9]             33|8/14days|121500|2|3|mat.71| 
+4-* Mirrors Rating [10]            33|16/30days|300000|2|3|mat.71|
+3-Purge                                              
+4-* Purge Rating [1]               33|2/7days|200|1|2|mat.71|     
+4-* Purge Rating [2]               33|2/7days|800|1|2|mat.71|     
+4-* Purge Rating [3]               33|2/7days|1800|1|2|mat.71|    
+4-* Purge Rating [4]               33|4/7days|6400|1.5|2|mat.71|  
+4-* Purge Rating [5]               33|4/7days|10000|1.5|2|mat.71| 
+4-* Purge Rating [6]               33|4/7days|14400|1.5|2|mat.71| 
+4-* Purge Rating [7]               33|8/14days|49000|2|2|mat.71|  
+4-* Purge Rating [8]               33|8/14days|64000|2|2|mat.71|  
+4-* Purge Rating [9]               33|8/14days|81000|2|2|mat.71|  
+4-* Purge Rating [10]              33|16/30days|200000|3|2|mat.71|
+3-Read/Write
+4-* Read/Write Rating [1]          33|2/7days|200|1|2|sr3.220|
+4-* Read/Write Rating [2]          33|2/7days|800|1|2|sr3.220|
+4-* Read/Write Rating [3]          33|2/7days|1800|1|2|sr3.220|
+4-* Read/Write Rating [4]          33|4/7days|6400|1.5|2|sr3.220|
+4-* Read/Write Rating [5]          33|4/7days|10000|1.5|2|sr3.220|
+4-* Read/Write Rating [6]          33|4/7days|14400|1.5|2|sr3.220|
+4-* Read/Write Rating [7]          33|8/14days|49000|2|2|sr3.220|
+4-* Read/Write Rating [8]          33|8/14days|64000|2|2|sr3.220|
+4-* Read/Write Rating [9]          33|8/14days|81000|2|2|sr3.220|
+4-* Read/Write Rating [10]         33|16/30days|200000|3|2|sr3.220|
+3-Redecorate                                              
+4-* Redecorate Rating [1]          33|2/7days|200|1|2|mat.71|     
+4-* Redecorate Rating [2]          33|2/7days|800|1|2|mat.71|     
+4-* Redecorate Rating [3]          33|2/7days|1800|1|2|mat.71|    
+4-* Redecorate Rating [4]          33|4/7days|6400|1.5|2|mat.71|  
+4-* Redecorate Rating [5]          33|4/7days|10000|1.5|2|mat.71| 
+4-* Redecorate Rating [6]          33|4/7days|14400|1.5|2|mat.71| 
+4-* Redecorate Rating [7]          33|8/14days|49000|2|2|mat.71|  
+4-* Redecorate Rating [8]          33|8/14days|64000|2|2|mat.71|  
+4-* Redecorate Rating [9]          33|8/14days|81000|2|2|mat.71|  
+4-* Redecorate Rating [10]         33|16/30days|200000|3|2|mat.71|
+3-Relocate
+4-* Relocate Rating [1]            33|2/7days|200|1|2|sr3.220|
+4-* Relocate Rating [2]            33|2/7days|800|1|2|sr3.220|
+4-* Relocate Rating [3]            33|2/7days|1800|1|2|sr3.220|
+4-* Relocate Rating [4]            33|4/7days|6400|1.5|2|sr3.220|
+4-* Relocate Rating [5]            33|4/7days|10000|1.5|2|sr3.220|
+4-* Relocate Rating [6]            33|4/7days|14400|1.5|2|sr3.220|
+4-* Relocate Rating [7]            33|8/14days|49000|2|2|sr3.220|
+4-* Relocate Rating [8]            33|8/14days|64000|2|2|sr3.220|
+4-* Relocate Rating [9]            33|8/14days|81000|2|2|sr3.220|
+4-* Relocate Rating [10]           33|16/30days|200000|3|2|sr3.220|
+3-Reveal
+4-* Reveal Rating [1]              33|2/7days|300|1|1|sr2.???|
+4-* Reveal Rating [2]              33|2/7days|1200|1|1|sr2.???|
+4-* Reveal Rating [3]              33|2/7days|2700|1|1|sr2.???|
+4-* Reveal Rating [4]              33|4/7days|24000|1.5|1|sr2.???|
+4-* Reveal Rating [5]              33|4/7days|37500|1.5|1|sr2.???|
+4-* Reveal Rating [6]              33|4/7days|54000|1.5|1|sr2.???|
+4-* Reveal Rating [7]              33|8/14days|147000|2|1|sr2.???|
+4-* Reveal Rating [8]              33|8/14days|192000|2|1|sr2.???|
+4-* Reveal Rating [9]              33|8/14days|243000|2|1|sr2.???|
+4-* Reveal Rating [10]             33|16/100days|1500000|3|1|sr2.???|
+3-Scanner
+4-* Scanner Rating [1]             33|2/7days|300|1|3|sr3.220|
+4-* Scanner Rating [2]             33|2/7days|1200|1|3|sr3.220|
+4-* Scanner Rating [3]             33|2/7days|2700|1|3|sr3.220|
+4-* Scanner Rating [4]             33|4/7days|9600|1.5|3|sr3.220|
+4-* Scanner Rating [5]             33|4/7days|15000|1.5|3|sr3.220|
+4-* Scanner Rating [6]             33|4/7days|21600|1.5|3|sr3.220|
+4-* Scanner Rating [7]             33|8/14days|73500|2|3|sr3.220|
+4-* Scanner Rating [8]             33|8/14days|96000|2|3|sr3.220|
+4-* Scanner Rating [9]             33|8/14days|121500|2|3|sr3.220|
+4-* Scanner Rating [10]            33|16/30days|300000|3|3|sr3.220|
+3-Sniffer
+4-* Sniffer Rating [1]             33|2/7days|300|1|3|sr3.220|
+4-* Sniffer Rating [2]             33|2/7days|1200|1|3|sr3.220|
+4-* Sniffer Rating [3]             33|2/7days|2700|1|3|sr3.220|
+4-* Sniffer Rating [4]             33|4/7days|9600|1.5|3|sr3.220|
+4-* Sniffer Rating [5]             33|4/7days|15000|1.5|3|sr3.220|
+4-* Sniffer Rating [6]             33|4/7days|21600|1.5|3|sr3.220|
+4-* Sniffer Rating [7]             33|8/14days|73500|2|3|sr3.220|
+4-* Sniffer Rating [8]             33|8/14days|96000|2|3|sr3.220|
+4-* Sniffer Rating [9]             33|8/14days|121500|2|3|sr3.220|
+4-* Sniffer Rating [10]            33|16/30days|300000|3|3|sr3.220|
+3-Snooper                                              
+4-* Snooper Rating [1]             33|2/7days|200|1|2|mat.71|     
+4-* Snooper Rating [2]             33|2/7days|800|1|2|mat.71|     
+4-* Snooper Rating [3]             33|2/7days|1800|1|2|mat.71|    
+4-* Snooper Rating [4]             33|4/7days|6400|1.5|2|mat.71|  
+4-* Snooper Rating [5]             33|4/7days|10000|1.5|2|mat.71| 
+4-* Snooper Rating [6]             33|4/7days|14400|1.5|2|mat.71| 
+4-* Snooper Rating [7]             33|8/14days|49000|2|2|mat.71|  
+4-* Snooper Rating [8]             33|8/14days|64000|2|2|mat.71|  
+4-* Snooper Rating [9]             33|8/14days|81000|2|2|mat.71|  
+4-* Snooper Rating [10]            33|16/30days|200000|3|2|mat.71|
+3-Sift
+4-* Sift Rating [1]                33|3/7days|100|1|2|sr2.???|
+4-* Sift Rating [2]                33|3/7days|400|1|2|sr2.???|
+4-* Sift Rating [3]                33|3/7days|900|1|2|sr2.???|
+4-* Sift Rating [4]                33|6/7days|8000|1.5|2|sr2.???|
+4-* Sift Rating [5]                33|6/7days|12500|1.5|2|sr2.???|
+4-* Sift Rating [6]                33|6/7days|18000|1.5|2|sr2.???|
+4-* Sift Rating [7]                33|12/14days|49000|2|2|sr2.???|
+4-* Sift Rating [8]                33|12/14days|64000|2|2|sr2.???|
+4-* Sift Rating [9]                33|12/14days|81000|2|2|sr2.???|
+4-* Sift Rating [10]               33|24/30days|500000|3|2|sr2.???|
+3-Spoof
+4-* Spoof Rating [1]               33|2/7days|300|1|3|sr3.220|
+4-* Spoof Rating [2]               33|2/7days|1200|1|3|sr3.220|
+4-* Spoof Rating [3]               33|2/7days|2700|1|3|sr3.220|
+4-* Spoof Rating [4]               33|4/7days|9600|1.5|3|sr3.220|
+4-* Spoof Rating [5]               33|4/7days|15000|1.5|3|sr3.220|
+4-* Spoof Rating [6]               33|4/7days|21600|1.5|3|sr3.220|
+4-* Spoof Rating [7]               33|8/14days|73500|2|3|sr3.220|
+4-* Spoof Rating [8]               33|8/14days|96000|2|3|sr3.220|
+4-* Spoof Rating [9]               33|8/14days|121500|2|3|sr3.220|
+4-* Spoof Rating [10]              33|16/30days|300000|3|3|sr3.220|
+3-Swerve                                             
+4-* Swerve Rating [1]              33|2/7days|300|1|3|mat.70|     
+4-* Swerve Rating [2]              33|2/7days|1200|1|3|mat.70|    
+4-* Swerve Rating [3]              33|2/7days|2700|1|3|mat.70|    
+4-* Swerve Rating [4]              33|4/7days|9600|1.5|3|mat.70|  
+4-* Swerve Rating [5]              33|4/7days|15000|1.5|3|mat.70| 
+4-* Swerve Rating [6]              33|4/7days|21600|1.5|3|mat.70| 
+4-* Swerve Rating [7]              33|8/14days|73500|2|3|mat.70|  
+4-* Swerve Rating [8]              33|8/14days|96000|2|3|mat.70|  
+4-* Swerve Rating [9]              33|8/14days|121500|2|3|mat.70| 
+4-* Swerve Rating [10]             33|16/30days|300000|2|3|mat.70|
+3-Triangulation                                              
+4-* Triangulation Rating [1]       33|2/7days|200|1|2|mat.71|     
+4-* Triangulation Rating [2]       33|2/7days|800|1|2|mat.71|     
+4-* Triangulation Rating [3]       33|2/7days|1800|1|2|mat.71|    
+4-* Triangulation Rating [4]       33|4/7days|6400|1.5|2|mat.71|  
+4-* Triangulation Rating [5]       33|4/7days|10000|1.5|2|mat.71| 
+4-* Triangulation Rating [6]       33|4/7days|14400|1.5|2|mat.71| 
+4-* Triangulation Rating [7]       33|8/14days|49000|2|2|mat.71|  
+4-* Triangulation Rating [8]       33|8/14days|64000|2|2|mat.71|  
+4-* Triangulation Rating [9]       33|8/14days|81000|2|2|mat.71|  
+4-* Triangulation Rating [10]      33|16/30days|200000|3|2|mat.71|
+3-Validate                                              
+4-* Validate Rating [1]            33|2/7days|400|1|4|mat.71|     
+4-* Validate Rating [2]            33|2/7days|1600|1|4|mat.71|    
+4-* Validate Rating [3]            33|2/7days|3600|1|4|mat.71|    
+4-* Validate Rating [4]            33|4/7days|12800|1.5|4|mat.71| 
+4-* Validate Rating [5]            33|4/7days|20000|1.5|4|mat.71| 
+4-* Validate Rating [6]            33|4/7days|28800|1.5|4|mat.71| 
+4-* Validate Rating [7]            33|8/14days|98000|2|4|mat.71|  
+4-* Validate Rating [8]            33|8/14days|128000|2|4|mat.71| 
+4-* Validate Rating [9]            33|8/14days|162000|2|4|mat.71| 
+4-* Validate Rating [10]           33|16/30days|400000|3|4|mat.71|
+2-Special Utilities
+3-BattleTac Matrixlink                                              
+4-* BattleTac Matrix Rating [1]    33|2/7days|500|1|5|mat.71|     
+4-* BattleTac Matrix Rating [2]    33|2/7days|2000|1|5|mat.71|    
+4-* BattleTac Matrix Rating [3]    33|2/7days|4500|1|5|mat.71|    
+4-* BattleTac Matrix Rating [4]    33|4/7days|16000|1.5|5|mat.71| 
+4-* BattleTac Matrix Rating [5]    33|4/7days|25000|1.5|5|mat.71| 
+4-* BattleTac Matrix Rating [6]    33|4/7days|36000|1.5|5|mat.71| 
+4-* BattleTac Matrix Rating [7]    33|8/14days|122500|2|5|mat.71| 
+4-* BattleTac Matrix Rating [8]    33|8/14days|160000|2|5|mat.71| 
+4-* BattleTac Matrix Rating [9]    33|8/14days|202500|2|5|mat.71| 
+4-* BattleTac Matrix Rating [10]   33|16/30days|500000|3|5|mat.71|
+3-Cellular Link                                              
+4-* Cellular Link Rating [1]       33|2/7days|100|1|1|mat.72|     
+4-* Cellular Link Rating [2]       33|2/7days|400|1|1|mat.72|     
+4-* Cellular Link Rating [3]       33|2/7days|900|1|1|mat.72|     
+4-* Cellular Link Rating [4]       33|4/7days|3200|1.5|1|mat.72|  
+4-* Cellular Link Rating [5]       33|4/7days|5000|1.5|1|mat.72|  
+4-* Cellular Link Rating [6]       33|4/7days|7200|1.5|1|mat.72|  
+4-* Cellular Link Rating [7]       33|8/14days|24500|2|1|mat.72|  
+4-* Cellular Link Rating [8]       33|8/14days|32000|2|1|mat.72|  
+4-* Cellular Link Rating [9]       33|8/14days|40500|2|1|mat.72|  
+4-* Cellular Link Rating [10]      33|16/30days|100000|3|1|mat.72|
+3-Compressor                                              
+4-* Compressor Rating [1]          33|2/7days|200|1|2|mat.72|     
+4-* Compressor Rating [2]          33|2/7days|800|1|2|mat.72|     
+4-* Compressor Rating [3]          33|2/7days|1800|1|2|mat.72|    
+4-* Compressor Rating [4]          33|4/7days|6400|1.5|2|mat.72|  
+4-* Compressor Rating [5]          33|4/7days|10000|1.5|2|mat.72| 
+4-* Compressor Rating [6]          33|4/7days|14400|1.5|2|mat.72| 
+4-* Compressor Rating [7]          33|8/14days|49000|2|2|mat.72|  
+4-* Compressor Rating [8]          33|8/14days|64000|2|2|mat.72|  
+4-* Compressor Rating [9]          33|8/14days|81000|2|2|mat.72|  
+4-* Compressor Rating [10]         33|16/30days|200000|3|2|mat.72|
+3-Counterfeit
+4-* Counterfeit Rating [1]         33|2/7days|1000|1|10|ssg.125|
+4-* Counterfeit Rating [2]         33|2/7days|4000|1|10|ssg.125|
+4-* Counterfeit Rating [3]         33|2/7days|9000|1|10|ssg.125|
+4-* Counterfeit Rating [4]         33|4/7days|32000|1.5|10|ssg.125|
+4-* Counterfeit Rating [5]         33|4/7days|50000|1.5|10|ssg.125|
+4-* Counterfeit Rating [6]         33|4/7days|72000|1.5|10|ssg.125|
+4-* Counterfeit Rating [7]         33|8/14days|245000|2|10|ssg.125|
+4-* Counterfeit Rating [8]         33|8/14days|320000|2|10|ssg.125|
+4-* Counterfeit Rating [9]         33|8/14days|405000|2|10|ssg.125|
+4-* Counterfeit Rating [10]        33|16/30days|1000000|3|10|ssg.125|
+3-Guardian                                              
+4-* Guardian Rating [1]            33|2/7days|200|1|2|mat.72|     
+4-* Guardian Rating [2]            33|2/7days|800|1|2|mat.72|     
+4-* Guardian Rating [3]            33|2/7days|1800|1|2|mat.72|    
+4-* Guardian Rating [4]            33|4/7days|6400|1.5|2|mat.72|  
+4-* Guardian Rating [5]            33|4/7days|10000|1.5|2|mat.72| 
+4-* Guardian Rating [6]            33|4/7days|14400|1.5|2|mat.72| 
+4-* Guardian Rating [7]            33|8/14days|49000|2|2|mat.72|  
+4-* Guardian Rating [8]            33|8/14days|64000|2|2|mat.72|  
+4-* Guardian Rating [9]            33|8/14days|81000|2|2|mat.72|  
+4-* Guardian Rating [10]           33|16/30days|200000|3|2|mat.72|
+3-Laser Link                                                      
+4-* Laser Link Rating [1]          33|2/7days|100|1|1|mat.72|     
+4-* Laser Link Rating [2]          33|2/7days|400|1|1|mat.72|     
+4-* Laser Link Rating [3]          33|2/7days|900|1|1|mat.72|     
+4-* Laser Link Rating [4]          33|4/7days|3200|1.5|1|mat.72|  
+4-* Laser Link Rating [5]          33|4/7days|5000|1.5|1|mat.72|  
+4-* Laser Link Rating [6]          33|4/7days|7200|1.5|1|mat.72|  
+4-* Laser Link Rating [7]          33|8/14days|24500|2|1|mat.72|  
+4-* Laser Link Rating [8]          33|8/14days|32000|2|1|mat.72|  
+4-* Laser Link Rating [9]          33|8/14days|40500|2|1|mat.72|  
+4-* Laser Link Rating [10]         33|16/30days|100000|3|1|mat.72|
+3-Maser Link                                              
+4-* Maser Link Rating [1]          33|2/7days|100|1|1|mat.72|     
+4-* Maser Link Rating [2]          33|2/7days|400|1|1|mat.72|     
+4-* Maser Link Rating [3]          33|2/7days|900|1|1|mat.72|     
+4-* Maser Link Rating [4]          33|4/7days|3200|1.5|1|mat.72|  
+4-* Maser Link Rating [5]          33|4/7days|5000|1.5|1|mat.72|  
+4-* Maser Link Rating [6]          33|4/7days|7200|1.5|1|mat.72|  
+4-* Maser Link Rating [7]          33|8/14days|24500|2|1|mat.72|  
+4-* Maser Link Rating [8]          33|8/14days|32000|2|1|mat.72|  
+4-* Maser Link Rating [9]          33|8/14days|40500|2|1|mat.72|  
+4-* Maser Link Rating [10]         33|16/30days|100000|3|1|mat.72|
+3-Microwave Link                                              
+4-* Microwave Link Rating [1]      33|2/7days|100|1|1|mat.73|     
+4-* Microwave Link Rating [2]      33|2/7days|400|1|1|mat.73|     
+4-* Microwave Link Rating [3]      33|2/7days|900|1|1|mat.73|     
+4-* Microwave Link Rating [4]      33|4/7days|3200|1.5|1|mat.73|  
+4-* Microwave Link Rating [5]      33|4/7days|5000|1.5|1|mat.73|  
+4-* Microwave Link Rating [6]      33|4/7days|7200|1.5|1|mat.73|  
+4-* Microwave Link Rating [7]      33|8/14days|24500|2|1|mat.73|  
+4-* Microwave Link Rating [8]      33|8/14days|32000|2|1|mat.73|  
+4-* Microwave Link Rating [9]      33|8/14days|40500|2|1|mat.73|  
+4-* Microwave Link Rating [10]     33|16/30days|100000|3|1|mat.73|
+3-Radio Link                                              
+4-* Radio Link Rating [1]          33|2/7days|100|1|1|mat.73|     
+4-* Radio Link Rating [2]          33|2/7days|400|1|1|mat.73|     
+4-* Radio Link Rating [3]          33|2/7days|900|1|1|mat.73|     
+4-* Radio Link Rating [4]          33|4/7days|3200|1.5|1|mat.73|  
+4-* Radio Link Rating [5]          33|4/7days|5000|1.5|1|mat.73|  
+4-* Radio Link Rating [6]          33|4/7days|7200|1.5|1|mat.73|  
+4-* Radio Link Rating [7]          33|8/14days|24500|2|1|mat.73|  
+4-* Radio Link Rating [8]          33|8/14days|32000|2|1|mat.73|  
+4-* Radio Link Rating [9]          33|8/14days|40500|2|1|mat.73|  
+4-* Radio Link Rating [10]         33|16/30days|100000|3|1|mat.73|
+3-Remote Control
+4-* Remote Control Rating [1]      33|2/7days|300|1|3|mat.73|     
+4-* Remote Control Rating [2]      33|2/7days|1200|1|3|mat.73|    
+4-* Remote Control Rating [3]      33|2/7days|2700|1|3|mat.73|    
+4-* Remote Control Rating [4]      33|4/7days|9600|1.5|3|mat.73|  
+4-* Remote Control Rating [5]      33|4/7days|15000|1.5|3|mat.73| 
+4-* Remote Control Rating [6]      33|4/7days|21600|1.5|3|mat.73| 
+4-* Remote Control Rating [7]      33|8/14days|73500|2|3|mat.73|  
+4-* Remote Control Rating [8]      33|8/14days|96000|2|3|mat.73|  
+4-* Remote Control Rating [9]      33|8/14days|121500|2|3|mat.73| 
+4-* Remote Control Rating [10]     33|16/30days|300000|2|3|mat.73|
+3-Satellite Link                                              
+4-* Satellite Link Rating [1]      33|2/7days|200|1|2|mat.73|     
+4-* Satellite Link Rating [2]      33|2/7days|800|1|2|mat.73|     
+4-* Satellite Link Rating [3]      33|2/7days|1800|1|2|mat.73|    
+4-* Satellite Link Rating [4]      33|4/7days|6400|1.5|2|mat.73|  
+4-* Satellite Link Rating [5]      33|4/7days|10000|1.5|2|mat.73| 
+4-* Satellite Link Rating [6]      33|4/7days|14400|1.5|2|mat.73| 
+4-* Satellite Link Rating [7]      33|8/14days|49000|2|2|mat.73|  
+4-* Satellite Link Rating [8]      33|8/14days|64000|2|2|mat.73|  
+4-* Satellite Link Rating [9]      33|8/14days|81000|2|2|mat.73|  
+4-* Satellite Link Rating [10]     33|16/30days|200000|3|2|mat.73|
+3-Sleaze
+4-* Sleaze Rating [1]              33|2/7days|300|1|3|sr3.221|
+4-* Sleaze Rating [2]              33|2/7days|1200|1|3|sr3.221|
+4-* Sleaze Rating [3]              33|2/7days|2700|1|3|sr3.221|
+4-* Sleaze Rating [4]              33|4/7days|9600|1.5|3|sr3.221|
+4-* Sleaze Rating [5]              33|4/7days|15000|1.5|3|sr3.221|
+4-* Sleaze Rating [6]              33|4/7days|21600|1.5|3|sr3.221|
+4-* Sleaze Rating [7]              33|8/14days|73500|2|3|sr3.221|
+4-* Sleaze Rating [8]              33|8/14days|96000|2|3|sr3.221|
+4-* Sleaze Rating [9]              33|8/14days|121500|2|3|sr3.221|
+4-* Sleaze Rating [10]             33|16/30days|300000|3|3|sr3.221|
+3-Track
+4-* Track Rating [1]               33|2/7days|800|1|8|sr3.221|
+4-* Track Rating [2]               33|2/7days|3200|1|8|sr3.221|
+4-* Track Rating [3]               33|2/7days|7200|1|8|sr3.221|
+4-* Track Rating [4]               33|4/7days|25600|1.5|8|sr3.221|
+4-* Track Rating [5]               33|4/7days|40000|1.5|8|sr3.221|
+4-* Track Rating [6]               33|4/7days|57600|1.5|8|sr3.221|
+4-* Track Rating [7]               33|8/14days|196000|2|8|sr3.221|
+4-* Track Rating [8]               33|8/14days|256000|2|8|sr3.221|
+4-* Track Rating [9]               33|8/14days|324000|2|8|sr3.221|
+4-* Track Rating [10]              33|16/30days|800000|3|8|sr3.221|
+2-Offensive Utilities
+3-Attack
+4-* Attack Light Rating [1]        33|2/7days|200|1|2|sr3.221|
+4-* Attack Light Rating [2]        33|2/7days|800|1|2|sr3.221|
+4-* Attack Light Rating [3]        33|2/7days|1800|1|2|sr3.221|
+4-* Attack Light Rating [4]        33|4/7days|6400|1.5|2|sr3.221|
+4-* Attack Light Rating [5]        33|4/7days|10000|1.5|2|sr3.221|
+4-* Attack Light Rating [6]        33|4/7days|14400|1.5|2|sr3.221|
+4-* Attack Light Rating [7]        33|8/14days|49000|2|2|sr3.221|
+4-* Attack Light Rating [8]        33|8/14days|64000|2|2|sr3.221|
+4-* Attack Light Rating [9]        33|8/14days|81000|2|2|sr3.221|
+4-* Attack Light Rating [10]       33|16/30days|200000|3|2|sr3.221|
+4-* Attack Medium Rating [1]       33|2/7days|300|1|3|sr3.221|
+4-* Attack Medium Rating [2]       33|2/7days|1200|1|3|sr3.221|
+4-* Attack Medium Rating [3]       33|2/7days|2700|1|3|sr3.221|
+4-* Attack Medium Rating [4]       33|4/7days|9600|1.5|3|sr3.221|
+4-* Attack Medium Rating [5]       33|4/7days|15000|1.5|3|sr3.221|
+4-* Attack Medium Rating [6]       33|4/7days|21600|1.5|3|sr3.221|
+4-* Attack Medium Rating [7]       33|8/14days|73500|2|3|sr3.221|
+4-* Attack Medium Rating [8]       33|8/14days|96000|2|3|sr3.221|
+4-* Attack Medium Rating [9]       33|8/14days|121500|2|3|sr3.221|
+4-* Attack Medium Rating [10]      33|16/30days|300000|3|3|sr3.221|
+4-* Attack Serious Rating [1]      33|2/7days|400|1|4|sr3.222|
+4-* Attack Serious Rating [2]      33|2/7days|1600|1|4|sr3.222|
+4-* Attack Serious Rating [3]      33|2/7days|3600|1|4|sr3.222|
+4-* Attack Serious Rating [4]      33|4/7days|12800|1.5|4|sr3.222|
+4-* Attack Serious Rating [5]      33|4/7days|20000|1.5|4|sr3.222|
+4-* Attack Serious Rating [6]      33|4/7days|28800|1.5|4|sr3.222|
+4-* Attack Serious Rating [7]      33|8/14days|98000|2|4|sr3.222|
+4-* Attack Serious Rating [8]      33|8/14days|128000|2|4|sr3.222|
+4-* Attack Serious Rating [9]      33|8/14days|162000|2|4|sr3.222|
+4-* Attack Serious Rating [10]     33|16/30days|400000|3|4|sr3.222|
+4-* Attack Deadly Rating [1]       33|2/7days|500|1|5|sr3.221|
+4-* Attack Deadly Rating [2]       33|2/7days|2000|1|5|sr3.221|
+4-* Attack Deadly Rating [3]       33|2/7days|4500|1|5|sr3.221|
+4-* Attack Deadly Rating [4]       33|4/7days|16000|1.5|5|sr3.221|
+4-* Attack Deadly Rating [5]       33|4/7days|25000|1.5|5|sr3.221|
+4-* Attack Deadly Rating [6]       33|4/7days|36000|1.5|5|sr3.221|
+4-* Attack Deadly Rating [7]       33|8/14days|122500|2|5|sr3.221|
+4-* Attack Deadly Rating [8]       33|8/14days|160000|2|5|sr3.221|
+4-* Attack Deadly Rating [9]       33|8/14days|202500|2|5|sr3.221|
+4-* Attack Deadly Rating [10]      33|16/30days|500000|3|5|sr3.221|
+3-Black Hammer
+4-* Black Hammer Rating [1]        33|2/7days|2000|1|20|sr3.221|
+4-* Black Hammer Rating [2]        33|2/7days|8000|1|20|sr3.221|
+4-* Black Hammer Rating [3]        33|2/7days|18000|1|20|sr3.221|
+4-* Black Hammer Rating [4]        33|4/7days|64000|1.5|20|sr3.221|
+4-* Black Hammer Rating [5]        33|4/7days|100000|1.5|20|sr3.221|
+4-* Black Hammer Rating [6]        33|4/7days|144000|1.5|20|sr3.221|
+4-* Black Hammer Rating [7]        33|8/14days|490000|2|20|sr3.221|
+4-* Black Hammer Rating [8]        33|8/14days|640000|2|20|sr3.221|
+4-* Black Hammer Rating [9]        33|8/14days|810000|2|20|sr3.221|
+4-* Black Hammer Rating [10]       33|16/30days|2000000|3|20|sr3.221|
+3-Erosion                                              
+4-* Erosion Rating [1]             33|2/7days|300|1|3|mat.73|     
+4-* Erosion Rating [2]             33|2/7days|1200|1|3|mat.73|    
+4-* Erosion Rating [3]             33|2/7days|2700|1|3|mat.73|    
+4-* Erosion Rating [4]             33|4/7days|9600|1.5|3|mat.73|  
+4-* Erosion Rating [5]             33|4/7days|15000|1.5|3|mat.73| 
+4-* Erosion Rating [6]             33|4/7days|21600|1.5|3|mat.73| 
+4-* Erosion Rating [7]             33|8/14days|73500|2|3|mat.73|  
+4-* Erosion Rating [8]             33|8/14days|96000|2|3|mat.73|  
+4-* Erosion Rating [9]             33|8/14days|121500|2|3|mat.73| 
+4-* Erosion Rating [10]            33|16/30days|300000|2|3|mat.73|
+!To do: List Erosion variants
+3-Hog                                              
+4-* Hog Rating [1]                 33|2/7days|300|1|3|mat.73|     
+4-* Hog Rating [2]                 33|2/7days|1200|1|3|mat.73|    
+4-* Hog Rating [3]                 33|2/7days|2700|1|3|mat.73|    
+4-* Hog Rating [4]                 33|4/7days|9600|1.5|3|mat.73|  
+4-* Hog Rating [5]                 33|4/7days|15000|1.5|3|mat.73| 
+4-* Hog Rating [6]                 33|4/7days|21600|1.5|3|mat.73| 
+4-* Hog Rating [7]                 33|8/14days|73500|2|3|mat.73|  
+4-* Hog Rating [8]                 33|8/14days|96000|2|3|mat.73|  
+4-* Hog Rating [9]                 33|8/14days|121500|2|3|mat.73| 
+4-* Hog Rating [10]                33|16/30days|300000|2|3|mat.73|
+3-Killjoy
+4-* Killjoy Rating [1]             33|2/7days|1000|1|10|sr3.221|
+4-* Killjoy Rating [2]             33|2/7days|4000|1|10|sr3.221|
+4-* Killjoy Rating [3]             33|2/7days|9000|1|10|sr3.221|
+4-* Killjoy Rating [4]             33|4/7days|32000|1.5|10|sr3.221|
+4-* Killjoy Rating [5]             33|4/7days|50000|1.5|10|sr3.221|
+4-* Killjoy Rating [6]             33|4/7days|72000|1.5|10|sr3.221|
+4-* Killjoy Rating [7]             33|8/14days|245000|2|10|sr3.221|
+4-* Killjoy Rating [8]             33|8/14days|320000|2|10|sr3.221|
+4-* Killjoy Rating [9]             33|8/14days|405000|2|10|sr3.221|
+4-* Killjoy Rating [10]            33|16/30days|1000000|3|10|sr3.221|
+3-Poison
+4-* Poison Rating [1]              33|2/7days|300|1|5|sr2.???|
+4-* Poison Rating [2]              33|2/7days|1200|1|5|sr2.???|
+4-* Poison Rating [3]              33|2/7days|2700|1|5|sr2.???|
+4-* Poison Rating [4]              33|4/7days|24000|1.5|5|sr2.???|
+4-* Poison Rating [5]              33|4/7days|37500|1.5|5|sr2.???|
+4-* Poison Rating [6]              33|4/7days|54000|1.5|5|sr2.???|
+4-* Poison Rating [7]              33|8/14days|147000|2|5|sr2.???|
+4-* Poison Rating [8]              33|8/14days|192000|2|5|sr2.???|
+4-* Poison Rating [9]              33|8/14days|243000|2|5|sr2.???|
+4-* Poison Rating [10]             33|16/100days|1500000|3|5|sr2.???|
+3-Slow
+4-* Slow Rating [1]                33|2/7days|400|1|4|sr3.222|
+4-* Slow Rating [2]                33|2/7days|1600|1|4|sr3.222|
+4-* Slow Rating [3]                33|2/7days|3600|1|4|sr3.222|
+4-* Slow Rating [4]                33|4/7days|12800|1.5|4|sr3.222|
+4-* Slow Rating [5]                33|4/7days|20000|1.5|4|sr3.222|
+4-* Slow Rating [6]                33|4/7days|28800|1.5|4|sr3.222|
+4-* Slow Rating [7]                33|8/14days|98000|2|4|sr3.222|
+4-* Slow Rating [8]                33|8/14days|128000|2|4|sr3.222|
+4-* Slow Rating [9]                33|8/14days|162000|2|4|sr3.222|
+4-* Slow Rating [10]               33|16/30days|400000|3|4|sr3.222|
+3-Steamroller                                              
+4-* Steamroller Rating [1]         33|2/7days|300|1|3|mat.74|     
+4-* Steamroller Rating [2]         33|2/7days|1200|1|3|mat.74|    
+4-* Steamroller Rating [3]         33|2/7days|2700|1|3|mat.74|    
+4-* Steamroller Rating [4]         33|4/7days|9600|1.5|3|mat.74|  
+4-* Steamroller Rating [5]         33|4/7days|15000|1.5|3|mat.74| 
+4-* Steamroller Rating [6]         33|4/7days|21600|1.5|3|mat.74| 
+4-* Steamroller Rating [7]         33|8/14days|73500|2|3|mat.74|  
+4-* Steamroller Rating [8]         33|8/14days|96000|2|3|mat.74|  
+4-* Steamroller Rating [9]         33|8/14days|121500|2|3|mat.74| 
+4-* Steamroller Rating [10]        33|16/30days|300000|2|3|mat.74|
+2-Defensive Utilities
+3-Armor
+4-* Armor Rating [1]               33|2/7days|300|1|3|sr3.222|
+4-* Armor Rating [2]               33|2/7days|1200|1|3|sr3.222|
+4-* Armor Rating [3]               33|2/7days|2700|1|3|sr3.222|
+4-* Armor Rating [4]               33|4/7days|9600|1.5|3|sr3.222|
+4-* Armor Rating [5]               33|4/7days|15000|1.5|3|sr3.222|
+4-* Armor Rating [6]               33|4/7days|21600|1.5|3|sr3.222|
+4-* Armor Rating [7]               33|8/14days|73500|2|3|sr3.222|
+4-* Armor Rating [8]               33|8/14days|96000|2|3|sr3.222|
+4-* Armor Rating [9]               33|8/14days|121500|2|3|sr3.222|
+4-* Armor Rating [10]              33|16/30days|300000|3|3|sr3.222|
+3-Blind
+4-* Blind Rating [1]               33|2/7days|300|1|3|sr2.???|
+4-* Blind Rating [2]               33|2/7days|1200|1|3|sr2.???|
+4-* Blind Rating [3]               33|2/7days|2700|1|3|sr2.???|
+4-* Blind Rating [4]               33|4/7days|24000|1.5|3|sr2.???|
+4-* Blind Rating [5]               33|4/7days|37500|1.5|3|sr2.???|
+4-* Blind Rating [6]               33|4/7days|54000|1.5|3|sr2.???|
+4-* Blind Rating [7]               33|8/14days|147000|2|3|sr2.???|
+4-* Blind Rating [8]               33|8/14days|192000|2|3|sr2.???|
+4-* Blind Rating [9]               33|8/14days|243000|2|3|sr2.???|
+4-* Blind Rating [10]              33|16/100days|1500000|3|3|sr2.???|
+3-Cloak
+4-* Cloak Rating [1]               33|2/7days|300|1|3|sr3.222|
+4-* Cloak Rating [2]               33|2/7days|1200|1|3|sr3.222|
+4-* Cloak Rating [3]               33|2/7days|2700|1|3|sr3.222|
+4-* Cloak Rating [4]               33|4/7days|9600|1.5|3|sr3.222|
+4-* Cloak Rating [5]               33|4/7days|15000|1.5|3|sr3.222|
+4-* Cloak Rating [6]               33|4/7days|21600|1.5|3|sr3.222|
+4-* Cloak Rating [7]               33|8/14days|73500|2|3|sr3.222|
+4-* Cloak Rating [8]               33|8/14days|96000|2|3|sr3.222|
+4-* Cloak Rating [9]               33|8/14days|121500|2|3|sr3.222|
+4-* Cloak Rating [10]              33|16/30days|300000|3|3|sr3.222|
+3-Hog
+4-* Hog Rating [1]                 33|2/7days|300|1|3|sr2.???|
+4-* Hog Rating [2]                 33|2/7days|1200|1|3|sr2.???|
+4-* Hog Rating [3]                 33|2/7days|2700|1|3|sr2.???|
+4-* Hog Rating [4]                 33|4/7days|24000|1.5|3|sr2.???|
+4-* Hog Rating [5]                 33|4/7days|37500|1.5|3|sr2.???|
+4-* Hog Rating [6]                 33|4/7days|54000|1.5|3|sr2.???|
+4-* Hog Rating [7]                 33|8/14days|147000|2|3|sr2.???|
+4-* Hog Rating [8]                 33|8/14days|192000|2|3|sr2.???|
+4-* Hog Rating [9]                 33|8/14days|243000|2|3|sr2.???|
+4-* Hog Rating [10]                33|16/100days|1500000|3|3|sr2.???|
+3-LockOn
+4-* LockOn Rating [1]              33|2/7days|300|1|3|sr3.222|
+4-* LockOn Rating [2]              33|2/7days|1200|1|3|sr3.222|
+4-* LockOn Rating [3]              33|2/7days|2700|1|3|sr3.222|
+4-* LockOn Rating [4]              33|4/7days|9600|1.5|3|sr3.222|
+4-* LockOn Rating [5]              33|4/7days|15000|1.5|3|sr3.222|
+4-* LockOn Rating [6]              33|4/7days|21600|1.5|3|sr3.222|
+4-* LockOn Rating [7]              33|8/14days|73500|2|3|sr3.222|
+4-* LockOn Rating [8]              33|8/14days|96000|2|3|sr3.222|
+4-* LockOn Rating [9]              33|8/14days|121500|2|3|sr3.222|
+4-* LockOn Rating [10]             33|16/30days|300000|3|3|sr3.222|
+3-Medic
+4-* Medic Rating [1]               33|2/7days|400|1|4|sr3.222|
+4-* Medic Rating [2]               33|2/7days|1600|1|4|sr3.222|
+4-* Medic Rating [3]               33|2/7days|3600|1|4|sr3.222|
+4-* Medic Rating [4]               33|4/7days|12800|1.5|4|sr3.222|
+4-* Medic Rating [5]               33|4/7days|20000|1.5|4|sr3.222|
+4-* Medic Rating [6]               33|4/7days|28800|1.5|4|sr3.222|
+4-* Medic Rating [7]               33|8/14days|98000|2|4|sr3.222|
+4-* Medic Rating [8]               33|8/14days|128000|2|4|sr3.222|
+4-* Medic Rating [9]               33|8/14days|162000|2|4|sr3.222|
+4-* Medic Rating [10]              33|16/30days|400000|3|4|sr3.222|
+3-Mirror
+4-* Mirror Rating [1]              33|2/7days|300|1|4|sr2.???|
+4-* Mirror Rating [2]              33|2/7days|1200|1|4|sr2.???|
+4-* Mirror Rating [3]              33|2/7days|2700|1|4|sr2.???|
+4-* Mirror Rating [4]              33|4/7days|24000|1.5|4|sr2.???|
+4-* Mirror Rating [5]              33|4/7days|37500|1.5|4|sr2.???|
+4-* Mirror Rating [6]              33|4/7days|54000|1.5|4|sr2.???|
+4-* Mirror Rating [7]              33|8/14days|147000|2|4|sr2.???|
+4-* Mirror Rating [8]              33|8/14days|192000|2|4|sr2.???|
+4-* Mirror Rating [9]              33|8/14days|243000|2|4|sr2.???|
+4-* Mirror Rating [10]             33|16/100days|1500000|3|4|sr2.???|
+3-Restore
+4-* Restore Rating [1]             33|2/7days|300|1|3|mat.74|     
+4-* Restore Rating [2]             33|2/7days|1200|1|3|mat.74|    
+4-* Restore Rating [3]             33|2/7days|2700|1|3|mat.74|    
+4-* Restore Rating [4]             33|4/7days|9600|1.5|3|mat.74|  
+4-* Restore Rating [5]             33|4/7days|15000|1.5|3|mat.74| 
+4-* Restore Rating [6]             33|4/7days|21600|1.5|3|mat.74| 
+4-* Restore Rating [7]             33|8/14days|73500|2|3|mat.74|  
+4-* Restore Rating [8]             33|8/14days|96000|2|3|mat.74|  
+4-* Restore Rating [9]             33|8/14days|121500|2|3|mat.74| 
+4-* Restore Rating [10]            33|16/30days|300000|2|3|mat.74|
+3-Restrict
+4-* Restrict Rating [1]            33|2/7days|300|1|4|sr2.???|
+4-* Restrict Rating [2]            33|2/7days|1200|1|4|sr2.???|
+4-* Restrict Rating [3]            33|2/7days|2700|1|4|sr2.???|
+4-* Restrict Rating [4]            33|4/7days|24000|1.5|4|sr2.???|
+4-* Restrict Rating [5]            33|4/7days|37500|1.5|4|sr2.???|
+4-* Restrict Rating [6]            33|4/7days|54000|1.5|4|sr2.???|
+4-* Restrict Rating [7]            33|8/14days|147000|2|4|sr2.???|
+4-* Restrict Rating [8]            33|8/14days|192000|2|4|sr2.???|
+4-* Restrict Rating [9]            33|8/14days|243000|2|4|sr2.???|
+4-* Restrict Rating [10]           33|16/100days|1500000|3|4|sr2.???|
+3-Shield
+4-* Shield Rating [1]              33|2/7days|400|1|4|mat.74|     
+4-* Shield Rating [2]              33|2/7days|1600|1|4|mat.74|    
+4-* Shield Rating [3]              33|2/7days|3600|1|4|mat.74|    
+4-* Shield Rating [4]              33|4/7days|12800|1.5|4|mat.74| 
+4-* Shield Rating [5]              33|4/7days|20000|1.5|4|mat.74| 
+4-* Shield Rating [6]              33|4/7days|28800|1.5|4|mat.74| 
+4-* Shield Rating [7]              33|8/14days|98000|2|4|mat.74|  
+4-* Shield Rating [8]              33|8/14days|128000|2|4|mat.74| 
+4-* Shield Rating [9]              33|8/14days|162000|2|4|mat.74| 
+4-* Shield Rating [10]             33|16/30days|400000|3|4|mat.74|
+3-Smoke
+4-* Smoke Rating [1]               33|3/7days|200|1|3|sr2.???|
+4-* Smoke Rating [2]               33|3/7days|800|1|3|sr2.???|
+4-* Smoke Rating [3]               33|3/7days|1800|1|3|sr2.???|
+4-* Smoke Rating [4]               33|6/7days|16000|1.5|3|sr2.???|
+4-* Smoke Rating [5]               33|6/7days|25000|1.5|3|sr2.???|
+4-* Smoke Rating [6]               33|6/7days|36000|1.5|3|sr2.???|
+4-* Smoke Rating [7]               33|12/14days|98000|2|3|sr2.???|
+4-* Smoke Rating [8]               33|12/14days|128000|2|3|sr2.???|
+4-* Smoke Rating [9]               33|12/14days|162000|2|3|sr2.???|
+4-* Smoke Rating [10]              33|24/30days|1000000|3|3|sr2.???|
+2-Frames
+3-Dumb Frames
+4-* Dumb Frame Core Rating [1]     33|2/7days|300|1|3|mat.89|     
+4-* Dumb Frame Core Rating [2]     33|2/7days|1200|1|3|mat.89|    
+4-* Dumb Frame Core Rating [3]     33|2/7days|2700|1|3|mat.89|    
+4-* Dumb Frame Core Rating [4]     33|4/7days|9600|1.5|3|mat.89|  
+4-* Dumb Frame Core Rating [5]     33|4/7days|15000|1.5|3|mat.89| 
+4-* Dumb Frame Core Rating [6]     33|4/7days|21600|1.5|3|mat.89| 
+4-* Dumb Frame Core Rating [7]     33|8/14days|73500|2|3|mat.89|  
+4-* Dumb Frame Core Rating [8]     33|8/14days|96000|2|3|mat.89|  
+4-* Dumb Frame Core Rating [9]     33|8/14days|121500|2|3|mat.89| 
+4-* Dumb Frame Core Rating [10]    33|16/30days|300000|2|3|mat.89|
+3-Smart Frames
+4-* Smart Frame Core Rating [1]    33|2/7days|600|1|6|mat.89|     
+4-* Smart Frame Core Rating [2]    33|2/7days|2400|1|6|mat.89|    
+4-* Smart Frame Core Rating [3]    33|2/7days|5400|1|6|mat.89|    
+4-* Smart Frame Core Rating [4]    33|4/7days|19200|1.5|6|mat.89|  
+4-* Smart Frame Core Rating [5]    33|4/7days|30000|1.5|6|mat.89| 
+4-* Smart Frame Core Rating [6]    33|4/7days|43200|1.5|6|mat.89| 
+4-* Smart Frame Core Rating [7]    33|8/14days|147000|2|6|mat.89|  
+4-* Smart Frame Core Rating [8]    33|8/14days|192000|2|6|mat.89|  
+4-* Smart Frame Core Rating [9]    33|8/14days|243000|2|6|mat.89| 
+4-* Smart Frame Core Rating [10]   33|16/30days|600000|2|6|mat.89|
+3-Agents
+4-* Agent Core Rating [1]          33|4/14days|1000|1|10|mat.89|     
+4-* Agent Core Rating [2]          33|4/14days|4000|1|10|mat.89|     
+4-* Agent Core Rating [3]          33|4/14days|9000|1|10|mat.89|     
+4-* Agent Core Rating [4]          33|8/14days|32000|1.5|10|mat.89|  
+4-* Agent Core Rating [5]          33|8/14days|50000|1.5|10|mat.89|  
+4-* Agent Core Rating [6]          33|8/14days|72000|1.5|10|mat.89|  
+4-* Agent Core Rating [7]          33|16/28days|245000|2|10|mat.89|  
+4-* Agent Core Rating [8]          33|16/28days|320000|2|10|mat.89|  
+4-* Agent Core Rating [9]          33|16/28days|405000|2|10|mat.89|  
+4-* Agent Core Rating [10]         33|32/60days|1000000|3|10|mat.89|
+2-IC
+3-Black
+4-* Cerebropathic IC Rating [1]    33|4/14days|1600|1|16|mat.165|
+4-* Cerebropathic IC Rating [2]    33|4/14days|6400|1|16|mat.165|
+4-* Cerebropathic IC Rating [3]    33|4/14days|14400|1|16|mat.165|
+4-* Cerebropathic IC Rating [4]    33|8/14days|51200|1.5|16|mat.165|
+4-* Cerebropathic IC Rating [5]    33|8/14days|80000|1.5|16|mat.165|
+4-* Cerebropathic IC Rating [6]    33|8/14days|115200|1.5|16|mat.165|
+4-* Cerebropathic IC Rating [7]    33|16/28days|381200|2|16|mat.165|
+4-* Cerebropathic IC Rating [8]    33|16/28days|512000|2|16|mat.165|
+4-* Cerebropathic IC Rating [9]    33|16/28days|648000|2|16|mat.165|
+4-* Cerebropathic IC Rating [10]   33|32/60days|1600000|3|16|mat.165|
+4-* Lethal Black IC Rating [1]     33|2/7days|2500|1|25|mat.165|     
+4-* Lethal Black IC Rating [2]     33|2/7days|10000|1|25|mat.165|    
+4-* Lethal Black IC Rating [3]     33|2/7days|22500|1|25|mat.165|    
+4-* Lethal Black IC Rating [4]     33|4/7days|80000|1.5|25|mat.165| 
+4-* Lethal Black IC Rating [5]     33|4/7days|125000|1.5|25|mat.165| 
+4-* Lethal Black IC Rating [6]     33|4/7days|180000|1.5|25|mat.165| 
+4-* Lethal Black IC Rating [7]     33|8/14days|612500|2|25|mat.165| 
+4-* Lethal Black IC Rating [8]     33|8/14days|800000|2|25|mat.165| 
+4-* Lethal Black IC Rating [9]     33|8/14days|1012500|2|25|mat.165| 
+4-* Lethal Black IC Rating [10]    33|16/30days|2500000|3|25|mat.165|
+4-* Non-Lethal Black IC [1]        33|4/14days|1200|1|12|mat.165|     
+4-* Non-Lethal Black IC [2]        33|4/14days|4800|1|12|mat.165|    
+4-* Non-Lethal Black IC [3]        33|4/14days|10800|1|12|mat.165|    
+4-* Non-Lethal Black IC [4]        33|8/14days|38400|1.5|12|mat.165|  
+4-* Non-Lethal Black IC [5]        33|8/14days|60000|1.5|12|mat.165| 
+4-* Non-Lethal Black IC [6]        33|8/14days|86400|1.5|12|mat.165| 
+4-* Non-Lethal Black IC [7]        33|16/28days|294000|2|12|mat.165|  
+4-* Non-Lethal Black IC [8]        33|16/28days|384000|2|12|mat.165|  
+4-* Non-Lethal Black IC [9]        33|16/28days|486000|2|12|mat.165| 
+4-* Non-Lethal Black IC [10]       33|32/60days|1200000|2|12|mat.165|
+4-* Psychotropic IC Rating [1]     33|4/14days|2000|1|20|mat.165|
+4-* Psychotropic IC Rating [2]     33|4/14days|8000|1|20|mat.165|
+4-* Psychotropic IC Rating [3]     33|4/14days|18000|1|20|mat.165|
+4-* Psychotropic IC Rating [4]     33|8/14days|642000|1.5|20|mat.165|
+4-* Psychotropic IC Rating [5]     33|8/14days|100000|1.5|20|mat.165|
+4-* Psychotropic IC Rating [6]     33|8/14days|144000|1.5|20|mat.165|
+4-* Psychotropic IC Rating [7]     33|16/28days|490000|2|20|mat.165|
+4-* Psychotropic IC Rating [8]     33|16/28days|640000|2|20|mat.165|
+4-* Psychotropic IC Rating [9]     33|16/28days|810000|2|20|mat.165|
+4-* Psychotropic IC Rating [10]    33|32/60days|2000000|3|20|mat.165|
+3-Blaster
+4-* Blaster IC Rating [1]          33|4/14days|1000|1|10|mat.165|     
+4-* Blaster IC Rating [2]          33|4/14days|4000|1|10|mat.165|     
+4-* Blaster IC Rating [3]          33|4/14days|9000|1|10|mat.165|     
+4-* Blaster IC Rating [4]          33|8/14days|32000|1.5|10|mat.165|  
+4-* Blaster IC Rating [5]          33|8/14days|50000|1.5|10|mat.165|  
+4-* Blaster IC Rating [6]          33|8/14days|72000|1.5|10|mat.165|  
+4-* Blaster IC Rating [7]          33|16/28days|245000|2|10|mat.165|  
+4-* Blaster IC Rating [8]          33|16/28days|320000|2|10|mat.165|  
+4-* Blaster IC Rating [9]          33|16/28days|405000|2|10|mat.165|  
+4-* Blaster IC Rating [10]         33|32/60days|1000000|3|10|mat.165|
+3-Crippler
+4-* Crippler IC Rating [1]         33|4/14days|600|1|6|mat.165|     
+4-* Crippler IC Rating [2]         33|4/14days|2400|1|6|mat.165|    
+4-* Crippler IC Rating [3]         33|4/14days|5400|1|6|mat.165|    
+4-* Crippler IC Rating [4]         33|8/14days|19200|1.5|6|mat.165| 
+4-* Crippler IC Rating [5]         33|8/14days|30000|1.5|6|mat.165| 
+4-* Crippler IC Rating [6]         33|8/14days|43200|1.5|6|mat.165| 
+4-* Crippler IC Rating [7]         33|16/28days|147000|2|6|mat.165| 
+4-* Crippler IC Rating [8]         33|16/28days|192000|2|6|mat.165| 
+4-* Crippler IC Rating [9]         33|16/28days|243000|2|6|mat.165| 
+4-* Crippler IC Rating [10]        33|32/60days|600000|2|6|mat.165|
+3-Data Bomb
+4-* Data Bomb IC Rating [1]        33|4/14dys|500|1|5|mat.165|
+4-* Data Bomb IC Rating [2]        33|4/14dys|2000|1|5|mat.165|
+4-* Data Bomb IC Rating [3]        33|4/14dys|4500|1|5|mat.165|
+4-* Data Bomb IC Rating [4]        33|8/14dys|16000|1.5|5|mat.165|
+4-* Data Bomb IC Rating [5]        33|8/14dys|25000|1.5|5|mat.165|
+4-* Data Bomb IC Rating [6]        33|8/14dys|36000|1.5|5|mat.165|
+4-* Data Bomb IC Rating [7]        33|16/28ays|122500|2|5|mat.165|
+4-* Data Bomb IC Rating [8]        33|16/28ays|160000|2|5|mat.165|
+4-* Data Bomb IC Rating [9]        33|16/28ays|202500|2|5|mat.165|
+4-* Data Bomb IC Rating [10]       33|32/60days|500000|3|5|mat.165|
+3-Killer
+4-* Killer IC Rating [1]           33|4/14days|800|1|8|mat.165|
+4-* Killer IC Rating [2]           33|4/14days|3200|1|8|mat.165|
+4-* Killer IC Rating [3]           33|4/14days|7200|1|8|mat.165|
+4-* Killer IC Rating [4]           33|8/14days|25600|1.5|8|mat.165|
+4-* Killer IC Rating [5]           33|8/14days|40000|1.5|8|mat.165|
+4-* Killer IC Rating [6]           33|8/14days|57600|1.5|8|mat.165|
+4-* Killer IC Rating [7]           33|16/28days|196000|2|8|mat.165|
+4-* Killer IC Rating [8]           33|16/28days|256000|2|8|mat.165|
+4-* Killer IC Rating [9]           33|16/28days|324000|2|8|mat.165|
+4-* Killer IC Rating [10]          33|32/60days|800000|3|8|mat.165|
+3-Pavlov
+4-* Pavlov IC Rating [1]           33|4/14days|400|1|4|mat.165|
+4-* Pavlov IC Rating [2]           33|4/14days|1600|1|4|mat.165|
+4-* Pavlov IC Rating [3]           33|4/14days|3600|1|4|mat.165|
+4-* Pavlov IC Rating [4]           33|8/14days|12800|1.5|4|mat.165|
+4-* Pavlov IC Rating [5]           33|8/14days|20000|1.5|4|mat.165|
+4-* Pavlov IC Rating [6]           33|8/14days|28800|1.5|4|mat.165|
+4-* Pavlov IC Rating [7]           33|16/28days|98000|2|4|mat.165|
+4-* Pavlov IC Rating [8]           33|16/28days|128000|2|4|mat.165|
+4-* Pavlov IC Rating [9]           33|16/28days|162000|2|4|mat.165|
+4-* Pavlov IC Rating [10]          33|32/60days|400000|3|4|mat.165|
+3-Probe
+4-* Probe IC Rating [1]            33|4/14days|300|1|3|mat.165|     
+4-* Probe IC Rating [2]            33|4/14days|1200|1|3|mat.165|    
+4-* Probe IC Rating [3]            33|4/14days|2700|1|3|mat.165|    
+4-* Probe IC Rating [4]            33|8/14days|9600|1.5|3|mat.165|  
+4-* Probe IC Rating [5]            33|8/14days|15000|1.5|3|mat.165| 
+4-* Probe IC Rating [6]            33|8/14days|21600|1.5|3|mat.165| 
+4-* Probe IC Rating [7]            33|16/28days|73500|2|3|mat.165|  
+4-* Probe IC Rating [8]            33|16/28days|96000|2|3|mat.165|  
+4-* Probe IC Rating [9]            33|16/28days|121500|2|3|mat.165| 
+4-* Probe IC Rating [10]           33|32/60days|300000|2|3|mat.165|
+3-Ripper
+4-* Ripper IC Rating [1]           33|4/14days|800|1|8|mat.165|     
+4-* Ripper IC Rating [2]           33|4/14days|3200|1|8|mat.165|    
+4-* Ripper IC Rating [3]           33|4/14days|7200|1|8|mat.165|    
+4-* Ripper IC Rating [4]           33|8/14days|25600|1.5|8|mat.165| 
+4-* Ripper IC Rating [5]           33|8/14days|40000|1.5|8|mat.165| 
+4-* Ripper IC Rating [6]           33|8/14days|57600|1.5|8|mat.165| 
+4-* Ripper IC Rating [7]           33|16/28days|196000|2|8|mat.165| 
+4-* Ripper IC Rating [8]           33|16/28days|256000|2|8|mat.165| 
+4-* Ripper IC Rating [9]           33|16/28days|324000|2|8|mat.165| 
+4-* Ripper IC Rating [10]          33|32/60days|800000|3|8|mat.165|
+3-Scout
+4-* Scout IC Rating [1]            33|4/14days|500|1|5|mat.165|
+4-* Scout IC Rating [2]            33|4/14days|2000|1|5|mat.165|
+4-* Scout IC Rating [3]            33|4/14days|4500|1|5|mat.165|
+4-* Scout IC Rating [4]            33|8/14days|16000|1.5|5|mat.165|
+4-* Scout IC Rating [5]            33|8/14days|25000|1.5|5|mat.165|
+4-* Scout IC Rating [6]            33|8/14days|36000|1.5|5|mat.165|
+4-* Scout IC Rating [7]            33|16/28days|122500|2|5|mat.165|
+4-* Scout IC Rating [8]            33|16/28days|160000|2|5|mat.165|
+4-* Scout IC Rating [9]            33|16/28days|202500|2|5|mat.165|
+4-* Scout IC Rating [10]           33|32/60days|500000|3|5|mat.165|
+3-Scramble
+4-* Scramble IC Rating [1]         33|4/14days|300|1|3|mat.165|     
+4-* Scramble IC Rating [2]         33|4/14days|1200|1|3|mat.165|    
+4-* Scramble IC Rating [3]         33|4/14days|2700|1|3|mat.165|    
+4-* Scramble IC Rating [4]         33|8/14days|9600|1.5|3|mat.165|  
+4-* Scramble IC Rating [5]         33|8/14days|15000|1.5|3|mat.165| 
+4-* Scramble IC Rating [6]         33|8/14days|21600|1.5|3|mat.165| 
+4-* Scramble IC Rating [7]         33|16/28days|73500|2|3|mat.165|  
+4-* Scramble IC Rating [8]         33|16/28days|96000|2|3|mat.165|  
+4-* Scramble IC Rating [9]         33|16/28days|121500|2|3|mat.165| 
+4-* Scramble IC Rating [10]        33|32/60days|300000|2|3|mat.165|
+3-Sparky
+4-* Sparky IC Rating [1]           33|4/14days|1200|1|12|mat.165|     
+4-* Sparky IC Rating [2]           33|4/14days|4800|1|12|mat.165|    
+4-* Sparky IC Rating [3]           33|4/14days|10800|1|12|mat.165|    
+4-* Sparky IC Rating [4]           33|8/14days|38400|1.5|12|mat.165|  
+4-* Sparky IC Rating [5]           33|8/14days|60000|1.5|12|mat.165| 
+4-* Sparky IC Rating [6]           33|8/14days|86400|1.5|12|mat.165| 
+4-* Sparky IC Rating [7]           33|16/28days|294000|2|12|mat.165|  
+4-* Sparky IC Rating [8]           33|16/28days|384000|2|12|mat.165|  
+4-* Sparky IC Rating [9]           33|16/28days|486000|2|12|mat.165| 
+4-* Sparky IC Rating [10]          33|32/60days|1200000|2|12|mat.165|
+3-Tar Baby
+4-* Tar Baby IC Rating [1]         33|4/14days|500|1|5|mat.165|
+4-* Tar Baby IC Rating [2]         33|4/14days|2000|1|5|mat.165|
+4-* Tar Baby IC Rating [3]         33|4/14days|4500|1|5|mat.165|
+4-* Tar Baby IC Rating [4]         33|8/14days|16000|1.5|5|mat.165|
+4-* Tar Baby IC Rating [5]         33|8/14days|25000|1.5|5|mat.165|
+4-* Tar Baby IC Rating [6]         33|8/14days|36000|1.5|5|mat.165|
+4-* Tar Baby IC Rating [7]         33|16/28days|122500|2|5|mat.165|
+4-* Tar Baby IC Rating [8]         33|16/28days|160000|2|5|mat.165|
+4-* Tar Baby IC Rating [9]         33|16/28days|202500|2|5|mat.165|
+4-* Tar Baby IC Rating [10]        33|32/60days|500000|3|5|mat.165|
+3-Tar Pit
+4-* Tar Pit IC Rating [1]          33|4/14days|1400|1|7|mat.165|
+4-* Tar Pit IC Rating [2]          33|4/14days|5600|1|7|mat.165|
+4-* Tar Pit IC Rating [3]          33|4/14days|12600|1|7|mat.165|
+4-* Tar Pit IC Rating [4]          33|8/14days|448000|1.5|7|mat.165|
+4-* Tar Pit IC Rating [5]          33|8/14days|70000|1.5|7|mat.165|
+4-* Tar Pit IC Rating [6]          33|8/14days|100800|1.5|7|mat.165|
+4-* Tar Pit IC Rating [7]          33|16/28days|343000|2|7|mat.165|
+4-* Tar Pit IC Rating [8]          33|16/28days|448000|2|7|mat.165|
+4-* Tar Pit IC Rating [9]          33|16/28days|567000|2|7|mat.165|
+4-* Tar Pit IC Rating [10]         33|32/60days|1400000|3|7|mat.165|
+3-Trace
+4-* Trace IC Rating [1]            33|4/14days|1000|1|10|mat.165|     
+4-* Trace IC Rating [2]            33|4/14days|4000|1|10|mat.165|     
+4-* Trace IC Rating [3]            33|4/14days|9000|1|10|mat.165|     
+4-* Trace IC Rating [4]            33|8/14days|32000|1.5|10|mat.165|  
+4-* Trace IC Rating [5]            33|8/14days|50000|1.5|10|mat.165|  
+4-* Trace IC Rating [6]            33|8/14days|72000|1.5|10|mat.165|  
+4-* Trace IC Rating [7]            33|16/28days|245000|2|10|mat.165|  
+4-* Trace IC Rating [8]            33|16/28days|320000|2|10|mat.165|  
+4-* Trace IC Rating [9]            33|16/28days|405000|2|10|mat.165|  
+4-* Trace IC Rating [10]           33|32/60days|1000000|3|10|mat.165|
+2-Worms
+3-Crashworm
+4-* Crashworm Rating [1]           33|2/7days|200|1|2|mat.93|     
+4-* Crashworm Rating [2]           33|2/7days|800|1|2|mat.93|     
+4-* Crashworm Rating [3]           33|2/7days|1800|1|2|mat.93|    
+4-* Crashworm Rating [4]           33|4/7days|6400|1.5|2|mat.93|  
+4-* Crashworm Rating [5]           33|4/7days|10000|1.5|2|mat.93| 
+4-* Crashworm Rating [6]           33|4/7days|14400|1.5|2|mat.93| 
+4-* Crashworm Rating [7]           33|8/14days|49000|2|2|mat.93|  
+4-* Crashworm Rating [8]           33|8/14days|64000|2|2|mat.93|  
+4-* Crashworm Rating [9]           33|8/14days|81000|2|2|mat.93|  
+4-* Crashworm Rating [10]          33|16/30days|200000|3|2|mat.93|                                   
+3-Dataworm                     
+4-* Dataworm Rating [1]            33|2/7days|300|1|3|mat.93|     
+4-* Dataworm Rating [2]            33|2/7days|1200|1|3|mat.93|    
+4-* Dataworm Rating [3]            33|2/7days|2700|1|3|mat.93|    
+4-* Dataworm Rating [4]            33|4/7days|9600|1.5|3|mat.93|  
+4-* Dataworm Rating [5]            33|4/7days|15000|1.5|3|mat.93| 
+4-* Dataworm Rating [6]            33|4/7days|21600|1.5|3|mat.93| 
+4-* Dataworm Rating [7]            33|8/14days|73500|2|3|mat.93|  
+4-* Dataworm Rating [8]            33|8/14days|96000|2|3|mat.93|  
+4-* Dataworm Rating [9]            33|8/14days|121500|2|3|mat.93| 
+4-* Dataworm Rating [10]           33|16/30days|300000|2|3|mat.93|
+3-Deathworm                    
+4-* Deathworm Rating [1]           33|2/7days|200|1|2|mat.93|     
+4-* Deathworm Rating [2]           33|2/7days|800|1|2|mat.93|     
+4-* Deathworm Rating [3]           33|2/7days|1800|1|2|mat.93|    
+4-* Deathworm Rating [4]           33|4/7days|6400|1.5|2|mat.93|  
+4-* Deathworm Rating [5]           33|4/7days|10000|1.5|2|mat.93| 
+4-* Deathworm Rating [6]           33|4/7days|14400|1.5|2|mat.93| 
+4-* Deathworm Rating [7]           33|8/14days|49000|2|2|mat.93|  
+4-* Deathworm Rating [8]           33|8/14days|64000|2|2|mat.93|  
+4-* Deathworm Rating [9]           33|8/14days|81000|2|2|mat.93|  
+4-* Deathworm Rating [10]          33|16/30days|200000|3|2|mat.93|
+3-Spawnworm                    
+4-* Spawnworm Rating [1]           33|2/7days|200|1|2|mat.93|     
+4-* Spawnworm Rating [2]           33|2/7days|800|1|2|mat.93|     
+4-* Spawnworm Rating [3]           33|2/7days|1800|1|2|mat.93|    
+4-* Spawnworm Rating [4]           33|4/7days|6400|1.5|2|mat.93|  
+4-* Spawnworm Rating [5]           33|4/7days|10000|1.5|2|mat.93| 
+4-* Spawnworm Rating [6]           33|4/7days|14400|1.5|2|mat.93| 
+4-* Spawnworm Rating [7]           33|8/14days|49000|2|2|mat.93|  
+4-* Spawnworm Rating [8]           33|8/14days|64000|2|2|mat.93|  
+4-* Spawnworm Rating [9]           33|8/14days|81000|2|2|mat.93|  
+4-* Spawnworm Rating [10]          33|16/30days|200000|3|2|mat.93|
+3-Ringworm
+4-* Ringworm Rating [1]            33|2/7days|200|1|2|mat.93|     
+4-* Ringworm Rating [2]            33|2/7days|800|1|2|mat.93|     
+4-* Ringworm Rating [3]            33|2/7days|1800|1|2|mat.93|    
+4-* Ringworm Rating [4]            33|4/7days|6400|1.5|2|mat.93|  
+4-* Ringworm Rating [5]            33|4/7days|10000|1.5|2|mat.93| 
+4-* Ringworm Rating [6]            33|4/7days|14400|1.5|2|mat.93| 
+4-* Ringworm Rating [7]            33|8/14days|49000|2|2|mat.93|  
+4-* Ringworm Rating [8]            33|8/14days|64000|2|2|mat.93|  
+4-* Ringworm Rating [9]            33|8/14days|81000|2|2|mat.93|  
+4-* Ringworm Rating [10]           33|16/30days|200000|3|2|mat.93|
+3-Tapeworm
+4-* Tapeworm Rating [1]            33|2/7days|200|1|2|mat.93|     
+4-* Tapeworm Rating [2]            33|2/7days|800|1|2|mat.93|     
+4-* Tapeworm Rating [3]            33|2/7days|1800|1|2|mat.93|    
+4-* Tapeworm Rating [4]            33|4/7days|6400|1.5|2|mat.93|  
+4-* Tapeworm Rating [5]            33|4/7days|10000|1.5|2|mat.93| 
+4-* Tapeworm Rating [6]            33|4/7days|14400|1.5|2|mat.93| 
+4-* Tapeworm Rating [7]            33|8/14days|49000|2|2|mat.93|  
+4-* Tapeworm Rating [8]            33|8/14days|64000|2|2|mat.93|  
+4-* Tapeworm Rating [9]            33|8/14days|81000|2|2|mat.93|  
+4-* Tapeworm Rating [10]           33|16/30days|200000|3|2|mat.93|
+! 0-37|Cyberdeck Otaku|7|Availability|$Cost|Street Index|Multiplier|KarmaCost|Notes|Book.Page|
+1-Otaku
+2-Complex Forms
+3-Offensive Forms
+4-Attack-L
+5-* CF: Attack-L Rating [1]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Attack-L Rating [2]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Attack-L Rating [3]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Attack-L Rating [4]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Attack-L Rating [5]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Attack-L Rating [6]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Attack-L Rating [7]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Attack-L Rating [8]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Attack-L Rating [9]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Attack-L Rating [10]                37|1/1days|0|1|2|1|notes|sr3.221|
+4-Attack-M
+5-* CF: Attack-M Rating [1]                 37|1/1days|0|1|3|1|notes|sr3.221|
+5-* CF: Attack-M Rating [2]                 37|1/1days|0|1|3|1|notes|sr3.221|
+5-* CF: Attack-M Rating [3]                 37|1/1days|0|1|3|1|notes|sr3.221|
+5-* CF: Attack-M Rating [4]                 37|1/1days|0|1|3|1|notes|sr3.221|
+5-* CF: Attack-M Rating [5]                 37|1/1days|0|1|3|1|notes|sr3.221|
+5-* CF: Attack-M Rating [6]                 37|1/1days|0|1|3|1|notes|sr3.221|
+5-* CF: Attack-M Rating [7]                 37|1/1days|0|1|3|1|notes|sr3.221|
+5-* CF: Attack-M Rating [8]                 37|1/1days|0|1|3|1|notes|sr3.221|
+5-* CF: Attack-M Rating [9]                 37|1/1days|0|1|3|1|notes|sr3.221|
+5-* CF: Attack-M Rating [10]                37|1/1days|0|1|3|1|notes|sr3.221|
+4-Attack-S
+5-* CF: Attack-S Rating [1]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Attack-S Rating [2]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Attack-S Rating [3]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Attack-S Rating [4]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Attack-S Rating [5]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Attack-S Rating [6]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Attack-S Rating [7]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Attack-S Rating [8]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Attack-S Rating [9]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Attack-S Rating [10]                37|1/1days|0|1|4|1|notes|sr3.222|
+4-Attack-D
+5-* CF: Attack-D Rating [1]                 37|1/1days|0|1|5|1|notes|sr3.222|
+5-* CF: Attack-D Rating [2]                 37|1/1days|0|1|5|1|notes|sr3.222|
+5-* CF: Attack-D Rating [3]                 37|1/1days|0|1|5|1|notes|sr3.222|
+5-* CF: Attack-D Rating [4]                 37|1/1days|0|1|5|1|notes|sr3.222|
+5-* CF: Attack-D Rating [5]                 37|1/1days|0|1|5|1|notes|sr3.222|
+5-* CF: Attack-D Rating [6]                 37|1/1days|0|1|5|1|notes|sr3.222|
+5-* CF: Attack-D Rating [7]                 37|1/1days|0|1|5|1|notes|sr3.222|
+5-* CF: Attack-D Rating [8]                 37|1/1days|0|1|5|1|notes|sr3.222|
+5-* CF: Attack-D Rating [9]                 37|1/1days|0|1|5|1|notes|sr3.222|
+5-* CF: Attack-D Rating [10]                37|1/1days|0|1|5|1|notes|sr3.222|
+4-Black Hammer
+5-* CF: Black Hammer Rating [1]             37|1/1days|0|1|20|1|notes|sr3.221|
+5-* CF: Black Hammer Rating [2]             37|1/1days|0|1|20|1|notes|sr3.221|
+5-* CF: Black Hammer Rating [3]             37|1/1days|0|1|20|1|notes|sr3.221|
+5-* CF: Black Hammer Rating [4]             37|1/1days|0|1|20|1|notes|sr3.221|
+5-* CF: Black Hammer Rating [5]             37|1/1days|0|1|20|1|notes|sr3.221|
+5-* CF: Black Hammer Rating [6]             37|1/1days|0|1|20|1|notes|sr3.221|
+5-* CF: Black Hammer Rating [7]             37|1/1days|0|1|20|1|notes|sr3.221|
+5-* CF: Black Hammer Rating [8]             37|1/1days|0|1|20|1|notes|sr3.221|
+5-* CF: Black Hammer Rating [9]             37|1/1days|0|1|20|1|notes|sr3.221|
+5-* CF: Black Hammer Rating [10]            37|1/1days|0|1|20|1|notes|sr3.221|
+4-Erosion
+5-* CF: Erosion Rating [1]                  37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Erosion Rating [2]                  37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Erosion Rating [3]                  37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Erosion Rating [4]                  37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Erosion Rating [5]                  37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Erosion Rating [6]                  37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Erosion Rating [7]                  37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Erosion Rating [8]                  37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Erosion Rating [9]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Erosion Rating [10]                 37|1/1days|0|1|3|1|notes|mat.73|
+4-Hog
+5-* CF: Hog Rating [1]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Hog Rating [2]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Hog Rating [3]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Hog Rating [4]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Hog Rating [5]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Hog Rating [6]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Hog Rating [7]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Hog Rating [8]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Hog Rating [9]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Hog Rating [10]                37|1/1days|0|1|3|1|notes|mat.73|
+4-Killjoy
+5-* CF: Killjoy Rating [1]                 37|1/1days|0|1|10|1|notes|sr3.221|
+5-* CF: Killjoy Rating [2]                 37|1/1days|0|1|10|1|notes|sr3.221|
+5-* CF: Killjoy Rating [3]                 37|1/1days|0|1|10|1|notes|sr3.221|
+5-* CF: Killjoy Rating [4]                 37|1/1days|0|1|10|1|notes|sr3.221|
+5-* CF: Killjoy Rating [5]                 37|1/1days|0|1|10|1|notes|sr3.221|
+5-* CF: Killjoy Rating [6]                 37|1/1days|0|1|10|1|notes|sr3.221|
+5-* CF: Killjoy Rating [7]                 37|1/1days|0|1|10|1|notes|sr3.221|
+5-* CF: Killjoy Rating [8]                 37|1/1days|0|1|10|1|notes|sr3.221|
+5-* CF: Killjoy Rating [9]                 37|1/1days|0|1|10|1|notes|sr3.221|
+5-* CF: Killjoy Rating [10]                37|1/1days|0|1|10|1|notes|sr3.221|
+4-Slow
+5-* CF: Slow Rating [1]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Slow Rating [2]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Slow Rating [3]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Slow Rating [4]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Slow Rating [5]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Slow Rating [6]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Slow Rating [7]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Slow Rating [8]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Slow Rating [9]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Slow Rating [10]                37|1/1days|0|1|4|1|notes|sr3.222|
+4-SteamRoller
+5-* CF: SteamRoller Rating [1]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: SteamRoller Rating [2]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: SteamRoller Rating [3]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: SteamRoller Rating [4]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: SteamRoller Rating [5]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: SteamRoller Rating [6]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: SteamRoller Rating [7]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: SteamRoller Rating [8]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: SteamRoller Rating [9]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: SteamRoller Rating [10]                37|1/1days|0|1|3|1|notes|mat.74|
+3-Defensive Forms
+4-Armor
+5-* CF: Armor Rating [1]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Armor Rating [2]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Armor Rating [3]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Armor Rating [4]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Armor Rating [5]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Armor Rating [6]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Armor Rating [7]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Armor Rating [8]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Armor Rating [9]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Armor Rating [10]                37|1/1days|0|1|3|1|notes|sr3.222|
+4-Cloak
+5-* CF: Cloak Rating [1]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Cloak Rating [2]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Cloak Rating [3]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Cloak Rating [4]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Cloak Rating [5]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Cloak Rating [6]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Cloak Rating [7]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Cloak Rating [8]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Cloak Rating [9]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Cloak Rating [10]                37|1/1days|0|1|3|1|notes|sr3.222|
+4-Lock-On
+5-* CF: Lock-On Rating [1]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Lock-On Rating [2]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Lock-On Rating [3]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Lock-On Rating [4]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Lock-On Rating [5]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Lock-On Rating [6]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Lock-On Rating [7]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Lock-On Rating [8]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Lock-On Rating [9]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Lock-On Rating [10]                37|1/1days|0|1|3|1|notes|sr3.222|
+4-Medic
+5-* CF: Medic Rating [1]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Medic Rating [2]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Medic Rating [3]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Medic Rating [4]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Medic Rating [5]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Medic Rating [6]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Medic Rating [7]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Medic Rating [8]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Medic Rating [9]                 37|1/1days|0|1|4|1|notes|sr3.222|
+5-* CF: Medic Rating [10]                37|1/1days|0|1|4|1|notes|sr3.222|
+4-Restore
+5-* CF: Restore Rating [1]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: Restore Rating [2]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: Restore Rating [3]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: Restore Rating [4]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: Restore Rating [5]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: Restore Rating [6]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: Restore Rating [7]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: Restore Rating [8]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: Restore Rating [9]                 37|1/1days|0|1|3|1|notes|mat.74|
+5-* CF: Restore Rating [10]                37|1/1days|0|1|3|1|notes|mat.74|
+4-Shield
+5-* CF: Shield Rating [1]                 37|1/1days|0|1|4|1|notes|mat.74|
+5-* CF: Shield Rating [2]                 37|1/1days|0|1|4|1|notes|mat.74|
+5-* CF: Shield Rating [3]                 37|1/1days|0|1|4|1|notes|mat.74|
+5-* CF: Shield Rating [4]                 37|1/1days|0|1|4|1|notes|mat.74|
+5-* CF: Shield Rating [5]                 37|1/1days|0|1|4|1|notes|mat.74|
+5-* CF: Shield Rating [6]                 37|1/1days|0|1|4|1|notes|mat.74|
+5-* CF: Shield Rating [7]                 37|1/1days|0|1|4|1|notes|mat.74|
+5-* CF: Shield Rating [8]                 37|1/1days|0|1|4|1|notes|mat.74|
+5-* CF: Shield Rating [9]                 37|1/1days|0|1|4|1|notes|mat.74|
+5-* CF: Shield Rating [10]                37|1/1days|0|1|4|1|notes|mat.74|
+3-Special Forms
+4-Track
+5-* CF: Track Rating [1]                 37|1/1days|0|1|8|1|notes|sr3.21|
+5-* CF: Track Rating [2]                 37|1/1days|0|1|8|1|notes|sr3.21|
+5-* CF: Track Rating [3]                 37|1/1days|0|1|8|1|notes|sr3.21|
+5-* CF: Track Rating [4]                 37|1/1days|0|1|8|1|notes|sr3.21|
+5-* CF: Track Rating [5]                 37|1/1days|0|1|8|1|notes|sr3.21|
+5-* CF: Track Rating [6]                 37|1/1days|0|1|8|1|notes|sr3.21|
+5-* CF: Track Rating [7]                 37|1/1days|0|1|8|1|notes|sr3.21|
+5-* CF: Track Rating [8]                 37|1/1days|0|1|8|1|notes|sr3.21|
+5-* CF: Track Rating [9]                 37|1/1days|0|1|8|1|notes|sr3.21|
+5-* CF: Track Rating [10]                37|1/1days|0|1|8|1|notes|sr3.21|
+4-Sleaze
+5-* CF: Sleaze Rating [1]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Sleaze Rating [2]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Sleaze Rating [3]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Sleaze Rating [4]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Sleaze Rating [5]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Sleaze Rating [6]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Sleaze Rating [7]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Sleaze Rating [8]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Sleaze Rating [9]                 37|1/1days|0|1|3|1|notes|sr3.222|
+5-* CF: Sleaze Rating [10]                37|1/1days|0|1|3|1|notes|sr3.222|
+4-Sattelite Link
+5-* CF: Sattelite Link Rating [1]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Sattelite Link Rating [2]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Sattelite Link Rating [3]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Sattelite Link Rating [4]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Sattelite Link Rating [5]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Sattelite Link Rating [6]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Sattelite Link Rating [7]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Sattelite Link Rating [8]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Sattelite Link Rating [9]                 37|1/1days|0|1|2|1|notes|sr3.221|
+5-* CF: Sattelite Link Rating [10]                37|1/1days|0|1|2|1|notes|sr3.221|
+4-Remote Control
+5-* CF: Remote Control Rating [1]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Remote Control Rating [2]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Remote Control Rating [3]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Remote Control Rating [4]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Remote Control Rating [5]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Remote Control Rating [6]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Remote Control Rating [7]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Remote Control Rating [8]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Remote Control Rating [9]                 37|1/1days|0|1|3|1|notes|mat.73|
+5-* CF: Remote Control Rating [10]                37|1/1days|0|1|3|1|notes|mat.73|
+4-Radio Link
+5-* CF: Radio Link Rating [1]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Radio Link Rating [2]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Radio Link Rating [3]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Radio Link Rating [4]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Radio Link Rating [5]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Radio Link Rating [6]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Radio Link Rating [7]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Radio Link Rating [8]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Radio Link Rating [9]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Radio Link Rating [10]                37|1/1days|0|1|1|1|notes|mat.73|
+4-Microwave Link
+5-* CF: Microwave Link Rating [1]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Microwave Link Rating [2]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Microwave Link Rating [3]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Microwave Link Rating [4]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Microwave Link Rating [5]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Microwave Link Rating [6]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Microwave Link Rating [7]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Microwave Link Rating [8]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Microwave Link Rating [9]                 37|1/1days|0|1|1|1|notes|mat.73|
+5-* CF: Microwave Link Rating [10]                37|1/1days|0|1|1|1|notes|mat.73|
+4-Laser Link
+5-* CF: Laser Link Rating [1]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Laser Link Rating [2]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Laser Link Rating [3]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Laser Link Rating [4]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Laser Link Rating [5]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Laser Link Rating [6]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Laser Link Rating [7]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Laser Link Rating [8]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Laser Link Rating [9]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Laser Link Rating [10]                37|1/1days|0|1|1|1|notes|mat.72|
+4-Guardian
+5-* CF: Guardian Rating [1]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Guardian Rating [2]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Guardian Rating [3]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Guardian Rating [4]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Guardian Rating [5]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Guardian Rating [6]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Guardian Rating [7]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Guardian Rating [8]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Guardian Rating [9]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Guardian Rating [10]                37|1/1days|0|1|2|1|notes|mat.72|
+4-Compressor
+5-* CF: Compressor Rating [1]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Compressor Rating [2]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Compressor Rating [3]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Compressor Rating [4]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Compressor Rating [5]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Compressor Rating [6]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Compressor Rating [7]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Compressor Rating [8]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Compressor Rating [9]                 37|1/1days|0|1|2|1|notes|mat.72|
+5-* CF: Compressor Rating [10]                37|1/1days|0|1|2|1|notes|mat.72|
+4-Cellular Link
+5-* CF: Cellular Link Rating [1]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Cellular Link Rating [2]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Cellular Link Rating [3]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Cellular Link Rating [4]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Cellular Link Rating [5]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Cellular Link Rating [6]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Cellular Link Rating [7]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Cellular Link Rating [8]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Cellular Link Rating [9]                 37|1/1days|0|1|1|1|notes|mat.72|
+5-* CF: Cellular Link Rating [10]                37|1/1days|0|1|1|1|notes|mat.72|
+4-BattleTac Matrixlink
+5-* CF: BatTac Matrix Rating [1]                 37|1/1days|0|1|5|1|notes|mat.71|
+5-* CF: BatTac Matrix Rating [2]                 37|1/1days|0|1|5|1|notes|mat.71|
+5-* CF: BatTac Matrix Rating [3]                 37|1/1days|0|1|5|1|notes|mat.71|
+5-* CF: BatTac Matrix Rating [4]                 37|1/1days|0|1|5|1|notes|mat.71|
+5-* CF: BatTac Matrix Rating [5]                 37|1/1days|0|1|5|1|notes|mat.71|
+5-* CF: BatTac Matrix Rating [6]                 37|1/1days|0|1|5|1|notes|mat.71|
+5-* CF: BatTac Matrix Rating [7]                 37|1/1days|0|1|5|1|notes|mat.71|
+5-* CF: BatTac Matrix Rating [8]                 37|1/1days|0|1|5|1|notes|mat.71|
+5-* CF: BatTac Matrix Rating [9]                 37|1/1days|0|1|5|1|notes|mat.71|
+5-* CF: BatTac Matrix Rating [10]                37|1/1days|0|1|5|1|notes|mat.71|
+2-Sprites/Daemons
+3-Sprites
+4-* Sprite Rating [1]                 37|1/1days|0|1|5|1|notes|mat.141|
+4-* Sprite Rating [2]                 37|1/1days|0|1|5|2|notes|mat.141|
+4-* Sprite Rating [3]                 37|1/1days|0|1|5|3|notes|mat.141|
+4-* Sprite Rating [4]                 37|1/1days|0|1|5|4|notes|mat.141|
+4-* Sprite Rating [5]                 37|1/1days|0|1|5|5|notes|mat.141|
+4-* Sprite Rating [6]                 37|1/1days|0|1|5|6|notes|mat.141|
+4-* Sprite Rating [7]                 37|1/1days|0|1|5|7|notes|mat.141|
+4-* Sprite Rating [8]                 37|1/1days|0|1|5|8|notes|mat.141|
+4-* Sprite Rating [9]                 37|1/1days|0|1|5|9|notes|mat.141|
+4-* Sprite Rating [10]                37|1/1days|0|1|5|10|notes|mat.141|
+3-Daemons
+4-* Daemon Rating [1]                 37|1/1days|0|1|10|1|notes|mat.145|
+4-* Daemon Rating [2]                 37|1/1days|0|1|10|2|notes|mat.145|
+4-* Daemon Rating [3]                 37|1/1days|0|1|10|3|notes|mat.145|
+4-* Daemon Rating [4]                 37|1/1days|0|1|10|4|notes|mat.145|
+4-* Daemon Rating [5]                 37|1/1days|0|1|10|5|notes|mat.145|
+4-* Daemon Rating [6]                 37|1/1days|0|1|10|6|notes|mat.145|
+4-* Daemon Rating [7]                 37|1/1days|0|1|10|7|notes|mat.145|
+4-* Daemon Rating [8]                 37|1/1days|0|1|10|8|notes|mat.145|
+4-* Daemon Rating [9]                 37|1/1days|0|1|10|9|notes|mat.145|
+4-* Daemon Rating [10]                37|1/1days|0|1|10|10|notes|mat.145|
+! Last line

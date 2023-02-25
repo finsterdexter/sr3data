@@ -1,0 +1,111 @@
+Street Lifestyle(B)(-1pts)0¥   |0
+Street Lifestyle (0 pts)15¥    |15
+Street Lifestyle (1 pts)30¥    |30
+Street Lifestyle (2 pts)45¥    |45
+Street Lifestyle (3 pts)60¥    |60
+Street Lifestyle (4 pts)70¥    |70
+Street Lifestyle (5 pts)85¥    |85
+Squatter LFSTL (B) (6 pts)100¥ |100
+Squatter Lifestyle (7 pts)250¥ |250
+Squatter Lifestyle (8 pts)400¥ |400
+Squatter Lifestyle (9 pts)550¥ |550
+Squatter Lifestyle (10pts)700¥ |700
+Squatter Lifestyle (11pts)850¥ |850
+Lower LFSTL (B)(12pts)1000¥    |1000
+Lower Lifestyle(13pts)1650¥    |1650
+Lower Lifestyle(14pts)2350¥    |2350
+Lower Lifestyle(15pts)3000¥    |3000
+Lower Lifestyle(16pts)3650¥    |3650
+Lower Lifestyle(17pts)4350¥    |4350
+Middle LFSTL (B)(18pts)5000¥   |5000
+Middle Lifestyle(19pts)5850¥   |5850
+Middle Lifestyle(20pts)6650¥   |6650
+Middle Lifestyle(21pts)7500¥   |7500
+Middle Lifestyle(22pts)8350¥   |8350
+Middle Lifestyle(23pts)9150¥   |9150
+High LFSTL (B)(24pts)10000¥    |10000
+High Lifestyle(25pts)25000¥    |25000
+High Lifestyle(26pts)40000¥    |40000
+High Lifestyle(27pts)55000¥    |55000
+High Lifestyle(28pts)70000¥    |70000
+High Lifestyle(29pts)85000¥    |85000
+Luxury LFSTL (B)(30pts)100000¥ |100000
+Luxury Lifestyle(31pts)125000¥ |125000
+Luxury Lifestyle(32pts)150000¥ |150000
+====Divider for Edges/Flaws Format: Name|cost|Imcompat, Incompat=======
+Astral Repellent|0.2|Astral Magnet
+Bribed Security|0.15|Underpaid Security
+Concerned Neighbors|0.05|
+Defensive Setup|0.1|Ambush Friendly
+Easygoing Landlord|0.05|Trigger-Happy Landlord
+Escape Tunner|0.1|
+Good Insulation|0.05|Bad Insulation
+Good Reputation|0.05|Bad Reputation
+Hasty Access|0.05|Difficult Access
+Helpful Neighbors|0.05|
+Inconspicuous Housing|0.1|
+Insurance|0.1|
+Manaline|0.2|
+Manline(Awakened)|0.3|
+Power Site In The Basement|0.2|
+Power Site In The Basement(Awakened)|0.3|
+Masterful Engineering*|0.05|Patchwork Engineering
+Motivated Service|0.1|Disgruntled Service
+No More Neighbors|0.15|Helpful Neighbors,Concerned Neighbors
+One Step Away From Everything|0.05|Middle Of Nowhere
+Pest Repellent|0.05|Infestation
+Privacy Screen(1)|0.10|No Privacy
+Privacy Screen(2)|0.20|No Privacy
+Privacy Screen(3)|0.30|No Privacy
+Quiet Neighborhood|0.15|Rough Neighborhood
+Reliable Utilities|0.1|
+Roommate From Heaven|0.1|
+Terrific View|0.05|
+Vigilant Security*|0.15|Inattentive Security*
+Watertight|0.05|Waterlogged
+Ambush Friendly|-0.1|Defensive Setup
+Annoying Neighbors|-0.05|
+Astral Magnet|-0.2|Astral Repellent
+Background Count|-0.2|
+Background Count(Awakened)|-0.3|
+Bad Insulation|-0.05|Good Insulation
+Bad Reputation|-0.05|Good Reputation
+Cacophonous Neighborhood|-0.05|
+Crashpad|-0.10|
+Cursed Amenities|-0.1|
+Difficult Access|-0.05|Hasty Access
+Disgruntled Service|-0.1|Motivated Service
+Disgusting Neighborhood|-0.05|
+Gnomes Under The Floorboard(1)|-0.1|
+Gnomes Under The Floorboard(2)|-0.2|
+Haunted(1)|-0.10|
+Haunted(2)|-0.20|
+Horrible View|-0.05|
+Inattentive Security*|-0.15|Vigilant Security*
+Infestation|-0.05|Pest Repellent
+Intolerant Neighbors|-0.05|
+Living by Committee|-0.1|
+Living With Parents|-0.25|
+Mall Leftovers|-0.05|
+Middle Of Nowhere|-0.05|One Step Away From Everything
+No Hazard Alarm|-0.05|
+No Privacy(1)|-0.05|
+No Privacy(2)|-0.10|
+No Privacy(3)|-0.15|
+Patchwork Engineering*|-0.05|Masterful Engineering*
+Portal In The Closet(1)|-0.05|
+Portal In The Closet(2)|-0.10|
+Portal In The Closet(3)|-0.15|
+Portal In The Closet(4)|-0.20|
+Roommate From Hell|-0.05|
+Rough Neighborhood|-0.15|Quiet Neighborhood
+This Isn't Sam's Pizza|-0.05|
+Trigger-Happy Land|-0.05|lordEasygoing Landlord
+Underpaid Security|-0.15|Bribed Security
+Unreliable Security (1)|-0.05|
+Unreliable Security (2)|-0.10|
+Unreliable Security (3)|-0.15|
+Unreliable Security (4)|-0.20|
+Unreliable Security (5)|-0.25|
+Victory Gardens|-0.20|
+Waterlogged|-0.05|Watertight

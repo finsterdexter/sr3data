@@ -1,0 +1,432 @@
+!MAGEGEAR.DAT - MageGear data file -
+!-------------------------------------------------------------
+!A Few Notes:
+! Added support for Book-page and ability to exclude those books from listings
+! I will eliminate duplicate entries and add SR3 support 990813            - Mike
+! SOTA2064 added by Thistledown
+! Types (Formats):
+!-------
+0-15|Magical Equipment|5|KarmaCost|Availability|$Cost|Street Index|Book.Page|
+!--------------------------------------------------------------------
+1-Foci
+2-Adept Focus
+3-* Adept Focus 1                  15|2|4/48hrs|60000|2|sta2.068|
+3-* Adept Focus 2                  15|4|4/48hrs|120000|2|sta2.068|
+3-* Adept Focus 3                  15|6|4/48hrs|180000|2|sta2.068|
+3-* Adept Focus 4                  15|8|4/48hrs|240000|2|sta2.068|
+3-* Adept Focus 5                  15|10|4/48hrs|300000|2|sta2.068|
+3-* Adept Focus 6                  15|12|4/48hrs|360000|2|sta2.068|
+3-* Adept Focus 7                  15|14|4/48hrs|420000|2|sta2.068|
+3-* Adept Focus 8                  15|16|4/48hrs|480000|2|sta2.068|
+3-* Adept Focus 9                  15|18|4/48hrs|540000|2|sta2.068|
+3-* Adept Focus 10                 15|20|4/48hrs|600000|2|sta2.068|
+2-Anchor Focus, Expendable
+3-* Expd Anchor unb focus Lev 1->  15|0|4/48hrs|3000|2|mits.45|
+3-* Expd Anchor unb focus Lev 2->  15|0|4/48hrs|6000|2|mits.45|
+3-* Expd Anchor unb focus Lev 3->  15|0|4/48hrs|9000|2|mits.45|
+3-* Expd Anchor unb focus Lev 4->  15|0|4/48hrs|12000|2|mits.45|
+3-* Expd Anchor unb focus Lev 5->  15|0|4/48hrs|15000|2|mits.45|
+3-* Expd Anchor unb focus Lev 6->  15|0|4/48hrs|18000|2|mits.45|
+3-* Expd Anchor focus Lev 1->      15|1|4/48hrs|3000|2|mits.45|
+3-* Expd Anchor focus Lev 2->      15|2|4/48hrs|6000|2|mits.45|
+3-* Expd Anchor focus Lev 3->      15|3|4/48hrs|9000|2|mits.45|
+3-* Expd Anchor focus Lev 4->      15|4|4/48hrs|12000|2|mits.45|
+3-* Expd Anchor focus Lev 5->      15|5|4/48hrs|15000|2|mits.45|
+3-* Expd Anchor focus Lev 6->      15|6|4/48hrs|18000|2|mits.45|
+2-Anchor Focus, Reusable
+3-* Anchor focus, Reuse Lev 1->    15|3|5/48hrs|30000|2|mits.45|
+3-* Anchor focus, Reuse Lev 2->    15|6|5/48hrs|60000|2|mits.45|
+3-* Anchor focus, Reuse Lev 3->    15|9|5/48hrs|90000|2|mits.45|
+3-* Anchor focus, Reuse Lev 4->    15|12|5/48hrs|120000|2|mits.45|
+3-* Anchor focus, Reuse Lev 5->    15|15|5/48hrs|150000|2|mits.45|
+3-* Anchor focus, Reuse Lev 6->    15|18|5/48hrs|180000|2|mits.45|
+2-Expendable Spell Focus, Combat 
+3-* Exp. Spell Focus 1 Combat      15|0|3/36hrs|1500|1|sr3.305|
+3-* Exp. Spell Focus 2 Combat      15|0|3/36hrs|3000|1|sr3.305|
+3-* Exp. Spell Focus 3 Combat      15|0|3/36hrs|4500|1|sr3.305|
+3-* Exp. Spell Focus 4 Combat      15|0|3/36hrs|6000|1|sr3.305|
+3-* Exp. Spell Focus 5 Combat      15|0|3/36hrs|7500|1|sr3.305|
+3-* Exp. Spell Focus 6 Combat      15|0|3/36hrs|9000|1|sr3.305|
+3-* Exp. Spell Focus 7 Combat      15|0|3/36hrs|10500|1|sr3.305|
+3-* Exp. Spell Focus 8 Combat      15|0|3/36hrs|12000|1|sr3.305|
+3-* Exp. Spell Focus 9 Combat      15|0|3/36hrs|13500|1|sr3.305|
+3-* Exp. Spell Focus 10 Combat     15|0|3/36hrs|15000|1|sr3.305|
+2-Expendable Spell Focus, Detection
+3-* Exp. Spell Focus 1 Detect.     15|0|3/36hrs|1500|1|sr3.305|
+3-* Exp. Spell Focus 2 Detect.     15|0|3/36hrs|3000|1|sr3.305|
+3-* Exp. Spell Focus 3 Detect.     15|0|3/36hrs|4500|1|sr3.305|
+3-* Exp. Spell Focus 4 Detect.     15|0|3/36hrs|6000|1|sr3.305|
+3-* Exp. Spell Focus 5 Detect.     15|0|3/36hrs|7500|1|sr3.305|
+3-* Exp. Spell Focus 6 Detect.     15|0|3/36hrs|9000|1|sr3.305|
+3-* Exp. Spell Focus 7 Detect.     15|0|3/36hrs|10500|1|sr3.305|
+3-* Exp. Spell Focus 8 Detect.     15|0|3/36hrs|12000|1|sr3.305|
+3-* Exp. Spell Focus 9 Detect.     15|0|3/36hrs|13500|1|sr3.305|
+3-* Exp. Spell Focus 10 Detect.    15|0|3/36hrs|15000|1|sr3.305|
+2-Expendable Spell Focus, Health
+3-* Exp. Spell Focus 1 Health      15|0|3/36hrs|1500|1|sr3.305|
+3-* Exp. Spell Focus 2 Health      15|0|3/36hrs|3000|1|sr3.305|
+3-* Exp. Spell Focus 3 Health      15|0|3/36hrs|4500|1|sr3.305|
+3-* Exp. Spell Focus 4 Health      15|0|3/36hrs|6000|1|sr3.305|
+3-* Exp. Spell Focus 5 Health      15|0|3/36hrs|7500|1|sr3.305|
+3-* Exp. Spell Focus 6 Health      15|0|3/36hrs|9000|1|sr3.305|
+3-* Exp. Spell Focus 7 Health      15|0|3/36hrs|10500|1|sr3.305|
+3-* Exp. Spell Focus 8 Health      15|0|3/36hrs|12000|1|sr3.305|
+3-* Exp. Spell Focus 9 Health      15|0|3/36hrs|13500|1|sr3.305|
+3-* Exp. Spell Focus 10 Health     15|0|3/36hrs|15000|1|sr3.305|
+2-Expendable Spell Focus, Illusion
+3-* Exp. Spell Focus 1 Illusion    15|0|3/36hrs|1500|1|sr3.305|
+3-* Exp. Spell Focus 2 Illusion    15|0|3/36hrs|3000|1|sr3.305|
+3-* Exp. Spell Focus 3 Illusion    15|0|3/36hrs|4500|1|sr3.305|
+3-* Exp. Spell Focus 4 Illusion    15|0|3/36hrs|6000|1|sr3.305|
+3-* Exp. Spell Focus 5 Illusion    15|0|3/36hrs|7500|1|sr3.305|
+3-* Exp. Spell Focus 6 Illusion    15|0|3/36hrs|9000|1|sr3.305|
+3-* Exp. Spell Focus 7 Illusion    15|0|3/36hrs|10500|1|sr3.305|
+3-* Exp. Spell Focus 8 Illusion    15|0|3/36hrs|12000|1|sr3.305|
+3-* Exp. Spell Focus 9 Illusion    15|0|3/36hrs|13500|1|sr3.305|
+3-* Exp. Spell Focus 10 Illusion   15|0|3/36hrs|15000|1|sr3.305|
+2-Expendable Spell Focus, Manipulation
+3-* Exp. Spell Focus 1 Manip.      15|0|3/36hrs|1500|1|sr3.305|
+3-* Exp. Spell Focus 2 Manip.      15|0|3/36hrs|3000|1|sr3.305|
+3-* Exp. Spell Focus 3 Manip.      15|0|3/36hrs|4500|1|sr3.305|
+3-* Exp. Spell Focus 4 Manip.      15|0|3/36hrs|6000|1|sr3.305|
+3-* Exp. Spell Focus 5 Manip.      15|0|3/36hrs|7500|1|sr3.305|
+3-* Exp. Spell Focus 6 Manip.      15|0|3/36hrs|9000|1|sr3.305|
+3-* Exp. Spell Focus 7 Manip.      15|0|3/36hrs|10500|1|sr3.305|
+3-* Exp. Spell Focus 8 Manip.      15|0|3/36hrs|12000|1|sr3.305|
+3-* Exp. Spell Focus 9 Manip.      15|0|3/36hrs|13500|1|sr3.305|
+3-* Exp. Spell Focus 10 Manip.     15|0|3/36hrs|15000|1|sr3.305|
+2-Infusion Focus
+3-* Infusion Focus 1->             15|3|8/72hrs|75000|2|sta2.068|
+3-* Infusion Focus 2->             15|6|8/72hrs|150000|2|sta2.068|
+3-* Infusion Focus 3->             15|9|8/72hrs|225000|2|sta2.068|
+3-* Infusion Focus 4->             15|12|8/72hrs|300000|2|sta2.068|
+3-* Infusion Focus 5->             15|15|8/72hrs|375000|2|sta2.068|
+3-* Infusion Focus 6->             15|18|8/72hrs|450000|2|sta2.068|
+3-* Infusion Focus 7->             15|21|8/72hrs|525000|2|sta2.068|
+3-* Infusion Focus 8->             15|24|8/72hrs|600000|2|sta2.068|
+3-* Infusion Focus 9->             15|27|8/72hrs|675000|2|sta2.068|
+3-* Infusion Focus 10->            15|30|8/72hrs|750000|2|sta2.068|
+2-Specific Spell Focus            
+3-* Spec. Spell Focus 1->          15|1|4/48hrs|45000|2|sr3.305|
+3-* Spec. Spell Focus 2->          15|2|4/48hrs|90000|2|sr3.305|
+3-* Spec. Spell Focus 3->          15|3|4/48hrs|135000|2|sr3.305|
+3-* Spec. Spell Focus 4->          15|4|4/48hrs|180000|2|sr3.305|
+3-* Spec. Spell Focus 5->          15|5|4/48hrs|225000|2|sr3.305|
+3-* Spec. Spell Focus 6->          15|6|4/48hrs|270000|2|sr3.305|
+3-* Spec. Spell Focus 7->          15|7|4/48hrs|315000|2|sr3.305|
+3-* Spec. Spell Focus 8->          15|8|4/48hrs|360000|2|sr3.305|
+3-* Spec. Spell Focus 9->          15|9|4/48hrs|405000|2|sr3.305|
+3-* Spec. Spell Focus 10->         15|10|4/48hrs|450000|2|sr3.305|
+2-Spell Category Focus               
+3-* Spell Cat. Focus 1->           15|3|5/48hrs|75000|2|sr3.305|
+3-* Spell Cat. Focus 2->           15|6|5/48hrs|150000|2|sr3.305|
+3-* Spell Cat. Focus 3->           15|9|5/48hrs|225000|2|sr3.305|
+3-* Spell Cat. Focus 4->           15|12|5/48hrs|300000|2|sr3.305|
+3-* Spell Cat. Focus 5->           15|15|5/48hrs|375000|2|sr3.305|
+3-* Spell Cat. Focus 6->           15|18|5/48hrs|450000|2|sr3.305|
+3-* Spell Cat. Focus 7->           15|21|5/48hrs|525000|2|sr3.305|
+3-* Spell Cat. Focus 8->           15|24|5/48hrs|600000|2|sr3.305|
+3-* Spell Cat. Focus 9->           15|27|5/48hrs|675000|2|sr3.305|
+3-* Spell Cat. Focus 10->          15|30|5/48hrs|750000|2|sr3.305|
+2-Spell Defense Focus
+3-* Spell Defense Focus 1          15|3|5/48hrs|75000|2|mits.45|
+3-* Spell Defense Focus 2          15|6|5/48hrs|150000|2|mits.45|
+3-* Spell Defense Focus 3          15|9|5/48hrs|225000|2|mits.45|
+3-* Spell Defense Focus 4          15|12|5/48hrs|300000|2|mits.45|
+3-* Spell Defense Focus 5          15|15|5/48hrs|375000|2|mits.45|
+3-* Spell Defense Focus 6          15|18|5/48hrs|450000|2|mits.45|
+2-Spirit Focus                 
+3-* Spirit Focus 1->               15|2|4/48hrs|60000|2|sr3.305|
+3-* Spirit Focus 2->               15|4|4/48hrs|120000|2|sr3.305|
+3-* Spirit Focus 3->               15|6|4/48hrs|180000|2|sr3.305|
+3-* Spirit Focus 4->               15|8|4/48hrs|240000|2|sr3.305|
+3-* Spirit Focus 5->               15|10|4/48hrs|300000|2|sr3.305|
+3-* Spirit Focus 6->               15|12|4/48hrs|360000|2|sr3.305|
+3-* Spirit Focus 7->               15|14|4/48hrs|420000|2|sr3.305|
+3-* Spirit Focus 8->               15|16|4/48hrs|480000|2|sr3.305|
+3-* Spirit Focus 9->               15|18|4/48hrs|540000|2|sr3.305|
+3-* Spirit Focus 10->              15|20|4/48hrs|600000|2|sr3.305|
+2-Centering Focus
+3-* Centering Focus Lev 1          15|3|5/48hrs|75000|2|mits.45|
+3-* Centering Focus Lev 2          15|6|5/48hrs|150000|2|mits.45|
+3-* Centering Focus Lev 3          15|9|5/48hrs|225000|2|mits.45|
+3-* Centering Focus Lev 4          15|12|5/48hrs|300000|2|mits.45|
+3-* Centering Focus Lev 5          15|15|5/48hrs|375000|2|mits.45|
+3-* Centering Focus Lev 6          15|18|5/48hrs|450000|2|mits.45|
+2-Power Focus                   
+3-* Power Focus 1                  15|5|6/72hrs|105000|2|sr3.305|
+3-* Power Focus 2                  15|10|6/72hrs|210000|2|sr3.305|
+3-* Power Focus 3                  15|15|6/72hrs|315000|2|sr3.305|
+3-* Power Focus 4                  15|20|6/72hrs|420000|2|sr3.305|
+3-* Power Focus 5                  15|25|6/72hrs|525000|2|sr3.305|
+3-* Power Focus 6                  15|30|6/72hrs|630000|2|sr3.305|
+3-* Power Focus 7                  15|35|6/72hrs|735000|2|sr3.305|
+3-* Power Focus 8                  15|40|6/72hrs|840000|2|sr3.305|
+3-* Power Focus 9                  15|45|6/72hrs|945000|2|sr3.305|
+3-* Power Focus 10                 15|50|6/72hrs|1050000|2|sr3.305|
+2-Sustaining Focus                   
+3-* Sustaining Focus 1->           15|1|2/48hrs|15000|2|sr3.305|
+3-* Sustaining Focus 2->           15|2|2/48hrs|30000|2|sr3.305|
+3-* Sustaining Focus 3->           15|3|2/48hrs|45000|2|sr3.305|
+3-* Sustaining Focus 4->           15|4|2/48hrs|60000|2|sr3.305|
+3-* Sustaining Focus 5->           15|5|2/48hrs|75000|2|sr3.305|
+3-* Sustaining Focus 6->           15|6|2/48hrs|90000|2|sr3.305|
+3-* Sustaining Focus 7->           15|7|2/48hrs|105000|2|sr3.305|
+3-* Sustaining Focus 8->           15|8|2/48hrs|120000|2|sr3.305|
+3-* Sustaining Focus 9->           15|9|2/48hrs|135000|2|sr3.305|
+3-* Sustaining Focus 10->          15|10|2/48hrs|150000|2|sr3.305|
+2-Shielding Focus
+3-* Shielding Focus Force 1        15|4|6/72hrs|95000|2|mits.45|
+3-* Shielding Focus Force 2        15|8|6/72hrs|190000|2|mits.45|
+3-* Shielding Focus Force 3        15|12|6/72hrs|275000|2|mits.45|
+3-* Shielding Focus Force 4        15|16|6/72hrs|370000|2|mits.45|
+3-* Shielding Focus Force 5        15|20|6/72hrs|465000|2|mits.45|
+3-* Shielding Focus Force 6        15|24|6/72hrs|560000|2|mits.45|
+2-Weapon Foci                
+3-* Weapon Focus 1,Reach 0         15|3|8/72hrs|190000|2|sr3.305|
+3-* Weapon Focus 2,Reach 0         15|6|8/72hrs|280000|2|sr3.305|
+3-* Weapon Focus 3,Reach 0         15|9|8/72hrs|370000|2|sr3.305|
+3-* Weapon Focus 4,Reach 0         15|12|8/72hrs|460000|2|sr3.305|
+3-* Weapon Focus 5,Reach 0         15|15|8/72hrs|550000|2|sr3.305|
+3-* Weapon Focus 6,Reach 0         15|18|8/72hrs|640000|2|sr3.305|
+3-* Weapon Focus 7,Reach 0         15|21|8/72hrs|730000|2|sr3.305|
+3-* Weapon Focus 8,Reach 0         15|24|8/72hrs|820000|2|sr3.305|
+3-* Weapon Focus 9,Reach 0         15|27|8/72hrs|910000|2|sr3.305|
+3-* Weapon Focus 10,Reach 0        15|30|8/72hrs|1000000|2|sr3.305|
+3-* Weapon Focus 1,Reach 1         15|4|8/72hrs|290000|2|sr3.305|
+3-* Weapon Focus 2,Reach 1         15|8|8/72hrs|380000|2|sr3.305|
+3-* Weapon Focus 3,Reach 1         15|12|8/72hrs|470000|2|sr3.305|
+3-* Weapon Focus 4,Reach 1         15|16|8/72hrs|560000|2|sr3.305|
+3-* Weapon Focus 5,Reach 1         15|20|8/72hrs|650000|2|sr3.305|
+3-* Weapon Focus 6,Reach 1         15|24|8/72hrs|740000|2|sr3.305|
+3-* Weapon Focus 7,Reach 1         15|28|8/72hrs|830000|2|sr3.305|
+3-* Weapon Focus 8,Reach 1         15|32|8/72hrs|920000|2|sr3.305|
+3-* Weapon Focus 9,Reach 1         15|36|8/72hrs|1010000|2|sr3.305|
+3-* Weapon Focus 10,Reach 1        15|40|8/72hrs|1100000|2|sr3.305|
+3-* Weapon Focus 1,Reach 2         15|5|8/72hrs|390000|2|sr3.305|
+3-* Weapon Focus 2,Reach 2         15|10|8/72hrs|480000|2|sr3.305|
+3-* Weapon Focus 3,Reach 2         15|15|8/72hrs|570000|2|sr3.305|
+3-* Weapon Focus 4,Reach 2         15|20|8/72hrs|660000|2|sr3.305|
+3-* Weapon Focus 5,Reach 2         15|25|8/72hrs|750000|2|sr3.305|
+3-* Weapon Focus 6,Reach 2         15|30|8/72hrs|840000|2|sr3.305|
+3-* Weapon Focus 7,Reach 2         15|35|8/72hrs|930000|2|sr3.305|
+3-* Weapon Focus 8,Reach 2         15|40|8/72hrs|1020000|2|sr3.305|
+3-* Weapon Focus 9,Reach 2         15|45|8/72hrs|1110000|2|sr3.305|
+3-* Weapon Focus 10,Reach 2        15|50|8/72hrs|1200000|2|sr3.305|
+1-Magical supplies
+2-General Materials
+3-* Ally Conjuring Materials 1     15|0|1/36hrs|1000|1|mits.169|
+3-* Ally Conjuring Materials 2     15|0|2/36hrs|2000|1|mits.169|
+3-* Ally Conjuring Materials 3     15|0|3/36hrs|3000|1|mits.169|
+3-* Ally Conjuring Materials 4     15|0|4/36hrs|4000|1|mits.169|
+3-* Ally Conjuring Materials 5     15|0|5/36hrs|5000|1|mits.169|
+3-* Ally Conjuring Materials 6     15|0|6/36hrs|6000|1|mits.169|
+3-* Ally Conjuring Materials 7     15|0|7/36hrs|7000|1|mits.169|
+3-* Fetish Focus                   15|0|3/26hrs|3000xRating|1|sr2.???|
+3-* Ward Casting Materials         15|0|(Force)/36hrs|1000xUnit|1|sr2.???|
+2-Kit & Shop
+3-* Enchanting Kit                 15|0|6/72hrs|10000|2|mits.169|
+3-* Enchanting Shop                15|0|8/1wk|100000|3|mits.169|
+2-Elemental Conjuring Materials
+3-* Elem. Conj. Materials 1        15|0|1/24hrs|1000|1|sr3.305|  
+3-* Elem. Conj. Materials 2        15|0|2/24hrs|2000|1|sr3.305|  
+3-* Elem. Conj. Materials 3        15|0|3/24hrs|3000|1|sr3.305|  
+3-* Elem. Conj. Materials 4        15|0|4/24hrs|4000|1|sr3.305|  
+3-* Elem. Conj. Materials 5        15|0|5/24hrs|5000|1|sr3.305|  
+3-* Elem. Conj. Materials 6        15|0|6/24hrs|6000|1|sr3.305|  
+3-* Elem. Conj. Materials 7        15|0|7/24hrs|7000|1|sr3.305|  
+3-* Elem. Conj. Materials 8        15|0|8/24hrs|8000|1|sr3.305|  
+3-* Elem. Conj. Materials 9        15|0|9/24hrs|9000|1|sr3.305|  
+3-* Elem. Conj. Materials 10       15|0|10/24hrs|10000|1|sr3.305|  
+2-Watcher Conjuring Materials
+3-* Watcher Conj. Materials 1      15|0|1/24hrs|1000|1|mits.169|  
+3-* Watcher Conj. Materials 2      15|0|2/24hrs|2000|1|mits.169|  
+3-* Watcher Conj. Materials 3      15|0|3/24hrs|3000|1|mits.169|  
+3-* Watcher Conj. Materials 4      15|0|4/24hrs|4000|1|mits.169|  
+3-* Watcher Conj. Materials 5      15|0|5/24hrs|5000|1|mits.169|  
+3-* Watcher Conj. Materials 6      15|0|6/24hrs|6000|1|mits.169|  
+3-* Watcher Conj. Materials 7      15|0|7/24hrs|7000|1|mits.169|  
+3-* Watcher Conj. Materials 8      15|0|8/24hrs|8000|1|mits.169|  
+3-* Watcher Conj. Materials 9      15|0|9/24hrs|9000|1|mits.169|  
+3-* Watcher Conj. Materials 10     15|0|10/24hrs|10000|1|mits.169|  
+2-Shamanic Lodge Materials
+3-* Shamanic Lodge Mat. 1          15|0|1/24hrs|500|1|sr3.305|
+3-* Shamanic Lodge Mat. 2          15|0|2/24hrs|1000|1|sr3.305|
+3-* Shamanic Lodge Mat. 3          15|0|3/24hrs|1500|1|sr3.305|
+3-* Shamanic Lodge Mat. 4          15|0|4/24hrs|2000|1|sr3.305|
+3-* Shamanic Lodge Mat. 5          15|0|5/24hrs|2500|1|sr3.305|
+3-* Shamanic Lodge Mat. 6          15|0|6/24hrs|3000|1|sr3.305|
+3-* Shamanic Lodge Mat. 7          15|0|7/24hrs|3500|1|sr3.305|
+3-* Shamanic Lodge Mat. 8          15|0|8/24hrs|4000|1|sr3.305|
+3-* Shamanic Lodge Mat. 9          15|0|9/24hrs|4500|1|sr3.305|
+3-* Shamanic Lodge Mat. 10         15|0|10/24hrs|5000|1|sr3.305|
+2-Hermetic Library
+3-* Conjuring Library Rtg. 1       15|0|1/7days|1000|1|sr3.167|
+3-* Conjuring Library Rtg. 2       15|0|2/7days|4000|1|sr3.167|
+3-* Conjuring Library Rtg. 3       15|0|3/7days|9000|1|sr3.167|
+3-* Conjuring Library Rtg. 4       15|0|4/7days|16000|1|sr3.167|
+3-* Conjuring Library Rtg. 5       15|0|5/7days|25000|1|sr3.167|
+3-* Conjuring Library Rtg. 6       15|0|6/7days|36000|1|sr3.167|
+3-* Conjuring Library Rtg. 7       15|0|7/7days|49000|1|sr3.167|
+3-* Conjuring Library Rtg. 8       15|0|8/7days|64000|1|sr3.167|
+3-* Conjuring Library Rtg. 9       15|0|9/7days|81000|1|sr3.167|
+3-* Conjuring Library Rtg. 10      15|0|10/7days|100000|1|sr3.167|
+3-* Sorcery Library Rtg. 1         15|0|1/7days|1000|1|sr3.167|
+3-* Sorcery Library Rtg. 2         15|0|2/7days|4000|1|sr3.167|
+3-* Sorcery Library Rtg. 3         15|0|3/7days|9000|1|sr3.167|
+3-* Sorcery Library Rtg. 4         15|0|4/7days|16000|1|sr3.167|
+3-* Sorcery Library Rtg. 5         15|0|5/7days|25000|1|sr3.167|
+3-* Sorcery Library Rtg. 6         15|0|6/7days|36000|1|sr3.167|
+3-* Sorcery Library Rtg. 7         15|0|7/7days|49000|1|sr3.167|
+3-* Sorcery Library Rtg. 8         15|0|8/7days|64000|1|sr3.167|
+3-* Sorcery Library Rtg. 9         15|0|9/7days|81000|1|sr3.167|
+3-* Sorcery Library Rtg. 10        15|0|10/7days|100000|1|sr3.167|
+2-Expendable fetishes
+3-* Expd Combat fetish             15|0|3/24hrs|20|1|sr3.305|
+3-* Expd Detection fetish          15|0|3/24hrs|5|1|sr3.305|
+3-* Expd Healing fetish            15|0|3/24hrs|50|1|sr3.305|
+3-* Expd Illusion fetish           15|0|3/24hrs|10|1|sr3.305|
+3-* Expd Manipulation fetish       15|0|3/24hrs|30|1|sr3.305|
+2-Reusable fetishes
+3-* Combat fetish, Reuse           15|0|3/24hrs|200|1|sr3.305|
+3-* Detection fetish, Reuse        15|0|3/24hrs|50|1|sr3.305|
+3-* Healing fetish, Reuse          15|0|3/24hrs|500|1|sr3.305|
+3-* Illusion fetish, Reuse         15|0|3/24hrs|100|1|sr3.305|
+3-* Manipulation fetish, Reuse     15|0|3/24hrs|300|1|sr3.305|
+2-Ritual sorcery materials
+3-* Combat, Rit Sorc. Mat 1        15|0|3/24hrs|1000|1|mits.169|
+3-* Combat, Rit Sorc. Mat 2        15|0|3/24hrs|2000|1|mits.169|
+3-* Combat, Rit Sorc. Mat 3        15|0|3/24hrs|3000|1|mits.169|
+3-* Combat, Rit Sorc. Mat 4        15|0|3/24hrs|4000|1|mits.169|
+3-* Combat, Rit Sorc. Mat 5        15|0|3/24hrs|5000|1|mits.169|
+3-* Combat, Rit Sorc. Mat 6        15|0|3/24hrs|6000|1|mits.169|
+3-* Detection, Rit Sorc. Mat 1     15|0|3/24hrs|100|1|mits.169|
+3-* Detection, Rit Sorc. Mat 2     15|0|3/24hrs|200|1|mits.169|
+3-* Detection, Rit Sorc. Mat 3     15|0|3/24hrs|300|1|mits.169|
+3-* Detection, Rit Sorc. Mat 4     15|0|3/24hrs|400|1|mits.169|
+3-* Detection, Rit Sorc. Mat 5     15|0|3/24hrs|500|1|mits.169|
+3-* Detection, Rit Sorc. Mat 6     15|0|3/24hrs|600|1|mits.169|
+3-* Healing, Rit Sorc. Mat 1       15|0|3/24hrs|500|1|mits.169|
+3-* Healing, Rit Sorc. Mat 2       15|0|3/24hrs|1000|1|mits.169|
+3-* Healing, Rit Sorc. Mat 3       15|0|3/24hrs|1500|1|mits.169|
+3-* Healing, Rit Sorc. Mat 4       15|0|3/24hrs|2000|1|mits.169|
+3-* Healing, Rit Sorc. Mat 5       15|0|3/24hrs|2500|1|mits.169|
+3-* Healing, Rit Sorc. Mat 6       15|0|3/24hrs|3000|1|mits.169|
+3-* Illusion, Rit Sorc. Mat 1      15|0|3/24hrs|100|1|mits.169|
+3-* Illusion, Rit Sorc. Mat 2      15|0|3/24hrs|200|1|mits.169|
+3-* Illusion, Rit Sorc. Mat 3      15|0|3/24hrs|300|1|mits.169|
+3-* Illusion, Rit Sorc. Mat 4      15|0|3/24hrs|400|1|mits.169|
+3-* Illusion, Rit Sorc. Mat 5      15|0|3/24hrs|500|1|mits.169|
+3-* Illusion, Rit Sorc. Mat 6      15|0|3/24hrs|600|1|mits.169|
+3-* Manipulation, Rit Sorc. Mat 1  15|0|3/24hrs|1000|1|mits.169|
+3-* Manipulation, Rit Sorc. Mat 2  15|0|3/24hrs|2000|1|mits.169|
+3-* Manipulation, Rit Sorc. Mat 3  15|0|3/24hrs|3000|1|mits.169|
+3-* Manipulation, Rit Sorc. Mat 4  15|0|3/24hrs|4000|1|mits.169|
+3-* Manipulation, Rit Sorc. Mat 5  15|0|3/24hrs|5000|1|mits.169|
+3-* Manipulation, Rit Sorc. Mat 6  15|0|3/24hrs|6000|1|mits.169|
+2-Enchanting materials
+3-Herbals
+4-* Herbals Raw                    15|0|0|50|0|mits.169|
+4-* Herbals Refined                15|0|0|100|0|mits.169|
+4-* Herbals Radical                15|0|0|200|0|mits.169|
+3-Crystals
+4-* Crystals Raw                   15|0|0|100|0|mits.169|
+4-* Crystals Refined               15|0|0|200|0|mits.169|
+4-* Crystals Radical               15|0|0|400|0|mits.169|
+3-Semi-precious Gems
+4-* Sprecious Gems Raw             15|0|0|200|0|mits.169|
+4-* Sprecious Gems Refined         15|0|0|400|0|mits.169|
+4-* Sprecious Gems Radical         15|0|0|800|0|mits.169|
+3-Precious Gems
+4-* Precious Gems Raw              15|0|0|500|0|mits.169|
+4-* Precious Gems Refined          15|0|0|1000|0|mits.169|
+4-* Precious Gems Radical          15|0|0|2000|0|mits.169|
+3-Iron
+4-* Iron Raw                       15|0|0|50|0|mits.169|
+4-* Iron Refined                   15|0|0|100|0|mits.169|
+4-* Iron Radical                   15|0|0|200|0|mits.169|
+3-Copper
+4-* Copper Raw                     15|0|0|100|0|mits.169|
+4-* Copper Refined                 15|0|0|200|0|mits.169|
+4-* Copper Radical                 15|0|0|400|0|mits.169|
+3-Silver
+4-* Silver Raw                     15|0|0|300|0|mits.169|
+4-* Silver Refined                 15|0|0|600|0|mits.169|
+4-* Silver Radical                 15|0|0|1200|0|mits.169|
+3-Gold
+4-* Gold Raw                       15|0|0|10000|0|mits.169|
+4-* Gold Refined                   15|0|0|20000|0|mits.169|
+4-* Gold Radical                   15|0|0|40000|0|mits.169|
+3-Mercury
+4-* Mercury Raw                    15|0|0|600|0|mits.169|
+4-* Mercury Refined                15|0|0|1200|0|mits.169|
+4-* Mercury Radical                15|0|0|2400|0|mits.169|
+3-Tin
+4-* Tin Raw                        15|0|0|30|0|mits.169|
+4-* Tin Refined                    15|0|0|60|0|mits.169|
+4-* Tin Radical                    15|0|0|120|0|mits.169|
+3-Lead
+4-* Lead Raw                       15|0|0|30|0|mits.169|
+4-* Lead Refined                   15|0|0|60|0|mits.169|
+4-* Lead Radical                   15|0|0|120|0|mits.169|
+3-Orichalcum 
+4-* 1 Unit Orichalcum              15|0|0|88000|0|mits.169|
+2-Spell formulae
+3-* 1 L Drain Spell Form.          15|0|1/24hrs|50|2|sr3.305|
+3-* 2 L Drain Spell Form.          15|0|2/24hrs|100|2|sr3.305|
+3-* 3 L Drain Spell Form.          15|0|3/24hrs|150|2|sr3.305|
+3-* 4 L Drain Spell Form.          15|0|4/24hrs|200|2|sr3.305|
+3-* 5 L Drain Spell Form.          15|0|5/24hrs|250|2|sr3.305|
+3-* 6 L Drain Spell Form.          15|0|6/24hrs|300|2|sr3.305|
+3-* 7 L Drain Spell Form.          15|0|7/24hrs|350|2|sr3.305|
+3-* 8 L Drain Spell Form.          15|0|8/24hrs|400|2|sr3.305|
+3-* 9 L Drain Spell Form.          15|0|9/24hrs|450|2|sr3.305|
+3-* 10 L Drain Spell Form.         15|0|10/24hrs|500|2|sr3.305|
+3-* 1 M Drain Spell Form.          15|0|1/48hrs|100|2|sr3.305|
+3-* 2 M Drain Spell Form.          15|0|2/48hrs|200|2|sr3.305|
+3-* 3 M Drain Spell Form.          15|0|3/48hrs|300|2|sr3.305|
+3-* 4 M Drain Spell Form.          15|0|4/48hrs|400|2|sr3.305|
+3-* 5 M Drain Spell Form.          15|0|5/48hrs|500|2|sr3.305|
+3-* 6 M Drain Spell Form.          15|0|6/48hrs|600|2|sr3.305|
+3-* 7 M Drain Spell Form.          15|0|7/48hrs|700|2|sr3.305|
+3-* 8 M Drain Spell Form.          15|0|8/48hrs|800|2|sr3.305|
+3-* 9 M Drain Spell Form.          15|0|9/48hrs|900|2|sr3.305|
+3-* 10 M Drain Spell Form.         15|0|10/48hrs|1000|2|sr3.305|
+3-* 1 S Drain Spell Form.          15|0|1/72hrs|500|2|sr3.305|
+3-* 2 S Drain Spell Form.          15|0|2/72hrs|1000|2|sr3.305|
+3-* 3 S Drain Spell Form.          15|0|3/72hrs|1500|2|sr3.305|
+3-* 4 S Drain Spell Form.          15|0|4/72hrs|2000|2|sr3.305|
+3-* 5 S Drain Spell Form.          15|0|5/72hrs|2500|2|sr3.305|
+3-* 6 S Drain Spell Form.          15|0|6/72hrs|3000|2|sr3.305|
+3-* 7 S Drain Spell Form.          15|0|7/72hrs|3500|2|sr3.305|
+3-* 8 S Drain Spell Form.          15|0|8/72hrs|4000|2|sr3.305|
+3-* 9 S Drain Spell Form.          15|0|9/72hrs|4500|2|sr3.305|
+3-* 10 S Drain Spell Form.         15|0|10/72hrs|5000|2|sr3.305|
+3-* 1 D Drain Spell Form.          15|0|1/7days|1000|2|sr3.305|
+3-* 2 D Drain Spell Form.          15|0|2/7days|2000|2|sr3.305|
+3-* 3 D Drain Spell Form.          15|0|3/7days|3000|2|sr3.305|
+3-* 4 D Drain Spell Form.          15|0|4/7days|4000|2|sr3.305|
+3-* 5 D Drain Spell Form.          15|0|5/7days|5000|2|sr3.305|
+3-* 6 D Drain Spell Form.          15|0|6/7days|6000|2|sr3.305|
+3-* 7 D Drain Spell Form.          15|0|7/7days|7000|2|sr3.305|
+3-* 8 D Drain Spell Form.          15|0|8/7days|8000|2|sr3.305|
+3-* 9 D Drain Spell Form.          15|0|9/7days|9000|2|sr3.305|
+3-* 10 D Drain Spell Form.         15|0|10/7days|10000|2|sr3.305|
+! Initial Character can have up to 6 spirits of force 6 or less
+1-Spirits (Initial Characters)
+2-Nature Spirits
+3-* Nature Spirit Force 1->        15|1|1/24hrs|500|2|sr3.305|
+3-* Nature Spirit Force 2->        15|2|1/24hrs|1000|2|sr3.305|
+3-* Nature Spirit Force 3->        15|3|1/24hrs|1500|2|sr3.305|
+3-* Nature Spirit Force 4->        15|4|1/24hrs|2000|2|sr3.305|
+3-* Nature Spirit Force 5->        15|5|1/24hrs|2500|2|sr3.305|
+3-* Nature Spirit Force 6->        15|6|1/24hrs|3000|2|sr3.305|
+2-Elemental Spirits
+3-* Elem. Spirit Force 1->         15|1|1/24hrs|1000|2|sr3.305|
+3-* Elem. Spirit Force 2->         15|2|1/24hrs|2000|2|sr3.305|
+3-* Elem. Spirit Force 3->         15|3|1/24hrs|3000|2|sr3.305|
+3-* Elem. Spirit Force 4->         15|4|1/24hrs|4000|2|sr3.305|
+3-* Elem. Spirit Force 5->         15|5|1/24hrs|5000|2|sr3.305|
+3-* Elem. Spirit Force 6->         15|6|1/24hrs|6000|2|sr3.305|
+!
+!

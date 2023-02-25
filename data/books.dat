@@ -1,0 +1,65 @@
+!BOOKS.DAT - Available data books PM 960315
+!------------------------------------------
+! Remove * to NOT load as default.  The opposite is true as well.
+!FASA Sourcebooks
+! FORMAT: Name ; Abreviation
+!----------------
+Awakenings;awk
+Corporate Security;cs
+*Cannon Companion;cc
+Corporate Download;cd
+Custom Gear;cus
+CyberTechnology;ct
+Dragons of the Sixth World;dosw
+Field of Fire;fof
+*Magic in the Shadows;mits
+*Man and Machine;mm
+*Matrix;mat
+Paranormal Animals of North America;pna
+*Rigger 3;r3
+Shadowrun 1st ed;sr1
+Shadowrun 2nd ed;sr2
+*Shadowrun 3rd ed;sr3
+*Shadowrun Companion;src
+Shadowtech;st
+Shadowbeat;sb
+*Sprawl Survival Guide;ssg
+*State of the Art 2063;sota
+*State of the Art 2064;sta2
+Street Samurai Catalog 2nd ed;ssc
+The Shadowrun Supplemental;tss
+Rigger Black Box;rbb
+Rigger 2;r2
+*Target: Awakened Lands;tal
+*Target: Wastelands;twl
+The Grimoire 2nd ed;gm2
+*Year Of The Comet;yotc
+!-------------------------
+!FASA Location sourcebooks
+!-------------------------
+Aztlan Sourcebook;azt
+France Sourcebook;fra 
+Germany Sourcebook;ger
+London Sourcebook;lon
+*Seattle Sourcebook;sea
+!------------
+!FASA Modules
+!------------
+Paradise Lost;pl
+!------------------------------------
+!Original supplements and conversions
+!------------------------------------
+Chrome Book 1 (conversion);cb1
+Chrome Book 2 (conversion);cb2
+Chrome Book 3 (conversion);cb3
+Chrome Book 4 (conversion);cb4
+Cyberpunk 2020 (conversion);cp
+Plastic Warriors;pw
+NERPS: ShadowLore;n/sl
+Neo-Anarchist Guide to Everything Else (Collected);nagee
+Neo-Anarchist Guide to Everything Else (Issue 7);nagee7
+Neo-Anarchist Guide to Everything Else (Issue 8);nagee8
+Neo-Anarchist Guide to Everything Else (Issue 9);nagee9
+Adept's Handybook;adh
+Blackjack's Firearms;bjf
+Raygun's Firearms;ray

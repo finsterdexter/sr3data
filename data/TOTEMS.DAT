@@ -1,0 +1,1799 @@
+!TOTEMS.DAT - Totems data file - MM 010313 (Update from PM 940705)
+!  Thanks to Keith Rudolph  for entering the data originally for Paolo
+!
+!Format: 
+!* Name|Book.Page|Type
+! Descriptions including: ENVironment, DESCription, ADVANtages, DISADVANtages, others
+!NOTE: Do NOT start any line with a "\".  This is for headers only
+!NOTE2: Begin and end paragraphs with <P> and </P> DO NOT MODIFY BASIC SECTION!!!
+!-----------------------------------------------------------------
+\ BASIC
+* Full Mage|sr3.160|BASIC
+<P>Can use Sorcery and Conjuring skills, access the astral
+plane, and use foci.</P>
+* Shaman|sr3.160|BASIC
+<P>Can use Sorcery and Conjuring skills, access the astral
+plane, and use foci.  Plus the benefits and disadvantages of
+their totem/tradition. </P>
+* Psionicist|mits.25|BASIC
+<P>Form of full magician.  Can only cast spells that fit into the 
+psionic belief "power of the mind."  They cannot learn spell from 
+"magical" characters. Cannot use any foci.  Cannot accept any geas of a
+"mystical" or "magical" bent.  Cannot summon spirits or elementals, only 
+thought forms. </P>
+* Conjurer|sr3.160|BASIC
+<P>Cannot use Sorcery only Conjuring skills. </P>
+* Elementalist|sr3.160|BASIC
+<P> Always a mage. Can only cast spells and summon spirits related in
+one hemetic element (fire, water, air, or earth).  Must subtract one
+die from thier skill for spells or spirits of their opposing element.</P>
+* Shamanist|sr3.160|BASIC
+<P> Must be a shaman. Can only cast spells and summon spirits for which
+they receive a totem advantage. PICK A TOTEM OFF LIST!</P>
+* Sorcerer|sr3.160|BASIC
+<P> Can only use the Sorcery skill but cannot use Conjuring. </P>
+* PhysAd|sr3.160|BASIC
+<P> Do not use magic skills (except Astral combat).  Cannot astrally 
+project and cannot use astral perception unless purchased. </P>
+\ PATH OF WUXING
+* Wujen|mits.17|BASIC
+<P>ADVAN: May summon spirits of elements and spirits of
+may in the same manner as a shaman summons nature spirits.</P>
+<P>DISADVAN: Cannot summon or control elementals. Cannot summon 
+spirits of land, sky, or water. </P>
+* WuFa|mits.19|BASIC
+<P> These aspected magicians must follow the path of wuxing. 
+Can only cast spells and summon spirits related to one wuxing 
+element (wood, fire, earth, metal, or water).Conjurers can only 
+summon spirits and sorcerers may only cast spells.</P>
+\ TOTEM
+* Ant Eater Shaman|sr2.XXX|Totem
+* Badger Shaman|mits.152|Totem
+<P>ENV: Forest</P>
+<P>DESC: Badger is a small creature, but he takes on
+creatures much larger than himself and wins. He
+likes to stick his nose where it doesn't belong,
+digging for secrets as well as to fortify his
+position. He is a masterful fighter and hunter and
+capable of amazing savagery in defending what is
+his.</P>
+<P>ADVAN: +2 dice for combat spells, +2 dice for forest
+spirits</P>
+<P>DISADVAN: Badger shamans may go berserk in combat, the same
+as Bear shamans
+Berserk:. Whenever shaman takes physical damage in combat, the
+player makes a Willpower (4) Test. The shaman goes
+berserk for 3 turns, minus 1 turn per success.
+Three or more successes avert the berserk rage
+entirely. A berserk shaman will attack the closest
+living thing, friend or foe, using the most
+powerful weapons available (mundane or magical).
+If the shaman incapacitates a target before the
+time is up, the berserk fury dissipates.</P>
+* Bat Shaman|mits.152|Totem
+<P>ENV: Anywhere</P>
+<P>DESC: Bat is well-traveled, rarely staying in one place.
+A seeker, she sets far-reaching goals and gets
+restless when not moving. She is adaptable and can
+make herself home anywhere. Bat shamans get
+distracted and irritable if forced to stay in one
+place for more than a week.</P>
+<P>ADVAN: +2 dice for detection and manipulation spells, +1
+die for spirits of the sky</P>
+<P>DISADVAN: +2 to all magical target numbers when in direct
+sunlight</P>
+* Bear Shaman|sr3.163|Totem
+<P>ENV: Forest</P>
+<P>DESC: Bear is a totem found in cultures wherever bears
+are known, from North America to Europe and Asia.
+He is powerful, but gentle and wise. He tends to
+be slow-moving and easy-going unless he has to
+move fast. Bear is slow to anger, but terrifying
+in battle. Bear shamans tend to be calm, cool and
+collected. They are healers and protectors of the
+natural world as they see it. A Bear shaman cannot
+turn down someone who needs healing without good
+reason.</P>
+<P>ADVAN: +2 dice for health spells, +2 dice for forest
+spirts</P>
+<P>DISADVAN: Bear shamans can go berserk when wounded. Whenever
+a Bear shaman takes physical damage in combat, the
+player makes a Willpower (4) Test. The shaman goes
+berserk for 3 turns, minus 1 turn per success.
+Three or more successes avert the berserk rage
+entirely. A berserk shaman will attack the closest
+living thing, friend or foe, using the most
+powerful weapons available (mundane or magical).
+If the shaman incapacitates a target before the
+time is up, the berserk fury dissipates.</P>
+* Boar Shaman|mits.152|Totem
+<P>ENV: Forest</P>
+<P>DESC: Strong and aggressive, Boar defends his home
+ferociously. He rarely attacks without good
+reason, but once roused he will not yield until he
+has drive the enemy far from his territory.
+Neither clever nor subtle, Boar uses violence in
+combat rather than strategy. If someone invades a
+Boar shaman's territory, he must attack. This
+might involve a Boar shaman socially or verbally
+attacking someone who invades his personal space
+or physically attacking an intruder in the
+shaman's home or lodge.</P>
+<P>ADVAN: +2 dice for combat spells, +1 service from any
+spirit summoned for combat purposes</P>
+<P>DISADVAN: -1 die for illusion spells. Boar shamans must make
+a Willpower (6) Test to withdraw from conflict.</P>
+* Buffalo Shaman|sr3.163|Totem
+<P>ENV: Plains</P>
+<P>DESC: Buffalo is a uniquely North American totem. She
+knows much medicine, which she uses to aid her
+people. She is kind and giving, strong and
+tireless in her work. The people take from Buffalo
+and honor her spirit for the bounty she provides.
+Buffalo shamans are healers and protectors; they
+cannot turn down an honest request for aid from
+anyone who needs it. A Buffalo shaman will lay
+down her life for a true friend or ally in need
+and will often take great risks to help others.</P>
+<P>ADVAN: +2 dice for health spells, +2 dice for prairie
+spirits</P>
+<P>DISADVAN: -1 dice for illusion spells</P>
+* Bull Shaman|mits.154|Totem
+<P>ENV: Forest, mountains or plains</P>
+<P>DESC: Others both admire and fear Bull for his prowess,
+glad of his presence as a defender but wary of his
+ambition. Proud Bull never forgets a slight or an
+insult. He is generous to those he cares for and
+hostile to those who might harm them. As a leader,
+Bull is often required to render judgement, and
+his judgement is sometimes harsh. Bull shamans
+never forget an insult or slight and must avenge
+it in equal measures. Bull cannot support any
+cause he knows is unjust.</P>
+<P>ADVAN: +2 dice for health spells, +1 die for combat and
+detection spells</P>
+<P>DISADVAN: A bull shaman must have a minimum Charisma of 4</P>
+* Cat Shaman|sr3.163|Totem
+<P>ENV: Urban</P>
+<P>DESC: Cat is honored in cultures around the world. She
+is stealthy, sly and rather vain. Cat knows many
+secrets, but shares few of them. Cat shamans tend
+to be loners who keep their own council. They are
+fastidiously clean and presentable whenever
+possible. Cat shamans generally toy with their
+opponents - threatening, taunting and confusing -
+rather than going directly for the kill.</P>
+<P>ADVAN: +2 dice for illusion spells, +2 dice for city
+spirits</P>
+<P>DISADVAN: +1 to all Mental target numbers if dirty or
+unkempt. An unwounded Cat shaman must make a
+Willpower (6) Test when casting a damaging spell.
+If the test fails, the shaman must cast her least
+damaging spell (at its minimum damaging level, for
+a variable damage spell, and at / Force). If the
+shaman is wounded, all this playing around stops.</P>
+* Cheetah Shaman|mits.154|Totem
+<P>ENV: Savannah</P>
+<P>DESC: Cheetah is a swift-moving warrior. She cares
+little for subtlety, preferring the most direct
+route to any goal. A master of many skills,
+Cheetah seems never at a loss. Cheetah shamans
+prefer to acquire a certain level of competence at
+a wide range of skills. A Cheetah shaman prides
+herself on her competence and hates to admit she
+is incapable of any task.</P>
+<P>ADVAN: +2 dice for combat spells, +2 dice for savannah
+(prairie) spirits</P>
+<P>DISADVAN: -1 die for health spells. Cheetah shamans must
+have a minimum Reaction of 4</P>
+* Cobra Shaman|mits.154|Totem
+<P>ENV: Jungle</P>
+<P>DESC: Cobra is stealthy and dangerous, hypnotizing her
+prey to bring them close. She is slow to make
+choice, but her moves are deliberate and she does
+not compromise. She deals on her own terms and
+does not like being surprised. Cobra cannot fight
+to stun. She will either abstain from fighting or
+go straight for the kill.</P>
+<P>ADVAN: +2 dice to combat and illusion spells, +1 die for
+jungle (forest) spirits</P>
+<P>DISADVAN: If surprised, a Cobra shaman adds a +1 modifier to
+all target numbers for the remainder of that
+combat.</P>
+* Coyote Shaman|sr3.163|Totem
+<P>ENV: Anywhere on land</P>
+<P>DESC: Coyote the Trickster is a uniquely North American
+totem. He is unpredictable and ever-changing: bold
+one minute, cowardly the next. Old Man Coyote can
+be a friend or a deceiver. He is intensely curious
+and fond of taking risks just for the fun of it.
+Coyote shamans are independent and refuse to be
+bound by anything other than their word. They live
+by their own rules, surviving on wit and charm.</P>
+<P>ADVAN: None</P>
+<P>DISADVAN: None</P>
+* Crab Shaman|mits.154|Totem
+<P>ENV: On or by the sea</P>
+<P>DESC: Crab is the crust old hermit of the sea. He
+carries his home on his back as he plods
+steadfastly through life. Crab may grumble and
+complain, but he never wavers in his belief in the
+way of thing. Crab shamans are grumpy curmudgeon,
+very fixed in their ways. They have no time fro
+frivolity or play, preferring to get right to the
+heart of a matter.</P>
+<P>ADVAN: +2 dice for sea spirits, +1 die for all Damage
+Resistance Tests (including Drain Tests)</P>
+<P>DISADVAN: -1 die for illusion spells. A Crab shaman must
+make a Willpower (6) Test to change his mind, much
+like Dog</P>
+* Crocodile Shaman|mits.154|Totem
+<P>ENV: On or by the sea</P>
+<P>DESC: Crocodile is a relentless pursuer of pretty and a
+savage foe in combat. With no fixed home, he
+wanders far, and he knows all the secrets of the
+sea.</P>
+<P>ADVAN: +2 dice for combat spells, +1 die for illusion
+spells, +2 dice for sea spirits</P>
+<P>DISADVAN: Crocodile shamans may go berserk in the same was
+as Shark shamans</P>
+* Dingo Shaman|mits.XXX|Totem</P>
+* Dog Shaman|sr3.163|Totem
+<P>ENV: Urban</P>
+<P>DESC: Dog is loyal friend honoured by shamans around the
+world. He fights ferociously to defend his home
+and those under his protect. Dog shamans protect
+people from harmful magic and dangerous spirits.
+They are loyal, generous and helpful to those who
+show them kindness and loyalty in return. They are
+single-minded, often to the point of stubbornness.</P>
+<P>ADVAN: +2 dice for detection spells, +2 dice for field
+and hearth spirits</P>
+<P>DISADVAN: A Dog shaman must make a Willpower (6) Test to
+change a declared course of action. The test
+requires a Complex Action as Dog struggles to
+change his mind.</P>
+* Dolphin Shaman|sr3.163|Totem
+<P>ENV: On or by the sea</P>
+<P>DESC: Dolphin is the free spirit of the sea, dancer on
+the waves. She is wise, yet playful, and a friend
+of man. Dolphin helps people against the threats
+of the sea (like Shark). Dolphin shamans are
+staunch protectors and helpers. They cannot turn
+down a deserving person who needs their help and
+must fight against evil that threatens people or
+nature.</P>
+<P>ADVAN: +2 dice for detection spells, +2 dice for sea
+spirits</P>
+<P>DISADVAN: -1 die for combat spells</P>
+* Dove Shaman|mits.154|Totem
+<P>ENV: Forests and savannah</P>
+<P>DESC: Dove is a peaceful messenger and mediator. She
+helps others to the point of martyring herself.
+She is in tune with her <P>ENV:t and prides
+herself on remaining aware in all circumstances.</P>
+<P>ADVAN: +2 dice for health spells, +1 die for detection
+spells, +1 die for spirits of the sky</P>
+<P>DISADVAN: Dove shamans cannot cast combat spells. They hate
+the thought of hurting others and must make a
+successful Willpower (6) Test to purposely inflict
+physical damage on a metahuman.</P>
+* Dragon Shaman|yotc.145|Totem
+<P>ENV: Mountains</P>
+<P>DESC: Dragon is a wily wyrm who sees the future laid out 
+before him as a myriad of pathways. Rather than walking the path 
+that leads to the goal, Dragon arranges the pathways so that they 
+all lead to the goal, one way or another. Dragon is a crafty manipulator, 
+subtle and far-reaching, whose every move has reprucussions that may 
+not be seen for years to come. Dragon is a creature of terrible might, 
+but he also a creature of balance who sees every action has a consequence 
+and so strives ato achieve harmonious equilibrium.</P>
+<P>ADVAN: +2 Dice for detection & manipulation spells, +1 dice for mountain 
+spirits</P>
+<P>DISADVAN: Dragon shamans must have a minimum intelligence of 6. Are 
+overconfident and must make a Will(6) Test to change a course of action 
+based on the advice of another. Are also hoarders and must make a Willpower 
+(6) Test to relinquish possession on an item with value.</P>
+* Eagle Shaman|sr3.163|Totem
+<P>ENV: Mountains</P>
+<P>DESC: Eagle is the highest-flying bird in the sky,
+considered the most noble by shamans in North
+America, Central America and Europe. He is proud
+and solitary, and sees everything happening in the
+world he soars over. Eagle shamans are proud and
+noble defenders of the purity of nature. They are
+intolerant of those who do not share their views,
+and have a strong distrust of technology and its
+tools. Those who damage nature are Eagle's
+enemies, and Eagle shamans brave great danger to
+defeat polluters and other evildoers.</P>
+<P>ADVAN: +2 dice for detection spells, +2 dice for all
+spirits of the sky</P>
+<P>DISADVAN: Double the Essence loss caused by adding cyberware
+because of the psycchological impact this has on
+the Eagle shaman.</P>
+* Elk Shaman|mits.154|Totem
+<P>ENV: Plains, forests and tundra</P>
+<P>DESC: Elk is a gentle and wise protector. He stands
+majestic before he opposition. When there is no
+threat to be faced, he wanders the land in deep
+contemplation. Elk fears little and is surprised
+by less, as he knows that when he falls, another
+will replace him.</P>
+<P>ADVAN: +1 die for health spells, +1 die for spell
+defense, +2 dice for spirits of the land</P>
+<P>DISADVAN: -2 dice for combat spells</P>
+* Fish Shaman|mits.154|Totem
+<P>ENV: On or near water</P>
+<P>DESC: All glimmering scales and swift fins, Fish is
+quick and clever, evading the fisherman's hook and
+the predator's jaws. In the east he is Carp, while
+in the west he is often seen as wise Salmon, but
+regardless of the mask he wears Fish is wise. He
+can give much insight to those swift enough to
+catch him. Fish shamans love secrets but loathe
+giving them away. They always bargain for the best
+deal when parting with information.</P>
+<P>ADVAN: +2 dice for detectio spells, +2 dice for one
+spirit of the waters (shaman's choice)</P>
+<P>DISADVAN: -1 dice for combat spells</P>
+* Fox Shaman|mits.155|Totem
+<P>ENV: Anywhere on land</P>
+<P>DESC: Fox is the essence of sly wit and cunning. He is a
+master thief and trickster. Fox often uses human
+bounty to sustain him. He does not care for
+battle, preferring to outwit or trick his
+opponents. When forced into battle Fox always
+fights to kill, not stun or capture.</P>
+<P>ADVAN: +2 dice fo illusion spells, +2 dice for any one
+spirit of the land or spirit of man (shaman's
+choice)</P>
+<P>DISADVAN: -1 dice for combat spells. A Fox shaman must make
+a Willpower (6) Test to spare a fallen enemy.</P>
+* Gator Shaman|sr3.163|Totem
+<P>ENV: Swamp, river or urban</P>
+<P>DESC: Found among shamans living near swamps and rivers,
+Gator also flourishes among urban shamans, since
+legend has it that he dwells in the sewers and
+storm drains of the city. He is ill-tempered and
+lazy, a strong fighter and a big eater. Gator
+shamans like big payoffs that allow them to take
+it easy for a while. It can take a hefty argument
+to talk a Gator shaman into any unnecessary
+exertion, but once a Gator shaman decides to do
+something, it is just a difficult to talk him out
+of it.</P>
+<P>ADVAN: +2 dice for combat and detection spells. As a
+wilderness totem +2 dice for swamp, lake or river
+spir</P>
+<P>DISADVAN: -1 die for illusion spells. It takes a Willpower
+(6) Test for a Gator shaman to break off a fight,
+chase or other direct action.</P>
+* Gecko Shaman|mits.155|Totem
+<P>ENV: Anywhere</P>
+<P>DESC: Fast moving and always on the lookout, Gecko is
+impossible to pin down. He is a prankster but not
+a thief. Extremely adaptable and difficult to
+kill, Gecko always manages to get into places
+where he shouldn't go. Unfortunately, he often
+brings his friends along for the fun.</P>
+<P>ADVAN: +2 dice for illusion or manipulation spells
+(shaman's choice), +1 die for resisting any type
+of poison</P>
+<P>DISADVAN: -1 die for combat spells</P>
+* Goose Shaman|mits.155|Totem
+<P>ENV: Anywhere near water</P>
+<P>DESC: Goose is proud and territorial, known to become
+load and boisterous when threatened. She is
+acquainted with the high places as well as the low
+and skilled at blending in and claiming a place as
+her own.</P>
+<P>ADVAN: +2 dice for detection spells, +1 die for combat
+spells, +2 dice for a single spirit of the land,
+sky or waters (shaman's choice)</P>
+<P>DISADVAN: Goose shamans know their chosen territory well.
+Away from their home city or region, however, they
+suffer +2 to all magical target numbers. If the
+shaman moves to a new home, it takes a full turn
+of the moon (28 days) to acclimate to the new
+locale and eliminate the penalty.</P>
+* Horse Shaman|mits.155|Totem
+<P>ENV: Prairie</P>
+<P>DESC: Swift and strong, Horse is the embodiment of
+freedom. She roams across the land and cannot bear
+confinement. Though never wilful or malicious,
+Horse can be unpredictable. Horse is also a figure
+of fertility, ensuring growth and prosperity to
+the land. Horse dislikes open conflict and prefers
+to avoid situations that limit her freedom. Horse
+shamans tend to be slippery types who avoid long-
+term commitments.</P>
+<P>ADVAN: +2 dice for health spells, +2 dice for prairie
+spirits. Horse shaman initiates can also attempt
+to learn the Movement critter poewr (self only,
+three times a day) as a metamagical technique.</P>
+<P>DISADVAN: -1 die when resisting combat or illusion spells
+(shaman must choose at character creation)</P>
+* Hyena Shaman|mits.155|Totem
+<P>ENV: Savannah</P>
+<P>DESC: Hyena is aggressive, capricious and cunning,
+serving her own needs above all else. She is quick
+to anger and fanatically defends her position
+against larger foes, fighting lions for her share
+of the kill.</P>
+<P>ADVAN: +2 dice for combat spells, +2 dice for Banishing
+any spirits</P>
+<P>DISADVAN: -1 die for health spells. Must make a Willpower
+(6) Test to perform an action with no benefit to
+herself.</P>
+* Jackal Shaman|mits.155|Totem
+<P>ENV: Savannah</P>
+<P>DESC: Like Rat, Jackal is a stealthy thief too selfish
+to share anything, even with his companions. He is
+also a reluctant warrior who would rather run than
+fight. Unlike Rat, Jackal is mischievous and
+playful and prefers to act unconventionally.</P>
+<P>ADVAN: +2 dice for detection and illusion spells, +2 dice
+for savannah (prairie) spirits</P>
+<P>DISADVAN: -1 die for all combat spells</P>
+* Jaguar Shaman|mits.155|Totem
+<P>ENV: Jungle</P>
+<P>DESC: Jaguar is a stalker who uses her skills and
+predatory instinct to track down her goals and
+finish them off with ruthless efficiency. Jaguar
+shamans rarely specialize, preferring to acquire a
+moderate level of competence in many skills rather
+than mastery of only a few.</P>
+<P>ADVAN: +2 dice for detection spells, +2 dice for forest
+spirits</P>
+<P>DISADVAN: -1 die for health spells</P>
+* Junk|tss.18|Totem
+<P>ENV: Urban(Preferably Scrapyard)</P>
+<P>DESC: Junk is the embodiment of cast-off refuse of
+metahumanity.  It thrives in places where the unwanted
+or unusable accumulates.  Junk shamans are usually
+packrats, and tend to enchant the strangest things for
+foci and fetishes  They also have an uncany knack for
+finding and actually fixing the broken-down, worn-out
+scrap they admire so much.</P>.
+<P>ADVAN: +2 dice for detection spells, +2 dice for
+spirits of man, +1 die for B/R skills. (When improving,
+count this die for determining karma costs)</P>
+<P>DISADVAN: -1 die for combat spells, -1 die for water
+spirits.  Junk shamans can only use magic skills when
+unkempt or surrounded by junk.</P>
+* Koala Shaman|sr2.XXX|Totem
+* Leopard Shaman|mits.155|Totem
+<P>ENV: Forest or savannah</P>
+<P>DESC: Leopard possesses great stamina and can achieve
+enormous speed over short distance. He is
+aggressive, quick to anger and vicious when
+cornered. Leopard is reclusive and secretive, a
+nocturnal creature with superb night vision. He
+depends on his keen senses rather than on
+intellect but may still be deceived by appearances.</P>
+<P>ADVAN: +2 dice for combat and health spells, +2 dice for
+all nature spirits at night</P>
+<P>DISADVAN: -1 die for resisting illusion spells</P>
+* Lion Shaman|sr3.163|Totem
+<P>ENV: Prairie</P>
+<P>DESC: Lion is followed by shamans from the veldts of
+Africa to the plains of Europe. He is a brave an
+powerful warrior, who protects his family with his
+life. Lion prefers to work from surprise or
+ambush, but will take the direct approach when
+necessary. Lion shams demand the best from
+themselves. They also demand respect from those
+around them. A Lion shaman makes a loyal friend
+and a deadly enemy.</P>
+<P>ADVAN: +2 dice for combat spells, +2 dice for prairie
+spirits</P>
+<P>DISADVAN: -1 die for health spells</P>
+* Lizard Shaman|mits.155|Totem
+<P>ENV: Desert, forest or mountains</P>
+<P>DESC: Lizard often seems lethargic, enjoying the warmth
+of the sun as he basks under the open sky. If
+necessary, he can move with great speed and fight
+with unsurpassed viciousness. Lizard is placid and
+slow to anger, except when his home or his freedom
+are threatened. Lizard sees much in his stillness
+and is very wise.</P>
+<P>ADVAN: +2 dice for health spells, +2 dice for desert,
+forest or mountain spirits (shaman's choice)</P>
+<P>DISADVAN: +2 to all target numbers while in tight quarters.
+When trapped in a confined place with no clear
+view of the sky, a Lizard shaman must make a
+Willpower (6) Test. The shaman flies into a
+berserk panic for 3 turns, minus 1 turn for every
+success generated on the Willpower Test. While in
+a panic, the shaman will do everything possible to
+get out of the enclosed space.</P>
+* Monkey Shaman|mits.156|Totem
+<P>ENV: Forest</P>
+<P>DESC: Monkey is clever and playful and likes people
+because they are funny. He is a foe of evil and
+enjoys taunting and frustrating the plans of those
+who would harm him or his friends. Monkey likes to
+taunt opponents, using magic to trick them and
+make them look foolish rather than slaughtering
+them. Monkey is very good at climbing and making
+his way through the most difficult parts.</P>
+<P>ADVAN: +2 dice for manipulation spells, +2 dice for
+spirits of man</P>
+<P>DISADVAN: -1 die for combat spells</P>
+* Mouse Shaman|sr3.163|Totem
+<P>ENV: Urban or fields</P>
+<P>DESC: Mouse knows just where to find the right thing for
+every situation. She is clever and resourceful;
+her wisdom often helps fierce and proud totems
+like Lion and Wolf out of trouble, showing them
+the common sense they might otherwise miss. Mouse
+is no one's enemy and, if she has a flaw, it is
+that curiosity sometimes gets the better of her.
+Mouse shamans tend to be hoarders, collecting all
+manner of junk along with useless information and
+trivia, storing everything away "for a rainy day."</P>
+<P>ADVAN: +2 dice for detection and health spells, +2 dice
+for hearth and field spirits</P>
+<P>DISADVAN: -2 dice for combat spells</P>
+* Otter Shaman|mits.156|Totem
+<P>ENV: On or near water</P>
+<P>DESC: Otter is playful and mischievous. She knows her
+territory well, all its secret places for fishing
+and hiding. Otter is clever and can outwit bigger
+creatures. At home on land or in the water, she
+watches everything with a careful eye. Otter is a
+prankster with a strange sense of humor. Otter
+shamans are always full of nervous energy and have
+difficulty sitting still for long periods of time.</P>
+<P>ADVAN: +2 dice for illusion spells, +2 dice for river or
+sea spirits (shaman's choice)</P>
+<P>DISADVAN: -1 die for combat spells</P>
+* Owl Shaman|sr3.165|Totem
+<P>ENV: Anywhere</P>
+<P>DESC: Owl is wise and sees all. She rules the nigh sky
+and what she hunts, she finds. By day, shi is
+nearly helpless. Owl is honored by cultures around
+the world, although some consider her appearance a
+bad omen. Owl shamans are nocturne loners well-
+suited for life in the shadows. Their magic is
+weaker during the day, and owl shamans tend to
+remain in the shadow even during daytime.</P>
+<P>ADVAN: +2 dice for any Sorcery or Conjuring at night</P>
+<P>DISADVAN: +2 to all magical target numbers during the daytime</P>
+* Panther Shaman|sr2.XXX|Totem
+* Parrot Shaman|mits.156|Totem
+<P>ENV: Jungle</P>
+<P>DESC: Parrot is colourful, wisecracking showoff. Her
+plumage is the brightest, her voice the loudest
+and her magic the showiest. She must be the center
+of attention and will drop everything to get in
+the spotlight.</P>
+<P>ADVAN: +2 dice to illusion spells, +2 dice to jungle
+(forest) spirits</P>
+<P>DISADVAN: Parrot's magic exists to bring applause. Apply a
+ +1 modifier to all magical target numbers when a
+Parrot shaman's magical actions are not witnessed
+by someone who can be impressed by them.</P>
+* Polecat Shaman|mits.156|Totem
+<P>ENV: Anywhere on land</P>
+<P>DESC: Slinky and clever, playful but rough, Polecat
+prefers to tackle problems that she can sink her
+teeth into. A night hunter, she can be both
+tenacious and bloodthirsty.</P>
+<P>ADVAN: +1 die for combat spells (+1 more die for combat
+spells at night), +2 dice for spirits of the land</P>
+<P>DISADVAN: -1 die for health spells. In combat, a Polecat
+shaman will single-mindedly continue to attack an
+opponent until they are downed, ignoring other
+opponents; the shaman must make a Willpower (6)
+Test to break off the attack</P>
+* Possum Shaman|sr2.XXX|Totem
+* Prairie Dog Shaman|mits.156|Totem
+<P>ENV: Anywhere on land</P>
+<P>DESC: Prairie Dog is playful, fun-loving and friendly.
+He is not naive, however, always keeping an eye
+out for danger. He relies on his family and
+friends to help him as he helps them. Prairie Dog
+shamans price themselves on making friends with
+neighbors and building a support network. They
+always know multiple ways of getting somewhere and
+rarely follow the same route twice in a row.</P>
+<P>ADVAN: +2 dice for detection spells, +1 die for illusion
+spells, +2 dice for spirits of the land</P>
+<P>DISADVAN: -2 dice for combat spells. Prairie Dog shamans
+must have a minimum Charisma of 4.</P>
+* Puma Shaman|mits.156|Totem
+<P>ENV: Any isolated wilderness location except the desert</P>
+<P>DESC: Puma prefers to stalk her prey at nights. She
+choose guild over direct confrontation whenever
+she can, though she is a lethal fighter when
+pressed. Puma is a loner, and Puma shamans prefer
+to work alone, especially when doing magic. Their
+lodges are usually far from civilization.</P>
+<P>ADVAN: +2 dice for illusion spells, +2 dice for mountain
+spirits</P>
+<P>DISADVAN: +2 to all magic target numbers when in direct
+sunlight or in crowds</P>
+* Python Shaman|mits.156|Totem
+<P>ENV: Jungle</P>
+<P>DESC: Python is slow and ponderous. Neither clever nor
+swift, he possesses enormous strength and
+recuperative powers and is merciless once he gains
+the upper hand. He is peaceful but unforgiving if
+provoked. He can also use his singular power of
+will to dominate others.</P>
+<P>ADVAN: +2 dice for health and control manipulation
+spells, +2 dice for jungle (forest) spirits</P>
+<P>DISADVAN: A Python shaman must make a successful Willpower
+(6) Test to break off combat or any other
+sustained activity.</P>
+* Raccoon Shaman|sr3.165|Totem
+<P>ENV: Anywhere but the desert</P>
+<P>DESC: Raccoon is a cunning bandit who can break into any
+trap and steal the bait. He fights when he must,
+but prefers strategy and trickery. Raccoon shamans
+are intensively curious, which often leads them
+into danger. They can be greed (Raccoon is a thief
+totem) and many steal only the very best. Pretty
+thefts and violent robberies are beneath a Raccoon
+shaman's dignity.</P>
+<P>ADVAN: +2 dice for manipulation spells, +2 dice for city
+spirits</P>
+<P>DISADVAN: -1 die for combat spells</P>
+* Rat Shaman|sr3.165|Totem
+<P>ENV: Urban</P>
+<P>DESC: Rat is found wherever humans are, for who else's
+bounty can sustain him? Rat is stealthy thief too
+selfish to share anything. He is coward who would
+rather run than fight. Rat shamans tend to be
+dirty and unkempt. They dislike working out in the
+open, preferring to stick to the shadows. Rat
+shamans avoid fights whenever they can. When the
+must fight, they fight to kill.</P>
+<P>ADVAN: +2 dice for detection and illusion spells, +2 dice
+for city spirits</P>
+<P>DISADVAN: -1 die for combat spells</P>
+* Raven Shaman|sr3.165|Totem
+<P>ENV: Anywhere under the open sky</P>
+<P>DESC: Raven is a harbinger of trouble in cultures world-
+wide. He is a trickster, dark and devious, and a
+transformer, responsible for changes. Raven
+thrives off the bounty of carnage and chaos, but
+does not cause them. He merely knows an
+opportunity when he sees one. Raven shamans love
+to eat, and they rarely refuse an offer of food.</P>
+<P>ADVAN: +2 dice for manipulation spells, +2 dice for sky
+spirits</P>
+<P>DISADVAN: +1 to all magical target numbers while not under
+the open sky</P>
+* Scorpion Shaman|mits.157|Totem
+<P>ENV: Desert</P>
+<P>DESC: Scorpion is the dancer of death. He fears nothing
+because he can kill any foe. His poison is his
+strength. It gives Scorpion the power to do as he
+pleases. Scorpion is invisible in his home. He
+strikes enemies swiftly and without mercy.</P>
+<P>ADVAN: +2 dice for combat and illusion spells. Scorpion
+shamans can milk venom from ordinary and Awakened
+scorpions, and scorpion venom never does more than
+Light damange to a Scorpion shaman.</P>
+<P>DISADVAN: +2 to all magical target numbers during the day, -
+1 die for all Conjuring Tests. Scorpion shamans
+become irritable and depressed when away from
+their desert homes: +1 to all of the shaman's
+magical target numbers for each day outside the
+desert to a maximum of +6.</P>
+* Scottish Wildcat|tss.12|Totem
+<P>ENV: Traditionally open ground and around moors, with
+plenty of game.  Can be found near civilization, but will
+rarely live around populated areas.</P>
+<P>DESC: Scottish Wildcat has problems finding trusting people.
+It calls more to metahumans, and usually in rural settings.
+Scottish Wildcat is ever eager for vengence, and acts on
+impulse whenever it is sure of "what's happening" and deals
+with revenge swiftly and brutally.  Scottish Wildcat shamans
+almost always work alone, unless they have potential partners
+they can completely trust.  Wildcat shamans tend to be strong
+willed - Wildcat doesn't choose those that can't handle him, nor
+ones that are easily swayed.  Stubborness seems almost a necessity.</P>
+<P>ADVAN: +1 dice to all combat spells, +2 dice (cumulative) for
+all spells used that will directly inflict damage on someone the 
+shaman is acting out revenge on.  +1 die for illusion spells</P>
+<P>DISADVAN: Willpower(6) Test not to act out revenge immediately.
+-2 dice to all health spells</P>
+* Shark Shaman|sr3.165|Totem
+<P>ENV: On or by the sea</P>
+<P>DESC: Shark is a cold and relentless hunter. When Shark
+strikes, he does so without mercy, driven into a
+frenzy by the blood of his prey. Shark shamans
+tend to be wanderers, always on the move. They are
+fierce and deadly warriors. A Shark shaman
+believes the only good enemy is a dead enemy. If
+challenged, they do not waste time with threats or
+boasts, but strike to kill.</P>
+<P>ADVAN: +2 dice for combat and detection spells, +2 dice
+for sea spirits</P>
+<P>DISADVAN: Shark shaman can go berserk in combat similar to
+Bear shamans, when they are wounded or when they
+kill an opponent. A berserk Shark shaman may,
+instead of attacking a living target, continue to
+attack the body of his victim, if the player
+chooses.
+Berserk:. Whenever shaman takes physical damage in combat, the
+player makes a Willpower (4) Test. The shaman goes
+berserk for 3 turns, minus 1 turn per success.
+Three or more successes avert the berserk rage
+entirely. A berserk shaman will attack the closest
+living thing, friend or foe, using the most
+powerful weapons available (mundane or magical).
+If the shaman incapacitates a target before the
+time is up, the berserk fury dissipates.</P>
+* Snake Shaman|sr3.165|Totem
+<P>ENV: Anywhere on land</P>
+<P>DESC: Snake is wise and knows many secrets. She is a
+good councillor, but always exacts a price for
+their advice. Snake shamans are pacifists; they
+only fight to protect themselves and others. Snake
+shamans are obsessed with learning secrets and
+take great risks to do so. They trade their
+knowledge to others for whatever they can get in
+exchange.</P>
+<P>ADVAN: +2 dice for detection, health and illusion spells.
+As a wilderness totem, +2 dice for any one spirit
+of the land (shaman's choice). As an urban totem,
+ +2 dice for any one spirit of man (shaman's
+choice).</P>
+<P>DISADVAN: -1 die for all spells cast during combat</P>
+* Spider Shaman|mits.157|Totem
+<P>ENV: Quiet, dark places where others seldom look</P>
+<P>DESC: Spider is the great weaver, the builder of all
+things. Her web links everything, showing what was
+and what will be. She is eternal change, the cycle
+of life and death, the center of all things. Her
+smile is both benevolent and fearsome, according
+to the time and her mood. She waits patiently, for
+in time, all things come to her.</P>
+<P>ADVAN: +2 dice for illusion spells, +1 die for all nature
+spirits</P>
+<P>DISADVAN: +2 to all magical target numbers in the open, away
+from immediate shelter. +1 to all target numbers
+if a Spider shaman does not have sufficient time
+to plan and consider a situation.</P>
+* Stag Shaman|mits.157|Totem
+<P>ENV: Forest</P>
+<P>DESC: Stag is noble and swift, a spirit of life and
+death. Stag represents the timeless cycle of
+birth, death and rebirth that encompasses all
+living things. He is detached from the physical
+world but wise in the secret ways. Stag shamans
+are proud and do not forget slights to their
+dignity, which they must avenge in equal measure.</P>
+<P>ADVAN: +2 dice for health and illusion spells, +2 dice
+for forest spirits</P>
+<P>DISADVAN: -1 die for manipulation spells</P>
+* Tiger Shaman|tss.4|Totem
+<P>ENV: Rain Forest or Taiga</P>
+<P>DESC: Tiger is a warrior.  Strong and powerful, Tiger
+relies on his strength and prowess to defeat his enemies,
+not technology.  Like Lion, his methods are to the point,
+direct and he prefers to work from ambush.  Unlike Lion,
+Tiger is the first to attack, often using his most powerful
+spells first and his weakest last.  Tiger shamans are often
+found where tigers are found: Asia and India mostly although
+there are Tiger shamans in America.</P>
+<P>ADVAN: +2 dice for combat and manipulation spells.  +2
+dice for conjuring Forest spirits.</P>
+<P>DISADVAN: -2 dice fopr healing and illusion  spells.  Tiger
+is cool under pressure, but will go berserk as Bear does when
+wounded.  Tiger inspires respect and fear from those around him.
+A Tiger shaman is usually trained in Kung-Fu, but cannot be an 
+Adept.</P>
+* Turtle Shaman|mits.157|Totem
+<P>ENV: On or near water</P>
+<P>DESC: Turtle exists in harmony with his <P>ENV:t.
+Though fertile, he feels little responsibility
+toward his young. Turtle sees survival as a
+privilege to be earned. He finds combat an alien
+concept and prefers to hide from danger, relying
+on his hard shell to protect him. Turtle shamans
+fee little urge to protect others, even when doing
+so poses no danger to them. Turtle shamans tend to
+go through life in a detached state, observing
+things rather than becoming involved. This innate
+lack of curiosity often makes it difficult to
+rouse them to action.</P>
+<P>ADVAN: +2 dice for illusion spells, +2 dice for one
+spirit of the waters (shaman's choice)</P>
+<P>DISADVAN: -2 dice for combat spells</P>
+* Whale Shaman|mits.157|Totem
+<P>ENV: On on near the sea</P>
+<P>DESC: Whale appreciates beauty and the importance of
+tradition, and she holds personal honor dearer
+than all else. Loyal to those she adopts, Whale
+protects them with her life if necessary. Though
+slow to anger, her rage is terrible to behold.
+Whale shamans do not start fights - but they do
+finish them. A What shaman cannot break any oath,
+knowing her totem will punish her by withdrawing
+her magic. Of course, a smart whale shaman knows
+the best way to avoid breaking an oath is not to
+make one.</P>
+<P>ADVAN: +2 dice for combat spells, +2 dice for sea spirits</P>
+<P>DISADVAN: -1 die for illusion spells</P>
+* Wild Dog Shaman|sr2.XXX|Totem
+* Wolf Shaman|sr3.165|Totem
+<P>ENV: Forest, prairie or mountains</P>
+<P>DESC: Wolf is recognized as a hunter and warrior
+worldwide. He is fiercely loyal to the other
+members of his pack. As the ancient saying goes,
+Wolf wins every fight but one, and that one, he
+dies. Wolf shamans are loyal to friends and family
+unto death. They do not show cowardice in battle
+and their word is their bond.</P>
+<P>ADVAN: +2 dice for combat and detection spells, +2 dice
+for forest, prairie or mountain spirits (shaman's
+choice)</P>
+<P>DISADVAN: Wolf shamans can go berserk in combat similar to
+Bear shamans
+Berserk:. Whenever shaman takes physical damage in combat, the
+player makes a Willpower (4) Test. The shaman goes
+berserk for 3 turns, minus 1 turn per success.
+Three or more successes avert the berserk rage
+entirely. A berserk shaman will attack the closest
+living thing, friend or foe, using the most
+powerful weapons available (mundane or magical).
+If the shaman incapacitates a target before the
+time is up, the berserk fury dissipates.
+\ NATURE
+* Moon Shaman|mits.157|Nature
+<P>ENV: Far from civilization, or hidden corners of city</P>
+<P>DESC: Moon is changeable and secretive. She sees much
+from her high vantage point and keeps many secrets
+hidden from prying eyes under the veil of night.
+Moon is also a transformer, ever changing,
+unknowable. Moon shamans always take the subtle
+approach. They prefer to keep a low profile and
+act through subterfuge.</P>
+<P>ADVAN: +2 dice for illusion and transformation
+manipulation spells, +1 die for detection spells,
+ +1 die for spirits of the waters</P>
+<P>DISADVAN: -1 die for combat spells. Moon shamans must make a
+Willpower (6) Test in order to engage in direct
+confrontation. Negotiation is not considered
+confrontation (Moon loves discussion), but
+arguments do not fall into that category.</P>
+* Mountain Shaman|mits.157|Nature
+<P>ENV: Mountain</P>
+<P>DESC: Mountain is rooted in the very heart of the Earth
+but reaches toward lofty heights. He has limitless
+strength and endurance, but Mountain's inflexible
+nature limits him. Mountain is a stubborn and
+unyielding force, and Mountain shamans are
+difficult to persuade once they have made up their
+minds about something.</P>
+<P>ADVAN: +2 dice for manipulation spells, +2 dice for
+mountain spirits</P>
+<P>DISADVAN: -1 die for illusion spells. A Mount shaman must
+make a Willpower (6) Test to change a course of
+action once it is chosen.</P>
+* Oak Shaman|mits.158|Nature
+<P>ENV: Forest</P>
+<P>DESC: Oak is the strongest of trees, patient and noble.
+He protects others, shielding small plants and
+moss from the elements. Strong shields, buildings
+and ships are made from Oak. Oak does not rush
+into things without thorough consideration. Oak
+shamans protect anyone they have agreed to defend
+steadfastly, even unto death.</P>
+<P>ADVAN: +2 dice for health spells, +2 dice for forest
+spirits, +2 dice for hearth spirits in any
+structure built mostly out of oak</P>
+<P>DISADVAN: An Oak shaman must have a minimum Strength and
+Body of 4.</P>
+* Sea Shaman|mits.158|Nature
+<P>ENV: On or near the sea</P>
+<P>DESC: Sea is the birthplace of all living creatures. She
+is unfathomable and moody, tranquil and comforting
+one moment, fearsome and destructive the next.
+Though she possess great wealth, she jealously
+guards what comes into her hands. Se can be a
+powerful ally, but she must be courted with great
+care.</P>
+<P>ADVAN: +2 dice for health and transformation manipulation
+spells, +2 dice for sea spirits and ship (hearth)
+spirits</P>
+<P>DISADVAN: A Sea shaman does not give anything away for free.
+She must receive a suitable payment, which is
+determined by the shaman. A loved one may receive
+a valuable artifact for the price of a kiss, while
+someone is disfavor must pay handsomely for the
+smallest consideration. A Sea shaman is very proud
+and must make a Willpower (6) Test to avoid
+answering any slight or insult in kind.</P>
+* Stream Shaman|mits.158|Nature
+<P>ENV: Near the shores of a river or stream</P>
+<P>DESC: Stream is a small and steady force, constantly
+moving. Capable of raging floods or low and
+sluggish ebbs, Stream is generally a balanced and
+peaceful force. Stream shamans value harmony above
+all else. They try to settle conflicts peacefully.
+They are aware of the occasional need to fight
+forces that would do them harm but avoid combat
+whenever possible.</P>
+<P>ADVAN: +2 dice for health spells, +2 dice for river
+spirits</P>
+<P>DISADVAN: -1 die for combat spells</P>
+* Sun Shaman|mits.158|Nature
+<P>ENV: Anywhere under the open sky</P>
+<P>DESC: Sun is noble, heroic, flamboyant and courageous.
+Sun is an inspiration to his followers and a
+natural leader by example. All living things draw
+sustenance from his life-giving light. Sun is a
+supreme power for creation as well as destruction.
+From his place in the sky, he can observe all and
+rule justly. A Sun shaman refuses to follow any
+cause he believes is unjust. They maintain the
+highest possible standard for themselves and
+strive to excel at whatever they choose to do.</P>
+<P>ADVAN: +2 dice for combat, detection and health spells.
+ +2 dice for any spirit while in direct sunlight</P>
+<P>DISADVAN: +2 to all Conjuring target numbers at night. A Sun
+shaman must have a minimum Charisma of 4.</P>
+* Wind Shaman|mits.158|Nature
+<P>ENV: Anywhere under the open sky</P>
+<P>DESC: Wind is a lofty force who makes his way through
+available spaces and openings. Wind is also a
+chaotic force, much like any untamed beast. Wind
+shamans are capricious. They obey no restraints
+other than what they impose on themselves A Wind
+shaman can go from total calm to a flurry of
+activity with startling suddenness. They strongly
+dislike being tied down or restricted.</P>
+<P>ADVAN: +2 dice for detection spells, +2 dice for spirits
+of the sky</P>
+<P>DISADVAN: +2 to all magical target numbers while not under
+the open sky
+\ MYTHIC
+* Fenrir Shaman|mits.158|Mythic
+<P>ENV: Forests</P>
+<P>DESC: Fearless and aggressive, Fenrir can be quite
+murderous as well. He is vicious and ill-tempered
+and will hunt down any who offend him. Fenrir
+shamans are mean and ruthless individual who have
+a disturbing tendency to treat others like their
+next meal. Fenrir shamans are overconfident and
+brutal, fearing almost nothing.</P>
+<P>ADVAN: +3 dice for combat spells, +1 die for forest
+spirits</P>
+<P>DISADVAN: Fenrir shamans must make a Willpower (8) Test to
+back down or flee from any confrontation. If
+wounded, a Fenrir shaman goes berserk in the same
+manner as a Bear shaman.
+Berserk:. Whenever shaman takes physical damage in combat, the
+player makes a Willpower (4) Test. The shaman goes
+berserk for 3 turns, minus 1 turn per success.
+Three or more successes avert the berserk rage
+entirely. A berserk shaman will attack the closest
+living thing, friend or foe, using the most
+powerful weapons available (mundane or magical).
+If the shaman incapacitates a target before the
+time is up, the berserk fury dissipates.</P>
+* Gargoyle Shaman|mits.158|Mythic
+<P>ENV: Urban</P>
+<P>DESC: A creature of living stone, Gargoyle is patient,
+able to remain motionless for hours, silently
+observing. He is a fierce fighter, willing to wait
+and watch for the ideal moment to strike and rend
+his prey. From his silent perch high above the
+city, Gargoyle sees much and knows the value of
+knowledge. Gargoyle shamans prefer to carefully
+observe and gather information before making a
+move, planning their actions for maximum
+advantage. They refuse to act hastily and retreat
+if caught unaware, to plot their next move.</P>
+<P>ADVAN: +1 dice for detection and illusion spells, +2 dice
+for city spirits</P>
+<P>DISADVAN: -1 die for spirits of the waters. Gargoyle shamans
+must live in either s skyscraper of castlelike
+structure, which usually requires a high or luxury
+lifestyle. Their homes always feature some soft of
+accessible perch, walkway or balcony near the roof.</P>
+* Griffin Shaman|mits.158|Mythic
+<P>ENV: Mountains</P>
+<P>DESC: Griffin is the savage lord of the winds. He is
+intimate with the dance of hunter and prey.
+Griffin may terrorize his pretty in combat, but he
+honors and respects a capable opponent, for the
+hunt is a sacred task, not a sport. Living high in
+his mountain lair, Griffin sees far and knows the
+secrets of his pretty he depends on for life.
+Griffin shamans are proud and do not suffer
+indignity from those they consider beneath them
+(which is most everyone else). Griffin shamans are
+honorable combatants and always declare the target
+of their attack, which is always the most powerful
+opponent they face in any battle. They attack only
+that target until the shaman or the enemy dies or
+is incapacitated. If a third parts steps in to
+"help" the shaman, the shaman will consider it an
+insult.</P>
+<P>ADVAN: +2 dice for combat spells, +2 dice for spirits of
+the sky</P>
+<P>DISADVAN: Any time a Griffin shaman is insulted or offended,
+unless he succeeds a Willpower (6) Test, the
+shaman will fly into a frenzy and attack the
+target.</P>
+* Leviathan Shaman|mits.159|Mythic
+<P>ENV: On or near the sea</P>
+<P>DESC: Leviathan dives to the deepest and darkest depths
+of the sea, where he lives in eternal night. He
+carries his majestic bulk gracefully in the heart
+of the waters, and his song gives his wisdom and
+knowledge to all the creatures of the deep. Life
+is a simple and as complex as the movements of the
+tides and the endless dance of life in the sea.
+Leviathan shamans are almost preternaturally calm
+and unhurried and sometimes slow to react.</P>
+<P>ADVAN: +1 die for health and manipulation spells, +2 dice
+for sea spirits</P>
+<P>DISADVAN: -1 die for illusion spells</P>
+* Pegasus Shaman|mits.159|Mythic
+<P>ENV: Rural area under the open sky</P>
+<P>DESC: In myth, Pegasus sprang full grown from the
+severed neck of Medusa. A creature of beauty born
+of blood, Pegasus is wild and free. He is skittish
+and shy, avoiding strangers and elusive as the
+wind itself. He fights fiercely against the
+bridle, and only the bravest can earn his respect
+and friendship. Pegasus is loyal to such people.
+But not blindly so. An arrogant rider can still be
+brought low if he gets above himself.</P>
+<P>ADVAN: +2 dice to detection and health spells, +2 dice
+for spirits of the sky</P>
+<P>DISADVAN: Pegasus shamans cannot bear captivity or limits on
+their freedom of movement. If they voluntarily
+enter a building or enclosed area, they must make
+a Willpower (6) Test to remain inside. If they
+fail, they still may stay inside but receive +1 to
+all target numbers while inside. Every (Willpower)
+hours the shaman must repeat this test. Additional
+failures add a cumulative +1 modifier to all test.
+If the modifier reaches +8, the shaman enters a
+death frenzy. A Pegasus shaman involuntarily
+confined (imprisoned, caught in a natural
+disaster, and so on) automatically suffers a +1
+penalty to all target number. This penalty
+increases every (Willpower) hours. When the
+modifiers reach +8, he enters a death frenzy.
+Additionally, an imprisoned Pegasus shaman must
+make a Willpower (6) Test every (Willpower) hours
+or enter a death frenzy. Death Frenzy: A Pegasus
+shaman in a death frenzy is a crazed creature who
+single-mindedly does anything possible to escape.
+Increase all the shaman's Attributes by 2 during
+the death frenzy. The shaman will immediately try
+to escape confinement. He does not fight unless
+opponents try to stop him. The gamemaster keeps a
+secret running total of any damage the shaman
+takes during the frenzy, though neither the damage
+nor any penalties apply. If the character's damage
+exceeds the Physical column of the Condition
+Monitor and his Body Rating, the shaman continues
+to live for a number of minutes equal to his
+Willpower, still possessed by the frenzy, then
+dies. If the shaman succeeds in escaping, the
+frenzy ends a number of minutes later equal to his
+Willpower. All damage taken during the frenzy
+takes effect at that moment. If the damage is
+enough to kill the shaman, he or she dies.</P>
+* Phoenix Shaman|mits.159|Mythic
+<P>ENV: Desert and fields</P>
+<P>DESC: Bright and proud, Phoenix symbolizes beauty and
+rebirth. When the time comes for her to die,
+Phoenix builds her funeral pyre of the finest
+materials and the ignites it in a blaze of glory.
+She rises anew from the ashes to being the cycle
+again, once more young and vibrant. The song of
+Phoenix is legendary in its magnificence, for
+Phoenix is a great artist and appreciates beauty.
+All Phoenix shamans summon spirits of the flames
+instead of spirits of man.</P>
+<P>ADVAN: +1 die for health and illusion spells, +2 dice for
+spirits of flames. Phoenix shamans have a
+reputation, like their totem, for rising from the
+ashes. They can survive physical overflow damage
+of Body x 2. Each time the shaman's damage
+overflows the Physical column of the Condition
+Monitor, however, reduce the total by 1. Over
+time, this can effectively reduce the shaman to
+having no overflow at all.</P>
+<P>DISADVAN: Phoenix shamans cannot summon spirits of man. They
+must have a minimum Charisma of 4. Phoenix shamans
+must also know a performance skill such as a
+musical instrument, singing or dance, which may be
+used as a geas or as a creative skill used for
+centering.</P>
+* Plumed Serpent Shaman|mits.159|Mythic
+<P>ENV: Anywhere in Aztlan</P>
+<P>DESC: Plumed Serpent is strongly associated with the
+people and nation of Aztlan, tied to its history
+and mythology. He is a warrior and a powerful
+magician who considers his actions carefully.
+Intimately aware of the delicate fabric of history
+and fate, he always considers how his actions will
+affect his land and his people. He would rather
+give his life than see his honor or the honor of
+his homeland besmirched.</P>
+<P>ADVAN: +2 dice for detection spells, +2 dice for spirits
+of the sky</P>
+<P>DISADVAN: +2 to all magical target number outside the
+territorial borders of Aztlan</P>
+* Thunderbird Shaman|mits.159|Mythic
+<P>ENV: Anywhere under the open sky</P>
+<P>DESC: Thunderbird is a majestic creature who is storm
+incarnate. His wings are dark clouds, his beak and
+claws lightning and his cries the clap of thunder.
+He is a primal force, often savage but necessary
+to the survival of the land and the continuation
+of the cycle of life. Thunderbird is a force to be
+respected and approached with great care, lest his
+anger be roused.</P>
+<P>ADVAN: +2 dice for combat and detection spells, +2 dice
+for storm spirits</P>
+<P>DISADVAN: -1 die for all magical tests while not under open
+sky. Thunderbird shamans are very moody and
+subject to bouts of savage fury in the same manner
+as Shark shamans.</P>
+* Unicorn Shaman|mits.159|Mythic
+<P>ENV: Forest</P>
+<P>DESC: Fierce and fee, Unicorn is a creature of the wild.
+She is shy and shuns the presence of man, save
+only the purest of hear. Though she prefers to
+avoid conflict, she is a staunch defender of the
+wilderness, protecting it unto death. Unicorn
+cannot abide corruption, and the touch of her horn
+serves as a panacea for all manner of toxins and
+diseases. Unicorn shamans must follow a strict
+moral code, upholding the sacredness of the wild
+and all its creatures. They will tolerate no
+corruption and work to root it out wherever they
+may fnid it, even at great personal risk.</P>
+<P>ADVAN: +2 dice for health and illusion spells, +2 dice
+for spirits of the land. A Unicorn shaman receive
+the Aura Reading skill for free at one-half his
+starting Intelligence. The shaman may increase the
+skill rating using standard rules.</P>
+<P>DISADVAN: Double all Essence losses from cyberware.</P>
+* Wyrm Shaman|mits.160|Mythic
+<P>ENV: Mountains</P>
+<P>DESC: Wyrm is the great serpent, slow and ponderous. He
+is lazy and unable to seize the initiative when
+events occur rapidly. But he is also strong, with
+great recuperative powers and a dominating force
+of will. He is peaceable but unforgiving if
+provoked, and he does not know when to let go.
+Cast out for his association with death and the
+underworld, he shuns contacts with others.</P>
+<P>ADVAN: +2 dice for health and manipulation spells, +2
+dice for mountain spirits</P>
+<P>DISADVAN: Wyrm shamans must make a Willpower (6) Test to
+quit a task and do something else instead. They
+must also sleep an average of seventy hours a week.
+\ IDOLS
+* Adversary Shaman|mits.160|Idol
+<P>ENV: Everywhere</P>
+<P>DESC: The Adversary was the first rebel and is dedicated
+to usurping power and authority. Proud and wilful,
+the Adversary is also a cruel and unfeeling cynic
+who would prefer to destroy the world if he cannot
+control it. The Adversary is a common idol among
+toxic idol worshipers.</P>
+<P>ADVAN: +2 dice for combat and manipulation spells</P>
+<P>DISADVAN: If wounded, Adversary shamans go berserk in the
+same way as Bear shamans. Adversary shamans must
+succeed in a Willpower (8) Test to be friendly and
+civil to authority figures.
+Berserk:. Whenever shaman takes physical damage in combat, the
+player makes a Willpower (4) Test. The shaman goes
+berserk for 3 turns, minus 1 turn per success.
+Three or more successes avert the berserk rage
+entirely. A berserk shaman will attack the closest
+living thing, friend or foe, using the most
+powerful weapons available (mundane or magical).
+If the shaman incapacitates a target before the
+time is up, the berserk fury dissipates.</P>
+* Bacchus Shaman|mits.160|Idol
+<P>ENV: Anywhere on land</P>
+<P>DESC: Bacchus is the idol of motion and revelry. He is a
+lover and a dancer and revels in unbridled
+passion. Bacchus shamans appreciate music and
+poetry, but they are also self-indulgent and
+irresponsible. Very few such shamans can fulfill
+long-term relationships or obligations; they are
+too easily distracted and caught up in the moment.</P>
+<P>ADVAN: +2 dice for illusion spells, +2 dice for spirits
+of man</P>
+<P>DISADVAN: A Bacchus shaman must succeed in a Willpower (6)
+Test to continue on a course of action if
+something more interesting, prettier or more
+relaxing presents itself. Additionally, Bacchus
+shamans are easily distracted; apply a -1
+Perception die modifier whenever a Bacchus shaman
+is in the presence of music, art, motion or great
+beauty.</P>
+* Creator Shaman|mits.160|Idol
+<P>ENV: Urban or forest</P>
+<P>DESC: The great artisan, the Creator shuns the splendor
+of his fellow Idols, preferring instead to tinker
+with his creations. Though this Idol did not
+create the world, he did create many of its
+treasures. Even more than his finished handiwork,
+the Creator loves what is yet to be created. His
+mind is so full of plans and ideas that deceit and
+intrigue have no place there; there are many
+legends of others taking advantage of his nature.
+Like their Idol, Creator shamans often find
+dealing with people awkward and uncomfortable.
+Though trusting in nature, they make bitter and
+determined enemies when wronged.</P>
+<P>ADVAN: +2 dice for enchanting, +1 die for hearth and city
+spirits</P>
+<P>DISADVAN: -1 die for combat spells. When confronted with
+something unusual or unique, a Creator shaman must
+make a Willpower (4) Test to avoid immediately
+using astral perception to examining the new find
+for 3 turns. Each success on the Willpower Test
+reduces this time by one turn, and 3 or more
+successes allow the shaman to ignore the impulse.</P>
+* Dark King Shaman|mits.161|Idol
+<P>ENV: Natural caves</P>
+<P>DESC: The grim ruler of the Land of the Dead dwells in
+his kingdom deep beneath the Earth. He has
+dominion over the spirits of the dead and knows
+many of the secrets that lie hidden beneath the
+Earth.</P>
+<P>ADVAN: +2 dice for health spells, +2 dice for spirits of
+man</P>
+<P>DISADVAN: Followers of the Dark King are physically weak,
+having suffered great trials. They must sacrifice
+1 point from a starting physical Attribute.</P>
+* Dragonslayer Shaman|mits.161|Idol
+<P>ENV: Anywhere on land</P>
+<P>DESC: The most heroic of Idols is also the most fun-
+loving. Though he fights to protect his own
+against all dangers, he loves a good party even
+more. He is a big brother who takes a friendly
+interest in everything his family does. Though
+sometimes naive, he makes a staunch friend and a
+deadly enemy. The dragons he slays have changed
+with the times. In addition to the literal dragons
+of legend, the Dragonslayer also fights such
+modern-day monsters as crime, pollution and
+corruption. Dragonslayer shamans fight hard and
+play hard. Once the shaman has given his loyalty,
+he never breaks it. A Dragonslayer shaman must
+behave with honor and respect and demands the same
+from those around him.</P>
+<P>ADVAN: +3 dice for combat spells, +1 die for hearth
+spirits</P>
+<P>DISADVAN: -1 die for illusion and detection spells</P>
+* Fire-Bringer Shaman|mits.161|Idol
+<P>ENV: Urban</P>
+<P>DESC: The Fire-Bringer stole the secret of fire from the
+heavens and gave it to humanity as a gift and a
+tool. He is a figure of kindness and concern, but
+his intentions sometimes get him into trouble and
+his plans sometimes fail to work out the way he
+envisions them. He is shaper and creator, forming
+new things from the primal clay and breathing the
+firey spark of life into them. Fire-Bringer
+shamans devote themselves to the betterment of
+others, even at their own expense. Most Fire-
+Bringer shamans devote themselves to a particular
+cause they follow with great zeal.</P>
+<P>ADVAN: +2 dice for detection and manipulation spells, +2
+dice for spirits of man</P>
+<P>DISADVAN: -1 die for illusion spells</P>
+* Great Mother Shaman|mits.161|Idol
+<P>ENV: Anywhere</P>
+<P>DESC: The Great Mother is the embodiment of life-giving
+nature, giving her bounty freely to all who need
+it. Those who mistake her generosity for weakness
+are asking for trouble. Like any mother, she
+fights to the death to protect her children.
+Followers of the Great Mother are healers, both of
+the body and the spirit; they cannot refuse aid to
+anyone who needs it. Shamans of the Great Mother
+follow the strictest moral code. They must fight
+against the forces of corruption, whether they be
+<P>ENV:t, social, political or magical.</P>
+<P>ADVAN: +2 dice for health spells, +2 dice for field and
+forest spirits and all spirits of the waters</P>
+<P>DISADVAN: -2 dice when in the presence of corruption</P>
+* Horned Man Shaman|mits.XXX|Idol
+<P>ENV: Anywhere on land</P>
+<P>DESC: The embodiment of procreative power and energy,
+the Horned Man is the unfettered lord of the wild.
+Ancient and animalistic, he is ruled by instinct.
+Physical action and sensation shape his world,
+including brawling and lewd behavior. Of all the
+Idols, he is the most traditionally masculine, and
+male-dominated groups often venerate him.</P>
+<P>ADVAN: +2 dice for combat spells, +2 dice for all spirits
+of the land</P>
+<P>DISADVAN: Shamans of the Horned Man must make a Willpower
+(6) Test to refuse a fight or physical contest.
+They are also lecherous and must make a Willpower
+Test against a target number equal to twice the
+seducer's Charisma to refuse any advances.</P>
+* Lover Shaman|mits.161|Idol
+<P>ENV: Urban</P>
+<P>DESC: Beauty and passion incarnate, the Lover is desired
+by all. She is the perfect beauty but also
+embodies the irrationality and jealousy of lust.
+Her beauty makes her the object of attention but
+also the focus of a great deal of trouble. She is
+proud and often vain and will frequently take
+vengeance on mortal who spurn or reject her
+beauty. The Lover is most often female, but some
+male examples do exist. Followers of Lover are
+themselves quite vain and obsessed with their own
+appearance.</P>
+<P>ADVAN: +2 dice for illusion and control manipulation
+spells, +2 dice for spirits of the waters</P>
+<P>DISADVAN: Followers must have a minimum Charisma of 6</P>
+* Moon Maiden Shaman|mits.161|Idol
+<P>ENV: Anywhere</P>
+<P>DESC: The Moon Maiden is the Idol of the night sky.
+Moody, changeable, emotional, mysterious,
+sometimes gentle and pleasant and other times wild
+and uninhibited, she represents the triumph of
+woman's nurturing ways over man's destructive
+impulses. Not surprisingly, she is most venerated
+by women. A shaman of the Moon Maiden accepts no
+rule or restrictions save her own personal
+convictions and the laws of Nature.</P>
+<P>ADVAN: None</P>
+<P>DISADVAN: None</P>
+* Sea King Shaman|mits.161|Idol
+<P>ENV: Anywhere near the sea</P>
+<P>DESC: The Sea King is the Idol of the waters. He is the
+ruler of the seas, with a grand court beneath the
+wavers. His generosity and hospitality are as
+great as his temper when he is roused. The Sea
+King is as changeable as the sea itself and a
+master of disguise, and shape-shifting. He is also
+skilled in creating new things, just as the sea is
+a source of new life. Sea King shamans always
+exhibit proper behavior but never forget a slight
+or wrong done to them.</P>
+<P>ADVAN: +2 dice for manipulation spells, +2 dice for sea
+spirits</P>
+<P>DISADVAN: -1 die for combat spells. Sea King shamans also
+suffer from the Sea Legs Flaw, without receiving
+any compensating Edges or Build Points.</P>
+* Seductress Shaman|mits.162|Idol
+<P>ENV: Urban</P>
+<P>DESC: The Seductress is the incarnation of corruption of
+body and mind. She has many desires and vices that
+she must frequently satisfy. She encourages
+jealousy and greed and seeks to inflame the wants
+of others. She avoids direct confrontation but
+gains pleasure when others fight for her attention
+or on her behalf. She exists to exploit weaknesses
+and will not hesitate to sacrifice those who get
+in her way. The Seductress is commonly worshiped
+by toxic Idol worshipers.</P>
+<P>ADVAN: +2 dice for illusion and control manipulation
+spells, +2 dice for spirits of man</P>
+<P>DISADVAN: Seductress shamans must have a minimum Charisma of
+6. They must also succeed in a Willpower (6) Test
+to avoid indulging themselves when a vice or
+corruption (drugs, BTLs, sex, and so on) is made
+available.</P>
+* Siren Shaman|mits.162|Idol
+<P>ENV: Sea</P>
+<P>DESC: Siren is the great manipulator, who lures people
+in to their doom. She specializes in attracting
+people's attention through whatever means are
+available and then encourages them in a course of
+action that will lead to their destruction. She is
+wily and cunning and revels in sacrifice. The
+Siren is commonly worshiped by toxic Idol
+worshipers.</P>
+<P>ADVAN: +2 dice for illusion and control manipulation
+spells, +2 dice for sea spirits</P>
+<P>DISADVAN: Siren shamans must have a minimum Charisma of 6.
+Sires have difficulty focusing on more than one
+opponent at a time; they receive a +1 spellcasting
+modifier when attacked by more than one foe.</P>
+* Sky Father Shaman|mits.162|Idol
+<P>ENV: Anywhere under the open sky</P>
+<P>DESC: The Sky Father is the masculine counterpart of the
+Great Mother. He is the patriarch many say
+eclipsed the worship of earth goddess over time.
+He is known for his clear sight and rulership over
+all he surveys as well as the terrible power that
+his mastery of the sky conveys. Lightning and
+thunder are his main weapons, and nothing is the
+world escapes his view from his high throne.</P>
+<P>ADVAN: +2 dice for detection and manipulation spells, +2
+dice for storm spirits</P>
+<P>DISADVAN: +2 to all target numbers if the shaman is
+entrapped or bound in any way</P>
+* Trickster Shaman|mits.162|Idol
+<P>ENV: Anywhere</P>
+<P>DESC: The Trickster is the clover one, swift of mind and
+body, master of disguises and deception. He is
+always thinking up new pranks and ways to outwit
+his enemies rather than fighting them. He prefers
+to work in the service of others, turning and
+stealing behind their backs when they aren't
+looking. His tricks can often backfire, resulting
+in trouble for everyone, but the Trickster's
+cleverness always wins out in the end.</P>
+<P>ADVAN: None</P>
+<P>DISADVAN: None</P>
+* Wild Huntsman Shaman|mits.162|Idol
+<P>ENV: Forest, mountains or plains</P>
+<P>DESC: And outsider even among the Idols, the Wild
+Huntsman walks the thin line between sanity and
+madness, but his frenzy hides an intimate
+knowledge of the sacred mysteries. As the Idol who
+gave humanity the intoxicating Cup of Knowledge,
+the Wild Huntsman is the patron of poets and
+artists along with numerous secrets and esoteric
+cults. Wild Huntsman shamans are unpredictable.
+Sometimes half-crazy, often unkempt, they may not
+sleep or eat for days while in the thrall of a
+particular or emotion.</P>
+<P>ADVAN: +2 dice for detection and illusion spells, +2 dice
+for storm spirits</P>
+<P>DISADVAN: Wild Huntsman shamans can go berserk in combat in
+the same way as Bear shamans.
+Berserk:. Whenever shaman takes physical damage in combat, the
+player makes a Willpower (4) Test. The shaman goes
+berserk for 3 turns, minus 1 turn per success.
+Three or more successes avert the berserk rage
+entirely. A berserk shaman will attack the closest
+living thing, friend or foe, using the most
+powerful weapons available (mundane or magical).
+If the shaman incapacitates a target before the
+time is up, the berserk fury dissipates.</P>
+* Wise Warrior Shaman|mits.162|Idol
+<P>ENV: Urban</P>
+<P>DESC: The Wise Warrior is skilled in the art of war, for
+battle is an art to her, an exercise in the powers
+of the mind as well as the body. She studies the
+tactics of her foes and overcomes them through a
+combination of superior strategy and battle
+prowess. The Wise Warrior does not act out of
+savagery or battle-lust but from a position of
+knowledge and wisdom. Shamans of this Idol must
+follow the warrior's code of honor and conduct
+themselves properly or risk the loss of favor.</P>
+<P>ADVAN: +2 dice for combat and detection spells, +2 dice 
+for resisting all damaging spells</P>
+<P>DISADVAN: -1 die for illusion spells
+\ LOA
+* Agwe Houngan|mits.162|Loa
+<P>ENV:</P>
+<P>DESC: Agwe, the Loa of the Sea, appears as a powerful
+black man clad in seaweed and dripping of water.
+He is like the Sea that he rules: strong and
+gentle but capable of sudden violence. He is proud
+and takes his role quite seriously. He often hosts
+his fellow Lao in his fantastic palace under the
+sea. Rituals to honor Agwe are involved and
+complex affairs, and the Loa's followers are often
+capable diplomats and gracious hosts. Followers of
+Agwe must seek diplomatic solutions to problems
+before resorting to violence.</P>
+<P>ADVAN: +2 dice for illusion spells</P>
+<P>DISADVAN: -1 die for combat spells</P>
+* Azaca Houngan|mits.163|Loa
+<P>ENV:</P>
+<P>DESC: The eager "younger brother" of the Loa, Azaca is
+concerned with the growth and prosperity of the
+land. He tends to be impulsive, throwing himself
+into each new situation with abandon. Followers of
+Azaa tend to be rural caretakers of farming
+communities and the like.</P>
+<P>ADVAN: +2 dice for health spells</P>
+<P>DISADVAN: A houngan of Azaca must make a Willpower (6) Test
+to avoid taking impulsive actions</P>
+* Damballah Houngan|mits.163|Loa
+<P>ENV:</P>
+<P>DESC: Damballah is the Great Serpent of the Sky, an
+ancient and primal Loa. He has a slow dignity and
+grace about him, but he can move with surprising
+suddenness if required to do so. Damballah is
+often difficult to communicate with, his wisdom
+couched in metaphor and riddles. He rarely speaks
+in any human tongue. Houngans of Damballah follow
+a strict moral code. The houngan must not break
+his word. They love to collect secrets and lore
+and will go to great lengths to do so, but they
+dole out their knowledge sparingly.</P>
+<P>ADVAN: +2 dice for detection and manipulation spells</P>
+<P>DISADVAN: A houngan of Damballah must make a successful
+Willpower (6) Test to reveal a particularly good
+piece of information.</P>
+* Erzulie Houngan|mits.163|Loa
+<P>ENV:</P>
+<P>DESC: The Loa of Love and Passion is both the eternal
+innocent and the worldly-wise seductress. She is
+the most beautiful of women and the female
+companion to may other Loa in her various
+manifestations, loved and desired by all. Her
+desire is more than mere lust; it is the
+motivating passion that drive all things. Houngans
+of Erzulie are generally women. They always dress
+in the finest of clothes and have the best
+jewelry, perfume and other material comforts.</P>
+<P>ADVAN: +2 dice for illusion and control manipulation
+spells</P>
+<P>DISADVAN: A houngan of Erzulie must maintain at leas a
+Middle Lifestyle. They suffer +1 to all magical
+target numbers why unkempt or less than stylish.</P>
+* Ghede Houngan|mits.163|Loa
+<P>ENV:</P>
+<P>DESC: Clever Ghede is the Loa of Death and the Dead. He
+respects nothing and laughs at the mortal fear of
+death. He is a trickster who enjoys shocking
+people out of their preconceptions with his sly
+and ribald sense of humor. He is also a glutton
+with a vast appetite, for Death must consume all
+things. Ghede is depicted as a man wearing a top
+hat, black tail coat and sunglasses (often with
+one lens missing) and carrying a cigar and a cane.
+Houngans of Ghede are gluttons, unable to resist
+an offer of food or drink, particularly rum, the
+Loa's favorite. They are also tricksters who love
+poking fun at others.</P>
+<P>ADVAN: +2 dice for health and manipulation spells</P>
+<P>DISADVAN: A houngan of Ghede must make a Willpower (6) Test
+to avoid playing a trick in an inappropriate
+situation.</P>
+* Legba Houngan|mits.163|Loa
+<P>ENV:</P>
+<P>DESC: Legba is the Old Man of the Crossroads, divine
+messenger of the Loa, Opener of the Way and the
+boundary figure between the visible and invisible
+worlds. He is the first Loa invoked in ritual, so
+he may open the way for the others, and is well-
+respected for he great wisdom and authority. Legba
+is depicted as a bent old man walking with the aid
+of a staff. Followers of Legba are frequently the
+best leaders among houngans.</P>
+<P>ADVAN: +2 dice for detection and manipulation spells</P>
+<P>DISADVAN: -1 die for combat spells. Houngans of Legba must
+have a minimum charisma of 4.</P>
+* Obatala Houngan|mits.163|Loa
+<P>ENV:</P>
+<P>DESC: Obatala is depicted as a mulatto dressed entirely
+in white. He is the Lao of purity and opposed to
+all forces of evil. He is also the spirit of
+thought and protector of the weak. Obatala is a
+force of peace, harmon and mediation. His
+followers are expected to oppose all forces of
+evil and corruption. Houngans of Obatala do not
+kill without a very good reason.</P>
+<P>ADVAN: +2 dice for detection, health and control
+manipulation spells</P>
+<P>DISADVAN: Houngans of Obatala cannot cast combat spells.
+They suffer +2 to all magical target number when
+they are not wearing at least on article of white
+clothing.</P>
+* Ogoun Houngan|mits.163|Loa
+<P>ENV:</P>
+<P>DESC: Ogoun is the Loa of Iron and of War. He is a
+direct and active force, power in all its forms.
+His followers are swaggering and proud, great
+warrior and political leaders. Ogoun is depicted
+as a powerfully muscled warrior in military dress,
+carrying a sabre or a machete.</P>
+<P>ADVAN: +2 dice for combat spells</P>
+<P>DISADVAN: -1 die for illusion spells. Houngans of Ogoun must
+make a Willpower (6) Test to back down from any
+insult to their honor or prowess.</P>
+* Shango Houngan|mits.163|Loa
+<P>ENV:</P>
+<P>DESC: Shango is the Loa of Lightning and Storm. He is
+depicted as a savage warrior, full of barely
+restrained energy, wielding a double-headed ax
+crackling with lightning. His voice is the peal of
+thunder. He is also associated with guns ("thunder-
+sticks") and fire. Shango and Ogoun are often
+rivals for the affections of Erzulie.</P>
+<P>ADVAN: +3 dice for Fire and Lightning elemental
+manipulation spells</P>
+<P>DISADVAN: Houngans of Shango may go berserk in combat, in
+the same way as Bear shamans
+Berserk:. Whenever shaman takes physical damage in combat, the
+player makes a Willpower (4) Test. The shaman goes
+berserk for 3 turns, minus 1 turn per success.
+Three or more successes avert the berserk rage
+entirely. A berserk shaman will attack the closest
+living thing, friend or foe, using the most
+powerful weapons available (mundane or magical).
+If the shaman incapacitates a target before the
+time is up, the berserk fury dissipates.</P>
+\ Path of the Wheel(Elves)
+* Path of the Warrior|mits.20|Path
+<P>DESC: The majority of the Path of the Warrior are adepts.
+They gain no special bonuses or penalties for this Path. Many 
+choose geasa for their powers suited to the Path, usually 
+limitations involving their home ground and the Path's hold day 
+and time.</P>
+<P>Conjuring: Warrior folowers cannot summon air elementals
+but instead can conjure spirits of the land.</P>
+<P>ADVAN: +1 Die Combat Spells, +2 Die for spirits of the 
+land. Gain an add'tl combat spell die: during winter, within 
+72 hours of Imbolc (Feb 2nd), while in the Irish province of 
+Ulster, while in hills or mountains.</P>
+<P>DISADVAN: -1 die for illusion spells.  Warrior followers 
+must know at least one melee Combat skill at Rating 4 or higher.</P>
+* Path of the Steward|mits.20|Path
+<P>DESC: Caretakers of the physical world and all of the 
+various needs that go with living in that world.  They are 
+masters of politics, negotiation, and etiquette.</P>
+<P>Conjuring: Steward followers cannot summon earth 
+ elementals but instead may conjure spirits of the sky.</P>
+<P>ADVAN: +1 die health spells, +2 die for spirits of the sky.
+ Steward followers gain add'tl die for: during spring, with 
+72 hours of Beltane (May 1st), while in the Irish province of 
+Leinster, while in the air(flying or levitating)</P>
+<P>DISADVAN: -1 die for manipulation spells, Steward 
+followers must know at least one Charisma linked skill at 
+Rating 4 or higher.</P>
+* Path of the Bard|mits.20|Path
+<P>DESC: Masters of grace and art. They provide education, 
+entertainment and enrichment through the workings of their art.</P>
+<P>Conjuring: Steward followers cannot summon water elementals 
+but instead may conjure spirits of the flames.</P>
+<P>ADVAN: +1 die control manipulation spells, +2 die 
+for spirits of the flames. Bard followers gain add'tl
+die for: during summer, with 72 hours of Lugnasad 
+(Aug 1st), while in the Irish province of Munster, 
+if standing with 4 meters and line of sight of a fire 
+of at least campfire size.</P>
+<P>DISADVAN: -1 die for health spells, Bard followers 
+must know at least one suitable artistic Knowledge skill 
+(such a music instrument or visual art form) skill at 
+Rating 4 or higher.</P>
+* Path of the Druid|mits.20|Path
+<P>DESC: Keepers of lore and wisdom and protectors of 
+the Sacred land. They are scholars, judges and historians 
+for their people</P>
+<P>Conjuring: Steward followers cannot summon fire elementals 
+but instead may conjure spirits of the waters.</P>
+<P>ADVAN: +1 die illusion spells, +2 die for spirits of 
+the waters. Druid followers gain add'tl die for: during 
+autumn, with 72 hours of Samhain (Nov 2nd), while in the 
+Irish province of Connaught, while in or on the water.</P>
+<P>DISADVAN: -1 die for combat spells, Durid followers 
+must know at least one Knowledge skill (such as History, 
+Herbal lore, Law, and so on) skill at Rating 4 or higher.</P>
+* Path of the Righ|mits.20|Path
+<P>DESC: The Path of Kings can only be walked by the most 
+enlightened of elves. This is only available to NPCS, and 
+even then is rare.  A Righ follower has achieved the 
+ultimate in spiritual and magical attainment.</P>
+<P>ADVAN: +4 die for all spells, +1 die for dispelling, 
+and +1 die for all spells in the province of Meath.  
+Righ followers can summon all spirits (incl. elementals, 
+nature spirits, and spirits of the elements)</P>
+\ Path of the Adept
+* Athelete's Way|mits.20|Adept
+<P>DESC: Devoted to their chosen sport, they are driven 
+to excel just as the champion athletes of the past, except 
+their dedication is backed by the power of their magic.</P>
+* Artist's Way|mits.20|Adept
+<P>DESC: Focuses on the development of artistic ability,
+often in the form of expression involving the body, such
+as dance. Advantage given is intense focus their art gives
+them.  They never lack of a means to center themselves as
+performance of their art provides them with Centering Skill
+to use as an initiate.</P>
+* Warrior's Way|mits.20|Adept
+<P>DESC: Characterized by an aggressive nature, allowing them to 
+focus their talent into improved combat prowess. This focus does not
+make all warrior adepts bloodthirsty maniacs, but hese adepts devote 
+their energy to martial development.</P>
+* Invisable Way|mits.20|Adept
+<P>DESC: Followers of the invisable way avoid confrontation and conflict.
+They develop powers based on the ability to move and act without 
+attracting notice.  Masters of stealth.</P>
+* Spirit Way|mits.20|Adept
+<P>DESC: Adepts who follow the Spirit way possess astral perception; They
+delve into the mysteries of the astral plane.</P>
+* Totem Way|mits.20|Adept
+<P>DESC: The adept follows the totem as a way itself, an ideal for the adept
+to model and imitate. Adepts following the totem way often take gaesa on their
+own abilities that mimic the totem's modifiers of shamens. They also observe
+any behavior restrictions and limitations of the totem.  May chose an astral
+quest.</P>
+* Magician's Way|mits.20|Adept
+<P>DESC: Magicians channel some of their magic into improving their physical
+abilities in the same manner as adepts,while using the rest of their talent
+for magical skills, such as Sorcery and Conjuring.</P>
+\ Traditions INFO Notes
+* Aboriginal Magic |mits.24|TRADITIONS
+<P> The native people of Australia have a rich mythology and culture that date back tens of thousands of years and include a great deal of knowledge handed down from generation to generation through oral tradition. In the Sixth World, much of this knowledge likely came from previous ages of magic. The aboriginal Dreamtime is a timeless realm of magic and creative power much like the metaplanes. Aboriginal shamans are skilled astral travelers and possess a great deal of knowledge for dealing with the various powers that dwell there. The fact that Australia's Awakened outback is currently running wild is a direct result of the dying aboriginal culture, which left no one to direct and nurture the power of nature there.</P>
+<p> Traditions: Aborigine magicians are almost exclusively shamans. following totems such as Badger, Crocodile, Scorpion, Shark and Snake. Some follow nature totems such as Sun, Moon, Sea or Mountain. Many are wilderness shamans (see p. 16). </p>
+<p>Tools and Trappings: Aborigine magic commonly includes drumming and chanting. Quartz crystals are an important magical tool, along with opals and other stones. The rainbow is a common symbol, along with different totem animals.</P>
+* Aztec Magic |mits.24|TRADITIONS
+<P> Much of the Aztec magic in the Sixth World is a revival of traditions reconstructed from limited historical information, with the focus on the gods and totems of the ancient Aztec culture. Animal and human sacrifice is a predominant theme, so blood magic is common among initiates. This practice gives Aztec magicians a reputation as evil, though that may be largely undeserved.</P>
+<p> Traditions: Aztec magicians are shamanic; common totems include Bat. Eagle, Jaguar, Lizard, Moon, Plumed Serpent, Puma, Snake and Sun. </p>
+<p> Tools and Trappings: Aztec magicians use elaborate ceremonial costumes for ritual magic, including feathered headdresses, and traditionally use an obsidian knife for blood sacrifices. Aztec magicians also use astrology for divining the future and determining auspicious days for their rituals.</P>
+* Black Magic |mits.24|TRADITIONS
+<P> Despite suffering bad reputations based on the very name of their tradition, most "black magic" groups aren't really evil. Most follow a credo that is part fascist and part hedonism, advocating freedom from all the constraints imposed by "straight" society but emphasizing a will to power. Steeped in Christian, hermetic and pagan symbolism, black magic groups are usually quite orderly in their magical outlook. Gamemasters can also include the stereotypical human-sacrifice type of black magic users if they so choose (see The Corrupted, p. 134), but most such groups don't adhere to the Hollywood portrayals of their art.</P>
+<p> Traditions: Hermetic black magic magicians are often quite strict and disciplined. Shamanistic black magicians often follow idols such as the Adversary, the Horned Man or the Seductress.</p>
+<p> Tools and Trappings: Various reversed Christian symbols (upside-down cross, the Black Mass, and so on), the pentagram and a penchant for elaborate rituals. Blood sacrifice is not common. but gamemasters can include it for truly "evil" magicians.</P>
+* Chaos Magic |mits.24|TRADITIONS
+<P> Chaos magic began as an occult movement intended to create a "pure" magical system devoid of any dogma or credo that works with any belief system and transcends all of them. Chaos magic is a highly eclectic and post-modern style, incorporating many symbols and ideas from different cultures. </P>
+<p>Traditions: Chaos magicians are usually hermetic, though they might interact with many different spirit beings and totems on astral quests.</p>
+<p>Tools and Trappings: Chaos magic incorporates symbols and ideas from many sources. A chaos magic circle might include qabbalistic, runic and even shamanic design elements. Chaos mages are often technophiles and commonly use technology in their magic, such as CD players for background music, symbols "drawn" on LCD screens, and so on.</P>
+* Christian Magic |mits.24-25|TRADITIONS
+<P> Christianity has a very strong mystical tradition dating back to the first-century gnostics, and it is no surprise that many Christians attempted to reclaim some of their faith's magical heritage following the Awakening. Catholics and other Christian theologies carefully regulate the use of magic according to the tenets of their faith. Conjuring, in particular, is rigorously scrutinized lest the faithful be led into sin through such practices. There is a Catholic order of magician-priests, the Order of St. Sylvester, that investigates matters magical for the Holy Church.</P>
+<p> Traditions: Most theurgists follow strict hermetic practices and belong to distinct hermetic schools (see p. 17). Some liberal and "revivalist" theologies produce shamanistic magicians, and :errain Catholics may treat various patron saints as idols (St. George or St. Michael as the Dragonslayer, for example). Some of  the more conservative groups still consider magic a tool of the devil, resulting in Christian magicians who don't believe that they use "magic" at all.</p>
+<p> Tools and Trappings: Christian magic uses the symbols of the Church, such as the Bible, the cross or crucifix and the rosary. Holy water is also a common element. God, Christ and various saints are often invoked. Some shamans have been known to speak in tongues or summon spirits of man that take on angelic forms. </P>
+* Druidic Magic |mits.25|TRADITIONS
+<P> The druids were ancient Celtic priests, shamans and philosophers. Unfortunately, because little is known about their practices and beliefs, much of modern Sixth World druidry has been reconstructed from both reliable and less reliable sources. Modern druids are divided into Celtic shamanic nature worshipers who follow various totems and English hermetic druids who embody Ihe idea of the druid as wise philosopher, astronomer and scientist. The New Druidic Movement wields considerable political and social power in England.</P>
+<p> Traditions: Celtic druids are wilderness shamans (see p. 16) who follow many different totems, including Bear, Eagle, Horse, Snake. Wildcat, Wolf and Wyrm. Nature totems such as Sun, Noon and Oak are common, as are some Idols like the Wild Huntsman and the Great Mother. English druids are hermetic. </p>
+<p> Tools and Trappings: Druids use plants such as holly, mistletoe and oak as holy symbols, as well as the golden sickle. Their shamanic lodges are standing-stone circles in places of natural beauty.</P>
+* Egyptian Magic |mits.25|TRADITIONS
+<P> The ancient Egyptians believed in a complex system of magic  that divided the soul into many parts and studied the movements of the planets and stars. Magic was powered by an energy known as heka, known to modern magicians as mana. 'With the return of magic, some have taken up the ancient Egyptian ways.</P>
+<p> Traditions: Heka magicians are pantheistic shamans, honoring the gods of ancient Egypt but not following any in particular. Their style of Sorcery is more akin to that of hermetics. The gamemaster may choose to allow heka pantheists +2 dice for summoning spirits of the desert, but -2 dice for summoning all Other spirits of the land. This modifier does not change.</p>
+<p> Tools and Trappings: Heka magicians use Egyptian symbols such as the ankh and the Eye of Horus. Contrary to popular belief, they do not make use of "pyramid power" or anything associated with that theory. Other common elements include sand, snakes, scarabs and burning herbs or incense.</P>
+* Gypsy Magic |mits.25|TRADITIONS
+<P> Gypsy magic is practiced by the Romany tribes of Europe. Traditionally nomadic, gypsy families have made their homes all over the world throughout the centuries, and it is possible to meet a practitioner of the tradition almost anywhere in or outside of Europe.</P>
+<p> Traditions: Gypsies are shamanic and follow various idols. Some are pantheistic. Gypsy shamans almost always learn divining (p. 74) as their first metamagical technique.</p>
+<p> Tools and Trappings: Gypsy magicians use various natural plants and herbs in their magic. Also common are cards, crystals and other props (often as much to impress onlookers as to aid the gypsy's magic).</P>
+* Hawai'ian Magic |mits.25|TRADITIONS
+<P> The Huna tradition is practiced by the kahunas, who are the guardians of knowledge and wisdom in Hawai'i. The Huna tradition enjoyed something of a rebirth in the twentieth century, both in Hawai'i and elsewhere in America. By the twenty-first century, however, true Hawai'ian kahunas consider non-Hawai'ian practitioners of Huna mere pretenders.</P>
+<p> Traditions: Kahunas are shamans who commonly follow the totems of Fish, Gecko, Goose, Shark, Turtle and Whale. Many kahunas have the ability to summon salamanders rather than spirits of man (see p. 105).</p>
+<p> Tools and Trappings: Kahunas use seashells and coconut shells, shark's teeth and native plants in their rituals. They make considerable use of chanting, singing and dancing, including hula dancing. Kahunas have a secret language they use for their spells and rituals such as Centering.</P>
+* Hindu Magic |mits.25|TRADITIONS
+<P> Sixth World India is a land of mystery, its nearly overwhelming population decimated by waves of VITAS. India is now home to yogis and dervishes with strange, mystical powers (many of them adepts), and to esoteric knowledge, from the secrets of the Sanskrit language (considered by many to be the most mystical of tongues to Tantric sex magic and the Thugee cults of the death goodess Kali. 
+</P>
+<p> Traditions: Hindu magicians are often pantheistic shamans, having no single patron, though some follow particular Idols such as Vishnu (Sky Father) or Kali (female Wild Huntsman). </p>
+<p> Tools and Trappings: Hindu prayers, meditations and rituals including dancing and burning incense) are common. Sanskrit is standard language for casting spells, and some sects use Tantric sex rituals or practice human sacrifice.</P>
+* Islamic Magic |mits.25-26|TRADITIONS
+<P> Much like Christianity many followers of Islam hearken back to the era of their ancestors  when Islamic sorcerers were considered some of the most skilled in the world. Islamic mages are skilled in the various formulas and equations governing the use of magic, and they make excellent researchers and scholars. Islamic magic considers conjuring to be somewhat dangerous, but Islamic mages still call upon various djinn and ifrits (elementals).</P>
+<p> Traditions: Islamic magicians are hermetic mages, usually following a specific hermetic school (see p. 16). </p>
+<p> Tools and Trappings: Arabic is the language of choice for spells. Verses from the Qu'ran are common. Elementals manifest to Islamic mages as genies of various types, "creatures of smokeless fire." They tend to take more humanoid shapes than other elemental spirits, some beautiful, others quite hideous.</P>
+* Norse Magic |mits.26|TRADITIONS
+<P> Norse magic is divided into two main branches: galdor, the use of runes, and seidr, shamanic techniques for achieving trances and astral projection. Norse magicians follow the Aesir (the Norse gods) and make regular use of runes in their magic.</P>
+<p> Traditions: Norse magicians are shamans who follow the idols of Odin/Wotan as Sky Father or Wild Huntsman, Thor as the Dragonslayer, Freya as the Great Mother, Loki as Trickster and Tyr as the Wise Warrior. Some Norse shamans are pantheistic, serving all the Aesir equally. "Berserker" adepts are also common.</p>
+<p> Tools and Trappings: The Norse Futhark runes are drawn, carved, spoken and chanted to make magic. Trance states and astral quests are common, as is the use of runes for divination. Common ritual elements include trances, shaking or dancing, libations of mead or blood and torches.</P>
+* Qabbalistic Magic |mits.26|TRADITIONS
+<P> The qabbalah (spelled several different ways in English) is a Hebrew system of mystical correspondences intended to serve as a map for attaining wisdom and enlightenment regarding the universe. Many magical traditions have adapted and use the qabbalah as a "psychocosm" (model of the universe). Practitioners of the Hebrew mysteries make use of the qabbalah and its symbolism as a way of performing magic.</P>
+<p> Traditions: Qabbalists are hermetic. Certain ultra-orthodox sects of Judaic qabbalah follow their own unique school (see p. 16). </p>
+<p> Tools and Trappings: Spells are spoken in ancient Hebrew, and qabbalistic diagrams and symbols are used on foci and hermetic circles. Qabbalistic magic users create golems, an ally spirit inhabiting a clay body (see p. 108).</P>
+* Rastafarian Magic |mits.26|TRADITIONS
+<P> Rastafarians are stereotyped as those who created reggae music and who smoke marijuana. Whether or not those characterizations are true, the Rastafarians are, in fact, a strongly religious group with a unique faith and magical practices. The basic religious beliefs of the Rastas are based on an Ethiopian king who took the name Ras Tafari. They believe that Jamaica is Hell and Ethiopia is the Promised Land, and that one day they will return there and so to paradise.</P>
+<p> Traditions: Rastas are shamans.</p>
+<p> Tools and Trappings: Music and dance are common elements (particularly drumming). Smoking is also likely for certain rituals, though gamemasters must decide whether to include such elements in their games.</P>
+* Shinto Magic |mits.26|TRADITIONS
+<P> The Shinto religion of Japan is strongly focused on ancestor worship and the veneration of spirits of nature. The kami represent all manner of spirits, from humble nature spirits and ghosts to powerful free spirits that the Shinto miko must attempt to appease. The Japanese imperial family plays a strong role in the Shinto religion, and the Emperor is considered to be a kami in his own right, descended from Amaterasu the Sun Goddess. Perhaps during the last age of magic it was possible for a kami and a human to mate, resulting in a family line with a strong talent for magic. The same may have happened in other places around the world, resulting in the many human tales of divine offspring with magical gifts.
+</P>
+<p> Traditions: Miko are traditionally shamans. Some have patron kami as totems, while others follow nature totems such as Sun or Mountain, or occasionally an animal totem. Many miko summon ancestor spirits rather than spirits of man (see p. 106). </p>
+<p> Tools and Trappings: Common elements of Shinto ceremonies include meditation, prayer, chanting, burning incense and small paper charms that are kept or burned (these may be expendable spell foci). Nature spirits are likely to manifest in forms representative of ancient Japanese myth.</P>
+* Witchcraft |mits.26|TRADITIONS
+<P> Wicca, or the Craft of the Wise, exists in both shamanic and hermetic forms. Some witches are followers of nature magic. Others (usually more British and American) are mages who incorporate the religious observances of Wicca into their lives, but whose magic is distinctly influenced by the hermetic traditions found in England in the nineteenth century.</P>
+<p> Traditions: Hermetic or shamanic, depending on the witch's background. Typical totems include Great Mother, Moon Maiden and Horned Man.</p>
+<p> Tools and Trappings: Magical tools common in witchcraft include the dagger (athame), chalice, pentacle, wand, cauldron and broom. Witches commonly perform ritual magic according to the cycles of the moon.</P>
+!
+\ Elemental Mages
+* Elemental Mage (Fire)|mits.17|Elemental
+<P> Elemental Mages align themselves with that element. Gaining +2 Dice for spells & spirits of that element. Losing -1 Die for spells & spirits of the opposing element </p>
+* Elemental Mage (Water)|mits.17|Elemental
+<P> Elemental Mages align themselves with that element. Gaining +2 Dice for spells & spirits of that element. Losing -1 Die for spells & spirits of the opposing element </p>
+* Elemental Mage (Air)|mits.17|Elemental
+<P> Elemental Mages align themselves with that element. Gaining +2 Dice for spells & spirits of that element. Losing -1 Die for spells & spirits of the opposing element </p>
+* Elemental Mage (Earth)|mits.17|Elemental
+<P> Elemental Mages align themselves with that element. Gaining +2 Dice for spells & spirits of that element. Losing -1 Die for spells & spirits of the opposing element </p>
+! Last line

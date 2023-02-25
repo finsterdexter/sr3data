@@ -1,0 +1,26 @@
+!  Table for metas
+! RACETYPE|NAME|BOD|QCK|STR|CHR|INT|WIL|Move Mult.|Note 1, note 2, .... |||$
+! For SS Substitue NOte1: |Bod|QCK|STR|Run|RCT|Ini|Notes
+! E-Elf, T-Troll,D-Dwarf,O-Ork S-Shapeshifter(SS)   F-(Will move note into Edge/Flaw listing for character)
+!23456789012345678901235678
+T Cyclops             |+5|-1|+6|-2|-2|+0|3|Reach(+1)|No Dermal Armor|No thermographic vision|+2 ranged attacks (no depth percept)|src.38|$
+D Koborokuru          |+1|+0|+2|+0|+0|+1|3|Thermographic VisionLowlight vision|F-Nat.Immun.(Nat.Toxin)-> [0]|F-Nat.Immun.(Manmade)-> [0]|src.38|$
+T Fomori              |+4|-1|+3|+0|-2|+0|3|Reach(+1)|No Dermal Armor|Thermographic Vision|src.39|$
+D Menehune            |+2|+0|+1|+0|+0|+1|2|Thermographic Vision|F-Resist. to diseases(+2) [0]|F-Resist. to toxins(+2) [0]|Shorter, more hair|Large nose, bushy eyebrows|src.39|$
+O Hobgoblin           |+2|+0|+2|-1|+0|+0|3|Low-light vision|src.39|$
+T Giants              |+5|-1|+5|-2|-2|+0|3|Reach(+1)|Thermographic vision|NO Dermal armor|3.5m tall|src.40|$
+D Gnomes              |+1|+0|+1|+0|+0|+2|2|Thermographic vision|favor rural|all magic users are shamans|src.40|$
+O Oni                 |+2|+0|+2|-1|-1|+1|3|Low-light vision|enlarged pointed ears|slightly protuberant eyes|horns|src.41|$
+E Wakyambi            |+0|+0|+0|+2|+0|+1|3|Low-light vision|no pointed ears|thinner, taller|black or brown skin|src.41|$
+O Ogre                |+3|+0|+2|+0|-1|+0|3|NO low light vision|shorter, stouter|smoother skin|less body/head hair|src.41|$
+T Minotaur            |+4|-1|+3|-1|-1|+0|3|Thermographic Vision|Reach(+1)|Dermal Armor(+1BOD)|Snout|wide-set eyes|Long horns|Extensive body hair|src.42|$
+O Satyr               |+4|-1|+3|-1|-1|+1|4|Low-light vision|cloven hooves|nearly all Bachus shamans|small curly horns|small physical builds|furry lower bodies|src.42|$
+E NightOnes           |+0|+2|+0|+2|+0|+0|3|Low-light vision|F-Mild Allergy to Sunlight [0]|Fur black-violet-blue|src.43|$
+E Dryads              |-1|+1|-1|+3|+0|+0|3|Low-light vision|F-Mild Allergy to Urban areas [0]|All are Mother Shamans|F-Animal Empathy Small animals (birds,squirrels) [0]|src.43|$
+H SS-Bear             |+2|+0|+1|+0|+0|+0|4|+4|+1|+4|4|+1|+0|Dermal Armor(+1BOD)|+1 Power(+1 Dam)Unarmed attack|+1 Reach|Bestial Nature|F-Dual Nature [0]|F-Regeneration [0]|F-Severe Allergy Silver [0]|F-Cyberware Rejection [0]|src.36|$
+H SS-Eagle            |+0|+1|+0|+1|+1|+0|4|+0|+2|+2|5|+1|+1|+1 Power(+1 Dam)Unarmed attack|Bestial Nature|F-Dual Nature [0]|F-Regeneration [0]|F-Severe Allergy Silver [0]|F-Cyberware Rejection [0]|src.36|$
+H SS-Fox              |+0|+0|+0|+2|+1|+1|4|+0|+1|+0|5|+1|+1|Bestial Nature|F-Dual Nature [0]|F-Regeneration [0]|F-Severe Allergy Silver [0]|F-Cyberware Rejection [0]|src.36|$
+H SS-Leopard          |+1|+0|+1|+1|+0|+0|4|+2|+1|+2|5|+1|+2|+1 Power(+1 Dam) Unarmed attack|Bestial Nature|F-Dual Nature [0]|F-Regeneration [0]|F-Severe Allergy Silver [0]|F-Cyberware Rejection [0]|src.36|$
+H SS-Seal             |+1|+0|+1|+1|+0|+0|4|+2|+1|+1|4|+1|+1|Bestial Nature|F-Dual Nature [0]|F-Regeneration [0]|F-Severe Allergy Silver [0]|F-Cyberware Rejection [0]|src.36|$
+H SS-Tiger            |+1|+1|+1|+0|+0|+0|4|+3|+2|+3|5|+1|+2|+1 Reach|+1 Power(+1 Dam)Unarmed attack|Bestial Nature|F-Dual Nature [0]|F-Regeneration [0]|F-Severe Allergy Silver [0]|F-Cyberware Rejection [0]|src.36|$
+H SS-Wolf             |+1|+0|+1|+1|+0|+0|4|+2|+1|+1|5|+1|+1|+1 Power (+1 Dam) Unarmed attack|Bestial Nature|F-Dual Nature [0]|F-Regeneration [0]|F-Severe Allergy Silver [0]|F-Cyberware Rejection [0]|src.36|$

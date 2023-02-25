@@ -1,0 +1,37 @@
+[Ordeals]
+Ordeal0=Astral_Quest
+Ordeal1=Asceticism
+Ordeal2=Deed
+Ordeal3=Familiar
+Ordeal4=Geas
+Ordeal5=Masterpiece
+Ordeal6=Meditation
+Ordeal7=Oath
+Ordeal8=Thesis
+Ordeal9=Way
+[Metamagics]
+MetaMagic0=Absorbtion
+MetaMagic1=Anchoring
+MetaMagic2=Attunement
+MetaMagic3=Centering
+MetaMagic4=Channeling
+MetaMagic5=Cleansing
+MetaMagic6=Cognition(MNE)
+MetaMagic7=Divining
+MetaMagic8=Empower Animal Companion
+MetaMagic9=Filtering
+MetaMagic10=Infusion
+MetaMagic11=Invoking
+MetaMagic12=Limited Astral Projection
+MetaMagic13=Masking
+MetaMagic14=Possessing
+MetaMagic15=Psychometry
+MetaMagic16=Quickening
+MetaMagic17=Quickening(Tattoo)
+MetaMagic18=Reflecting
+MetaMagic19=Sensing
+MetaMagic20=Severing
+MetaMagic21=Shielding
+MetaMagic22=Somatic Control
+MetaMagic23=SymbolicLinking
+MetaMagic24=Virtuoso
