@@ -187,7 +187,7 @@
 3-* PMP Bone Lacing [1]            1|tss.5|7/13 days|0.50|35000||5P-CA|||1.00|+2 Disguise, Change apparent height up to 5%, 1 box of damage per use; requires PMP SPU [1]
 3-* PMP Bone Lacing [2]            1|tss.5|13/17 days|1.15|100000||5-CB|||1.50|+4 Disguise, Change apparent height up to 10%, 2 boxes of damage per use; requires PMP SPU [2]
 3-* PMP Bone Lacing [3]            1|tss.5|14/20 days|2.25|150000||4-CC|||2.00|+6 Disguise, Change apparent height up to 15%, 3 boxes of damage per use; requires PMP SPU [3]
-2-PMP Hair Implants                1|tss.5|3/24 hours|0.05|1000||Legal|||1.00|Maximum length change of 10%, use with a PMP SPU to cybernetically change styling and length; requires PMP SPU [1]
+2-* PMP Hair Implants              1|tss.5|3/24 hours|0.05|1000||Legal|||1.00|Maximum length change of 10%, use with a PMP SPU to cybernetically change styling and length; requires PMP SPU [1]
 2-PMP Musculature Lacing
 3-* PMP Musculature Lacing [1]     1|tss.5|6/12 days|0.80|45000||5P-CA|||1.00|+2 Disguise, Make minor alterations to facial and physical structure; requires PMP SPU [1]
 3-* PMP Musculature Lacing [2]     1|tss.5|12/16 days|1.60|95000||5-CB|||1.50|+4 Disguise, More drastic changes then level 1; requires PMP SPU [2]
@@ -267,7 +267,7 @@
 2-* Speedware                      1|cp.8|4/8 days|1.70|50000|+2RCT,+1INI,|5P-CB|||1.00|+2RCT,+1INI,
 2-* Subdermal Armor                1|cp.5|6/7 days|0.50|12000|+1IMP,+1BAL,|Legal|||1.50|Compatible with worn armor
 2-* Subdermal ViewScreen           1|cb2.48|3/24 hours|0.25|500||Legal|||1.00|Works as a data unit with no memory
-2-* Synthskins                     1|cp.7|5/48 hours|0.80|12000||Legal|||1.20|Like Light Tattoos, can be tuned at cost of 100¥
+2-* Synthskins                     1|cp.7|5/48 hours|0.80|12000||Legal|||1.20|Like Light Tattoos, can be tuned at cost of 100ï¿½
 2-Smartlink
 3-* Smartlink                      1|sr3.302|3/36 hours|0.5|2500||5P-N|||1.00|-2 to TNs for firing a Smartlinked weapon
 3-* Smartlink ADVAT.228 (level1)   1|ray.000|3/36 hrs|0.50|2500||5P-N|||1.00|-2 to TNs for firing a Smartlinked weapon
@@ -391,7 +391,7 @@
 ! For Cyberlimbs, use the corresponding entry under Cyberlimb Mods
 2-* BigKnucks(CYB)                 1|cp.15|4/48 hours|0.15|5000||3-C|||1.00|Damage +1 Power.
 2-* BigRipp(CYB)                   1|cb4.136|3/72 hours|0.40|12000||2-B||A|1.00|Damage (str+2)M, if mounted along forarm -1reach
-2-* BigRipp wth.Cybrarm mnting(CYB)1|cb4.136|3/72 hours|0.40|20500||2-B||A|1.00|Damage (str+2)M, if mounted along forarm -1reach
+2-* BigRipp w/Cyberarm mounting(CYB) 1|cb4.136|3/72 hours|0.40|20500||2-B||A|1.00|Damage (str+2)M, if mounted along forarm -1reach
 2-* +BlitzKrieg Arc Thrower(CYB)   1|cb4.136|6/4 days|0.00|2100||3P-R||A|1.50|Damage 10S Stun
 2-* Chainripp:HUSQVARNA(CYB)       1|cb3.99|8/72 hours|0.60|12500||1-B||D|1.50|Damage (str)S.Half ballist.armor resist
 2-* Cutting Torch(CYB)             1|cb1.27|6/48 hours|0.40|3500||Legal||D|2.00|Use as Wpn 8S cans be used as tool
@@ -409,7 +409,7 @@
 3-* CyGun Derringer(HOPist)(CYB)   1|cb1.27|8/7 days|0.20|220||7P-Q||D|2.00|Light Pistol ammo 2(m) dam 6L
 3-* CyGun GrenLcher(GrLn)(CYB)     1|cp.15|10/7 days|0.50|2500||2-CB|||2.00|1 shot
 3-* CyGun Flmethrow(FlThr)(CYB)    1|cp.15|10/7 days|0.90|1200||2-CB|||2.00|Damage 10M,use Light Pistol,4 shots,max range 1 meter
-2-* CyberOptic Teargas Sprayer(CYB)1|cb1.29|6/24 hours|0.20|2000||Legal||E|1.00|1 shot.Use Qckness(6)(or 4 if target surprised)
+2-* CyberOptic Teargas Sprayer(CYB) 1|cb1.29|6/24 hours|0.20|2000||Legal||E|1.00|1 shot.Use Qckness(6)(or 4 if target surprised)
 2-* Fangs(CYB)                     1|mm.42|4/48 hours|0.10|5000||Legal|||1.00|(STR+1)L, -1 Reach
 2-* Fangs, Retract(CYB)            1|mm.42|5/48 hours|0.15|8000||5P-N|||1.00|(STR+1)L, -1 Reach
 2-* Finger: Ballpoint(CYB)         1|cb4.134|3/24 hours|0.15|250||Legal||D|0.80|
@@ -627,7 +627,7 @@
 3-* Datajack [2]                   1|st.45|0/0|0.15|1000|+1DJK|Legal||H|0.90|
 3-* Datajack [3]                   1|st.45|0/0|0.20|2000|+1DJK|Legal||H|0.90|
 3-* Datajack [4]                   1|st.45|0/0|0.25|4000|+1DJK|Legal||H|0.90|
-3-* Induction Datajack             1|mm.21|0/0|0.30|3000|+1DJK|Legal||H|2.00|Requires Adapter (100¥)
+3-* Induction Datajack             1|mm.21|0/0|0.30|3000|+1DJK|Legal||H|2.00|Requires Adapter (100ï¿½)
 ! Build your own required datalock
 2-* Data Lock                      1|sr3.298|6/36 hours|0.20|1000||AsEnc||H|1.50|Code to access datajack or headware memory, Must Buy Encryption Separate (See Gear)
 2-* Datasoft Link                  1|sr2.247|3/24 hours|0.10|1000||Legal||H|1.00|
@@ -758,7 +758,7 @@
 3-* Quickness [2]                  1|mm.40|8/4 days|0.00|60000|+2QCK,|6P-Q|||1.50|+2QCK
 3-* Quickness [2] (Pair)           1|mm.40|8/4 days|0.00|120000|+2QCK,|6P-Q|||1.50|+2QCK
 3-* Quickness [3]                  1|mm.40|8/4 days|0.00|90000|+3QCK,|6P-Q|||1.50|+3QCK
-0-* Quickness [3] (Pair)           1|mm.40|8/4 days|0.00|180000|+3QCK,|6P-Q|||1.50|+3QCK
+3-* Quickness [3] (Pair)           1|mm.40|8/4 days|0.00|180000|+3QCK,|6P-Q|||1.50|+3QCK
 3-* Quickness [4]                  1|mm.40|8/4 days|0.30|135000|+4QCK,|6P-Q|||1.50|+4QCK
 3-* Quickness [4] (Pair)           1|mm.40|8/4 days|0.60|270000|+4QCK,|6P-Q|||1.50|+4QCK
 3-* Quickness [5]                  1|mm.40|8/4 days|0.60|180000|+5QCK,|6P-Q|||1.50|+5QCK
@@ -984,7 +984,7 @@
 2-* Wolfers                        1|cp.17|5/3 days|0.00|8000||3-B||D|1.00|Damage (STR)M
 ! ============================== FEET =============================================
 1-FEET
-2-* Cyberfeet Anchor               1|cb2.47|3/4 days|0.00|4000||Legal||F|2.00|Penetrate Barrier Rating 4, Repl.cost 1200¥
+2-* Cyberfeet Anchor               1|cb2.47|3/4 days|0.00|4000||Legal||F|2.00|Penetrate Barrier Rating 4, Repl.cost 1200ï¿½
 2-* Foot, Anchor                   1|mm.29|6/7 days|0.40|14000||Legal|||2.00|(STR-1)M Damage, 1 point of Recoil Reduction, -1 Knockdown TNs
 2-* Foot, Web                      1|cp.13|4/5 days|0.35|50000||Legal||F|1.00|Double swimming speed.
 2-* Foot, Grip                     1|cp.12|4/4 days|0.35|20000||Legal||F|1.00|Add 2 dices for climbing.
@@ -1029,7 +1029,7 @@
 2-* Hand, Extension                1|cp.10|5/6 days|0.35|14000||Legal||D|1.00|Telescoping to 1 meter, can hold up to 100Kgs
 2-* Flex Hands                     1|mm.28|6/72 hours|0.40|000||7P-N|||2.00|-2 Escape Artist TNs
 2-* Hand, Grapple                  1|cp.10|6/6 days|0.00|55000||Legal||D|1.10|Wrist contains 30 meters, can hold up to 100Kgs
-2-* Hand, Hammer                   1|cp.10|8/6 days|0.35|50000||4-CA||D|1.00|Damage (str+3)M Stun when ejected, replacement cost 3¥
+2-* Hand, Hammer                   1|cp.10|8/6 days|0.35|50000||4-CA||D|1.00|Damage (str+3)M Stun when ejected, replacement cost 3ï¿½
 2-* Hand, Medical Modular          1|cb4.135|5/4 days|0.35|58500||Legal||D|2.00|Negate malus for medkit lacking
 2-* Hand, Modular                  1|pw.11|6/5 days|0.00|24000||3P-CB||D|1.00|
 2-* Hand, Ripper                   1|cp.11|6/4 days|0.35|52500||3-B||D|1.00|Normal hand with Ripper mounted in upper hand and wrist
@@ -1215,7 +1215,7 @@
 2-* E-Monitor level [4]            1|cb1.28|4/5 days|0.20|8000||Legal|||1.00|
 2-* E-Monitor level [5]            1|cb1.28|4/5 days|0.20|10000||Legal|||1.00|
 2-* E-Monitor level [6]            1|cb1.28|4/5 days|0.20|12000||Legal|||1.00|
-2-* Mood Skin (per m²)             1|cb1.28|4/36 hours|0.25|200||Legal|||0.80|
+2-* Mood Skin (per mï¿½)             1|cb1.28|4/36 hours|0.25|200||Legal|||0.80|
 2-* Nails, Turn-On                 1|cb1.28|0/0|0.05|200||Legal|||0.75|
 2-* Shock Inducer                  1|pw.18|8/48 hours|0.00|2000||4-CA|||1.00|
 2-* Smartball System               1|pw.37|4/48 hours|0.50|4000||Legal|||1.00|
