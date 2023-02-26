@@ -3,7 +3,7 @@
 !2345678901234567890123456789012345678901234567890
 ! Added notes by K. Oz (06-10-2001) SOTA2064 added by Thistledown THANKS from McMackie
 0-1|Edges-Flaws|5|Book.Page|$Cost|EorF|Mods|Notes
-1-ATTRIBUTES |E
+1-ATTRIBUTES
 2-* Bonus Attribute Point(BOD)     1|src.17|2|E|+1ZOD|+1 to a physical attribute. Only once per character.
 2-* Bonus Attribute Point(QCK)     1|src.17|2|E|+1ZCK|+1 to a physical attribute. Only once per character.
 2-* Bonus Attribute Point(STR)     1|src.17|2|E|+1ZTR|+1 to a physical attribute. Only once per character.
@@ -22,10 +22,10 @@
 2-* ExceedRaceMax (CHR)(BKS)       1|src.17|1|E|+1EHR|+1 to exceed racial maximum of Charisma Attribute. Only once per character.
 2-* ExceedRaceMax (INT)(BKS)       1|src.17|1|E|+1ENT|+1 to exceed racial maximum of Intelligence Attribute. Only once per character.
 2-* ExceedRaceMax (WIL)(BKS)       1|src.17|1|E|+1EIL|+1 to exceed racial maximum of Willpower Attribute. Only once per character.
-1-SKILLS |E
+1-SKILLS
 2-* Aptitude->                     1|src.18|4|E||TN -1 for all tests with chosen skill.
 2-* Home Ground->                  1|src.18|2|E||TN -1 modifier for all active skill tests in chosen Home Ground, TN -2 for all knowledge skills tests.
-1-PHYSICAL |E
+1-PHYSICAL
 2-* Adrenaline Surge               1|src.18|2|E||Rule of Six for Initiative. Only for characters without reflex enhancements. All TN +1 during combat.
 2-* Ambidexterity-2                1|cc.96|2|E||When firing two weapons, TN +2 for the first, TN +1 for the second weapon.
 2-* Ambidexterity-4                1|cc.96|4|E||When firing two weapons, TN +1 for the first, TN +1 for the second weapon.
@@ -58,7 +58,7 @@
 2-* Will To Live Lev 1             1|src.22|1|E||+1 Box Overflow Damage.
 2-* Will To Live Lev 2             1|src.22|2|E||+2 Boxes Overflow Damage.
 2-* Will To Live Lev 3             1|src.22|3|E||+3 Boxes Overflow Damage.
-1-MENTAL |E
+1-MENTAL
 2-* Attentive                      1|tss.6|1|E||Character never makes silly mistakes and rarely overlooks something small. No combat benefits
 2-* Bravery                        1|src.22|1|E||TN -1 for tests against intimidation and similar spells and critter powers.
 2-* College Education              1|src.22|1|E||TN for academical knowledge skills +1 for defaulting to skill, +2 for defaulting to specialization, +3 for defaulting to attribute.
@@ -72,7 +72,7 @@
 2-* Spike Resistance 2(Rig/Deck)   1|src.25|4|E||+2 Willpower for damage resistance tests against Black Ice, Dumpshock etc.
 2-* Strong Will                    1|tss.7|1|E||Character rolls and extra die when resisting attempts to control their free will, including resisting interrogation, torture, etc.
 2-* Technical School Education     1|src.25|1|E||TN for background knowledge skills +1 for defaulting to skill, +2 for defaulting to specialization, +3 for defaulting to attribute.
-1-SOCIAL |E
+1-SOCIAL
 2-* Animal Empathy                 1|src.25|2|E||TN -1 for tests involving the interaction with animals. Character is reluctant to harm animals.
 2-* Blandness                      1|src.25|2|E||TN +1 for tracking the character. No effect on matrix or magical searches.
 2-* Connected Lev 1->              1|src.26|3|E||Character has a contact that buys or sells certain contraband with or without street index, to the character's advantage.
@@ -86,7 +86,7 @@
 2-* Human Looking                  1|src.27|1|E||Exactly that. Only for elves, dwarves and orks.
 2-* Good Reputation Lev 1          1|src.27|1|E||TN -1 for social skill tests.
 2-* Good Reputation Lev 2          1|src.27|2|E||TN -2 for social skill tests.
-1-MAGICAL |E
+1-MAGICAL
 2-* Astral Chameleon               1|src.28|2|E||TN +2 for tests involving the ascanning of the character's astral signature.
 2-* Focused Concentration          1|src.28|2|E||TN +1 for each sustained spell.
 2-* Magical Resistance Lev 1       1|src.28|1|E||+1 Die for spell resistance tests. Only for mundane characters. Also against "friendly" spells like Heal etc.
@@ -95,11 +95,11 @@
 2-* Magical Resistance Lev 4       1|src.28|4|E||+4 Dice for spell resistance tests. Only for mundane characters. Also against "friendly" spells like Heal etc.
 2-* Poor Link                      1|src.28|2|E||TN +2 for ritual sorcery against the character.
 2-* Spirit Affinity->              1|src.28|2|E||One kind of nature spirit likes the character. Reluctant to attack the character, ready to do him little favours etc.
-1-MATRIX |E
+1-MATRIX
 2-* Codeslinger->                  1|src.28|2|E||+1 Die for a certain system operation (Edit File, Analyze Icon etc.). Only once per character.
 2-* Cracker->                      1|src.28|4|E||+1 Die for a certain system test (Access test, Control test etc.). Only once per character.
 2-* Natural Hardening              1|src.29|4|E||1 point of natural Hardening. Cumulative with cyberdeck hardening.
-1-MISCELLANEOUS |E
+1-MISCELLANEOUS
 2-* Daredevil                      1|src.29|3|E||+1 additional karma pool point per run to be spent for a heroic or risky action.
 2-* Dragon Patron                  1|dosw.185|6|E||Offsets the 6 pt hunted flaw that all bred drakes automatically get.
 2-* Pirate Family                  1|src.30|3|E||Character has a big family with members in several ports all around the world.
@@ -108,7 +108,7 @@
 2-* Wealth Lvl 2                   1|tss.7|2|E||Starting cash roll is increased by 2000 nuyen
 2-* Wealth Lvl 3                   1|tss.7|3|E||Starting cash roll is increased by 3000 nuyen
 2-* Wealth Lvl 4                   1|tss.7|4|E||Starting cash roll is increased by 4000 nuyen
-1-SURGE |E
+1-SURGE
 2-* SRG:Astral Sight               1|yotc.140|6|E||Limited awakening, Charechter gains Magic rating of 1, can learn aura reading and enchanting, may use astral perception but may not project.
 2-* SRG:Claws                      1|yotc.141|2|E||Fingernails grow into claws, (STR+1)L using unarmed combat skill.
 2-* SRG:Talons                     1|yotc.141|2|E||Toenails grow into Talons, (STR+1)L using unarmed combat skill.
@@ -140,11 +140,11 @@
 2-* SRG:Thermographic Vision       1|yotc.143|2|E||Gain Thermo. Vision
 2-* SRG:Therm. Vision(Deckers)     1|yotc.143|1|E||Gain Thermo. Vision
 2-* SRG:Therm. Vision(Riggers)     1|yotc.143|1|E||Gain Thermo. Vision
-2-RE-GOBLINIZATION|E
+2-RE-GOBLINIZATION
 3-* SRG:Gob. Lose Elf (to varient) 1|yotc.140|5|E|-1QCK,-1CHA|Lose Elf Metatype (elves only, must take varient)
 3-* SRG:Gob. Lose Orc (to varient) 1|yotc.140|5|E|-3BOD,-2STR,+1CHA,+1INT|Lose Orc Metatype (orcs only, must take varient)
-3-* SRG:Gob. Lose Dwarf(to varient)1|yotc.140|5|E|-1BOD,-1WIL,-2STR|Lose Dwarf Metatype (dwarves only, must take varient)
-3-* SRG:Gob. Lose Troll(to varient)1|yotc.140|5|E|-5BOD,-4STR,+1QCK,+2CHA,+2INT|Lose Troll Metatype (trolls only, must take varient)
+3-* SRG:Gob. Lose Dwarf(to varient) 1|yotc.140|5|E|-1BOD,-1WIL,-2STR|Lose Dwarf Metatype (dwarves only, must take varient)
+3-* SRG:Gob. Lose Troll(to varient) 1|yotc.140|5|E|-5BOD,-4STR,+1QCK,+2CHA,+2INT|Lose Troll Metatype (trolls only, must take varient)
 3-* SRG:Gob. Gain Elf varient      1|yotc.140|5|E|+1QCK,+1CHA|Gain Elf Metavarient (elves only)
 3-* SRG:Gob. Gain Orc varient      1|yotc.140|5|E|+3BOD,+2STR,-1CHA,-1INT|Gain Orc Metavarient (orcs only)
 3-* SRG:Gob. Gain Dwarf varient    1|yotc.140|5|E|+1BOD,+1WIL,+2STR|Gain Dwarf Metavarient (dwarves only)
@@ -152,10 +152,10 @@
 3-* SRG:Gob. Lose Human(ork/troll) 1|yotc.140|5|E||Lose Human Metatype (humans only, must take Orc or troll metatype)
 3-* SRG:Gob. Gain Orc (was human)  1|yotc.140|5|E|+3BOD,+2STR,-1CHA,-1INT|Gain Orc Metatype (humans only)
 3-* SRG:Gob. Gain Troll(was human) 1|yotc.140|5|E|+5BOD,+4STR,-1QCK,-2CHA,-2INT|Gain Troll Metatype (humans only)
-1-SKILLS |F
+1-SKILLS
 2-* Computer Illiterate            1|src.18|-3|F||TN 4 and modifiers (GM's discretion) for operating even simplest electronic devices.
 2-* Incompetence->                 1|src.18|-2|F||TN +1 for all tests with chosen skill.
-1-PHYSICAL |F
+1-PHYSICAL
 2-* Allergy Uncom & Mild->         1|src.18|-2|F||TN +1 when exposed to the substance.
 2-* Allergy Uncom & Mod.->         1|src.18|-3|F||Contact with the substance is painful. Power +2 for weapons made out of the substance when used against the character.
 2-* Allergy Uncom & Severe->       1|src.18|-4|F||Character suffers a light wound per minute that he is exposed to the substance.
@@ -185,7 +185,7 @@
 2-* Sensitive System(N)            1|src.21|-3|F|+1ECD|Essence loss caused by implants is doubled.
 2-* Sensitive System(Magic Active) 1|src.21|-2|F|+1ECD|Essence loss caused by implants is doubled.
 2-* Weak Immune System             1|src.21|-1|F||-1 Body for tests against diseases.
-1-MENTAL |F
+1-MENTAL
 2-* Amnesia Lev 1                  1|src.22|-2|F||Character does not remember his identity or past, but has access to all of his powers and skills.
 2-* Amnesia Lev 2                  1|src.22|-3|F||Character does not remember his identity or past, but has access to some of his powers and skills.
 2-* Amnesia Lev 3                  1|src.22|-4|F||Character does not remember his identity or past, but has access to some of his powers and skills.
@@ -225,16 +225,16 @@
 2-* True Believer->                1|src.25|-3|F||Character is a true believer in a political cause and will not act to harm it, even at significant personal cost. No matter what, character somehow believes that "The Leader" is really the shining paragon that he wants him to be.
 2-* Uneducated                     1|src.25|-2|F|+1UNE|Character has rudimentary R/W skills. Intelligence x 3 knowledge skill points during character generation. No academic or background knowledge skill at character generation.
 2-* Vindictive                     1|src.25|-2|F||Character revenges himself for every little real or imaginary offense.
-1-SOCIAL |F
+1-SOCIAL
 2-* Bad Reputation light           1|src.25|-1|F||TN +1 for social skill tests.
 2-* Bad Reputation mod             1|src.25|-2|F||TN +2 for social skill tests.
 2-* Bad Reputation severe          1|src.25|-3|F||TN +3 for social skill tests.
 2-* Bad Reputation extreme         1|src.25|-4|F||TN +4 for social skill tests.
 2-* Braggart                       1|src.25|-1|F||Intelligence(6) test with 2 successes to not show off when telling a story.
 2-* Dark Secret->                  1|src.26|-2|F||Character has a dark secret and would have to suffer severe consequences if it would be revealed.
-2-* Day Job 10hrs/week->           1|src.26|-1|F||Character has a day job. Salary: 1.000 ¥ per month.
-2-* Day Job 20hrs/week->           1|src.26|-2|F||Character has a day job. Salary: 2.500 ¥ per month.
-2-* Day Job 40hrs/week->           1|src.26|-3|F||Character has a day job. Salary: 5.000 ¥ per month.
+2-* Day Job 10hrs/week->           1|src.26|-1|F||Character has a day job. Salary: 1.000 ï¿½ per month.
+2-* Day Job 20hrs/week->           1|src.26|-2|F||Character has a day job. Salary: 2.500 ï¿½ per month.
+2-* Day Job 40hrs/week->           1|src.26|-3|F||Character has a day job. Salary: 5.000 ï¿½ per month.
 2-* Dependent(-1)->                1|src.26|-1|F||Character has a person that depends on him. GM's discretion about the flaw's value.
 2-* Dependent(-2)->                1|src.26|-2|F||Character has a person that depends on him. GM's discretion about the flaw's value.
 2-* Dependent(-3)->                1|src.26|-3|F||Character has a person that depends on him. GM's discretion about the flaw's value.
@@ -254,11 +254,11 @@
 2-* Personal Code                  1|tss.7|-2|F||Character has a personal code of honoer/ethics/conduct they must uphold
 2-* Ugly and Doesn't Care          1|src.27|-1|F||TN +2 for social interactions with the opposite gender, +1 with the own gender.
 2-* Uncouth                        1|src.27|-2|F||Character has no manners. TN +2 on all social skill tests.
-1-MAGICAL |F
+1-MAGICAL
 2-* Astral Impressions             1|src.28|-2|F||TN -2 for ascanning the character's astral signature.
 2-* Haunted                        1|tss.7|-1|F||Character is haunted by a spectre, who will follow the character and be a general nuisance
 2-* Spirit Bane->                  1|src.28|-2|F||A certain kind of nature spirits hates the character. Those spirits harass the character and attack him first.
-1-MATRIX |F
+1-MATRIX
 2-* Codeblock->                    1|src.28|-1|F||-1 Die for a certain system operation (Edit File, Analyze Icon etc.). Only once per character.
 2-* Choker->                       1|src.28|-2|F||-1 Die for a certain system test (Access test, Control test etc.). Only once per character.
 2-* Jack Itch                      1|src.28|-1|F||Cumulative +1 modifier on all tests every (Willpower) minutes the character is jacked in.
@@ -266,7 +266,7 @@
 2-* Matrix Addiction Moderate      1|mat.26|-4|F||As Light, but character must be online 6 hours/ day. Additional Willpower(6) test to jack out.
 2-* Matrix Addiction Severe        1|mat.26|-6|F||As Moderate, but character must be online 8 hours/ day. TN +1 for all charisma and charisma-based skill tests.
 2-* Scorched                       1|src.29|-1|F||Character has been conditioned by psychotrope IC (GM's discretion on the effects).
-1-MISCELLANEOUS |F
+1-MISCELLANEOUS
 2-* Bad Karma                      1|src.29|-5|F|+1BKF|Double the amount of karma necessary for gaining a karma pool point.
 2-* Corporate Sell-out             1|tss.7|-6|F||Character sold out to a powerful group (corporation, mafia, government, etc) and now works for them and must take any and all runs they tell him/her
 2-* Cranial Bomb                   1|src.29|-6|F||Character has a cortex bomb (GM's discretion).
@@ -282,7 +282,7 @@
 2-* Police Record                  1|src.30|-6|F||Character has a SIN with police record. All contacts must be street types. All security firms have the character's record. Lone Star knows all about the character.
 2-* Poverty (-1)                   1|tss.7|-1|F||Starting cash roll is reduced to 3d6x200
 2-* Poverty (-2)                   1|tss.7|-2|F||Character does not roll for starting cash
-1-SURGE |F
+1-SURGE
 2-* SRG:Altered Eye Color->        1|yotc.139|-1|F||Obvious change in Eye color not compatible with feline eyes or cyber-eyes
 2-* SRG:Altrd Skin Color.(Minor)-> 1|yotc.139|-1|F||Obvious but not too unusual change in skin pigments.
 2-* SRG:Altrd Skin Color.(Major)-> 1|yotc.139|-2|F||Obvious and harmful or strange changes in skin pigment.
