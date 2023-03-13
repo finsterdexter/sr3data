@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Allergy, Nuisance->",
+    "type_id": "1",
+    "category_tree": [],
+    "Book.Page": "CR3-15",
+    "Notes": ""
+  },
+  {
+    "name": "Allergy, Mild->",
+    "type_id": "1",
+    "category_tree": [],
+    "Book.Page": "CR3-15",
+    "Notes": ""
+  },
+  {
+    "name": "Allergy, Moderate->",
+    "type_id": "1",
+    "category_tree": [],
+    "Book.Page": "CR3-15",
+    "Notes": ""
+  },
+  {
+    "name": "Allergy, Severe->",
+    "type_id": "1",
+    "category_tree": [],
+    "Book.Page": "CR3-15",
+    "Notes": ""
+  },
+  {
+    "name": "Dietary Requirement->",
+    "type_id": "1",
+    "category_tree": [],
+    "Book.Page": "CR3-15",
+    "Notes": ""
+  },
+  {
+    "name": "Essence Loss",
+    "type_id": "1",
+    "category_tree": [],
+    "Book.Page": "CR3-15",
+    "Notes": ""
+  },
+  {
+    "name": "Reduced Senses->",
+    "type_id": "1",
+    "category_tree": [],
+    "Book.Page": "CR3-15",
+    "Notes": ""
+  },
+  {
+    "name": "Vulnerability->",
+    "type_id": "1",
+    "category_tree": [],
+    "Book.Page": "CR3-15",
+    "Notes": ""
+  }
+]

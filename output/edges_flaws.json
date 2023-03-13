@@ -1,0 +1,3421 @@
+[
+  {
+    "name": "Bonus Attribute Point(BOD)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1ZOD",
+    "Notes": "+1 to a physical attribute. Only once per character."
+  },
+  {
+    "name": "Bonus Attribute Point(QCK)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1ZCK",
+    "Notes": "+1 to a physical attribute. Only once per character."
+  },
+  {
+    "name": "Bonus Attribute Point(STR)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1ZTR",
+    "Notes": "+1 to a physical attribute. Only once per character."
+  },
+  {
+    "name": "Bonus Attribute Point(CHR)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1ZHR",
+    "Notes": "+1 to a mental attribute. Only once per character."
+  },
+  {
+    "name": "Bonus Attribute Point(INT)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1ZNT",
+    "Notes": "+1 to a mental attribute. Only once per character."
+  },
+  {
+    "name": "Bonus Attribute Point(WIL)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1ZIL",
+    "Notes": "+1 to a mental attribute. Only once per character."
+  },
+  {
+    "name": "Exceptional Attribute(BOD)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1XOD",
+    "Notes": "+1 to racial maximum of Body Attribute. Only once per character."
+  },
+  {
+    "name": "Exceptional Attribute(QCK)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1XCK",
+    "Notes": "+1 to racial maximum of Quickness Attribute. Only once per character."
+  },
+  {
+    "name": "Exceptional Attribute(STR)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1XTR",
+    "Notes": "+1 to racial maximum of Strength Attribute. Only once per character."
+  },
+  {
+    "name": "Exceptional Attribute(CHR)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1XHR",
+    "Notes": "+1 to racial maximum of Charisma Attribute. Only once per character."
+  },
+  {
+    "name": "Exceptional Attribute(INT)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1XNT",
+    "Notes": "+1 to racial maximum of Intelligence Attribute. Only once per character."
+  },
+  {
+    "name": "Exceptional Attribute(WIL)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1XIL",
+    "Notes": "+1 to racial maximum of Willpower Attribute. Only once per character."
+  },
+  {
+    "name": "ExceedRaceMax (BOD)(BKS)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "+1EOD",
+    "Notes": "+1 to exceed racial maximum of Body Attribute. Only once per character."
+  },
+  {
+    "name": "ExceedRaceMax (QCK)(BKS)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "+1ECK",
+    "Notes": "+1 to exceed racial maximum of Quickness Attribute. Only once per character."
+  },
+  {
+    "name": "ExceedRaceMax (STR)(BKS)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "+1ETR",
+    "Notes": "+1 to exceed racial maximum of Strength Attribute. Only once per character."
+  },
+  {
+    "name": "ExceedRaceMax (CHR)(BKS)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "+1EHR",
+    "Notes": "+1 to exceed racial maximum of Charisma Attribute. Only once per character."
+  },
+  {
+    "name": "ExceedRaceMax (INT)(BKS)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "+1ENT",
+    "Notes": "+1 to exceed racial maximum of Intelligence Attribute. Only once per character."
+  },
+  {
+    "name": "ExceedRaceMax (WIL)(BKS)",
+    "type_id": "1",
+    "category_tree": [
+      "ATTRIBUTES"
+    ],
+    "Book.Page": "src.17",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "+1EIL",
+    "Notes": "+1 to exceed racial maximum of Willpower Attribute. Only once per character."
+  },
+  {
+    "name": "Aptitude->",
+    "type_id": "1",
+    "category_tree": [
+      "SKILLS"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -1 for all tests with chosen skill."
+  },
+  {
+    "name": "Home Ground->",
+    "type_id": "1",
+    "category_tree": [
+      "SKILLS"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -1 modifier for all active skill tests in chosen Home Ground, TN -2 for all knowledge skills tests."
+  },
+  {
+    "name": "Adrenaline Surge",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Rule of Six for Initiative. Only for characters without reflex enhancements. All TN +1 during combat."
+  },
+  {
+    "name": "Ambidexterity-2",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "cc.96",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "When firing two weapons, TN +2 for the first, TN +1 for the second weapon."
+  },
+  {
+    "name": "Ambidexterity-4",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "cc.96",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "When firing two weapons, TN +1 for the first, TN +1 for the second weapon."
+  },
+  {
+    "name": "Ambidexterity-6",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "cc.96",
+    "$Cost": "6",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "When firing two weapons, TN +1 for the first, TN +0 for the second weapon."
+  },
+  {
+    "name": "Ambidexterity-8",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "cc.96",
+    "$Cost": "8",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "When firing two weapons, TN +0 for the first, TN +0 for the second weapon."
+  },
+  {
+    "name": "Double Jointed",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -1 for acrobatic and Athletics(Escape Artist) tests."
+  },
+  {
+    "name": "High Pain Tol. 1 Box",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Ignore effects of 1 Box mental or physical damage."
+  },
+  {
+    "name": "High Pain Tol. 2 Boxes",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Ignore effects of 2 Boxes mental or physical damage."
+  },
+  {
+    "name": "High Pain Tol. 3 Boxes",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "6",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Ignore effects of 3 Boxes mental or physical damage."
+  },
+  {
+    "name": "High Pain Tol. 4 Boxes",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "8",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Ignore effects of 4 Boxes mental or physical damage."
+  },
+  {
+    "name": "High Pain Tol. 5 Boxes",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "10",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Ignore effects of 5 Boxes mental or physical damage."
+  },
+  {
+    "name": "Lightning Reflexes Lev 1",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+1 Reaction for surprise tests. Not compatible with adept power Combat Sense."
+  },
+  {
+    "name": "Lightning Reflexes Lev 2",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+2 Reaction for surprise tests. Not compatible with adept power Combat Sense."
+  },
+  {
+    "name": "Lightning Reflexes Lev 3",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "6",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+3 Reaction for surprise tests. Not compatible with adept power Combat Sense."
+  },
+  {
+    "name": "Longevity",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Increase natural lifespan by 50%"
+  },
+  {
+    "name": "Natural Immunity Lev 1",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Immunity against one natural toxin."
+  },
+  {
+    "name": "Natural Immunity Lev 2",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Immunity against one synthetical toxin."
+  },
+  {
+    "name": "Night Vision",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Natural low-light vision."
+  },
+  {
+    "name": "Night Vision (Riggers/Deckers)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Natural low-light vision."
+  },
+  {
+    "name": "Quick Healer",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -2 for healing tests."
+  },
+  {
+    "name": "Resistance to Pathogens",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+1 Body against pathogens."
+  },
+  {
+    "name": "Resistance to Toxins",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+1 Body against toxins."
+  },
+  {
+    "name": "Toughness",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+1 Body for damage resistance tests."
+  },
+  {
+    "name": "Voice",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Character has an exceptional voice. -1 TN to all skills involving singing, public speaking, seduction, etc"
+  },
+  {
+    "name": "Water Sprite (+1 Ab Imp)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Hold breath +20 sec or bonus +0.1 for swimming distance or bonus +1 for fatigue or +1 minute between swimming tests or TN -1 for damage resistance or TN -1 for water treading or +1 Body for floating time"
+  },
+  {
+    "name": "Water Sprite (+2 Ab Imp)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Hold breath +40 sec or bonus +0.2 for swimming distance or bonus +2 for fatigue or +2 minutes between swimming tests or TN -2 for damage resistance or TN -2 for water treading or +2 Body for floating time"
+  },
+  {
+    "name": "Water Sprite (+3 Ab Imp)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Hold breath +60 sec or bonus +0.3 for swimming distance or bonus +3 for fatigue or +3 minutes between swimming tests or TN -3 for damage resistance or TN -3 for water treading or +3 Body for floating time"
+  },
+  {
+    "name": "Water Sprite (+4 Ab Imp)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Hold breath +80 sec or bonus +0.4 for swimming distance or bonus +4 for fatigue or +4 minutes between swimming tests or TN -4 for damage resistance or TN -4 for water treading or +4 Body for floating time"
+  },
+  {
+    "name": "Water Sprite (+5 Ab Imp)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Hold breath +100 sec or bonus +0.5 for swimming distance or bonus +5 for fatigue or +5 minutes between swimming tests or TN -5 for damage resistance or TN -5 for water treading or +5 Body for floating time"
+  },
+  {
+    "name": "Will To Live Lev 1",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+1 Box Overflow Damage."
+  },
+  {
+    "name": "Will To Live Lev 2",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+2 Boxes Overflow Damage."
+  },
+  {
+    "name": "Will To Live Lev 3",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+3 Boxes Overflow Damage."
+  },
+  {
+    "name": "Attentive",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "tss.6",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Character never makes silly mistakes and rarely overlooks something small. No combat benefits"
+  },
+  {
+    "name": "Bravery",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -1 for tests against intimidation and similar spells and critter powers."
+  },
+  {
+    "name": "College Education",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN for academical knowledge skills +1 for defaulting to skill, +2 for defaulting to specialization, +3 for defaulting to attribute."
+  },
+  {
+    "name": "Common Sense",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "GM: \"You might reconsider your plan.\" (If the player plans something dumb his character would not do.)"
+  },
+  {
+    "name": "Evil Eye",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "tss.18",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "This edge makes people think that the character is a bad, bad man."
+  },
+  {
+    "name": "Perceptive",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -1 for perception tests. No effect on detection spells, perception through sensors, sight modifiers during combat."
+  },
+  {
+    "name": "Perfect Time",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Character always knows exact time."
+  },
+  {
+    "name": "Photographic Memory",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.24",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Character never forgets anything he has heard, seen or experienced."
+  },
+  {
+    "name": "Sense of Direction",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.24",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Character always knows where north lies, can retrace steps and never gets lost."
+  },
+  {
+    "name": "Spike Resistance 1(Rig/Deck)",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+1 Willpower for damage resistance tests against Black Ice, Dumpshock etc."
+  },
+  {
+    "name": "Spike Resistance 2(Rig/Deck)",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+2 Willpower for damage resistance tests against Black Ice, Dumpshock etc."
+  },
+  {
+    "name": "Strong Will",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Character rolls and extra die when resisting attempts to control their free will, including resisting interrogation, torture, etc."
+  },
+  {
+    "name": "Technical School Education",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN for background knowledge skills +1 for defaulting to skill, +2 for defaulting to specialization, +3 for defaulting to attribute."
+  },
+  {
+    "name": "Animal Empathy",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -1 for tests involving the interaction with animals. Character is reluctant to harm animals."
+  },
+  {
+    "name": "Blandness",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN +1 for tracking the character. No effect on matrix or magical searches."
+  },
+  {
+    "name": "Connected Lev 1->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Character has a contact that buys or sells certain contraband with or without street index, to the character's advantage."
+  },
+  {
+    "name": "Connected Lev 2->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Character has a contact that buys and sells certain contraband with or without street index, to the character's advantage."
+  },
+  {
+    "name": "Diplomatic Immunity",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "sta2.32",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Character can not be arrested, charged with, or convicted of a felony or misdemeanor while abroad."
+  },
+  {
+    "name": "Extra Contact",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "+1ECT",
+    "Notes": "One additional level 1 contact."
+  },
+  {
+    "name": "Friendly Face",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -1 for all social interactions involving the infiltration of unknown groups, meeting contacts in an alien town etc."
+  },
+  {
+    "name": "Friends Abroad",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.27",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "One additional contact abroad or in another town."
+  },
+  {
+    "name": "Friends in High Places",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.27",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1FRI",
+    "Notes": "One additional level 2 contact in a powerful position."
+  },
+  {
+    "name": "Good Looking and Knows It",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.27",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -2 for social interactions with the opposite gender, -1 with the own gender."
+  },
+  {
+    "name": "Human Looking",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.27",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Exactly that. Only for elves, dwarves and orks."
+  },
+  {
+    "name": "Good Reputation Lev 1",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.27",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -1 for social skill tests."
+  },
+  {
+    "name": "Good Reputation Lev 2",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.27",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -2 for social skill tests."
+  },
+  {
+    "name": "Astral Chameleon",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN +2 for tests involving the ascanning of the character's astral signature."
+  },
+  {
+    "name": "Focused Concentration",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN +1 for each sustained spell."
+  },
+  {
+    "name": "Magical Resistance Lev 1",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+1 Die for spell resistance tests. Only for mundane characters. Also against \"friendly\" spells like Heal etc."
+  },
+  {
+    "name": "Magical Resistance Lev 2",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+2 Dice for spell resistance tests. Only for mundane characters. Also against \"friendly\" spells like Heal etc."
+  },
+  {
+    "name": "Magical Resistance Lev 3",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+3 Dice for spell resistance tests. Only for mundane characters. Also against \"friendly\" spells like Heal etc."
+  },
+  {
+    "name": "Magical Resistance Lev 4",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+4 Dice for spell resistance tests. Only for mundane characters. Also against \"friendly\" spells like Heal etc."
+  },
+  {
+    "name": "Poor Link",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN +2 for ritual sorcery against the character."
+  },
+  {
+    "name": "Spirit Affinity->",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "One kind of nature spirit likes the character. Reluctant to attack the character, ready to do him little favours etc."
+  },
+  {
+    "name": "Codeslinger->",
+    "type_id": "1",
+    "category_tree": [
+      "MATRIX"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+1 Die for a certain system operation (Edit File, Analyze Icon etc.). Only once per character."
+  },
+  {
+    "name": "Cracker->",
+    "type_id": "1",
+    "category_tree": [
+      "MATRIX"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+1 Die for a certain system test (Access test, Control test etc.). Only once per character."
+  },
+  {
+    "name": "Natural Hardening",
+    "type_id": "1",
+    "category_tree": [
+      "MATRIX"
+    ],
+    "Book.Page": "src.29",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "1 point of natural Hardening. Cumulative with cyberdeck hardening."
+  },
+  {
+    "name": "Daredevil",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.29",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "+1 additional karma pool point per run to be spent for a heroic or risky action."
+  },
+  {
+    "name": "Dragon Patron",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "dosw.185",
+    "$Cost": "6",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Offsets the 6 pt hunted flaw that all bred drakes automatically get."
+  },
+  {
+    "name": "Pirate Family",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.30",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Character has a big family with members in several ports all around the world."
+  },
+  {
+    "name": "Vehicle Empathy",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.31",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "TN -1 for handling tests. No effect on remotely controlled vehicles."
+  },
+  {
+    "name": "Wealth Lvl 1",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Starting cash roll is increased by 1000 nuyen"
+  },
+  {
+    "name": "Wealth Lvl 2",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Starting cash roll is increased by 2000 nuyen"
+  },
+  {
+    "name": "Wealth Lvl 3",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Starting cash roll is increased by 3000 nuyen"
+  },
+  {
+    "name": "Wealth Lvl 4",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Starting cash roll is increased by 4000 nuyen"
+  },
+  {
+    "name": "SRG:Astral Sight",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "6",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Limited awakening, Charechter gains Magic rating of 1, can learn aura reading and enchanting, may use astral perception but may not project."
+  },
+  {
+    "name": "SRG:Claws",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Fingernails grow into claws, (STR+1)L using unarmed combat skill."
+  },
+  {
+    "name": "SRG:Talons",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Toenails grow into Talons, (STR+1)L using unarmed combat skill."
+  },
+  {
+    "name": "SRG:Dermal Deposits",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "+1BOD",
+    "Notes": "Dermal deposits like a troll, cumulative with cyberware and troll race bonuses."
+  },
+  {
+    "name": "SRG:Fangs",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "canines become large and dnagerous, like a carnivore, reach -1, (STR+1)L using unarmed combat."
+  },
+  {
+    "name": "SRG:Feline Eyes",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "like Bioware Cat's Eyes(mm.64) gain low-light vision."
+  },
+  {
+    "name": "SRG:Feline Eyes - lose thermo",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "0",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "like Bioware Cat's Eyes(mm.64) gain low-light vision lose thermographic vision."
+  },
+  {
+    "name": "SRG:Gills",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "similar to OXSYS Cybergills, except no maintanece required."
+  },
+  {
+    "name": "SRG:High Frequency Hearing",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "gain hearing at freq. above normal for humans."
+  },
+  {
+    "name": "SRG:Horns",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "A horn, or horns express on head, reach -1, (STR)M using unarmed combat skill"
+  },
+  {
+    "name": "SRG:Improved Scent",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "same as adept power (sr3.170)"
+  },
+  {
+    "name": "SRG:Improved Taste",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "same as adept power (sr3.170)"
+  },
+  {
+    "name": "SRG:Long Tail",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "long tail grows from base of spine, -2 for balane tests (-3 with balance earware) tail is 1-2 meters long and reflex controlled."
+  },
+  {
+    "name": "SRG:Low Frequency Hearing",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "gain hearing at freq. below normal for humans."
+  },
+  {
+    "name": "SRG:Marsupial Pouch",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.141",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "gain a pouch on chest or abdomen, can hold items with conceal higher than 6, +4 to conceal when in use."
+  },
+  {
+    "name": "SRG:Nat.Venom(Ingested vector)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Natural toxin - self immune, immediate effect at (BOD)M damage, essence times a day."
+  },
+  {
+    "name": "SRG:Nat.Venom(Injected vector)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "4",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Natural toxin - self immune, immediate effect at (BOD)M damage, essence times a day."
+  },
+  {
+    "name": "SRG:Nat.Venom(Inhaled vector)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "6",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Natural toxin - self immune, immediate effect at (BOD)M damage, essence times a day."
+  },
+  {
+    "name": "SRG:Nat.Venom(Contact vector)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "8",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Natural toxin - self immune, immediate effect at (BOD)M damage, essence times a day."
+  },
+  {
+    "name": "SRG:Prehensile Tail",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "long tail grows from base of spine, -2 for balane tests (-3 with balance earware) tail is 1-2 meters long. Has 1/2 strength, can hold char suspended, +2 TN to manipulate things with this tail."
+  },
+  {
+    "name": "SRG:Resistance to Disease 1",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "1 extra die to resist effects of Disease"
+  },
+  {
+    "name": "SRG:Resistance to Disease 3",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "2 extra die to resist effects of Disease"
+  },
+  {
+    "name": "SRG:Resistance to Disease 5",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "3 extra die to resist effects of Disease"
+  },
+  {
+    "name": "SRG:Resistance to Poison 1",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "1 extra die to resist effects of Poison"
+  },
+  {
+    "name": "SRG:Resistance to Poison 3",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "2 extra die to resist effects of Poison"
+  },
+  {
+    "name": "SRG:Resistance to Poison 5",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.142",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "3 extra die to resist effects of Poison"
+  },
+  {
+    "name": "SRG:Retractable Claws",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.143",
+    "$Cost": "3",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Fingernails grow into claws, (STR+1)L using unarmed combat skill, Retractable like a cats."
+  },
+  {
+    "name": "SRG:Satyr Legs",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.143",
+    "$Cost": "6",
+    "EorF": "E",
+    "Mods": "+1MUL",
+    "Notes": "Like Kid stealth cyberware (mm.37) +1 to run mult. 1 additional die for jumping, +2 power for kicks."
+  },
+  {
+    "name": "SRG:Thermographic Vision",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.143",
+    "$Cost": "2",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Gain Thermo. Vision"
+  },
+  {
+    "name": "SRG:Therm. Vision(Deckers)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.143",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Gain Thermo. Vision"
+  },
+  {
+    "name": "SRG:Therm. Vision(Riggers)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.143",
+    "$Cost": "1",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Gain Thermo. Vision"
+  },
+  {
+    "name": "SRG:Gob. Lose Elf (to varient)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "-1QCK,-1CHA",
+    "Notes": "Lose Elf Metatype (elves only, must take varient)"
+  },
+  {
+    "name": "SRG:Gob. Lose Orc (to varient)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "-3BOD,-2STR,+1CHA,+1INT",
+    "Notes": "Lose Orc Metatype (orcs only, must take varient)"
+  },
+  {
+    "name": "SRG:Gob. Lose Dwarf(to varient)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "-1BOD,-1WIL,-2STR",
+    "Notes": "Lose Dwarf Metatype (dwarves only, must take varient)"
+  },
+  {
+    "name": "SRG:Gob. Lose Troll(to varient)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "-5BOD,-4STR,+1QCK,+2CHA,+2INT",
+    "Notes": "Lose Troll Metatype (trolls only, must take varient)"
+  },
+  {
+    "name": "SRG:Gob. Gain Elf varient",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "+1QCK,+1CHA",
+    "Notes": "Gain Elf Metavarient (elves only)"
+  },
+  {
+    "name": "SRG:Gob. Gain Orc varient",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "+3BOD,+2STR,-1CHA,-1INT",
+    "Notes": "Gain Orc Metavarient (orcs only)"
+  },
+  {
+    "name": "SRG:Gob. Gain Dwarf varient",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "+1BOD,+1WIL,+2STR",
+    "Notes": "Gain Dwarf Metavarient (dwarves only)"
+  },
+  {
+    "name": "SRG:Gob. Gain Troll varient",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "+5BOD,+4STR,-1QCK,-2CHA,-2INT",
+    "Notes": "Gain Troll Metavarient (trolls only)"
+  },
+  {
+    "name": "SRG:Gob. Lose Human(ork/troll)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "",
+    "Notes": "Lose Human Metatype (humans only, must take Orc or troll metatype)"
+  },
+  {
+    "name": "SRG:Gob. Gain Orc (was human)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "+3BOD,+2STR,-1CHA,-1INT",
+    "Notes": "Gain Orc Metatype (humans only)"
+  },
+  {
+    "name": "SRG:Gob. Gain Troll(was human)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE",
+      "RE-GOBLINIZATION"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "5",
+    "EorF": "E",
+    "Mods": "+5BOD,+4STR,-1QCK,-2CHA,-2INT",
+    "Notes": "Gain Troll Metatype (humans only)"
+  },
+  {
+    "name": "Computer Illiterate",
+    "type_id": "1",
+    "category_tree": [
+      "SKILLS"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN 4 and modifiers (GM's discretion) for operating even simplest electronic devices."
+  },
+  {
+    "name": "Incompetence->",
+    "type_id": "1",
+    "category_tree": [
+      "SKILLS"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +1 for all tests with chosen skill."
+  },
+  {
+    "name": "Allergy Uncom & Mild->",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +1 when exposed to the substance."
+  },
+  {
+    "name": "Allergy Uncom & Mod.->",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Contact with the substance is painful. Power +2 for weapons made out of the substance when used against the character."
+  },
+  {
+    "name": "Allergy Uncom & Severe->",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character suffers a light wound per minute that he is exposed to the substance."
+  },
+  {
+    "name": "Allergy Com & Mild->",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +1 when exposed to the substance."
+  },
+  {
+    "name": "Allergy Com & Mod.->",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Contact with the substance is painful. Power +2 for weapons made out of the substance when used against the character."
+  },
+  {
+    "name": "Allergy Com & Severe->",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.18",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character suffers a light wound per minute that he is exposed to the substance."
+  },
+  {
+    "name": "Biorejection",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.19",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character's immune system rejects any cyberware or bioware. Any organ or limb replacement must be cloned from the character's very own cells."
+  },
+  {
+    "name": "Biorejection(Magic Active)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.19",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character's immune system rejects any cyberware or bioware. Any organ or limb replacement must be cloned from the character's very own cells."
+  },
+  {
+    "name": "Blind [B]",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.19",
+    "$Cost": "-6",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +6 for all tests involving the sense of sight. No cure by cyberware."
+  },
+  {
+    "name": "Blind (Magic Active)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.19",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +6 for all tests involving the sense of sight, only +2 when astrally perceiving. No cure by cyberware."
+  },
+  {
+    "name": "Borrowed Time",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.19",
+    "$Cost": "-6",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has only 3d6 months left to live."
+  },
+  {
+    "name": "Clumsy",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "tss.6",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character is more likely to make silly mistakes"
+  },
+  {
+    "name": "Color-Blind",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.19",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +4 for all tests involving distinguishing of colors."
+  },
+  {
+    "name": "Crippled Leg",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": ""
+  },
+  {
+    "name": "Deaf",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.19",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +4 for all tests involving hearing (including surprise tests). No cure by cyberware possible."
+  },
+  {
+    "name": "Infirm (-1)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "+1IFM",
+    "Notes": "-1 to attribute maximum of character's physical attributes."
+  },
+  {
+    "name": "Infirm (-2)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "+2IFM",
+    "Notes": "-2 to attribute maximum of character's physical attributes."
+  },
+  {
+    "name": "Infirm (-3)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "+3IFM",
+    "Notes": "-3 to attribute maximum of character's physical attributes."
+  },
+  {
+    "name": "Infirm (-4)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "+4IFM",
+    "Notes": "-4 to attribute maximum of character's physical attributes."
+  },
+  {
+    "name": "Infirm (-5)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "+5IFM",
+    "Notes": "-5 to attribute maximum of character's physical attributes."
+  },
+  {
+    "name": "Low Pain Tolerance",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "+1 to wound-related TN modifiers"
+  },
+  {
+    "name": "Night Blindness(N)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Additional TN +2 when in minimal light or full darkness."
+  },
+  {
+    "name": "Night Blindness(Rig/Deckers)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Additional TN +2 when in minimal light or full darkness. No effect on sensors or in the matrix."
+  },
+  {
+    "name": "One Arm",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has lost their off hand in an accident"
+  },
+  {
+    "name": "Paraplegic",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.20",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character is paralyzed from hip down. Combat pool is halved (round down). No cure by cyberware."
+  },
+  {
+    "name": "Quadriplegic",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "-6",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character is paralyzed from neck down. Character needs permanent hospital lifestyle. No cure by cyberware."
+  },
+  {
+    "name": "Sensitive System(N)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "+1ECD",
+    "Notes": "Essence loss caused by implants is doubled."
+  },
+  {
+    "name": "Sensitive System(Magic Active)",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "+1ECD",
+    "Notes": "Essence loss caused by implants is doubled."
+  },
+  {
+    "name": "Weak Immune System",
+    "type_id": "1",
+    "category_tree": [
+      "PHYSICAL"
+    ],
+    "Book.Page": "src.21",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "-1 Body for tests against diseases."
+  },
+  {
+    "name": "Amnesia Lev 1",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character does not remember his identity or past, but has access to all of his powers and skills."
+  },
+  {
+    "name": "Amnesia Lev 2",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character does not remember his identity or past, but has access to some of his powers and skills."
+  },
+  {
+    "name": "Amnesia Lev 3",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character does not remember his identity or past, but has access to some of his powers and skills."
+  },
+  {
+    "name": "Amnesia Lev 4",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character does not remember his identity or past and has forgotten all what he has learned."
+  },
+  {
+    "name": "Combat Monster",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character fights unstoppable for 3 rounds or until all enemies are incapacitated or dead. Willpower(6) test to shorten this time."
+  },
+  {
+    "name": "Combat Paralysis",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character's initiative in a fight is always the minimum he can achieve. Additional TN +2 for surprise tests."
+  },
+  {
+    "name": "Compassionate",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character hates to see others suffer. May affect social tests when GM sees fit"
+  },
+  {
+    "name": "Compulsive light->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a habit he has little or no control over. GM decides value of this flaw."
+  },
+  {
+    "name": "Compulsive moderate->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a habit he has little or no control over. GM decides value of this flaw."
+  },
+  {
+    "name": "Compulsive severe->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a habit he has little or no control over. GM decides value of this flaw."
+  },
+  {
+    "name": "Compulsive extreme->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a habit he has little or no control over. GM decides value of this flaw."
+  },
+  {
+    "name": "Compulsive v.extreme->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a habit he has little or no control over. GM decides value of this flaw."
+  },
+  {
+    "name": "Flashbacks->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.22",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Characters suffers flashbacks from certain trigger conditions. Willpower(6) test. If it fails, the character is incapacitated for 1d6 minutes."
+  },
+  {
+    "name": "Focused Obliviousness",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "tss.6",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "This character gets wrapped up in whatever they are doing at the moment.  -3 to perception tests while so engrossed."
+  },
+  {
+    "name": "Greed",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Will(6) to resist any offer of cash, TN modified based on ammount offered as GM decides"
+  },
+  {
+    "name": "Gunslinger Honor",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "tss.18",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Can not shoot a man in the back or an unarmed man and all targets must be fully aware of character's presence"
+  },
+  {
+    "name": "Illiterate",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character cannot read or write. Intelligence x 3 knowledge skill points during character generation. No academic knowledge skills."
+  },
+  {
+    "name": "Impulsive",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character tends to jump into the middle of the action without thinking. Willpower(6) test to avoid this."
+  },
+  {
+    "name": "Incomplete Deprograming",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "sta2.32",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character was once a deep-cover agent for an agency, but after being extracted his deprograming was faulty.  Traces of the cover identity remain and may rise to forefront during stressful situations unless willpower(4)."
+  },
+  {
+    "name": "Kleptomania",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Will(4) to avoid a cumpulsion to steal, TN modified based on value of item"
+  },
+  {
+    "name": "Lecherous",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Compulsion to flirt with every member of the appropriate sex that has Charisma 3 or more. Roll Willpower to not try to seduce"
+  },
+  {
+    "name": "Oblivious",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character is oblivious. TN +1 for all perception tests, including astral perception, not including combat situations."
+  },
+  {
+    "name": "Pacifist[1]",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character never kills, save in self-defense."
+  },
+  {
+    "name": "Phobia Uncom & Mild->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +1 when exposed to trigger condition."
+  },
+  {
+    "name": "Phobia Uncom & Mod.->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +2 when exposed to trigger condition. Willpower(4) test to avoid fleeing."
+  },
+  {
+    "name": "Phobia Uncom & Severe->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Willpower(6) test to avoid fleeing. When passed, TN +2 during exposure."
+  },
+  {
+    "name": "Phobia Com & Mild->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +1 when exposed to trigger condition."
+  },
+  {
+    "name": "Phobia Com & Mod.->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +2 when exposed to trigger condition. Willpower(4) test to avoid fleeing."
+  },
+  {
+    "name": "Phobia Com & Severe->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.23",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Willpower(6) test to avoid fleeing. When passed, TN +2 during exposure."
+  },
+  {
+    "name": "Sea Legs",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.24",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Willpower(4) test every 24 hours not stayed on a boat or ship to further stay on shore."
+  },
+  {
+    "name": "Sea Madness",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.24",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Willpower(4) test every 24 hours not stayed on shore to further stay on the boat or ship."
+  },
+  {
+    "name": "Sensitive Neural Struct.[1]",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.24",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "-1 Willpower for damage resistance tests against BTLs, Black Ice, Dumpshock etc."
+  },
+  {
+    "name": "Sensitive Neural Struct.[2]",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.24",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "-2 Willpower for damage resistance tests against BTLs, Black Ice, Dumpshock etc."
+  },
+  {
+    "name": "Simsense Vertigo",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +1 and Initiative -1 when using any SimSense device such as a Smartlink."
+  },
+  {
+    "name": "Simsense Vertigo (Rig/Deckers)",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +1 and Initiative -1 when using any SimSense device such as a VCR."
+  },
+  {
+    "name": "Total Pacifist[2]",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character cannot kill any living being. If he does so, he suffers depression for 2d6 weeks."
+  },
+  {
+    "name": "True Believer->",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character is a true believer in a political cause and will not act to harm it, even at significant personal cost. No matter what, character somehow believes that \"The Leader\" is really the shining paragon that he wants him to be."
+  },
+  {
+    "name": "Uneducated",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "+1UNE",
+    "Notes": "Character has rudimentary R/W skills. Intelligence x 3 knowledge skill points during character generation. No academic or background knowledge skill at character generation."
+  },
+  {
+    "name": "Vindictive",
+    "type_id": "1",
+    "category_tree": [
+      "MENTAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character revenges himself for every little real or imaginary offense."
+  },
+  {
+    "name": "Bad Reputation light",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +1 for social skill tests."
+  },
+  {
+    "name": "Bad Reputation mod",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +2 for social skill tests."
+  },
+  {
+    "name": "Bad Reputation severe",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +3 for social skill tests."
+  },
+  {
+    "name": "Bad Reputation extreme",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +4 for social skill tests."
+  },
+  {
+    "name": "Braggart",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.25",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Intelligence(6) test with 2 successes to not show off when telling a story."
+  },
+  {
+    "name": "Dark Secret->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a dark secret and would have to suffer severe consequences if it would be revealed."
+  },
+  {
+    "name": "Day Job 10hrs/week->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a day job. Salary: 1.000 \u00ef\u00bf\u00bd per month."
+  },
+  {
+    "name": "Day Job 20hrs/week->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a day job. Salary: 2.500 \u00ef\u00bf\u00bd per month."
+  },
+  {
+    "name": "Day Job 40hrs/week->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a day job. Salary: 5.000 \u00ef\u00bf\u00bd per month."
+  },
+  {
+    "name": "Dependent(-1)->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a person that depends on him. GM's discretion about the flaw's value."
+  },
+  {
+    "name": "Dependent(-2)->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a person that depends on him. GM's discretion about the flaw's value."
+  },
+  {
+    "name": "Dependent(-3)->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a person that depends on him. GM's discretion about the flaw's value."
+  },
+  {
+    "name": "Dependent(-4)->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a person that depends on him. GM's discretion about the flaw's value."
+  },
+  {
+    "name": "Dependent(-5)->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a person that depends on him. GM's discretion about the flaw's value."
+  },
+  {
+    "name": "Dependent(-6)->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-6",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a person that depends on him. GM's discretion about the flaw's value."
+  },
+  {
+    "name": "Distinctive Style->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN -1 for all tests involving tracking or finding the character."
+  },
+  {
+    "name": "Dossier on File",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "sta2.32",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has an extensive profile stored in a government or corporate intelligence database."
+  },
+  {
+    "name": "Elf Poser",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Only for humans."
+  },
+  {
+    "name": "Extra Enemy->",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.26",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "One additional enemy curing character generation (SRC p. 68)."
+  },
+  {
+    "name": "Hung out to Dry",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.27",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character's contacts do not talk to him any longer."
+  },
+  {
+    "name": "Intolerance (-1)",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a problem dealing with a specific thing or group, +1 TN when dealing with object of intolerance"
+  },
+  {
+    "name": "Intolerance (-2)",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a problem dealing with a specific thing or group, +2 TN when dealing with object of intolerance"
+  },
+  {
+    "name": "Intolerance (-3)",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a problem dealing with a specific thing or group, +3 TN when dealing with object of intolerance"
+  },
+  {
+    "name": "Intolerance (-4)",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a problem dealing with a specific thing or group, +4 TN when dealing with object of intolerance"
+  },
+  {
+    "name": "Liar",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.27",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "When interacting with another person, GM throws 1d6. On a 1 the person does not believe the character."
+  },
+  {
+    "name": "Personal Code",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a personal code of honoer/ethics/conduct they must uphold"
+  },
+  {
+    "name": "Ugly and Doesn't Care",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.27",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN +2 for social interactions with the opposite gender, +1 with the own gender."
+  },
+  {
+    "name": "Uncouth",
+    "type_id": "1",
+    "category_tree": [
+      "SOCIAL"
+    ],
+    "Book.Page": "src.27",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has no manners. TN +2 on all social skill tests."
+  },
+  {
+    "name": "Astral Impressions",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "TN -2 for ascanning the character's astral signature."
+  },
+  {
+    "name": "Haunted",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character is haunted by a spectre, who will follow the character and be a general nuisance"
+  },
+  {
+    "name": "Spirit Bane->",
+    "type_id": "1",
+    "category_tree": [
+      "MAGICAL"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "A certain kind of nature spirits hates the character. Those spirits harass the character and attack him first."
+  },
+  {
+    "name": "Codeblock->",
+    "type_id": "1",
+    "category_tree": [
+      "MATRIX"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "-1 Die for a certain system operation (Edit File, Analyze Icon etc.). Only once per character."
+  },
+  {
+    "name": "Choker->",
+    "type_id": "1",
+    "category_tree": [
+      "MATRIX"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "-1 Die for a certain system test (Access test, Control test etc.). Only once per character."
+  },
+  {
+    "name": "Jack Itch",
+    "type_id": "1",
+    "category_tree": [
+      "MATRIX"
+    ],
+    "Book.Page": "src.28",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Cumulative +1 modifier on all tests every (Willpower) minutes the character is jacked in."
+  },
+  {
+    "name": "Matrix Addiction Light",
+    "type_id": "1",
+    "category_tree": [
+      "MATRIX"
+    ],
+    "Book.Page": "mat.26",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character must be online 4 hours/ day, otherwise he suffers TN +1 on all tests."
+  },
+  {
+    "name": "Matrix Addiction Moderate",
+    "type_id": "1",
+    "category_tree": [
+      "MATRIX"
+    ],
+    "Book.Page": "mat.26",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "As Light, but character must be online 6 hours/ day. Additional Willpower(6) test to jack out."
+  },
+  {
+    "name": "Matrix Addiction Severe",
+    "type_id": "1",
+    "category_tree": [
+      "MATRIX"
+    ],
+    "Book.Page": "mat.26",
+    "$Cost": "-6",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "As Moderate, but character must be online 8 hours/ day. TN +1 for all charisma and charisma-based skill tests."
+  },
+  {
+    "name": "Scorched",
+    "type_id": "1",
+    "category_tree": [
+      "MATRIX"
+    ],
+    "Book.Page": "src.29",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has been conditioned by psychotrope IC (GM's discretion on the effects)."
+  },
+  {
+    "name": "Bad Karma",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.29",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "+1BKF",
+    "Notes": "Double the amount of karma necessary for gaining a karma pool point."
+  },
+  {
+    "name": "Corporate Sell-out",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-6",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character sold out to a powerful group (corporation, mafia, government, etc) and now works for them and must take any and all runs they tell him/her"
+  },
+  {
+    "name": "Cranial Bomb",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.29",
+    "$Cost": "-6",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a cortex bomb (GM's discretion)."
+  },
+  {
+    "name": "Cursed Karma",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.29",
+    "$Cost": "-6",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Every time the character spends a karma point, roll 1d6. On 1, the karma point has the adversed effect."
+  },
+  {
+    "name": "Gremlins Lev 1",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.29",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "When the character uses a device, roll 2d6. On a 2, the device only works with a +1 or -1 modifier (whichever is against the character). A hard punch (Simple Action) brings it back to life."
+  },
+  {
+    "name": "Gremlins Lev 2",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.29",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "When the character uses a device, roll 2d6. On a 2, the device ceases to function. A hard punch (Simple Action) brings it back to life."
+  },
+  {
+    "name": "Gremlins Lev 3",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.29",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "When the character uses a device, roll 2d6. On a 2, the device only works with a +2 or -2 modifier (whichever is against the character). Device must be repaired. Repair costs are 0.2 times the buying costs."
+  },
+  {
+    "name": "Gremlins Lev 4",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.29",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "When the character uses a device, roll 2d6. On a 2, the device ceases completely to function. Devie must be repaired. Repair costs are half the buying costs."
+  },
+  {
+    "name": "Hunted Lev 1->",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.30",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character is hunted by a level 3 enemy."
+  },
+  {
+    "name": "Hunted Lev 2->",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.30",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character is hunted by a level 4 enemy."
+  },
+  {
+    "name": "Hunted Lev 3->",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.30",
+    "$Cost": "-6",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character is hunted by a level 5 or level 6 enemy."
+  },
+  {
+    "name": "Mysterious Cyberware->",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.30",
+    "$Cost": "-3",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Charater has an obscure piece of cyberware in his body which he has no knowledge of (GM's discretion)."
+  },
+  {
+    "name": "Police Record",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "src.30",
+    "$Cost": "-6",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character has a SIN with police record. All contacts must be street types. All security firms have the character's record. Lone Star knows all about the character."
+  },
+  {
+    "name": "Poverty (-1)",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Starting cash roll is reduced to 3d6x200"
+  },
+  {
+    "name": "Poverty (-2)",
+    "type_id": "1",
+    "category_tree": [
+      "MISCELLANEOUS"
+    ],
+    "Book.Page": "tss.7",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Character does not roll for starting cash"
+  },
+  {
+    "name": "SRG:Altered Eye Color->",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.139",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Obvious change in Eye color not compatible with feline eyes or cyber-eyes"
+  },
+  {
+    "name": "SRG:Altrd Skin Color.(Minor)->",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.139",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Obvious but not too unusual change in skin pigments."
+  },
+  {
+    "name": "SRG:Altrd Skin Color.(Major)->",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.139",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Obvious and harmful or strange changes in skin pigment."
+  },
+  {
+    "name": "SRG:Astral Hazing",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.139",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "char. generates a background count(mits.83) around him at a rate of 1 point per hour until it reaches 1/2 essence.  gradualy fades after char. leaves"
+  },
+  {
+    "name": "SRG:Bior-Rejection(non-Awaken)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.139",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "similar to normal flaw, any existing implants cause gradual sickness becoming incapacitated over body days, and will die within body*2 days if not removed."
+  },
+  {
+    "name": "SRG:Bior-Rejection(Awakened)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.139",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "similar to normal flaw, any existing implants cause gradual sickness becoming incapacitated over body days, and will die within body*2 days if not removed."
+  },
+  {
+    "name": "SRG:Chronic Osteocspus",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.139",
+    "$Cost": "-10",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Bony spikes painfully erupt all over the body. pain for 10-willpower weeks until accustomed +4 to all target numbers during this time. over time gain pain resistance as adept power at lvl 3 (sr3.170) +1to all unarmed attack powers, slow healer."
+  },
+  {
+    "name": "SRG:Critter Spook",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.139",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "all animals react with fear and hostility, and will go out of there way to attack this char. first, +2 TN to pacify."
+  },
+  {
+    "name": "SRG:Cyclops",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.139",
+    "$Cost": "-4",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "lose any cybereyes, +2 for ranged attacks"
+  },
+  {
+    "name": "SRG:Dual Natured(non-Awakned)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-10",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "may not turn this off, gain ability to learn aura reading. affected like dual nature critters"
+  },
+  {
+    "name": "SRG:Dual Natured(Awakned)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-5",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "may not turn this off, affected like dual nature critters, can still astraly project."
+  },
+  {
+    "name": "SRG:Feathers (Minor)->",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "hair is replaced by feathers"
+  },
+  {
+    "name": "SRG:Feathers (Major)->",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "hair is replaced by feathers"
+  },
+  {
+    "name": "SRG:Pointed Ears",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "gain elf like ears"
+  },
+  {
+    "name": "SRG:Scales (Minor)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "character grows scale over some or all of body, must occasionally shed."
+  },
+  {
+    "name": "SRG:Scales (Major)",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "character grows scale over some or all of body, must occasionally shed."
+  },
+  {
+    "name": "SRG:Slow Healer",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "+2 to all healing tests"
+  },
+  {
+    "name": "SRG:Third Eye",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "detectable when closed at TN(4) no other vision benefit except depth perception when one eye closed."
+  },
+  {
+    "name": "SRG:Tusks",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "gain tusks like an orc or troll, impairs speech"
+  },
+  {
+    "name": "SRG:Unusual Hair (Minor)->",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Hair grows in either unusual places or colors"
+  },
+  {
+    "name": "SRG:Unusual Hair (Major)->",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-2",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Hair grows in either unusual places or colors"
+  },
+  {
+    "name": "SRG:Vestigal Tail",
+    "type_id": "1",
+    "category_tree": [
+      "SURGE"
+    ],
+    "Book.Page": "yotc.140",
+    "$Cost": "-1",
+    "EorF": "F",
+    "Mods": "",
+    "Notes": "Gain a short tail, clothes must be tailored and sitting for long periods is uncomfortable, may be wagged with effort."
+  }
+]

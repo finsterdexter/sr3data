@@ -1,0 +1,3062 @@
+[
+  {
+    "name": "Adrenal Pump [1](trig)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.064",
+    "Availability": "10/16 days",
+    "BioIndex": "1.25",
+    "$Cost": "60000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "3.0",
+    "Notes": "+1QCK,+2STR,+1WIL,+2RCT, damage taken"
+  },
+  {
+    "name": "Adrenal Pump [2](trig)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.064",
+    "Availability": "10/16 days",
+    "BioIndex": "2.5",
+    "$Cost": "100000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "3.0",
+    "Notes": "+2QCK,+4STR,+2WIL,+4RCT, damage taken"
+  },
+  {
+    "name": "Anti-Plague Nanot.",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb1.29",
+    "Availability": "6/7 days",
+    "BioIndex": "0.40",
+    "$Cost": "17500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.5",
+    "Notes": ""
+  },
+  {
+    "name": "Biotechnica Neoappendix",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb4.138",
+    "Availability": "5/7 days",
+    "BioIndex": "0.30",
+    "$Cost": "15000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": "Extra die for finding food in Survival"
+  },
+  {
+    "name": "Bonespike",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb3.97",
+    "Availability": "5/72 hours",
+    "BioIndex": "0.30",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "Damage (STR-1)M,concealabilitie 9 if retracted"
+  },
+  {
+    "name": "Cam-O-Skin (DERMATECH)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb3.99",
+    "Availability": "6/72 hours",
+    "BioIndex": "1.50",
+    "$Cost": "8500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.0",
+    "Notes": "Like camouflage clothing"
+  },
+  {
+    "name": "Cat's Eyes",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.064",
+    "Availability": "4/6 days",
+    "BioIndex": "0.2",
+    "$Cost": "15000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Lowlight vision"
+  },
+  {
+    "name": "Chemical Gland NarcoJet",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.064",
+    "Availability": "10/4 days",
+    "BioIndex": "0.6",
+    "$Cost": "45000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "3.00",
+    "Notes": "Narcojet toxin"
+  },
+  {
+    "name": "Chemical Gland GammaScopo",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.064",
+    "Availability": "10/4 days",
+    "BioIndex": "0.6",
+    "$Cost": "60000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "3.00",
+    "Notes": "Gamma-Scopolamine toxin"
+  },
+  {
+    "name": "Chemical Gland template",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.064",
+    "Availability": "10/4 days",
+    "BioIndex": "0.6",
+    "$Cost": "1000000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "3.00",
+    "Notes": "must be customized in Bioware.dat via DATeditor"
+  },
+  {
+    "name": "Compound Eyes [1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Compound Eyes"
+    ],
+    "Book.Page": "cp.32",
+    "Availability": "6/60 hours",
+    "BioIndex": "0.30",
+    "$Cost": "3000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Compound Eyes [2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Compound Eyes"
+    ],
+    "Book.Page": "cp.32",
+    "Availability": "6/60 hours",
+    "BioIndex": "0.30",
+    "$Cost": "6000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Compound Eyes [3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Compound Eyes"
+    ],
+    "Book.Page": "cp.32",
+    "Availability": "6/60 hours",
+    "BioIndex": "0.30",
+    "$Cost": "9000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Compound Eyes [4]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Compound Eyes"
+    ],
+    "Book.Page": "cp.32",
+    "Availability": "6/60 hours",
+    "BioIndex": "0.30",
+    "$Cost": "12000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Compound Eyes [5]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Compound Eyes"
+    ],
+    "Book.Page": "cp.32",
+    "Availability": "6/60 hours",
+    "BioIndex": "0.30",
+    "$Cost": "15000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Compound Eyes [1]UV",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Compound Eyes"
+    ],
+    "Book.Page": "cp.33",
+    "Availability": "6/60 hours",
+    "BioIndex": "0.30",
+    "$Cost": "7500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Compound Eyes [2]UV",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Compound Eyes"
+    ],
+    "Book.Page": "cp.33",
+    "Availability": "6/60 hours",
+    "BioIndex": "0.30",
+    "$Cost": "10500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Compound Eyes [3]UV",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Compound Eyes"
+    ],
+    "Book.Page": "cp.33",
+    "Availability": "6/60 hours",
+    "BioIndex": "0.30",
+    "$Cost": "13500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Compound Eyes [4]UV",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Compound Eyes"
+    ],
+    "Book.Page": "cp.33",
+    "Availability": "6/60 hours",
+    "BioIndex": "0.30",
+    "$Cost": "16500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Compound Eyes [5]UV",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Compound Eyes"
+    ],
+    "Book.Page": "cp.33",
+    "Availability": "6/60 hours",
+    "BioIndex": "0.30",
+    "$Cost": "19500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver[1]T-MAXX",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.20",
+    "$Cost": "60000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver[2]T-MAXX",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.30",
+    "$Cost": "120000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver[3]T-MAXX",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.40",
+    "$Cost": "180000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver[4]T-MAXX",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.50",
+    "$Cost": "240000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver[5]T-MAXX",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.60",
+    "$Cost": "300000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver[6]T-MAXX",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.70",
+    "$Cost": "360000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver II[1]T-MAXX II",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.25",
+    "$Cost": "120000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver II[2]T-MAXX II",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.40",
+    "$Cost": "240000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver II[3]T-MAXX II",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.55",
+    "$Cost": "360000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver II[4]T-MAXX II",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.70",
+    "$Cost": "480000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver II[5]T-MAXX II",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "0.85",
+    "$Cost": "600000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Cyberliver II[6]T-MAXX II",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Cyberliver"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "6/4 days",
+    "BioIndex": "1.00",
+    "$Cost": "1080000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.10",
+    "Notes": ""
+  },
+  {
+    "name": "Decentralized Heart",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb1.27",
+    "Availability": "14/24 days",
+    "BioIndex": "2.00",
+    "$Cost": "130000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "4.00",
+    "Notes": ""
+  },
+  {
+    "name": "Digestive Expansion",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.065",
+    "Availability": "6/10 days",
+    "BioIndex": "1.00",
+    "$Cost": "80000",
+    "Mods": "+1DGX",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": "-20% lifestyle cost, can eat anything organic, ingested toxin power halved, -1 die taste Perception"
+  },
+  {
+    "name": "Enhanced Articulation",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.066",
+    "Availability": "5/6 days",
+    "BioIndex": "0.60",
+    "$Cost": "40000",
+    "Mods": "+1NCT,",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "+1RCT, 1 addt'l die to Combat, Physical, Technical,& B/R skill tests"
+  },
+  {
+    "name": "Extended Volume[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Extended Volume"
+    ],
+    "Book.Page": "mm.066",
+    "Availability": "4/4 days",
+    "BioIndex": "0.20",
+    "$Cost": "8000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "+45 seconds of air, -1 fatigue TNs"
+  },
+  {
+    "name": "Extended Volume[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Extended Volume"
+    ],
+    "Book.Page": "mm.066",
+    "Availability": "4/4 days",
+    "BioIndex": "0.30",
+    "$Cost": "15000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "+90 seconds of air, -2 fatigue TNs"
+  },
+  {
+    "name": "Extended Volume[3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Extended Volume"
+    ],
+    "Book.Page": "mm.066",
+    "Availability": "4/4 days",
+    "BioIndex": "0.40",
+    "$Cost": "25000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "+135 seconds of air, -3 fatigue TNs"
+  },
+  {
+    "name": "Flashlite Implant",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "6/4 days",
+    "BioIndex": "0.10",
+    "$Cost": "2900",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": ""
+  },
+  {
+    "name": "Fluid Rerouter[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Fluid Rerouter"
+    ],
+    "Book.Page": "pw.50",
+    "Availability": "6/48 hours",
+    "BioIndex": "0.20",
+    "$Cost": "2500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": ""
+  },
+  {
+    "name": "Fluid Rerouter[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Fluid Rerouter"
+    ],
+    "Book.Page": "pw.50",
+    "Availability": "6/48 hours",
+    "BioIndex": "0.40",
+    "$Cost": "5000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": ""
+  },
+  {
+    "name": "Fluid Rerouter[3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Fluid Rerouter"
+    ],
+    "Book.Page": "pw.50",
+    "Availability": "6/48 hours",
+    "BioIndex": "0.60",
+    "$Cost": "7500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": ""
+  },
+  {
+    "name": "Fluid Rerouter[4]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Fluid Rerouter"
+    ],
+    "Book.Page": "pw.50",
+    "Availability": "6/48 hours",
+    "BioIndex": "0.80",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": ""
+  },
+  {
+    "name": "Fluid Rerouter[5]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Fluid Rerouter"
+    ],
+    "Book.Page": "pw.50",
+    "Availability": "6/48 hours",
+    "BioIndex": "1.00",
+    "$Cost": "12500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": ""
+  },
+  {
+    "name": "Fluid Rerouter[6]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Fluid Rerouter"
+    ],
+    "Book.Page": "pw.50",
+    "Availability": "6/48 hours",
+    "BioIndex": "1.20",
+    "$Cost": "15000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": ""
+  },
+  {
+    "name": "FleshWeave (SYCUST)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb3.96",
+    "Availability": "6/36 hours",
+    "BioIndex": "0.50",
+    "$Cost": "120000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "Count 0.5 essence(as Cyberware)"
+  },
+  {
+    "name": "Forked Tongue",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb1.27",
+    "Availability": "5/72 hours",
+    "BioIndex": "0.35",
+    "$Cost": "12500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": ""
+  },
+  {
+    "name": "Grafted Muscle",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cp.17",
+    "Availability": "8/14 days",
+    "BioIndex": "1.00",
+    "$Cost": "100000",
+    "Mods": "+1ROD,+1RTR,+1RCK,",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": "+1BOD,+1STR,+1QCK,"
+  },
+  {
+    "name": "Indep. Air Supply",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cp.17",
+    "Availability": "4/7 days",
+    "BioIndex": "0.70",
+    "$Cost": "50000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": ""
+  },
+  {
+    "name": "Lifesave Skinweave",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb1.29",
+    "Availability": "12/10 days",
+    "BioIndex": "2.00",
+    "$Cost": "45000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": ""
+  },
+  {
+    "name": "Low-Light",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cp.33",
+    "Availability": "5/36 hours",
+    "BioIndex": "0.20",
+    "$Cost": "4500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": ""
+  },
+  {
+    "name": "Metabolic Arrestor",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.066",
+    "Availability": "6/8 days",
+    "BioIndex": "0.6",
+    "$Cost": "20000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "Metabolic stasis after 10 boxes of physical damage"
+  },
+  {
+    "name": "Muscle & Bone Lacing Adv.[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle & Bone Lacing"
+    ],
+    "Book.Page": "cb4.138",
+    "Availability": "6/14 days",
+    "BioIndex": "0.5",
+    "$Cost": "10000",
+    "Mods": "+1BOD,",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "+1BOD,cannot be combined with Cybernet.Bone.Lace"
+  },
+  {
+    "name": "Muscle & Bone Lacing Adv.[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle & Bone Lacing"
+    ],
+    "Book.Page": "cb4.138",
+    "Availability": "7/14 days",
+    "BioIndex": "1.5",
+    "$Cost": "15000",
+    "Mods": "+2BOD,",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "+2BOD,cannot be combined with Cybernet.Bone.Lace"
+  },
+  {
+    "name": "Muscle & Bone Lacing Adv.[3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle & Bone Lacing"
+    ],
+    "Book.Page": "cb4.138",
+    "Availability": "8/14 days",
+    "BioIndex": "2.5",
+    "$Cost": "30000",
+    "Mods": "+3BOD,",
+    "Type": "s",
+    "Street Index": "1.75",
+    "Notes": "+3BOD,cannot be combined with Cybernet.Bone.Lace"
+  },
+  {
+    "name": "Muscle Augmentation[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle Augmentation / Toner"
+    ],
+    "Book.Page": "mm.067",
+    "Availability": "6/6 days",
+    "BioIndex": "0.4",
+    "$Cost": "20000",
+    "Mods": "+1RTR,",
+    "Type": "s",
+    "Street Index": "0.90",
+    "Notes": "+1STR"
+  },
+  {
+    "name": "Muscle Augmentation[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle Augmentation / Toner"
+    ],
+    "Book.Page": "mm.067",
+    "Availability": "6/6 days",
+    "BioIndex": "0.8",
+    "$Cost": "40000",
+    "Mods": "+2RTR,",
+    "Type": "s",
+    "Street Index": "0.90",
+    "Notes": "+2STR"
+  },
+  {
+    "name": "Muscle Augmentation[3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle Augmentation / Toner"
+    ],
+    "Book.Page": "mm.067",
+    "Availability": "6/6 days",
+    "BioIndex": "1.2",
+    "$Cost": "60000",
+    "Mods": "+3RTR,",
+    "Type": "s",
+    "Street Index": "0.90",
+    "Notes": "+3STR"
+  },
+  {
+    "name": "Muscle Augmentation[4]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle Augmentation / Toner"
+    ],
+    "Book.Page": "mm.067",
+    "Availability": "6/6 days",
+    "BioIndex": "1.6",
+    "$Cost": "80000",
+    "Mods": "+4RTR,",
+    "Type": "s",
+    "Street Index": "0.90",
+    "Notes": "+4STR"
+  },
+  {
+    "name": "Muscle Toner[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle Augmentation / Toner"
+    ],
+    "Book.Page": "mm.067",
+    "Availability": "6/6 days",
+    "BioIndex": "0.4",
+    "$Cost": "25000",
+    "Mods": "+1RCK,",
+    "Type": "s",
+    "Street Index": "0.90",
+    "Notes": "+1QCK"
+  },
+  {
+    "name": "Muscle Toner[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle Augmentation / Toner"
+    ],
+    "Book.Page": "mm.067",
+    "Availability": "6/6 days",
+    "BioIndex": "0.8",
+    "$Cost": "50000",
+    "Mods": "+2RCK,",
+    "Type": "s",
+    "Street Index": "0.90",
+    "Notes": "+2QCK"
+  },
+  {
+    "name": "Muscle Toner[3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle Augmentation / Toner"
+    ],
+    "Book.Page": "mm.067",
+    "Availability": "6/6 days",
+    "BioIndex": "1.2",
+    "$Cost": "75000",
+    "Mods": "+3RCK,",
+    "Type": "s",
+    "Street Index": "0.90",
+    "Notes": "+3QCK"
+  },
+  {
+    "name": "Muscle Toner[4]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Muscle Augmentation / Toner"
+    ],
+    "Book.Page": "mm.067",
+    "Availability": "6/6 days",
+    "BioIndex": "1.6",
+    "$Cost": "100000",
+    "Mods": "+4RCK,",
+    "Type": "s",
+    "Street Index": "0.90",
+    "Notes": "+4QCK"
+  },
+  {
+    "name": "Nano-Groomers (FRESCO)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb3.98",
+    "Availability": "3/12 hours",
+    "BioIndex": "0.20",
+    "$Cost": "4000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "0.80",
+    "Notes": ""
+  },
+  {
+    "name": "Nanoaudiotory Rebuild)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb4.138",
+    "Availability": "6/72 hours",
+    "BioIndex": "0.30",
+    "$Cost": "9000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "Equiv. hearing amp. ad damper"
+  },
+  {
+    "name": "Nanooptic Upgrade",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb2.48",
+    "Availability": "6/48 hours",
+    "BioIndex": "0.20",
+    "$Cost": "7500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.25",
+    "Notes": "Equivalent Cyber LowLight, Not in Cybereye,"
+  },
+  {
+    "name": "Nephritic Screen",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.067",
+    "Availability": "4/4 days",
+    "BioIndex": "0.40",
+    "$Cost": "20000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "-1 Power of pathogen and blood toxins, +1BOD to resist them"
+  },
+  {
+    "name": "Nictitating Membranes",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.067",
+    "Availability": "4/6 days",
+    "BioIndex": "0.10",
+    "$Cost": "8000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "-1 eye irritance mods, flare comp"
+  },
+  {
+    "name": "Nitrogen Binder (OTEC)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb4.138",
+    "Availability": "6/4 days",
+    "BioIndex": "0.60",
+    "$Cost": "32000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "+2BOD if resistance test for nitrogen narcosis"
+  },
+  {
+    "name": "Orthoskin[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Orthoskin"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "8/8 days",
+    "BioIndex": "0.50",
+    "$Cost": "25000",
+    "Mods": "+1IMP,",
+    "Type": "s",
+    "Street Index": "0.80",
+    "Notes": "+1IMP"
+  },
+  {
+    "name": "Orthoskin[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Orthoskin"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "8/8 days",
+    "BioIndex": "1.00",
+    "$Cost": "60000",
+    "Mods": "+1IMP,+1BAL,",
+    "Type": "s",
+    "Street Index": "0.80",
+    "Notes": "+1IMP,+1BAL"
+  },
+  {
+    "name": "Orthoskin[3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Orthoskin"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "8/8 days",
+    "BioIndex": "1.50",
+    "$Cost": "100000",
+    "Mods": "+2IMP,+1BAL,",
+    "Type": "s",
+    "Street Index": "0.80",
+    "Notes": "+2IMP,+1BAL"
+  },
+  {
+    "name": "Overdrive Heart",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb1.37",
+    "Availability": "14/10 days",
+    "BioIndex": "1.60",
+    "$Cost": "98500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "3.50",
+    "Notes": ""
+  },
+  {
+    "name": "Pathogenic Def.[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Pathogenic Defense"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "4/4 days",
+    "BioIndex": "0.20",
+    "$Cost": "24000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.5",
+    "Notes": "Max half BOD, -1 power to biological attacks"
+  },
+  {
+    "name": "Pathogenic Def.[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Pathogenic Defense"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "4/4 days",
+    "BioIndex": "0.40",
+    "$Cost": "48000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.5",
+    "Notes": "Max half BOD, -2 power to biological attacks"
+  },
+  {
+    "name": "Pathogenic Def.[3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Pathogenic Defense"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "4/4 days",
+    "BioIndex": "0.60",
+    "$Cost": "72000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.5",
+    "Notes": "Max half BOD, -3 power to biological attacks"
+  },
+  {
+    "name": "Pathogenic Def.[4]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Pathogenic Defense"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "4/4 days",
+    "BioIndex": "0.80",
+    "$Cost": "96000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "Max half BOD, -4 power to biological attacks"
+  },
+  {
+    "name": "Pathogenic Def.[5]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Pathogenic Defense"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "4/4 days",
+    "BioIndex": "1.00",
+    "$Cost": "120000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "Max half BOD, -5 power to biological attacks"
+  },
+  {
+    "name": "Pathogenic Def.[6]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Pathogenic Defense"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "4/4 days",
+    "BioIndex": "1.20",
+    "$Cost": "144000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "Max half BOD, -6 power to biological attacks"
+  },
+  {
+    "name": "Pathogenic Def.[7]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Pathogenic Defense"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "4/4 days",
+    "BioIndex": "1.40",
+    "$Cost": "168000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "Max half BOD, -7 power to biological attacks"
+  },
+  {
+    "name": "Pathogenic Def.[8]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Pathogenic Defense"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "4/4 days",
+    "BioIndex": "1.60",
+    "$Cost": "192000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.5",
+    "Notes": "Max half BOD, -8 power to biological attacks"
+  },
+  {
+    "name": "Pathogenic Def.[9]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Pathogenic Defense"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "4/4 days",
+    "BioIndex": "1.80",
+    "$Cost": "216000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.5",
+    "Notes": "Max half BOD, -9 power to biological attacks"
+  },
+  {
+    "name": "Pathogenic Def.[10]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Pathogenic Defense"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "4/4 days",
+    "BioIndex": "2.00",
+    "$Cost": "240000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.5",
+    "Notes": "Max half BOD, -10 power to biological attacks"
+  },
+  {
+    "name": "Physio.Tailoring Quick.",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Physio Tailoring"
+    ],
+    "Book.Page": "cb4.140",
+    "Availability": "16/30 days",
+    "BioIndex": "0.30",
+    "$Cost": "200000",
+    "Mods": "+1QCK,",
+    "Type": "s",
+    "Street Index": "4.00",
+    "Notes": "+1 QCK Only available in beta clinic or higher"
+  },
+  {
+    "name": "Physio.Tailor.Racial.Bod.Max",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Physio Tailoring"
+    ],
+    "Book.Page": "cb4.140",
+    "Availability": "16/30 days",
+    "BioIndex": "0.00",
+    "$Cost": "300000",
+    "Mods": "+1ROD,",
+    "Type": "s",
+    "Street Index": "4.00",
+    "Notes": "+1 BOD Only available in beta clinic or higher"
+  },
+  {
+    "name": "Physio.Tailoring React.",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Physio Tailoring"
+    ],
+    "Book.Page": "cb4.140",
+    "Availability": "16/30 days",
+    "BioIndex": "0.30",
+    "$Cost": "200000",
+    "Mods": "+1RCK,",
+    "Type": "s",
+    "Street Index": "4.00",
+    "Notes": "+1 RCK Only available in beta clinic or higher"
+  },
+  {
+    "name": "Physio.Tailor.Reduce.Oxygen",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Physio Tailoring"
+    ],
+    "Book.Page": "cb4.140",
+    "Availability": "16/30 days",
+    "BioIndex": "0.30",
+    "$Cost": "200000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "4.00",
+    "Notes": "Only available in beta clinic or higher"
+  },
+  {
+    "name": "Physio.Tailor.UV resistance",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Physio Tailoring"
+    ],
+    "Book.Page": "cb4.140",
+    "Availability": "16/30 days",
+    "BioIndex": "0.20",
+    "$Cost": "175000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "4.00",
+    "Notes": "Only available in beta clinic or higher"
+  },
+  {
+    "name": "Physio.Tailor.Skin.Armor.Bal",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Physio Tailoring"
+    ],
+    "Book.Page": "cb4.140",
+    "Availability": "16/30 days",
+    "BioIndex": "0.75",
+    "$Cost": "250000",
+    "Mods": "+1BAL,",
+    "Type": "s",
+    "Street Index": "4.00",
+    "Notes": "Only available in beta clinic or higher"
+  },
+  {
+    "name": "Platelet Factories",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.068",
+    "Availability": "5/8 days",
+    "BioIndex": "0.40",
+    "$Cost": "30000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "-1 box for any higher than M wound, anticoagulents needed"
+  },
+  {
+    "name": "Poison Gland (Teeth)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Poison Glands"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "8/10 days",
+    "BioIndex": "0.30",
+    "$Cost": "5000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "must be customized in Bio.dat,"
+  },
+  {
+    "name": "+Poison Biotoxin[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Poison Glands"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "8/10 days",
+    "BioIndex": "0.00",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "5S Physical damage"
+  },
+  {
+    "name": "Poison Gland (Hands)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Poison Glands"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "8/10 days",
+    "BioIndex": "0.30",
+    "$Cost": "5000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "must be customized in Bio.dat,"
+  },
+  {
+    "name": "+Poison Biotoxin[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Poison Glands"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "8/10 days",
+    "BioIndex": "0.00",
+    "$Cost": "11000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "+4 on all target for 10turn,BOD(6) test resist"
+  },
+  {
+    "name": "+Poison Hallucinogen",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Poison Glands"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "8/10 days",
+    "BioIndex": "0.00",
+    "$Cost": "8000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "+4 on all target for 10turn,BOD(6) test resist"
+  },
+  {
+    "name": "Rebreathers",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb1.27",
+    "Availability": "5/4 days",
+    "BioIndex": "0.75",
+    "$Cost": "95000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Hold breath for(BodyX30)+90sec.Act as Tracheous Filter Lvl3,"
+  },
+  {
+    "name": "Skin Weave, Basic",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Skin Weave"
+    ],
+    "Book.Page": "cp.17",
+    "Availability": "8/8 days",
+    "BioIndex": "0.50",
+    "$Cost": "60000",
+    "Mods": "+1BAL,",
+    "Type": "s",
+    "Street Index": "0.80",
+    "Notes": "+1BAL,incomp.with orthoskin"
+  },
+  {
+    "name": "Skin Weave[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Skin Weave"
+    ],
+    "Book.Page": "cb2.49",
+    "Availability": "8/8 days",
+    "BioIndex": "0.50",
+    "$Cost": "25000",
+    "Mods": "+1BAL,",
+    "Type": "s",
+    "Street Index": "0.80",
+    "Notes": "+1BAL,incomp. with orthoskin or Cyber armor,"
+  },
+  {
+    "name": "Skin Weave[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Skin Weave"
+    ],
+    "Book.Page": "cb2.49",
+    "Availability": "8/8 days",
+    "BioIndex": "1.00",
+    "$Cost": "60000",
+    "Mods": "+1IMP,+1BAL,",
+    "Type": "s",
+    "Street Index": "0.80",
+    "Notes": "+1IMP,+1BAL,incomp. with orthoskin or Cyber armor,"
+  },
+  {
+    "name": "Skin Weave[3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Skin Weave"
+    ],
+    "Book.Page": "cb2.49",
+    "Availability": "8/8 days",
+    "BioIndex": "1.50",
+    "$Cost": "100000",
+    "Mods": "+1IMP,+2BAL,",
+    "Type": "s",
+    "Street Index": "0.90",
+    "Notes": "+1IMP,+2BAL,incomp. with orthoskin or Cyber armor,"
+  },
+  {
+    "name": "Skin Weave[4]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Skin Weave"
+    ],
+    "Book.Page": "cb2.49",
+    "Availability": "9/8 days",
+    "BioIndex": "2.00",
+    "$Cost": "150000",
+    "Mods": "+2IMP,+2BAL,",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "+2IMP,+2BAL,incomp. with orthoskin or Cyber armor,"
+  },
+  {
+    "name": "Skin Weave[5]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Skin Weave"
+    ],
+    "Book.Page": "cb2.49",
+    "Availability": "10/10 days",
+    "BioIndex": "2.50",
+    "$Cost": "225000",
+    "Mods": "+2IMP,+3BAL,",
+    "Type": "s",
+    "Street Index": "1.20",
+    "Notes": "+2IMP,+3BAL,incomp. with orthoskin or Cyber armor,"
+  },
+  {
+    "name": "Skin Weave[6]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Skin Weave"
+    ],
+    "Book.Page": "cb2.49",
+    "Availability": "12/14 days",
+    "BioIndex": "3.00",
+    "$Cost": "300000",
+    "Mods": "+3IMP,+3BAL,",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "+3IMP,+3BAL,incomp. with orthoskin or Cyber armor,"
+  },
+  {
+    "name": "PACESETTER Sport Heart",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "10/10 days",
+    "BioIndex": "1.30",
+    "$Cost": "90000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "3.00",
+    "Notes": "+1BOD,+1QCK in Athletic,"
+  },
+  {
+    "name": "PACESETTER 2000 Overdrv Hrt",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb1.28",
+    "Availability": "14/10 days",
+    "BioIndex": "1.60",
+    "$Cost": "98500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "3.50",
+    "Notes": "+2BOD,+2QCK in Athletic,"
+  },
+  {
+    "name": "Suprathyroid Gland",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.069",
+    "Availability": "8/12 days",
+    "BioIndex": "1.4",
+    "$Cost": "50000",
+    "Mods": "+1NCT,+1RTR,+1RCK,+1ROD,+1STG,",
+    "Type": "s",
+    "Street Index": "2.50",
+    "Notes": "+1RCT,+1STR,+1QCK,+1BOD"
+  },
+  {
+    "name": "Symbiotes[1](90%)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Symbiotes"
+    ],
+    "Book.Page": "mm.069",
+    "Availability": "5/10 days",
+    "BioIndex": "0.4",
+    "$Cost": "15000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": ""
+  },
+  {
+    "name": "Symbiotes[2](70%)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Symbiotes"
+    ],
+    "Book.Page": "mm.069",
+    "Availability": "5/10 days",
+    "BioIndex": "0.7",
+    "$Cost": "35000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": ""
+  },
+  {
+    "name": "Symbiotes[3](50%)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Symbiotes"
+    ],
+    "Book.Page": "mm.069",
+    "Availability": "5/10 days",
+    "BioIndex": "1.0",
+    "$Cost": "60000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": ""
+  },
+  {
+    "name": "Synthacardium[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.070",
+    "Availability": "4/10 days",
+    "BioIndex": "0.2",
+    "$Cost": "6000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "+1 die Athletics and heart resistance test"
+  },
+  {
+    "name": "Synthacardium[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "mm.070",
+    "Availability": "4/10 days",
+    "BioIndex": "0.3",
+    "$Cost": "15000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.50",
+    "Notes": "+2 die Athletics and heart resistance test"
+  },
+  {
+    "name": "Sunblocker Sunscreen",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "pna.43",
+    "Availability": "3/5 days",
+    "BioIndex": "0.9",
+    "$Cost": "20000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "0.8",
+    "Notes": "see book"
+  },
+  {
+    "name": "Tailored Pherom.[1](NotCult.)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tailored Pheromes"
+    ],
+    "Book.Page": "mm.070",
+    "Availability": "12/14 days",
+    "BioIndex": "0.4",
+    "$Cost": "20000",
+    "Mods": "+1CHA,",
+    "Type": "s",
+    "Street Index": "2.0",
+    "Notes": "+1CHA,+1 Die Social Test"
+  },
+  {
+    "name": "Tailored Pherom.[2](NotCult.)",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tailored Pheromes"
+    ],
+    "Book.Page": "mm.070",
+    "Availability": "12/14 days",
+    "BioIndex": "0.6",
+    "$Cost": "45000",
+    "Mods": "+2CHA,",
+    "Type": "s",
+    "Street Index": "2.0",
+    "Notes": "+2CHA,+2 Die Social Test"
+  },
+  {
+    "name": "Tail. Revol.Pherom.1 Confus.",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tailored Pheromes"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "12/14 days",
+    "BioIndex": "0.2",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": "-1INT,-1RCT for anyone within 1 ]meter of user"
+  },
+  {
+    "name": "Tail. Revol.Pherom.2 Confus.",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tailored Pheromes"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "12/14 days",
+    "BioIndex": "0.3",
+    "$Cost": "22500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": "-2INT,-2RCT for anyone within 1 meter of user"
+  },
+  {
+    "name": "Tail. Revol.Pherom.1 Gullib.",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tailored Pheromes"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "12/14 days",
+    "BioIndex": "0.2",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": "+1dice for Negociation test"
+  },
+  {
+    "name": "Tail. Revol.Pherom.2 Gullib.",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tailored Pheromes"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "12/14 days",
+    "BioIndex": "0.3",
+    "$Cost": "22500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": "+1dice for Negociation test"
+  },
+  {
+    "name": "Tail. Revol.Pherom.1 Love",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tailored Pheromes"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "12/14 days",
+    "BioIndex": "0.2",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": "+1dice for seducting people"
+  },
+  {
+    "name": "Tail. Revol.Pherom.2 Love",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tailored Pheromes"
+    ],
+    "Book.Page": "cb4.139",
+    "Availability": "12/14 days",
+    "BioIndex": "0.3",
+    "$Cost": "22500",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": "+2dice for seducting people"
+  },
+  {
+    "name": "Toxin Extractor[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Toxin Extractor"
+    ],
+    "Book.Page": "mm.071",
+    "Availability": "4/4 days",
+    "BioIndex": "0.4",
+    "$Cost": "45000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Max half BOD, -1 power to blood toxins"
+  },
+  {
+    "name": "Toxin Extractor[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Toxin Extractor"
+    ],
+    "Book.Page": "mm.071",
+    "Availability": "4/4 days",
+    "BioIndex": "0.8",
+    "$Cost": "90000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Max half BOD, -2 power to blood toxins"
+  },
+  {
+    "name": "Toxin Extractor[3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Toxin Extractor"
+    ],
+    "Book.Page": "mm.071",
+    "Availability": "4/4 days",
+    "BioIndex": "1.2",
+    "$Cost": "135000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Max half BOD, -3 power to blood toxins"
+  },
+  {
+    "name": "Toxin Extractor[4]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Toxin Extractor"
+    ],
+    "Book.Page": "mm.071",
+    "Availability": "4/4 days",
+    "BioIndex": "1.6",
+    "$Cost": "180000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Max half BOD, -4 power to blood toxins"
+  },
+  {
+    "name": "Tracheal Filter[1]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tracheal Filter"
+    ],
+    "Book.Page": "mm.071",
+    "Availability": "4/4 days",
+    "BioIndex": "0.4",
+    "$Cost": "60000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Max half BOD, -1 power airborne toxins"
+  },
+  {
+    "name": "Tracheal Filter[2]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tracheal Filter"
+    ],
+    "Book.Page": "mm.071",
+    "Availability": "4/4 days",
+    "BioIndex": "0.8",
+    "$Cost": "120000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Max half BOD, -2 power airborne toxins"
+  },
+  {
+    "name": "Tracheal Filter[3]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tracheal Filter"
+    ],
+    "Book.Page": "mm.071",
+    "Availability": "4/4 days",
+    "BioIndex": "1.2",
+    "$Cost": "180000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Max half BOD, -3 power airborne toxins"
+  },
+  {
+    "name": "Tracheal Filter[4]",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD",
+      "Tracheal Filter"
+    ],
+    "Book.Page": "mm.071",
+    "Availability": "4/4 days",
+    "BioIndex": "1.6",
+    "$Cost": "240000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Max half BOD, -4 power airborne toxins"
+  },
+  {
+    "name": "Bodyweight Vein Clip",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "cb4.136",
+    "Availability": "6/4 days",
+    "BioIndex": "0.75",
+    "$Cost": "7000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "1.00",
+    "Notes": "Add one extra minute beteween taking overflow damage boxes"
+  },
+  {
+    "name": "Venomous Fangs, Lethal",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "tss.5",
+    "Availability": "4/7 days",
+    "BioIndex": "0.50",
+    "$Cost": "18000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": "Designed like a cobra's fangs, 1/2\" long. Includes a venom sack and poison gland that makes enough for 6 bites and takes 12 hours to refill.  8D damage from poison."
+  },
+  {
+    "name": "Venomous Fangs, Non-Lethal",
+    "type_id": "1",
+    "category_tree": [
+      "STANDARD"
+    ],
+    "Book.Page": "tss.5",
+    "Availability": "4/7 days",
+    "BioIndex": "0.50",
+    "$Cost": "15000",
+    "Mods": "",
+    "Type": "s",
+    "Street Index": "2.00",
+    "Notes": "Designed like a cobra's fangs, 1/2\" long. Includes a venom sack and poison gland that makes enough for 6 bites and takes 12 hours to refill.  8D STUN damage from poison."
+  },
+  {
+    "name": "Cerebral Booster[1]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "6/14 days",
+    "BioIndex": "0.4",
+    "$Cost": "50000",
+    "Mods": "+1RNT,",
+    "Type": "c",
+    "Street Index": "2.00",
+    "Notes": "+1INT"
+  },
+  {
+    "name": "Cerebral Booster[2]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "6/14 days",
+    "BioIndex": "0.8",
+    "$Cost": "110000",
+    "Mods": "+2RNT,+1TAS",
+    "Type": "c",
+    "Street Index": "2.00",
+    "Notes": "+2INT,+1TASK"
+  },
+  {
+    "name": "Damage Comp.[1]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Damage Compensator"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "6/6 days",
+    "BioIndex": "0.2",
+    "$Cost": "25000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.5",
+    "Notes": "-1 box injury modifiers"
+  },
+  {
+    "name": "Damage Comp.[2]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Damage Compensator"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "6/6 days",
+    "BioIndex": "0.4",
+    "$Cost": "50000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.5",
+    "Notes": "-2 boxes injury modifiers"
+  },
+  {
+    "name": "Damage Comp.[3]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Damage Compensator"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "10/6 days",
+    "BioIndex": "0.6",
+    "$Cost": "150000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.5",
+    "Notes": "-3 boxes injury modifiers"
+  },
+  {
+    "name": "Damage Comp.[4]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Damage Compensator"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "10/6 days",
+    "BioIndex": "0.8",
+    "$Cost": "200000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.5",
+    "Notes": "-4 boxes injury modifiers"
+  },
+  {
+    "name": "Damage Comp.[5]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Damage Compensator"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "10/6 days",
+    "BioIndex": "1.0",
+    "$Cost": "250000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.5",
+    "Notes": "-5 boxes injury modifiers"
+  },
+  {
+    "name": "Damage Comp.[6]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Damage Compensator"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "12/6 days",
+    "BioIndex": "1.2",
+    "$Cost": "600000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.5",
+    "Notes": "-6 boxes injury modifiers"
+  },
+  {
+    "name": "Damage Comp.[7]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Damage Compensator"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "12/6 days",
+    "BioIndex": "1.4",
+    "$Cost": "700000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.5",
+    "Notes": "-7 boxes injury modifiers"
+  },
+  {
+    "name": "Damage Comp.[8]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Damage Compensator"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "12/6 days",
+    "BioIndex": "1.6",
+    "$Cost": "800000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.5",
+    "Notes": "-8 boxes injury modifiers"
+  },
+  {
+    "name": "Damage Comp.[9]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Damage Compensator"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "12/6 days",
+    "BioIndex": "1.8",
+    "$Cost": "900000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.5",
+    "Notes": "-9 boxes injury modifiers"
+  },
+  {
+    "name": "Mnemonic Enhanc.[1]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Mnemonic Enhancement"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "6/7 days",
+    "BioIndex": "0.2",
+    "$Cost": "15000",
+    "Mods": "+1MNE",
+    "Type": "c",
+    "Street Index": "1.00",
+    "Notes": "+1 die Memory and Language tests, -1 Karma cost to learn/improve skills"
+  },
+  {
+    "name": "Mnemonic Enhanc.[2]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Mnemonic Enhancement"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "6/7 days",
+    "BioIndex": "0.4",
+    "$Cost": "30000",
+    "Mods": "+2MNE",
+    "Type": "c",
+    "Street Index": "1.00",
+    "Notes": "+2 die Memory and Language tests, -1 Karma cost to learn/improve skills, +3 default to INT for Knowledge Skills"
+  },
+  {
+    "name": "Mnemonic Enhanc.[3]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Mnemonic Enhancement"
+    ],
+    "Book.Page": "mm.072",
+    "Availability": "6/7 days",
+    "BioIndex": "0.6",
+    "$Cost": "45000",
+    "Mods": "+3MNE",
+    "Type": "c",
+    "Street Index": "1.00",
+    "Notes": "+3 die Memory and Language tests, +1 die Knowledge Skills, -1 Karma cost to learn/improve skills, +3 default to INT for Knowledge Skills"
+  },
+  {
+    "name": "Pain Editor",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED"
+    ],
+    "Book.Page": "mm.073",
+    "Availability": "6/6 days",
+    "BioIndex": "0.6",
+    "$Cost": "60000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "1.2",
+    "Notes": "While engaged, +1WIL, -1INT, ignore Stun Damage penalties, +4 TN tactile Perception, does not feel pain"
+  },
+  {
+    "name": "Reflex Rec. (base skill)",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED"
+    ],
+    "Book.Page": "mm.074",
+    "Availability": "8/6 days",
+    "BioIndex": "0.25",
+    "$Cost": "25000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "1.5",
+    "Notes": "+1 die base skill, only once per skill"
+  },
+  {
+    "name": "Reflex Rec. (spec skill)",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED"
+    ],
+    "Book.Page": "mm.074",
+    "Availability": "5/6 days",
+    "BioIndex": "0.1",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "1.5",
+    "Notes": "+1 die specialized skill, only once per skill"
+  },
+  {
+    "name": "Sleep Regulator",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED"
+    ],
+    "Book.Page": "mm.074",
+    "Availability": "4/4 days",
+    "BioIndex": "0.3",
+    "$Cost": "20000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "1.00",
+    "Notes": "Only require 3 hours of sleep, 48 hours of wakefulness before TN modifiers occur"
+  },
+  {
+    "name": "Synaptic Accel.[1]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED"
+    ],
+    "Book.Page": "mm.074",
+    "Availability": "6/12 days",
+    "BioIndex": "0.4",
+    "$Cost": "75000",
+    "Mods": "+1NNI,",
+    "Type": "c",
+    "Street Index": "2.00",
+    "Notes": "+1INI"
+  },
+  {
+    "name": "Synaptic Accel.[2]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED"
+    ],
+    "Book.Page": "mm.074",
+    "Availability": "6/12 days",
+    "BioIndex": "1.0",
+    "$Cost": "200000",
+    "Mods": "+2NNI,",
+    "Type": "c",
+    "Street Index": "2.00",
+    "Notes": "+2INI"
+  },
+  {
+    "name": "Cult. Tailored Pherom.[1]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Tailored Pheromes"
+    ],
+    "Book.Page": "mm.070",
+    "Availability": "12/14 days",
+    "BioIndex": "0.3",
+    "$Cost": "80000",
+    "Mods": "+2CHA,",
+    "Type": "c",
+    "Street Index": "2.0",
+    "Notes": "+2CHA,+2 Die Social Test"
+  },
+  {
+    "name": "Cult. Tailored Pherom.[2]",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED",
+      "Tailored Pheromes"
+    ],
+    "Book.Page": "mm.070",
+    "Availability": "12/14 days",
+    "BioIndex": "0.45",
+    "$Cost": "180000",
+    "Mods": "+4CHA,",
+    "Type": "c",
+    "Street Index": "2.0",
+    "Notes": "+4CHA,+4 Die Social Test"
+  },
+  {
+    "name": "Thermosense Organ",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED"
+    ],
+    "Book.Page": "mm.075",
+    "Availability": "10/12 days",
+    "BioIndex": "0.5",
+    "$Cost": "25000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.00",
+    "Notes": "Sense heat nearby, table on MM75"
+  },
+  {
+    "name": "Trauma Damper",
+    "type_id": "1",
+    "category_tree": [
+      "CULTURED"
+    ],
+    "Book.Page": "mm.075",
+    "Availability": "6/8 days",
+    "BioIndex": "0.4",
+    "$Cost": "40000",
+    "Mods": "",
+    "Type": "c",
+    "Street Index": "2.00",
+    "Notes": "-1 box Stun wounds, shift 1 box of Physical wounds to Stun"
+  },
+  {
+    "name": "Chloroplast Skin",
+    "type_id": "1",
+    "category_tree": [
+      "COSMETIC"
+    ],
+    "Book.Page": "mm.075",
+    "Availability": "6/8 days",
+    "BioIndex": "0.2",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Green skin, less need to eat"
+  },
+  {
+    "name": "Clean Metabolism",
+    "type_id": "1",
+    "category_tree": [
+      "COSMETIC"
+    ],
+    "Book.Page": "mm.076",
+    "Availability": "4/4 days",
+    "BioIndex": "0.2",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "1.00",
+    "Notes": "No BO or unpleasant gasses"
+  },
+  {
+    "name": "Dietware",
+    "type_id": "1",
+    "category_tree": [
+      "COSMETIC"
+    ],
+    "Book.Page": "mm.076",
+    "Availability": "4/4 days",
+    "BioIndex": "0.2",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "1.00",
+    "Notes": "Can't gain weight"
+  },
+  {
+    "name": "Hair Growth",
+    "type_id": "1",
+    "category_tree": [
+      "COSMETIC"
+    ],
+    "Book.Page": "mm.076",
+    "Availability": "4/4 days",
+    "BioIndex": "0.1",
+    "$Cost": "2000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "1.00",
+    "Notes": "Grow any kind of hair anywhere"
+  },
+  {
+    "name": "Scent Glands",
+    "type_id": "1",
+    "category_tree": [
+      "COSMETIC"
+    ],
+    "Book.Page": "mm.076",
+    "Availability": "4/4 days",
+    "BioIndex": "0.1",
+    "$Cost": "5000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "1.00",
+    "Notes": "Change smell and taste of sweat, even to smell like a perfume"
+  },
+  {
+    "name": "Sensitive Skin",
+    "type_id": "1",
+    "category_tree": [
+      "COSMETIC"
+    ],
+    "Book.Page": "mm.076",
+    "Availability": "6/6 days",
+    "BioIndex": "0.2",
+    "$Cost": "10000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.00",
+    "Notes": "Increase sensitivity to heat, cold, pressure, pain"
+  },
+  {
+    "name": "Skin Pigmentation",
+    "type_id": "1",
+    "category_tree": [
+      "COSMETIC"
+    ],
+    "Book.Page": "mm.076",
+    "Availability": "6/6 days",
+    "BioIndex": "0.1",
+    "$Cost": "5000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "1.00",
+    "Notes": "Skin can be any color, anywhere, even eye iris can be changed"
+  },
+  {
+    "name": "Nano Bioware Regenerator->",
+    "type_id": "1",
+    "category_tree": [
+      "NANOWARE"
+    ],
+    "Book.Page": "mm.92",
+    "Availability": "8/2 weeks",
+    "BioIndex": "0.00",
+    "$Cost": "? 10% of implant cost",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.00",
+    "Notes": "add your own entry via DATeditor"
+  },
+  {
+    "name": "Correction (small)",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Genetic Correction"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "6/21 days",
+    "BioIndex": "0.2",
+    "$Cost": "30000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.00",
+    "Notes": "Degree of change up to GM"
+  },
+  {
+    "name": "Correction (moderate)",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Genetic Correction"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "6/21 days",
+    "BioIndex": "0.3",
+    "$Cost": "40000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.00",
+    "Notes": "Degree of change up to GM"
+  },
+  {
+    "name": "Correction (significant)",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Genetic Correction"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "6/21 days",
+    "BioIndex": "0.4",
+    "$Cost": "50000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.00",
+    "Notes": "Degree of change up to GM"
+  },
+  {
+    "name": "Correction (extreme)",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Genetic Correction"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "6/21 days",
+    "BioIndex": "0.5",
+    "$Cost": "60000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.00",
+    "Notes": "Degree of change up to GM"
+  },
+  {
+    "name": "Augmented Healing",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "6/21 days",
+    "BioIndex": "0.0",
+    "$Cost": "2500",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.00",
+    "Notes": "Cost is per week of treatment"
+  },
+  {
+    "name": "Cellular Repair",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "6/21 days",
+    "BioIndex": "0.0",
+    "$Cost": "50000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.00",
+    "Notes": "Incompatible with Boosted Reflexes"
+  },
+  {
+    "name": "Rejuvinative Treatment",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Age Rejuvination"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "8/30 days",
+    "BioIndex": "1.0",
+    "$Cost": "2000000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.5",
+    "Notes": "Require Maintainence sessions every 6 months for the next 3 years"
+  },
+  {
+    "name": "Maintainance session",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Age Rejuvination"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "8/30 days",
+    "BioIndex": "0.0",
+    "$Cost": "100000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.5",
+    "Notes": ""
+  },
+  {
+    "name": "Minor Change (eye color etc.)",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Phenotypic Alteration"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "5/21 days",
+    "BioIndex": "0.1",
+    "$Cost": "50000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": ""
+  },
+  {
+    "name": "Major Change",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Phenotypic Alteration"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "5/21 days",
+    "BioIndex": "0.5",
+    "$Cost": "65000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Includes any change not normal to metatype"
+  },
+  {
+    "name": "Bod Modified Limit Increase",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Phenotypic Alteration"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "5/21 days",
+    "BioIndex": "0.5",
+    "$Cost": "65000",
+    "Mods": "+1XOD",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "+1 to Racial Modified Limit"
+  },
+  {
+    "name": "Qck Modified Limit Increase",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Phenotypic Alteration"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "5/21 days",
+    "BioIndex": "0.5",
+    "$Cost": "65000",
+    "Mods": "+1XCK",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "+1 to Racial Modified Limit"
+  },
+  {
+    "name": "Str Modified Limit Increase",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Phenotypic Alteration"
+    ],
+    "Book.Page": "sota.026",
+    "Availability": "5/21 days",
+    "BioIndex": "0.5",
+    "$Cost": "65000",
+    "Mods": "+1XTR",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "+1 to Racial Modified Limit"
+  },
+  {
+    "name": "Cold",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Environmental Microadaptation"
+    ],
+    "Book.Page": "sota.027",
+    "Availability": "6/30 days",
+    "BioIndex": "0.4",
+    "$Cost": "60000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "+2 Dice Vs cold damage, -2 modifier cold survival tests"
+  },
+  {
+    "name": "Heat",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Environmental Microadaptation"
+    ],
+    "Book.Page": "sota.027",
+    "Availability": "6/30 days",
+    "BioIndex": "0.3",
+    "$Cost": "60000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "+2 Dice Vs heat damage, -2 modifier heat survival tests"
+  },
+  {
+    "name": "Low Oxygen",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Environmental Microadaptation"
+    ],
+    "Book.Page": "sota.027",
+    "Availability": "6/30 days",
+    "BioIndex": "0.3",
+    "$Cost": "50000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Each success on holding breath adds 10 combat turns, normal oxygen levels cause hyperoxia (Oxygen Toxicity Pg 109 CC)"
+  },
+  {
+    "name": "Pollution",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Environmental Microadaptation"
+    ],
+    "Book.Page": "sota.027",
+    "Availability": "6/30 days",
+    "BioIndex": "0.2",
+    "$Cost": "50000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "+3 body dice for resisting chemical attacks"
+  },
+  {
+    "name": "Angiotensin",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Direct Protein Synthesis"
+    ],
+    "Book.Page": "sota.027",
+    "Availability": "6/30 days",
+    "BioIndex": "0.3",
+    "$Cost": "40000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "After Deadly wound, additional damage accrues at Body x2 combat turns"
+  },
+  {
+    "name": "Calcitonin",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Direct Protein Synthesis"
+    ],
+    "Book.Page": "sota.027",
+    "Availability": "6/30 days",
+    "BioIndex": "0.4",
+    "$Cost": "60000",
+    "Mods": "+1BOD",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "+1 Body for damage resistance test barrier rating 6 for bones"
+  },
+  {
+    "name": "Erythropoitin",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Direct Protein Synthesis"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "6/30 days",
+    "BioIndex": "0.4",
+    "$Cost": "40000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "+2 Dice for Athletics Tests"
+  },
+  {
+    "name": "Glucagon",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "Direct Protein Synthesis"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "6/30 days",
+    "BioIndex": "0.3",
+    "$Cost": "40000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Double times when dealing with fatigue effects"
+  },
+  {
+    "name": "DNA Masking[1]",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "DNA Masking"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "8/14 days",
+    "BioIndex": "0.0",
+    "$Cost": "7500",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Roll opposed test between masking rating and scanner"
+  },
+  {
+    "name": "DNA Masking[2]",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "DNA Masking"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "8/14 days",
+    "BioIndex": "0.0",
+    "$Cost": "15000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Roll opposed test between masking rating and scanner"
+  },
+  {
+    "name": "DNA Masking[3]",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "DNA Masking"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "8/14 days",
+    "BioIndex": "0.0",
+    "$Cost": "22500",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Roll opposed test between masking rating and scanner"
+  },
+  {
+    "name": "DNA Masking[4]",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "DNA Masking"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "10/14 days",
+    "BioIndex": "0.1",
+    "$Cost": "40000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Roll opposed test between masking rating and scanner"
+  },
+  {
+    "name": "DNA Masking[5]",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "DNA Masking"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "10/14 days",
+    "BioIndex": "0.1",
+    "$Cost": "50000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Roll opposed test between masking rating and scanner"
+  },
+  {
+    "name": "DNA Masking[6]",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "DNA Masking"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "10/14 days",
+    "BioIndex": "0.1",
+    "$Cost": "60000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Roll opposed test between masking rating and scanner"
+  },
+  {
+    "name": "DNA Masking[7]",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "DNA Masking"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "14/21 days",
+    "BioIndex": "0.1",
+    "$Cost": "105000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Roll opposed test between masking rating and scanner"
+  },
+  {
+    "name": "DNA Masking[8]",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "DNA Masking"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "14/21 days",
+    "BioIndex": "0.1",
+    "$Cost": "120000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Roll opposed test between masking rating and scanner"
+  },
+  {
+    "name": "DNA Masking[9]",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "DNA Masking"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "14/21 days",
+    "BioIndex": "0.1",
+    "$Cost": "135000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Roll opposed test between masking rating and scanner"
+  },
+  {
+    "name": "DNA Masking[10]",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH",
+      "DNA Masking"
+    ],
+    "Book.Page": "sota.028",
+    "Availability": "18/28 days",
+    "BioIndex": "0.2",
+    "$Cost": "200000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Roll opposed test between masking rating and scanner"
+  },
+  {
+    "name": "Genetic Immunization",
+    "type_id": "1",
+    "category_tree": [
+      "GENETECH"
+    ],
+    "Book.Page": "sota.029",
+    "Availability": "6/18 days",
+    "BioIndex": "0.1",
+    "$Cost": "25000",
+    "Mods": "",
+    "Type": "x",
+    "Street Index": "2.0",
+    "Notes": "Does not work against Neuro-toxins and fast acting compounds, that requires cellular repair"
+  }
+]

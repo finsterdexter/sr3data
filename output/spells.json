@@ -1,0 +1,3677 @@
+[
+  {
+    "name": "Cold Ball",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "tss.4",
+    "Type": "P",
+    "Target": "B(R)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+2(S)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Death Touch",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "sr3.191",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "I",
+    "Range": "T",
+    "Drain": "(DL-1)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Dispel Insect Spirit",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "B(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(D)",
+    "Class": "C",
+    "Notes": "should have been named REPEL??"
+  },
+  {
+    "name": "Freezing Grasp",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "tss.4",
+    "Type": "P",
+    "Target": "B(R)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+1(L)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Manaball",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "sr3.191",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "(DL+1)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Manabolt",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "sr3.191",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "(DL)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Piercing Meow",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(S)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Powerball",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "sr3.191",
+    "Type": "P",
+    "Target": "B(R)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "+1(DL+1)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Powerbolt",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "sr3.191",
+    "Type": "P",
+    "Target": "B(R)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+1(DL)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Ram->",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "P",
+    "Target": "OR",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+1(DL-2)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Shattershield",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "M",
+    "Target": "F(R)",
+    "Duration": "I",
+    "Range": "T",
+    "Drain": "(M)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Slaughter(Race/Species)->",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "+1(D)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Slay(Race/Species)->",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "-1(D)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Spiritblast",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "M",
+    "Target": "F(R)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "-1(DL+1)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Spiritbolt",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "M",
+    "Target": "F(R)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "-1(DL)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Stunball",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "sr3.191",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "-1(DL+1)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Stunbolt",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "sr3.191",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "-1(DL)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Stuntouch",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "I",
+    "Range": "T",
+    "Drain": "-1(DL-1)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Wreck->",
+    "type_id": "1",
+    "category_tree": [
+      "Combat Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "P",
+    "Target": "OR",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+1(DL-1)",
+    "Class": "C",
+    "Notes": ""
+  },
+  {
+    "name": "Analyze Device",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.192",
+    "Type": "P",
+    "Target": "OR",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "+1(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Analyze Magic",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "M",
+    "Target": "F(R)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "(L)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Analyze Truth",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.192",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "(L)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Animal(Sense)",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Astral Window",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "mits.140",
+    "Type": "M",
+    "Target": "F(R)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "(L)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Catalog",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "mits.141",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "T/A",
+    "Drain": "+1(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Cat's Eye",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "P",
+    "Drain": "+2(S)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Clairaudience",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.192",
+    "Type": "M",
+    "Target": "6(R)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Clairvoyance",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.192",
+    "Type": "M",
+    "Target": "6(R)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Combat Sense",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.192",
+    "Type": "M",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "(S)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Detect Enemies",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.192",
+    "Type": "M",
+    "Target": "DT(R)",
+    "Duration": "S",
+    "Range": "T/A",
+    "Drain": "(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Detect Individual",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.192",
+    "Type": "M",
+    "Target": "DT(R)",
+    "Duration": "S",
+    "Range": "T/A",
+    "Drain": "(L)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Detect Life",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.192",
+    "Type": "M",
+    "Target": "DT(R)",
+    "Duration": "S",
+    "Range": "T/A",
+    "Drain": "(L)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Detect(Life Form)->",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "DT(R)",
+    "Duration": "S",
+    "Range": "T/A",
+    "Drain": "-1(L)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Detect Magic",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "6(4)",
+    "Duration": "S",
+    "Range": "T/A",
+    "Drain": "(L)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Detect(Object)->",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "P",
+    "Target": "DT",
+    "Duration": "S",
+    "Range": "T/A",
+    "Drain": "+1(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Diagnose",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "mits.141",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "-1(L)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Enhance Aim",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "mits.141",
+    "Type": "M",
+    "Target": "6(R)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Eyes of the Pack",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "mits.141",
+    "Type": "M",
+    "Target": "6(V)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Identify",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "OR",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(L)",
+    "Class": "D",
+    "Notes": "not the same as D&D spell of same name"
+  },
+  {
+    "name": "Ignore",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "W",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Mindlink",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "4(V)",
+    "Duration": "S",
+    "Range": "LOS/D",
+    "Drain": "(S)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Mindprobe",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "(S)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Nightvision",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "mits.141",
+    "Type": "P",
+    "Target": "6(R)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "+1(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Prey",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "W",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "-1(S)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Private Conversation",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "W",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "(S)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Ranged Private Conversation",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "W",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(D)",
+    "Class": "D",
+    "Notes": "I assume the published range is a typo"
+  },
+  {
+    "name": "Sense Pads",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "OR",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Translate",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "mits.141",
+    "Type": "M",
+    "Target": "4(V)",
+    "Duration": "S",
+    "Range": "T/D",
+    "Drain": "(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Word Recognition",
+    "type_id": "1",
+    "category_tree": [
+      "Detection Spells"
+    ],
+    "Book.Page": "sta2.033",
+    "Type": "M",
+    "Target": "W",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(M)",
+    "Class": "D",
+    "Notes": ""
+  },
+  {
+    "name": "Alleviate Allergy",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.141",
+    "Type": "P",
+    "Target": "10-E(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "(Al. Level)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Antidote    (TOX LEV)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "TOX(V)",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "(TOX DL)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Awaken",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.141",
+    "Type": "M",
+    "Target": "4(V)",
+    "Duration": "I",
+    "Range": "T",
+    "Drain": "-2(SDL)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Cause Allergy",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(AL LEV+1)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Cripple Limb",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "P",
+    "Target": "B(T)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Cure Disease",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "DP(T)",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "(DIS DL)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Attribute (B)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Attribute (C)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Attribute (I)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Attribute (Q)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Attribute (S)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Attribute (W)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Cyber Attribute (B)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Cyber Attribute (C)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Cyber Attribute (I)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Cyber Attribute (Q)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Cyber Attribute (S)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Cyber Attribute (W)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Cybered Reaction",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(D)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decrease Reaction",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "M",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(D)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decreased Reflexes -1INI DIE",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(D)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decreased Reflexes -2INI DIE",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+4(D)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Decreased Reflexes -3INI DIE",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "P",
+    "Target": "10-E(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+6(D)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Detox",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "TOX(V)",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "-2(TOX DL)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Fast",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "M",
+    "Target": "4(V)",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "-2(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Heal",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "10-E(V)",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "(DL)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Healthy Glow",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "4(V)",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "(L)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Hibernate",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "4(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Attribute (B)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Attribute (C)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Attribute (I)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Attribute (Q)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Attribute (S)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Attribute (W)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Cyber Attribute (B)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "P",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Cyber Attribute (C)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "P",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Cyber Attribute (I)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "P",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Cyber Attribute (Q)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "P",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Cyber Attribute (S)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "P",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Cyber Attribute (W)",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "P",
+    "Target": "Att(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Increased Reaction",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "Rea(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Incr. Reflexes +1INI DIE",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "REA(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(S)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Incr. Reflexes +2INI DIE",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "REA(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(D)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Incr. Reflexes +3INI DIE",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "REA(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+3(D)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Intoxication",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "P",
+    "Target": "B(T)",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "+1(D)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Nutritiion",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "P",
+    "Target": "4(V)",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Oxygenate",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "P",
+    "Target": "4(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+2(L)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Preserve",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Prophylaxis",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "4(V)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(L)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Resist Pain",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "4(V)",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "-2(DL)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Stabilize",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.194",
+    "Type": "M",
+    "Target": "4+MIN V",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Treat",
+    "type_id": "1",
+    "category_tree": [
+      "Health Spells"
+    ],
+    "Book.Page": "sr3.193",
+    "Type": "M",
+    "Target": "10-E(V)",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "-1(DL)",
+    "Class": "H",
+    "Notes": ""
+  },
+  {
+    "name": "Agony",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(M)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Blindness",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "P",
+    "Target": "I(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Chaff",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "P",
+    "Target": "OR",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(S)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Chaos",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "P",
+    "Target": "I(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Chaotic World",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "P",
+    "Target": "I(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+1(D)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Confusion",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(S)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Delusion",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(D)",
+    "Class": "I",
+    "Notes": "Target changed to fit with other Direct Illusions"
+  },
+  {
+    "name": "Dream",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(M)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Entertainment",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "M",
+    "Target": "W(V)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(L)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Flak",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "P",
+    "Target": "OR",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(D)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Flash",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "P",
+    "Target": "I(R)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "(S)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Mass Agony",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "mits.142",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(S)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Mass Blindness",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "M",
+    "Target": "I(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+1(S)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Mass Confusion",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(D)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Mirror",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "I",
+    "Notes": "Target changed to fit with other Direct Illusions"
+  },
+  {
+    "name": "Stench",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(S)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Stink",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(M)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Trid Entertainment",
+    "type_id": "1",
+    "category_tree": [
+      "Directed Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "P",
+    "Target": "I(V)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+1(L)",
+    "Class": "I",
+    "Notes": ""
+  },
+  {
+    "name": "Blur",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+3(M)",
+    "Class": "N",
+    "Notes": "Target changed to fit with other Indirect Illusions"
+  },
+  {
+    "name": "Camouflage",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "M",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(L)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Chasm",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(D)",
+    "Class": "N",
+    "Notes": "Target changed to fit with other Indirect Illusions"
+  },
+  {
+    "name": "(Critter) Stampede",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(D)",
+    "Class": "N",
+    "Notes": "Target changed to fit with other Indirect Illusions"
+  },
+  {
+    "name": "Double Image",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "M",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "(S)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Elegy",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "L",
+    "Drain": "+2(S)",
+    "Class": "N",
+    "Notes": "Target changed to fit with other Indirect Illusions"
+  },
+  {
+    "name": "Fairie Fire",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "tss.4",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(M)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "False Shadow",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "N",
+    "Notes": "Target changed to fit with other Indirect Illusions"
+  },
+  {
+    "name": "Foreboding",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "M",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(D)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Hot Potatoe",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "M",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(M)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Improved Invisibility",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Improved Voice Mask",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "T(V)",
+    "Drain": "+3(L)",
+    "Class": "N",
+    "Notes": "Target changed to fit with other Indirect Illusions"
+  },
+  {
+    "name": "Invisibility",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "M",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(M)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Mask",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "M",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(M)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Phantasm",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "M",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(D)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Phantasmal Orchestra",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "L",
+    "Drain": "+1(S)",
+    "Class": "N",
+    "Notes": "Target changed to fit with other Indirect Illusions"
+  },
+  {
+    "name": "Physical Camouflage",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(L)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Physical Double Image",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "mits.143",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "+1(S)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Physical Mask",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Project Astral Entity",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "L",
+    "Drain": "+3(M)",
+    "Class": "N",
+    "Notes": "Target changed to fit with other Indirect Illusions"
+  },
+  {
+    "name": "Sheath",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "*",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Silence",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "sr3.196",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+1(S)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Stealth",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "sr3.196",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Sound Barrier",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "sta2.33",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Trid Phantasm",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "sr3.195",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+1(D)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Vehicle Mask",
+    "type_id": "1",
+    "category_tree": [
+      "Indirect Illusion Spells"
+    ],
+    "Book.Page": "mits.144",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "N",
+    "Notes": ""
+  },
+  {
+    "name": "Alter Memory",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "mits.144",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "P",
+    "Range": "LOS",
+    "Drain": "(D)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Berserker Rage",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Calm Animal",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "mits.144",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(M)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Calm Pack",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "mits.144",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(S)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Catnip",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "M",
+    "Target": "W(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+3(M)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Compel Truth",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "mits.144",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Control Actions",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "sr3.196",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Control Animal",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "mits.144",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(S)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Control Emotion",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "sr3.196",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Control Pack",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "mits.144",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(D)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Control Thoughts",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "sr3.196",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Influence",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "sr3.196",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "P",
+    "Range": "LOS",
+    "Drain": "(S)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Mob Mind",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+1(D)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Mob Mood",
+    "type_id": "1",
+    "category_tree": [
+      "Control Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "M",
+    "Target": "W(T)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+1(S)",
+    "Class": "M",
+    "Notes": ""
+  },
+  {
+    "name": "Acid Stream",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "sr3.196",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+1(DL+1)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Breeze",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "tss.18",
+    "Type": "P",
+    "Target": "2",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(L)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Ball Lightning",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "sr3.197",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "+1(DL+2)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Cake Ammunition",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "OR",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Fireball",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "sr3.197",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "+1(DL+2)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Flamethrower",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "sr3.197",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+1(DL+1)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Ice Bolt",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "tss.4",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+3(S)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Laser",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+1(DL+1)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Lightning Bolt",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "sr3.197",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+1(DL+1)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Nova",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "+1(DL+2)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Smoke Cloud",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "(DL+2)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Splash",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "twl.124",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "(DL)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Steam",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "(DL+1)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Thunderbolt",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "(DL+1)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Thunderclap",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "(DL+2)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Toxic Wave",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "sr3.196",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "+1(DL+2)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Waterbolt",
+    "type_id": "1",
+    "category_tree": [
+      "Elemental Manipulation Spells"
+    ],
+    "Book.Page": "twl.124",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "(DL)",
+    "Class": "E",
+    "Notes": ""
+  },
+  {
+    "name": "Animate",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "OR",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Bind",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "Q(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Catfall",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Cat Leap",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "I",
+    "Range": "P",
+    "Drain": "+1(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Clout",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "sr3.197",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "(DL)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Deflect",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Fling",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "sr3.197",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "T",
+    "Drain": "+1(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Gecko Crawl",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Levitate",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "sr3.197",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Lock",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Magic Fingers",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "sr3.197",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Mana Bind",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "M",
+    "Target": "Q",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Mana Net",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "M",
+    "Target": "Q",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Natural Armor",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "tss.9",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+3(D)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Net",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.145",
+    "Type": "P",
+    "Target": "Q(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(S)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Poltergeist",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "sr3.197",
+    "Type": "P",
+    "Target": "4(R)",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+1(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Redirect",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "P",
+    "Target": "4(RC)",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "+1(DL)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Shape Earth",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Shape Water",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(M)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Use(Skill)->",
+    "type_id": "1",
+    "category_tree": [
+      "Telekinetic Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(L)",
+    "Class": "T",
+    "Notes": ""
+  },
+  {
+    "name": "Alter Pressure",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "twl.131",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Alter Temperature",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Armor",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "sr3.198",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Astral Armor",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "M",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Astral Barrior",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "sr3.198",
+    "Type": "M",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+1(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Clean(Element)->",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "P",
+    "Range": "LOS(A)",
+    "Drain": "+1(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Clean Item",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "tss.18",
+    "Type": "P",
+    "Target": "2",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "(L)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Control Fire",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.146",
+    "Type": "P",
+    "Target": "Pfire",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Create Food",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "P",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Dry Item",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "tss.18",
+    "Type": "P",
+    "Target": "2",
+    "Duration": "P",
+    "Range": "LOS",
+    "Drain": "(L)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Earth Barrier",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "tss.4",
+    "Type": "P",
+    "Target": "5",
+    "Duration": "P",
+    "Range": "LOS",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Emotion Paint",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "tss.12",
+    "Type": "M",
+    "Target": "4",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Fashion",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "+1(L)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Firewall",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Fix",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "OR",
+    "Duration": "P",
+    "Range": "T",
+    "Drain": "(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Flame Aura",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Flavor",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "tss.18",
+    "Type": "P",
+    "Target": "2",
+    "Duration": "I",
+    "Range": "T",
+    "Drain": "(L)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Freeze Water",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "+1(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Glue",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Glue Stick",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "tss.18",
+    "Type": "P",
+    "Target": "2",
+    "Duration": "S",
+    "Range": "T",
+    "Drain": "(L)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Glue Strip",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Ice Sheet",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "sr3.198",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "+1(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Ignite",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "sr3.198",
+    "Type": "P",
+    "Target": "4(T)",
+    "Duration": "P",
+    "Range": "LOS",
+    "Drain": "+1(D)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Inertial Barrier",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "tss.4",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Light",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "sr3.198",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Limited Armor",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(L)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Limited Physical Barrior",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Makeover",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.147",
+    "Type": "P",
+    "Target": "6(V)",
+    "Duration": "P",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Mana Static",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.148",
+    "Type": "M",
+    "Target": "4",
+    "Duration": "P",
+    "Range": "LOS(A)",
+    "Drain": "(D)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Mist",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.148",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "+1(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Personal Thermostat",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "twl.119",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(L)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Petrify",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "sr3.198",
+    "Type": "P",
+    "Target": "B(T)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Physical Barrier",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "sr3.198",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Radiation Barrier",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "twl.111",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "Z",
+    "Notes": "Not sure about Range!"
+  },
+  {
+    "name": "Radiation Shield",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "twl.111",
+    "Type": "P",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "Z",
+    "Notes": "Not sure about Range!"
+  },
+  {
+    "name": "Reinforce",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.148",
+    "Type": "P",
+    "Target": "OR",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Ritual Cleansing",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "tss.12",
+    "Type": "M",
+    "Target": "4",
+    "Duration": "P",
+    "Range": "LOS",
+    "Drain": "(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Shadow",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "sr3.198",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Shape Snow/Ice",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "twl.124",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Shapechange",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.148",
+    "Type": "P",
+    "Target": "B(TV)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Soak Item",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "tss.18",
+    "Type": "P",
+    "Target": "2",
+    "Duration": "I",
+    "Range": "LOS",
+    "Drain": "(L)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Spell Shield",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.148",
+    "Type": "M",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Spell Wall",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.148",
+    "Type": "M",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Spirit Barrior",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.148",
+    "Type": "M",
+    "Target": "6",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Sterilize",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.148",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "I",
+    "Range": "LOS(A)",
+    "Drain": "+1(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Transform",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.148",
+    "Type": "P",
+    "Target": "B(T)",
+    "Duration": "S",
+    "Range": "LOS",
+    "Drain": "+1(S)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Wind",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "mits.148",
+    "Type": "P",
+    "Target": "4",
+    "Duration": "S",
+    "Range": "LOS(A)",
+    "Drain": "+2(M)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Zip",
+    "type_id": "1",
+    "category_tree": [
+      "Transformation Manipulation Spells"
+    ],
+    "Book.Page": "tss.18",
+    "Type": "P",
+    "Target": "2",
+    "Duration": "S",
+    "Range": "P",
+    "Drain": "(L)",
+    "Class": "Z",
+    "Notes": ""
+  },
+  {
+    "name": "Custom Dummy Spell",
+    "type_id": "1",
+    "category_tree": [
+      "Custom Spells"
+    ],
+    "Book.Page": "cus.00",
+    "Type": "T",
+    "Target": "0",
+    "Duration": "0",
+    "Range": "0",
+    "Drain": "0",
+    "Class": "0",
+    "Notes": ""
+  }
+]

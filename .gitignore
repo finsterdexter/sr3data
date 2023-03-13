@@ -46,6 +46,3 @@ dist/**
 *.xlf
 package.nls.*.json
 l10n/
-
-# run output
-output/

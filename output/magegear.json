@@ -1,0 +1,4885 @@
+[
+  {
+    "name": "Adept Focus 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Adept Focus"
+    ],
+    "KarmaCost": "2",
+    "Availability": "4/48hrs",
+    "$Cost": "60000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Adept Focus 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Adept Focus"
+    ],
+    "KarmaCost": "4",
+    "Availability": "4/48hrs",
+    "$Cost": "120000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Adept Focus 3",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Adept Focus"
+    ],
+    "KarmaCost": "6",
+    "Availability": "4/48hrs",
+    "$Cost": "180000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Adept Focus 4",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Adept Focus"
+    ],
+    "KarmaCost": "8",
+    "Availability": "4/48hrs",
+    "$Cost": "240000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Adept Focus 5",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Adept Focus"
+    ],
+    "KarmaCost": "10",
+    "Availability": "4/48hrs",
+    "$Cost": "300000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Adept Focus 6",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Adept Focus"
+    ],
+    "KarmaCost": "12",
+    "Availability": "4/48hrs",
+    "$Cost": "360000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Adept Focus 7",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Adept Focus"
+    ],
+    "KarmaCost": "14",
+    "Availability": "4/48hrs",
+    "$Cost": "420000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Adept Focus 8",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Adept Focus"
+    ],
+    "KarmaCost": "16",
+    "Availability": "4/48hrs",
+    "$Cost": "480000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Adept Focus 9",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Adept Focus"
+    ],
+    "KarmaCost": "18",
+    "Availability": "4/48hrs",
+    "$Cost": "540000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Adept Focus 10",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Adept Focus"
+    ],
+    "KarmaCost": "20",
+    "Availability": "4/48hrs",
+    "$Cost": "600000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Expd Anchor unb focus Lev 1->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/48hrs",
+    "$Cost": "3000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor unb focus Lev 2->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/48hrs",
+    "$Cost": "6000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor unb focus Lev 3->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/48hrs",
+    "$Cost": "9000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor unb focus Lev 4->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/48hrs",
+    "$Cost": "12000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor unb focus Lev 5->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/48hrs",
+    "$Cost": "15000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor unb focus Lev 6->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/48hrs",
+    "$Cost": "18000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor focus Lev 1->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "1",
+    "Availability": "4/48hrs",
+    "$Cost": "3000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor focus Lev 2->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "2",
+    "Availability": "4/48hrs",
+    "$Cost": "6000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor focus Lev 3->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "3",
+    "Availability": "4/48hrs",
+    "$Cost": "9000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor focus Lev 4->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "4",
+    "Availability": "4/48hrs",
+    "$Cost": "12000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor focus Lev 5->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "5",
+    "Availability": "4/48hrs",
+    "$Cost": "15000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Expd Anchor focus Lev 6->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Expendable"
+    ],
+    "KarmaCost": "6",
+    "Availability": "4/48hrs",
+    "$Cost": "18000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Anchor focus, Reuse Lev 1->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Reusable"
+    ],
+    "KarmaCost": "3",
+    "Availability": "5/48hrs",
+    "$Cost": "30000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Anchor focus, Reuse Lev 2->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Reusable"
+    ],
+    "KarmaCost": "6",
+    "Availability": "5/48hrs",
+    "$Cost": "60000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Anchor focus, Reuse Lev 3->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Reusable"
+    ],
+    "KarmaCost": "9",
+    "Availability": "5/48hrs",
+    "$Cost": "90000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Anchor focus, Reuse Lev 4->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Reusable"
+    ],
+    "KarmaCost": "12",
+    "Availability": "5/48hrs",
+    "$Cost": "120000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Anchor focus, Reuse Lev 5->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Reusable"
+    ],
+    "KarmaCost": "15",
+    "Availability": "5/48hrs",
+    "$Cost": "150000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Anchor focus, Reuse Lev 6->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Anchor Focus, Reusable"
+    ],
+    "KarmaCost": "18",
+    "Availability": "5/48hrs",
+    "$Cost": "180000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Exp. Spell Focus 1 Combat",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Combat"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "1500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 2 Combat",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Combat"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 3 Combat",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Combat"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "4500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 4 Combat",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Combat"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "6000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 5 Combat",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Combat"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "7500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 6 Combat",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Combat"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "9000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 7 Combat",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Combat"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "10500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 8 Combat",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Combat"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "12000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 9 Combat",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Combat"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "13500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 10 Combat",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Combat"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "15000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 1 Detect.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Detection"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "1500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 2 Detect.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Detection"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 3 Detect.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Detection"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "4500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 4 Detect.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Detection"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "6000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 5 Detect.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Detection"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "7500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 6 Detect.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Detection"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "9000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 7 Detect.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Detection"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "10500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 8 Detect.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Detection"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "12000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 9 Detect.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Detection"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "13500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 10 Detect.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Detection"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "15000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 1 Health",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Health"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "1500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 2 Health",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Health"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 3 Health",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Health"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "4500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 4 Health",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Health"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "6000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 5 Health",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Health"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "7500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 6 Health",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Health"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "9000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 7 Health",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Health"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "10500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 8 Health",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Health"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "12000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 9 Health",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Health"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "13500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 10 Health",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Health"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "15000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 1 Illusion",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Illusion"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "1500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 2 Illusion",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Illusion"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 3 Illusion",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Illusion"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "4500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 4 Illusion",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Illusion"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "6000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 5 Illusion",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Illusion"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "7500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 6 Illusion",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Illusion"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "9000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 7 Illusion",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Illusion"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "10500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 8 Illusion",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Illusion"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "12000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 9 Illusion",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Illusion"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "13500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 10 Illusion",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Illusion"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "15000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 1 Manip.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Manipulation"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "1500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 2 Manip.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Manipulation"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 3 Manip.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Manipulation"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "4500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 4 Manip.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Manipulation"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "6000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 5 Manip.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Manipulation"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "7500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 6 Manip.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Manipulation"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "9000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 7 Manip.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Manipulation"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "10500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 8 Manip.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Manipulation"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "12000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 9 Manip.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Manipulation"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "13500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Exp. Spell Focus 10 Manip.",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Expendable Spell Focus, Manipulation"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "15000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Infusion Focus 1->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Infusion Focus"
+    ],
+    "KarmaCost": "3",
+    "Availability": "8/72hrs",
+    "$Cost": "75000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Infusion Focus 2->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Infusion Focus"
+    ],
+    "KarmaCost": "6",
+    "Availability": "8/72hrs",
+    "$Cost": "150000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Infusion Focus 3->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Infusion Focus"
+    ],
+    "KarmaCost": "9",
+    "Availability": "8/72hrs",
+    "$Cost": "225000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Infusion Focus 4->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Infusion Focus"
+    ],
+    "KarmaCost": "12",
+    "Availability": "8/72hrs",
+    "$Cost": "300000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Infusion Focus 5->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Infusion Focus"
+    ],
+    "KarmaCost": "15",
+    "Availability": "8/72hrs",
+    "$Cost": "375000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Infusion Focus 6->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Infusion Focus"
+    ],
+    "KarmaCost": "18",
+    "Availability": "8/72hrs",
+    "$Cost": "450000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Infusion Focus 7->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Infusion Focus"
+    ],
+    "KarmaCost": "21",
+    "Availability": "8/72hrs",
+    "$Cost": "525000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Infusion Focus 8->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Infusion Focus"
+    ],
+    "KarmaCost": "24",
+    "Availability": "8/72hrs",
+    "$Cost": "600000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Infusion Focus 9->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Infusion Focus"
+    ],
+    "KarmaCost": "27",
+    "Availability": "8/72hrs",
+    "$Cost": "675000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Infusion Focus 10->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Infusion Focus"
+    ],
+    "KarmaCost": "30",
+    "Availability": "8/72hrs",
+    "$Cost": "750000",
+    "Street Index": "2",
+    "Book.Page": "sta2.068"
+  },
+  {
+    "name": "Spec. Spell Focus 1->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Specific Spell Focus"
+    ],
+    "KarmaCost": "1",
+    "Availability": "4/48hrs",
+    "$Cost": "45000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spec. Spell Focus 2->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Specific Spell Focus"
+    ],
+    "KarmaCost": "2",
+    "Availability": "4/48hrs",
+    "$Cost": "90000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spec. Spell Focus 3->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Specific Spell Focus"
+    ],
+    "KarmaCost": "3",
+    "Availability": "4/48hrs",
+    "$Cost": "135000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spec. Spell Focus 4->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Specific Spell Focus"
+    ],
+    "KarmaCost": "4",
+    "Availability": "4/48hrs",
+    "$Cost": "180000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spec. Spell Focus 5->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Specific Spell Focus"
+    ],
+    "KarmaCost": "5",
+    "Availability": "4/48hrs",
+    "$Cost": "225000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spec. Spell Focus 6->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Specific Spell Focus"
+    ],
+    "KarmaCost": "6",
+    "Availability": "4/48hrs",
+    "$Cost": "270000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spec. Spell Focus 7->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Specific Spell Focus"
+    ],
+    "KarmaCost": "7",
+    "Availability": "4/48hrs",
+    "$Cost": "315000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spec. Spell Focus 8->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Specific Spell Focus"
+    ],
+    "KarmaCost": "8",
+    "Availability": "4/48hrs",
+    "$Cost": "360000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spec. Spell Focus 9->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Specific Spell Focus"
+    ],
+    "KarmaCost": "9",
+    "Availability": "4/48hrs",
+    "$Cost": "405000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spec. Spell Focus 10->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Specific Spell Focus"
+    ],
+    "KarmaCost": "10",
+    "Availability": "4/48hrs",
+    "$Cost": "450000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Cat. Focus 1->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Category Focus"
+    ],
+    "KarmaCost": "3",
+    "Availability": "5/48hrs",
+    "$Cost": "75000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Cat. Focus 2->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Category Focus"
+    ],
+    "KarmaCost": "6",
+    "Availability": "5/48hrs",
+    "$Cost": "150000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Cat. Focus 3->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Category Focus"
+    ],
+    "KarmaCost": "9",
+    "Availability": "5/48hrs",
+    "$Cost": "225000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Cat. Focus 4->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Category Focus"
+    ],
+    "KarmaCost": "12",
+    "Availability": "5/48hrs",
+    "$Cost": "300000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Cat. Focus 5->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Category Focus"
+    ],
+    "KarmaCost": "15",
+    "Availability": "5/48hrs",
+    "$Cost": "375000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Cat. Focus 6->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Category Focus"
+    ],
+    "KarmaCost": "18",
+    "Availability": "5/48hrs",
+    "$Cost": "450000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Cat. Focus 7->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Category Focus"
+    ],
+    "KarmaCost": "21",
+    "Availability": "5/48hrs",
+    "$Cost": "525000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Cat. Focus 8->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Category Focus"
+    ],
+    "KarmaCost": "24",
+    "Availability": "5/48hrs",
+    "$Cost": "600000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Cat. Focus 9->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Category Focus"
+    ],
+    "KarmaCost": "27",
+    "Availability": "5/48hrs",
+    "$Cost": "675000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Cat. Focus 10->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Category Focus"
+    ],
+    "KarmaCost": "30",
+    "Availability": "5/48hrs",
+    "$Cost": "750000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spell Defense Focus 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Defense Focus"
+    ],
+    "KarmaCost": "3",
+    "Availability": "5/48hrs",
+    "$Cost": "75000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Spell Defense Focus 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Defense Focus"
+    ],
+    "KarmaCost": "6",
+    "Availability": "5/48hrs",
+    "$Cost": "150000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Spell Defense Focus 3",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Defense Focus"
+    ],
+    "KarmaCost": "9",
+    "Availability": "5/48hrs",
+    "$Cost": "225000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Spell Defense Focus 4",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Defense Focus"
+    ],
+    "KarmaCost": "12",
+    "Availability": "5/48hrs",
+    "$Cost": "300000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Spell Defense Focus 5",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Defense Focus"
+    ],
+    "KarmaCost": "15",
+    "Availability": "5/48hrs",
+    "$Cost": "375000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Spell Defense Focus 6",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spell Defense Focus"
+    ],
+    "KarmaCost": "18",
+    "Availability": "5/48hrs",
+    "$Cost": "450000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Spirit Focus 1->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spirit Focus"
+    ],
+    "KarmaCost": "2",
+    "Availability": "4/48hrs",
+    "$Cost": "60000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spirit Focus 2->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spirit Focus"
+    ],
+    "KarmaCost": "4",
+    "Availability": "4/48hrs",
+    "$Cost": "120000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spirit Focus 3->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spirit Focus"
+    ],
+    "KarmaCost": "6",
+    "Availability": "4/48hrs",
+    "$Cost": "180000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spirit Focus 4->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spirit Focus"
+    ],
+    "KarmaCost": "8",
+    "Availability": "4/48hrs",
+    "$Cost": "240000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spirit Focus 5->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spirit Focus"
+    ],
+    "KarmaCost": "10",
+    "Availability": "4/48hrs",
+    "$Cost": "300000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spirit Focus 6->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spirit Focus"
+    ],
+    "KarmaCost": "12",
+    "Availability": "4/48hrs",
+    "$Cost": "360000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spirit Focus 7->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spirit Focus"
+    ],
+    "KarmaCost": "14",
+    "Availability": "4/48hrs",
+    "$Cost": "420000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spirit Focus 8->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spirit Focus"
+    ],
+    "KarmaCost": "16",
+    "Availability": "4/48hrs",
+    "$Cost": "480000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spirit Focus 9->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spirit Focus"
+    ],
+    "KarmaCost": "18",
+    "Availability": "4/48hrs",
+    "$Cost": "540000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Spirit Focus 10->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Spirit Focus"
+    ],
+    "KarmaCost": "20",
+    "Availability": "4/48hrs",
+    "$Cost": "600000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Centering Focus Lev 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Centering Focus"
+    ],
+    "KarmaCost": "3",
+    "Availability": "5/48hrs",
+    "$Cost": "75000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Centering Focus Lev 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Centering Focus"
+    ],
+    "KarmaCost": "6",
+    "Availability": "5/48hrs",
+    "$Cost": "150000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Centering Focus Lev 3",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Centering Focus"
+    ],
+    "KarmaCost": "9",
+    "Availability": "5/48hrs",
+    "$Cost": "225000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Centering Focus Lev 4",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Centering Focus"
+    ],
+    "KarmaCost": "12",
+    "Availability": "5/48hrs",
+    "$Cost": "300000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Centering Focus Lev 5",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Centering Focus"
+    ],
+    "KarmaCost": "15",
+    "Availability": "5/48hrs",
+    "$Cost": "375000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Centering Focus Lev 6",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Centering Focus"
+    ],
+    "KarmaCost": "18",
+    "Availability": "5/48hrs",
+    "$Cost": "450000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Power Focus 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Power Focus"
+    ],
+    "KarmaCost": "5",
+    "Availability": "6/72hrs",
+    "$Cost": "105000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Power Focus 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Power Focus"
+    ],
+    "KarmaCost": "10",
+    "Availability": "6/72hrs",
+    "$Cost": "210000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Power Focus 3",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Power Focus"
+    ],
+    "KarmaCost": "15",
+    "Availability": "6/72hrs",
+    "$Cost": "315000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Power Focus 4",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Power Focus"
+    ],
+    "KarmaCost": "20",
+    "Availability": "6/72hrs",
+    "$Cost": "420000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Power Focus 5",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Power Focus"
+    ],
+    "KarmaCost": "25",
+    "Availability": "6/72hrs",
+    "$Cost": "525000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Power Focus 6",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Power Focus"
+    ],
+    "KarmaCost": "30",
+    "Availability": "6/72hrs",
+    "$Cost": "630000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Power Focus 7",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Power Focus"
+    ],
+    "KarmaCost": "35",
+    "Availability": "6/72hrs",
+    "$Cost": "735000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Power Focus 8",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Power Focus"
+    ],
+    "KarmaCost": "40",
+    "Availability": "6/72hrs",
+    "$Cost": "840000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Power Focus 9",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Power Focus"
+    ],
+    "KarmaCost": "45",
+    "Availability": "6/72hrs",
+    "$Cost": "945000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Power Focus 10",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Power Focus"
+    ],
+    "KarmaCost": "50",
+    "Availability": "6/72hrs",
+    "$Cost": "1050000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Sustaining Focus 1->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Sustaining Focus"
+    ],
+    "KarmaCost": "1",
+    "Availability": "2/48hrs",
+    "$Cost": "15000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Sustaining Focus 2->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Sustaining Focus"
+    ],
+    "KarmaCost": "2",
+    "Availability": "2/48hrs",
+    "$Cost": "30000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Sustaining Focus 3->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Sustaining Focus"
+    ],
+    "KarmaCost": "3",
+    "Availability": "2/48hrs",
+    "$Cost": "45000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Sustaining Focus 4->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Sustaining Focus"
+    ],
+    "KarmaCost": "4",
+    "Availability": "2/48hrs",
+    "$Cost": "60000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Sustaining Focus 5->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Sustaining Focus"
+    ],
+    "KarmaCost": "5",
+    "Availability": "2/48hrs",
+    "$Cost": "75000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Sustaining Focus 6->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Sustaining Focus"
+    ],
+    "KarmaCost": "6",
+    "Availability": "2/48hrs",
+    "$Cost": "90000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Sustaining Focus 7->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Sustaining Focus"
+    ],
+    "KarmaCost": "7",
+    "Availability": "2/48hrs",
+    "$Cost": "105000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Sustaining Focus 8->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Sustaining Focus"
+    ],
+    "KarmaCost": "8",
+    "Availability": "2/48hrs",
+    "$Cost": "120000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Sustaining Focus 9->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Sustaining Focus"
+    ],
+    "KarmaCost": "9",
+    "Availability": "2/48hrs",
+    "$Cost": "135000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Sustaining Focus 10->",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Sustaining Focus"
+    ],
+    "KarmaCost": "10",
+    "Availability": "2/48hrs",
+    "$Cost": "150000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Shielding Focus Force 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Shielding Focus"
+    ],
+    "KarmaCost": "4",
+    "Availability": "6/72hrs",
+    "$Cost": "95000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Shielding Focus Force 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Shielding Focus"
+    ],
+    "KarmaCost": "8",
+    "Availability": "6/72hrs",
+    "$Cost": "190000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Shielding Focus Force 3",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Shielding Focus"
+    ],
+    "KarmaCost": "12",
+    "Availability": "6/72hrs",
+    "$Cost": "275000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Shielding Focus Force 4",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Shielding Focus"
+    ],
+    "KarmaCost": "16",
+    "Availability": "6/72hrs",
+    "$Cost": "370000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Shielding Focus Force 5",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Shielding Focus"
+    ],
+    "KarmaCost": "20",
+    "Availability": "6/72hrs",
+    "$Cost": "465000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Shielding Focus Force 6",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Shielding Focus"
+    ],
+    "KarmaCost": "24",
+    "Availability": "6/72hrs",
+    "$Cost": "560000",
+    "Street Index": "2",
+    "Book.Page": "mits.45"
+  },
+  {
+    "name": "Weapon Focus 1,Reach 0",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "3",
+    "Availability": "8/72hrs",
+    "$Cost": "190000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 2,Reach 0",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "6",
+    "Availability": "8/72hrs",
+    "$Cost": "280000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 3,Reach 0",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "9",
+    "Availability": "8/72hrs",
+    "$Cost": "370000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 4,Reach 0",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "12",
+    "Availability": "8/72hrs",
+    "$Cost": "460000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 5,Reach 0",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "15",
+    "Availability": "8/72hrs",
+    "$Cost": "550000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 6,Reach 0",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "18",
+    "Availability": "8/72hrs",
+    "$Cost": "640000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 7,Reach 0",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "21",
+    "Availability": "8/72hrs",
+    "$Cost": "730000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 8,Reach 0",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "24",
+    "Availability": "8/72hrs",
+    "$Cost": "820000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 9,Reach 0",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "27",
+    "Availability": "8/72hrs",
+    "$Cost": "910000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 10,Reach 0",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "30",
+    "Availability": "8/72hrs",
+    "$Cost": "1000000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 1,Reach 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "4",
+    "Availability": "8/72hrs",
+    "$Cost": "290000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 2,Reach 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "8",
+    "Availability": "8/72hrs",
+    "$Cost": "380000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 3,Reach 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "12",
+    "Availability": "8/72hrs",
+    "$Cost": "470000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 4,Reach 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "16",
+    "Availability": "8/72hrs",
+    "$Cost": "560000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 5,Reach 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "20",
+    "Availability": "8/72hrs",
+    "$Cost": "650000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 6,Reach 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "24",
+    "Availability": "8/72hrs",
+    "$Cost": "740000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 7,Reach 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "28",
+    "Availability": "8/72hrs",
+    "$Cost": "830000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 8,Reach 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "32",
+    "Availability": "8/72hrs",
+    "$Cost": "920000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 9,Reach 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "36",
+    "Availability": "8/72hrs",
+    "$Cost": "1010000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 10,Reach 1",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "40",
+    "Availability": "8/72hrs",
+    "$Cost": "1100000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 1,Reach 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "5",
+    "Availability": "8/72hrs",
+    "$Cost": "390000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 2,Reach 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "10",
+    "Availability": "8/72hrs",
+    "$Cost": "480000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 3,Reach 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "15",
+    "Availability": "8/72hrs",
+    "$Cost": "570000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 4,Reach 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "20",
+    "Availability": "8/72hrs",
+    "$Cost": "660000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 5,Reach 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "25",
+    "Availability": "8/72hrs",
+    "$Cost": "750000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 6,Reach 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "30",
+    "Availability": "8/72hrs",
+    "$Cost": "840000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 7,Reach 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "35",
+    "Availability": "8/72hrs",
+    "$Cost": "930000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 8,Reach 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "40",
+    "Availability": "8/72hrs",
+    "$Cost": "1020000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 9,Reach 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "45",
+    "Availability": "8/72hrs",
+    "$Cost": "1110000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Weapon Focus 10,Reach 2",
+    "type_id": "15",
+    "category_tree": [
+      "Foci",
+      "Weapon Foci"
+    ],
+    "KarmaCost": "50",
+    "Availability": "8/72hrs",
+    "$Cost": "1200000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Ally Conjuring Materials 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "General Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "1/36hrs",
+    "$Cost": "1000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Ally Conjuring Materials 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "General Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "2/36hrs",
+    "$Cost": "2000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Ally Conjuring Materials 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "General Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/36hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Ally Conjuring Materials 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "General Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/36hrs",
+    "$Cost": "4000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Ally Conjuring Materials 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "General Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "5/36hrs",
+    "$Cost": "5000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Ally Conjuring Materials 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "General Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/36hrs",
+    "$Cost": "6000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Ally Conjuring Materials 7",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "General Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "7/36hrs",
+    "$Cost": "7000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Fetish Focus",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "General Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/26hrs",
+    "$Cost": "3000xRating",
+    "Street Index": "1",
+    "Book.Page": "sr2.???"
+  },
+  {
+    "name": "Ward Casting Materials",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "General Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "(Force)/36hrs",
+    "$Cost": "1000xUnit",
+    "Street Index": "1",
+    "Book.Page": "sr2.???"
+  },
+  {
+    "name": "Enchanting Kit",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Kit & Shop"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/72hrs",
+    "$Cost": "10000",
+    "Street Index": "2",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Enchanting Shop",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Kit & Shop"
+    ],
+    "KarmaCost": "0",
+    "Availability": "8/1wk",
+    "$Cost": "100000",
+    "Street Index": "3",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Elem. Conj. Materials 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Elemental Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "1/24hrs",
+    "$Cost": "1000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Conj. Materials 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Elemental Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "2/24hrs",
+    "$Cost": "2000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Conj. Materials 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Elemental Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Conj. Materials 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Elemental Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/24hrs",
+    "$Cost": "4000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Conj. Materials 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Elemental Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "5/24hrs",
+    "$Cost": "5000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Conj. Materials 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Elemental Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/24hrs",
+    "$Cost": "6000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Conj. Materials 7",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Elemental Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "7/24hrs",
+    "$Cost": "7000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Conj. Materials 8",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Elemental Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "8/24hrs",
+    "$Cost": "8000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Conj. Materials 9",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Elemental Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "9/24hrs",
+    "$Cost": "9000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Conj. Materials 10",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Elemental Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "10/24hrs",
+    "$Cost": "10000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Watcher Conj. Materials 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Watcher Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "1/24hrs",
+    "$Cost": "1000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Watcher Conj. Materials 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Watcher Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "2/24hrs",
+    "$Cost": "2000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Watcher Conj. Materials 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Watcher Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Watcher Conj. Materials 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Watcher Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/24hrs",
+    "$Cost": "4000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Watcher Conj. Materials 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Watcher Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "5/24hrs",
+    "$Cost": "5000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Watcher Conj. Materials 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Watcher Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/24hrs",
+    "$Cost": "6000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Watcher Conj. Materials 7",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Watcher Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "7/24hrs",
+    "$Cost": "7000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Watcher Conj. Materials 8",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Watcher Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "8/24hrs",
+    "$Cost": "8000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Watcher Conj. Materials 9",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Watcher Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "9/24hrs",
+    "$Cost": "9000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Watcher Conj. Materials 10",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Watcher Conjuring Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "10/24hrs",
+    "$Cost": "10000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Shamanic Lodge Mat. 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Shamanic Lodge Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "1/24hrs",
+    "$Cost": "500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Shamanic Lodge Mat. 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Shamanic Lodge Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "2/24hrs",
+    "$Cost": "1000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Shamanic Lodge Mat. 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Shamanic Lodge Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "1500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Shamanic Lodge Mat. 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Shamanic Lodge Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/24hrs",
+    "$Cost": "2000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Shamanic Lodge Mat. 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Shamanic Lodge Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "5/24hrs",
+    "$Cost": "2500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Shamanic Lodge Mat. 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Shamanic Lodge Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/24hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Shamanic Lodge Mat. 7",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Shamanic Lodge Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "7/24hrs",
+    "$Cost": "3500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Shamanic Lodge Mat. 8",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Shamanic Lodge Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "8/24hrs",
+    "$Cost": "4000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Shamanic Lodge Mat. 9",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Shamanic Lodge Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "9/24hrs",
+    "$Cost": "4500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Shamanic Lodge Mat. 10",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Shamanic Lodge Materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "10/24hrs",
+    "$Cost": "5000",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Conjuring Library Rtg. 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "1/7days",
+    "$Cost": "1000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Conjuring Library Rtg. 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "2/7days",
+    "$Cost": "4000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Conjuring Library Rtg. 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/7days",
+    "$Cost": "9000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Conjuring Library Rtg. 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/7days",
+    "$Cost": "16000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Conjuring Library Rtg. 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "5/7days",
+    "$Cost": "25000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Conjuring Library Rtg. 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/7days",
+    "$Cost": "36000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Conjuring Library Rtg. 7",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "7/7days",
+    "$Cost": "49000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Conjuring Library Rtg. 8",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "8/7days",
+    "$Cost": "64000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Conjuring Library Rtg. 9",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "9/7days",
+    "$Cost": "81000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Conjuring Library Rtg. 10",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "10/7days",
+    "$Cost": "100000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Sorcery Library Rtg. 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "1/7days",
+    "$Cost": "1000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Sorcery Library Rtg. 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "2/7days",
+    "$Cost": "4000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Sorcery Library Rtg. 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/7days",
+    "$Cost": "9000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Sorcery Library Rtg. 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/7days",
+    "$Cost": "16000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Sorcery Library Rtg. 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "5/7days",
+    "$Cost": "25000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Sorcery Library Rtg. 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/7days",
+    "$Cost": "36000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Sorcery Library Rtg. 7",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "7/7days",
+    "$Cost": "49000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Sorcery Library Rtg. 8",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "8/7days",
+    "$Cost": "64000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Sorcery Library Rtg. 9",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "9/7days",
+    "$Cost": "81000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Sorcery Library Rtg. 10",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Hermetic Library"
+    ],
+    "KarmaCost": "0",
+    "Availability": "10/7days",
+    "$Cost": "100000",
+    "Street Index": "1",
+    "Book.Page": "sr3.167"
+  },
+  {
+    "name": "Expd Combat fetish",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Expendable fetishes"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "20",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Expd Detection fetish",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Expendable fetishes"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "5",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Expd Healing fetish",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Expendable fetishes"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "50",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Expd Illusion fetish",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Expendable fetishes"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "10",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Expd Manipulation fetish",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Expendable fetishes"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "30",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Combat fetish, Reuse",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Reusable fetishes"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "200",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Detection fetish, Reuse",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Reusable fetishes"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "50",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Healing fetish, Reuse",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Reusable fetishes"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "500",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Illusion fetish, Reuse",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Reusable fetishes"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "100",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Manipulation fetish, Reuse",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Reusable fetishes"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "300",
+    "Street Index": "1",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Combat, Rit Sorc. Mat 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "1000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Combat, Rit Sorc. Mat 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "2000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Combat, Rit Sorc. Mat 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Combat, Rit Sorc. Mat 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "4000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Combat, Rit Sorc. Mat 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "5000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Combat, Rit Sorc. Mat 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "6000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Detection, Rit Sorc. Mat 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "100",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Detection, Rit Sorc. Mat 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "200",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Detection, Rit Sorc. Mat 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "300",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Detection, Rit Sorc. Mat 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "400",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Detection, Rit Sorc. Mat 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "500",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Detection, Rit Sorc. Mat 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "600",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Healing, Rit Sorc. Mat 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "500",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Healing, Rit Sorc. Mat 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "1000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Healing, Rit Sorc. Mat 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "1500",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Healing, Rit Sorc. Mat 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "2000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Healing, Rit Sorc. Mat 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "2500",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Healing, Rit Sorc. Mat 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Illusion, Rit Sorc. Mat 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "100",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Illusion, Rit Sorc. Mat 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "200",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Illusion, Rit Sorc. Mat 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "300",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Illusion, Rit Sorc. Mat 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "400",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Illusion, Rit Sorc. Mat 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "500",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Illusion, Rit Sorc. Mat 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "600",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Manipulation, Rit Sorc. Mat 1",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "1000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Manipulation, Rit Sorc. Mat 2",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "2000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Manipulation, Rit Sorc. Mat 3",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "3000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Manipulation, Rit Sorc. Mat 4",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "4000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Manipulation, Rit Sorc. Mat 5",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "5000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Manipulation, Rit Sorc. Mat 6",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Ritual sorcery materials"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "6000",
+    "Street Index": "1",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Herbals Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Herbals"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "50",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Herbals Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Herbals"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "100",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Herbals Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Herbals"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "200",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Crystals Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Crystals"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "100",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Crystals Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Crystals"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "200",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Crystals Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Crystals"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "400",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Sprecious Gems Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Semi-precious Gems"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "200",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Sprecious Gems Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Semi-precious Gems"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "400",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Sprecious Gems Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Semi-precious Gems"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "800",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Precious Gems Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Precious Gems"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "500",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Precious Gems Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Precious Gems"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "1000",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Precious Gems Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Precious Gems"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "2000",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Iron Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Iron"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "50",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Iron Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Iron"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "100",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Iron Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Iron"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "200",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Copper Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Copper"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "100",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Copper Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Copper"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "200",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Copper Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Copper"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "400",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Silver Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Silver"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "300",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Silver Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Silver"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "600",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Silver Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Silver"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "1200",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Gold Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Gold"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "10000",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Gold Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Gold"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "20000",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Gold Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Gold"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "40000",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Mercury Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Mercury"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "600",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Mercury Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Mercury"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "1200",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Mercury Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Mercury"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "2400",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Tin Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Tin"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "30",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Tin Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Tin"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "60",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Tin Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Tin"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "120",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Lead Raw",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Lead"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "30",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Lead Refined",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Lead"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "60",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "Lead Radical",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Lead"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "120",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "1 Unit Orichalcum",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Enchanting materials",
+      "Orichalcum"
+    ],
+    "KarmaCost": "0",
+    "Availability": "0",
+    "$Cost": "88000",
+    "Street Index": "0",
+    "Book.Page": "mits.169"
+  },
+  {
+    "name": "1 L Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "1/24hrs",
+    "$Cost": "50",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "2 L Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "2/24hrs",
+    "$Cost": "100",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "3 L Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/24hrs",
+    "$Cost": "150",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "4 L Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/24hrs",
+    "$Cost": "200",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "5 L Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "5/24hrs",
+    "$Cost": "250",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "6 L Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/24hrs",
+    "$Cost": "300",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "7 L Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "7/24hrs",
+    "$Cost": "350",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "8 L Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "8/24hrs",
+    "$Cost": "400",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "9 L Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "9/24hrs",
+    "$Cost": "450",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "10 L Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "10/24hrs",
+    "$Cost": "500",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "1 M Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "1/48hrs",
+    "$Cost": "100",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "2 M Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "2/48hrs",
+    "$Cost": "200",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "3 M Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/48hrs",
+    "$Cost": "300",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "4 M Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/48hrs",
+    "$Cost": "400",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "5 M Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "5/48hrs",
+    "$Cost": "500",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "6 M Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/48hrs",
+    "$Cost": "600",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "7 M Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "7/48hrs",
+    "$Cost": "700",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "8 M Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "8/48hrs",
+    "$Cost": "800",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "9 M Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "9/48hrs",
+    "$Cost": "900",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "10 M Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "10/48hrs",
+    "$Cost": "1000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "1 S Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "1/72hrs",
+    "$Cost": "500",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "2 S Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "2/72hrs",
+    "$Cost": "1000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "3 S Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/72hrs",
+    "$Cost": "1500",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "4 S Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/72hrs",
+    "$Cost": "2000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "5 S Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "5/72hrs",
+    "$Cost": "2500",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "6 S Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/72hrs",
+    "$Cost": "3000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "7 S Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "7/72hrs",
+    "$Cost": "3500",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "8 S Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "8/72hrs",
+    "$Cost": "4000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "9 S Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "9/72hrs",
+    "$Cost": "4500",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "10 S Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "10/72hrs",
+    "$Cost": "5000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "1 D Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "1/7days",
+    "$Cost": "1000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "2 D Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "2/7days",
+    "$Cost": "2000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "3 D Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "3/7days",
+    "$Cost": "3000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "4 D Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "4/7days",
+    "$Cost": "4000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "5 D Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "5/7days",
+    "$Cost": "5000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "6 D Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "6/7days",
+    "$Cost": "6000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "7 D Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "7/7days",
+    "$Cost": "7000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "8 D Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "8/7days",
+    "$Cost": "8000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "9 D Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "9/7days",
+    "$Cost": "9000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "10 D Drain Spell Form.",
+    "type_id": "15",
+    "category_tree": [
+      "Magical supplies",
+      "Spell formulae"
+    ],
+    "KarmaCost": "0",
+    "Availability": "10/7days",
+    "$Cost": "10000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Nature Spirit Force 1->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Nature Spirits"
+    ],
+    "KarmaCost": "1",
+    "Availability": "1/24hrs",
+    "$Cost": "500",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Nature Spirit Force 2->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Nature Spirits"
+    ],
+    "KarmaCost": "2",
+    "Availability": "1/24hrs",
+    "$Cost": "1000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Nature Spirit Force 3->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Nature Spirits"
+    ],
+    "KarmaCost": "3",
+    "Availability": "1/24hrs",
+    "$Cost": "1500",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Nature Spirit Force 4->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Nature Spirits"
+    ],
+    "KarmaCost": "4",
+    "Availability": "1/24hrs",
+    "$Cost": "2000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Nature Spirit Force 5->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Nature Spirits"
+    ],
+    "KarmaCost": "5",
+    "Availability": "1/24hrs",
+    "$Cost": "2500",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Nature Spirit Force 6->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Nature Spirits"
+    ],
+    "KarmaCost": "6",
+    "Availability": "1/24hrs",
+    "$Cost": "3000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Spirit Force 1->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Elemental Spirits"
+    ],
+    "KarmaCost": "1",
+    "Availability": "1/24hrs",
+    "$Cost": "1000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Spirit Force 2->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Elemental Spirits"
+    ],
+    "KarmaCost": "2",
+    "Availability": "1/24hrs",
+    "$Cost": "2000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Spirit Force 3->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Elemental Spirits"
+    ],
+    "KarmaCost": "3",
+    "Availability": "1/24hrs",
+    "$Cost": "3000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Spirit Force 4->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Elemental Spirits"
+    ],
+    "KarmaCost": "4",
+    "Availability": "1/24hrs",
+    "$Cost": "4000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Spirit Force 5->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Elemental Spirits"
+    ],
+    "KarmaCost": "5",
+    "Availability": "1/24hrs",
+    "$Cost": "5000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  },
+  {
+    "name": "Elem. Spirit Force 6->",
+    "type_id": "15",
+    "category_tree": [
+      "Spirits (Initial Characters)",
+      "Elemental Spirits"
+    ],
+    "KarmaCost": "6",
+    "Availability": "1/24hrs",
+    "$Cost": "6000",
+    "Street Index": "2",
+    "Book.Page": "sr3.305"
+  }
+]

@@ -1,0 +1,1143 @@
+[
+  {
+    "name": "Not Selected Yet",
+    "type_id": 1,
+    "category_tree": [
+      "Not Selected Yet"
+    ]
+  },
+  {
+    "name": "Combat Mage",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Company Man",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Corporate Decker",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Corporate Hitman",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Corporate Official",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Corporate Rigger",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Corporate Scientist",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Corporate Secretary",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Corporate Wage Slave",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Cyber Assassin",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Cyber Logician",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Firefighter",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Mr. Johnson",
+    "type_id": 1,
+    "category_tree": [
+      "Corporate"
+    ]
+  },
+  {
+    "name": "Elf Poser-Gang Member",
+    "type_id": 1,
+    "category_tree": [
+      "Criminal"
+    ]
+  },
+  {
+    "name": "Elven Hitman",
+    "type_id": 1,
+    "category_tree": [
+      "Criminal"
+    ]
+  },
+  {
+    "name": "Gang Boss",
+    "type_id": 1,
+    "category_tree": [
+      "Criminal"
+    ]
+  },
+  {
+    "name": "Gang Member",
+    "type_id": 1,
+    "category_tree": [
+      "Criminal"
+    ]
+  },
+  {
+    "name": "Mafia Don",
+    "type_id": 1,
+    "category_tree": [
+      "Criminal"
+    ]
+  },
+  {
+    "name": "Mafia Soldier",
+    "type_id": 1,
+    "category_tree": [
+      "Criminal"
+    ]
+  },
+  {
+    "name": "Ogre Enforcer",
+    "type_id": 1,
+    "category_tree": [
+      "Criminal"
+    ]
+  },
+  {
+    "name": "Snitch",
+    "type_id": 1,
+    "category_tree": [
+      "Criminal"
+    ]
+  },
+  {
+    "name": "Yakuza Boss",
+    "type_id": 1,
+    "category_tree": [
+      "Criminal"
+    ]
+  },
+  {
+    "name": "City Official",
+    "type_id": 1,
+    "category_tree": [
+      "Government/Military/Mercenary"
+    ]
+  },
+  {
+    "name": "Dwarf Mercenary",
+    "type_id": 1,
+    "category_tree": [
+      "Government/Military/Mercenary"
+    ]
+  },
+  {
+    "name": "Government Agent",
+    "type_id": 1,
+    "category_tree": [
+      "Government/Military/Mercenary"
+    ]
+  },
+  {
+    "name": "Government Official",
+    "type_id": 1,
+    "category_tree": [
+      "Government/Military/Mercenary"
+    ]
+  },
+  {
+    "name": "Mercenary",
+    "type_id": 1,
+    "category_tree": [
+      "Government/Military/Mercenary"
+    ]
+  },
+  {
+    "name": "MET-2000-Offizierin",
+    "type_id": 1,
+    "category_tree": [
+      "Government/Military/Mercenary"
+    ]
+  },
+  {
+    "name": "Metroplex Guardsman",
+    "type_id": 1,
+    "category_tree": [
+      "Government/Military/Mercenary"
+    ]
+  },
+  {
+    "name": "Peace Force Bordergrd",
+    "type_id": 1,
+    "category_tree": [
+      "Government/Military/Mercenary"
+    ]
+  },
+  {
+    "name": "Ork Mercenary",
+    "type_id": 1,
+    "category_tree": [
+      "Government/Military/Mercenary"
+    ]
+  },
+  {
+    "name": "Special Forces Troopr",
+    "type_id": 1,
+    "category_tree": [
+      "Government/Military/Mercenary"
+    ]
+  },
+  {
+    "name": "Burned-Out Mage",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Dwarf Fortuneteller",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Elf Mage",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Elf Magic Cult Priest",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Immigrant Str. Priest",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Magiedoktor",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Magieprofessor",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Magiestudent",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Ork Hermetic Mage",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Ork Shaman",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Shaman",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Stadthexe",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Street Mage",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Street Shaman",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Talismonger",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Weise Frau",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Wiz Kid Mage",
+    "type_id": 1,
+    "category_tree": [
+      "Magical"
+    ]
+  },
+  {
+    "name": "Bartender",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Club Habitue",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Club Owner",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Fan",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Media Producer",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Media Entrepeneur",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Newsman",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Reporter",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Rocker",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Sasquatch Entertainer",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Simsense Star",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Talentsucher",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Troll Bouncer",
+    "type_id": 1,
+    "category_tree": [
+      "Media/Entertainment"
+    ]
+  },
+  {
+    "name": "Corp. Security Guard",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Exec Protection Adept",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Exec Prot. Decker",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Exec Protection Mage",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Exec Prot. Rigger",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Exec Prot. Specialist",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Freelance Exec Prot.",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Freelance Magic Sec.",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Freelance Sec. Decker",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Investigator",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Magical Sec. Engineer",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Magical Sec. Special.",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Personnel Sec. Spec.",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Plain Clothes Cop",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Security Commander",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Security Decker",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Sec. Design Engineer",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Security Executive",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Security Guard",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Security Mage",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Security Officer",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Security Rigger",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Sec.: Animal Handler",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Sec.: Fast Response",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Street Cop",
+    "type_id": 1,
+    "category_tree": [
+      "Police/Security"
+    ]
+  },
+  {
+    "name": "Bladeboy",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Combat Decker",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Corp Hunter",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Cyber Ninja",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Cyber Runner",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Cyberzombie",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Decker",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Dwarf Street Samurai",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Elven Decker",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Elven Street Samurai",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Ex-Journalist",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former Company Man",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former Corp. Decker",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former Corporate Spy",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former DocWagoneer",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former Espionage Agnt",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former Mage Detective",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former Milit. Officer",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former Simsense Star",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former Tribal Warrior",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former Troll Bnty Hnt",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Former Wage Mage",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Ninja",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Ork Street Samurai",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Rigger",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Six-Million Nuyen Sam",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Squatter",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Street Kid",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Street Operator",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Street Rigger",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Street Samurai",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Street Slick/Homeboy",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Subway-Jockey",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Thief",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Troll Street Samurai",
+    "type_id": 1,
+    "category_tree": [
+      "Street"
+    ]
+  },
+  {
+    "name": "Tribal Chief",
+    "type_id": 1,
+    "category_tree": [
+      "Tribal"
+    ]
+  },
+  {
+    "name": "Tribesman",
+    "type_id": 1,
+    "category_tree": [
+      "Tribal"
+    ]
+  },
+  {
+    "name": "Armorer",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Autoduellistin",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Bodyguard",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "College Dropout",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Courier",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Dealer",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Deckmeister",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Detective",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Dock Worker",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Dwarf Technician",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Fixer",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Humanis Member",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Jack Of All Trades",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Mage Hunter (Dwarf)",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Mechanic",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Metahuman Rights Act.",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Metamenschen-Adliger",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Nachtmachen Member",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Nurse",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "O.R.C. Member",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "\u00d6koterrorist",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Outcast Tir Noble",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Paramedic",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Pedestrian (Dwarf)",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Pedestrian (Elf)",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Pedestrian (Human)",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Pedestrian (Ork)",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Pedestrian (Troll)",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Saboteur",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Superhero",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Store Owner",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Street Doc",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Taxi Driver",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Technician",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Terrorist",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Tir Noble",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Witchhunter",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  },
+  {
+    "name": "Zocker",
+    "type_id": 1,
+    "category_tree": [
+      "Other"
+    ]
+  }
+]

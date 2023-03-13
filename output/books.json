@@ -1,0 +1,252 @@
+[
+  {
+    "name": "Awakenings",
+    "abbreviation": "awk",
+    "load_as_default": false
+  },
+  {
+    "name": "Corporate Security",
+    "abbreviation": "cs",
+    "load_as_default": false
+  },
+  {
+    "name": "Cannon Companion",
+    "abbreviation": "cc",
+    "load_as_default": true
+  },
+  {
+    "name": "Corporate Download",
+    "abbreviation": "cd",
+    "load_as_default": false
+  },
+  {
+    "name": "Custom Gear",
+    "abbreviation": "cus",
+    "load_as_default": false
+  },
+  {
+    "name": "CyberTechnology",
+    "abbreviation": "ct",
+    "load_as_default": false
+  },
+  {
+    "name": "Dragons of the Sixth World",
+    "abbreviation": "dosw",
+    "load_as_default": false
+  },
+  {
+    "name": "Field of Fire",
+    "abbreviation": "fof",
+    "load_as_default": false
+  },
+  {
+    "name": "Magic in the Shadows",
+    "abbreviation": "mits",
+    "load_as_default": true
+  },
+  {
+    "name": "Man and Machine",
+    "abbreviation": "mm",
+    "load_as_default": true
+  },
+  {
+    "name": "Matrix",
+    "abbreviation": "mat",
+    "load_as_default": true
+  },
+  {
+    "name": "Paranormal Animals of North America",
+    "abbreviation": "pna",
+    "load_as_default": false
+  },
+  {
+    "name": "Rigger 3",
+    "abbreviation": "r3",
+    "load_as_default": true
+  },
+  {
+    "name": "Shadowrun 1st ed",
+    "abbreviation": "sr1",
+    "load_as_default": false
+  },
+  {
+    "name": "Shadowrun 2nd ed",
+    "abbreviation": "sr2",
+    "load_as_default": false
+  },
+  {
+    "name": "Shadowrun 3rd ed",
+    "abbreviation": "sr3",
+    "load_as_default": true
+  },
+  {
+    "name": "Shadowrun Companion",
+    "abbreviation": "src",
+    "load_as_default": true
+  },
+  {
+    "name": "Shadowtech",
+    "abbreviation": "st",
+    "load_as_default": false
+  },
+  {
+    "name": "Shadowbeat",
+    "abbreviation": "sb",
+    "load_as_default": false
+  },
+  {
+    "name": "Sprawl Survival Guide",
+    "abbreviation": "ssg",
+    "load_as_default": true
+  },
+  {
+    "name": "State of the Art 2063",
+    "abbreviation": "sota",
+    "load_as_default": true
+  },
+  {
+    "name": "State of the Art 2064",
+    "abbreviation": "sta2",
+    "load_as_default": true
+  },
+  {
+    "name": "Street Samurai Catalog 2nd ed",
+    "abbreviation": "ssc",
+    "load_as_default": false
+  },
+  {
+    "name": "The Shadowrun Supplemental",
+    "abbreviation": "tss",
+    "load_as_default": false
+  },
+  {
+    "name": "Rigger Black Box",
+    "abbreviation": "rbb",
+    "load_as_default": false
+  },
+  {
+    "name": "Rigger 2",
+    "abbreviation": "r2",
+    "load_as_default": false
+  },
+  {
+    "name": "Target: Awakened Lands",
+    "abbreviation": "tal",
+    "load_as_default": true
+  },
+  {
+    "name": "Target: Wastelands",
+    "abbreviation": "twl",
+    "load_as_default": true
+  },
+  {
+    "name": "The Grimoire 2nd ed",
+    "abbreviation": "gm2",
+    "load_as_default": false
+  },
+  {
+    "name": "Year Of The Comet",
+    "abbreviation": "yotc",
+    "load_as_default": true
+  },
+  {
+    "name": "Aztlan Sourcebook",
+    "abbreviation": "azt",
+    "load_as_default": false
+  },
+  {
+    "name": "France Sourcebook",
+    "abbreviation": "fra",
+    "load_as_default": false
+  },
+  {
+    "name": "Germany Sourcebook",
+    "abbreviation": "ger",
+    "load_as_default": false
+  },
+  {
+    "name": "London Sourcebook",
+    "abbreviation": "lon",
+    "load_as_default": false
+  },
+  {
+    "name": "Seattle Sourcebook",
+    "abbreviation": "sea",
+    "load_as_default": true
+  },
+  {
+    "name": "Paradise Lost",
+    "abbreviation": "pl",
+    "load_as_default": false
+  },
+  {
+    "name": "Chrome Book 1 (conversion)",
+    "abbreviation": "cb1",
+    "load_as_default": false
+  },
+  {
+    "name": "Chrome Book 2 (conversion)",
+    "abbreviation": "cb2",
+    "load_as_default": false
+  },
+  {
+    "name": "Chrome Book 3 (conversion)",
+    "abbreviation": "cb3",
+    "load_as_default": false
+  },
+  {
+    "name": "Chrome Book 4 (conversion)",
+    "abbreviation": "cb4",
+    "load_as_default": false
+  },
+  {
+    "name": "Cyberpunk 2020 (conversion)",
+    "abbreviation": "cp",
+    "load_as_default": false
+  },
+  {
+    "name": "Plastic Warriors",
+    "abbreviation": "pw",
+    "load_as_default": false
+  },
+  {
+    "name": "NERPS: ShadowLore",
+    "abbreviation": "n/sl",
+    "load_as_default": false
+  },
+  {
+    "name": "Neo-Anarchist Guide to Everything Else (Collected)",
+    "abbreviation": "nagee",
+    "load_as_default": false
+  },
+  {
+    "name": "Neo-Anarchist Guide to Everything Else (Issue 7)",
+    "abbreviation": "nagee7",
+    "load_as_default": false
+  },
+  {
+    "name": "Neo-Anarchist Guide to Everything Else (Issue 8)",
+    "abbreviation": "nagee8",
+    "load_as_default": false
+  },
+  {
+    "name": "Neo-Anarchist Guide to Everything Else (Issue 9)",
+    "abbreviation": "nagee9",
+    "load_as_default": false
+  },
+  {
+    "name": "Adept's Handybook",
+    "abbreviation": "adh",
+    "load_as_default": false
+  },
+  {
+    "name": "Blackjack's Firearms",
+    "abbreviation": "bjf",
+    "load_as_default": false
+  },
+  {
+    "name": "Raygun's Firearms",
+    "abbreviation": "ray",
+    "load_as_default": false
+  }
+]
