@@ -1,6 +1,5 @@
 import json
 import re
-import yaml
 from book import Book
 from item import Item
 
