@@ -164,3 +164,14 @@ all_gear = parse_functions.parse_file("data/GEAR.DAT")
 with open("output/gear.json", "w", encoding="utf-8") as output:
 	json.dump(all_gear, output, indent=2, default=lambda o: o.__dict__)
 
+all_gear = parse_functions.parse_file("data/MAGEGEAR.DAT")
+with open("output/magegear.json", "w", encoding="utf-8") as output:
+	json.dump(all_gear, output, indent=2, default=lambda o: o.__dict__)
+
+all_gear = parse_functions.parse_file("data/SPELLS.DAT")
+with open("output/spells.json", "w", encoding="utf-8") as output:
+	json.dump(all_gear, output, indent=2, default=lambda o: o.__dict__)
+
+all_gear = parse_functions.parse_file("data/vehicles.dat")
+with open("output/vehicles.json", "w", encoding="utf-8") as output:
+	json.dump(all_gear, output, indent=2, default=lambda o: o.__dict__)
