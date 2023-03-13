@@ -1,3 +1,8 @@
+import copy
+import re
+
+from item import Item
+
 def type_dict(str):
 	"""
 	This function converts a type definition into a dictionary. Type defs typically
@@ -39,37 +44,65 @@ def type_dict(str):
 
 
 def parse_category_tree_branch(line: str, category_tree: list, current_category_level: int):
-	if (line.startswith("1-") and current_category_level == 0):
-		# this is a category
-		category_tree.append(line.lstrip("1-"))
-		current_category_level += 1
-		return (category_tree, current_category_level)
-	elif (line.startswith("1-") and current_category_level > 0):
-		# this is a new category, so write the previous one
-		category_tree = []
-		category_tree.append(line.lstrip("1-"))
-		current_category_level = 1
-		return (category_tree, current_category_level)
-	elif (line.startswith("2-") and current_category_level == 1):
-		# this is a subcategory
-		category_tree.append(line.lstrip("2-"))
-		current_category_level += 1
-		return (category_tree, current_category_level)
-	elif (line.startswith("2-") and current_category_level > 1):
-		# this is a new subcategory, so write the previous one
-		category_tree = category_tree[:1]
-		category_tree.append(line.lstrip("2-"))
-		current_category_level = 2
-		return (category_tree, current_category_level)
-	elif (line.startswith("3-") and current_category_level == 2):
-		# this is a sub-subcategory
-		category_tree.append(line.lstrip("3-"))
-		current_category_level += 1
-		return (category_tree, current_category_level)
-	elif (line.startswith("3-") and current_category_level > 2):
-		# this is a new sub-subcategory, so write the previous one
-		category_tree = category_tree[:2]
-		category_tree.append(line.lstrip("3-"))
-		current_category_level = 3
-		return (category_tree, current_category_level)
+	for i in range(8):
+		if (line.startswith(str(i+1) + "-") and current_category_level == i):
+			# this is a new subcategory
+			category_tree.append(line.lstrip(str(i+1) + "-"))
+			current_category_level += 1
+			return (category_tree, current_category_level)
+		elif (line.startswith(str(i+1) + "-") and current_category_level > i):
+			# this is a new sub-subcategory, so write the previous one
+			category_tree = category_tree[:i]
+			category_tree.append(line.lstrip(str(i+1) + "-"))
+			current_category_level = i + 1
+			return (category_tree, current_category_level)
 	raise ValueError("Invalid category tree branch: " + line)
+
+
+def parse_file(dat_file_path: str, no_category: bool = False):
+	all_items = []
+	with open(dat_file_path) as filep:
+		types = dict()
+		category_tree = list()
+		current_category_level = 0
+		
+		for line in filep:
+			line = line.rstrip()
+			if (line.startswith("!")): # comment
+				continue
+			
+			# this is a type definition
+			if (line.startswith("0-")):
+				this_type = type_dict(line)
+				types[this_type["type_id"]] = this_type
+				continue
+
+			try:
+				line.index("|")
+			except ValueError:
+				# this is a category tree branch
+				(category_tree, current_category_level) = parse_category_tree_branch(line, category_tree, current_category_level)
+				continue
+
+			# process an actual object
+			splits = re.split(r"\|", line)
+			if no_category == True:
+				item_category_match = re.match(r"(.+?)\s+(\d+)$", splits[0])
+				if (item_category_match == None):
+					raise Exception("Unexpected line: " + line)
+				category_level = 0
+				name = item_category_match.group(1)
+				type_id = item_category_match.group(2)
+			else:
+				item_category_match = re.match(r"(\d)-\* (.+?)\s*(\d+)$", splits[0])
+				if (item_category_match == None):
+					raise Exception("Unexpected line: " + line)
+				category_level = item_category_match.group(1)
+				name = item_category_match.group(2)
+				type_id = item_category_match.group(3)
+			item_type = types[int(type_id)]
+			this_item = Item(name, type_id, category_tree[:int(category_level)-1])
+			for i in range(item_type["num_fields"]):
+				this_item[item_type["field_names"][i]] = splits[i+1].strip()
+			all_items.append(this_item)
+	return all_items
