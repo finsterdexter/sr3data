@@ -273,7 +273,7 @@
 5-* Dai Lung Cybermag 15  (HOPist) 3|7|10(c)|SA|4L|.5|3/12hrs|100|.7|None|sr2.???|||
 5-* Federated Arms X-22   (HOPist) 3|7|10(c)|SA|4L|.5|2/12hrs|300|.8|None|sr2.???|||
 5-* Fich. Tiff. Needler   (HOPist) 3|8|4(c)|SA|5L|.5|7/48hrs|650|2|None|sr2.???|||
-5-* Hämmerli Model 520    (HOPist) 3|4|6(c)|SA|6L|1.25|8/4days|1000|1|RC:(1)|sr2.???|||
+5-* Hï¿½mmerli Model 520    (HOPist) 3|4|6(c)|SA|6L|1.25|8/4days|1000|1|RC:(1)|sr2.???|||
 5-* H&K P48               (HOPist) 3|8|6(c)|SA/BF|4L|.45|4/24hrs|300|1.5|None|sr2.???|||
 5-* Morrissey Elan        (HOPist) 3|8|5(c)|SA|5L|.5|8/7days|500|2|None|cc.16|||
 5-* N. Ind. Firing Knife  (HOPist) 3|6|5(cy)|SA|4L|.5|5/12hrs|250|1|None|sr2.???|||
@@ -1209,7 +1209,7 @@
 5-* M23 5.56mm NATO         (AsRf) 3|3|40(c)|SA/BF/FA|9M|3.5|6/36hrs|950|3||ray.000|||
 5-* M23C 5.56mm NATO        (Carb) 3|3|30(c)|SA/BF/FA|9M|2.6|6/36hrs|1050|3|retractable stock (+1 conceal retracted)|ray.000|||
 5-* M23C3 .300 Whisper      (Carb) 3|4|30(c)|SA/BF/FA|8M|3|6/72hrs|1800|3||ray.000|||
-4-Fusil Automatique Légere
+4-Fusil Automatique Lï¿½gere
 5-* FAL 50.00 7.62mm NATO    (LMG) 3|2|20(c)|SA/FA|9S|4.3|5/7days|1500|3|double uncompensated recoil|ray.000|||
 5-* FAL 50.64 7.62mm NATO    (LMG) 3|2|20(c)|SA/FA|9S|3.9|5/7days|1500|3|folding stock (+1 conceal when folded), double uncompensated recoil|ray.000|||
 5-* FAL StG58A 7.62mm NATO   (LMG) 3|2|20(c)|SA|9S|4.3|4/48hrs|995|2|includes bipod, double uncompensated recoil|ray.000|||
@@ -2006,7 +2006,7 @@
 4-* 10"Extended barrel .44 Magnum  6|-|(-1)|-|.2|4/48hrs|400|2|Range: Short- 0-15; Medium- 16-50; Long- 51-120; Extreme- 121-250|ray.000|
 4-* 10"Ext-barrel .50Action Expres 6|-|(-1)|-|.2|4/48hrs|400|2|Range: Short- 0-10; Medium- 11-40; Long- 41-100; Extreme- 101-200|ray.000|
 4-* 10"Ext-barrel .440 CorBon Magn 6|-|(-1)|-|.2|4/48hrs|400|2|Range: Short- 0-15; Medium- 16-60; Long- 61-150; Extreme- 151-300|ray.000|
-4-Mark XXVI System                 6|-|(-1)|-|14|5/7days|4550|2|case, gun frame, components for each type|ray.000|
+4-* Mark XXVI System               6|-|(-1)|-|14|5/7days|4550|2|case, gun frame, components for each type|ray.000|
 4-Scope Ring Mounts
 5-* Ring Mounts, 1" black          6|top|-|-|.1|4/48hrs|30|2||ray.000|
 5-* Ring Mounts, 1" gold           6|top|-|-|.1|4/48hrs|190|2||ray.000|
@@ -2554,7 +2554,7 @@
 3-* Stun Rnds                      5|8|(see rules)|.1|4/48hrs|10|1|sr2.???|
 3-* Tracer Rnds (10)               5|8|(see rules)|.5|3/24hrs|75|1|sr3.281|
 3-* Tungesten Rnds                 5|8|+1 Power|.06|6/6days|5|1.5|sr2.???|
-3-* Wirtz-Betäubung Rnds           5|6|12M Stun|.15|8/36hrs|10|2|sr2.???|
+3-* Wirtz-Betï¿½ubung Rnds           5|6|12M Stun|.15|8/36hrs|10|2|sr2.???|
 3-* Wirtz-Schrot Rnds              5|8|11S(f)|.125|8/36hrs|8|2|sr2.???|
 3-* Duplex Rnds (50)               5|6|+2 power, as-rifle only|1.2|6/72hrs|35|2|ray.000|
 3-* DE8025.01 ap (for P-61) (50)   5|6|.75 armor rating|3.25|6/48hrs|200|3|ray.000|
@@ -2885,7 +2885,7 @@
 3-* Smoke (IR) Minigrenade         5|8|-|.1|6/48hrs|80|3|sr3.283|
 3-* Neurostun-Minigrenade          5|8|8M + gas|.15|12/4ays|200|3|sr2.???|
 3-* SplatShell Minigrenade         5|8|splatballs|.1|6/48hrs|10|1|sr2.???|
-3-* Tränengas-Minigranate          5|8|8M|.15|4/24hrs|50|1.5|sr2.???|
+3-* Trï¿½nengas-Minigranate          5|8|8M|.15|4/24hrs|50|1.5|sr2.???|
 3-* Super Flash Minigrenade        5|8|(Special)|.1|12/16days|160|4|cc.41|
 3-* White Phosphorus Minigrenade   5|8|14M/10L|.1|8/7days|240|4|cc.41|
 3-* XM1822 Adapter                 5|10|12D(f)|1|4/48hrs|300|2|ray.000|
@@ -3033,22 +3033,22 @@
 3-* Secure Vest                    8|15|2|1|.75|3/36hrs|175|.9|sr3.284|
 3-* Secure Ultra-Vest              8|14|3|2|2.5|3/36hrs|350|.9|sr3.284|
 3-* Secure Long Coat               8|10|4|2|2|3/24hrs|650|.9|sr3.284|
-2-Armanté
-3-* Armanté "Ancien" Shawl         8|14|1|0|.3|2/48hrs|750|.75|cc.46|
-3-* Armanté "Dallas" Shirt         8|14|.75|0|.3|2/48hrs|600|.75|cc.46|
-3-* Armanté "Dallas" Jacket        8|14|2|2|.3|2/48hrs|1000|.75|cc.46|
-3-* Armanté "Dallas" Short Jacket  8|14|1|.5|.3|2/48hrs|600|.75|cc.46|
-3-* Armanté "Dallas" Slacks        8|14|.5|.25|.3|2/48hrs|400|.75|cc.46|
-3-* Armanté "Dallas" Vest          8|14|3|1|.3|2/48hrs|250|.75|cc.46|
-3-* Armanté "Executive Suite" Tux  8|12|3|1|1|4/48hrs|1100|.75|cc.46|
-3-* Armanté "London Fog" Count     8|12|2|2|1|4/48hrs|600|.75|cc.46|
-3-* Armanté "London Fog" Chairman  8|12|2|2|2|4/48hrs|5000|.75|cc.46|
-3-* Armanté "London Fog" Majesty   8|11|2|2|2|4/48hrs|3000|.75|cc.46|
-3-* Armanté "London Fog" Merlin    8|11|2|2|1|4/48hrs|1500|.75|cc.46|
-3-* Armanté "London Fog" Profsnl   8|13|2|2|2|4/48hrs|1000|.75|cc.46|
-3-* Armanté "Starlight" Dress      8|13|1|1|.75|2/48hrs|4500|.75|cc.46|
-3-* Armanté "Tokyo" Business Suit  8|13|2|1|1|3/48hrs|1000|.75|cp.32|
-3-* Armanté "Venetian" Dress       8|14|1|0|.5|2/48hrs|3500|.75|cc.46|
+2-Armantï¿½
+3-* Armantï¿½ "Ancien" Shawl         8|14|1|0|.3|2/48hrs|750|.75|cc.46|
+3-* Armantï¿½ "Dallas" Shirt         8|14|.75|0|.3|2/48hrs|600|.75|cc.46|
+3-* Armantï¿½ "Dallas" Jacket        8|14|2|2|.3|2/48hrs|1000|.75|cc.46|
+3-* Armantï¿½ "Dallas" Short Jacket  8|14|1|.5|.3|2/48hrs|600|.75|cc.46|
+3-* Armantï¿½ "Dallas" Slacks        8|14|.5|.25|.3|2/48hrs|400|.75|cc.46|
+3-* Armantï¿½ "Dallas" Vest          8|14|3|1|.3|2/48hrs|250|.75|cc.46|
+3-* Armantï¿½ "Executive Suite" Tux  8|12|3|1|1|4/48hrs|1100|.75|cc.46|
+3-* Armantï¿½ "London Fog" Count     8|12|2|2|1|4/48hrs|600|.75|cc.46|
+3-* Armantï¿½ "London Fog" Chairman  8|12|2|2|2|4/48hrs|5000|.75|cc.46|
+3-* Armantï¿½ "London Fog" Majesty   8|11|2|2|2|4/48hrs|3000|.75|cc.46|
+3-* Armantï¿½ "London Fog" Merlin    8|11|2|2|1|4/48hrs|1500|.75|cc.46|
+3-* Armantï¿½ "London Fog" Profsnl   8|13|2|2|2|4/48hrs|1000|.75|cc.46|
+3-* Armantï¿½ "Starlight" Dress      8|13|1|1|.75|2/48hrs|4500|.75|cc.46|
+3-* Armantï¿½ "Tokyo" Business Suit  8|13|2|1|1|3/48hrs|1000|.75|cp.32|
+3-* Armantï¿½ "Venetian" Dress       8|14|1|0|.5|2/48hrs|3500|.75|cc.46|
 2-Eji of Japan
 3-* Eji Armored Cloak              8|14|2|1|1.5|always|500|.75|cb1.37|
 3-* Eji Designer's Jeans           8|-|0|0|1|always|50|.75|cb1.37|
@@ -3144,15 +3144,15 @@
 3-* Victory "Rapid Transit" Helmet 8|-|-|+2|.5|4/24hrs|50|1|cc.49|
 3-* Massaging Liners - Accessory   8|-|-|-|+.5|+1/+1wk|+1000|+1|cc.49|
 3-* Plastic Restraint Melters-Acc  8|-|-|-|-|(As Jumpsuit)|+50|1|cc.49|
-2-Zoé
-3-* Zoé "Country Club" Blazer      8|13|3|1|1|4/48hrs|2000|.75|r2.???|
-3-* Zoé "Futura" Blazer            8|13|2|1|1.5|4/48hrs|2500|.75|cc.49|
-3-* Zoé "Futura" Slacks            8|13|1|1|1|4/48hrs|1500|.75|cc.49|
-3-* Zoé "Futura" Sweater           8|13|2|1|1.5|4/48hrs|1000|.75|cc.49|
-3-* Zoé "Heritage" Cultural        8|12|4|2|1.5|10/2months|10000|.75|cc.49|
-3-* Zoé "Highland Laird" Kilt      8|14|4|2|1.5|6/48hrs|2000|.75|sr2.???|
-3-* Zoé "Retrovision" Skirt Suit   8|13|3|1|1.5|4/48hrs|2500|.75|sr2.???|
-3-* Zoé "Second Skin" Bodysuit     8|15|2|2|.25|10/1month|5000|.75|cc.49|
+2-Zoï¿½
+3-* Zoï¿½ "Country Club" Blazer      8|13|3|1|1|4/48hrs|2000|.75|r2.???|
+3-* Zoï¿½ "Futura" Blazer            8|13|2|1|1.5|4/48hrs|2500|.75|cc.49|
+3-* Zoï¿½ "Futura" Slacks            8|13|1|1|1|4/48hrs|1500|.75|cc.49|
+3-* Zoï¿½ "Futura" Sweater           8|13|2|1|1.5|4/48hrs|1000|.75|cc.49|
+3-* Zoï¿½ "Heritage" Cultural        8|12|4|2|1.5|10/2months|10000|.75|cc.49|
+3-* Zoï¿½ "Highland Laird" Kilt      8|14|4|2|1.5|6/48hrs|2000|.75|sr2.???|
+3-* Zoï¿½ "Retrovision" Skirt Suit   8|13|3|1|1.5|4/48hrs|2500|.75|sr2.???|
+3-* Zoï¿½ "Second Skin" Bodysuit     8|15|2|2|.25|10/1month|5000|.75|cc.49|
 2-Camouflage
 3-* Camo Full Suit (Desert)        8|-|5|3|2|5/36hrs|1200|1|sr3.284|
 3-* Camo Full Suit (Snow)          8|-|5|3|2|5/36hrs|1200|1|sr3.284|
@@ -3632,7 +3632,7 @@
 2-Electronics
 3-Pocket Secretaries
 4-* Basic Pocket Secretary         14|8|.5|Always|2000|1|sr3.287|
-4-* Ares Attaché                   30|Notebook|2|1.5|300|3|6|3|20700|2.5|6P-U|nagee7.23|
+4-* Ares Attachï¿½                   30|Notebook|2|1.5|300|3|6|3|20700|2.5|6P-U|nagee7.23|
 4-* Ares SecComm                   30|Phone|3|1|75|3|3|3|12950|2|7P-U|nagee7.23|
 4-* Ares SecComm Executive         30|Phone|3|1|150|3|3|3|14500|2|7P-U|nagee7.23|
 4-* Cross TiMax-50                 30|Watch|8|.25|50|-|-|-|750|.75|Legal|nagee7.24|
@@ -3655,7 +3655,7 @@
 4-* Renraku ThoughtBook            30|Notebook|2|1|700|1|-|-|15150|.75|Legal|nagee7.26|
 4-* Shiawase Archon-100            30|Book|5|.3|100|1|1|-|2100|.75|Legal|nagee7.27|
 4-* Shiawase Archon-200            30|Book|5|.3|200|1|1|-|4100|.75|Legal|nagee7.27|
-4-* Übertragen Munin               30|Book|3|.5|100|1|-|-|2050|.75|Legal|nagee7.27|
+4-* ï¿½bertragen Munin               30|Book|3|.5|100|1|-|-|2050|.75|Legal|nagee7.27|
 4-* Wuxing LBT                     30|Headset|6|.25|50|-|-|-|750|.75|Legal|nagee7.27|
 3-Telecom
 4-* Telecom (100Mp)                14|-|5|Always|3000|1|sr3.286|
@@ -3834,12 +3834,12 @@
 4-* Kiroshi Monocle                14|-|-|8/7days|200|3.5|sr2.???|
 3-Credstick Verification Readers w/Max Trans Limit
 4-* SIN and Credstick Checker      14|-|.2|6/6days|6250|1|tss.10|
-4-* SIN/CredStk Chkr [1](5000¥)    21|-|1|1|Always|12000|1|sr3.287|
-4-* SIN/CredStk Chkr [2-3](20000¥) 21|-|2-3|1|Always|45000|1|sr3.287|
-4-* SIN/CredStkChkPort[2-3](20000¥)21|-|2-3|1|Always|60000|1|sr3.287|
-4-* SIN/CredStk Chkr[4-5](200000¥) 21|-|4-5|1|Always|100000|1|sr3.287|
-4-* SIN/CredStk Chkr[6-7](500000¥) 21|-|6-7|1|Restricted|Restricted|NA|sr3.287|
-4-* SIN/CredStkChkr[8-9](1000000¥) 21|-|8-9|1|Restricted|Restricted|NA|sr3.287|
+4-* SIN/CredStk Chkr [1](5000ï¿½)    21|-|1|1|Always|12000|1|sr3.287|
+4-* SIN/CredStk Chkr [2-3](20000ï¿½) 21|-|2-3|1|Always|45000|1|sr3.287|
+4-* SIN/CredStkChkPort[2-3](20000ï¿½)21|-|2-3|1|Always|60000|1|sr3.287|
+4-* SIN/CredStk Chkr[4-5](200000ï¿½) 21|-|4-5|1|Always|100000|1|sr3.287|
+4-* SIN/CredStk Chkr[6-7](500000ï¿½) 21|-|6-7|1|Restricted|Restricted|NA|sr3.287|
+4-* SIN/CredStkChkr[8-9](1000000ï¿½) 21|-|8-9|1|Restricted|Restricted|NA|sr3.287|
 2-Media equipment
 3-Portacams and cybercams
 4-* AZT Micro20 Microportacam      14|8|2.5|5/72hrs|2500|2|sr2.???|
@@ -4302,49 +4302,49 @@
 4-* Broadcast Encryption [10]      21|-|10|-|-|50000|1|sr3.290|
 3-RF Trackers
 4-Standard Tracker
-5-*Standard Tracker [1]            21|8|1|1|3/48hrs|200|2|sta2.37|
-5-*Standard Tracker [2]            21|8|2|1|4/48hrs|400|2|sta2.37|
-5-*Standard Tracker [3]            21|8|3|1|5/48hrs|600|2|sta2.37|
-5-*Standard Tracker [4]            21|8|4|1|6/48hrs|800|2|sta2.37|
-5-*Standard Tracker [5]            21|8|5|1|7/48hrs|1000|2|sta2.37|
-5-*Standard Tracker [6]            21|8|6|1|8/48hrs|1200|2|sta2.37|
-5-*Standard Tracker [7]            21|8|7|1|9/48hrs|1400|2|sta2.37|
-5-*Standard Tracker [8]            21|8|8|1|10/48hrs|1600|2|sta2.37|
-5-*Standard Tracker [9]            21|8|9|1|11/48hrs|1800|2|sta2.37|
-5-*Standard Tracker [10]           21|8|10|1|12/48hrs|200|2|sta2.37|
+5-* Standard Tracker [1]           21|8|1|1|3/48hrs|200|2|sta2.37|
+5-* Standard Tracker [2]           21|8|2|1|4/48hrs|400|2|sta2.37|
+5-* Standard Tracker [3]           21|8|3|1|5/48hrs|600|2|sta2.37|
+5-* Standard Tracker [4]           21|8|4|1|6/48hrs|800|2|sta2.37|
+5-* Standard Tracker [5]           21|8|5|1|7/48hrs|1000|2|sta2.37|
+5-* Standard Tracker [6]           21|8|6|1|8/48hrs|1200|2|sta2.37|
+5-* Standard Tracker [7]           21|8|7|1|9/48hrs|1400|2|sta2.37|
+5-* Standard Tracker [8]           21|8|8|1|10/48hrs|1600|2|sta2.37|
+5-* Standard Tracker [9]           21|8|9|1|11/48hrs|1800|2|sta2.37|
+5-* Standard Tracker [10]          21|8|10|1|12/48hrs|200|2|sta2.37|
 4-Extra Sensitive (2x)
-5-*Sensitive Tracker (2x) [1]      21|4|1|5|4/72hrs|250|2.5|sta2.37|
-5-*Sensitive Tracker (2x) [2]      21|4|2|5|5/72hrs|500|2.5|sta2.37|
-5-*Sensitive Tracker (2x) [3]      21|4|3|5|6/72hrs|750|2.5|sta2.37|
-5-*Sensitive Tracker (2x) [4]      21|4|4|5|7/72hrs|1000|2.5|sta2.37|
-5-*Sensitive Tracker (2x) [5]      21|4|5|5|8/72hrs|1250|2.5|sta2.37|
-5-*Sensitive Tracker (2x) [6]      21|4|6|5|9/72hrs|1500|2.5|sta2.37|
-5-*Sensitive Tracker (2x) [7]      21|4|7|5|10/72hrs|1750|2.5|sta2.37|
-5-*Sensitive Tracker (2x) [8]      21|4|8|5|11/72hrs|2000|2.5|sta2.37|
-5-*Sensitive Tracker (2x) [9]      21|4|9|5|12/72hrs|2250|2.5|sta2.37|
-5-*Sensitive Tracker (2x) [10]     21|4|10|5|13/72hrs|2500|2.5|sta2.37|
+5-* Sensitive Tracker (2x) [1]     21|4|1|5|4/72hrs|250|2.5|sta2.37|
+5-* Sensitive Tracker (2x) [2]     21|4|2|5|5/72hrs|500|2.5|sta2.37|
+5-* Sensitive Tracker (2x) [3]     21|4|3|5|6/72hrs|750|2.5|sta2.37|
+5-* Sensitive Tracker (2x) [4]     21|4|4|5|7/72hrs|1000|2.5|sta2.37|
+5-* Sensitive Tracker (2x) [5]     21|4|5|5|8/72hrs|1250|2.5|sta2.37|
+5-* Sensitive Tracker (2x) [6]     21|4|6|5|9/72hrs|1500|2.5|sta2.37|
+5-* Sensitive Tracker (2x) [7]     21|4|7|5|10/72hrs|1750|2.5|sta2.37|
+5-* Sensitive Tracker (2x) [8]     21|4|8|5|11/72hrs|2000|2.5|sta2.37|
+5-* Sensitive Tracker (2x) [9]     21|4|9|5|12/72hrs|2250|2.5|sta2.37|
+5-* Sensitive Tracker (2x) [10]    21|4|10|5|13/72hrs|2500|2.5|sta2.37|
 4-Extra Sensitive (5x)
-5-*Sensitive Tracker (5x) [1]      21|2|1|10|5/96hrs|500|3|sta2.37|
-5-*Sensitive Tracker (5x) [2]      21|2|2|10|6/96hrs|1000|3|sta2.37|
-5-*Sensitive Tracker (5x) [3]      21|2|3|10|7/96hrs|1500|3|sta2.37|
-5-*Sensitive Tracker (5x) [4]      21|2|4|10|8/96hrs|2000|3|sta2.37|
-5-*Sensitive Tracker (5x) [5]      21|2|5|10|9/96hrs|2500|3|sta2.37|
-5-*Sensitive Tracker (5x) [6]      21|2|6|10|10/96hrs|3000|3|sta2.37|
-5-*Sensitive Tracker (5x) [7]      21|2|7|10|11/96hrs|3500|3|sta2.37|
-5-*Sensitive Tracker (5x) [8]      21|2|8|10|12/96hrs|4000|3|sta2.37|
-5-*Sensitive Tracker (5x) [9]      21|2|9|10|13/96hrs|4500|3|sta2.37|
-5-*Sensitive Tracker (5x) [10]     21|2|10|10|14/96hrs|5000|3|sta2.37|
+5-* Sensitive Tracker (5x) [1]     21|2|1|10|5/96hrs|500|3|sta2.37|
+5-* Sensitive Tracker (5x) [2]     21|2|2|10|6/96hrs|1000|3|sta2.37|
+5-* Sensitive Tracker (5x) [3]     21|2|3|10|7/96hrs|1500|3|sta2.37|
+5-* Sensitive Tracker (5x) [4]     21|2|4|10|8/96hrs|2000|3|sta2.37|
+5-* Sensitive Tracker (5x) [5]     21|2|5|10|9/96hrs|2500|3|sta2.37|
+5-* Sensitive Tracker (5x) [6]     21|2|6|10|10/96hrs|3000|3|sta2.37|
+5-* Sensitive Tracker (5x) [7]     21|2|7|10|11/96hrs|3500|3|sta2.37|
+5-* Sensitive Tracker (5x) [8]     21|2|8|10|12/96hrs|4000|3|sta2.37|
+5-* Sensitive Tracker (5x) [9]     21|2|9|10|13/96hrs|4500|3|sta2.37|
+5-* Sensitive Tracker (5x) [10]    21|2|10|10|14/96hrs|5000|3|sta2.37|
 4-Extra Sensitive (10x)
-5-*Sensitive Tracker (10x) [1]      21|-|1|25|6/8days|1000|4|sta2.37|
-5-*Sensitive Tracker (10x) [2]      21|-|2|25|7/8days|2000|4|sta2.37|
-5-*Sensitive Tracker (10x) [3]      21|-|3|25|8/8days|300|4|sta2.37|
-5-*Sensitive Tracker (10x) [4]      21|-|4|25|9/8days|4000|4|sta2.37|
-5-*Sensitive Tracker (10x) [5]      21|-|5|25|10/8days|5000|4|sta2.37|
-5-*Sensitive Tracker (10x) [6]      21|-|6|25|11/8days|6000|4|sta2.37|
-5-*Sensitive Tracker (10x) [7]      21|-|7|25|12/8days|7000|4|sta2.37|
-5-*Sensitive Tracker (10x) [8]      21|-|8|25|13/8days|8000|4|sta2.37|
-5-*Sensitive Tracker (10x) [9]      21|-|9|25|14/8days|9000|4|sta2.37|
-5-*Sensitive Tracker (10x) [10]     21|-|10|25|15/8days|10000|4|sta2.37|
+5-* Sensitive Tracker (10x) [1]    21|-|1|25|6/8days|1000|4|sta2.37|
+5-* Sensitive Tracker (10x) [2]    21|-|2|25|7/8days|2000|4|sta2.37|
+5-* Sensitive Tracker (10x) [3]    21|-|3|25|8/8days|300|4|sta2.37|
+5-* Sensitive Tracker (10x) [4]    21|-|4|25|9/8days|4000|4|sta2.37|
+5-* Sensitive Tracker (10x) [5]    21|-|5|25|10/8days|5000|4|sta2.37|
+5-* Sensitive Tracker (10x) [6]    21|-|6|25|11/8days|6000|4|sta2.37|
+5-* Sensitive Tracker (10x) [7]    21|-|7|25|12/8days|7000|4|sta2.37|
+5-* Sensitive Tracker (10x) [8]    21|-|8|25|13/8days|8000|4|sta2.37|
+5-* Sensitive Tracker (10x) [9]    21|-|9|25|14/8days|9000|4|sta2.37|
+5-* Sensitive Tracker (10x) [10]   21|-|10|25|15/8days|10000|4|sta2.37|
 3-Scanner
 4-* Scanner [1]                    21|8|1|1|1/24hrs|100|2|sr3.290|
 4-* Scanner [2]                    21|8|2|1|2/24hrs|200|2|sr3.290|
@@ -4390,16 +4390,16 @@
 4-* Transceiver [9]                21|8|9|1|9/48hrs|4500|2|sr3.290|
 4-* Transceiver [10]               21|8|10|1|10/48hrs|5000|2|sr3.290|
 3-Universal Receiver
-4-*Universal Receiver [1]          21|10|1|-|5/96hrs|250|2.5|sta2.37|
-4-*Universal Receiver [2]          21|10|2|-|6/96hrs|250|2.5|sta2.37|
-4-*Universal Receiver [3]          21|10|3|-|7/96hrs|250|2.5|sta2.37|
-4-*Universal Receiver [4]          21|10|4|-|8/96hrs|250|2.5|sta2.37|
-4-*Universal Receiver [5]          21|10|5|-|9/96hrs|250|2.5|sta2.37|
-4-*Universal Receiver [6]          21|10|6|-|10/96hrs|250|2.5|sta2.37|
-4-*Universal Receiver [7]          21|10|7|-|11/96hrs|250|2.5|sta2.37|
-4-*Universal Receiver [8]          21|10|8|-|12/96hrs|250|2.5|sta2.37|
-4-*Universal Receiver [9]          21|10|9|-|13/96hrs|250|2.5|sta2.37|
-4-*Universal Receiver [10]         21|10|10|-|14/96hrs|250|2.5|sta2.37|
+4-* Universal Receiver [1]         21|10|1|-|5/96hrs|250|2.5|sta2.37|
+4-* Universal Receiver [2]         21|10|2|-|6/96hrs|250|2.5|sta2.37|
+4-* Universal Receiver [3]         21|10|3|-|7/96hrs|250|2.5|sta2.37|
+4-* Universal Receiver [4]         21|10|4|-|8/96hrs|250|2.5|sta2.37|
+4-* Universal Receiver [5]         21|10|5|-|9/96hrs|250|2.5|sta2.37|
+4-* Universal Receiver [6]         21|10|6|-|10/96hrs|250|2.5|sta2.37|
+4-* Universal Receiver [7]         21|10|7|-|11/96hrs|250|2.5|sta2.37|
+4-* Universal Receiver [8]         21|10|8|-|12/96hrs|250|2.5|sta2.37|
+4-* Universal Receiver [9]         21|10|9|-|13/96hrs|250|2.5|sta2.37|
+4-* Universal Receiver [10]        21|10|10|-|14/96hrs|250|2.5|sta2.37|
 2-Surveillance measures
 3-Film Camera
 4-* Commercial Grade               10|6|.5|4/24hrs|250|1|sta2.38|
@@ -6058,7 +6058,7 @@
 1-CYBER WEAPONS
 2-* BigKnucks(CYB)                 1|||(STR+1)M Stun|||0|1|cp.15|||
 2-* BigRipp(CYB)                   1|||(STR+2)M|||0|1|cb4.136|||
-2-* BigRipp wth.Cybrarm mnting(CYB)1|||(STR+2)M|||0|1|cb4.136|||
+2-* BigRipp w/Cyberarm mounting(CYB) 1|||(STR+2)M|||0|1|cb4.136|||
 2-* +BlitzKrieg Arc Thrower(CYB)   1|||10S Stun|||0|1|cb4.136|||
 2-* Chainripp:HUSQVARNA(CYB)       1|||(STR)S|||0|1|cb3.99|||
 2-* Cutting Torch(CYB)             1|||8S|||0|1|cb1.27|||
@@ -6074,7 +6074,7 @@
 2-* CyGun Derringer(HOPist)(CYB)   3||||6L|||220|1||cb1.27|||
 2-* CyGun GrenLcher(GrLn)(CYB)     3||||DAM|||2500|1||cp.15|||
 2-* CyGun Flmethrow(FlThr)(CYB)    3||||10M|||1200|1||cp.15|||
-2-* CyberOptic Teargas Sprayer(CYB)3||||DAM|||2000|1||cb1.29|||
+2-* CyberOptic Teargas Sprayer(CYB) 3||||DAM|||2000|1||cb1.29|||
 2-* Fangs(CYB)                     1|5|-1|(STR+1)L|||0|1|mm.43|||
 2-* Fangs, Retract(CYB)            1|9|-1|(STR+1)L|||0|1|mm.43|||
 2-* Finger: Ballpoint(CYB)         1|||DAM|||0|1|cb4.134|||
