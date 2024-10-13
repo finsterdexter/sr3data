@@ -1,0 +1,1 @@
+The sqlite data.db is being generated without errors, but there are properties in the json that do not have columns in the data.db, so that needs to be rectified.

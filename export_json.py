@@ -5,7 +5,6 @@ from item import Item
 
 import parse_functions
 from skill import Skill, SkillSpecialization
-from adept import AdeptPower
 
 all_skills = []
 with open("data/SKILLS.DAT") as skills_file:
@@ -130,14 +129,14 @@ all_gear = parse_functions.parse_file("data/GEAR.DAT")
 with open("output/gear.json", "w", encoding="utf-8") as output:
 	json.dump(all_gear, output, indent=2, default=lambda o: o.__dict__)
 
-all_gear = parse_functions.parse_file("data/MAGEGEAR.DAT")
+all_mage_gear = parse_functions.parse_file("data/MAGEGEAR.DAT")
 with open("output/magegear.json", "w", encoding="utf-8") as output:
-	json.dump(all_gear, output, indent=2, default=lambda o: o.__dict__)
+	json.dump(all_mage_gear, output, indent=2, default=lambda o: o.__dict__)
 
-all_gear = parse_functions.parse_file("data/SPELLS.DAT")
+all_spells = parse_functions.parse_file("data/SPELLS.DAT")
 with open("output/spells.json", "w", encoding="utf-8") as output:
-	json.dump(all_gear, output, indent=2, default=lambda o: o.__dict__)
+	json.dump(all_spells, output, indent=2, default=lambda o: o.__dict__)
 
-all_gear = parse_functions.parse_file("data/vehicles.dat")
+all_vehicles = parse_functions.parse_file("data/vehicles.dat")
 with open("output/vehicles.json", "w", encoding="utf-8") as output:
-	json.dump(all_gear, output, indent=2, default=lambda o: o.__dict__)
+	json.dump(all_vehicles, output, indent=2, default=lambda o: o.__dict__)
