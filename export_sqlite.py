@@ -179,11 +179,11 @@ tables_info = {
         'columns': ['name', 'BioIndex', 'Availability', '$Cost', 'Notes', 'category_tree', 'BookPage', 'Mods', 'Street Index', 'Type', 'type_id']
     },
     'critter_powers': {
-        'data_file': 'data/CPowers.dat',
+        'data_file': 'data/CPowers.DAT',
         'columns': ['name', 'Notes', 'BookPage', 'Type', 'Action', 'Range', 'Duration', 'type_id']
     },
     'critter_weaknesses': {
-        'data_file': 'data/CWeak.dat',
+        'data_file': 'data/CWeak.DAT',
         'columns': ['name', 'Notes', 'BookPage', 'type_id']
     },
     'cyberware': {
@@ -197,10 +197,6 @@ tables_info = {
     'edges_flaws': {
         'data_file': 'data/EDGE.DAT',
         'columns': ['name', 'Notes', 'BookPage', 'type_id', 'category_tree', '$Cost', 'EorF', 'Mods']
-    },
-    'gear': {
-        'data_file': 'data/GEAR.DAT',
-        'columns': ['name', 'Notes', 'BookPage', 'category_tree', 'Availability', '$Cost', 'Legal', 'Street Index', 'type_id', 'Concealability', 'Reach', 'Damage', 'Weight']
     },
     'magegear': {
         'data_file': 'data/MAGEGEAR.DAT',
@@ -220,6 +216,202 @@ tables_info = {
 for table_name, info in tables_info.items():
     process_items_table(table_name, info['data_file'], info['columns'])
 
+# Processing GEAR.DAT with parent/child table structure
+# Parent table: gear (common fields)
+# Child tables: gear_melee, gear_ranged, gear_armor, gear_accessories,
+#               gear_electronics, gear_chemicals, gear_rated, gear_fireforce
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS gear (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        type_id INTEGER,
+        category_tree TEXT,
+        concealability TEXT,
+        weight TEXT,
+        cost TEXT,
+        availability TEXT,
+        street_index TEXT,
+        book_page TEXT
+    )
+''')
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS gear_melee (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        gear_id INTEGER,
+        reach TEXT,
+        damage TEXT,
+        legal TEXT,
+        notes TEXT,
+        FOREIGN KEY(gear_id) REFERENCES gear(id)
+    )
+''')
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS gear_ranged (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        gear_id INTEGER,
+        str_min TEXT,
+        ammunition TEXT,
+        mode TEXT,
+        damage TEXT,
+        accessories TEXT,
+        intelligence TEXT,
+        blast TEXT,
+        scatter TEXT,
+        legal TEXT,
+        FOREIGN KEY(gear_id) REFERENCES gear(id)
+    )
+''')
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS gear_armor (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        gear_id INTEGER,
+        ballistic TEXT,
+        impact TEXT,
+        FOREIGN KEY(gear_id) REFERENCES gear(id)
+    )
+''')
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS gear_accessories (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        gear_id INTEGER,
+        mount TEXT,
+        rating TEXT,
+        notes TEXT,
+        FOREIGN KEY(gear_id) REFERENCES gear(id)
+    )
+''')
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS gear_electronics (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        gear_id INTEGER,
+        mag TEXT,
+        type TEXT,
+        rating TEXT,
+        memory TEXT,
+        form TEXT,
+        eccm TEXT,
+        data_encrypt TEXT,
+        comm_encrypt TEXT,
+        legal TEXT,
+        FOREIGN KEY(gear_id) REFERENCES gear(id)
+    )
+''')
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS gear_chemicals (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        gear_id INTEGER,
+        addiction TEXT,
+        tolerance TEXT,
+        edge TEXT,
+        origin TEXT,
+        speed TEXT,
+        vector TEXT,
+        damage TEXT,
+        rating TEXT,
+        FOREIGN KEY(gear_id) REFERENCES gear(id)
+    )
+''')
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS gear_rated (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        gear_id INTEGER,
+        rating TEXT,
+        type TEXT,
+        FOREIGN KEY(gear_id) REFERENCES gear(id)
+    )
+''')
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS gear_fireforce (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        gear_id INTEGER,
+        points TEXT,
+        points_used TEXT,
+        notes TEXT,
+        FOREIGN KEY(gear_id) REFERENCES gear(id)
+    )
+''')
+
+# Map type_id to child table and field mappings
+gear_child_tables = {
+    # gear_melee: type 1
+    1: ('gear_melee', {'Reach': 'reach', 'Damage': 'damage', 'Legal': 'legal', 'Notes': 'notes'}),
+    # gear_ranged: types 2, 3, 4, 5, 27
+    2: ('gear_ranged', {'Str.Min.': 'str_min', 'Damage': 'damage', 'Legal': 'legal'}),
+    3: ('gear_ranged', {'Ammunition': 'ammunition', 'Mode': 'mode', 'Damage': 'damage', 'Accessories': 'accessories'}),
+    4: ('gear_ranged', {'Intelligence': 'intelligence', 'Damage': 'damage', 'Blast': 'blast', 'Scatter': 'scatter'}),
+    5: ('gear_ranged', {'Damage': 'damage'}),
+    27: ('gear_ranged', {'Intelligence': 'intelligence', 'Accessories': 'accessories'}),
+    # gear_armor: type 8
+    8: ('gear_armor', {'Ballistic': 'ballistic', 'Impact': 'impact'}),
+    # gear_accessories: type 6
+    6: ('gear_accessories', {'Mount': 'mount', 'Rating': 'rating', 'Notes': 'notes'}),
+    # gear_electronics: types 9, 20, 30
+    9: ('gear_electronics', {'Mag:': 'mag'}),
+    20: ('gear_electronics', {'Type': 'type', 'Rating': 'rating', 'Memory': 'memory'}),
+    30: ('gear_electronics', {'Form': 'form', 'Memory': 'memory', 'ECCM': 'eccm', 'Data Encrypt': 'data_encrypt', 'Comm Encrypt': 'comm_encrypt', 'Legal': 'legal'}),
+    # gear_chemicals: types 22, 29, 34
+    22: ('gear_chemicals', {'Addiction': 'addiction', 'Tolerance': 'tolerance', 'Edge': 'edge'}),
+    29: ('gear_chemicals', {'Origin': 'origin', 'Rating': 'rating', 'Speed': 'speed', 'Vector': 'vector'}),
+    34: ('gear_chemicals', {'Damage': 'damage', 'Vector': 'vector', 'Speed': 'speed'}),
+    # gear_rated: types 7, 13, 15, 21, 35, 36, 38
+    7: ('gear_rated', {'Rating': 'rating'}),
+    13: ('gear_rated', {'Rating': 'rating'}),
+    15: ('gear_rated', {}),  # magical equipment - no unique fields after dropping karma_cost
+    21: ('gear_rated', {'Rating': 'rating'}),
+    35: ('gear_rated', {'Type': 'type', 'Rating': 'rating'}),
+    36: ('gear_rated', {'Rating': 'rating'}),
+    38: ('gear_rated', {'Rating': 'rating'}),
+    # gear_fireforce: types 31, 32
+    31: ('gear_fireforce', {'Points': 'points', 'Notes': 'notes'}),
+    32: ('gear_fireforce', {'Points Used': 'points_used', 'Notes': 'notes'}),
+    # No child table needed: types 10, 11, 14, 26, 28
+}
+
+# Parse gear items
+all_gear = parse_functions.parse_file("data/GEAR.DAT")
+
+for item in all_gear:
+    # Insert into parent gear table
+    cursor.execute('''
+        INSERT INTO gear (name, type_id, category_tree, concealability, weight, cost, availability, street_index, book_page)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ''', (
+        item.name,
+        item.type_id,
+        " > ".join(item.category_tree) if hasattr(item, 'category_tree') else None,
+        getattr(item, 'Concealability', None),
+        getattr(item, 'Weight', None),
+        getattr(item, '$Cost', None),
+        getattr(item, 'Availability', None),
+        getattr(item, 'Street Index', None),
+        getattr(item, 'Book.Page', None)
+    ))
+    gear_id = cursor.lastrowid
+
+    # Insert into child table if applicable
+    type_id = int(item.type_id)
+    if type_id in gear_child_tables:
+        child_table, field_map = gear_child_tables[type_id]
+        if field_map:  # Only insert if there are fields to map
+            columns = ['gear_id'] + list(field_map.values())
+            values = [gear_id] + [getattr(item, src_field, None) for src_field in field_map.keys()]
+            placeholders = ', '.join(['?'] * len(values))
+            cursor.execute(f'''
+                INSERT INTO {child_table} ({', '.join(columns)})
+                VALUES ({placeholders})
+            ''', values)
+
+conn.commit()
+
 # Processing contacts separately due to custom parsing
 cursor.execute('''
     CREATE TABLE IF NOT EXISTS contacts (
@@ -230,7 +422,7 @@ cursor.execute('''
     )
 ''')
 
-with open("data/contacts.dat") as contacts_file:
+with open("data/contacts.dat", errors='replace') as contacts_file:
     types = dict()
     category_tree = list()
     current_category_level = 0

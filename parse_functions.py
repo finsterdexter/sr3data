@@ -61,7 +61,7 @@ def parse_category_tree_branch(line: str, category_tree: list, current_category_
 
 def parse_file(dat_file_path: str, no_category: bool = False):
 	all_items = []
-	with open(dat_file_path) as filep:
+	with open(dat_file_path, errors='replace') as filep:
 		types = dict()
 		category_tree = list()
 		current_category_level = 0
