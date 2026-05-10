@@ -3640,7 +3640,7 @@
     "Book.Page": "sr2.???"
   },
   {
-    "name": "H\u00ef\u00bf\u00bdmmerli Model 520    (HOPist)",
+    "name": "H\ufffdmmerli Model 520    (HOPist)",
     "type_id": "3",
     "category_tree": [
       "Weapons",
@@ -21076,7 +21076,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "2",
     "Ammunition": "20(c)",
@@ -21096,7 +21096,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "2",
     "Ammunition": "20(c)",
@@ -21116,7 +21116,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "2",
     "Ammunition": "20(c)",
@@ -21136,7 +21136,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "3",
     "Ammunition": "20(c)",
@@ -21156,7 +21156,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "3",
     "Ammunition": "20(c)",
@@ -21176,7 +21176,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "3",
     "Ammunition": "20(c)",
@@ -21196,7 +21196,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "3",
     "Ammunition": "20(c)",
@@ -21216,7 +21216,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "3",
     "Ammunition": "20(c)",
@@ -21236,7 +21236,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "2",
     "Ammunition": "30(c)",
@@ -21256,7 +21256,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "2",
     "Ammunition": "30(c)",
@@ -21276,7 +21276,7 @@
       "Weapons",
       "Firearms",
       "Assault rifles",
-      "Fusil Automatique L\u00ef\u00bf\u00bdgere"
+      "Fusil Automatique L\ufffdgere"
     ],
     "Concealability": "2",
     "Ammunition": "30(c)",
@@ -42665,7 +42665,7 @@
     "Book.Page": "sr2.???"
   },
   {
-    "name": "Wirtz-Bet\u00ef\u00bf\u00bdubung Rnds",
+    "name": "Wirtz-Bet\ufffdubung Rnds",
     "type_id": "5",
     "category_tree": [
       "Ammunition",
@@ -47381,7 +47381,7 @@
     "Book.Page": "sr2.???"
   },
   {
-    "name": "Tr\u00ef\u00bf\u00bdnengas-Minigranate",
+    "name": "Tr\ufffdnengas-Minigranate",
     "type_id": "5",
     "category_tree": [
       "Explosives",
@@ -49371,11 +49371,11 @@
     "Book.Page": "sr3.284"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"Ancien\" Shawl",
+    "name": "Armant\ufffd \"Ancien\" Shawl",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "14",
     "Ballistic": "1",
@@ -49387,11 +49387,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"Dallas\" Shirt",
+    "name": "Armant\ufffd \"Dallas\" Shirt",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "14",
     "Ballistic": ".75",
@@ -49403,11 +49403,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"Dallas\" Jacket",
+    "name": "Armant\ufffd \"Dallas\" Jacket",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "14",
     "Ballistic": "2",
@@ -49419,11 +49419,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"Dallas\" Short Jacket",
+    "name": "Armant\ufffd \"Dallas\" Short Jacket",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "14",
     "Ballistic": "1",
@@ -49435,11 +49435,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"Dallas\" Slacks",
+    "name": "Armant\ufffd \"Dallas\" Slacks",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "14",
     "Ballistic": ".5",
@@ -49451,11 +49451,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"Dallas\" Vest",
+    "name": "Armant\ufffd \"Dallas\" Vest",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "14",
     "Ballistic": "3",
@@ -49467,11 +49467,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"Executive Suite\" Tux",
+    "name": "Armant\ufffd \"Executive Suite\" Tux",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "12",
     "Ballistic": "3",
@@ -49483,11 +49483,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"London Fog\" Count",
+    "name": "Armant\ufffd \"London Fog\" Count",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "12",
     "Ballistic": "2",
@@ -49499,11 +49499,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"London Fog\" Chairman",
+    "name": "Armant\ufffd \"London Fog\" Chairman",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "12",
     "Ballistic": "2",
@@ -49515,11 +49515,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"London Fog\" Majesty",
+    "name": "Armant\ufffd \"London Fog\" Majesty",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "11",
     "Ballistic": "2",
@@ -49531,11 +49531,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"London Fog\" Merlin",
+    "name": "Armant\ufffd \"London Fog\" Merlin",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "11",
     "Ballistic": "2",
@@ -49547,11 +49547,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"London Fog\" Profsnl",
+    "name": "Armant\ufffd \"London Fog\" Profsnl",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "13",
     "Ballistic": "2",
@@ -49563,11 +49563,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"Starlight\" Dress",
+    "name": "Armant\ufffd \"Starlight\" Dress",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "13",
     "Ballistic": "1",
@@ -49579,11 +49579,11 @@
     "Book.Page": "cc.46"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"Tokyo\" Business Suit",
+    "name": "Armant\ufffd \"Tokyo\" Business Suit",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "13",
     "Ballistic": "2",
@@ -49595,11 +49595,11 @@
     "Book.Page": "cp.32"
   },
   {
-    "name": "Armant\u00ef\u00bf\u00bd \"Venetian\" Dress",
+    "name": "Armant\ufffd \"Venetian\" Dress",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Armant\u00ef\u00bf\u00bd"
+      "Armant\ufffd"
     ],
     "Concealability": "14",
     "Ballistic": "1",
@@ -50971,11 +50971,11 @@
     "Book.Page": "cc.49"
   },
   {
-    "name": "Zo\u00ef\u00bf\u00bd \"Country Club\" Blazer",
+    "name": "Zo\ufffd \"Country Club\" Blazer",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Zo\u00ef\u00bf\u00bd"
+      "Zo\ufffd"
     ],
     "Concealability": "13",
     "Ballistic": "3",
@@ -50987,11 +50987,11 @@
     "Book.Page": "r2.???"
   },
   {
-    "name": "Zo\u00ef\u00bf\u00bd \"Futura\" Blazer",
+    "name": "Zo\ufffd \"Futura\" Blazer",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Zo\u00ef\u00bf\u00bd"
+      "Zo\ufffd"
     ],
     "Concealability": "13",
     "Ballistic": "2",
@@ -51003,11 +51003,11 @@
     "Book.Page": "cc.49"
   },
   {
-    "name": "Zo\u00ef\u00bf\u00bd \"Futura\" Slacks",
+    "name": "Zo\ufffd \"Futura\" Slacks",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Zo\u00ef\u00bf\u00bd"
+      "Zo\ufffd"
     ],
     "Concealability": "13",
     "Ballistic": "1",
@@ -51019,11 +51019,11 @@
     "Book.Page": "cc.49"
   },
   {
-    "name": "Zo\u00ef\u00bf\u00bd \"Futura\" Sweater",
+    "name": "Zo\ufffd \"Futura\" Sweater",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Zo\u00ef\u00bf\u00bd"
+      "Zo\ufffd"
     ],
     "Concealability": "13",
     "Ballistic": "2",
@@ -51035,11 +51035,11 @@
     "Book.Page": "cc.49"
   },
   {
-    "name": "Zo\u00ef\u00bf\u00bd \"Heritage\" Cultural",
+    "name": "Zo\ufffd \"Heritage\" Cultural",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Zo\u00ef\u00bf\u00bd"
+      "Zo\ufffd"
     ],
     "Concealability": "12",
     "Ballistic": "4",
@@ -51051,11 +51051,11 @@
     "Book.Page": "cc.49"
   },
   {
-    "name": "Zo\u00ef\u00bf\u00bd \"Highland Laird\" Kilt",
+    "name": "Zo\ufffd \"Highland Laird\" Kilt",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Zo\u00ef\u00bf\u00bd"
+      "Zo\ufffd"
     ],
     "Concealability": "14",
     "Ballistic": "4",
@@ -51067,11 +51067,11 @@
     "Book.Page": "sr2.???"
   },
   {
-    "name": "Zo\u00ef\u00bf\u00bd \"Retrovision\" Skirt Suit",
+    "name": "Zo\ufffd \"Retrovision\" Skirt Suit",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Zo\u00ef\u00bf\u00bd"
+      "Zo\ufffd"
     ],
     "Concealability": "13",
     "Ballistic": "3",
@@ -51083,11 +51083,11 @@
     "Book.Page": "sr2.???"
   },
   {
-    "name": "Zo\u00ef\u00bf\u00bd \"Second Skin\" Bodysuit",
+    "name": "Zo\ufffd \"Second Skin\" Bodysuit",
     "type_id": "8",
     "category_tree": [
       "Clothing and armor",
-      "Zo\u00ef\u00bf\u00bd"
+      "Zo\ufffd"
     ],
     "Concealability": "15",
     "Ballistic": "2",
@@ -57878,7 +57878,7 @@
     "Book.Page": "sr3.287"
   },
   {
-    "name": "Ares Attach\u00ef\u00bf\u00bd",
+    "name": "Ares Attach\ufffd",
     "type_id": "30",
     "category_tree": [
       "Lifestyle",
@@ -58338,7 +58338,7 @@
     "Book.Page": "nagee7.27"
   },
   {
-    "name": "\u00ef\u00bf\u00bdbertragen Munin",
+    "name": "\ufffdbertragen Munin",
     "type_id": "30",
     "category_tree": [
       "Lifestyle",
@@ -60966,7 +60966,7 @@
     "Book.Page": "tss.10"
   },
   {
-    "name": "SIN/CredStk Chkr [1](5000\u00ef\u00bf\u00bd)",
+    "name": "SIN/CredStk Chkr [1](5000\ufffd)",
     "type_id": "21",
     "category_tree": [
       "Lifestyle",
@@ -60982,7 +60982,7 @@
     "Book.Page": "sr3.287"
   },
   {
-    "name": "SIN/CredStk Chkr [2-3](20000\u00ef\u00bf\u00bd)",
+    "name": "SIN/CredStk Chkr [2-3](20000\ufffd)",
     "type_id": "21",
     "category_tree": [
       "Lifestyle",
@@ -60998,7 +60998,7 @@
     "Book.Page": "sr3.287"
   },
   {
-    "name": "SIN/CredStkChkPort[2-3](20000\u00ef\u00bf\u00bd)",
+    "name": "SIN/CredStkChkPort[2-3](20000\ufffd)",
     "type_id": "21",
     "category_tree": [
       "Lifestyle",
@@ -61014,7 +61014,7 @@
     "Book.Page": "sr3.287"
   },
   {
-    "name": "SIN/CredStk Chkr[4-5](200000\u00ef\u00bf\u00bd)",
+    "name": "SIN/CredStk Chkr[4-5](200000\ufffd)",
     "type_id": "21",
     "category_tree": [
       "Lifestyle",
@@ -61030,7 +61030,7 @@
     "Book.Page": "sr3.287"
   },
   {
-    "name": "SIN/CredStk Chkr[6-7](500000\u00ef\u00bf\u00bd)",
+    "name": "SIN/CredStk Chkr[6-7](500000\ufffd)",
     "type_id": "21",
     "category_tree": [
       "Lifestyle",
@@ -61046,7 +61046,7 @@
     "Book.Page": "sr3.287"
   },
   {
-    "name": "SIN/CredStkChkr[8-9](1000000\u00ef\u00bf\u00bd)",
+    "name": "SIN/CredStkChkr[8-9](1000000\ufffd)",
     "type_id": "21",
     "category_tree": [
       "Lifestyle",

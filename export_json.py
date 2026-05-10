@@ -73,7 +73,7 @@ with open("output/books.json", "w", encoding="utf-8") as output:
 
 
 all_contacts = []
-with open("data/contacts.dat") as contacts_file:
+with open("data/contacts.dat", errors='replace') as contacts_file:
 	types = dict()
 	category_tree = list()
 	current_category_level = 0
@@ -105,11 +105,11 @@ with open("output/contacts.json", "w", encoding="utf-8") as output:
 	json.dump(all_contacts, output, indent=2, default=lambda o: o.__dict__)
 
 
-all_critter_powers = parse_functions.parse_file("data/CPowers.dat", no_category=True)
+all_critter_powers = parse_functions.parse_file("data/CPowers.DAT", no_category=True)
 with open("output/critter_powers.json", "w", encoding="utf-8") as output:
 	json.dump(all_critter_powers, output, indent=2, default=lambda o: o.__dict__)
 
-all_critter_weaknesses = parse_functions.parse_file("data/CWeak.dat", no_category=True)
+all_critter_weaknesses = parse_functions.parse_file("data/CWeak.DAT", no_category=True)
 with open("output/critter_weaknesses.json", "w", encoding="utf-8") as output:
 	json.dump(all_critter_weaknesses, output, indent=2, default=lambda o: o.__dict__)
 
@@ -140,3 +140,7 @@ with open("output/spells.json", "w", encoding="utf-8") as output:
 all_vehicles = parse_functions.parse_file("data/vehicles.dat")
 with open("output/vehicles.json", "w", encoding="utf-8") as output:
 	json.dump(all_vehicles, output, indent=2, default=lambda o: o.__dict__)
+
+all_totems = parse_functions.parse_totems("data/TOTEMS.DAT")
+with open("output/totems.json", "w", encoding="utf-8") as output:
+	json.dump(all_totems, output, indent=2, default=lambda o: o.__dict__)

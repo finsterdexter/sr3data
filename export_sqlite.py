@@ -458,5 +458,35 @@ with open("data/contacts.dat", errors='replace') as contacts_file:
 
 conn.commit()
 
+# Processing TOTEMS.DAT
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS totems (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name TEXT,
+        category TEXT,
+        book TEXT,
+        page TEXT,
+        type TEXT,
+        environment TEXT,
+        description TEXT,
+        advantages TEXT,
+        disadvantages TEXT,
+        notes TEXT
+    )
+''')
+
+for totem in parse_functions.parse_totems("data/TOTEMS.DAT"):
+    cursor.execute('''
+        INSERT INTO totems (name, category, book, page, type, environment,
+                            description, advantages, disadvantages, notes)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ''', (
+        totem["name"], totem["category"], totem["book"], totem["page"],
+        totem["type"], totem["environment"], totem["description"],
+        totem["advantages"], totem["disadvantages"], totem["notes"],
+    ))
+
+conn.commit()
+
 # Close the database connection
 conn.close()

@@ -106,3 +106,122 @@ def parse_file(dat_file_path: str, no_category: bool = False):
 				this_item[item_type["field_names"][i]] = splits[i+1].strip()
 			all_items.append(this_item)
 	return all_items
+
+
+def parse_totems(dat_file_path: str):
+	"""
+	Parse TOTEMS.DAT. Format:
+	  ! ...              comment
+	  \\ CATEGORY NAME   category header (e.g. BASIC, TOTEM, NATURE, ...)
+	  * Name|Book.Page|Type
+	  <P>ENV: ...</P>    optional paragraphs, may span multiple lines
+	  <P>DESC: ...</P>
+	  <P>ADVAN: ...</P>
+	  <P>DISADVAN: ...</P>
+	  <P>free-form</P>   anything unlabeled lands in notes
+	"""
+	label_key = {
+		"ENV": "environment",
+		"DESC": "description",
+		"ADVAN": "advantages",
+		"DISADVAN": "disadvantages",
+	}
+	label_re = re.compile(r"^(ENV|DESC|ADVAN|DISADVAN)\s*:\s*", re.IGNORECASE)
+	open_re = re.compile(r"<[Pp]>")
+	close_re = re.compile(r"</[Pp]>")
+	tag_strip_re = re.compile(r"</?[Pp]>")
+
+	def new_totem(name, book_page, totem_type, category):
+		book, _, page = book_page.partition(".")
+		return {
+			"name": name,
+			"category": category,
+			"book": book.strip(),
+			"page": page.strip(),
+			"type": totem_type.strip(),
+			"environment": "",
+			"description": "",
+			"advantages": "",
+			"disadvantages": "",
+			"notes": "",
+		}
+
+	def flush_paragraph(totem, buf):
+		text = buf.strip()
+		if not text:
+			return
+		m = label_re.match(text)
+		if m:
+			key = label_key[m.group(1).upper()]
+			body = text[m.end():].strip()
+		else:
+			key = "notes"
+			body = text
+		if totem[key]:
+			totem[key] += "\n" + body
+		else:
+			totem[key] = body
+
+	totems = []
+	current_category = None
+	current = None
+	paragraph_buf = None
+
+	with open(dat_file_path, errors='replace') as filep:
+		for raw in filep:
+			line = raw.rstrip()
+			if not line or line.startswith("!"):
+				continue
+			if line.startswith("\\"):
+				if current is not None:
+					if paragraph_buf is not None:
+						flush_paragraph(current, paragraph_buf)
+						paragraph_buf = None
+					totems.append(current)
+					current = None
+				current_category = line.lstrip("\\").strip()
+				continue
+			if line.startswith("*"):
+				if current is not None:
+					if paragraph_buf is not None:
+						flush_paragraph(current, paragraph_buf)
+						paragraph_buf = None
+					totems.append(current)
+				parts = line[1:].split("|")
+				name = parts[0].strip()
+				book_page = parts[1].strip() if len(parts) > 1 else ""
+				totem_type = parts[2].strip() if len(parts) > 2 else ""
+				totem_type = tag_strip_re.sub("", totem_type).strip()
+				current = new_totem(name, book_page, totem_type, current_category)
+				continue
+			if current is None:
+				continue
+
+			remaining = line
+			while remaining:
+				if paragraph_buf is None:
+					m = open_re.search(remaining)
+					if m is None:
+						break
+					paragraph_buf = ""
+					remaining = remaining[m.end():]
+				else:
+					m = close_re.search(remaining)
+					if m is None:
+						chunk = remaining.strip()
+						if chunk:
+							paragraph_buf += (" " if paragraph_buf else "") + chunk
+						remaining = ""
+					else:
+						chunk = remaining[:m.start()].strip()
+						if chunk:
+							paragraph_buf += (" " if paragraph_buf else "") + chunk
+						flush_paragraph(current, paragraph_buf)
+						paragraph_buf = None
+						remaining = remaining[m.end():]
+
+	if current is not None:
+		if paragraph_buf is not None:
+			flush_paragraph(current, paragraph_buf)
+		totems.append(current)
+	return totems

@@ -3998,7 +3998,7 @@
     "Capacity": "",
     "Category": "",
     "Street Index": "1.20",
-    "Notes": "Like Light Tattoos, can be tuned at cost of 100\u00ef\u00bf\u00bd"
+    "Notes": "Like Light Tattoos, can be tuned at cost of 100\ufffd"
   },
   {
     "name": "Smartlink",
@@ -9609,7 +9609,7 @@
     "Capacity": "",
     "Category": "H",
     "Street Index": "2.00",
-    "Notes": "Requires Adapter (100\u00ef\u00bf\u00bd)"
+    "Notes": "Requires Adapter (100\ufffd)"
   },
   {
     "name": "Data Lock",
@@ -15284,7 +15284,7 @@
     "Capacity": "",
     "Category": "F",
     "Street Index": "2.00",
-    "Notes": "Penetrate Barrier Rating 4, Repl.cost 1200\u00ef\u00bf\u00bd"
+    "Notes": "Penetrate Barrier Rating 4, Repl.cost 1200\ufffd"
   },
   {
     "name": "Foot, Anchor",
@@ -16003,7 +16003,7 @@
     "Capacity": "",
     "Category": "D",
     "Street Index": "1.00",
-    "Notes": "Damage (str+3)M Stun when ejected, replacement cost 3\u00ef\u00bf\u00bd"
+    "Notes": "Damage (str+3)M Stun when ejected, replacement cost 3\ufffd"
   },
   {
     "name": "Hand, Medical Modular",
@@ -18841,7 +18841,7 @@
     "Notes": ""
   },
   {
-    "name": "Mood Skin (per m\u00ef\u00bf\u00bd)",
+    "name": "Mood Skin (per m\ufffd)",
     "type_id": "1",
     "category_tree": [
       "VARIOUS"

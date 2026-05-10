@@ -2600,7 +2600,7 @@
     "$Cost": "-1",
     "EorF": "F",
     "Mods": "",
-    "Notes": "Character has a day job. Salary: 1.000 \u00ef\u00bf\u00bd per month."
+    "Notes": "Character has a day job. Salary: 1.000 \ufffd per month."
   },
   {
     "name": "Day Job 20hrs/week->",
@@ -2612,7 +2612,7 @@
     "$Cost": "-2",
     "EorF": "F",
     "Mods": "",
-    "Notes": "Character has a day job. Salary: 2.500 \u00ef\u00bf\u00bd per month."
+    "Notes": "Character has a day job. Salary: 2.500 \ufffd per month."
   },
   {
     "name": "Day Job 40hrs/week->",
@@ -2624,7 +2624,7 @@
     "$Cost": "-3",
     "EorF": "F",
     "Mods": "",
-    "Notes": "Character has a day job. Salary: 5.000 \u00ef\u00bf\u00bd per month."
+    "Notes": "Character has a day job. Salary: 5.000 \ufffd per month."
   },
   {
     "name": "Dependent(-1)->",
