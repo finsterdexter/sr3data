@@ -488,5 +488,76 @@ for totem in parse_functions.parse_totems("data/TOTEMS.DAT"):
 
 conn.commit()
 
+# Rules glossary — hand-authored explanatory text shown as in-app tooltips
+# next to rules-bound widgets (spell flags, skill specializations, starting
+# spirits cost, etc.). Keyed by short ids the C# code looks up.
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS rules_glossary (
+        key TEXT PRIMARY KEY,
+        title TEXT NOT NULL,
+        body TEXT NOT NULL,
+        cost_note TEXT,
+        book TEXT,
+        page INTEGER
+    )
+''')
+
+rules_glossary_entries = [
+    (
+        "skill.specialization",
+        "Skill Specialization",
+        "A specialization narrows a base skill to a particular form, style, or "
+        "subset, granting greater proficiency in that focus area. Listed in "
+        "parentheses after the skill name (e.g. Pistols (Ares Predator)). "
+        "At character creation, choose the specialization and give it a rating "
+        "one point higher than the base skill; subtract one from the base "
+        "skill rating. Each character may have only one specialization per "
+        "base skill at character creation.",
+        "Specialization rating = base skill + 1, base skill rating - 1",
+        "SR3", 82,
+    ),
+    (
+        "spell.fetish",
+        "Fetish (-1 modifier)",
+        "Casting a fetish-limited spell requires an enchanted re-use object "
+        "known as a fetish. Fetishes are available from talismongers, made "
+        "for a specific category of spells (combat, detection, and so on), "
+        "and attuned to the magician when the spell is learned. Without the "
+        "fetish on the magician's body, the limited spell cannot be cast.",
+        "-1 modifier to spell Force for Drain, or to learning Karma cost",
+        "SR3", 180,
+    ),
+    (
+        "spell.exclusive",
+        "Exclusive (-2 modifier)",
+        "An exclusive limited spell requires more concentration than an "
+        "ordinary spell, making casting and sustaining the spell an Exclusive "
+        "Action. The limit reduces the spell's Force for Drain, or its "
+        "learning Karma cost - the player chooses which when the spell is "
+        "learned.",
+        "-2 modifier to spell Force for Drain, or to learning Karma cost",
+        "SR3", 180,
+    ),
+    (
+        "spirits.starting",
+        "Starting Bound Spirits",
+        "A magician character may purchase starting bound spirits at character "
+        "creation using Spell Points. Each point of the spirit's Force costs "
+        "one Spell Point, and each owed service costs two Spell Points. The "
+        "spirit's Force may not exceed the character's Magic Attribute, and "
+        "the character may bind no more spirits at one time than his or her "
+        "Charisma.",
+        "Cost = Force + (Services x 2) Spell Points",
+        "SR3", 184,
+    ),
+]
+
+cursor.executemany(
+    "INSERT OR REPLACE INTO rules_glossary (key, title, body, cost_note, book, page) "
+    "VALUES (?, ?, ?, ?, ?, ?)",
+    rules_glossary_entries,
+)
+conn.commit()
+
 # Close the database connection
 conn.close()
