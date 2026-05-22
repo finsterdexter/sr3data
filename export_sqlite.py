@@ -224,16 +224,6 @@ tables_info = {
 for table_name, info in tables_info.items():
     process_items_table(table_name, info['data_file'], info['columns'])
 
-# Overlay R3 rules data onto vehicle gear rows. The vehicles table now also
-# carries cf_consumed / load_kg_formula / mount_points / engine_track columns
-# for mods (rows under "Vehicle Gear > ..."). Authoring lives in the
-# vehicle_gear_rules.json file alongside the .DAT inputs; this script reads
-# the JSON and runs UPDATE statements matching on (category_tree, name).
-cursor.execute("ALTER TABLE vehicles ADD COLUMN cf_consumed REAL")
-cursor.execute("ALTER TABLE vehicles ADD COLUMN load_kg_formula TEXT")
-cursor.execute("ALTER TABLE vehicles ADD COLUMN mount_points INTEGER")
-cursor.execute("ALTER TABLE vehicles ADD COLUMN engine_track TEXT")
-
 # Parsed pair-split columns. Every paired raw field (Handling="3/4",
 # SpeedAccel="220/13", BodyArmor="2/2", etc.) gets split into two TEXT
 # columns holding the literal halves on either side of the top-level '/'.
@@ -314,34 +304,6 @@ for row in rows:
             f"UPDATE vehicles SET {', '.join(sets)} WHERE id = ?",
             args,
         )
-conn.commit()
-
-with open("data/vehicle_gear_rules.json") as rules_file:
-    rules_doc = json.load(rules_file)
-
-unmatched = []
-for entry in rules_doc.get("entries", []):
-    result = cursor.execute(
-        "UPDATE vehicles SET cf_consumed = ?, load_kg_formula = ?, "
-        "mount_points = ?, engine_track = ? "
-        "WHERE category_tree = ? AND name = ?",
-        (
-            entry.get("cf_consumed"),
-            entry.get("load_kg_formula"),
-            entry.get("mount_points"),
-            entry.get("engine_track"),
-            entry["category_tree"],
-            entry["name"],
-        ),
-    )
-    if cursor.rowcount == 0:
-        unmatched.append((entry["category_tree"], entry["name"]))
-
-if unmatched:
-    print(f"WARNING: {len(unmatched)} vehicle_gear_rules entries did not match any row:")
-    for ct, n in unmatched:
-        print(f"  {ct!r} / {n!r}")
-
 conn.commit()
 
 # Processing GEAR.DAT with parent/child table structure
