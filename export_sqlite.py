@@ -208,7 +208,15 @@ tables_info = {
     },
     'vehicles': {
         'data_file': 'data/vehicles.dat',
-        'columns': ['name', 'type_id', 'category_tree', 'Handling', 'Speed', 'Body', 'Armor', 'Sig', 'Apilot', 'Availability', '$Cost', 'Street Index', 'BookPage', 'Speed/Accel', 'Body/Armor', 'Sig/Autonav', 'Pilot/Sensor', 'Cargo/Load', 'Seating', 'Notes']
+        # The vehicles table is a catch-all for three .dat type families:
+        #   17 (SR2 Cars): Handling, Speed, Body, Armor, Sig, Apilot, ...
+        #   24 (R3 Cars2): Handling, Speed/Accel, Body/Armor, Sig/Autonav,
+        #                  Pilot/Sensor, Cargo/Load, Seating, ...
+        #   23 (Vehicle modifications): Equipment, Base Time/Skill Test, CF, Load, Notes, ...
+        # Each row populates whichever subset of columns its type defines;
+        # the rest stay NULL. The export rule "no values dropped" means we
+        # list every union member here.
+        'columns': ['name', 'type_id', 'category_tree', 'Handling', 'Speed', 'Body', 'Armor', 'Sig', 'Apilot', 'Availability', '$Cost', 'Street Index', 'BookPage', 'Speed/Accel', 'Body/Armor', 'Sig/Autonav', 'Pilot/Sensor', 'Cargo/Load', 'Seating', 'Notes', 'Equipment', 'Base Time/Skill Test', 'CF', 'Load']
     }
 }
 
