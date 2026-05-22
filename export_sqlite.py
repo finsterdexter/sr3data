@@ -226,6 +226,88 @@ cursor.execute("ALTER TABLE vehicles ADD COLUMN load_kg_formula TEXT")
 cursor.execute("ALTER TABLE vehicles ADD COLUMN mount_points INTEGER")
 cursor.execute("ALTER TABLE vehicles ADD COLUMN engine_track TEXT")
 
+# Parsed pair-split columns. Every paired raw field (Handling="3/4",
+# SpeedAccel="220/13", BodyArmor="2/2", etc.) gets split into two TEXT
+# columns holding the literal halves on either side of the top-level '/'.
+# The split is paren-aware so values like "(7(7)/6(4))/4" don't get
+# misclassified. Single-value rows ("special", "5", "-") leave the parsed
+# columns NULL — the raw column is the source of truth there. Multi-mode
+# rows like "(4)/(4/8)/(4)" (three top-level groups) likewise leave the
+# parsed columns NULL; the UI falls back to the raw text. No int conversion
+# happens here — the parsed columns are TEXT to preserve every weird half
+# ("-", "75(105)", etc.) without coercion.
+parsed_pair_columns = [
+    ("handling_on",      "handling_off",      "Handling"),
+    ("speed_cruise_sr2", "speed_max_sr2",     "Speed"),
+    ("speed_r3",         "acceleration_r3",   "SpeedAccel"),
+    ("body_r3",          "armor_r3",          "BodyArmor"),
+    ("sig_r3",           "autonav_r3",        "SigAutonav"),
+    ("pilot_r3",         "sensor_r3",         "PilotSensor"),
+    ("cargo_r3",         "load_r3",           "CargoLoad"),
+]
+for left, right, _ in parsed_pair_columns:
+    cursor.execute(f"ALTER TABLE vehicles ADD COLUMN {left} TEXT")
+    cursor.execute(f"ALTER TABLE vehicles ADD COLUMN {right} TEXT")
+
+
+def split_pair_paren_aware(raw):
+    """Split `raw` on the first top-level '/' (depth 0 outside parens).
+    Returns (left, right) when exactly one top-level '/' is found, else
+    (None, None). Multi-mode values like "(4)/(4/8)/(4)" have three
+    top-level groups and are intentionally not split (per UI fallback rule)."""
+    if raw is None:
+        return (None, None)
+    parts = []
+    current = []
+    depth = 0
+    for ch in raw:
+        if ch == '(':
+            depth += 1
+            current.append(ch)
+        elif ch == ')':
+            depth = max(0, depth - 1)
+            current.append(ch)
+        elif ch == '/' and depth == 0:
+            parts.append(''.join(current))
+            current = []
+        else:
+            current.append(ch)
+    parts.append(''.join(current))
+    if len(parts) != 2:
+        return (None, None)
+    return (parts[0], parts[1])
+
+
+# Walk every vehicle row once and populate the parsed pair columns.
+rows = cursor.execute("SELECT id, Handling, Speed, SpeedAccel, BodyArmor, "
+                      "SigAutonav, PilotSensor, CargoLoad FROM vehicles").fetchall()
+for row in rows:
+    row_id = row[0]
+    raw_values = {
+        "Handling":    row[1],
+        "Speed":       row[2],
+        "SpeedAccel":  row[3],
+        "BodyArmor":   row[4],
+        "SigAutonav":  row[5],
+        "PilotSensor": row[6],
+        "CargoLoad":   row[7],
+    }
+    sets = []
+    args = []
+    for left, right, source in parsed_pair_columns:
+        l, r = split_pair_paren_aware(raw_values[source])
+        if l is not None:
+            sets.append(f"{left} = ?")
+            sets.append(f"{right} = ?")
+            args.extend([l, r])
+    if sets:
+        args.append(row_id)
+        cursor.execute(
+            f"UPDATE vehicles SET {', '.join(sets)} WHERE id = ?",
+            args,
+        )
+conn.commit()
+
 with open("data/vehicle_gear_rules.json") as rules_file:
     rules_doc = json.load(rules_file)
 
