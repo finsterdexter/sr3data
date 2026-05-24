@@ -738,13 +738,13 @@ conn.commit()
 
 # =============================================================================
 # Vehicle modifications missing from vehicles.dat — hand-curated supplement
-# loaded from data/mm_extra_vehicle_mods.json. Rigger 3 references things like
+# loaded from data/r3_extra_vehichle_mods.json. Rigger 3 references things like
 # Turbocharging, EnviroSeal variants, and Thermal Baffles that the source .dat
 # never ingested, so the standard-mod resolver below would otherwise fail to
 # match them. We insert these as type_id='23' rows on the vehicles table so the
 # catalog index sees them like any other modification.
 # =============================================================================
-with open("data/mm_extra_vehicle_mods.json") as f:
+with open("data/r3_extra_vehichle_mods.json") as f:
     extra_vehicle_mods = json.load(f)
 for entry in extra_vehicle_mods.get("modifications", []):
     if entry.get("_skip"):

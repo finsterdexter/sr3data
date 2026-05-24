@@ -130,7 +130,8 @@ class ParsedToken:
 # ---------------------------------------------------------------------------
 
 # Match a trailing Roman numeral I-X at the end of a base name
-_TRAILING_ROMAN = re.compile(r"\s+(IX|IV|V?I{1,3}|X)$", re.I)
+# V?I{1,3} catches I-III and VI-VIII but misses V alone; added |V explicitly.
+_TRAILING_ROMAN = re.compile(r"\s+(IX|IV|V?I{1,3}|V|X)$", re.I)
 # Match trailing "-N" (e.g., "Smartlink-2")
 _TRAILING_DASH_N = re.compile(r"-(\d+)$")
 # Match trailing " N" arabic (e.g., "Gas Vent 2"; rare after normalization)
@@ -138,7 +139,9 @@ _TRAILING_SPACE_N = re.compile(r"\s+(\d+)$")
 # Match trailing "N" with no separator (e.g., "Smartlink2", "smartlink2") —
 # only fires when the preceding character is a letter and the base name is
 # long enough that a stray digit wouldn't be a model number ("M4", "AK47").
-_TRAILING_GLUED_N = re.compile(r"([a-zA-Z]{4,})(\d+)$")
+# Lowered to 3 so 3-letter acronyms like ECD, ECM, ED get their ratings
+# extracted correctly.
+_TRAILING_GLUED_N = re.compile(r"([a-zA-Z]{3,})(\d+)$")
 # Capture parens at the end of the token (handles nested parens via greedy)
 _TRAILING_PAREN = re.compile(r"\s*\((.*)\)\s*$")
 
@@ -319,6 +322,14 @@ class CatalogIndex:
             ranked = sorted(candidates, key=lambda c: _rating_token(c[0]))
             if ranked:
                 return ranked[0][1]
+        # Singular fallback: source data often pluralizes ("External Hardpoints")
+        # where the catalog stores the singular ("External Hardpoint"). Retry
+        # after stripping a single trailing 's'/'es' from the canonical.
+        if canonical.endswith("s") and len(canonical) > 2:
+            singular = canonical[:-2] if canonical.endswith("es") else canonical[:-1]
+            gid = self.by_normalized_name.get(self._norm(singular))
+            if gid is not None:
+                return gid
         return None
 
 
@@ -340,6 +351,8 @@ _NAME_OVERRIDES = {
     # carry the External variants.
     "smartlink":          ("Smartlink level I, Internal",  "int"),
     "smartlink ii":       ("Smartlink level II, Internal", "int"),
+    "integral smartlink":   ("Smartlink level I, Internal",  "int"),
+    "integral smartlink ii": ("Smartlink level II, Internal", "int"),
 
     # Sound suppressor — the SR3 BBB catalog row has a typo ("Suppresser"),
     # but it's the canonical SR3 BBB p.282 item.
@@ -358,14 +371,21 @@ _NAME_OVERRIDES = {
     "hip pad bracing system": ("Hip Pad Bracing System", None),
 
     # Stock variants — CC p.35 has a generic Stock (Rigid/Folding) item that
-    # covers gun-mounted folding/retractable/fixed-rigid stocks. "Detachable
-    # stock" is something different (a stock that comes off entirely) and is
-    # NOT this catalog row — those land in firearm_notes (see _FEATURE_NOTE_NAMES).
+    # covers gun-mounted folding/retractable/fixed-rigid/telescoping stocks.
+    # "Detachable stock" is something different (a stock that comes off
+    # entirely) and is NOT this catalog row — those land in firearm_notes
+    # (see _FEATURE_NOTE_NAMES).
     "folding stock":      ("Stock (Rigid/Folding)", None),
     "retractable stock":  ("Stock (Rigid/Folding)", None),
+    "retr. stock":        ("Stock (Rigid/Folding)", None),
+    "retr stock":         ("Stock (Rigid/Folding)", None),
+    "telescoping stock":  ("Stock (Rigid/Folding)", None),
+    "tele. stock":        ("Stock (Rigid/Folding)", None),
+    "tele stock":         ("Stock (Rigid/Folding)", None),
     "fold stock":         ("Stock (Rigid/Folding)", None),
     "fold. stock":        ("Stock (Rigid/Folding)", None),
     "folding pistol grip stock": ("Stock (Rigid/Folding)", None),
+    "pistol grip stock":  ("Stock (Rigid/Folding)", None),
     "stock":              ("Stock (Rigid/Folding)", None),
 
     # Bipods — SR3 BBB p.282 has a generic Bipod entry. CC has the same.
@@ -384,9 +404,6 @@ _NAME_OVERRIDES = {
     # Standalone scope features
     "thermographic":      ("Imaging Scope: Thermographic", "Top"),
 
-    # Generic grenade-launcher attachment — catalog row is the underbarrel one.
-    "grenade launcher":   ("Generic Under-Barrel    (GrLn)", "Under"),
-
     # Scopes — Cannon Companion Imaging Systems (p.35) catalogues these
     # explicitly as Imaging Scope: Mag:N / Low-Light / Thermographic.
     "scope":              ("Imaging Scope: Mag:1", "Top"),
@@ -396,9 +413,121 @@ _NAME_OVERRIDES = {
     "level 1 scope":      ("Imaging Scope: Mag:1", "Top"),
     "level 2 scope":      ("Imaging Scope: Mag:2", "Top"),
     "level 3 scope":      ("Imaging Scope: Mag:3", "Top"),
+    "imaging scope":      ("Imaging Scope: Mag:1", "Top"),
+    "optical imaging scope": ("Imaging Scope: Mag:1", "Top"),
+    "magnification":      ("Imaging Scope: Mag:1", "Top"),
+    "magnifcation":       ("Imaging Scope: Mag:1", "Top"),
     "low-light scope":    ("Imaging Scope: Low-Light", "Top"),
+    "low-light":          ("Imaging Scope: Low-Light", "Top"),
     "thermographic scope": ("Imaging Scope: Thermographic", "Top"),
+    "high-power laser sight": ("High Power Laser Sight", "Top"),
+    "high power laser sight": ("High Power Laser Sight", "Top"),
+
+    # Recoil compensators
+    "hip brace":          ("Hip Pad Bracing System", None),
+    "hip pad brace":      ("Hip Pad Bracing System", None),
+
+    # Single-word / typo aliases for catalog items
+    "lasersight":         ("Laser Sight", "Top"),
+    "gun camera":         ("Gun Cam", "Top"),
+    "flashlight":         ("Flash Light (Standard)", "Top"),
+    "gasvent":            ("Gas Vent I", "Barrel"),  # rating-less variant -> Gas Vent I default
+
+    # "Integral" prefix — the catalog item is the same, just installed
+    # internally on the gun rather than mounted externally.
+    "integral silencer":  ("Silencer", "Barrel"),
+    "integral gas vent":  ("Gas Vent I", "Barrel"),
+    "removable gas vent": ("Gas Vent I", "Barrel"),
+
+    # Tripod variants
+    "fold-out tripod":    ("Tripod", "Under"),
+    "folding tripod":     ("Tripod", "Under"),
+
+    # Cannon Companion safeties (cc.33)
+    "biometric safety":   ("Biometric Safety", None),
+    "advanced biometric safety": ("Biometric Safety", None),
 }
+
+# Vehicle-specific name overrides. Keys are lowercase canonical (after
+# normalize_token + _VEHICLE_TYPO_FIXUPS); values are (catalog_name, None)
+# because vehicle mods don't have mount positions like firearms do.
+_VEHICLE_NAME_OVERRIDES = {
+    # Improved Signature aliases — source data abbreviates as "Improved Sig"
+    "improved sig": "Improved Signature",
+    "improved signature": "Improved Signature",
+
+    # Customized Engine aliases
+    "customised engine": "Engine Customization",
+    "customized engine": "Engine Customization",
+
+    # Amphibious aliases
+    "amphibious ops package": "Amphibious Operation",
+    "amphibious operation package": "Amphibious Operation",
+
+    # Power Amplifier alias (source data pluralizes)
+    "power amplifiers": "Power Amplifier",
+
+    # Contingency Maneuver Controls alias (source data expands abbreviation)
+    "contingency maneuver controls": "Cont. Manu. Contr.",
+
+    # Remote-Control / Rigger aliases
+    "remote control encryption unit": "Remote-Control Encryption",
+    "remote-control gear": "Remote-Control Interface",
+    "rigger control": "Rigger Adaptation",
+    "rigger controls": "Rigger Adaptation",
+    "rigger interface": "Rigger Adaptation",
+
+    # Launch Control aliases
+    "medium launch system": "Launch Control System",
+    "missile launch system": "Launch Control System",
+
+    # Anti-Theft alias
+    "antitheft": "Anti-Theft System",
+
+    # Environmental Adaptation alias
+    "environmental adaptation": "Artic/Desert Adaptation Kit",
+
+    # Life Support typo
+    "life suport": "Life Support",
+
+    # Flotation / Floatation
+    "floatation package": "Flotation Package",
+
+    # Satellite Link aliases
+    "satt uplink": "Satellite Link",
+    "sat uplink": "Satellite Link",
+    "satellite uplink": "Satellite Link",
+
+    # Missile typo
+    "external missle mount": "External Missile Mount",
+    "internal missle mount": "Internal Missile Mount",
+
+    # Smoke Generator — source data uses this name; .dat has "Vehicle Smoke Projector"
+    "smoke generator": "Smoke Generator",
+
+    # Drone Rack aliases
+    "external drone racks": "Drone Rack",
+
+    # Electronics Bay typo
+    "electroncs bay": "Electronics Bay",
+    "electronics bay": "Electronics Bay",
+}
+
+
+def apply_vehicle_name_override(canonical: str, rating: int | None) -> str | None:
+    """Returns catalog_name if a vehicle-mod name has a project-specific
+    redirect, otherwise None."""
+    if not canonical:
+        return None
+    key_with_rating = canonical.lower()
+    if rating is not None:
+        key_with_rating = f"{canonical} {arabic_to_roman(rating)}".strip().lower()
+    if key_with_rating in _VEHICLE_NAME_OVERRIDES:
+        return _VEHICLE_NAME_OVERRIDES[key_with_rating]
+    if canonical.lower() in _VEHICLE_NAME_OVERRIDES:
+        return _VEHICLE_NAME_OVERRIDES[canonical.lower()]
+    return None
+
 
 # Names that are descriptive features rather than catalog accessories — the
 # parser routes these to firearm_notes instead of leaving them in
@@ -427,6 +556,38 @@ _FEATURE_NOTE_NAMES = {
     "duo-tone (stainless & black)",
     "revolver loading", "double recoil", "double uncompensated recoil",
     "special recoil",
+    # Grenade launchers etc. — these are weapons, not accessories; they
+    # don't have catalog rows under "Firearm and weapon accessories".
+    "grenade launcher", "grenade launcher 6", "grenade launcher 8",
+    "20mm atg grenade launcher", "hand-held grln",
+    "anti air missile launcher", "anti-air missile launcher",
+    # No-stock / receiver-cap variants (gun has no stock)
+    "no stock", "no stock (receiver cap)",
+    # Picatinny / M1913 rails (top mount accessory rail, not a separate item)
+    "m1913 rail", "picatinny rail", "integral m1913 picatinny rail",
+    "integral picatinny rail",
+    # Cosmetic colors / engravings
+    "gray", "green", "black", "ingraving", "engraving",
+    "fine walnut grips", "pistol grips",
+    # Generic feature descriptions
+    "optional heavy barrel", "breakdown", "concealed hammer",
+    "double action", "drum fed", "drum feed",
+    "flash hider", "level 0 scope",
+    "internal comp 2", "internal comp", "comp 1", "comp 2",
+    "1 point recoil comp",
+    # Mag-related (clip capacity descriptions, not separate items)
+    "holds extra clip(4) in stock", "holds extra clip(5) in stock",
+    "holds extra clip in stock",
+    # Scope-mount feature notes — these aren't separate items; the gun has
+    # an integrated mount that other scopes can attach to.
+    "scope mount", "includes scope mount", "forward scope mount",
+    "m1a scope mount",
+    # Ambient feature notes
+    "includes bipod", "breaks to 2 parts",
+    "heavy pistol ranges", "half ranges", "half taser range",
+    "heavy weapon recoil applies", "use taser range",
+    "no top mount", "no mounts for top", "no barrel mount",
+    "9m if supersonic", "5l when using subsonic ammunition",
     # Sights / accessories that aren't separate catalog rows
     "adjustable rear sight", "detachable 1\" scope ring",
     "3-round burst trigger group", "navy trigger group", "trigger group",
@@ -438,20 +599,221 @@ _FEATURE_NOTE_NAMES = {
     # Placeholder / parse-artifact tokens
     "accessory", "ray.000", "or black",
     "foregrip and stock", "stock and forgrip each give 1 recoil comp",
+    # -----------------------------------------------------------------------
+    # Vehicle body-type / configuration descriptors (not separately-installable)
+    # -----------------------------------------------------------------------
+    "pickup", "flatbed", "closed bed", "covered bed", "camper",
+    "minibus", "minivan", "rv", "rally car",
+    # Fuel / power-plant descriptors
+    "methane", "gasoline", "electric", "diesel engine", "tdi engine",
+    # Vehicle capability descriptors
+    "vtol", "this model is a dirigible", "streamlined design",
+    "alternate stats while in ground mode",
+    "no offroad speed change",
+    # Interior / cargo descriptors
+    "side door", "back ramp", "side doors and back ramp",
+    "bar", "kitchen", "shop",
+    "weapon rack", "tac comm",
+    "no toys", "base model",
+    # Seat / living-amenity descriptors
+    "basic living amenities", "improved living amenities",
+    "high living amenities", "partial basic living amenities",
+    "partial high living amenities",
+    "oversized bucket seats", "comfy bucket seats",
+    "mahogany desks", "person couch",
+    "comm/entertainment suite", "satt matrix uplink",
+    # Cargo / payload descriptors (not separate catalog items)
+    "cargo space for 12 men and a manned apc",
+    "internal storage for 2 cars or 4 steel lynx-sized vehicles or drones",
+    "drone rearmament and recharge facility",
+    "load hydraulic flatbed and winch designed to cary up to rating 6 bod vehicle",
+    "provisions for 2 drone racks or 4cf aa missiles",
+    "level unknown",
+    # Speed / performance descriptors
+    "speed 250 when loaded", "speed and accel depend on windspeed",
+    "3km/l economy", "500l fuel capacity",
+    # Module descriptors
+    "transport module adds 10cf ad costs 750",
+    "modula design comes with hardtop module",
+    "any module adds 1/1 to handling",
+    "optional crash cage and datajack port",
+    "optional rigger adaptation", "optional rigger control gear",
+    "optional suncell and roof rack",
+    "optional underwater package includes enviroseal",
+    "optional missile pods", "optional pintle mount for pilot",
+    "optional roof rack and roll bars",
+    "optional monofilament reels and multicore fibre controls",
+    "datajack link",
+    # Weapon / payload on mounts (weapon itself, not the mount)
+    "vindicator minigun",
+    "4 automatic grenade launchers", "20 naga ap mines",
+    "2 torpedo tubes", "4 torpedo tubes", "6 torpedo tubes",
+    "24 torpedoes", "36 torpedoes",
+    "medium remote turret(rotary autocannon)",
+    "light naval gun", "victory autocannon",
+    # Camera / sensor descriptors
+    "camera", "micro-camcorder", "trideo recorder",
+    "chem sniffer 6", "mads 6", "universal receiver 4",
+    # Lone Star descriptor
+    "lone star",
+    # Carrier / ship descriptors
+    "aircraft facilities", "flight deck",
+    # Capacity descriptors
+    "6cf reserved for more electronics and 4cf for ammo",
+    "4cf aa missiles", "4cf ag missiles", "4cf air-drop ap mines",
+    "8cf ag rockets",
+    # Misc descriptors
+    "carries 1 patient 1 medtech and a pilot",
+    "actual cost: 9 billion nuyen",
+    # Life raft
+    "10-man life raft",
+    # Autosofts
+    "autosoft: demolitions 3", "autosoft: electronic warfare 5",
+    # Smoke-projector charges
+    "fog oil(5 cf)", "graphite smoke(1 cf)",
+    # Electronics-port contents (descriptive, not separate catalog items)
+    "electronics port w/radio",
+    "electronics port w/personal com unit",
+    "electronics port w/sat uplink",
+    "electronics port w/satelite uplink",
+    "elctronics port w/radio",
+    # Handholds
+    "6 handholds",
+    # Folding seats quantity
+    "3 folding seats",
+    # Aisle/seat layout descriptors
+    "4x2-aisle-2 bucket seats",
+    # Amenities quantity
+    "500 improved amenities",
+    # Missile mount with ordnance weight
+    "6 missile mounts (total ordinance weight 1800 kg)",
+    # Andrews system
+    "4 remote medium turrets w/andrews system",
+    # Turret + weapon combos
+    "medium remote turret (light naval gun w/500 rds in 16 cf ammo bin)",
+    "medium remote turret (victory autocannon w/ 500 rnds in 2 cf ammo bin)",
+    "medium remote turret (victory autocannon w/2000 rds in 13 cf ammo bin)",
+    "medium remote turret(10 cf ammo bin)",
+    "remote mini-turret w/ultimax mmg",
+    "remote micro-turret(1 cf ammo bin)",
+    "remote mini-turret(1 cf ammo bin)",
+    "small remote turret (2 cf ammo bin)",
+    "small remote turret(2 cf ammo bin)",
+    "external fixed hardpoint w/mmg(w/gasvent-iii and 500 rds. ammo)",
+    "external fixed hardpoint w/mmg",
+    # ECM/ECCM military variant
+    "ecm/eccm military",
+    # Additional electronics ports
+    "4 additional electronics ports", "additional electronics ports",
+    # Rocket mount / firmpoint combos with wing placement
+    "4 external rocket mounts and 1 fixed firmpoint on each wing",
+    "2 medium remote turrets (8 medium internal missle mounts)",
+    "2 small remote turrets",
+    "4 remote micro-turrets(2xtwin lmg)",
+    "16 heavy internal missile mounts", "24 heavy internal missile mounts",
 }
 
 # Token patterns (substring, case-insensitive) the parser should treat as
 # pure rules-text and route to notes. Catches things like
 # "can fire .38 Mag at 5M and (LPist)" without listing every variant.
 _NOTE_SUBSTRINGS = (
-    "can fire", "can use", "uses ", "can convert", "can not",
+    "can fire", "can use", "uses ", "use ", "using ", "used ",
+    "can convert", "can not", "cannot fire", "cant fire",
+    "fires ", "fired ",
     "+1 recoil", "+2 recoil", "+3 recoil", "+4 recoil", "+5 recoil",
     "uncompensated", "complex to chamber",
-    "simple each fire", "simple to switch", "pump action",
+    "simple each fire", "simple to switch", "simple to ", "simple action",
+    "pump action",
     "can't take", "cannot take", "cant take",
     "any range over short", "no recoil penalties",
-    "mag:(",  # magazine size descriptions
-    "1RC)", "2RC)", "3RC)", "4RC)",  # bracketed RC tags
+    "if subsonic", "if supersonic", "if steel shot",
+    "if used", "if a smart",
+    "suppression modifier", "suppression mod",
+    "stun wears off", "power decrease", "x0.5 armor",
+    "see rules", "see p.", "notes -",
+    "+1 conceal", "+2 conceal", "-1 conceal", "-2 conceal", "-3 conceal",
+    "for needles", "for darts",
+    "double recoil", "double uncompensated",
+    "tn-1", "tn +1",  # red-dot/reflex TN modifiers that travel without a separate catalog row
+    "mag:(",
+    "1rc)", "2rc)", "3rc)", "4rc)",
+    "rnd mag", "rnd magazine",
+    "armor piercing bullet", "armor mod",
+    "telcom unit", "battery case",
+    "underbarrel", "ub gr",
+    # Vehicle descriptor substrings (not separate catalog items)
+    " uses ", " can fire ", " can use ", " can convert ", " can not ",
+    "cannot fire", "cant fire", " fires ", " fired ",
+    "if subsonic", "if supersonic", "if steel shot", "if used", "if a smart",
+    "see rules", "see p.", "notes -",
+    "holds extra clip", "holds extra clip in stock",
+    "speed 250 when loaded", "speed and accel depend on windspeed",
+    "km/l economy", "l fuel capacity",
+    "cf reserved for", "cf for ammo",
+    "cf aa missiles", "cf ag missiles", "cf air-drop ap mines", "cf ag rockets",
+    "partial basic living", "partial high living",
+    "basic living amenities", "improved living amenities", "high living amenities",
+    "man-hours", "man-hrs", "man hours",
+    "patient", "medtech", "medical treatment",
+    "drone rack", "drone racks",
+    "torpedo tubes", "torpedoes",
+    "naga ap mines",
+    "automatic grenade launchers",
+    "rotary autocannon",
+    "level unknown",
+    "actual cost:",
+    "transport module adds", "modula design comes with",
+    "any module adds",
+    "optional crash cage", "optional rigger", "optional suncell",
+    "optional underwater package", "optional missile pods",
+    "optional pintle mount", "optional roof rack",
+    "optional monofilament reels",
+    "datajack link",
+    "cargo space for", "internal storage for",
+    "load hydraulic flatbed",
+    "provisions for",
+    "alternate stats while in ground mode",
+    "no offroad speed change",
+    "this model is a dirigible",
+    "streamlined design",
+    "rally car",
+    "aircraft facilities", "flight deck",
+    "lone star",
+    "camera", "micro-camcorder", "trideo recorder",
+    "chem sniffer", "mads ", "universal receiver",
+    "vindicator minigun",
+    "satt matrix uplink", "comm/entertainment suite",
+    "bar", "kitchen", "weapon rack", "tac comm",
+    "shop", "no toys", "base model",
+    "side door", "back ramp", "side doors and back ramp",
+    "mahogany desks", "person couch", "oversized bucket seats", "comfy bucket seats",
+    "closed bed", "covered bed", "camper", "minibus", "minivan", "rv",
+    "pickup", "flatbed",
+    "methane", "gasoline", "diesel engine", "tdi engine",
+    "vtol",
+    "packages i-iii", "packages i-iii",
+    "life raft",
+    "fog oil", "graphite smoke",
+    "autosoft:", "demolitions 3", "electronic warfare 5",
+    "w/radio", "w/personal com unit", "w/sat uplink", "w/satelite uplink",
+    "handholds", "folding seats",
+    "aisle-2 bucket seats", "improved amenities",
+    "missile mounts (total ordinance weight",
+    "w/andrews system",
+    "w/500 rds", "w/ 500 rnds", "w/2000 rds", "w/gasvent-iii",
+    "heavy internal missile mounts",
+    "external rocket mounts and 1 fixed firmpoint",
+    "2xtwin lmg",
+    "4 remote micro-turrets",
+    "2 small remote turrets",
+    "2 medium remote turrets",
+    "medium remote turret (light naval gun", "medium remote turret (victory autocannon",
+    "remote mini-turret w/ultimax",
+    "remote micro-turret(1 cf ammo bin)", "remote mini-turret(1 cf ammo bin)",
+    "small remote turret (2 cf ammo bin)", "small remote turret(2 cf ammo bin)",
+    "external fixed hardpoint w/mmg",
+    "ecm/eccm military",
+    "additional electronics ports",
 )
 
 
@@ -487,6 +849,17 @@ class ParsedAccessories:
 
 
 def parse_firearm_accessories(text: str | None, catalog: CatalogIndex) -> ParsedAccessories:
+    """Resolve a comma-separated accessories string into catalog ids, notes,
+    and unresolved tokens.
+
+    Order of checks: pure mechanical-stat tags (RC) are skipped silently;
+    obvious rules-text (BF = …, "uses … ranges", …) becomes a note. Everything
+    else gets normalized then run through alias map → catalog lookup. Only
+    when both lookups miss do we consult the broader feature-name + rules-
+    substring catch-alls — those are last resort so we don't accidentally
+    route a token like "Underbarrel Weight" to notes just because it contains
+    the substring "underbarrel".
+    """
     out = ParsedAccessories()
     if not text or text.strip().lower() == "none":
         return out
@@ -494,12 +867,6 @@ def parse_firearm_accessories(text: str | None, catalog: CatalogIndex) -> Parsed
         if is_rc_tag(raw):
             continue
         if looks_like_rule_note(raw):
-            out.notes.append(raw)
-            continue
-        # Substring patterns that clearly mark the token as rules-text rather
-        # than a catalog item.
-        lower = raw.lower()
-        if any(s in lower for s in _NOTE_SUBSTRINGS):
             out.notes.append(raw)
             continue
         pt = normalize_token(raw)
@@ -524,8 +891,13 @@ def parse_firearm_accessories(text: str | None, catalog: CatalogIndex) -> Parsed
             out.resolved.append((gid, mount, raw, pt.rating, pt.paren_payload))
             continue
 
-        # Recognized feature/cosmetic strings → notes (not unresolved).
+        # No catalog hit. Recognized feature-note name → notes.
         if pt.canonical.lower() in _FEATURE_NOTE_NAMES:
+            out.notes.append(raw)
+            continue
+        # Looks like rules text — also notes.
+        lower = raw.lower()
+        if any(s in lower for s in _NOTE_SUBSTRINGS):
             out.notes.append(raw)
             continue
         # Single-char garbage placeholders.
@@ -570,6 +942,89 @@ def parse_vehicle_mount_descriptor(canonical: str, paren_payload: str | None) ->
     return info
 
 
+_VEHICLE_LEADING_COUNT = re.compile(r"^(\d+)\s+(.+)$")
+_VEHICLE_TYPO_FIXUPS = {
+    "externeal": "External",
+    "satt uplink": "Satellite Uplink",
+    "sat uplink": "Satellite Uplink",
+    "satelite uplink": "Satellite Uplink",
+    "rigger adaption": "Rigger Adaptation",
+    "remote control interface": "Remote-Control Interface",  # alternate spelling
+    "autosoft interpretation system": "Autosoft Interpreter",
+    "ram": "Radar Absorbent Materials",
+    # Improved Signature abbreviation
+    "improved sig": "Improved Signature",
+    # Missile typo
+    "missle": "Missile",
+    # EnviroSeal typo
+    "enviroseal": "EnviroSeal",
+    # Floatation → Flotation
+    "floatation": "Flotation",
+    # Abosorbent → Absorbent
+    "abosorbent": "Absorbent",
+    # Customised → Customized
+    "customised": "Customized",
+    # Life Suport → Life Support
+    "life suport": "Life Support",
+    # Electroncs → Electronics
+    "electroncs": "Electronics",
+    # Contingency Maneuver Controls expansion
+    "contingency maneuver controls": "Cont. Manu. Contr.",
+    # Power Amplifiers plural → singular
+    "power amplifiers": "Power Amplifier",
+    # Remote Control Encryption Unit
+    "remote control encryption unit": "Remote-Control Encryption",
+    # Rigger Control / Interface → Rigger Adaptation
+    "rigger control": "Rigger Adaptation",
+    "rigger controls": "Rigger Adaptation",
+    "rigger interface": "Rigger Adaptation",
+    # Remote-Control Gear → Remote-Control Interface
+    "remote-control gear": "Remote-Control Interface",
+    # Antitheft → Anti-Theft System
+    "antitheft": "Anti-Theft System",
+    # Environmental Adaptation → Artic/Desert Adaptation Kit
+    "environmental adaptation": "Artic/Desert Adaptation Kit",
+    # Smoke Generator alias
+    "smoke generator": "Smoke Generator",
+    # Electronics Bay
+    "electronics bay": "Electronics Bay",
+    # Amphibious OPs Package → Amphibious Operation
+    "amphibious ops package": "Amphibious Operation",
+    "amphibious operation package": "Amphibious Operation",
+    # Drone Rack aliases
+    "external drone racks": "Drone Rack",
+    # Hyphenated turret variants → space-separated catalog forms
+    "remote micro-turret": "Remote Micro Turret",
+    "remote mini-turret": "Remote Mini Turret",
+    "remote small-turret": "Remote Small Turret",
+    "remote medium-turret": "Remote Medium Turret",
+    "remote large-turret": "Remote Large Turret",
+    "remote ex-large-turret": "Remote Ex-Large Turret",
+    "remote popup micro-turret": "Remote Micro Turret (Pop-Up)",
+    "remote micro-turret(pop-up)": "Remote Micro Turret (Pop-Up)",
+    "remote mini-popup": "Remote Mini Turret (Pop-Up)",
+    "mini-popup": "Mini-Turret (Pop-Up)",
+    # 2xN rocket-mount patterns
+    "2x4 external rocket mounts": "External Rocket Mount",
+    "2x3 external rocket mounts": "External Rocket Mount",
+    "2x3 rocket mounts": "External Rocket Mount",
+    # Retrans Mission Unit → Retransmission Unit
+    "retrans mission unit": "Retransmission Unit",
+    # Satellite Link rating variants (strip back to base entry)
+    "satellite link 3": "Satellite Link",
+    "satellite link 5": "Satellite Link",
+    # Large Smoke Projector → Smoke Generator (type-23 alias)
+    "large smoke projector": "Smoke Generator",
+    "vehicle smoke projector(large)": "Smoke Generator",
+    "vehicle smoke projector(small)": "Smoke Generator",
+    # 2-letter acronym + digit that _TRAILING_GLUED_N misses (threshold is 3)
+    "ed5": "ED [5]",
+    # Adjective-order swap: source data says "Medium Remote Turret",
+    # catalog stores "Remote Medium Turret".
+    "medium remote turret": "Remote Medium Turret",
+}
+
+
 def parse_vehicle_standard_mods(text: str | None, catalog: CatalogIndex) -> ParsedAccessories:
     out = ParsedAccessories()
     if not text:
@@ -580,33 +1035,76 @@ def parse_vehicle_standard_mods(text: str | None, catalog: CatalogIndex) -> Pars
         if looks_like_rule_note(raw):
             out.notes.append(raw)
             continue
-        pt = normalize_token(raw)
+        # Strip a leading quantity prefix ("2 External Hardpoints" → quantity=2,
+        # base="External Hardpoint"). Stripping plural-s on the trailing word
+        # gives the singular catalog form for common cases like Bench Seats,
+        # Hardpoints, Living Amenities (treated below per-token).
+        working = raw
+        leading_count = None
+        m = _VEHICLE_LEADING_COUNT.match(working)
+        if m:
+            leading_count = int(m.group(1))
+            working = m.group(2)
+
+        # Light typo-correction pass before normalization.
+        for bad, good in _VEHICLE_TYPO_FIXUPS.items():
+            # Use negative lookbehind/lookahead so short tokens like "ram"
+            # don't get replaced inside longer words (e.g. "programming").
+            pattern = r"(?<![a-zA-Z])" + re.escape(bad) + r"(?![a-zA-Z])"
+            if re.search(pattern, working, re.I):
+                working = re.sub(pattern, good, working, flags=re.I)
+
+        pt = normalize_token(working)
+        # Preserve the raw text rather than the corrected/stripped version so
+        # downstream consumers can still see what the source actually said.
         if not pt.canonical:
             out.notes.append(raw)
             continue
 
         # Try vehicle-mount structured parsing first.
         mount_info = parse_vehicle_mount_descriptor(pt.canonical, pt.paren_payload)
-        if mount_info is not None:
-            # Vehicle weapon-mount mods don't always have a clean catalog name;
-            # we still try the lookup, but store the structured payload so the
-            # consumer can render the configuration even without a catalog id.
+        if mount_info is not None and not mount_info.get("trailing"):
+            # Only treat as a mount descriptor when there's no extra trailing
+            # text (e.g. "External Fixed Hardpoint w/MMG" is a compound note,
+            # not a pure mount descriptor, so it falls through to regular
+            # checks). We still try the lookup and store structured payload.
             gid = catalog.lookup(pt.canonical, pt.rating)
             payload = json.dumps(mount_info, sort_keys=True)
             if gid is not None:
                 out.resolved.append((gid, None, raw, pt.rating, payload))
-            else:
-                # Structured mount data but no exact name match — keep as
-                # unresolved so the user can inspect, but the structured
-                # payload is recoverable from the raw text.
-                out.unresolved.append(raw)
+                continue
+            # No catalog match for a clean mount descriptor — keep unresolved
+            out.unresolved.append(raw)
             continue
+
+        # Project-specific vehicle-mod name overrides take precedence over
+        # catalog lookup.
+        override_name = apply_vehicle_name_override(pt.canonical, pt.rating)
+        if override_name is not None:
+            gid = catalog.lookup(override_name, pt.rating)
+            if gid is not None:
+                out.resolved.append((gid, None, raw, pt.rating, pt.paren_payload))
+                continue
 
         gid = catalog.lookup(pt.canonical, pt.rating)
         if gid is not None:
             out.resolved.append((gid, None, raw, pt.rating, pt.paren_payload))
-        else:
-            out.unresolved.append(raw)
+            continue
+
+        # No catalog hit. Recognized feature-note name → notes.
+        if pt.canonical.lower() in _FEATURE_NOTE_NAMES:
+            out.notes.append(raw)
+            continue
+        # Looks like rules text — also notes.
+        lower = raw.lower()
+        if any(s in lower for s in _NOTE_SUBSTRINGS):
+            out.notes.append(raw)
+            continue
+        # Single-char garbage placeholders.
+        if len(pt.canonical) <= 1:
+            out.notes.append(raw)
+            continue
+        out.unresolved.append(raw)
     return out
 
 
