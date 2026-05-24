@@ -5,6 +5,7 @@ from book import Book
 from item import Item
 
 import parse_functions
+import parse_standard_accessories as psa
 from skill import Skill, SkillSpecialization
 
 # Connect to the SQLite database (it will be created if it doesn't exist)
@@ -648,6 +649,284 @@ cursor.executemany(
     rules_glossary_entries,
 )
 conn.commit()
+
+
+# =============================================================================
+# Man & Machine equipment capacity tables
+# =============================================================================
+# Source data lives in data/mm_equipment_capacity.json. The cyber.dat doesn't
+# carry M&M ECU values for hosts (limbs/skulls/torsos) or for the specific
+# accessories M&M tabulates on p.36, so we load them from JSON and emit them
+# as their own tables for the .NET side to consume.
+with open("data/mm_equipment_capacity.json") as mm_file:
+    mm_data = json.load(mm_file)
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS mm_host_capacity (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        match_prefix TEXT NOT NULL,
+        host_class   TEXT NOT NULL,
+        ecu          REAL NOT NULL
+    )
+''')
+cursor.execute("DELETE FROM mm_host_capacity")
+for row in mm_data.get("hosts", []):
+    cursor.execute(
+        "INSERT INTO mm_host_capacity (match_prefix, host_class, ecu) VALUES (?, ?, ?)",
+        (row["match_prefix"], row["host_class"], row["ecu"]),
+    )
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS mm_accessory_ecu (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        name             TEXT NOT NULL,
+        ecu              REAL,
+        ecu_formula      TEXT,
+        essence_in_limb  REAL NOT NULL DEFAULT 0,
+        conceal_in_limb  REAL NOT NULL DEFAULT 0,
+        needs_dni        INTEGER NOT NULL DEFAULT 0,
+        notes            TEXT
+    )
+''')
+cursor.execute("DELETE FROM mm_accessory_ecu")
+for row in mm_data.get("accessories", []):
+    cursor.execute(
+        "INSERT INTO mm_accessory_ecu "
+        "(name, ecu, ecu_formula, essence_in_limb, conceal_in_limb, needs_dni, notes) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?)",
+        (
+            row["name"],
+            row.get("ecu"),
+            row.get("ecu_formula"),
+            row.get("essence_in_limb", 0),
+            row.get("conceal_in_limb", 0),
+            1 if row.get("needs_dni", False) else 0,
+            row.get("_note"),
+        ),
+    )
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS mm_size_fallback (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        size_label TEXT NOT NULL,
+        ecu        REAL NOT NULL,
+        examples   TEXT
+    )
+''')
+cursor.execute("DELETE FROM mm_size_fallback")
+for row in mm_data.get("size_fallback", []):
+    cursor.execute(
+        "INSERT INTO mm_size_fallback (size_label, ecu, examples) VALUES (?, ?, ?)",
+        (row["size_label"], row["ecu"], row.get("examples")),
+    )
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS mm_grade_modifier (
+        grade           TEXT PRIMARY KEY,
+        ecu_multiplier  REAL NOT NULL
+    )
+''')
+cursor.execute("DELETE FROM mm_grade_modifier")
+for row in mm_data.get("grade_modifier", []):
+    cursor.execute(
+        "INSERT INTO mm_grade_modifier (grade, ecu_multiplier) VALUES (?, ?)",
+        (row["grade"], row["ecu_multiplier"]),
+    )
+
+conn.commit()
+
+
+# =============================================================================
+# Vehicle modifications missing from vehicles.dat — hand-curated supplement
+# loaded from data/mm_extra_vehicle_mods.json. Rigger 3 references things like
+# Turbocharging, EnviroSeal variants, and Thermal Baffles that the source .dat
+# never ingested, so the standard-mod resolver below would otherwise fail to
+# match them. We insert these as type_id='23' rows on the vehicles table so the
+# catalog index sees them like any other modification.
+# =============================================================================
+with open("data/mm_extra_vehicle_mods.json") as f:
+    extra_vehicle_mods = json.load(f)
+for entry in extra_vehicle_mods.get("modifications", []):
+    if entry.get("_skip"):
+        continue
+    book = entry.get("book")
+    page = entry.get("page")
+    book_page = (
+        f"{book}.{page}" if book and page is not None and page > 0
+        else (book if book else None)
+    )
+    cursor.execute(
+        "INSERT INTO vehicles (name, type_id, category_tree, BookPage, Notes, "
+        "Cost, Availability, StreetIndex, Equipment, BaseTimeSkillTest, CF, Load) "
+        "VALUES (?, '23', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        (
+            entry["name"],
+            entry.get("category_tree"),
+            book_page,
+            entry.get("notes"),
+            entry.get("cost"),
+            entry.get("availability"),
+            entry.get("street_index"),
+            entry.get("equipment"),
+            entry.get("base_time_skill_test"),
+            entry.get("cf"),
+            entry.get("load"),
+        ),
+    )
+conn.commit()
+
+
+# =============================================================================
+# Firearm accessories missing from cyber.dat — hand-curated supplement loaded
+# from data/mm_extra_firearm_accessories.json. SR3 BBB p.282 lists both
+# internal and external Smartgun variants but only the External entries made
+# it into the .dat. We insert the missing internal rows here so the
+# standard-accessory parser below can resolve "Smartlink" on a stock firearm
+# to the gun-side internal hardware (mount=Internal) rather than the external
+# clip-on (mount=Top/Under).
+# =============================================================================
+with open("data/mm_extra_firearm_accessories.json") as f:
+    extra_firearm_accessories = json.load(f)
+for entry in extra_firearm_accessories.get("accessories", []):
+    if entry.get("_skip"):
+        continue
+    book = entry.get("book")
+    page = entry.get("page")
+    book_page = (
+        f"{book}.{page}" if book and page is not None and page > 0
+        else (book if book else None)
+    )
+    cursor.execute(
+        "INSERT INTO gear (name, type_id, category_tree, concealability, weight, "
+        "cost, availability, street_index, book_page) "
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        (
+            entry["name"],
+            entry.get("type_id"),
+            entry.get("category_tree"),
+            entry.get("concealability"),
+            entry.get("weight"),
+            entry.get("cost"),
+            entry.get("availability"),
+            entry.get("street_index"),
+            book_page,
+        ),
+    )
+    new_gear_id = cursor.lastrowid
+    # Mirror the gear_accessories child row so MountAccepts() and the catalog
+    # mount-position resolver downstream both see the placement value.
+    cursor.execute(
+        "INSERT INTO gear_accessories (gear_id, mount, rating, notes) VALUES (?, ?, ?, ?)",
+        (new_gear_id, entry.get("mount"), None, entry.get("notes")),
+    )
+conn.commit()
+
+
+# =============================================================================
+# Standard accessories: pre-installed mods/mounts that ship with firearms or
+# vehicles. The source data carries these as free-text strings in
+# gear_ranged.accessories (firearms) and vehicles.Notes (R3 cars). Resolve them
+# against the catalog by name + rating; emit join tables for the .NET side to
+# consume. Unmatched names land in mm_parse_unresolved so the user can audit.
+# =============================================================================
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS firearm_standard_accessories (
+        id                 INTEGER PRIMARY KEY AUTOINCREMENT,
+        firearm_gear_id    INTEGER NOT NULL,
+        accessory_gear_id  INTEGER NOT NULL,
+        mount_location     TEXT,
+        rating             INTEGER,
+        params_json        TEXT,
+        raw_text           TEXT,
+        FOREIGN KEY(firearm_gear_id)   REFERENCES gear(id),
+        FOREIGN KEY(accessory_gear_id) REFERENCES gear(id)
+    )
+''')
+cursor.execute("DELETE FROM firearm_standard_accessories")
+
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS vehicle_standard_mods (
+        id                INTEGER PRIMARY KEY AUTOINCREMENT,
+        vehicle_id        INTEGER NOT NULL,
+        mod_id            INTEGER,
+        rating            INTEGER,
+        params_json       TEXT,
+        raw_text          TEXT,
+        FOREIGN KEY(vehicle_id) REFERENCES vehicles(id),
+        FOREIGN KEY(mod_id)     REFERENCES vehicles(id)
+    )
+''')
+cursor.execute("DELETE FROM vehicle_standard_mods")
+
+# Surface every token the parser couldn't match. The user reviews this list
+# and decides skip-or-add-as-alias before next regen.
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS mm_parse_unresolved (
+        id          INTEGER PRIMARY KEY AUTOINCREMENT,
+        scope       TEXT NOT NULL,   -- 'firearm' | 'vehicle'
+        source_id   INTEGER NOT NULL,
+        source_name TEXT,
+        raw_text    TEXT NOT NULL
+    )
+''')
+cursor.execute("DELETE FROM mm_parse_unresolved")
+
+# Firearm pass --------------------------------------------------------------
+firearm_accessory_catalog = psa.build_firearm_accessory_catalog(cursor)
+firearm_rows = cursor.execute("""
+    SELECT g.id, g.name, r.accessories
+    FROM gear g JOIN gear_ranged r ON r.gear_id = g.id
+    WHERE g.category_tree LIKE 'Weapons > Firearms%'
+      AND r.accessories IS NOT NULL AND r.accessories != ''
+""").fetchall()
+for firearm_id, firearm_name, raw in firearm_rows:
+    parsed = psa.parse_firearm_accessories(raw, firearm_accessory_catalog)
+    for gid, mount, raw_text, rating, payload in parsed.resolved:
+        cursor.execute(
+            "INSERT INTO firearm_standard_accessories "
+            "(firearm_gear_id, accessory_gear_id, mount_location, rating, params_json, raw_text) "
+            "VALUES (?, ?, ?, ?, ?, ?)",
+            (firearm_id, gid, mount, rating, payload, raw_text),
+        )
+    # Rule-text fragments live in the original gear_ranged.accessories field;
+    # no need to duplicate them into a separate table.
+    for raw_text in parsed.unresolved:
+        cursor.execute(
+            "INSERT INTO mm_parse_unresolved (scope, source_id, source_name, raw_text) "
+            "VALUES ('firearm', ?, ?, ?)",
+            (firearm_id, firearm_name, raw_text),
+        )
+
+# Vehicle pass --------------------------------------------------------------
+vehicle_mod_catalog = psa.build_vehicle_mod_catalog(cursor)
+# Type 24 (Cars2/R3) is the only type that ships with a populated Notes column
+# carrying standard accessories. Type 17 (SR2 Cars) doesn't have the field.
+# type_id is TEXT in this schema, so the filter compares strings.
+vehicle_rows = cursor.execute("""
+    SELECT id, name, Notes
+    FROM vehicles
+    WHERE type_id IN ('17', '24')
+      AND Notes IS NOT NULL AND Notes != ''
+""").fetchall()
+for vid, vname, raw in vehicle_rows:
+    parsed = psa.parse_vehicle_standard_mods(raw, vehicle_mod_catalog)
+    for gid, _mount, raw_text, rating, payload in parsed.resolved:
+        cursor.execute(
+            "INSERT INTO vehicle_standard_mods "
+            "(vehicle_id, mod_id, rating, params_json, raw_text) "
+            "VALUES (?, ?, ?, ?, ?)",
+            (vid, gid, rating, payload, raw_text),
+        )
+    # vehicles.Notes already carries the raw source string; nothing to copy.
+    for raw_text in parsed.unresolved:
+        cursor.execute(
+            "INSERT INTO mm_parse_unresolved (scope, source_id, source_name, raw_text) "
+            "VALUES ('vehicle', ?, ?, ?)",
+            (vid, vname, raw_text),
+        )
+
+conn.commit()
+
 
 # Close the database connection
 conn.close()

@@ -1,0 +1,116 @@
+{
+  "_source": "Man and Machine: Cyberware, FanPro. Equipment Capacity Table (p.37), Equipment Capacity Cost Table (p.36), Equipment Capacity Units Table (p.36), eye/ear Essence-free pool (SR3 BBB p.299 + M&M p.44).",
+  "_notes": [
+    "ECU = Equipment Capacity Units. Only cyberlimbs (incl. skulls/torsos/hands/feet) consume ECU.",
+    "Cybereyes and cyberears use the Essence-free pool model, not ECU.",
+    "Single-eye max and ear max are NOT stated in any sourcebook — leave open / GM discretion.",
+    "Items flagged needs_dni (* in M&M) only function as built-in when connected to a direct neural interface (M&M p.38)."
+  ],
+
+  "hosts": [
+    { "match_prefix": "Eyes, Cyber Replacement", "host_class": "cybereye_pair",   "ecu": 0 },
+    { "match_prefix": "Cybereyes Zeiss",         "host_class": "cybereye_pair",   "ecu": 0 },
+    { "match_prefix": "ColorShift Cybereyes",    "host_class": "cybereye_pair",   "ecu": 0 },
+    { "match_prefix": "Ears Cyber Repl",         "host_class": "cyberear_pair",   "ecu": 0 },
+
+    { "match_prefix": "Obv. CyberArm",       "host_class": "full_arm",   "ecu": 10 },
+    { "match_prefix": "Synth. CyberArm",     "host_class": "full_arm",   "ecu": 5  },
+    { "match_prefix": "Obv. CyberLeg",       "host_class": "full_leg",   "ecu": 20 },
+    { "match_prefix": "Synth. CyberLeg",     "host_class": "full_leg",   "ecu": 10 },
+    { "match_prefix": "Obv. Cyber ForeArm",  "host_class": "lower_arm",  "ecu": 4  },
+    { "match_prefix": "Synth. Cyber ForeArm","host_class": "lower_arm",  "ecu": 2  },
+    { "match_prefix": "Obv. Cyber ForeLeg",  "host_class": "lower_leg",  "ecu": 8  },
+    { "match_prefix": "Synth. Cyber ForeLeg","host_class": "lower_leg",  "ecu": 4  },
+    { "match_prefix": "Obv. Cyber Hand",     "host_class": "hand_foot",  "ecu": 2  },
+    { "match_prefix": "Synth. Cyber Hand",   "host_class": "hand_foot",  "ecu": 1  },
+    { "match_prefix": "Obv. Cyber Foot",     "host_class": "hand_foot",  "ecu": 2  },
+    { "match_prefix": "Synth. Cyber Foot",   "host_class": "hand_foot",  "ecu": 1  },
+    { "match_prefix": "Obv. CyberSkull",     "host_class": "skull",      "ecu": 2  },
+    { "match_prefix": "Synth. CyberSkull",   "host_class": "skull",      "ecu": 1  },
+    { "match_prefix": "Obv. CyberTorso",     "host_class": "torso",      "ecu": 7  },
+    { "match_prefix": "Synth. CyberTorso",   "host_class": "torso",      "ecu": 3  },
+    { "match_prefix": "Corvette CyberLegs",  "host_class": "full_leg",   "ecu": 20, "_note": "default to Obvious; named-model from Chrome Book" },
+    { "match_prefix": "Romanova Cyberlegs",  "host_class": "full_leg",   "ecu": 20 },
+    { "match_prefix": "BIODYNE \"Enable\"Cyberlimbs", "host_class": "full_arm", "ecu": 10, "_note": "approx — see GM" }
+  ],
+
+  "accessories": [
+    { "name": "Chemical analyzer",        "ecu": 0.5,  "essence_in_limb": 0.0,  "conceal_in_limb": -0.5, "needs_dni": false },
+    { "name": "Cyberdeck (Custom)",       "ecu": 5.0,  "essence_in_limb": 0.0,  "conceal_in_limb": -4,   "needs_dni": true  },
+    { "name": "Cyberdeck (Stock)",        "ecu": 4.0,  "essence_in_limb": 0.0,  "conceal_in_limb": -3,   "needs_dni": true  },
+    { "name": "Cyberfins",                "ecu": 0.25, "essence_in_limb": 0.0,  "conceal_in_limb": -0.5, "needs_dni": false, "_note": "per hand/foot" },
+
+    { "name": "Cybergun (Holdout pistol)",  "ecu": 1.0, "essence_in_limb": 0.0, "conceal_in_limb": -1, "needs_dni": true },
+    { "name": "Cybergun (Light pistol)",    "ecu": 1.5, "essence_in_limb": 0.0, "conceal_in_limb": -1, "needs_dni": true },
+    { "name": "Cybergun (Machine pistol)",  "ecu": 2.0, "essence_in_limb": 0.0, "conceal_in_limb": -2, "needs_dni": true },
+    { "name": "Cybergun (Heavy pistol)",    "ecu": 2.5, "essence_in_limb": 0.0, "conceal_in_limb": -2, "needs_dni": true },
+    { "name": "Cybergun (Submachine gun)",  "ecu": 3.0, "essence_in_limb": 0.0, "conceal_in_limb": -3, "needs_dni": true },
+    { "name": "Cybergun (Shotgun)",         "ecu": 3.5, "essence_in_limb": 0.0, "conceal_in_limb": -2, "needs_dni": true },
+    { "name": "External clip port",         "ecu": 0.25,"essence_in_limb": 0.0, "conceal_in_limb": -0.5,"needs_dni": false },
+    { "name": "Laser sight",                "ecu": 0.25,"essence_in_limb": 0.0, "conceal_in_limb": -1, "needs_dni": false },
+    { "name": "Silencer",                   "ecu": 0.5, "essence_in_limb": 0.0, "conceal_in_limb": -1, "needs_dni": false },
+    { "name": "Sound suppressor",           "ecu": 1.0, "essence_in_limb": 0.0, "conceal_in_limb": -2, "needs_dni": false },
+
+    { "name": "Cybersquirt",      "ecu": 2.0,  "essence_in_limb": 0.0,  "conceal_in_limb": -2,   "needs_dni": true  },
+    { "name": "Cyber taser",      "ecu": 1.0,  "essence_in_limb": 0.0,  "conceal_in_limb": -0.5, "needs_dni": true  },
+    { "name": "Datajack",         "ecu": 0.5,  "essence_in_limb": 0.2,  "conceal_in_limb": -1,   "needs_dni": false },
+    { "name": "Finger tip compartment", "ecu": 0.25, "essence_in_limb": 0.0, "conceal_in_limb": 0, "needs_dni": true },
+    { "name": "Foot anchor",      "ecu": 4.0,  "essence_in_limb": 0.0,  "conceal_in_limb": -1,   "needs_dni": false },
+    { "name": "Gas spectrometer", "ecu": 0.5,  "essence_in_limb": 0.0,  "conceal_in_limb": -0.5, "needs_dni": false },
+
+    { "name": "Handblade",            "ecu": 0.5, "essence_in_limb": 0.0, "conceal_in_limb": -0.5, "needs_dni": false },
+    { "name": "Handblade Retractable","ecu": 1.0, "essence_in_limb": 0.0, "conceal_in_limb": -0.5, "needs_dni": false },
+    { "name": "Hand razors",            "ecu": 0.25,"essence_in_limb": 0.0, "conceal_in_limb": -0.3, "needs_dni": false },
+    { "name": "Hand razors Retractable","ecu": 0.5, "essence_in_limb": 0.0, "conceal_in_limb": -0.5, "needs_dni": false },
+
+    { "name": "Horns",            "ecu": 0.25, "essence_in_limb": 0.0, "conceal_in_limb": -0.3, "needs_dni": false, "_note": "cyberskull only" },
+    { "name": "Horns Retractable","ecu": 1.0,  "essence_in_limb": 0.1, "conceal_in_limb": -0.2, "needs_dni": false, "_note": "cyberskull only" },
+
+    { "name": "Hydraulic jacks",  "ecu_formula": "4 + 0.5*rating", "essence_in_limb": 0.25, "conceal_in_limb": -0.3, "needs_dni": false },
+
+    { "name": "Independent cybereyes (Pair)",   "ecu": 2.0, "essence_in_limb": 0.2, "conceal_in_limb": -0.2, "needs_dni": false },
+    { "name": "Independent cybereyes (Single)", "ecu": 1.0, "essence_in_limb": 0.1, "conceal_in_limb": -0.1, "needs_dni": false },
+
+    { "name": "Magnetic system",    "ecu": 3.0, "essence_in_limb": 0.0, "conceal_in_limb": -1,   "needs_dni": false },
+    { "name": "Orientation system", "ecu": 1.0, "essence_in_limb": 0.0, "conceal_in_limb": -0.5, "needs_dni": true  },
+
+    { "name": "Remote control deck",        "ecu": 5.0,  "essence_in_limb": 0.0, "conceal_in_limb": -4,   "needs_dni": true  },
+    { "name": "BattleTac FDDM",             "ecu": 0.25, "essence_in_limb": 0.0, "conceal_in_limb": 0,    "needs_dni": false },
+    { "name": "BattleTac IVIS",             "ecu": 0.5,  "essence_in_limb": 0.0, "conceal_in_limb": -0.5, "needs_dni": false },
+    { "name": "Remote control ECCM",        "ecu": 0.5,  "essence_in_limb": 0.0, "conceal_in_limb": -1,   "needs_dni": false },
+    { "name": "RC encryption module",       "ecu": 0.25, "essence_in_limb": 0.0, "conceal_in_limb": 0,    "needs_dni": false },
+    { "name": "Rigger decryption module",   "ecu": 0.25, "essence_in_limb": 0.0, "conceal_in_limb": 0,    "needs_dni": false },
+    { "name": "Rigger protocol emulation",  "ecu": 0.25, "essence_in_limb": 0.0, "conceal_in_limb": 0,    "needs_dni": false },
+
+    { "name": "Retractable climbing claws", "ecu": 1.0,  "essence_in_limb": 0.0, "conceal_in_limb": -0.5, "needs_dni": false },
+    { "name": "Shock hand",                 "ecu": 1.0,  "essence_in_limb": 0.0, "conceal_in_limb": -0.5, "needs_dni": false },
+
+    { "name": "Smartlink system", "ecu": 0.5,  "essence_in_limb": 0.25, "conceal_in_limb": 0,    "needs_dni": false },
+    { "name": "Induction pad",    "ecu": 0.25, "essence_in_limb": 0.0,  "conceal_in_limb": 0,    "needs_dni": false },
+
+    { "name": "Spur",             "ecu": 0.5, "essence_in_limb": 0.0, "conceal_in_limb": -0.4, "needs_dni": false },
+    { "name": "Spur Retractable", "ecu": 1.0, "essence_in_limb": 0.0, "conceal_in_limb": -0.5, "needs_dni": false },
+
+    { "name": "Strength Enhancement (1-3)",     "ecu": 0.0, "essence_in_limb": 0.0, "conceal_in_limb": -1, "needs_dni": false, "_note": "per point" },
+    { "name": "Strength Enhancement (4+)",      "ecu": 0.0, "essence_in_limb": 0.4, "conceal_in_limb": -2, "needs_dni": false, "_note": "per point" },
+
+    { "name": "Subdermal display",  "ecu": 0.5, "essence_in_limb": 0.0, "conceal_in_limb": -0.5, "needs_dni": false, "_note": "biomonitor display" },
+    { "name": "Tactical computer",  "ecu": 4.0, "essence_in_limb": 0.5, "conceal_in_limb": -4,   "needs_dni": false },
+    { "name": "Sense port",         "ecu": 0.5, "essence_in_limb": 0.1, "conceal_in_limb": 0,    "needs_dni": false, "_note": "per additional sense port on tactical computer" },
+    { "name": "Venom sack",         "ecu": 0.25,"essence_in_limb": 0.0, "conceal_in_limb": 0,    "needs_dni": false, "_note": "per 2 doses" }
+  ],
+
+  "size_fallback": [
+    { "size_label": "micro",  "ecu": 0.5, "examples": "pen, microflare, skillsoft chip, razor blade, lockpicks" },
+    { "size_label": "small",  "ecu": 1.0, "examples": "knife, holdout pistol, cellphone, GPS, lockpick gun" },
+    { "size_label": "medium", "ecu": 3.0, "examples": "heavy pistol, computer, signal locator, grapple gun" },
+    { "size_label": "large",  "ecu": 5.0, "examples": "jammer, cyberdeck, simdeck, medkit" }
+  ],
+
+  "grade_modifier": [
+    { "grade": "standard", "ecu_multiplier": 1.00 },
+    { "grade": "alpha",    "ecu_multiplier": 0.90 },
+    { "grade": "beta",     "ecu_multiplier": 0.80 },
+    { "grade": "delta",    "ecu_multiplier": 0.75 }
+  ]
+}

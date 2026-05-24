@@ -1,0 +1,34 @@
+{
+  "_source": "Hand-curated firearm accessory rows missing from cyber.dat. Each row inserts into the gear table with a gear_accessories child row so the standard-accessory parser can resolve standard names against them. Page refs are from SR3 BBB and Cannon Companion as cited.",
+  "_notes": [
+    "Internal Smartgun systems: SR3 BBB p.282 lists 'Smartgun, internal' alongside 'Smartgun, external'. The sr3data file only ingests the external variants ('Smartlink level I/II, External'); we add the internal counterparts here so firearms with a standard 'Smartlink' accessory can resolve to the gun-side internal hardware rather than the user-mounted external one.",
+    "Cost convention follows SR3 BBB: internal smartlink adds +100% to the weapon's price (encoded as `cost_pct_of_weapon = 100` for downstream consumers). For now we store the base cost as null since it isn't a fixed nuyen value."
+  ],
+
+  "accessories": [
+    {
+      "name": "Smartlink level I, Internal",
+      "category_tree": "Firearm and weapon accessories > SmartLink",
+      "book": "sr3", "page": 282,
+      "mount": "int",
+      "concealability": "",
+      "weight": null,
+      "cost": null,
+      "availability": null,
+      "street_index": null,
+      "notes": "Built into the firearm. SR3 BBB p.282: +100% to weapon cost if installed after manufacturing."
+    },
+    {
+      "name": "Smartlink level II, Internal",
+      "category_tree": "Firearm and weapon accessories > SmartLink",
+      "book": "sr3", "page": 282,
+      "mount": "int",
+      "concealability": "",
+      "weight": null,
+      "cost": null,
+      "availability": null,
+      "street_index": null,
+      "notes": "Built into the firearm; Smartlink-2 variant providing -2 TN with a Smartlink-2-compatible user system."
+    }
+  ]
+}
