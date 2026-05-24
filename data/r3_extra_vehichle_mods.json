@@ -282,21 +282,42 @@
       "category_tree": "Vehicle Gear > Signature Modifications",
       "book": "r3",
       "page": 134,
-      "notes": "Often abbreviated 'Improved Sig' in vehicle Notes. Referenced on LAV-93 Devil Rat, LAV-103 Striker, Aztech Tiburon, Ferrari Appaloosa. No explicit parts cost in R3 — achieved through design options or other signature mods."
+      "cost_formula": "vehicle_cost * 0.10",
+      "availability": "8/21 days",
+      "street_index": 2,
+      "equipment": "Vehicle Facility",
+      "base_time_skill_test": "8 hrs/Vehicle B/R",
+      "cf": "3",
+      "load": "100kg",
+      "notes": "Active thermal masking (R3 p.134). Requires Engine Customization [1]. Often abbreviated 'Improved Sig' in vehicle Notes."
     },
     {
       "name": "Improved Signature [2]",
       "category_tree": "Vehicle Gear > Signature Modifications",
       "book": "r3",
       "page": 134,
-      "notes": "Referenced on Ferrari Appaloosa Light Scout. No explicit parts cost in R3."
+      "cost_formula": "vehicle_cost * 0.225",
+      "availability": "8/21 days",
+      "street_index": 2,
+      "equipment": "Vehicle Facility",
+      "base_time_skill_test": "16 hrs/Vehicle B/R",
+      "cf": "3",
+      "load": "100kg",
+      "notes": "Active thermal masking (R3 p.134). Requires Engine Customization [2]. Max official rating is +2 Signature."
     },
     {
       "name": "Improved Signature [3]",
       "category_tree": "Vehicle Gear > Signature Modifications",
       "book": "r3",
       "page": 134,
-      "notes": "Referenced on Aztech Tiburon(cbt). No explicit parts cost in R3."
+      "cost_formula": "vehicle_cost * 0.375",
+      "availability": "8/21 days",
+      "street_index": 2,
+      "equipment": "Vehicle Facility",
+      "base_time_skill_test": "24 hrs/Vehicle B/R",
+      "cf": "3",
+      "load": "100kg",
+      "notes": "Referenced on Aztech Tiburon(cbt). Exceeds R3 maximum (+2 Signature or Engine Customization level, whichever is lower)."
     },
     {
       "name": "Thermal Baffles [1]",
