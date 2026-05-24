@@ -306,20 +306,6 @@
       "notes": "Active thermal masking (R3 p.134). Requires Engine Customization [2]. Max official rating is +2 Signature."
     },
     {
-      "name": "Improved Signature [3]",
-      "category_tree": "Vehicle Gear > Signature Modifications",
-      "book": "r3",
-      "page": 134,
-      "cost_formula": "vehicle_cost * 0.375",
-      "availability": "8/21 days",
-      "street_index": 2,
-      "equipment": "Vehicle Facility",
-      "base_time_skill_test": "24 hrs/Vehicle B/R",
-      "cf": "3",
-      "load": "100kg",
-      "notes": "Referenced on Aztech Tiburon(cbt). Exceeds R3 maximum (+2 Signature or Engine Customization level, whichever is lower)."
-    },
-    {
       "name": "Thermal Baffles [1]",
       "category_tree": "Vehicle Gear > Signature Modifications",
       "book": "r3",
