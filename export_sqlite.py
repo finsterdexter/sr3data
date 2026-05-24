@@ -217,7 +217,7 @@ tables_info = {
         # Each row populates whichever subset of columns its type defines;
         # the rest stay NULL. The export rule "no values dropped" means we
         # list every union member here.
-        'columns': ['name', 'type_id', 'category_tree', 'Handling', 'Speed', 'Body', 'Armor', 'Sig', 'Apilot', 'Availability', '$Cost', 'Street Index', 'BookPage', 'Speed/Accel', 'Body/Armor', 'Sig/Autonav', 'Pilot/Sensor', 'Cargo/Load', 'Seating', 'Notes', 'Equipment', 'Base Time/Skill Test', 'CF', 'Load']
+        'columns': ['name', 'type_id', 'category_tree', 'Handling', 'Speed', 'Body', 'Armor', 'Sig', 'Apilot', 'Availability', '$Cost', 'Street Index', 'BookPage', 'Speed/Accel', 'Body/Armor', 'Sig/Autonav', 'Pilot/Sensor', 'Cargo/Load', 'Seating', 'Notes', 'Equipment', 'Base Time/Skill Test', 'CF', 'Load', 'Weight', 'CostFormula']
     }
 }
 
@@ -757,8 +757,8 @@ for entry in extra_vehicle_mods.get("modifications", []):
     )
     cursor.execute(
         "INSERT INTO vehicles (name, type_id, category_tree, BookPage, Notes, "
-        "Cost, Availability, StreetIndex, Equipment, BaseTimeSkillTest, CF, Load) "
-        "VALUES (?, '23', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        "Cost, Availability, StreetIndex, Equipment, BaseTimeSkillTest, CF, Load, CostFormula) "
+        "VALUES (?, '23', ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
         (
             entry["name"],
             entry.get("category_tree"),
@@ -771,6 +771,7 @@ for entry in extra_vehicle_mods.get("modifications", []):
             entry.get("base_time_skill_test"),
             entry.get("cf"),
             entry.get("load"),
+            entry.get("cost_formula"),
         ),
     )
 conn.commit()
